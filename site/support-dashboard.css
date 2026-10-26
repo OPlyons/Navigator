@@ -177,7 +177,10 @@
   #support .support-heading{margin-bottom:.5rem}
   #support .support-intro-links{flex-wrap:nowrap}
   #support .support-intro-links p{flex:1;min-width:0}
-  #support .after-hospital-toggle{flex-shrink:0;white-space:nowrap}
+  #support .after-hospital-toggle{flex-shrink:0;white-space:nowrap;min-height:32px;padding:.15rem .55rem;font-size:.72rem;line-height:1.5}
+  #support .support-intro-links{margin-top:.15rem}
+  #support .support-reset{min-height:36px;padding:.2rem .6rem}
+  #support .directory-coverage{padding:.2rem .6rem}
   #support .support-heading h1{font-size:1.4rem}
   #support .support-heading p{font-size:.8rem;line-height:1.4}
   #support .workforce-advice-card{padding-top:.3rem;padding-bottom:.3rem}

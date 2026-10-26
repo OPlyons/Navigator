@@ -117,6 +117,9 @@ export function normaliseIntent(candidate, raw) {
  const phrases=(value,max)=>[...new Set((Array.isArray(value)?value:[]).filter(v=>typeof v==='string').map(fold).filter(v=>v.length>1&&v.length<=42&&!sensitiveInput(v)))].slice(0,max);
  let needs=allowed(candidate.needs,NEEDS,4);
  const practical=practicalNeeds(raw);
+ // A clear request for one practical topic must not acquire a different one
+ // merely because the model associates both with a hospital stay.
+ if(practical.length)needs=needs.filter(id=>!Object.hasOwn(PRACTICAL_NEEDS,id)||practical.includes(id));
  needs=[...practical,...needs.filter(id=>!practical.includes(id))];
  // Critical housing routes and explicit negation do not depend on model accuracy.
  if(local.urgency==='tonight'&&!needs.includes('housing'))needs.unshift('housing');

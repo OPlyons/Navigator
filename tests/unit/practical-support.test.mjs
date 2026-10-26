@@ -49,3 +49,9 @@ test('medicine service matching preserves clinical and personal-information boun
  assert.equal(core.sensitiveInput('My name is Example and I need help with medicine'),true);
  assert.match(core.buildPrompt(),/clinical treatment\/medication instructions/);
 });
+test('a medicines request does not acquire unrelated benefits from the model',()=>{
+ const query='Help understanding medicines after hospital';
+ const intent=core.normaliseIntent({...core.localIntent(query),needs:['medicines','hospital-benefits']},query);
+ assert.deepEqual(intent.needs,['medicines']);
+ assert.ok(searchDirectory(catalog,intent,{},query).top.every(hit=>hit.matchedNeeds.includes('medicines')));
+});
