@@ -10,7 +10,7 @@ test('six hospital shortcuts preserve the borough, clear conflicting filters and
   await page.locator('#after-hospital-toggle').click();
   const dialog=page.getByRole('dialog',{name:'Recently left hospital?',exact:true});
   await expect(dialog.locator('.after-hospital-choice')).toHaveCount(6);
-  await dialog.getByRole('button',{name:label,exact:true}).click();
+  await dialog.getByRole('button',{name:label}).click();
   await expect(dialog).toBeHidden();await expect(page.locator('#resource-results-heading')).toBeFocused();
   await expect(page.locator('#area')).toHaveValue('brent');await expect(page.locator('[data-activity="all"]')).toHaveAttribute('aria-pressed','true');
   await expect(page.locator('#resource-list article').first()).toBeVisible();
@@ -21,21 +21,21 @@ test('six hospital shortcuts preserve the borough, clear conflicting filters and
 });
 test('a hospital shortcut replaces prior AI results without another AI request',async({page})=>{
  const calls=await mockNavigator(page);await openSupport(page);await page.locator('#service-search').fill('Housing and benefits in Brent tonight');await page.locator('#navigator-submit').click();await expect(page.locator('#navigator-results')).toBeVisible();
- await page.locator('#after-hospital-toggle').click();await page.getByRole('button',{name:'Medicines support',exact:true}).click();
+ await page.locator('#after-hospital-toggle').click();await page.getByRole('button',{name:'Medicines support'}).click();
  await expect(page.locator('#navigator-results')).toBeHidden();await expect(page.locator('#resource-list')).toContainText('NHS Discharge Medicines Service');expect(calls).toHaveLength(1);
  await page.locator('#navigator-reset').click();await expect(page.locator('#support-start')).toBeVisible();await expect(page.locator('#service-search')).toHaveValue('');
 });
 test('hospital choices work with keyboard and reading options',async({page})=>{
  await mockNavigator(page);await openSupport(page);const trigger=page.locator('#after-hospital-toggle'),dialog=page.getByRole('dialog',{name:'Recently left hospital?',exact:true});
- await trigger.press('Enter');await expect(dialog.getByRole('button',{name:'Help at home',exact:true})).toBeFocused();
- await page.keyboard.press('Shift+Tab');await expect(page.locator('#after-hospital-close')).toBeFocused();await page.keyboard.press('Shift+Tab');await expect(dialog.getByRole('button',{name:'Support for carers',exact:true})).toBeFocused();
+ await trigger.press('Enter');await expect(dialog.getByRole('button',{name:'Help at home'})).toBeFocused();
+ await page.keyboard.press('Shift+Tab');await expect(page.locator('#after-hospital-close')).toBeFocused();await page.keyboard.press('Shift+Tab');await expect(dialog.getByRole('button',{name:'Support for carers'})).toBeFocused();
  await page.keyboard.press('Escape');await expect(dialog).toBeHidden();await expect(trigger).toBeFocused();
  await page.locator('#reading-options > summary').click();await page.locator('#larger-text').click();await page.locator('#hide-pictures').click();await page.locator('#reduce-colours').click();
  await trigger.click();await expect(dialog.locator('.after-hospital-icon').first()).toBeHidden();expect(await dialog.evaluate(el=>el.scrollWidth<=el.clientWidth)).toBeTruthy();
- await dialog.getByRole('button',{name:'Money and essentials',exact:true}).press('Enter');await expect(page.locator('#resource-list')).toContainText('Benefits after a hospital stay');
+ await dialog.getByRole('button',{name:'Money and essentials'}).press('Enter');await expect(page.locator('#resource-list')).toContainText('Benefits after a hospital stay');
 });
 test('axe: hospital picker and practical results',async({page})=>{
  await mockNavigator(page);await openSupport(page);await page.locator('#after-hospital-toggle').click();
  const audit=async()=>{const result=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21a','wcag21aa','best-practice']).analyze();expect(result.violations).toEqual([]);};
- await audit();await page.getByRole('button',{name:'Getting to appointments',exact:true}).click();await audit();
+ await audit();await page.getByRole('button',{name:'Getting to appointments'}).click();await audit();
 });

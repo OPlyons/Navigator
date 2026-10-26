@@ -67,7 +67,7 @@
   const clarify=$('navigator-clarify');clarify.hidden=!!result.area||!last.intent.needs.some(n=>['housing','food','meet','sport','outdoors','arts','faith'].includes(n));
   $('navigator-more').hidden=!result.more.length;$('navigator-more-summary').textContent='See '+result.more.length+' more '+(result.more.length===1?'match':'matches');
   $('navigator-limits').textContent='Check the service’s joining details, coverage and current availability. The caller can help find information; the service decides access.'+(last.intent.preferences.includes('online')?' Online or text contact is preferred where it is recorded; check each service’s contact options.':'');
-  status(result.count?'Found '+result.count+' matches. Showing '+result.top.length+' starting points.':'No close matches with these choices.');
+  status(result.count?'Found '+result.count+(result.count===1?' match. Showing ':' matches. Showing ')+result.top.length+(result.top.length===1?' starting point.':' starting points.'):'No close matches with these choices.');
  }
  async function navigate(){
   const query=search.value.trim();stop();clearResults();

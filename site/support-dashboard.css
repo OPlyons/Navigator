@@ -175,6 +175,9 @@
   body:has(#support.active) .utility-bar{padding-top:.1rem;padding-bottom:.2rem}
   body:has(#support.active) .utility-bar>a,body:has(#support.active) #reading-options>summary{min-height:32px;padding-top:.2rem;padding-bottom:.2rem}
   #support .support-heading{margin-bottom:.5rem}
+  #support .support-intro-links{flex-wrap:nowrap}
+  #support .support-intro-links p{flex:1;min-width:0}
+  #support .after-hospital-toggle{flex-shrink:0;white-space:nowrap}
   #support .support-heading h1{font-size:1.4rem}
   #support .support-heading p{font-size:.8rem;line-height:1.4}
   #support .workforce-advice-card{padding-top:.3rem;padding-bottom:.3rem}

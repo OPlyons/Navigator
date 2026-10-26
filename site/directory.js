@@ -87,7 +87,7 @@
   ['carers','carers','Support for carers','Help and a back-up plan','Carer support and a back-up care plan']
  ];
  const hospitalButtons=hospitalChoices.map(([id,key,label,detail,query])=>{
-  const b=make('button',undefined,'after-hospital-choice');b.type='button';b.dataset.hospitalChoice=id;b.setAttribute('aria-label',label);
+  const b=make('button',undefined,'after-hospital-choice');b.type='button';b.dataset.hospitalChoice=id;
   b.append(icon(key,'after-hospital-icon'),make('strong',label),make('span',detail));
   b.addEventListener('click',()=>{
    window.CNWLNavigatorUI?.clear();clearTimeout(timer);
