@@ -1,9 +1,9 @@
 {
   "asOf": "2026-10-26",
   "total": 878,
-  "attempted": 8,
-  "attemptedInLast28Days": 8,
-  "sourceReadInLast28Days": 8,
+  "attempted": 16,
+  "attemptedInLast28Days": 16,
+  "sourceReadInLast28Days": 16,
   "lastRecordedRun": "2026-10-26",
   "openChanges": [],
   "unableToVerify": [],
@@ -11,7 +11,7 @@
   "runsInLast7Days": [
     {
       "day": "2026-10-26",
-      "regular": 8,
+      "regular": 16,
       "retries": 0
     }
   ]

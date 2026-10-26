@@ -168,6 +168,171 @@
       "consecutiveFailures": 0,
       "retryCount": 0,
       "nextRetry": null
+    },
+    "brent-allkind-befriending": {
+      "name": "Allkind — Community Befriending",
+      "area": "brent",
+      "fingerprint": "3729dbd8ab42922277fcf1e798f4f639cb3f18e505409daf60ca87863d342c75",
+      "lastAttempt": "2026-10-26",
+      "lastRegularAttempt": "2026-10-26",
+      "lastSourceRead": "2026-10-26",
+      "lastOutcome": "no_change_found",
+      "lastSummary": "Provider page supports one-to-one community help, Brent adults aged 18+ with mental health needs and isolation, healthcare-professional referral, the listed telephone and funding from £19.75/hour plus extras. It also specifies a minimum two-hour session. No discrepancy found in the checked fields; individual availability and the final charge are not confirmed.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "phone",
+        "url"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
+    },
+    "brent-ashford-place": {
+      "name": "Ashford Place — community support",
+      "area": "brent",
+      "fingerprint": "275b45519f33950e55549fc3f0079c9bf46e34a1a8443612799c64c2c74c4883",
+      "lastAttempt": "2026-10-26",
+      "lastRegularAttempt": "2026-10-26",
+      "lastSourceRead": "2026-10-26",
+      "lastOutcome": "no_change_found",
+      "lastSummary": "About and Our Approach pages describe community-led social connection, wellbeing and support towards secure housing. The listed telephone and Ask us for help route remain published. Current activities, discharge provision, project eligibility and costs were not specified on these pages.",
+      "checkedFields": [
+        "name",
+        "description",
+        "access",
+        "phone",
+        "url"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
+    },
+    "brent-awrc": {
+      "name": "Asian Women’s Resource Centre",
+      "area": "brent",
+      "fingerprint": "abe1156e6ed2a83ac5c9ccad8734da416febf9f4061611a13627fb08f65896a2",
+      "lastAttempt": "2026-10-26",
+      "lastRegularAttempt": "2026-10-26",
+      "lastSourceRead": "2026-10-26",
+      "lastOutcome": "no_change_found",
+      "lastSummary": "The provider describes culturally sensitive support for women and girls experiencing abuse across London, with an open-door policy across backgrounds. Multiple support languages and the listed telephone are published. Current capacity, project-specific criteria and costs are not confirmed.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "phone",
+        "url"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
+    },
+    "brent-awrc-welfare-advice": {
+      "name": "Asian Women’s Resource Centre — welfare advice",
+      "area": "brent",
+      "fingerprint": "5003ae254505b73134cdb9cf1c3e28fc6bce18cdfdb3ff5de851c98647774315",
+      "lastAttempt": "2026-10-26",
+      "lastRegularAttempt": "2026-10-26",
+      "lastSourceRead": "2026-10-26",
+      "lastOutcome": "no_change_found",
+      "lastSummary": "The welfare page describes free bilingual benefits, housing and employment advice for women in Brent and Harrow. Individual advice is by appointment; the listed telephone line operates Wednesday afternoons and the enquiry email matches. Current waiting times and language availability are not stated.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "phone",
+        "url"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
+    },
+    "brent-barham-community-library": {
+      "name": "Barham Community Library — community activities",
+      "area": "brent",
+      "fingerprint": "d1d90fa1603f2b2442f560c0d8a082dc939e0b29c96137b6fdea9558a0866259",
+      "lastAttempt": "2026-10-26",
+      "lastRegularAttempt": "2026-10-26",
+      "lastSourceRead": "2026-10-26",
+      "lastOutcome": "no_change_found",
+      "lastSummary": "The council listing describes a volunteer-run library and a knitting/sewing group, with contact details and a provider link. Its own update date is 3 June 2024, so present opening times and group availability remain unconfirmed. Costs, booking and adult eligibility are not stated. No discrepancy found in the limited descriptive fields checked.",
+      "checkedFields": [
+        "name",
+        "description",
+        "access",
+        "url"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
+    },
+    "brent-barn-hill-conservation": {
+      "name": "Barn Hill Conservation Group",
+      "area": "brent",
+      "fingerprint": "4ef60d81e37464c7bc3341817613802be9ad87480ac34cf63cffc2de40c87a7f",
+      "lastAttempt": "2026-10-26",
+      "lastRegularAttempt": "2026-10-26",
+      "lastSourceRead": "2026-10-26",
+      "lastOutcome": "no_change_found",
+      "lastSummary": "The provider welcomes new volunteers for nature-conservation work in Fryent Country Park and publishes the listed telephone and an email route. A work schedule and meeting-point links are offered. Task accessibility, clothing requirements, costs and individual support are not specified.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "phone",
+        "url"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
+    },
+    "brent-benefits": {
+      "name": "Brent benefits and money support",
+      "area": "brent",
+      "fingerprint": "92d551ea0333a51a051d1e13a1500190a0bae691d485eb31a1fb8efe30b7eccb",
+      "lastAttempt": "2026-10-26",
+      "lastRegularAttempt": "2026-10-26",
+      "lastSourceRead": "2026-10-26",
+      "lastOutcome": "no_change_found",
+      "lastSummary": "The council hub lists help with housing costs, Council Tax, bills and benefit applications. Official indexed housing-benefit guidance confirms Brent Hubs can help with council forms. Detailed scheme eligibility and required evidence were not individually checked; no entitlement is implied.",
+      "checkedFields": [
+        "name",
+        "description",
+        "access",
+        "url"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
+    },
+    "brent-bhcac-dzezva-cafe": {
+      "name": "Café Džezva — 50+ coffee, games and company",
+      "area": "brent",
+      "fingerprint": "da4e68e536829be760d3a8fda02dffcd005a276fa1e96e3d7590c900fa61cd96",
+      "lastAttempt": "2026-10-26",
+      "lastRegularAttempt": "2026-10-26",
+      "lastSourceRead": "2026-10-26",
+      "lastOutcome": "no_change_found",
+      "lastSummary": "The provider describes a 50+ cafe open across backgrounds, games and conversation in Willesden, a £2 pay-what-you-feel donation and summer/December breaks. Retrieved versions disagree on Wednesday versus Sunday; the directory deliberately gives no weekday and advises checking the next session. Booking and the cafe-specific email route were not confirmed. No change to the existing cautious wording is supported.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "check",
+        "url"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
     }
   },
   "days": {
@@ -180,7 +345,15 @@
         "brent-active-together-finder",
         "brent-adult-care",
         "brent-advance",
-        "brent-ageuk"
+        "brent-ageuk",
+        "brent-allkind-befriending",
+        "brent-ashford-place",
+        "brent-awrc",
+        "brent-awrc-welfare-advice",
+        "brent-barham-community-library",
+        "brent-barn-hill-conservation",
+        "brent-benefits",
+        "brent-bhcac-dzezva-cafe"
       ],
       "retry": []
     }
