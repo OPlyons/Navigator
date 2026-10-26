@@ -1,4 +1,4 @@
-import {AREAS,NEEDS,AUDIENCES,fold} from './shared.mjs';
+import {AREAS,NEEDS,AUDIENCES,PRACTICAL_NEEDS,practicalResourceNeeds,fold} from './shared.mjs';
 
 const leading={housing:['wider-council-homeless-help','shelter','wider-homeless-england'],'supported-housing':['wider-rethink-supported-housing'],legal:['wider-civil-legal-advice','wider-law-centres-finder','wider-lawworks-clinic-finder'],benefits:['wider-citizens-advice','turn2us','wider-help-to-claim'],debt:['stepchange','wider-national-debtline'],food:['wider-help-through-hardship']};
 const atom=w=>({womens:'woman',women:'woman',female:'woman',mens:'man',men:'man',male:'man',walking:'walk',walks:'walk',outdoors:'outdoor',exercise:'fitness',exercises:'fitness',workout:'fitness',movement:'fitness',autistic:'autism',appeals:'appeal',challenge:'appeal',challenging:'appeal',boardgames:'boardgame',games:'game',gaming:'game'}[w]||w.replace(/ies$/,'y').replace(/s$/,''));
@@ -21,10 +21,12 @@ export function indexResource(r){
  if(/church/.test(text))text+=' churches christian';
  if(/synagogue/.test(text))text+=' jewish';
  if(/gurdwara|gurudwara/.test(text))text+=' sikh';
- const needs=new Set(r.needs||[]);
+ const needs=new Set(practicalResourceNeeds(r));
  for(const [id,n] of Object.entries(NEEDS))if(n.categories.includes(r.category))needs.add(id);
  if(!/supported housing|sheltered housing|supported accommodation|housing with support/.test(text))needs.delete('supported-housing');
  for(const [id,re] of Object.entries({housing:/\b(?:housing|homeless\w*|evict\w*)\b/,legal:/\b(?:legal advice|law centre|solicitor\w*|legal aid)\b/,benefits:/\b(?:benefits|universal credit|pip|welfare rights)\b/,debt:/\b(?:debt|arrears|bills|creditor)\b/,food:/\b(?:foodbank|food bank|emergency food|community kitchen)\b/,outdoors:/\b(?:walking|walks|nature|conservation|gardening)\b/,faith:/\b(?:faith|muslim|mosque|synagogue|sikh|christian|church|worship)\b/,meet:/\b(?:social|friendship|befriending|meet up|meetup|peer support)\b/}))if(re.test(own))needs.add(id);
+ if((r.needs||[]).some(n=>['household','digital'].includes(n))&&!(r.needs||[]).includes('food'))needs.delete('food');
+ if((r.needs||[]).includes('energy-support')&&!(r.needs||[]).includes('benefits'))needs.delete('benefits');
  return {text,own,name:fold(r.name),needs};
 }
 export function searchDirectory(catalog,intent,choices={},raw=''){
@@ -46,11 +48,13 @@ export function searchDirectory(catalog,intent,choices={},raw=''){
   const matchedNeeds=intent.needs.filter(n=>x.needs.has(n));
   const keywordHits=keywords.filter(w=>wordMatch(x.text,w));
   const exactName=x.name===query||keywords.some(k=>x.name===k);
-  if(intent.specific&&keywords.length&&!keywordHits.length)continue;
+  const practicalMatch=matchedNeeds.some(n=>Object.hasOwn(PRACTICAL_NEEDS,n));
+  if(intent.specific&&keywords.length&&!keywordHits.length&&!practicalMatch)continue;
   if(intent.needs.length&&!matchedNeeds.length&&!exactName)continue;
   if(!intent.needs.length&&keywords.length&&!keywordHits.length)continue;
   if(!intent.needs.length&&!keywords.length)continue;
   let score=matchedNeeds.length*85+keywordHits.length*95+(area&&r.directoryId===area?160:0)+(exactName?1000:0);
+  if(practicalMatch)score+=1000;
   if(/\badvice\b/.test(query)&&/\badvice\b/.test(x.own))score+=150;
   for(const k of keywordHits){if(wordMatch(x.name,k))score+=160;else if(wordMatch(x.own,k))score+=85;}
   const audienceHits=intent.audiences.filter(a=>(r.audiences||[]).includes(a));score+=audienceHits.length*180;

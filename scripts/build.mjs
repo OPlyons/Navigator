@@ -13,7 +13,7 @@ const release='community-navigator@'+commit;
 await fs.rm(out,{recursive:true,force:true});await fs.cp(path.join(root,'public'),out,{recursive:true});
 await fs.copyFile(path.join(root,'data/directory.json'),path.join(out,'assets/directory.json'));
 const moduleSource=async p=>(await read(p)).replace(/^import .*?;\n/gm,'').replace(/\bexport /g,'');
-const core='window.CNWLNavigatorCore=(()=>{\n'+await moduleSource('navigator/shared.mjs')+'\n'+await moduleSource('navigator/retrieve.mjs')+'\nreturn {RELEASE,AREAS,NEEDS,AUDIENCES,PREFERENCES,fold,sensitiveInput,urgentSafetyInput,localIntent,normaliseIntent,indexResource,searchDirectory};\n})();';
+const core='window.CNWLNavigatorCore=(()=>{\n'+await moduleSource('navigator/shared.mjs')+'\n'+await moduleSource('navigator/retrieve.mjs')+'\nreturn {RELEASE,AREAS,NEEDS,AUDIENCES,PREFERENCES,PRACTICAL_NEEDS,practicalNeeds,practicalResourceNeeds,fold,sensitiveInput,urgentSafetyInput,localIntent,normaliseIntent,indexResource,searchDirectory};\n})();';
 let template=await read('site/template.html');
 function fill(tag,id,value){const re=new RegExp('(<'+tag+'\\b[^>]*\\bid="'+id+'"[^>]*>)[\\s\\S]*?(</'+tag+'>)','g');let count=0;template=template.replace(re,(_all,open,close)=>{count++;return open+value+close;});if(count!==1)throw new Error('Expected one '+id+', got '+count);}
 fill('script','navigator-core',core);fill('script','navigator-ui',await read('site/navigator-ui.js'));fill('script','service-directory',await read('site/directory.js'));fill('script','needs-search-engine',await read('site/needs-search.js'));

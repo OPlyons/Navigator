@@ -1,4 +1,23 @@
 /* One shared workspace: explicit AI search beside local area and support choices. */
+.support-intro-links{display:flex;align-items:center;gap:.35rem .65rem;flex-wrap:wrap;margin-top:.35rem}
+.after-hospital-toggle{display:inline-flex;align-items:center;gap:.45rem;padding:.35rem .65rem;min-height:36px;border:1px solid #a7b8d1;border-radius:9px;background:#eee8fc;color:#503675;font:inherit;font-size:.76rem;font-weight:750;cursor:pointer}
+.after-hospital-toggle:hover{background:#e2d6f5;border-color:#725098}
+.after-hospital-choices{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.7rem;padding:.2rem;overflow:auto}
+.after-hospital-choice{display:grid;grid-template-columns:34px minmax(0,1fr);column-gap:.6rem;row-gap:.2rem;align-items:center;text-align:left;padding:.85rem;border:1px solid #acc8c0;border-radius:13px;background:#edf7f2;color:#244f46;font:inherit;cursor:pointer}
+.after-hospital-choice strong{font-size:.92rem;line-height:1.3}
+.after-hospital-choice>span{grid-column:2;font-size:.78rem;line-height:1.4}
+.after-hospital-icon{grid-row:1/3;width:30px;height:30px}
+.after-hospital-choice:nth-child(2n){background:#f3edfc;border-color:#c8b5e1;color:#503675}
+.after-hospital-choice:nth-child(3n){background:#fff3de;border-color:#d6bd8b;color:#664812}
+.after-hospital-choice:hover{box-shadow:0 0 0 2px currentColor inset}
+#support .after-hospital-dialog{width:min(660px,calc(100vw - 24px));gap:.8rem}
+#after-hospital-help{font-size:.8rem;line-height:1.5;margin:0;color:#4b606d}
+.no-pictures .after-hospital-icon{display:none}
+.no-pictures .after-hospital-choice{grid-template-columns:1fr}
+.no-pictures .after-hospital-choice>span{grid-column:1}
+.reduced-colours .after-hospital-toggle,.reduced-colours .after-hospital-choice{background:#fff;color:#244951;border-color:#607b85}
+@media(max-width:450px){.after-hospital-choice{grid-template-columns:1fr;padding:.7rem}.after-hospital-icon{grid-row:auto;width:26px;height:26px}.after-hospital-choice>span{grid-column:1}.after-hospital-choice strong{font-size:.88rem}}
+@media print{#after-hospital-toggle,#after-hospital-dialog{display:none!important}}
 @media screen {
  body:has(#support.active) main{max-width:1320px;padding:1.2rem 2rem 1rem;min-height:0}
  body:has(#support.active) .brand-inner{padding:.55rem 2rem;grid-template-columns:145px minmax(0,1fr) 76px;gap:1.2rem;min-height:0}

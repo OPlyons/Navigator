@@ -77,6 +77,32 @@
  const date=value=>{if(!/^\d{4}-\d{2}-\d{2}$/.test(value||''))return 'Not recorded';return new Date(value+'T12:00:00').toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'});};
  function icon(key,cls){const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');svg.setAttribute('viewBox','0 0 24 24');svg.setAttribute('fill','none');svg.setAttribute('stroke','currentColor');svg.setAttribute('stroke-width','1.7');svg.setAttribute('stroke-linecap','round');svg.setAttribute('stroke-linejoin','round');svg.setAttribute('aria-hidden','true');svg.setAttribute('focusable','false');if(cls)svg.setAttribute('class',cls);const p=document.createElementNS(svg.namespaceURI,'path');p.setAttribute('d',paths[key]||paths.all);svg.append(p);return svg;}
  const audienceTrigger=$('support-for-toggle'),audienceDialog=$('support-for-dialog');
+ const hospitalTrigger=$('after-hospital-toggle'),hospitalDialog=$('after-hospital-dialog');
+ const hospitalChoices=[
+  ['home','practical','Help at home','Everyday tasks and aftercare','Help at home after hospital and aftercare rights'],
+  ['essentials','money','Money and essentials','Benefits, food and household items','Money and essentials after hospital'],
+  ['medicines','health','Medicines support','Help from a pharmacist','Help understanding medicines after hospital'],
+  ['travel','move','Getting to appointments','Travel help and costs','Help with travel to appointments'],
+  ['connection','meet','People and connection','Company, groups and peer support','Meet people and peer support'],
+  ['carers','carers','Support for carers','Help and a back-up plan','Carer support and a back-up care plan']
+ ];
+ const hospitalButtons=hospitalChoices.map(([id,key,label,detail,query])=>{
+  const b=make('button',undefined,'after-hospital-choice');b.type='button';b.dataset.hospitalChoice=id;b.setAttribute('aria-label',label);
+  b.append(icon(key,'after-hospital-icon'),make('strong',label),make('span',detail));
+  b.addEventListener('click',()=>{
+   window.CNWLNavigatorUI?.clear();clearTimeout(timer);
+   search.value=query;activity='all';topic.value='';audience.value='';shown=12;render();
+   hospitalDialog.close('choice');
+  });
+  $('after-hospital-choices').append(b);return b;
+ });
+ hospitalTrigger.addEventListener('click',()=>{hospitalDialog.returnValue='';hospitalDialog.showModal();hospitalTrigger.setAttribute('aria-expanded','true');hospitalButtons[0].focus({preventScroll:true});});
+ $('after-hospital-close').addEventListener('click',()=>hospitalDialog.close());
+ hospitalDialog.addEventListener('keydown',event=>{if(event.key!=='Tab')return;const first=$('after-hospital-close'),last=hospitalButtons.at(-1);if(event.shiftKey&&document.activeElement===first){event.preventDefault();last.focus();}else if(!event.shiftKey&&document.activeElement===last){event.preventDefault();first.focus();}});
+ hospitalDialog.addEventListener('close',()=>{hospitalTrigger.setAttribute('aria-expanded','false');if(hospitalDialog.returnValue==='choice')showResults();else hospitalTrigger.focus({preventScroll:true});});
+ hospitalDialog.addEventListener('click',event=>{if(event.target!==hospitalDialog)return;const r=hospitalDialog.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)hospitalDialog.close();});
+ window.addEventListener('hashchange',()=>{if(hospitalDialog.open)hospitalDialog.close();});
+
  const activityButtons=groups.map(g=>{const b=make('button',undefined,'activity-choice');b.type='button';b.dataset.activity=g.id;b.setAttribute('aria-pressed',String(g.id===activity));b.disabled=true;b.append(icon(g.id,'activity-icon'),make('span',g.label));b.addEventListener('click',()=>{activity=g.id;if(g.id==='all'&&!area.value)area.value='all';topic.value='';shown=12;render();});$('activity-choices').insertBefore(b,audienceTrigger);return b;});
  audienceTrigger.prepend(icon('everyone','activity-icon'));
  // Optional group choices use the same local filter as the previous select.
@@ -131,7 +157,7 @@
  function guidance(query,dir){
   const panel=$('need-guidance');panel.replaceChildren();panel.hidden=!query.needIds.length;
   if(panel.hidden)return;
-  const id=query.needIds[0];let title=engine.labels[id],body='',links=[];
+  const id=query.needIds[0];let title=engine.labels[id],body=window.CNWLNavigatorCore.PRACTICAL_NEEDS[id]?.guidance||'',links=[];
   if(id==='housing'){
    title=query.urgent?'Need somewhere to stay?':'Help with housing';
    body=query.longTerm?'Council and housing-association applications are longer-term routes. If there is nowhere safe to stay tonight, contact the council’s homelessness team.':'If there is nowhere safe to stay tonight, contact the council’s homelessness team. Ask for its out-of-hours service if the office is closed.';
@@ -148,6 +174,7 @@
   }else if(id==='food'){
    body='Ask how to get emergency food or a foodbank voucher. The route can vary; the caller can help find the right contact.';links=[data.resources.find(r=>r.id==='wider-help-through-hardship')];
   }else if(id==='meet')body='Choose one activity that feels manageable. Ask the group about the next session, cost and whether someone can come along.';
+  if(id==='carers')body='Find support for you as a carer, as well as help for the person you support.';
   panel.append(make('h3',title),make('p',body));
   if(links.some(Boolean)){const row=make('div',undefined,'need-guidance-links');for(const r of links.filter(Boolean)){const a=make('a',r.name+' ↗');a.href=r.url;a.target='_blank';a.rel='noopener noreferrer';row.append(a);}panel.append(row);}
   if(id==='housing'||id==='supported-housing')panel.append(make('p','These are contact routes, not live housing vacancies.','small-note'));
@@ -187,7 +214,8 @@
   $('wider-results-hint').hidden=!dir||dir.id==='wider-support'||!widerCount;
   $('matching-wider-support').textContent='Explore '+widerCount+' more wider '+(widerCount===1?'option':'options')+' →';
   $('area-intro').replaceChildren();if(started)$('area-intro').append(make('p',dir?.name||'Across all areas'));
-  const label=topic.value||(words.label?words.label:(activity==='all'?'Groups, activities and support':groups.find(g=>g.id===activity).label));
+  const shortcut=hospitalChoices.find(choice=>choice[4]===words.raw);
+  const label=shortcut?.[2]||topic.value||(words.label?words.label:(activity==='all'?'Groups, activities and support':groups.find(g=>g.id===activity).label));
   $('resource-results-heading').textContent=started?label:'Your local possibilities';
   if(!started){$('search-interpretation').hidden=true;filtered=[];$('resource-list').replaceChildren();$('directory-empty').hidden=true;$('more-resources').hidden=true;$('directory-print-note').hidden=true;$('resource-count').textContent='Search above, choose an area, or browse all listings.';return;}
   filtered=data.resources.filter(r=>matches(r,words)).sort((a,b)=>engine.score(b,words,b.searchIndex,area.value)-engine.score(a,words,a.searchIndex,area.value));
@@ -198,7 +226,7 @@
   const scope=national?(filtered.length-national)+' local in '+name+' + '+national+' national options':filtered.length+' '+(filtered.length===1?'listing':'listings')+' in '+name;
   $('resource-count').textContent=scope+(audienceLabel?' · '+audienceLabel:'')+(words.raw?' matching “'+search.value.trim()+'”':'')+'.'+(filtered.length>count?' Showing '+count+'.':'');
   $('search-interpretation').hidden=!words.needIds.length;
-  $('search-interpretation').textContent=words.needIds.length?'Showing help for '+words.needIds.map(id=>engine.labels[id].toLowerCase()).join(' and ')+'. Closest matches first.':'';
+  $('search-interpretation').textContent=shortcut?'Support after hospital. Closest matches first.':words.needIds.length?'Showing help for '+words.needIds.map(id=>engine.labels[id].toLowerCase()).join(' and ')+'. Closest matches first.':'';
 
   $('directory-empty').hidden=!!filtered.length;$('directory-call-note').hidden=!filtered.length;
   $('more-resources').hidden=shown>=filtered.length;$('more-resources').textContent='Show '+Math.min(12,filtered.length-shown)+' more listings';
@@ -226,7 +254,7 @@
    for(const r of value.resources)r.searchIndex=engine.index(r);
    data=value;area.value=pendingArea;
    topic.replaceChildren(new Option('All types',''));for(const cat of [...new Set(data.resources.map(r=>r.category))].sort())topic.append(new Option(cat,cat));
-   for(const n of [area,topic,search,audience,audienceTrigger,$('clear-filters'),$('browse-all-areas'),...activityButtons,...areaButtons])n.disabled=false;
+   for(const n of [area,topic,search,audience,audienceTrigger,hospitalTrigger,$('clear-filters'),$('browse-all-areas'),...activityButtons,...areaButtons])n.disabled=false;
    $('browse-all-areas').textContent='Or browse all '+data.resources.length+' listings →';$('directory-coverage').textContent=data.resources.length+' resources';
    areaChanged();
   }catch(error){$('resource-count').textContent='The directory could not be loaded.';$('directory-loading-error').hidden=false;console.error('Directory load failed:',error);}

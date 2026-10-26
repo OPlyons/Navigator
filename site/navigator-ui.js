@@ -118,5 +118,5 @@
  $('navigator-choose-area').addEventListener('click',()=>{area.focus();area.scrollIntoView({block:'center'});});
  $('navigator-more').addEventListener('toggle',()=>{if($('navigator-more').open&&shownMore===0)renderMore();});
  $('navigator-more-button').addEventListener('click',renderMore);
- window.CNWLNavigatorUI={active:()=>!!last,example(value){stop();search.value=value;clearResults();search.focus();navigate();}};
+ window.CNWLNavigatorUI={active:()=>!!last,clear(){stop();clearResults();$('navigator-safety').hidden=true;},example(value){stop();search.value=value;clearResults();search.focus();navigate();}};
 })();
