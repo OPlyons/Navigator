@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "updatedOn": "2026-10-26",
+  "entries": {
+    "acas": {
+      "name": "Acas employment advice",
+      "area": "wider-support",
+      "fingerprint": "dcad2dfbe8a21acf13ccc1e7727915d5a2c2c59897f127d6c4d46c85f2738928",
+      "lastAttempt": "2026-10-26",
+      "lastRegularAttempt": "2026-10-26",
+      "lastSourceRead": "2026-10-26",
+      "lastOutcome": "no_change_found",
+      "lastSummary": "Provider guidance confirms the employment advice service, contact number, weekday hours, free advice with possible phone charges, and interpreter/BSL/relay access.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "phone",
+        "url"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
+    },
+    "adhd-uk": {
+      "name": "ADHD UK",
+      "area": "wider-support",
+      "fingerprint": "210f985582d006e08f43a5d2ce22913acf41daab8d6eda1ed124204811e19816",
+      "lastAttempt": "2026-10-26",
+      "lastRegularAttempt": "2026-10-26",
+      "lastSourceRead": "2026-10-26",
+      "lastOutcome": "no_change_found",
+      "lastSummary": "The provider links to online support groups and free tickets with optional donations. Other marketplace services are separate. Detailed eligibility for individual groups was not independently checked.",
+      "checkedFields": [
+        "name",
+        "description",
+        "access",
+        "check",
+        "url"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
+    },
+    "advice": {
+      "name": "Citizens Advice Harrow",
+      "area": "harrow",
+      "fingerprint": "62465182385f11c72ac56fd7983a1ad983a750a5481d0a009b8b0a56b749a452",
+      "lastAttempt": "2026-10-26",
+      "lastRegularAttempt": "2026-10-26",
+      "lastSourceRead": "2026-10-26",
+      "lastOutcome": "no_change_found",
+      "lastSummary": "The provider confirms free independent advice, the listed freephone number, weekday hours and web enquiry form. The precise residency rule was not repeated on this contact page.",
+      "checkedFields": [
+        "name",
+        "description",
+        "access",
+        "check",
+        "phone",
+        "url"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
+    },
+    "brent-accessible-travel": {
+      "name": "Brent — accessible travel and transport",
+      "area": "brent",
+      "fingerprint": "3dc8712f3385d15c4fc9c6dbaa4e68d3b1aef1825e8611da9b669a05132bf2b8",
+      "lastAttempt": "2026-10-26",
+      "lastRegularAttempt": "2026-10-26",
+      "lastSourceRead": "2026-10-26",
+      "lastOutcome": "no_change_found",
+      "lastSummary": "The council lists disability and older-person travel schemes, mobility support and community transport, with application routes and the matching Adult Social Care number. Individual scheme costs and criteria still need checking.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "phone",
+        "url"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
+    },
+    "brent-active-together-finder": {
+      "name": "Brent Active Together — activity finder",
+      "area": "brent",
+      "fingerprint": "a6e51bfd394bbb1ad875a9f19d9e18ae0decec8c52f2154554b70219992f2605",
+      "lastAttempt": "2026-10-26",
+      "lastRegularAttempt": "2026-10-26",
+      "lastSourceRead": "2026-10-26",
+      "lastOutcome": "no_change_found",
+      "lastSummary": "The provider describes borough-wide community activity and links to its activity finder. The finder is embedded; individual session prices, availability and booking flows were not tested.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "url"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
+    },
+    "brent-adult-care": {
+      "name": "Brent Adult Social Care",
+      "area": "brent",
+      "fingerprint": "e2dfb4b548eaa756b8bf7fb7a11e322d2a2a5fc3abad3bd19caf2be02694526d",
+      "lastAttempt": "2026-10-26",
+      "lastRegularAttempt": "2026-10-26",
+      "lastSourceRead": "2026-10-26",
+      "lastOutcome": "no_change_found",
+      "lastSummary": "The council confirms care, independence and carers support, care-cost guidance and the listed contact number. The online self-assessment route requires a separate check; no change is inferred from its absence on the landing page.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "check",
+        "phone",
+        "url"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
+    },
+    "brent-advance": {
+      "name": "Advance — Brent domestic abuse support",
+      "area": "brent",
+      "fingerprint": "3861e0ba30c0f218a93352242b5a45d9f03a2194ca1fd96e6abdb2023a8b146c",
+      "lastAttempt": "2026-10-26",
+      "lastRegularAttempt": "2026-10-26",
+      "lastSourceRead": "2026-10-26",
+      "lastOutcome": "no_change_found",
+      "lastSummary": "The provider confirms the Brent service and contact number, practical safety and rights support, and a separate section supporting men. Confidentiality has stated safeguarding exceptions. No material mismatch was found in these checked fields.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "phone",
+        "url"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
+    },
+    "brent-ageuk": {
+      "name": "Age UK Hillingdon, Harrow and Brent",
+      "area": "brent",
+      "fingerprint": "056d34f1f92f130a812083c7f638a8a27fca66a366c40fee4e86e889fbb64c53",
+      "lastAttempt": "2026-10-26",
+      "lastRegularAttempt": "2026-10-26",
+      "lastSourceRead": "2026-10-26",
+      "lastOutcome": "no_change_found",
+      "lastSummary": "The provider confirms support for older people across the named boroughs, free and paid services, and the listed contact number. Individual services retain their own age and locality requirements.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "phone",
+        "url"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
+    }
+  },
+  "days": {
+    "2026-10-26": {
+      "regular": [
+        "acas",
+        "adhd-uk",
+        "advice",
+        "brent-accessible-travel",
+        "brent-active-together-finder",
+        "brent-adult-care",
+        "brent-advance",
+        "brent-ageuk"
+      ],
+      "retry": []
+    }
+  },
+  "queue": []
+}

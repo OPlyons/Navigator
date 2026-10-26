@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "day": "2026-10-26",
+  "catalogueCount": 878,
+  "results": [
+    {
+      "id": "acas",
+      "status": "no_change_found",
+      "summary": "Provider guidance confirms the employment advice service, contact number, weekday hours, free advice with possible phone charges, and interpreter/BSL/relay access.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "phone",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://www.acas.org.uk/contact/get-advice",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "Provider guidance confirms the employment advice service, contact number, weekday hours, free advice with possible phone charges, and interpreter/BSL/relay access."
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "dcad2dfbe8a21acf13ccc1e7727915d5a2c2c59897f127d6c4d46c85f2738928"
+    },
+    {
+      "id": "adhd-uk",
+      "status": "no_change_found",
+      "summary": "The provider links to online support groups and free tickets with optional donations. Other marketplace services are separate. Detailed eligibility for individual groups was not independently checked.",
+      "checkedFields": [
+        "name",
+        "description",
+        "access",
+        "check",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://adhduk.co.uk/",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "The provider links to online support groups and free tickets with optional donations. Other marketplace services are separate. Detailed eligibility for individual groups was not independently checked."
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "210f985582d006e08f43a5d2ce22913acf41daab8d6eda1ed124204811e19816"
+    },
+    {
+      "id": "advice",
+      "status": "no_change_found",
+      "summary": "The provider confirms free independent advice, the listed freephone number, weekday hours and web enquiry form. The precise residency rule was not repeated on this contact page.",
+      "checkedFields": [
+        "name",
+        "description",
+        "access",
+        "check",
+        "phone",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://www.citizensadviceharrow.org.uk/how-to-get-help/",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "The provider confirms free independent advice, the listed freephone number, weekday hours and web enquiry form. The precise residency rule was not repeated on this contact page."
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "62465182385f11c72ac56fd7983a1ad983a750a5481d0a009b8b0a56b749a452"
+    },
+    {
+      "id": "brent-accessible-travel",
+      "status": "no_change_found",
+      "summary": "The council lists disability and older-person travel schemes, mobility support and community transport, with application routes and the matching Adult Social Care number. Individual scheme costs and criteria still need checking.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "phone",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://www.brent.gov.uk/adult-social-care/travel-and-transport",
+          "ownerType": "council",
+          "retrieval": "page",
+          "note": "The council lists disability and older-person travel schemes, mobility support and community transport, with application routes and the matching Adult Social Care number. Individual scheme costs and criteria still need checking."
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "3dc8712f3385d15c4fc9c6dbaa4e68d3b1aef1825e8611da9b669a05132bf2b8"
+    },
+    {
+      "id": "brent-active-together-finder",
+      "status": "no_change_found",
+      "summary": "The provider describes borough-wide community activity and links to its activity finder. The finder is embedded; individual session prices, availability and booking flows were not tested.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://brentactivetogether.co.uk/",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "The provider describes borough-wide community activity and links to its activity finder. The finder is embedded; individual session prices, availability and booking flows were not tested."
+        },
+        {
+          "url": "https://brentactivetogether.co.uk/activity-finder/",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "Finder page links to an embedded activity-search service; individual session records were not checked."
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "a6e51bfd394bbb1ad875a9f19d9e18ae0decec8c52f2154554b70219992f2605"
+    },
+    {
+      "id": "brent-adult-care",
+      "status": "no_change_found",
+      "summary": "The council confirms care, independence and carers support, care-cost guidance and the listed contact number. The online self-assessment route requires a separate check; no change is inferred from its absence on the landing page.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "check",
+        "phone",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://www.brent.gov.uk/adult-social-care",
+          "ownerType": "council",
+          "retrieval": "page",
+          "note": "The council confirms care, independence and carers support, care-cost guidance and the listed contact number. The online self-assessment route requires a separate check; no change is inferred from its absence on the landing page."
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "e2dfb4b548eaa756b8bf7fb7a11e322d2a2a5fc3abad3bd19caf2be02694526d"
+    },
+    {
+      "id": "brent-advance",
+      "status": "no_change_found",
+      "summary": "The provider confirms the Brent service and contact number, practical safety and rights support, and a separate section supporting men. Confidentiality has stated safeguarding exceptions. No material mismatch was found in these checked fields.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "phone",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://www.advancecharity.org.uk/get-help/",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "The provider confirms the Brent service and contact number, practical safety and rights support, and a separate section supporting men. Confidentiality has stated safeguarding exceptions. No material mismatch was found in these checked fields."
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "3861e0ba30c0f218a93352242b5a45d9f03a2194ca1fd96e6abdb2023a8b146c"
+    },
+    {
+      "id": "brent-ageuk",
+      "status": "no_change_found",
+      "summary": "The provider confirms support for older people across the named boroughs, free and paid services, and the listed contact number. Individual services retain their own age and locality requirements.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "phone",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ageuk.org.uk/hillingdonharrowandbrent/",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "The provider confirms support for older people across the named boroughs, free and paid services, and the listed contact number. Individual services retain their own age and locality requirements."
+        },
+        {
+          "url": "https://www.ageuk.org.uk/hillingdonharrowandbrent/our-services/",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "Provider service examples confirm that eligibility varies by age and borough."
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "056d34f1f92f130a812083c7f638a8a27fca66a366c40fee4e86e889fbb64c53"
+    }
+  ]
+}
