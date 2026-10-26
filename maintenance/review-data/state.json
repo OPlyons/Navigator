@@ -333,6 +333,174 @@
       "consecutiveFailures": 0,
       "retryCount": 0,
       "nextRetry": null
+    },
+    "brent-bias-active-ageing": {
+      "name": "Brent Irish Advisory Service — Active Ageing",
+      "area": "brent",
+      "fingerprint": "f2c26a31cf69d147bb62309c8cbd5436803a9d29123d3ee40177efd2ae5b80c7",
+      "lastAttempt": "2026-10-26",
+      "lastRegularAttempt": "2026-10-26",
+      "lastSourceRead": "2026-10-26",
+      "lastOutcome": "no_change_found",
+      "lastSummary": "Council and provider content support the named Irish community organisation and its Active Ageing social activities. The provider describes Active Ageing as supporting older Irish people; the council describes wider services including Irish Travellers. The phone matches. Membership requirements, current lunch-club arrangements, costs and transport were not established from the pages read; the listing appropriately asks callers to check these.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "phone",
+        "url"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
+    },
+    "brent-black-girls-do-run": {
+      "name": "Black Girls Do Run UK — North West London",
+      "area": "brent",
+      "fingerprint": "ac472088154b31fa09ae25980221ce81fb677e6a7856b6a53fa2bf24b1fe8f25",
+      "lastAttempt": "2026-10-26",
+      "lastRegularAttempt": "2026-10-26",
+      "lastSourceRead": "2026-10-26",
+      "lastOutcome": "changes_found",
+      "lastSummary": "The provider confirms free North West London social running, beginners welcome, and joining through its next-run/Heylo route. Its local programme page explicitly says age 18 and over; the listing omits this. Propose adding the stated age minimum. The next session and individual accessibility still need checking; a phone contact was not published in the material read.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "url"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
+    },
+    "brent-brondesbury-park-synagogue": {
+      "name": "Brondesbury Park United Synagogue",
+      "area": "brent",
+      "fingerprint": "cf1677a7cc581cc71b7ab00010481e1bbceb0e38b94ff3504a50a9613069b9d4",
+      "lastAttempt": "2026-10-26",
+      "lastRegularAttempt": "2026-10-26",
+      "lastSourceRead": "2026-10-26",
+      "lastOutcome": "no_change_found",
+      "lastSummary": "Brent Council describes the named modern Orthodox Jewish community, welcoming younger and older people and families, and publishes the matching telephone number. The linked provider website could not be read. Visitor arrangements, membership costs, events and accessibility were not established; no change is proposed to the cautious advice to ask the office before attending.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "phone",
+        "url"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
+    },
+    "brent-carers-centre": {
+      "name": "Brent Carers Centre",
+      "area": "brent",
+      "fingerprint": "7caf031b4a024601d3da1aa7cc11f41d17f99b31df9dcb6d48848e0b866b4550",
+      "lastAttempt": "2026-10-26",
+      "lastRegularAttempt": "2026-10-26",
+      "lastSourceRead": "2026-10-26",
+      "lastOutcome": "no_change_found",
+      "lastSummary": "The provider describes support for unpaid adult and young carers in Brent. Its services page supports contacting the centre to register, carers assessments, benefits help and mental health carer support; the phone matches. Current activities, respite availability and any individual costs were not established. The record asks about support rather than promising entitlement or a referral.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "phone",
+        "url"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
+    },
+    "brent-changing-mindsets": {
+      "name": "Brent Changing Mindsets — Ashford Place",
+      "area": "brent",
+      "fingerprint": "1238d2fc842af9a35a7ba08cc465b2f9f6e730b2fe53f54411639705c9d25fef",
+      "lastAttempt": "2026-10-26",
+      "lastRegularAttempt": "2026-10-26",
+      "lastSourceRead": "2026-10-26",
+      "lastOutcome": "no_change_found",
+      "lastSummary": "The provider describes a lived-experience-led Brent mental wellbeing group, membership enquiries and members-only Wellbeing Thursdays, consistent with the listing. The contact number matches. Costs, detailed membership eligibility and individual accessibility were not published in the material read; future session availability is not confirmed by this check.",
+      "checkedFields": [
+        "name",
+        "description",
+        "access",
+        "check",
+        "phone",
+        "url"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
+    },
+    "brent-citizens-advice": {
+      "name": "Citizens Advice Brent",
+      "area": "brent",
+      "fingerprint": "a748457719c5f61ffb75e23df8188bd73de68022b925017c24da5376d870c0f8",
+      "lastAttempt": "2026-10-26",
+      "lastRegularAttempt": "2026-10-26",
+      "lastSourceRead": "2026-10-26",
+      "lastOutcome": "no_change_found",
+      "lastSummary": "The provider helplines page supports Brent-resident eligibility for the local information and guidance line, the listed phone and Monday, Tuesday, Thursday and Friday 10am–4pm hours. It also links to online requests and face-to-face Brent hub advice. The page describes money/debt and Universal Credit routes. It does not clearly state a blanket charge policy for every route; the cost wording has not been fully checked. No discrepancy found in the supported details.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "phone",
+        "url"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
+    },
+    "brent-club-brent-sport": {
+      "name": "Disability Sports Coach — Club Brent",
+      "area": "brent",
+      "fingerprint": "2debee6327892092d0ff0e2df4eb5d7b5fb906003552bc794aa228aa2c3b80fe",
+      "lastAttempt": "2026-10-26",
+      "lastRegularAttempt": "2026-10-26",
+      "lastSourceRead": "2026-10-26",
+      "lastOutcome": "no_change_found",
+      "lastSummary": "The provider programme page supports adapted multi-sport at Willesden Sports Centre, the explicit age range of eight and over, involvement of carers and siblings, online booking, and the listed £4 term-time sessions. Although introductory text says all ages, the specific age section states eight and over, matching the directory. Current spaces and individual support requirements are not confirmed; the listing advises checking before booking.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "url"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
+    },
+    "brent-cove": {
+      "name": "Brent Cove",
+      "area": "brent",
+      "fingerprint": "2f3ca4caab3f75be20a15eb566321949b12769510303fa6482dcc6cc0359b0dd",
+      "lastAttempt": "2026-10-26",
+      "lastRegularAttempt": "2026-10-26",
+      "lastSourceRead": "2026-10-26",
+      "lastOutcome": "no_change_found",
+      "lastSummary": "Hestia supports the listed Brent-resident age eligibility, listening/crisis support, appointment-free drop-in and daily 2pm–10pm opening. The page contains conflicting address information between its main contact section and location footer. The directory does not assert an address and already advises calling before travelling; retain that advice. The correct address and individual access needs remain unresolved. No changed crisis contact is proposed or reproduced.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "url"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
     }
   },
   "days": {
@@ -353,10 +521,37 @@
         "brent-barham-community-library",
         "brent-barn-hill-conservation",
         "brent-benefits",
-        "brent-bhcac-dzezva-cafe"
+        "brent-bhcac-dzezva-cafe",
+        "brent-bias-active-ageing",
+        "brent-black-girls-do-run",
+        "brent-brondesbury-park-synagogue",
+        "brent-carers-centre",
+        "brent-changing-mindsets",
+        "brent-citizens-advice",
+        "brent-club-brent-sport",
+        "brent-cove"
       ],
       "retry": []
     }
   },
-  "queue": []
+  "queue": [
+    {
+      "kind": "change",
+      "resourceId": "brent-black-girls-do-run",
+      "name": "Black Girls Do Run UK — North West London",
+      "area": "brent",
+      "field": "who",
+      "currentValue": "Black women and women of colour, including people new to running.",
+      "proposedValue": "Black women and women of colour aged 18 and over, including people new to running.",
+      "reason": "Include the explicit minimum age stated on the local programme page so callers can check suitability before joining.",
+      "sourceUrl": "https://www.blackgirlsdorun.co.uk/north-west-london",
+      "evidence": "The North West London programme describes encouraging Black women aged 18 and over to run and welcomes people just starting out.",
+      "priority": "normal",
+      "key": "89c2829757a4548d71d210d5196e6b0eb25e7b7b11f527ff13923e670aa8bd0d",
+      "status": "open",
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "occurrences": 1
+    }
+  ]
 }

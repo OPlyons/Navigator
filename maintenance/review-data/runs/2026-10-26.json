@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "day": "2026-10-26",
-  "catalogueCount": 878,
+  "catalogueCount": 887,
   "results": [
     {
       "id": "acas",
@@ -406,6 +406,232 @@
       "findings": [],
       "kind": "regular",
       "fingerprint": "da4e68e536829be760d3a8fda02dffcd005a276fa1e96e3d7590c900fa61cd96"
+    },
+    {
+      "id": "brent-bias-active-ageing",
+      "status": "no_change_found",
+      "summary": "Council and provider content support the named Irish community organisation and its Active Ageing social activities. The provider describes Active Ageing as supporting older Irish people; the council describes wider services including Irish Travellers. The phone matches. Membership requirements, current lunch-club arrangements, costs and transport were not established from the pages read; the listing appropriately asks callers to check these.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "phone",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://www.brent.gov.uk/neighbourhoods-and-communities/community-directory/brent-irish-advisory-service",
+          "ownerType": "council",
+          "retrieval": "page",
+          "note": "Council describes Irish community welfare support, active pensioners and Irish Traveller services, and publishes the matching contact number."
+        },
+        {
+          "url": "https://biasbrent.co.uk/",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "Provider describes Active Ageing for older Irish people, social activities and its Willesden contact. Current session access and costs are not established."
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "f2c26a31cf69d147bb62309c8cbd5436803a9d29123d3ee40177efd2ae5b80c7"
+    },
+    {
+      "id": "brent-black-girls-do-run",
+      "status": "changes_found",
+      "summary": "The provider confirms free North West London social running, beginners welcome, and joining through its next-run/Heylo route. Its local programme page explicitly says age 18 and over; the listing omits this. Propose adding the stated age minimum. The next session and individual accessibility still need checking; a phone contact was not published in the material read.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://www.blackgirlsdorun.co.uk/",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "Provider describes free running for Black women, all experience levels, and links to North West London sessions."
+        },
+        {
+          "url": "https://www.blackgirlsdorun.co.uk/north-west-london",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "Local page states 18 and over, welcomes beginners, gives a free price and directs participants to Heylo for dates and joining."
+        }
+      ],
+      "findings": [
+        {
+          "field": "who",
+          "currentValue": "Black women and women of colour, including people new to running.",
+          "proposedValue": "Black women and women of colour aged 18 and over, including people new to running.",
+          "reason": "Include the explicit minimum age stated on the local programme page so callers can check suitability before joining.",
+          "sourceUrl": "https://www.blackgirlsdorun.co.uk/north-west-london",
+          "evidence": "The North West London programme describes encouraging Black women aged 18 and over to run and welcomes people just starting out.",
+          "priority": "normal"
+        }
+      ],
+      "kind": "regular",
+      "fingerprint": "ac472088154b31fa09ae25980221ce81fb677e6a7856b6a53fa2bf24b1fe8f25"
+    },
+    {
+      "id": "brent-brondesbury-park-synagogue",
+      "status": "no_change_found",
+      "summary": "Brent Council describes the named modern Orthodox Jewish community, welcoming younger and older people and families, and publishes the matching telephone number. The linked provider website could not be read. Visitor arrangements, membership costs, events and accessibility were not established; no change is proposed to the cautious advice to ask the office before attending.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "phone",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://www.brent.gov.uk/neighbourhoods-and-communities/community-directory/brondesbury-park-united-synagogue",
+          "ownerType": "council",
+          "retrieval": "page",
+          "note": "Council listing supports the community description and contact number; it does not establish visitor admission procedures or charges."
+        },
+        {
+          "url": "https://www.bpark.org/",
+          "ownerType": "provider",
+          "retrieval": "failed",
+          "note": "The provider URL was not accessible through the research tool. This is a source limitation, not evidence of service closure."
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "cf1677a7cc581cc71b7ab00010481e1bbceb0e38b94ff3504a50a9613069b9d4"
+    },
+    {
+      "id": "brent-carers-centre",
+      "status": "no_change_found",
+      "summary": "The provider describes support for unpaid adult and young carers in Brent. Its services page supports contacting the centre to register, carers assessments, benefits help and mental health carer support; the phone matches. Current activities, respite availability and any individual costs were not established. The record asks about support rather than promising entitlement or a referral.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "phone",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://brentcarerscentre.org.uk/",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "Provider homepage describes practical, emotional and financial support for adult and young unpaid carers in Brent."
+        },
+        {
+          "url": "https://brentcarerscentre.org.uk/what-we-do/hub-services-carers/",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "Services page explains direct contact and registration, assessments and benefits support; it lists the matching telephone number and a respite section link."
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "7caf031b4a024601d3da1aa7cc11f41d17f99b31df9dcb6d48848e0b866b4550"
+    },
+    {
+      "id": "brent-changing-mindsets",
+      "status": "no_change_found",
+      "summary": "The provider describes a lived-experience-led Brent mental wellbeing group, membership enquiries and members-only Wellbeing Thursdays, consistent with the listing. The contact number matches. Costs, detailed membership eligibility and individual accessibility were not published in the material read; future session availability is not confirmed by this check.",
+      "checkedFields": [
+        "name",
+        "description",
+        "access",
+        "check",
+        "phone",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ashfordplace.org.uk/our-work/supporting-health-wellbeing/brent-changing-mindsets",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "Provider explains the group, formerly Brent Thrive, its lived-experience work, membership contact and members-only Thursday wellbeing sessions."
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "1238d2fc842af9a35a7ba08cc465b2f9f6e730b2fe53f54411639705c9d25fef"
+    },
+    {
+      "id": "brent-citizens-advice",
+      "status": "no_change_found",
+      "summary": "The provider helplines page supports Brent-resident eligibility for the local information and guidance line, the listed phone and Monday, Tuesday, Thursday and Friday 10am–4pm hours. It also links to online requests and face-to-face Brent hub advice. The page describes money/debt and Universal Credit routes. It does not clearly state a blanket charge policy for every route; the cost wording has not been fully checked. No discrepancy found in the supported details.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "phone",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://www.citizensadvicebrent.org.uk/get-advice/call-our-helplines/",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "Official helplines page provides local residency restriction, matching number and hours, plus online and face-to-face routes. The check field was checked for hours, not a universal cost policy."
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "a748457719c5f61ffb75e23df8188bd73de68022b925017c24da5376d870c0f8"
+    },
+    {
+      "id": "brent-club-brent-sport",
+      "status": "no_change_found",
+      "summary": "The provider programme page supports adapted multi-sport at Willesden Sports Centre, the explicit age range of eight and over, involvement of carers and siblings, online booking, and the listed £4 term-time sessions. Although introductory text says all ages, the specific age section states eight and over, matching the directory. Current spaces and individual support requirements are not confirmed; the listing advises checking before booking.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://disabilitysportscoach.org.uk/get-active/community-clubs/club-brent/",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "Local programme page gives ages eight and over, welcomes carers and siblings, provides a booking link and lists term-time sessions costing £4."
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "2debee6327892092d0ff0e2df4eb5d7b5fb906003552bc794aa228aa2c3b80fe"
+    },
+    {
+      "id": "brent-cove",
+      "status": "no_change_found",
+      "summary": "Hestia supports the listed Brent-resident age eligibility, listening/crisis support, appointment-free drop-in and daily 2pm–10pm opening. The page contains conflicting address information between its main contact section and location footer. The directory does not assert an address and already advises calling before travelling; retain that advice. The correct address and individual access needs remain unresolved. No changed crisis contact is proposed or reproduced.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://www.hestia.org/brent-cove",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "Provider page states Brent residents aged 16 or over, drop-in access and daily afternoon/evening hours. Its two address sections disagree; this check does not resolve the location."
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "2f3ca4caab3f75be20a15eb566321949b12769510303fa6482dcc6cc0359b0dd"
     }
   ]
 }

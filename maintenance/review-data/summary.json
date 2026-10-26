@@ -1,17 +1,36 @@
 {
   "asOf": "2026-10-26",
-  "total": 878,
-  "attempted": 16,
-  "attemptedInLast28Days": 16,
-  "sourceReadInLast28Days": 16,
+  "total": 887,
+  "attempted": 24,
+  "attemptedInLast28Days": 24,
+  "sourceReadInLast28Days": 24,
   "lastRecordedRun": "2026-10-26",
-  "openChanges": [],
+  "openChanges": [
+    {
+      "kind": "change",
+      "resourceId": "brent-black-girls-do-run",
+      "name": "Black Girls Do Run UK — North West London",
+      "area": "brent",
+      "field": "who",
+      "currentValue": "Black women and women of colour, including people new to running.",
+      "proposedValue": "Black women and women of colour aged 18 and over, including people new to running.",
+      "reason": "Include the explicit minimum age stated on the local programme page so callers can check suitability before joining.",
+      "sourceUrl": "https://www.blackgirlsdorun.co.uk/north-west-london",
+      "evidence": "The North West London programme describes encouraging Black women aged 18 and over to run and welcomes people just starting out.",
+      "priority": "normal",
+      "key": "89c2829757a4548d71d210d5196e6b0eb25e7b7b11f527ff13923e670aa8bd0d",
+      "status": "open",
+      "firstSeen": "2026-10-26",
+      "lastSeen": "2026-10-26",
+      "occurrences": 1
+    }
+  ],
   "unableToVerify": [],
   "recentResolved": [],
   "runsInLast7Days": [
     {
       "day": "2026-10-26",
-      "regular": 16,
+      "regular": 24,
       "retries": 0
     }
   ]
