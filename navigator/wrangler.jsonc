@@ -1,0 +1,15 @@
+{
+  "name": "discharge-community-navigator",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-10-25",
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": false,
+  "upload_source_maps": true,
+  "observability": {"enabled": false},
+  "ai": {"binding": "AI"},
+  "ratelimits": [
+    {"name":"CLIENT_LIMIT","namespace_id":"19102501","simple":{"limit":8,"period":60}},
+    {"name":"TOTAL_LIMIT","namespace_id":"19102502","simple":{"limit":40,"period":60}}
+  ],
+  "vars": {"PREVIEW_ORIGIN":""}
+}

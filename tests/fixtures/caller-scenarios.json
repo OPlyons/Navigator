@@ -1,0 +1,634 @@
+{
+  "created": "2026-10-25",
+  "source": "discharge-v17/data/directory.json",
+  "purpose": "Research fixtures for Community AI Navigator. Suggested relevance expectations, not legal, clinical or eligibility decisions.",
+  "recordCount": 786,
+  "fieldCoverage": {
+    "id": 786,
+    "directoryId": 786,
+    "category": 786,
+    "who": 786,
+    "access": 786,
+    "check": 786,
+    "phone": 786,
+    "sourceUrl": 786,
+    "sourceOwner": 786,
+    "lastChecked": 786,
+    "nextReview": 786,
+    "verificationStatus": 786,
+    "audiences": 786,
+    "national": 35,
+    "coverage": 35,
+    "needs": 35,
+    "nextStep": 35,
+    "housingRoute": 3
+  },
+  "blankFields": {
+    "phone": 388,
+    "audiences": 446,
+    "access": 0,
+    "who": 0,
+    "check": 0,
+    "sourceUrl": 0
+  },
+  "structuredConstraintsAvailable": [
+    "directoryId and directory names",
+    "category",
+    "audiences taxonomy",
+    "tags",
+    "sourceUrl/sourceOwner/verificationStatus",
+    "lastChecked/nextReview"
+  ],
+  "constraintsMostlyFreeText": [
+    "Age limits and eligibility in who",
+    "Self-contact versus professional referral in access",
+    "Online/chat/email/text/BSL access in access",
+    "Fees and booking requirements in check/access",
+    "Venue accessibility and current timetable",
+    "Geographic coverage of many wider-support records"
+  ],
+  "recommendations": [
+    "AI may extract intent and suggest record IDs. Validate IDs, scope, user filters and special access caveats using canonical records before displaying cards.",
+    "Do not rely on national:true alone: only 35/786 have this metadata. Other legitimate national wider records include AA, NA, SMART, ADHD UK and Stonewall Housing; some wider records are London/regional only. Use verified explicit record-level scope or cautious wider-support presentation.",
+    "Use audience constraints only where the query or filter explicitly supplies them. Do not infer gender, faith, ethnicity, sexuality or disability.",
+    "Make exact activity/organisation terms meaningful. A general meet-people intent should not swallow board games, gentle walking, faith or AA/NA specificity.",
+    "For multi-need queries show clear groups or one best route per need; avoid a single legal or housing category crowding out all other practical needs.",
+    "A peer can explain contact routes and help prepare questions. Preserve professional-referral requirements as asking the care team, without implying the peer can authorise referrals or placements.",
+    "If the query is unclear ask a single useful area/need question. Always allow ordinary directory browsing and reset.",
+    "Do not generate contacts, vacancies, eligibility decisions, deadlines, opening-now status or guaranteed outcomes. Use source text and check dates."
+  ],
+  "cases": [
+    {
+      "id": "housing-tonight-brent",
+      "query": "I am in Brent, staying on a friend’s sofa and have nowhere to sleep tonight. I also need help with money.",
+      "selectedArea": "brent",
+      "expectedNeedConcepts": [
+        "housing",
+        "benefits"
+      ],
+      "expectedAnyResourceIds": [
+        "brent-housing",
+        "shelter",
+        "wider-council-homeless-help"
+      ],
+      "preferResourceIds": [
+        "brent-housing"
+      ],
+      "excludeResourceIds": [
+        "wider-council-housing-register",
+        "wider-housing-association-homes",
+        "wider-housingcare-older-housing"
+      ],
+      "explicitAudiences": [],
+      "optionalClarifyingQuestion": null,
+      "requiredCaveats": [
+        "Contact routes, not live beds or guaranteed accommodation.",
+        "Retain other money options but put housing first.",
+        "Do not assume the caller can make a professional referral."
+      ]
+    },
+    {
+      "id": "housing-missing-area",
+      "query": "Someone needs somewhere safe to stay tonight.",
+      "selectedArea": "",
+      "expectedNeedConcepts": [
+        "housing"
+      ],
+      "expectedAnyResourceIds": [
+        "wider-council-homeless-help",
+        "shelter"
+      ],
+      "preferResourceIds": [],
+      "excludeResourceIds": [],
+      "explicitAudiences": [],
+      "optionalClarifyingQuestion": "Which area do they need help in?",
+      "requiredCaveats": [
+        "Allow a national council finder without forcing a location answer.",
+        "Do not infer location from the browser or a protected characteristic."
+      ]
+    },
+    {
+      "id": "eviction-harrow",
+      "query": "I am in Harrow and have received a notice to leave my rented flat. Where can I get legal help?",
+      "selectedArea": "harrow",
+      "expectedNeedConcepts": [
+        "housing",
+        "legal"
+      ],
+      "expectedAnyResourceIds": [
+        "wider-housing-loss-prevention",
+        "harrow-housing"
+      ],
+      "preferResourceIds": [
+        "wider-housing-loss-prevention"
+      ],
+      "excludeResourceIds": [],
+      "explicitAudiences": [],
+      "optionalClarifyingQuestion": null,
+      "requiredCaveats": [
+        "Use recorded service descriptions; do not determine the validity of a notice or invent legal deadlines."
+      ]
+    },
+    {
+      "id": "supported-housing-discharge",
+      "query": "I live in Camden and need housing with some support after leaving hospital.",
+      "selectedArea": "camden",
+      "expectedNeedConcepts": [
+        "supported-housing"
+      ],
+      "expectedAnyResourceIds": [
+        "wider-rethink-supported-housing",
+        "camden-housing-after-hospital"
+      ],
+      "preferResourceIds": [
+        "wider-rethink-supported-housing"
+      ],
+      "excludeResourceIds": [],
+      "explicitAudiences": [],
+      "optionalClarifyingQuestion": null,
+      "requiredCaveats": [
+        "Ask the care team or adult social care about assessment; no guaranteed placement and no implication peers can allocate housing."
+      ]
+    },
+    {
+      "id": "young-lgbtq-housing",
+      "query": "I’m 22, LGBTQ+ and sofa surfing. Is there somewhere I can ask about housing online?",
+      "selectedArea": "",
+      "expectedNeedConcepts": [
+        "housing"
+      ],
+      "expectedAnyResourceIds": [
+        "wider-akt-housing",
+        "wider-stonewall-housing",
+        "wider-centrepoint-helpline"
+      ],
+      "preferResourceIds": [
+        "wider-akt-housing"
+      ],
+      "excludeResourceIds": [],
+      "explicitAudiences": [
+        "lgbtq",
+        "young-adults"
+      ],
+      "optionalClarifyingQuestion": null,
+      "requiredCaveats": [
+        "Age and identity were explicitly volunteered.",
+        "akt regional availability varies; do not promise housing.",
+        "Show the recorded live chat or self-contact route."
+      ]
+    },
+    {
+      "id": "veteran-housing",
+      "query": "I am a veteran and worried I will lose my home.",
+      "selectedArea": "",
+      "expectedNeedConcepts": [
+        "housing"
+      ],
+      "expectedAnyResourceIds": [
+        "wider-op-fortitude",
+        "shelter"
+      ],
+      "preferResourceIds": [
+        "wider-op-fortitude"
+      ],
+      "excludeResourceIds": [],
+      "explicitAudiences": [],
+      "optionalClarifyingQuestion": null,
+      "requiredCaveats": [
+        "Op FORTITUDE assesses individual needs; do not guarantee accommodation or automatic acceptance."
+      ]
+    },
+    {
+      "id": "disability-discrimination-legal",
+      "query": "I am disabled and need advice about discrimination and reasonable adjustments.",
+      "selectedArea": "",
+      "expectedNeedConcepts": [
+        "legal",
+        "rights"
+      ],
+      "expectedAnyResourceIds": [
+        "wider-disability-law-service",
+        "wider-eass-equality-support"
+      ],
+      "preferResourceIds": [
+        "wider-eass-equality-support",
+        "wider-disability-law-service"
+      ],
+      "excludeResourceIds": [],
+      "explicitAudiences": [
+        "disabled"
+      ],
+      "optionalClarifyingQuestion": null,
+      "requiredCaveats": [
+        "EASS is information and informal support, not legal representation.",
+        "Each Disability Law Service advice area has its own scope and coverage."
+      ]
+    },
+    {
+      "id": "court-paperwork",
+      "query": "I have a civil court hearing and no lawyer. I need help with the paperwork.",
+      "selectedArea": "",
+      "expectedNeedConcepts": [
+        "legal",
+        "court"
+      ],
+      "expectedAnyResourceIds": [
+        "wider-support-through-court",
+        "wider-advocate-barrister-help"
+      ],
+      "preferResourceIds": [
+        "wider-support-through-court"
+      ],
+      "excludeResourceIds": [],
+      "explicitAudiences": [],
+      "optionalClarifyingQuestion": null,
+      "requiredCaveats": [
+        "Support Through Court does not provide legal advice or representation.",
+        "Advocate has eligibility and lead-time requirements; no promise of a barrister."
+      ]
+    },
+    {
+      "id": "benefits-harrow",
+      "query": "I live in Harrow and have no income. I do not know which benefits to apply for.",
+      "selectedArea": "harrow",
+      "expectedNeedConcepts": [
+        "benefits"
+      ],
+      "expectedAnyResourceIds": [
+        "advice",
+        "turn2us",
+        "wider-help-to-claim"
+      ],
+      "preferResourceIds": [
+        "advice",
+        "turn2us"
+      ],
+      "excludeResourceIds": [],
+      "explicitAudiences": [],
+      "optionalClarifyingQuestion": null,
+      "requiredCaveats": [
+        "Do not determine benefit entitlement.",
+        "Help to Claim is for Universal Credit, not every benefit."
+      ]
+    },
+    {
+      "id": "pip-challenge",
+      "query": "My PIP was refused and I need to challenge the decision.",
+      "selectedArea": "",
+      "expectedNeedConcepts": [
+        "benefits",
+        "legal"
+      ],
+      "expectedAnyResourceIds": [
+        "wider-advicenow-pip-challenge",
+        "wider-benefit-appeal-guidance"
+      ],
+      "preferResourceIds": [
+        "wider-advicenow-pip-challenge"
+      ],
+      "excludeResourceIds": [],
+      "explicitAudiences": [],
+      "optionalClarifyingQuestion": null,
+      "requiredCaveats": [
+        "Advicenow requires a free account for its tool.",
+        "Do not imply the tool submits an appeal or decide a deadline without the actual decision letter."
+      ]
+    },
+    {
+      "id": "debt-online",
+      "query": "I have debts and bills I cannot pay. Phone calls are difficult; is there an online option?",
+      "selectedArea": "",
+      "expectedNeedConcepts": [
+        "debt"
+      ],
+      "expectedAnyResourceIds": [
+        "stepchange",
+        "wider-national-debtline"
+      ],
+      "preferResourceIds": [
+        "stepchange",
+        "wider-national-debtline"
+      ],
+      "excludeResourceIds": [],
+      "explicitAudiences": [],
+      "optionalClarifyingQuestion": null,
+      "requiredCaveats": [
+        "Use the recorded online advice or webchat route.",
+        "Do not choose a debt solution or claim that all contact is available immediately."
+      ]
+    },
+    {
+      "id": "food-brent-no-referral",
+      "query": "I live in Brent and have no food. I do not have a foodbank voucher or anyone who can refer me.",
+      "selectedArea": "brent",
+      "expectedNeedConcepts": [
+        "food"
+      ],
+      "expectedAnyResourceIds": [
+        "brent-sufra-kitchen",
+        "brent-sufra-food",
+        "brent-foodbank",
+        "wider-help-through-hardship"
+      ],
+      "preferResourceIds": [
+        "brent-sufra-kitchen",
+        "brent-sufra-food"
+      ],
+      "excludeResourceIds": [],
+      "explicitAudiences": [],
+      "optionalClarifyingQuestion": null,
+      "requiredCaveats": [
+        "Sufra kitchen offers recorded no-booking meals; still check the current timetable.",
+        "Food parcels may need a voucher: display the recorded route for asking, not an instruction to the peer to issue one.",
+        "Do not say every foodbank accepts walk-ins."
+      ]
+    },
+    {
+      "id": "food-mk-text",
+      "query": "I am in Milton Keynes and need food. Can I ask by text rather than phone?",
+      "selectedArea": "milton-keynes",
+      "expectedNeedConcepts": [
+        "food"
+      ],
+      "expectedAnyResourceIds": [
+        "milton-keynes-food-bank"
+      ],
+      "preferResourceIds": [
+        "milton-keynes-food-bank"
+      ],
+      "excludeResourceIds": [],
+      "explicitAudiences": [],
+      "optionalClarifyingQuestion": null,
+      "requiredCaveats": [
+        "The record explicitly has a text HELP route.",
+        "Copy current recorded contact details; do not generate a different SMS number."
+      ]
+    },
+    {
+      "id": "board-games-camden",
+      "query": "I would like to meet people in Camden, maybe a board game group that is easy to join.",
+      "selectedArea": "camden",
+      "expectedNeedConcepts": [
+        "meet",
+        "board games"
+      ],
+      "expectedAnyResourceIds": [
+        "camden-board-game-club",
+        "camden-rogues-quarter"
+      ],
+      "preferResourceIds": [
+        "camden-board-game-club"
+      ],
+      "excludeResourceIds": [],
+      "explicitAudiences": [],
+      "optionalClarifyingQuestion": null,
+      "requiredCaveats": [
+        "The club uses a free ticket booking; Rogues Quarter may have charges.",
+        "Do not label every result free or drop-in."
+      ]
+    },
+    {
+      "id": "gentle-walking-brent",
+      "query": "I am lonely in Brent and would like a gentle group walk. I am not fit enough for competitive sport.",
+      "selectedArea": "brent",
+      "expectedNeedConcepts": [
+        "meet",
+        "walking"
+      ],
+      "expectedAnyResourceIds": [
+        "brent-healthy-walks",
+        "brent-lexi-run-crew"
+      ],
+      "preferResourceIds": [
+        "brent-healthy-walks"
+      ],
+      "excludeResourceIds": [
+        "brent-willesden-volleyball"
+      ],
+      "explicitAudiences": [],
+      "optionalClarifyingQuestion": null,
+      "requiredCaveats": [
+        "Volleyball in the record is intermediate/advanced and not for beginners.",
+        "Do not infer a medical exercise recommendation or promise a physically accessible route."
+      ]
+    },
+    {
+      "id": "mosque-harrow",
+      "query": "I am Muslim and would like to visit a mosque and meet people in Harrow.",
+      "selectedArea": "harrow",
+      "expectedNeedConcepts": [
+        "faith",
+        "meet"
+      ],
+      "expectedAnyResourceIds": [
+        "harrow-central-mosque-community"
+      ],
+      "preferResourceIds": [
+        "harrow-central-mosque-community"
+      ],
+      "excludeResourceIds": [],
+      "explicitAudiences": [
+        "culture-faith"
+      ],
+      "optionalClarifyingQuestion": null,
+      "requiredCaveats": [
+        "The person explicitly requested a Muslim community.",
+        "Do not recommend a different faith because it happens to have a matching social tag.",
+        "Contact the office or recorded visit form for suitable activities."
+      ]
+    },
+    {
+      "id": "church-ealing",
+      "query": "Could I find a church community in Ealing and ask about a first visit?",
+      "selectedArea": "ealing",
+      "expectedNeedConcepts": [
+        "faith",
+        "meet"
+      ],
+      "expectedAnyResourceIds": [
+        "ealing-st-marys-church"
+      ],
+      "preferResourceIds": [
+        "ealing-st-marys-church"
+      ],
+      "excludeResourceIds": [],
+      "explicitAudiences": [
+        "culture-faith"
+      ],
+      "optionalClarifyingQuestion": null,
+      "requiredCaveats": [
+        "Do not assume every event is open without booking; show current calendar/contact route."
+      ]
+    },
+    {
+      "id": "autistic-social-mk",
+      "query": "I am autistic and would like an adult social group in Milton Keynes where I could email before going.",
+      "selectedArea": "milton-keynes",
+      "expectedNeedConcepts": [
+        "meet",
+        "neurodiversity"
+      ],
+      "expectedAnyResourceIds": [
+        "milton-keynes-as-meet-up",
+        "milton-keynes-autism-bedfordshire-social"
+      ],
+      "preferResourceIds": [
+        "milton-keynes-as-meet-up"
+      ],
+      "excludeResourceIds": [],
+      "explicitAudiences": [
+        "neurodivergent"
+      ],
+      "optionalClarifyingQuestion": null,
+      "requiredCaveats": [
+        "Email routes exist in these records; show them without promising a quiet venue or immediate place."
+      ]
+    },
+    {
+      "id": "adhd-online-peer",
+      "query": "I have ADHD and would like an online peer support group rather than an assessment.",
+      "selectedArea": "",
+      "expectedNeedConcepts": [
+        "neurodiversity",
+        "meet"
+      ],
+      "expectedAnyResourceIds": [
+        "wider-adhd-aware-online",
+        "adhd-uk",
+        "wider-adhdadult-community"
+      ],
+      "preferResourceIds": [
+        "wider-adhd-aware-online"
+      ],
+      "excludeResourceIds": [],
+      "explicitAudiences": [
+        "neurodivergent"
+      ],
+      "optionalClarifyingQuestion": null,
+      "requiredCaveats": [
+        "ADHD Aware requires mailing-list then session booking.",
+        "Do not turn a peer-support query into clinical diagnosis or treatment advice."
+      ]
+    },
+    {
+      "id": "women-fitness-westminster",
+      "query": "I am looking for a women’s outdoor exercise group in Westminster.",
+      "selectedArea": "westminster",
+      "expectedNeedConcepts": [
+        "sport"
+      ],
+      "expectedAnyResourceIds": [
+        "westminster-pimlico-women-fitness"
+      ],
+      "preferResourceIds": [
+        "westminster-pimlico-women-fitness"
+      ],
+      "excludeResourceIds": [],
+      "explicitAudiences": [
+        "women"
+      ],
+      "optionalClarifyingQuestion": null,
+      "requiredCaveats": [
+        "Confirm the current session with the instructor; do not promise today’s timetable or infer eligibility beyond the record."
+      ]
+    },
+    {
+      "id": "lgbtq-muslim-community",
+      "query": "I would like an LGBTQ+ Muslim community to meet people with similar experiences.",
+      "selectedArea": "",
+      "expectedNeedConcepts": [
+        "meet",
+        "faith"
+      ],
+      "expectedAnyResourceIds": [
+        "wider-hidayah-community"
+      ],
+      "preferResourceIds": [
+        "wider-hidayah-community"
+      ],
+      "excludeResourceIds": [],
+      "explicitAudiences": [
+        "lgbtq",
+        "culture-faith"
+      ],
+      "optionalClarifyingQuestion": null,
+      "requiredCaveats": [
+        "Both characteristics are explicitly requested; use the intersection rather than returning unrelated faith or LGBTQ+ groups as exact matches."
+      ]
+    },
+    {
+      "id": "deaf-camden-advice",
+      "query": "I am Deaf in Camden and need practical advice with a way to contact someone without a phone call.",
+      "selectedArea": "camden",
+      "expectedNeedConcepts": [
+        "practical advice",
+        "disability"
+      ],
+      "expectedAnyResourceIds": [
+        "camden-disability-action",
+        "wider-deafplus-advice"
+      ],
+      "preferResourceIds": [
+        "camden-disability-action"
+      ],
+      "excludeResourceIds": [],
+      "explicitAudiences": [
+        "disabled"
+      ],
+      "optionalClarifyingQuestion": null,
+      "requiredCaveats": [
+        "Camden Disability Action explicitly offers text and a BSL video-interpreter link.",
+        "Do not claim every disabled service has BSL or that the user can use a voice phone."
+      ]
+    },
+    {
+      "id": "aa-online-meetings",
+      "query": "Could I find AA meetings, including online ones?",
+      "selectedArea": "",
+      "expectedNeedConcepts": [
+        "alcohol",
+        "mutual aid"
+      ],
+      "expectedAnyResourceIds": [
+        "wider-alcoholics-anonymous"
+      ],
+      "preferResourceIds": [
+        "wider-alcoholics-anonymous"
+      ],
+      "excludeResourceIds": [
+        "wider-caas-adult-support"
+      ],
+      "explicitAudiences": [],
+      "optionalClarifyingQuestion": null,
+      "requiredCaveats": [
+        "AA is an exact meeting query; do not match the CAAS substring.",
+        "No professional referral is needed according to the record; check the individual meeting.",
+        "Avoid presenting abstinence as the only recovery goal."
+      ]
+    },
+    {
+      "id": "na-hillingdon",
+      "query": "I’m in Hillingdon and want NA meetings where I can go myself without a referral.",
+      "selectedArea": "hillingdon",
+      "expectedNeedConcepts": [
+        "drugs",
+        "mutual aid"
+      ],
+      "expectedAnyResourceIds": [
+        "wider-narcotics-anonymous"
+      ],
+      "preferResourceIds": [
+        "wider-narcotics-anonymous"
+      ],
+      "excludeResourceIds": [
+        "wider-caas-adult-support"
+      ],
+      "explicitAudiences": [],
+      "optionalClarifyingQuestion": null,
+      "requiredCaveats": [
+        "Include national NA meeting finder alongside local results even though the old wider record has no national:true flag.",
+        "Do not silently replace a specific NA query with general clinical drug services."
+      ]
+    }
+  ]
+}

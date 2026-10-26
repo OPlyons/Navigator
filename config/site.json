@@ -1,0 +1,12 @@
+{
+  "name": "Community Navigator",
+  "origin": "https://navigator.lxportal.space",
+  "pagesOrigin": "https://cnwl-community-navigator.pages.dev",
+  "apiPath": "/api/navigate",
+  "sentry": {
+    "dsn": "https://2a8077d725944e21700183360a3cf635@o4512279840620544.ingest.de.sentry.io/4512319150227536",
+    "project": "discharge-project",
+    "organization": "oplyons-up",
+    "environment": "navigator-production"
+  }
+}

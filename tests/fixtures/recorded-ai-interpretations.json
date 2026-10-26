@@ -1,0 +1,614 @@
+[
+  {
+    "id": "housing-tonight-brent",
+    "status": 200,
+    "seconds": 6.33,
+    "payload": {
+      "release": "community-navigator-v18-2026-10-25",
+      "mode": "ai",
+      "intent": {
+        "needs": [
+          "housing",
+          "benefits"
+        ],
+        "area": "brent",
+        "keywords": [],
+        "exclude": [],
+        "audiences": [],
+        "preferences": [],
+        "urgency": "tonight",
+        "specific": false,
+        "outOfScope": false
+      }
+    }
+  },
+  {
+    "id": "housing-missing-area",
+    "status": 200,
+    "seconds": 6.23,
+    "payload": {
+      "release": "community-navigator-v18-2026-10-25",
+      "mode": "ai",
+      "intent": {
+        "needs": [
+          "housing"
+        ],
+        "area": "",
+        "keywords": [],
+        "exclude": [],
+        "audiences": [],
+        "preferences": [
+          "gentle",
+          "dropin"
+        ],
+        "urgency": "tonight",
+        "specific": false,
+        "outOfScope": false
+      }
+    }
+  },
+  {
+    "id": "eviction-harrow",
+    "status": 200,
+    "seconds": 5.69,
+    "payload": {
+      "release": "community-navigator-v18-2026-10-25",
+      "mode": "ai",
+      "intent": {
+        "needs": [
+          "housing",
+          "legal"
+        ],
+        "area": "harrow",
+        "keywords": [],
+        "exclude": [],
+        "audiences": [],
+        "preferences": [],
+        "urgency": "tonight",
+        "specific": false,
+        "outOfScope": false
+      }
+    }
+  },
+  {
+    "id": "supported-housing-discharge",
+    "status": 200,
+    "seconds": 5.29,
+    "payload": {
+      "release": "community-navigator-v18-2026-10-25",
+      "mode": "ai",
+      "intent": {
+        "needs": [
+          "supported-housing"
+        ],
+        "area": "camden",
+        "keywords": [],
+        "exclude": [],
+        "audiences": [],
+        "preferences": [],
+        "urgency": "tonight",
+        "specific": false,
+        "outOfScope": false
+      }
+    }
+  },
+  {
+    "id": "young-lgbtq-housing",
+    "status": 200,
+    "seconds": 5.54,
+    "payload": {
+      "release": "community-navigator-v18-2026-10-25",
+      "mode": "ai",
+      "intent": {
+        "needs": [
+          "housing"
+        ],
+        "area": "",
+        "keywords": [],
+        "exclude": [],
+        "audiences": [
+          "lgbtq"
+        ],
+        "preferences": [
+          "online"
+        ],
+        "urgency": "tonight",
+        "specific": false,
+        "outOfScope": false
+      }
+    }
+  },
+  {
+    "id": "veteran-housing",
+    "status": 200,
+    "seconds": 5.08,
+    "payload": {
+      "release": "community-navigator-v18-2026-10-25",
+      "mode": "ai",
+      "intent": {
+        "needs": [
+          "housing"
+        ],
+        "area": "",
+        "keywords": [],
+        "exclude": [],
+        "audiences": [],
+        "preferences": [],
+        "urgency": "tonight",
+        "specific": false,
+        "outOfScope": false
+      }
+    }
+  },
+  {
+    "id": "disability-discrimination-legal",
+    "status": 200,
+    "seconds": 6.09,
+    "payload": {
+      "release": "community-navigator-v18-2026-10-25",
+      "mode": "ai",
+      "intent": {
+        "needs": [
+          "disability",
+          "legal"
+        ],
+        "area": "",
+        "keywords": [
+          "disability discrimination",
+          "reasonable adjustments"
+        ],
+        "exclude": [],
+        "audiences": [
+          "disabled"
+        ],
+        "preferences": [],
+        "urgency": "general",
+        "specific": true,
+        "outOfScope": false
+      }
+    }
+  },
+  {
+    "id": "court-paperwork",
+    "status": 200,
+    "seconds": 5.54,
+    "payload": {
+      "release": "community-navigator-v18-2026-10-25",
+      "mode": "ai",
+      "intent": {
+        "needs": [
+          "legal"
+        ],
+        "area": "",
+        "keywords": [
+          "court",
+          "paperwork"
+        ],
+        "exclude": [],
+        "audiences": [],
+        "preferences": [],
+        "urgency": "soon",
+        "specific": false,
+        "outOfScope": false
+      }
+    }
+  },
+  {
+    "id": "benefits-harrow",
+    "status": 200,
+    "seconds": 5.38,
+    "payload": {
+      "release": "community-navigator-v18-2026-10-25",
+      "mode": "ai",
+      "intent": {
+        "needs": [
+          "benefits"
+        ],
+        "area": "harrow",
+        "keywords": [],
+        "exclude": [],
+        "audiences": [],
+        "preferences": [
+          "free"
+        ],
+        "urgency": "general",
+        "specific": false,
+        "outOfScope": false
+      }
+    }
+  },
+  {
+    "id": "pip-challenge",
+    "status": 200,
+    "seconds": 4.86,
+    "payload": {
+      "release": "community-navigator-v18-2026-10-25",
+      "mode": "ai",
+      "intent": {
+        "needs": [
+          "benefits"
+        ],
+        "area": "",
+        "keywords": [
+          "pip appeal"
+        ],
+        "exclude": [],
+        "audiences": [],
+        "preferences": [],
+        "urgency": "soon",
+        "specific": true,
+        "outOfScope": false
+      }
+    }
+  },
+  {
+    "id": "debt-online",
+    "status": 200,
+    "seconds": 5.56,
+    "payload": {
+      "release": "community-navigator-v18-2026-10-25",
+      "mode": "ai",
+      "intent": {
+        "needs": [
+          "debt"
+        ],
+        "area": "",
+        "keywords": [],
+        "exclude": [],
+        "audiences": [],
+        "preferences": [
+          "online",
+          "free"
+        ],
+        "urgency": "general",
+        "specific": false,
+        "outOfScope": false
+      }
+    }
+  },
+  {
+    "id": "food-brent-no-referral",
+    "status": 200,
+    "seconds": 5.39,
+    "payload": {
+      "release": "community-navigator-v18-2026-10-25",
+      "mode": "ai",
+      "intent": {
+        "needs": [
+          "food"
+        ],
+        "area": "brent",
+        "keywords": [],
+        "exclude": [],
+        "audiences": [],
+        "preferences": [
+          "dropin"
+        ],
+        "urgency": "tonight",
+        "specific": false,
+        "outOfScope": false
+      }
+    }
+  },
+  {
+    "id": "food-mk-text",
+    "status": 200,
+    "seconds": 5.6,
+    "payload": {
+      "release": "community-navigator-v18-2026-10-25",
+      "mode": "ai",
+      "intent": {
+        "needs": [
+          "food"
+        ],
+        "area": "milton-keynes",
+        "keywords": [],
+        "exclude": [],
+        "audiences": [],
+        "preferences": [
+          "online"
+        ],
+        "urgency": "general",
+        "specific": false,
+        "outOfScope": false
+      }
+    }
+  },
+  {
+    "id": "board-games-camden",
+    "status": 200,
+    "seconds": 5.58,
+    "payload": {
+      "release": "community-navigator-v18-2026-10-25",
+      "mode": "ai",
+      "intent": {
+        "needs": [
+          "meet"
+        ],
+        "area": "camden",
+        "keywords": [
+          "board game"
+        ],
+        "exclude": [],
+        "audiences": [],
+        "preferences": [
+          "dropin",
+          "gentle"
+        ],
+        "urgency": "general",
+        "specific": false,
+        "outOfScope": false
+      }
+    }
+  },
+  {
+    "id": "gentle-walking-brent",
+    "status": 200,
+    "seconds": 5.8,
+    "payload": {
+      "release": "community-navigator-v18-2026-10-25",
+      "mode": "ai",
+      "intent": {
+        "needs": [
+          "outdoors"
+        ],
+        "area": "brent",
+        "keywords": [
+          "gentle walk"
+        ],
+        "exclude": [],
+        "audiences": [],
+        "preferences": [
+          "gentle",
+          "dropin"
+        ],
+        "urgency": "general",
+        "specific": false,
+        "outOfScope": false
+      }
+    }
+  },
+  {
+    "id": "mosque-harrow",
+    "status": 200,
+    "seconds": 5.62,
+    "payload": {
+      "release": "community-navigator-v18-2026-10-25",
+      "mode": "ai",
+      "intent": {
+        "needs": [
+          "faith",
+          "meet"
+        ],
+        "area": "harrow",
+        "keywords": [
+          "mosque"
+        ],
+        "exclude": [],
+        "audiences": [
+          "culture-faith"
+        ],
+        "preferences": [],
+        "urgency": "general",
+        "specific": true,
+        "outOfScope": false
+      }
+    }
+  },
+  {
+    "id": "church-ealing",
+    "status": 200,
+    "seconds": 8.95,
+    "payload": {
+      "release": "community-navigator-v18-2026-10-25",
+      "mode": "ai",
+      "intent": {
+        "needs": [
+          "faith"
+        ],
+        "area": "ealing",
+        "keywords": [
+          "church"
+        ],
+        "exclude": [],
+        "audiences": [],
+        "preferences": [],
+        "urgency": "general",
+        "specific": true,
+        "outOfScope": false
+      }
+    }
+  },
+  {
+    "id": "autistic-social-mk",
+    "status": 200,
+    "seconds": 9.14,
+    "payload": {
+      "release": "community-navigator-v18-2026-10-25",
+      "mode": "ai",
+      "intent": {
+        "needs": [
+          "meet"
+        ],
+        "area": "milton-keynes",
+        "keywords": [],
+        "exclude": [],
+        "audiences": [
+          "neurodivergent"
+        ],
+        "preferences": [
+          "online"
+        ],
+        "urgency": "general",
+        "specific": false,
+        "outOfScope": false
+      }
+    }
+  },
+  {
+    "id": "adhd-online-peer",
+    "status": 200,
+    "seconds": 6.83,
+    "payload": {
+      "release": "community-navigator-v18-2026-10-25",
+      "mode": "ai",
+      "intent": {
+        "needs": [
+          "learn"
+        ],
+        "area": "",
+        "keywords": [
+          "adhd",
+          "peer support"
+        ],
+        "exclude": [],
+        "audiences": [
+          "neurodivergent"
+        ],
+        "preferences": [
+          "online"
+        ],
+        "urgency": "general",
+        "specific": true,
+        "outOfScope": false
+      }
+    }
+  },
+  {
+    "id": "women-fitness-westminster",
+    "status": 200,
+    "seconds": 6.12,
+    "payload": {
+      "release": "community-navigator-v18-2026-10-25",
+      "mode": "ai",
+      "intent": {
+        "needs": [
+          "sport",
+          "outdoors"
+        ],
+        "area": "westminster",
+        "keywords": [
+          "womens outdoor exercise"
+        ],
+        "exclude": [],
+        "audiences": [],
+        "preferences": [],
+        "urgency": "general",
+        "specific": false,
+        "outOfScope": false
+      }
+    }
+  },
+  {
+    "id": "lgbtq-muslim-community",
+    "status": 200,
+    "seconds": 6.72,
+    "payload": {
+      "release": "community-navigator-v18-2026-10-25",
+      "mode": "ai",
+      "intent": {
+        "needs": [
+          "meet",
+          "faith"
+        ],
+        "area": "",
+        "keywords": [
+          "lgbtq+",
+          "muslim"
+        ],
+        "exclude": [],
+        "audiences": [
+          "lgbtq",
+          "culture-faith"
+        ],
+        "preferences": [],
+        "urgency": "general",
+        "specific": true,
+        "outOfScope": false
+      }
+    }
+  },
+  {
+    "id": "deaf-camden-advice",
+    "status": 200,
+    "seconds": 5.61,
+    "payload": {
+      "release": "community-navigator-v18-2026-10-25",
+      "mode": "ai",
+      "intent": {
+        "needs": [
+          "advocacy"
+        ],
+        "area": "camden",
+        "keywords": [
+          "deaf"
+        ],
+        "exclude": [],
+        "audiences": [
+          "disabled"
+        ],
+        "preferences": [
+          "online"
+        ],
+        "urgency": "general",
+        "specific": false,
+        "outOfScope": false
+      }
+    }
+  },
+  {
+    "id": "aa-online-meetings",
+    "status": 200,
+    "seconds": 5.64,
+    "payload": {
+      "release": "community-navigator-v18-2026-10-25",
+      "mode": "ai",
+      "intent": {
+        "needs": [
+          "addictions"
+        ],
+        "area": "",
+        "keywords": [
+          "aa",
+          "alcoholics anonymous",
+          "online"
+        ],
+        "exclude": [],
+        "audiences": [],
+        "preferences": [
+          "online"
+        ],
+        "urgency": "general",
+        "specific": true,
+        "outOfScope": false
+      }
+    }
+  },
+  {
+    "id": "na-hillingdon",
+    "status": 200,
+    "seconds": 5.17,
+    "payload": {
+      "release": "community-navigator-v18-2026-10-25",
+      "mode": "ai",
+      "intent": {
+        "needs": [
+          "addictions"
+        ],
+        "area": "hillingdon",
+        "keywords": [
+          "na",
+          "narcotics anonymous"
+        ],
+        "exclude": [],
+        "audiences": [],
+        "preferences": [
+          "dropin"
+        ],
+        "urgency": "general",
+        "specific": true,
+        "outOfScope": false
+      }
+    }
+  }
+]
