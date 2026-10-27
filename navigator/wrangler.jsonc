@@ -2,14 +2,52 @@
   "name": "discharge-community-navigator",
   "main": "worker.mjs",
   "compatibility_date": "2026-10-25",
-  "compatibility_flags": ["nodejs_compat"],
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
   "workers_dev": false,
   "upload_source_maps": true,
-  "observability": {"enabled": false},
-  "ai": {"binding": "AI"},
+  "observability": {
+    "enabled": false
+  },
+  "ai": {
+    "binding": "AI"
+  },
   "ratelimits": [
-    {"name":"CLIENT_LIMIT","namespace_id":"19102501","simple":{"limit":8,"period":60}},
-    {"name":"TOTAL_LIMIT","namespace_id":"19102502","simple":{"limit":40,"period":60}}
+    {
+      "name": "CLIENT_LIMIT",
+      "namespace_id": "19102501",
+      "simple": {
+        "limit": 8,
+        "period": 60
+      }
+    },
+    {
+      "name": "TOTAL_LIMIT",
+      "namespace_id": "19102502",
+      "simple": {
+        "limit": 40,
+        "period": 60
+      }
+    },
+    {
+      "name": "SUBMISSION_LIMIT",
+      "namespace_id": "19102701",
+      "simple": {
+        "limit": 3,
+        "period": 60
+      }
+    }
   ],
-  "vars": {"PREVIEW_ORIGIN":""}
+  "vars": {
+    "PREVIEW_ORIGIN": ""
+  },
+  "d1_databases": [
+    {
+      "binding": "SUGGESTIONS_DB",
+      "database_name": "navigator-resource-suggestions",
+      "database_id": "f255df93-3635-4f3f-9a3b-b09bffa32dd9",
+      "migrations_dir": "migrations"
+    }
+  ]
 }

@@ -29,6 +29,8 @@ template=template.replace('</head>','<meta name="application-name" content="Comm
 template=template.replace('The site does not use a call database, built-in visitor tracking or an account sign-in.','The site does not use a call database, visitor tracking or an account sign-in. It sends technical fault reports to Sentry; search text and form entries are excluded.');
 template=template.replace('The AI and hosting provider processes requests under its own data arrangements.','The AI and hosting provider processes requests under its own data arrangements. Sentry receives limited technical error information, without search text, form entries or session recordings.');
 await build({entryPoints:[path.join(root,'site/monitoring.js')],outfile:path.join(out,'assets/monitoring.js'),bundle:true,minify:false,format:'iife',target:'es2022',sourcemap:false,legalComments:'inline',define:{__DTP_MONITORING_CONFIG__:JSON.stringify({...settings.sentry,release})}});
+template=template.replace('</head>','<style>'+await read('site/resource-suggestions.css')+'</style></head>');
+template=template.replace('</body>','<script>'+await read('site/resource-suggestions.js')+'</script></body>');
 await fs.writeFile(path.join(out,'index.html'),template);
 await fs.writeFile(path.join(out,'_routes.json'),JSON.stringify({version:1,include:['/api/*'],exclude:[]}));
 await fs.writeFile(path.join(out,'build-info.json'),JSON.stringify({release,commit,resources:directory.resources.length}));

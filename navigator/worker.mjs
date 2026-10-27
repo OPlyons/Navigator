@@ -1,3 +1,4 @@
+import {handleSuggestion} from './suggestions.mjs';
 import {RELEASE,AREAS,AUDIENCES,intentSchema,buildPrompt,normaliseIntent,sensitiveInput,urgentSafetyInput} from './shared.mjs';
 
 const DEFAULT_ORIGINS=['https://navigator.lxportal.space','https://cnwl-community-navigator.pages.dev','https://dtp.lxportal.space','https://cnwl-discharge-project.pages.dev'];
@@ -17,6 +18,7 @@ export default {
  async fetch(request,env){
   const url=new URL(request.url),origin=request.headers.get('Origin')||'';
   if(url.pathname==='/health'&&request.method==='GET')return json({release:RELEASE,provider:'Cloudflare Workers AI',searchStorage:false});
+  if(url.pathname==='/suggest-resource')return handleSuggestion(request,env);
   if(url.pathname!=='/navigate')return json({error:'not_found'},404);
   const allowed=[...DEFAULT_ORIGINS,...String(env.PREVIEW_ORIGIN||'').split(',').filter(Boolean)];
   if(!allowed.includes(origin))return json({error:'origin'},403);
