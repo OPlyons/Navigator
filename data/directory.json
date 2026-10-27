@@ -3,37 +3,37 @@
     {
       "id": "brent",
       "name": "Brent",
-      "description": "Support in Brent. You can explore these services whether or not you take part in the discharge project. Check each service’s access requirements."
+      "description": "Support in Brent. You can explore these services independently. Check each service’s access requirements."
     },
     {
       "id": "harrow",
       "name": "Harrow",
-      "description": "Support in Harrow. You can explore these services whether or not you take part in the discharge project. Check each service’s access requirements."
+      "description": "Support in Harrow. You can explore these services independently. Check each service’s access requirements."
     },
     {
       "id": "kensington-chelsea",
       "name": "Kensington and Chelsea",
-      "description": "Support in Kensington and Chelsea. You can explore these services whether or not you take part in the discharge project. Check each service’s access requirements."
+      "description": "Support in Kensington and Chelsea. You can explore these services independently. Check each service’s access requirements."
     },
     {
       "id": "westminster",
       "name": "Westminster",
-      "description": "Support in Westminster. You can explore these services whether or not you take part in the discharge project. Check each service’s access requirements."
+      "description": "Support in Westminster. You can explore these services independently. Check each service’s access requirements."
     },
     {
       "id": "camden",
       "name": "Camden",
-      "description": "Support in Camden. You can explore these services whether or not you take part in the discharge project. Check each service’s access requirements."
+      "description": "Support in Camden. You can explore these services independently. Check each service’s access requirements."
     },
     {
       "id": "hillingdon",
       "name": "Hillingdon",
-      "description": "Support in Hillingdon. You can explore these services whether or not you take part in the discharge project. Check each service’s access requirements."
+      "description": "Support in Hillingdon. You can explore these services independently. Check each service’s access requirements."
     },
     {
       "id": "milton-keynes",
       "name": "Milton Keynes",
-      "description": "Support in Milton Keynes. You can explore these services whether or not you take part in the discharge project. Check each service’s access requirements."
+      "description": "Support in Milton Keynes. You can explore these services independently. Check each service’s access requirements."
     },
     {
       "id": "surrey",
@@ -43,7 +43,7 @@
     {
       "id": "ealing",
       "name": "Ealing",
-      "description": "Support in Ealing. You can explore these services whether or not you take part in the discharge project. Check each service’s access requirements."
+      "description": "Support in Ealing. You can explore these services independently. Check each service’s access requirements."
     },
     {
       "id": "wider-support",

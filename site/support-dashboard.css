@@ -253,3 +253,8 @@
 body .brand-header .brand-inner{display:flex;align-items:center;min-height:64px}
 .navigator-brand{color:inherit;text-decoration:none}
 .navigator-brand:hover{text-decoration:underline}
+
+.navigator-brand{display:inline-flex;align-items:center;gap:.75rem}
+.navigator-compass{display:block;flex:none}
+.navigator-brand .navigator-compass{width:44px;height:44px}
+.footer-tree .navigator-compass{width:64px;height:64px}
