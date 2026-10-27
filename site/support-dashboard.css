@@ -248,3 +248,8 @@
  @media(max-width:360px){.large #support .audience-choices{grid-template-columns:1fr}}
 }
 @media print{.support-dashboard,.support-toolbar,.support-heading-actions,.audience-dialog{display:none!important}#support .directory-results{display:block}}
+
+/* Independent project branding across all pages and screen sizes. */
+body .brand-header .brand-inner{display:flex;align-items:center;min-height:64px}
+.navigator-brand{color:inherit;text-decoration:none}
+.navigator-brand:hover{text-decoration:underline}
