@@ -1,10 +1,10 @@
 {
-  "asOf": "2026-10-26",
+  "asOf": "2026-10-27",
   "total": 887,
-  "attempted": 24,
-  "attemptedInLast28Days": 24,
-  "sourceReadInLast28Days": 24,
-  "lastRecordedRun": "2026-10-26",
+  "attempted": 32,
+  "attemptedInLast28Days": 32,
+  "sourceReadInLast28Days": 32,
+  "lastRecordedRun": "2026-10-27",
   "openChanges": [
     {
       "kind": "change",
@@ -23,6 +23,24 @@
       "firstSeen": "2026-10-26",
       "lastSeen": "2026-10-26",
       "occurrences": 1
+    },
+    {
+      "kind": "change",
+      "resourceId": "brent-crisis-fund",
+      "name": "Brent Resident Support Fund — crisis payment",
+      "area": "brent",
+      "field": "check",
+      "currentValue": "Evidence required. Normally one application per rolling 12 months, even if a previous application was declined. Awards are discretionary.",
+      "proposedValue": "Evidence required. One application per rolling 12 months, even if declined. For couples, an application by either partner counts towards this limit; it does not apply to other adult household members. Awards are discretionary.",
+      "reason": "The council states a firm rolling application limit and explicitly applies it to couples; the listing omits the partner rule and says normally.",
+      "sourceUrl": "https://www.brent.gov.uk/benefits-and-money-advice/resident-support-fund",
+      "evidence": "One application is allowed in a rolling 12 months, approved or rejected. A partner application during that period is declined; other adults in the household are not included in this partner restriction.",
+      "priority": "normal",
+      "key": "05227e76dcd6779613f1e4a3bf6b22bbe3fd9945009caa42439207fc06ec60de",
+      "status": "open",
+      "firstSeen": "2026-10-27",
+      "lastSeen": "2026-10-27",
+      "occurrences": 1
     }
   ],
   "unableToVerify": [],
@@ -31,6 +49,11 @@
     {
       "day": "2026-10-26",
       "regular": 24,
+      "retries": 0
+    },
+    {
+      "day": "2026-10-27",
+      "regular": 8,
       "retries": 0
     }
   ]

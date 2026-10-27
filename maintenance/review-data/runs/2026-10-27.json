@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "day": "2026-10-27",
+  "catalogueCount": 887,
+  "results": [
+    {
+      "id": "brent-crisis-fund",
+      "status": "changes_found",
+      "summary": "The council supports the fund purpose, adult Brent residency, savings rules, online application, Hub assistance and listed phone. Propose clarifying the application limit and partner rule. Awards remain discretionary; individual entitlement cannot be confirmed.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "phone",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://www.brent.gov.uk/benefits-and-money-advice/resident-support-fund",
+          "ownerType": "council",
+          "retrieval": "page",
+          "note": "Council describes essential-cost assistance, evidence requirements and a rolling limit assessed per couple."
+        }
+      ],
+      "findings": [
+        {
+          "field": "check",
+          "currentValue": "Evidence required. Normally one application per rolling 12 months, even if a previous application was declined. Awards are discretionary.",
+          "proposedValue": "Evidence required. One application per rolling 12 months, even if declined. For couples, an application by either partner counts towards this limit; it does not apply to other adult household members. Awards are discretionary.",
+          "reason": "The council states a firm rolling application limit and explicitly applies it to couples; the listing omits the partner rule and says normally.",
+          "sourceUrl": "https://www.brent.gov.uk/benefits-and-money-advice/resident-support-fund",
+          "evidence": "One application is allowed in a rolling 12 months, approved or rejected. A partner application during that period is declined; other adults in the household are not included in this partner restriction.",
+          "priority": "normal"
+        }
+      ],
+      "kind": "regular",
+      "fingerprint": "e284e59369634d9325dc3ea41efedde61208cfa2b6a486687960eadb5979e36f"
+    },
+    {
+      "id": "brent-cycletastic",
+      "status": "no_change_found",
+      "summary": "Official indexed provider content supports the volunteer-led repair project, free learn-to-fix sessions, booking email and relocation to Clitterhouse Farm. The homepage timed out and the contact page returned an error. This is a limited indexed-content check: phone, precise current dates, parts prices and accessibility remain unconfirmed. The provider describes winter closure, consistent with the listing saying seasonal; no new closure is inferred.",
+      "checkedFields": [
+        "name",
+        "description",
+        "access",
+        "check",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://cycletastic.org.uk/",
+          "ownerType": "provider",
+          "retrieval": "official_indexed",
+          "note": "Current indexed homepage describes repair learning, free sessions, booking by email and the Clitterhouse Farm location. Full page fetch timed out."
+        },
+        {
+          "url": "https://cycletastic.org.uk/contacts/",
+          "ownerType": "provider",
+          "retrieval": "failed",
+          "note": "Contact page request returned 404. No conclusion about service closure or the listed phone is drawn."
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "9e8e37233d04c8b586b5d7d05f60756464fad230f249f0007986e1db1c8111b7"
+    },
+    {
+      "id": "brent-cycling-campaign",
+      "status": "no_change_found",
+      "summary": "Council content supports local cycling advocacy, rides, social events and contact through its published email/provider link. Costs, ride pace, equipment requirements, age limits and specific upcoming rides were not stated; the existing advice to check before joining remains appropriate. The unrelated licensing-form maintenance banner is not a cycling-service notice.",
+      "checkedFields": [
+        "name",
+        "description",
+        "access",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://www.brent.gov.uk/parks-leisure-and-healthy-living/sports-clubs-and-activities/sport-activity-finder/brent-cycling-campaign-formerly-brent-cyclists",
+          "ownerType": "council",
+          "retrieval": "page",
+          "note": "Council lists the Brent group of London Cycling Campaign, cycling support, organised rides/social events and contact details."
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "05e94eaa68dd64c3ada7fdd5770b57426c1f76b8f284f15497a34da06b33ad22"
+    },
+    {
+      "id": "brent-directory",
+      "status": "no_change_found",
+      "summary": "Council content supports the searchable local directory and the ongoing transition to Joy, with a link to the new platform. It covers groups, services and activities by location, type and age. Individual organisations’ availability, eligibility and charges are not established by a directory landing page.",
+      "checkedFields": [
+        "name",
+        "description",
+        "access",
+        "check",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://www.brent.gov.uk/neighbourhoods-and-communities/community-directory",
+          "ownerType": "council",
+          "retrieval": "page",
+          "note": "Council describes its local directory and continuing move to Joy; no completed withdrawal of the old directory is stated."
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "8544deb2ed2b7508d327576cadf47da378fbf0f27b843e53738b9508de4258c0"
+    },
+    {
+      "id": "brent-diya",
+      "status": "no_change_found",
+      "summary": "Provider content supports South Asian peer support for Harrow and Brent residents experiencing mental health challenges, free sessions in Harrow and direct contact to enquire. The displayed main phone matches. Specific accessibility and language-support arrangements, vacancies and any minimum age are not stated; the listing advises checking needs and dates.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "phone",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://www.mindinharrow.org.uk/services/diya-south-asian-group/",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "Provider service page states Harrow and Brent coverage, South Asian audience, wellbeing activities, free attendance and an enquiry route."
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "97c7980d7584d5ffde292a0f434d1b3837c5d2c60a48904a840c3b12ae6be41d"
+    },
+    {
+      "id": "brent-dolphins-adult-swimming",
+      "status": "no_change_found",
+      "summary": "Council content supports adult/Masters swimming for fitness and technique at Willesden and Vale Farm and provides a provider website link. The provider link redirects to a site inaccessible to the tool. Adult trial procedures, fees, places and current schedules remain unconfirmed; the listing asks callers to check these rather than promising availability.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://www.brent.gov.uk/parks-leisure-and-healthy-living/sports-clubs-and-activities/sport-activity-finder/brent-dolphins-swimming-club-at-vale-farm",
+          "ownerType": "council",
+          "retrieval": "page",
+          "note": "Council explicitly welcomes adult swimmers and names both pools; the check field is supported for locations only, not fees or trial availability."
+        },
+        {
+          "url": "https://uk.teamunify.com/Home.jsp?team=lrmbdsc",
+          "ownerType": "provider",
+          "retrieval": "failed",
+          "note": "Council-linked site redirected to uk.gomotionapp.com, which the tool could not access. No service closure is inferred."
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "a63c3bf0f4fbbc95caf9d5c710476d5d71558466b826ab42aeaa74df9ab8e41e"
+    },
+    {
+      "id": "brent-elders-voice-activities",
+      "status": "no_change_found",
+      "summary": "Provider content supports singing, art and movement activities for Brent residents over 55, with a retirees drop-in for over 65s. Published prices match: free singing, £2 art and £4 movement sessions. The activities phone and advance-contact route match. Actual spaces and individual access needs remain to be confirmed.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "phone",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://www.eldersvoice.org.uk/what-we-do/wellbeing-centre/activities/",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "Activities page gives age thresholds, session descriptions, prices and the listed booking/enquiry telephone number."
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "29e0e869055c204f8d4621222bc28bad02f256440ec2610bd38cab23d991b68a"
+    },
+    {
+      "id": "brent-foodbank",
+      "status": "no_change_found",
+      "summary": "Provider voucher guidance supports emergency food for local people in financial hardship, requesting a voucher through Brent Hubs or an existing support agency, and Help through Hardship. The published contact numbers match. Vouchers depend on discussion and are not automatically issued by any peer worker. Indexed guidance also says Job Centre vouchers have not been accepted since April 2026; the listing does not recommend that route. Current collection availability and centre times were not checked.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "phone",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://brent.foodbank.org.uk/get-help/foodbank-vouchers/",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "Provider explains voucher assessment, participating agencies, one-visit codes, matching Brent Hubs and Help through Hardship contacts, and the foodbank office phone."
+        },
+        {
+          "url": "https://brent.foodbank.org.uk/get-help/how-to-get-help/",
+          "ownerType": "provider",
+          "retrieval": "official_indexed",
+          "note": "Indexed official guidance states Job Centre vouchers are no longer accepted from 1 April 2026. Existing listed enquiry routes remain supported."
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "b75c20000b84c43d344005871d627bb1cdc359bc19ece2005e8956f5227fdcf5"
+    }
+  ]
+}

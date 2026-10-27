@@ -1,8 +1,8 @@
 # Directory review queue
 
-Updated: 2026-10-26. 24 of 887 listings attempted in the last 28 days.
-24 listings had provider or official source content read in that period.
-Last recorded run: 2026-10-26.
+Updated: 2026-10-27. 32 of 887 listings attempted in the last 28 days.
+32 listings had provider or official source content read in that period.
+Last recorded run: 2026-10-27.
 
 Automated source checks do not confirm availability or replace a person reviewing important changes. The live directory and its information-checked dates remain unchanged.
 
@@ -16,6 +16,15 @@ Field: **who**
 - Evidence summary: The North West London programme describes encouraging Black women aged 18 and over to run and welcomes people just starting out.
 - Source: <https://www.blackgirlsdorun.co.uk/north-west-london>
 - First found: 2026-10-26; last seen: 2026-10-26.
+
+### Brent Resident Support Fund — crisis payment — brent
+Field: **check**
+- Current: Evidence required. Normally one application per rolling 12 months, even if a previous application was declined. Awards are discretionary.
+- Suggested: Evidence required. One application per rolling 12 months, even if declined. For couples, an application by either partner counts towards this limit; it does not apply to other adult household members. Awards are discretionary.
+- Why: The council states a firm rolling application limit and explicitly applies it to couples; the listing omits the partner rule and says normally.
+- Evidence summary: One application is allowed in a rolling 12 months, approved or rejected. A partner application during that period is declined; other adults in the household are not included in this partner restriction.
+- Source: <https://www.brent.gov.uk/benefits-and-money-advice/resident-support-fund>
+- First found: 2026-10-27; last seen: 2026-10-27.
 
 
 ## Could not verify
