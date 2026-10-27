@@ -222,6 +222,255 @@
       "findings": [],
       "kind": "regular",
       "fingerprint": "b75c20000b84c43d344005871d627bb1cdc359bc19ece2005e8956f5227fdcf5"
+    },
+    {
+      "id": "brent-gladstone-parkrun",
+      "status": "no_change_found",
+      "summary": "Council content supports the free weekly 5k event, walking/jogging/running/volunteering choices, participation at one’s own pace and registration link. The event page displays a forthcoming Saturday. Cancellations and individual access needs were not established; retain the advice to check before travelling. No phone is published in the material read.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://www.brent.gov.uk/events-in-brent/regular-events/park-run",
+          "ownerType": "council",
+          "retrieval": "page",
+          "note": "Council event page describes Gladstone parkrun, free attendance, registration and the Gladstone Park location."
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "65679f057009aa08386f4463e77069c104c89df3cbd13b05a8f5fd10dc770f31"
+    },
+    {
+      "id": "brent-global-cooperation-meditation",
+      "status": "no_change_found",
+      "summary": "Provider pages support the named Willesden Green centre, Raja Yoga meditation courses, reflective activities, quiet room and matching phone. Enquiries about individual courses are explicitly invited. A blanket free/donation policy was not confirmed in the pages read, so the cost claim is not included in checkedFields. Minimum age, individual suitability and live course places were not established.",
+      "checkedFields": [
+        "name",
+        "description",
+        "access",
+        "phone",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://gch.brahmakumaris.uk/meditation",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "Provider meditation page explains courses, enquiry contact and a quiet room accessible through reception without booking. The page lists the directory phone."
+        },
+        {
+          "url": "https://globalcooperationhouse.org/",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "Provider home page links to its current course/event programme and gives the same name, Willesden Green address and phone."
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "4dc3d7ab06473ffe5249855cd1a3e86a7db1cd387a257dc14a9ea6385bfc985c"
+    },
+    {
+      "id": "brent-goodgym-community",
+      "status": "no_change_found",
+      "summary": "Council and provider content support walking, running or cycling to help Brent community projects and using GoodGym to join/find sessions. Indexed official guidance supports adult participation and extra background checks/training for missions helping older people. This does not imply every task requires such checks. Exact current Brent task availability and individual physical/access needs were not established.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://brent.gov.uk/parks-leisure-and-healthy-living/sports-clubs-and-activities/sport-activity-finder/goodgym-brent",
+          "ownerType": "council",
+          "retrieval": "page",
+          "note": "Council describes local practical community tasks and links to GoodGym."
+        },
+        {
+          "url": "https://www.goodgym.org/",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "Provider describes active volunteering, joining and finding local sessions."
+        },
+        {
+          "url": "https://www.goodgym.org/areas/brent/missions",
+          "ownerType": "provider",
+          "retrieval": "official_indexed",
+          "note": "Indexed provider page describes Brent missions and the background-check/training process for this specific role."
+        },
+        {
+          "url": "https://goodgym.zendesk.com/hc/en-gb/articles/16860871055634-Is-there-an-age-limit",
+          "ownerType": "provider",
+          "retrieval": "official_indexed",
+          "note": "Indexed provider help article gives the adult age restriction."
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "eb1c9d93045f6ffdff8bea795c8ee8cfa3284a64584b6e951479272bcf04cb41"
+    },
+    {
+      "id": "brent-granville-community-kitchen",
+      "status": "no_change_found",
+      "summary": "Council content supports the South Kilburn community food hub, food-related activities and matching phone. The provider homepage timed out, although indexed provider content describes community activities and contact options. Precise current activities, booking, costs and food-aid eligibility were not established. The listing appropriately asks callers to enquire; a fetch failure is not evidence of closure.",
+      "checkedFields": [
+        "name",
+        "description",
+        "phone",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://www.brent.gov.uk/neighbourhoods-and-communities/community-directory/granville-community-kitchen",
+          "ownerType": "council",
+          "retrieval": "page",
+          "note": "Council listing names Granville Community Kitchen, explains its community food purpose and gives the listed number."
+        },
+        {
+          "url": "https://granvillecommunitykitchen.org.uk/",
+          "ownerType": "provider",
+          "retrieval": "failed",
+          "note": "Provider home request timed out; no closure conclusion drawn."
+        },
+        {
+          "url": "https://granvillecommunitykitchen.org.uk/contact-us/",
+          "ownerType": "provider",
+          "retrieval": "official_indexed",
+          "note": "Official indexed contact page offers an enquiry form and updates on community activities."
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "a594fa385a3aaf19b432f46ef7121b02b2af889f966f6a2a5bd336ee745f8c00"
+    },
+    {
+      "id": "brent-hayaan",
+      "status": "no_change_found",
+      "summary": "Provider content supports culturally tailored Somali mental wellbeing support for adults and carers, with Brent and Harrow outreach. The general eligibility section names Harrow, while the explicit Brent outreach section welcomes Somali community members aged 18+ in North West London. The listing’s Brent coverage is supported by that outreach, without assuming every casework route has identical eligibility. The phone matches. Costs, appointments and individual language/access arrangements were not established.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "phone",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://www.mindinharrow.org.uk/services/somali-hayaan-project/",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "Provider describes workshops, one-to-one support, direct enquiries and named outreach in both boroughs. Current timetable is published, but availability still needs checking."
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "a0768a4e497630a3759333b9e797e9f2d4248e1edaa80e4e67e5eee4800624b3"
+    },
+    {
+      "id": "brent-healthwatch",
+      "status": "no_change_found",
+      "summary": "The contact page returned 502. Readable provider homepage content plus indexed official service/contact information support Healthwatch Brent’s feedback/signposting role, the listed phone and weekday 9am–5pm hours. This is a limited check: the specific contact form, current email route and individual communication formats were not confirmed. No provider closure is inferred from the failed page.",
+      "checkedFields": [
+        "name",
+        "description",
+        "phone",
+        "check"
+      ],
+      "sources": [
+        {
+          "url": "https://www.healthwatchbrent.co.uk/contact-us",
+          "ownerType": "provider",
+          "retrieval": "failed",
+          "note": "Contact page request failed with 502 Bad Gateway."
+        },
+        {
+          "url": "https://www.healthwatchbrent.co.uk/",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "Readable provider homepage describes local health/care feedback and information activity."
+        },
+        {
+          "url": "https://www.healthwatchbrent.co.uk/thank-you",
+          "ownerType": "provider",
+          "retrieval": "official_indexed",
+          "note": "Indexed provider page gives the matching number and Monday–Friday 9am–5pm contact hours."
+        },
+        {
+          "url": "https://www.healthwatchbrent.co.uk/advice-and-information/2024-10-15/our-signposting-and-information-service",
+          "ownerType": "provider",
+          "retrieval": "official_indexed",
+          "note": "Indexed provider article describes help accessing local health and social care, information and signposting."
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "e4d65d1112866e99088ee87c93c27d87308ec19843898308be2a0509abb1da26"
+    },
+    {
+      "id": "brent-healthy-walks",
+      "status": "no_change_found",
+      "summary": "Council content supports free group walks, a shorter option, beginner-friendly participation, no booking and walking at one’s own pace. It explicitly says there are no bank holiday walks. Exact meeting arrangements and weather cancellations should still be checked. No phone or individual mobility/access assessment was published in the material read.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://www.brent.gov.uk/parks-leisure-and-healthy-living/sports-clubs-and-activities/sport-activity-finder/healthy-walks-in-brent",
+          "ownerType": "council",
+          "retrieval": "page",
+          "note": "Council programme page describes low-to-moderate walks, a 30-minute option, free turn-up access and bank holiday exclusions."
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "908554975eca4bb1b514c191f3d01f16652a725c545fa449089217cb4b0c6d90"
+    },
+    {
+      "id": "brent-housing",
+      "status": "no_change_found",
+      "summary": "Council content supports contacting the housing team or completing an online housing needs assessment. The daytime number, option 2 for homelessness today and out-of-hours number match. Accommodation depends on assessment and legal duties; the listing does not promise a placement or give peers referral authority. Online applications require a My Account sign-in and supporting information. Individual entitlement and response availability cannot be confirmed by this check.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "phone",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://www.brent.gov.uk/housing/housing-assistance/at-risk-of-homelessness-or-need-housing",
+          "ownerType": "council",
+          "retrieval": "page",
+          "note": "Council page gives the urgent contact routes, examples of homelessness risk, online application and assessment-dependent help."
+        },
+        {
+          "url": "https://www.brent.gov.uk/housing/housing-assistance",
+          "ownerType": "council",
+          "retrieval": "official_indexed",
+          "note": "Current indexed council housing-assistance overview repeats both urgent contact routes and the daytime option."
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "3701a1b03764b641e280c16ffdb919c7a3636e8dc265b5da58548dcb30846ce7"
     }
   ]
 }
