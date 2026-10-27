@@ -25250,6 +25250,33 @@
       "nextReview": "2027-01-26",
       "national": true,
       "phone": ""
+    },
+    {
+      "id": "westminster-abbey-centre-pantry",
+      "directoryId": "westminster",
+      "name": "The Abbey Centre — Community Pantry",
+      "category": "Food and essentials",
+      "description": "Affordable food and household essentials through a weekly membership pantry.",
+      "who": "Westminster residents, or people living in Kensington and Chelsea, Hammersmith and Fulham, Lambeth or Southwark whose children attend school in Westminster. Priority may be given to people near the centre in south Westminster.",
+      "access": "Register as an Abbey Centre member, then email pantry@theabbeycentre.org.uk or phone to ask about joining and arrange a shopping appointment.",
+      "check": "£5 a week. Provider lists Wednesday and Friday shopping, 9am–3pm, by appointment. Confirm membership availability before travelling.",
+      "url": "https://www.theabbeycentre.org.uk/community-pantry/",
+      "phone": "020 7222 0303",
+      "picture": "help",
+      "tags": [
+        "food",
+        "community pantry",
+        "affordable food",
+        "household essentials",
+        "membership",
+        "Westminster"
+      ],
+      "sourceUrl": "https://www.theabbeycentre.org.uk/community-pantry/",
+      "sourceOwner": "The Abbey Centre",
+      "audiences": [],
+      "lastChecked": "2026-10-27",
+      "nextReview": "2027-01-27",
+      "verificationStatus": "Provider pantry page checked; availability to be confirmed"
     }
   ],
   "areaDownloads": {
