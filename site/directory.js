@@ -141,7 +141,8 @@
   const details=make('details'),summary=make('summary','Joining details');summary.setAttribute('aria-label','Joining details for '+r.name);details.append(summary);
   const dl=make('dl');definition(dl,'Where it helps',r.coverage);definition(dl,'Who it is for',r.who);definition(dl,'How to join or make contact',r.access);definition(dl,'Costs and things to check',r.check);details.append(dl);
   if(/^https?:\/\//.test(r.sourceUrl||'')){const p=make('p'),a=make('a','Source: '+(r.sourceOwner||'provider website'));a.href=r.sourceUrl;a.target='_blank';a.rel='noopener noreferrer';p.append(a);details.append(p);}
-  details.append(make('p','Information checked: '+date(r.lastChecked)+'.','checked'));
+  card.append(make('p','Last source check: '+date(r.lastChecked)+(r.sourceCheck?.method==='automated'?' · Automated source check.':'.'),'checked'));
+  if(r.sourceCheck?.method==='automated')details.append(make('p','Source information was checked automatically. Confirm current availability and joining details with the service.'));
   const now=new Date(),today=now.getFullYear()+'-'+String(now.getMonth()+1).padStart(2,'0')+'-'+String(now.getDate()).padStart(2,'0');
   if(r.nextReview&&r.nextReview<today)details.append(make('p','Review due — check current details with the service.','review-due'));
   card.append(details);return card;

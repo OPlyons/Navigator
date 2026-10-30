@@ -5,11 +5,13 @@ test.beforeEach(async({page})=>{await interceptSentry(page);});
 test('standalone home and navigation open the navigator',async({page})=>{
  await page.goto('/');await expect(page.locator('.page.active h1')).toHaveText('Find support');await expect(page.locator('#service-search')).toBeEnabled();
  await expect(page).toHaveTitle('Find support | Community Navigator');
- await page.getByRole('link',{name:'Discharge calls ↗',exact:true}).getAttribute('href').then(h=>expect(h).toBe('https://dtp.lxportal.space/'));
+ await expect(page.locator('nav[aria-label="Main navigation"]').getByRole('link')).toHaveText(['Find support','Printable directories']);
  await page.locator('nav[aria-label="Main navigation"]').getByRole('link',{name:'Printable directories',exact:true}).click();await expect(page.locator('.page.active h1')).toHaveText('Printable local directories');
 });
 test('staff area links open matching support without sharing form information',async({page})=>{
  await page.goto('/#area-harrow');await expect(page.locator('#area')).toHaveValue('harrow');await expect(page.locator('#resource-list article').first()).toBeVisible();
+ await expect(page.locator('#resource-list article').first().locator('.checked')).toBeVisible();
+ await expect(page.locator('#resource-list article').first().locator('.checked')).toContainText('Last source check:');
 });
 test('privacy warning precedes search and typing sends no AI request',async({page})=>{
  const calls=await mockNavigator(page);await openSupport(page);await expect(page.locator('#navigator-warning')).toContainText('No names, addresses');
@@ -19,6 +21,7 @@ test('privacy warning precedes search and typing sends no AI request',async({pag
 test('AI returns canonical distinct options and clear next steps',async({page})=>{
  const calls=await mockNavigator(page);await openSupport(page);await page.locator('#service-search').fill('I need somewhere to stay tonight and benefits help in Brent');await page.locator('#navigator-submit').click();
  await expect(page.locator('#navigator-cards article')).toHaveCount(3);await expect(page.locator('#navigator-cards article').first()).toHaveAttribute('data-resource-id','brent-housing');
+ await expect(page.locator('#navigator-cards article').first().locator('.navigator-checked')).toBeVisible();
  const ids=await page.locator('#navigator-cards article').evaluateAll(els=>els.map(e=>e.dataset.resourceId));expect(ids.filter(id=>records.find(r=>r.id===id).name.includes('Citizens Advice')).length).toBeLessThanOrEqual(1);
  await expect(page.locator('#navigator-cards')).toContainText('Next step:');await expect(page.locator('#navigator-route-note')).toContainText('do not show available beds');expect(calls).toHaveLength(1);
  expect(new URL(page.url()).search).toBe('');await expect(page.locator('#navigator-result-heading')).toBeFocused();

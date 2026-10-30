@@ -32,7 +32,8 @@
   const details=make('details'),summary=make('summary','Joining details and source');summary.setAttribute('aria-label','Joining details and source for '+r.name);details.append(summary,make('p',r.description));
   const dl=make('dl');definition(dl,'Where it helps',r.coverage||dir?.name);definition(dl,'Who it is for',r.who);definition(dl,'How to make contact',r.access);definition(dl,'Costs and things to check',r.check);details.append(dl);
   if(/^https:\/\//.test(r.sourceUrl||''))details.append(link(r.sourceUrl,'Source: '+(r.sourceOwner||'provider website')));
-  details.append(make('p','Information checked: '+r.lastChecked+'.','navigator-checked'));
+  article.append(make('p','Last source check: '+r.lastChecked+(r.sourceCheck?.method==='automated'?' · Automated source check.':'.'),'navigator-checked'));
+  if(r.sourceCheck?.method==='automated')details.append(make('p','Source information was checked automatically. Confirm current availability and joining details with the service.'));
   article.append(details);return article;
  }
  function renderMore(){
