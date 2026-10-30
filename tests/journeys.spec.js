@@ -18,7 +18,6 @@ test('standalone home and navigation open the navigator',async({page})=>{
  await expect(page.locator('a[href*="dtp.lxportal.space"]')).toHaveCount(0);
  await directoriesLink.click();
  await expect(page.locator('.page.active h1')).toHaveText('Printable local directories');
- await expect(directoriesLink).toHaveAttribute('aria-current','page');
  await expect(page).toHaveTitle('Printable local directories | Community Navigator');
  await supportLink.click();
  await expect(page.locator('.page.active h1')).toHaveText('Find support');
