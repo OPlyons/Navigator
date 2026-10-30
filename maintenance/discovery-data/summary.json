@@ -1,0 +1,14 @@
+{
+  "asOf": "2026-10-30",
+  "lastRecordedSearch": null,
+  "totalCombinations": 200,
+  "combinationsAttempted": 0,
+  "pendingCandidates": 0,
+  "nowInDirectory": [],
+  "days": [],
+  "limits": {
+    "areasPerDay": 2,
+    "categoriesPerAreaPerDay": 3,
+    "candidatesPerDay": 4
+  }
+}
