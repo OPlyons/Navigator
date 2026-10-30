@@ -7,12 +7,12 @@ const ok=entry=>({id:entry.id,status:'no_change_found',summary:'The provider pag
 const unavailable=entry=>({...ok(entry),status:'unable_to_verify',summary:'The source could not be read.',checkedFields:[],sources:[{url:entry.resource.sourceUrl,ownerType:'provider',retrieval:'failed',note:'Request returned 503.'}],failureReason:'Source temporarily unavailable.'});
 const dayAfter=days=>new Date(Date.UTC(2026,9,26+days)).toISOString().slice(0,10);
 
-test('review batches cover 878 listings in 28 days with at most 32 regular checks per day',()=>{
+test('review batches cover 878 listings in 28 days with at most 48 regular checks per day',()=>{
  let state=emptyState();const seen=new Set();
- for(let d=0;d<28;d++)for(let batch=0;batch<4;batch++){
+ for(let d=0;d<28;d++)for(let batch=0;batch<6;batch++){
   const plan=prepare(resources,state,dayAfter(d));assert.ok(plan.entries.length<=8);
   if(!plan.entries.length)continue;
-  for(const e of plan.entries){assert.ok(!seen.has(e.id),'Repeated before completing the first cycle');seen.add(e.id);}
+  for(const e of plan.entries){if(seen.size<resources.length)assert.ok(!seen.has(e.id),'Repeated before completing the first cycle');seen.add(e.id);}
   state=record(resources,state,plan,plan.entries.map(ok)).state;
  }
  assert.equal(seen.size,878);assert.equal(summary(resources,state,dayAfter(27)).attemptedInLast28Days,878);
@@ -22,9 +22,9 @@ test('partial runs resume and the persisted daily cap prevents duplicate or exce
  let state=emptyState(),plan=prepare(resources,state,'2026-10-26');
  state=record(resources,state,plan,plan.entries.slice(0,3).map(ok)).state;
  assert.throws(()=>record(resources,state,plan,[ok(plan.entries[3])]),/state changed/);
- for(let i=0;i<4;i++){plan=prepare(resources,state,'2026-10-26');state=record(resources,state,plan,plan.entries.map(ok)).state;}
- assert.equal(state.days['2026-10-26'].regular.length,32);assert.equal(prepare(resources,state,'2026-10-26').entries.length,0);
- assert.equal(prepare(resources,state,'2026-10-28').entries[0].id,'test-0032');
+ for(let i=0;i<6;i++){plan=prepare(resources,state,'2026-10-26');state=record(resources,state,plan,plan.entries.map(ok)).state;}
+ assert.equal(state.days['2026-10-26'].regular.length,48);assert.equal(prepare(resources,state,'2026-10-26').entries.length,0);
+ assert.equal(prepare(resources,state,'2026-10-28').entries[0].id,'test-0048');
 });
 test('failed sources retry separately and never become verified because a URL responds',()=>{
  let state=emptyState(),plan=prepare(resources,state,'2026-10-26');
@@ -57,4 +57,14 @@ test('review dates use London time and saved evidence only permits public web UR
  assert.equal(localDay(new Date('2026-07-01T23:30:00Z')),'2026-07-02');
  for(const url of ['http://localhost/check','http://127.0.0.1/','http://192.168.0.1/','https://user:pass@example.org/','javascript:alert(1)','file:///tmp/test','https://[::1]/'])assert.equal(publicUrl(url),false,url);
  assert.equal(publicUrl('https://www.nhs.uk/nhs-services/'),true);assert.throws(()=>prepare(resources,emptyState(),'2026-02-30'),/valid/);
+});
+test('a growing directory retains a monthly source-check cycle and reports overdue work',()=>{
+ let state=emptyState(),catalogue=structuredClone(resources);
+ for(let d=0;d<40;d++){
+  const day=dayAfter(d);
+  for(let i=0;i<4;i++)catalogue.push({...resources[0],id:`new-${d}-${i}`,lastChecked:day,sourceCheck:{method:'automated'}});
+  for(let batch=0;batch<6;batch++){const plan=prepare(catalogue,state,day);if(plan.entries.length)state=record(catalogue,state,plan,plan.entries.map(ok)).state;}
+ }
+ const status=summary(catalogue,state,dayAfter(39));assert.equal(status.capacitySufficient,true);assert.equal(status.monthlySourceChecksOverdue.length,0);
+ assert.ok(summary(resources,emptyState(),'2026-11-30').monthlySourceChecksOverdue.length>0);
 });
