@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "kind": "new_resources",
+  "sourceDay": "2026-10-31",
+  "applied": [
+    {
+      "candidateId": "discovery-c43ba1d6670bf4187da9",
+      "resourceId": "brent-discovered-fc0494d78663",
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "candidateId": "discovery-141093285a7407491aec",
+      "resourceId": "harrow-discovered-5b9ab492f902",
+      "checkedOn": "2026-10-31"
+    },
+    {
+      "candidateId": "discovery-1a657b8c764ec0ca87fc",
+      "resourceId": "harrow-discovered-4a4be2415f45",
+      "checkedOn": "2026-10-31"
+    }
+  ],
+  "skipped": []
+}

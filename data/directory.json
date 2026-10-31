@@ -25985,6 +25985,127 @@
       "lastChecked": "2026-10-27",
       "nextReview": "2026-11-24",
       "verificationStatus": "Provider pantry page checked; availability to be confirmed"
+    },
+    {
+      "id": "brent-discovered-fc0494d78663",
+      "directoryId": "brent",
+      "name": "John Fisher Free Legal Advice Clinic",
+      "category": "Legal advice and rights",
+      "description": "Initial advice on consumer, employment, family, housing and insurance problems.",
+      "who": "People who live or work in Brent.",
+      "access": "Use the clinic contact details on the LawWorks page to ask about an appointment. Do not attend without confirmation.",
+      "check": "Free initial legal advice. Confirm the session and any assessment requirements before attending.",
+      "coverage": "Brent residents and people working in Brent.",
+      "url": "https://www.lawworks.org.uk/find-legal-advice/individuals/john-fisher-free-legal-advice-clinic",
+      "sourceUrl": "https://www.lawworks.org.uk/find-legal-advice/individuals/john-fisher-free-legal-advice-clinic",
+      "sourceOwner": "LawWorks",
+      "phone": "",
+      "picture": "book",
+      "tags": [
+        "John Fisher Free Legal Advice Clinic",
+        "Legal advice and rights"
+      ],
+      "audiences": [],
+      "lastChecked": "2026-10-31",
+      "nextReview": "2026-11-28",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-10-31",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "coverage",
+          "check"
+        ],
+        "notes": "Current appointment availability was not confirmed. The provider legal-advice URL did not load; the listing uses the readable official clinic-network page and does not reproduce its telephone number.",
+        "evidenceUrls": [
+          "https://www.lawworks.org.uk/find-legal-advice/individuals/john-fisher-free-legal-advice-clinic"
+        ]
+      }
+    },
+    {
+      "id": "harrow-discovered-5b9ab492f902",
+      "directoryId": "harrow",
+      "name": "Sangam Advice Centre — legal advice",
+      "category": "Legal advice and rights",
+      "description": "Advice on welfare, housing, immigration, employment, debt and family matters.",
+      "who": "Adults over 18 who live, work or study in Barnet, Brent or Harrow.",
+      "access": "Phone 020 8952 7062 to ask about the advice you need and how to access it.",
+      "check": "The NHS profile lists legal advice as free. Confirm current arrangements and whether the service can help with your issue.",
+      "coverage": "Barnet, Brent and Harrow; this listing provides the Harrow access route.",
+      "url": "https://www.sangamcentre.org.uk/",
+      "sourceUrl": "https://www.nhs.uk/services/service-directory/sangam-centre/N10498810",
+      "sourceOwner": "NHS service directory — Sangam Centre",
+      "phone": "",
+      "picture": "book",
+      "tags": [
+        "Sangam Advice Centre — legal advice",
+        "Legal advice and rights"
+      ],
+      "audiences": [],
+      "lastChecked": "2026-10-31",
+      "nextReview": "2026-11-28",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-10-31",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "coverage",
+          "check"
+        ],
+        "notes": "NHS record supplied on 18 August 2026. Current waiting times, appointment arrangements and accessibility were not confirmed. No duplicate local entries were created for other areas.",
+        "evidenceUrls": [
+          "https://www.nhs.uk/services/service-directory/sangam-centre/N10498810"
+        ]
+      }
+    },
+    {
+      "id": "harrow-discovered-4a4be2415f45",
+      "directoryId": "harrow",
+      "name": "FirmFoundation — Harrow food and shower drop-in",
+      "category": "Housing and homelessness",
+      "description": "A local drop-in offering food, showers and contact with homelessness support.",
+      "who": "People with no accommodation who are sleeping rough in Harrow.",
+      "access": "Use the provider contact page or phone 020 8426 5515 to check visiting arrangements at the Welldon Centre, Welldon Crescent, Harrow HA1 1QR.",
+      "check": "Confirm current opening times and any charges before travelling. This is a drop-in support route, not a promise of a shelter bed.",
+      "coverage": "People sleeping rough in Harrow.",
+      "url": "https://firmfoundation.org.uk/how-to-get-referred/",
+      "sourceUrl": "https://firmfoundation.org.uk/how-to-get-referred/",
+      "sourceOwner": "FirmFoundation",
+      "phone": "",
+      "picture": "home",
+      "tags": [
+        "FirmFoundation — Harrow food and shower drop-in",
+        "Housing and homelessness"
+      ],
+      "audiences": [],
+      "lastChecked": "2026-10-31",
+      "nextReview": "2026-11-28",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-10-31",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "coverage",
+          "check"
+        ],
+        "notes": "Costs and current capacity are not stated. Accommodation eligibility and bed availability were not assessed.",
+        "evidenceUrls": [
+          "https://firmfoundation.org.uk/how-to-get-referred/",
+          "https://firmfoundation.org.uk/contact-us/"
+        ]
+      }
     }
   ],
   "areaDownloads": {
