@@ -1,23 +1,11 @@
 {
   "asOf": "2026-10-31",
   "total": 888,
-  "attempted": 43,
-  "attemptedInLast28Days": 43,
-  "sourceReadInLast28Days": 43,
+  "attempted": 47,
+  "attemptedInLast28Days": 47,
+  "sourceReadInLast28Days": 47,
   "lastRecordedRun": "2026-10-31",
   "monthlySourceChecksOverdue": [
-    {
-      "id": "brent-hubs",
-      "name": "Brent Hubs — help in one place",
-      "area": "brent",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "brent-social-prescribing",
-      "name": "Brent Mencap — social prescribing",
-      "area": "brent",
-      "lastSourceRead": "2026-09-18"
-    },
     {
       "id": "brent-talking-therapies",
       "name": "Brent NHS Talking Therapies",
@@ -37,20 +25,8 @@
       "lastSourceRead": "2026-09-18"
     },
     {
-      "id": "brent-sufra-garden",
-      "name": "St Raphael’s Edible Garden — Sufra",
-      "area": "brent",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
       "id": "brent-sufra-openarms",
       "name": "Sufra OpenARMs — refugee and migrant support",
-      "area": "brent",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "brent-sufra-kitchen",
-      "name": "Sufra — community kitchens",
       "area": "brent",
       "lastSourceRead": "2026-09-18"
     },
@@ -1706,7 +1682,7 @@
     },
     {
       "day": "2026-10-31",
-      "regular": 3,
+      "regular": 7,
       "retries": 0
     }
   ]

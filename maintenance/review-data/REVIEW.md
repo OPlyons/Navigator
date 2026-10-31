@@ -1,9 +1,9 @@
 # Directory review queue
 
-Updated: 2026-10-31. 43 of 888 listings attempted in the last 28 days.
-43 listings had provider or official source content read in that period.
+Updated: 2026-10-31. 47 of 888 listings attempted in the last 28 days.
+47 listings had provider or official source content read in that period.
 Last recorded run: 2026-10-31.
-274 listings are overdue for a source check. Routine capacity: 1344 per 28 days.
+270 listings are overdue for a source check. Routine capacity: 1344 per 28 days.
 
 Automated source checks do not confirm availability. Evidence-backed factual updates and actual source-check dates are published through the normal quality checks; ambiguous findings stay here.
 
