@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "kind": "source_reviews",
+  "sourceDay": "2026-10-31",
+  "applied": [
+    {
+      "id": "brent-sufra-kitchen",
+      "checkedOn": "2026-10-31",
+      "fields": [],
+      "beforeFingerprint": "dba817bbbd2b706cf465e841fae4c3b4827b23c04f5dca0452af4e416c9436d7",
+      "afterFingerprint": "dba817bbbd2b706cf465e841fae4c3b4827b23c04f5dca0452af4e416c9436d7"
+    },
+    {
+      "id": "brent-sufra-garden",
+      "checkedOn": "2026-10-31",
+      "fields": [],
+      "beforeFingerprint": "e18c82bcb93c03b81a2b2effb5f60e60ab9fbf9b3191ce23dec1df29bdb9efaa",
+      "afterFingerprint": "e18c82bcb93c03b81a2b2effb5f60e60ab9fbf9b3191ce23dec1df29bdb9efaa"
+    },
+    {
+      "id": "brent-social-prescribing",
+      "checkedOn": "2026-10-31",
+      "fields": [],
+      "beforeFingerprint": "bd9c191da4336235f1cb7ce4db566ab26d9ab637d28b9c600a315d2dbb0a0ff0",
+      "afterFingerprint": "bd9c191da4336235f1cb7ce4db566ab26d9ab637d28b9c600a315d2dbb0a0ff0"
+    },
+    {
+      "id": "brent-hubs",
+      "checkedOn": "2026-10-31",
+      "fields": [],
+      "beforeFingerprint": "56b253d717c2b87f61286f09ba1984281c2cca5b0cb4dc569308c2472a7432ad",
+      "afterFingerprint": "56b253d717c2b87f61286f09ba1984281c2cca5b0cb4dc569308c2472a7432ad"
+    }
+  ],
+  "skipped": []
+}

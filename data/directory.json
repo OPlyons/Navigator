@@ -1024,12 +1024,27 @@
         "employment",
         "drop-in"
       ],
-      "lastChecked": "2026-09-18",
-      "nextReview": "2026-10-16",
+      "lastChecked": "2026-10-31",
+      "nextReview": "2026-11-28",
       "sourceUrl": "https://www.brent.gov.uk/brent-hubs",
       "sourceOwner": "Brent Council",
-      "verificationStatus": "Council or government website checked",
-      "audiences": []
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "audiences": [],
+      "sourceCheck": {
+        "date": "2026-10-31",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "access",
+          "check",
+          "url"
+        ],
+        "notes": "Council describes free help with housing, benefits, work, food and digital skills, with different local hubs and drop-in arrangements. Individual eligibility and availability were not confirmed.",
+        "evidenceUrls": [
+          "https://www.brent.gov.uk/brent-hubs"
+        ]
+      }
     },
     {
       "id": "brent-indian-association",
@@ -1208,14 +1223,29 @@
         "loneliness",
         "community navigation"
       ],
-      "lastChecked": "2026-09-18",
-      "nextReview": "2026-10-16",
+      "lastChecked": "2026-10-31",
+      "nextReview": "2026-11-28",
       "sourceUrl": "https://www.brentmencap.org.uk/social-prescribing",
       "sourceOwner": "Brent Mencap",
-      "verificationStatus": "Provider website checked",
+      "verificationStatus": "Automated source check; current availability not confirmed",
       "audiences": [
         "disabled"
-      ]
+      ],
+      "sourceCheck": {
+        "date": "2026-10-31",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "url"
+        ],
+        "notes": "Provider describes non-medical practical support and says people registered with a Brent GP may ask for an appointment. The page describes a practice map; current availability and phone were not confirmed.",
+        "evidenceUrls": [
+          "https://www.brentmencap.org.uk/social-prescribing"
+        ]
+      }
     },
     {
       "id": "brent-talking-therapies",
@@ -2134,12 +2164,26 @@
         "outdoors",
         "activities"
       ],
-      "lastChecked": "2026-09-18",
-      "nextReview": "2026-10-16",
+      "lastChecked": "2026-10-31",
+      "nextReview": "2026-11-28",
       "sourceUrl": "https://www.sufra-nwlondon.org.uk/our-services/community-garden/",
       "sourceOwner": "Sufra NW London",
-      "verificationStatus": "Provider website checked",
-      "audiences": []
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "audiences": [],
+      "sourceCheck": {
+        "date": "2026-10-31",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "url"
+        ],
+        "notes": "Provider describes the community garden, food growing and community activities. Current opening arrangements, activity charges and phone were not confirmed.",
+        "evidenceUrls": [
+          "https://www.sufra-nwlondon.org.uk/our-services/community-garden/"
+        ]
+      }
     },
     {
       "id": "brent-sufra-openarms",
@@ -2218,12 +2262,27 @@
         "social connection",
         "free"
       ],
-      "lastChecked": "2026-09-18",
-      "nextReview": "2026-10-16",
+      "lastChecked": "2026-10-31",
+      "nextReview": "2026-11-28",
       "sourceUrl": "https://www.sufra-nwlondon.org.uk/our-services/community-kitchen/",
       "sourceOwner": "Sufra NW London",
-      "verificationStatus": "Provider website checked",
-      "audiences": []
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "audiences": [],
+      "sourceCheck": {
+        "date": "2026-10-31",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "access",
+          "check",
+          "url"
+        ],
+        "notes": "Provider lists free hot meals, no booking, and multiple venues. Individual dietary suitability, availability and phone were not confirmed.",
+        "evidenceUrls": [
+          "https://www.sufra-nwlondon.org.uk/our-services/community-kitchen/"
+        ]
+      }
     },
     {
       "id": "brent-sufra-wellbeing",
