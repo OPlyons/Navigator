@@ -1,7 +1,178 @@
 {
   "schemaVersion": 1,
-  "updatedOn": null,
-  "cells": {},
-  "days": {},
-  "candidates": []
+  "updatedOn": "2026-10-31",
+  "cells": {
+    "[\"brent\",\"Legal advice and rights\"]": {
+      "directoryId": "brent",
+      "category": "Legal advice and rights",
+      "lastAttempt": "2026-10-31",
+      "outcome": "completed"
+    },
+    "[\"brent\",\"Alcohol and drug support\"]": {
+      "directoryId": "brent",
+      "category": "Alcohol and drug support",
+      "lastAttempt": "2026-10-31",
+      "outcome": "completed"
+    },
+    "[\"brent\",\"Carers and family\"]": {
+      "directoryId": "brent",
+      "category": "Carers and family",
+      "lastAttempt": "2026-10-31",
+      "outcome": "completed"
+    },
+    "[\"harrow\",\"Legal advice and rights\"]": {
+      "directoryId": "harrow",
+      "category": "Legal advice and rights",
+      "lastAttempt": "2026-10-31",
+      "outcome": "completed"
+    },
+    "[\"harrow\",\"Alcohol and drug support\"]": {
+      "directoryId": "harrow",
+      "category": "Alcohol and drug support",
+      "lastAttempt": "2026-10-31",
+      "outcome": "completed"
+    },
+    "[\"harrow\",\"Housing and homelessness\"]": {
+      "directoryId": "harrow",
+      "category": "Housing and homelessness",
+      "lastAttempt": "2026-10-31",
+      "outcome": "completed"
+    }
+  },
+  "days": {
+    "2026-10-31": {
+      "cells": [
+        "[\"brent\",\"Legal advice and rights\"]",
+        "[\"brent\",\"Alcohol and drug support\"]",
+        "[\"brent\",\"Carers and family\"]",
+        "[\"harrow\",\"Legal advice and rights\"]",
+        "[\"harrow\",\"Alcohol and drug support\"]",
+        "[\"harrow\",\"Housing and homelessness\"]"
+      ],
+      "candidateIds": [
+        "discovery-c43ba1d6670bf4187da9",
+        "discovery-141093285a7407491aec",
+        "discovery-1a657b8c764ec0ca87fc"
+      ]
+    }
+  },
+  "candidates": [
+    {
+      "id": "discovery-c43ba1d6670bf4187da9",
+      "status": "proposed",
+      "firstSeen": "2026-10-31",
+      "sourceCheckedOn": "2026-10-31",
+      "resource": {
+        "name": "John Fisher Free Legal Advice Clinic",
+        "directoryId": "brent",
+        "category": "Legal advice and rights",
+        "description": "Initial advice on consumer, employment, family, housing and insurance problems.",
+        "who": "People who live or work in Brent.",
+        "access": "Use the clinic contact details on the LawWorks page to ask about an appointment. Do not attend without confirmation.",
+        "check": "Free initial legal advice. Confirm the session and any assessment requirements before attending.",
+        "url": "https://www.lawworks.org.uk/find-legal-advice/individuals/john-fisher-free-legal-advice-clinic",
+        "sourceUrl": "https://www.lawworks.org.uk/find-legal-advice/individuals/john-fisher-free-legal-advice-clinic",
+        "sourceOwner": "LawWorks",
+        "coverage": "Brent residents and people working in Brent."
+      },
+      "sources": [
+        {
+          "url": "https://www.lawworks.org.uk/find-legal-advice/individuals/john-fisher-free-legal-advice-clinic",
+          "ownerType": "official_network",
+          "retrieval": "page",
+          "note": "LawWorks lists this specific clinic, its legal topics, Brent eligibility and appointment-only access. A current Citizens Advice Brent partner search result also describes its free Tuesday-evening service."
+        }
+      ],
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "coverage",
+        "check"
+      ],
+      "evidence": "LawWorks lists this specific clinic, its legal topics, Brent eligibility and appointment-only access. A current Citizens Advice Brent partner search result also describes its free Tuesday-evening service.",
+      "limitations": "Current appointment availability was not confirmed. The provider legal-advice URL did not load; the listing uses the readable official clinic-network page and does not reproduce its telephone number."
+    },
+    {
+      "id": "discovery-141093285a7407491aec",
+      "status": "proposed",
+      "firstSeen": "2026-10-31",
+      "sourceCheckedOn": "2026-10-31",
+      "resource": {
+        "name": "Sangam Advice Centre — legal advice",
+        "directoryId": "harrow",
+        "category": "Legal advice and rights",
+        "description": "Advice on welfare, housing, immigration, employment, debt and family matters.",
+        "who": "Adults over 18 who live, work or study in Barnet, Brent or Harrow.",
+        "access": "Phone 020 8952 7062 to ask about the advice you need and how to access it.",
+        "check": "The NHS profile lists legal advice as free. Confirm current arrangements and whether the service can help with your issue.",
+        "url": "https://www.sangamcentre.org.uk/",
+        "sourceUrl": "https://www.nhs.uk/services/service-directory/sangam-centre/N10498810",
+        "sourceOwner": "NHS service directory — Sangam Centre",
+        "coverage": "Barnet, Brent and Harrow; this listing provides the Harrow access route."
+      },
+      "sources": [
+        {
+          "url": "https://www.nhs.uk/services/service-directory/sangam-centre/N10498810",
+          "ownerType": "nhs",
+          "retrieval": "page",
+          "note": "The NHS profile describes free legal advice for adults over 18 living, working or studying in Barnet, Brent or Harrow, with a service contact number."
+        }
+      ],
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "coverage",
+        "check"
+      ],
+      "evidence": "The NHS profile describes free legal advice for adults over 18 living, working or studying in Barnet, Brent or Harrow, with a service contact number.",
+      "limitations": "NHS record supplied on 18 August 2026. Current waiting times, appointment arrangements and accessibility were not confirmed. No duplicate local entries were created for other areas."
+    },
+    {
+      "id": "discovery-1a657b8c764ec0ca87fc",
+      "status": "proposed",
+      "firstSeen": "2026-10-31",
+      "sourceCheckedOn": "2026-10-31",
+      "resource": {
+        "name": "FirmFoundation — Harrow food and shower drop-in",
+        "directoryId": "harrow",
+        "category": "Housing and homelessness",
+        "description": "A local drop-in offering food, showers and contact with homelessness support.",
+        "who": "People with no accommodation who are sleeping rough in Harrow.",
+        "access": "Use the provider contact page or phone 020 8426 5515 to check visiting arrangements at the Welldon Centre, Welldon Crescent, Harrow HA1 1QR.",
+        "check": "Confirm current opening times and any charges before travelling. This is a drop-in support route, not a promise of a shelter bed.",
+        "url": "https://firmfoundation.org.uk/how-to-get-referred/",
+        "sourceUrl": "https://firmfoundation.org.uk/how-to-get-referred/",
+        "sourceOwner": "FirmFoundation",
+        "coverage": "People sleeping rough in Harrow."
+      },
+      "sources": [
+        {
+          "url": "https://firmfoundation.org.uk/how-to-get-referred/",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "The provider access page identifies rough sleepers in Harrow and its food/shower drop-in. Its contact page gives the Welldon Centre location, office contact and regular drop-in sessions."
+        },
+        {
+          "url": "https://firmfoundation.org.uk/contact-us/",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "Provider contact page read: drop-in location, regular sessions and office contact published."
+        }
+      ],
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "coverage",
+        "check"
+      ],
+      "evidence": "The provider access page identifies rough sleepers in Harrow and its food/shower drop-in. Its contact page gives the Welldon Centre location, office contact and regular drop-in sessions.",
+      "limitations": "Costs and current capacity are not stated. Accommodation eligibility and bed availability were not assessed."
+    }
+  ]
 }
