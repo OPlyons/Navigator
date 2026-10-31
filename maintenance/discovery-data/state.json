@@ -59,7 +59,7 @@
   "candidates": [
     {
       "id": "discovery-c43ba1d6670bf4187da9",
-      "status": "proposed",
+      "status": "added",
       "firstSeen": "2026-10-31",
       "sourceCheckedOn": "2026-10-31",
       "resource": {
@@ -92,11 +92,14 @@
         "check"
       ],
       "evidence": "LawWorks lists this specific clinic, its legal topics, Brent eligibility and appointment-only access. A current Citizens Advice Brent partner search result also describes its free Tuesday-evening service.",
-      "limitations": "Current appointment availability was not confirmed. The provider legal-advice URL did not load; the listing uses the readable official clinic-network page and does not reproduce its telephone number."
+      "limitations": "Current appointment availability was not confirmed. The provider legal-advice URL did not load; the listing uses the readable official clinic-network page and does not reproduce its telephone number.",
+      "publishedResourceId": "brent-discovered-fc0494d78663",
+      "publishedCommit": "4adc0b46e42ae4643411bd96ad3de38c7c02c62d",
+      "publishedOn": "2026-10-31"
     },
     {
       "id": "discovery-141093285a7407491aec",
-      "status": "proposed",
+      "status": "added",
       "firstSeen": "2026-10-31",
       "sourceCheckedOn": "2026-10-31",
       "resource": {
@@ -129,11 +132,14 @@
         "check"
       ],
       "evidence": "The NHS profile describes free legal advice for adults over 18 living, working or studying in Barnet, Brent or Harrow, with a service contact number.",
-      "limitations": "NHS record supplied on 18 August 2026. Current waiting times, appointment arrangements and accessibility were not confirmed. No duplicate local entries were created for other areas."
+      "limitations": "NHS record supplied on 18 August 2026. Current waiting times, appointment arrangements and accessibility were not confirmed. No duplicate local entries were created for other areas.",
+      "publishedResourceId": "harrow-discovered-5b9ab492f902",
+      "publishedCommit": "4adc0b46e42ae4643411bd96ad3de38c7c02c62d",
+      "publishedOn": "2026-10-31"
     },
     {
       "id": "discovery-1a657b8c764ec0ca87fc",
-      "status": "proposed",
+      "status": "added",
       "firstSeen": "2026-10-31",
       "sourceCheckedOn": "2026-10-31",
       "resource": {
@@ -172,7 +178,10 @@
         "check"
       ],
       "evidence": "The provider access page identifies rough sleepers in Harrow and its food/shower drop-in. Its contact page gives the Welldon Centre location, office contact and regular drop-in sessions.",
-      "limitations": "Costs and current capacity are not stated. Accommodation eligibility and bed availability were not assessed."
+      "limitations": "Costs and current capacity are not stated. Accommodation eligibility and bed availability were not assessed.",
+      "publishedResourceId": "harrow-discovered-4a4be2415f45",
+      "publishedCommit": "4adc0b46e42ae4643411bd96ad3de38c7c02c62d",
+      "publishedOn": "2026-10-31"
     }
   ]
 }
