@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "day": "2026-10-31",
+  "catalogueCount": 888,
+  "results": [
+    {
+      "id": "brent-libraries",
+      "status": "no_change_found",
+      "summary": "Council lists Brent libraries, books, computer and study bookings, activities and online joining. The page links to charges but does not give all activity prices or individual availability.",
+      "checkedFields": [
+        "name",
+        "description",
+        "access",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://www.brent.gov.uk/libraries-arts-and-heritage/libraries",
+          "ownerType": "council",
+          "retrieval": "page",
+          "note": "Council lists Brent libraries, books, computer and study bookings, activities and online joining. The page links to charges but does not give all activity prices or individual availability."
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "7ebc953769ae973be8f3fff34bc8e9ec45b8b505b5966f9947a9f416e53a5db4"
+    },
+    {
+      "id": "brent-keep-well",
+      "status": "no_change_found",
+      "summary": "Provider describes Brent discharge support, wellbeing connections, self-referral and telephone extension. It does not specify costs or guarantee current places.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "phone",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ashfordplace.org.uk/our-work/supporting-health-wellbeing/keep-well-discharge-support",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "Provider describes Brent discharge support, wellbeing connections, self-referral and telephone extension. It does not specify costs or guarantee current places."
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "80f4ac4aef8adb524097265cfa5abe1e8ff657b0c8438694c10646440ff76689"
+    },
+    {
+      "id": "brent-mencap",
+      "status": "no_change_found",
+      "summary": "Provider describes Brent support for people with learning disabilities and long-term conditions and unpaid carers, with creative activities and the listed phone number. Individual session costs and availability are not stated.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "phone",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://www.brentmencap.org.uk/",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "Provider describes Brent support for people with learning disabilities and long-term conditions and unpaid carers, with creative activities and the listed phone number. Individual session costs and availability are not stated."
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "c27c7d1b13e82367e31352fc0ecf78cd0083a740bb0030dd483fc0c6e2a1009a"
+    }
+  ]
+}

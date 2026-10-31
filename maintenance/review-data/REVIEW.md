@@ -1,12 +1,13 @@
 # Directory review queue
 
-Updated: 2026-10-27. 40 of 887 listings attempted in the last 28 days.
-40 listings had provider or official source content read in that period.
-Last recorded run: 2026-10-27.
+Updated: 2026-10-31. 43 of 888 listings attempted in the last 28 days.
+43 listings had provider or official source content read in that period.
+Last recorded run: 2026-10-31.
+274 listings are overdue for a source check. Routine capacity: 1344 per 28 days.
 
-Automated source checks do not confirm availability or replace a person reviewing important changes. The live directory and its information-checked dates remain unchanged.
+Automated source checks do not confirm availability. Evidence-backed factual updates and actual source-check dates are published through the normal quality checks; ambiguous findings stay here.
 
-## Suggested corrections
+## Findings
 
 ### Black Girls Do Run UK — North West London — brent
 Field: **who**
