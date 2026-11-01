@@ -445,10 +445,10 @@
       "name": "Black Girls Do Run UK — North West London",
       "category": "Sport and movement",
       "description": "Group running with a focus on connection and representation for Black women.",
-      "who": "Black women and women of colour, including people new to running.",
+      "who": "Black women aged 18 and over, including people new to running.",
       "access": "Use the provider’s Join Our Next Run link and choose the North West London session.",
       "check": "Free. Check the meeting point and current session; Brent Council lists a local group.",
-      "url": "https://www.blackgirlsdorun.co.uk/",
+      "url": "https://www.blackgirlsdorun.co.uk/north-west-london",
       "phone": "",
       "picture": "community",
       "tags": [
@@ -459,8 +459,8 @@
         "beginner",
         "social"
       ],
-      "lastChecked": "2026-10-26",
-      "nextReview": "2026-11-23",
+      "lastChecked": "2026-11-01",
+      "nextReview": "2026-11-29",
       "sourceUrl": "https://www.blackgirlsdorun.co.uk/",
       "sourceOwner": "Black Girls Do Run UK",
       "verificationStatus": "Automated source check; current availability not confirmed",
@@ -469,7 +469,7 @@
         "culture-faith"
       ],
       "sourceCheck": {
-        "date": "2026-10-26",
+        "date": "2026-11-01",
         "method": "automated",
         "checkedFields": [
           "name",
@@ -479,9 +479,8 @@
           "check",
           "url"
         ],
-        "notes": "The provider confirms free North West London social running, beginners welcome, and joining through its next-run/Heylo route. Its local programme page explicitly says age 18 and over; the listing omits this. Propose adding the stated age minimum. The next session and individual accessibility still need checking; a phone contact was not published in the material read.",
+        "notes": "The provider confirms the free North West London social run, beginners welcome, weekly term-time sessions and joining through its next-run link. It explicitly describes the participants as Black women aged 18 and over; current dates and individual accessibility still need checking.",
         "evidenceUrls": [
-          "https://www.blackgirlsdorun.co.uk/",
           "https://www.blackgirlsdorun.co.uk/north-west-london"
         ]
       }
@@ -1253,11 +1252,11 @@
       "name": "Brent NHS Talking Therapies",
       "category": "Mental health and wellbeing",
       "description": "Talking therapy for depression, anxiety and difficulties coping with everyday life.",
-      "who": "People with a Brent connection; ask the team about age and GP criteria.",
+      "who": "People aged over 16 who live, work, study or are registered with a GP in Brent.",
       "access": "Use the NHS online self-referral link on the service page, or ask your GP.",
       "check": "Free. Use the online referral route to check eligibility. This service does not provide urgent support.",
       "url": "https://www.cnwl.nhs.uk/services/mental-health-services/adult-and-older-adult/brent-talking-therapies",
-      "phone": "",
+      "phone": "020 8206 3924",
       "picture": "talk",
       "tags": [
         "anxiety",
@@ -1266,12 +1265,29 @@
         "self-referral",
         "NHS"
       ],
-      "lastChecked": "2026-09-18",
-      "nextReview": "2026-10-16",
+      "lastChecked": "2026-11-01",
+      "nextReview": "2026-11-29",
       "sourceUrl": "https://www.cnwl.nhs.uk/services/mental-health-services/adult-and-older-adult/brent-talking-therapies",
       "sourceOwner": "CNWL NHS",
-      "verificationStatus": "Provider website checked",
-      "audiences": []
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "audiences": [],
+      "sourceCheck": {
+        "date": "2026-11-01",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "check",
+          "phone",
+          "url"
+        ],
+        "notes": "The NHS page confirms free talking therapy for depression and anxiety, eligibility for people over 16 with a stated Brent connection, and direct self-referral online or by phone. Availability and individual clinical suitability remain for the service to assess.",
+        "evidenceUrls": [
+          "https://www.cnwl.nhs.uk/services/mental-health-services/adult-and-older-adult/brent-talking-therapies"
+        ]
+      }
     },
     {
       "id": "brent-crisis-fund",
@@ -1293,25 +1309,23 @@
         "financial hardship",
         "white goods"
       ],
-      "lastChecked": "2026-10-27",
-      "nextReview": "2026-11-24",
+      "lastChecked": "2026-11-01",
+      "nextReview": "2026-11-29",
       "sourceUrl": "https://www.brent.gov.uk/benefits-and-money-advice/resident-support-fund",
       "sourceOwner": "Brent Council",
       "verificationStatus": "Automated source check; current availability not confirmed",
       "audiences": [],
       "sourceCheck": {
-        "date": "2026-10-27",
+        "date": "2026-11-01",
         "method": "automated",
         "checkedFields": [
           "name",
           "description",
           "who",
-          "access",
           "check",
-          "phone",
           "url"
         ],
-        "notes": "The council supports the fund purpose, adult Brent residency, savings rules, online application, Hub assistance and listed phone. Propose clarifying the application limit and partner rule. Awards remain discretionary; individual entitlement cannot be confirmed.",
+        "notes": "The council confirms the discretionary crisis fund for Brent residents aged 18+, savings under £6,000, essential costs and emergencies, with one application per rolling 12 months. Individual entitlement remains discretionary; the phone was not checked on the material read.",
         "evidenceUrls": [
           "https://www.brent.gov.uk/benefits-and-money-advice/resident-support-fund"
         ]
@@ -1337,12 +1351,28 @@
         "employment",
         "courses"
       ],
-      "lastChecked": "2026-09-18",
-      "nextReview": "2026-10-16",
+      "lastChecked": "2026-11-01",
+      "nextReview": "2026-11-29",
       "sourceUrl": "https://www.brent.gov.uk/jobs-training-and-skills/courses-training-and-skills",
       "sourceOwner": "Brent Council",
-      "verificationStatus": "Council or government website checked",
-      "audiences": []
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "audiences": [],
+      "sourceCheck": {
+        "date": "2026-11-01",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "check",
+          "url"
+        ],
+        "notes": "The council confirms Brent Start as its adult education college, with courses, enrolment information, variable fees and discounts, and financial support for eligible learners. The listed phone and exact course availability were not published in the page material read.",
+        "evidenceUrls": [
+          "https://www.brent.gov.uk/jobs-training-and-skills/courses-training-and-skills"
+        ]
+      }
     },
     {
       "id": "brent-works",
@@ -1354,7 +1384,7 @@
       "access": "Register as a resident on the portal or use Get support.",
       "check": "Vacancies change. Ask what support is available for your skills, health and circumstances.",
       "url": "https://brentworks.brent.gov.uk/Default.aspx",
-      "phone": "",
+      "phone": "020 8937 6295",
       "picture": "book",
       "tags": [
         "employment",
@@ -1363,12 +1393,29 @@
         "CV",
         "training"
       ],
-      "lastChecked": "2026-09-18",
-      "nextReview": "2026-10-16",
+      "lastChecked": "2026-11-01",
+      "nextReview": "2026-11-29",
       "sourceUrl": "https://brentworks.brent.gov.uk/Default.aspx",
       "sourceOwner": "Brent Council",
-      "verificationStatus": "Council or government website checked",
-      "audiences": []
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "audiences": [],
+      "sourceCheck": {
+        "date": "2026-11-01",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "check",
+          "phone",
+          "url"
+        ],
+        "notes": "The council employment portal confirms local jobs, apprenticeships, resident registration and support through local providers. It also publishes a direct contact phone; vacancy availability changes.",
+        "evidenceUrls": [
+          "https://brentworks.brent.gov.uk/Default.aspx"
+        ]
+      }
     },
     {
       "id": "brent-accessible-travel",
@@ -2206,14 +2253,28 @@
         "benefits",
         "community"
       ],
-      "lastChecked": "2026-09-18",
-      "nextReview": "2026-10-16",
+      "lastChecked": "2026-11-01",
+      "nextReview": "2026-11-29",
       "sourceUrl": "https://www.sufra-nwlondon.org.uk/our-services/refugee-support/",
       "sourceOwner": "Sufra NW London",
-      "verificationStatus": "Provider website checked",
+      "verificationStatus": "Automated source check; current availability not confirmed",
       "audiences": [
         "culture-faith"
-      ]
+      ],
+      "sourceCheck": {
+        "date": "2026-11-01",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "url"
+        ],
+        "notes": "The provider confirms OpenARMs support for asylum seekers, refugees and migrants, including tailored welfare advice, English activities, coffee mornings and other resettlement support. The page did not confirm the current timetable, no-registration claim or listing phone.",
+        "evidenceUrls": [
+          "https://www.sufra-nwlondon.org.uk/our-services/refugee-support/"
+        ]
+      }
     },
     {
       "id": "brent-sufra-advice",
@@ -2303,12 +2364,29 @@
         "advice",
         "membership"
       ],
-      "lastChecked": "2026-09-18",
-      "nextReview": "2026-10-16",
+      "lastChecked": "2026-11-01",
+      "nextReview": "2026-11-29",
       "sourceUrl": "https://www.sufra-nwlondon.org.uk/our-services/community-wellbeing-service/",
       "sourceOwner": "Sufra NW London",
-      "verificationStatus": "Provider website checked",
-      "audiences": []
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "audiences": [],
+      "sourceCheck": {
+        "date": "2026-11-01",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "check",
+          "phone",
+          "url"
+        ],
+        "notes": "The provider confirms the Community Wellbeing Service membership, its £4 weekly cost, three-month model, Brent family eligibility, means-tested benefit rule and dependent-age criteria. Individual availability is not confirmed.",
+        "evidenceUrls": [
+          "https://www.sufra-nwlondon.org.uk/our-services/community-wellbeing-service/"
+        ]
+      }
     },
     {
       "id": "brent-sufra-food",
@@ -2386,14 +2464,31 @@
         "self-referral",
         "carers"
       ],
-      "lastChecked": "2026-09-18",
-      "nextReview": "2026-10-16",
+      "lastChecked": "2026-11-01",
+      "nextReview": "2026-11-29",
       "sourceUrl": "https://www.viaorg.uk/services/brent-new-beginnings/",
       "sourceOwner": "Via",
-      "verificationStatus": "Provider website checked",
+      "verificationStatus": "Automated source check; current availability not confirmed",
       "audiences": [
         "carers"
-      ]
+      ],
+      "sourceCheck": {
+        "date": "2026-11-01",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "check",
+          "phone",
+          "url"
+        ],
+        "notes": "The provider confirms free confidential support for Brent residents aged 18+, direct contact and online registration, professional referral routes, family and carer support, naloxone and women-only sessions. Current places are not confirmed.",
+        "evidenceUrls": [
+          "https://www.viaorg.uk/services/brent-new-beginnings/"
+        ]
+      }
     },
     {
       "id": "brent-wembley-central-masjid",
