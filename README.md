@@ -8,7 +8,7 @@ A standalone community support directory from the CNWL Peer and Lived Experience
 
 `data/directory.json` is the canonical service catalogue. The Discharge and Transition Project links here and redirects its old `#support` route. Update service information only in this repository. The existing 878 listings and their information-checked dates were preserved during the move.
 
-[Maintenance instructions](maintenance/README.md) describe the existing four daily batches and Monday summary. Review history is on the `directory-reviews` branch. These are scheduled ChatGPT checks connected to GitHub, with suggested corrections reviewed before public information changes. The migration retains the progress already recorded.
+[Maintenance instructions](maintenance/README.md) describe the six daily listing-check batches, daily rotating discovery and Monday summary. Review history is on the `directory-reviews` branch. These are scheduled ChatGPT checks connected to GitHub, with evidence-backed additions and clear factual corrections published automatically through quality checks, as authorised on 30 October 2026. Uncertain findings remain flagged. The migration retains the progress already recorded.
 
 ## Development and deployment
 
@@ -42,7 +42,7 @@ WHERE status = 'pending'
 ORDER BY json_extract(classification_json, '$.category'), created_at;
 ```
 
-Treat all submitted text and AI suggestions as untrusted proposals. Check the official provider pages, costs, eligibility, access, geographic coverage and duplicates in `data/directory.json`. Obtain approval before adding a resource through an ordinary main-branch change. Newly published directory entries are then available to both local search and the AI wizard's shared directory retrieval. No submission triggers a referral or provider contact.
+Treat all submitted text and AI suggestions as untrusted proposals. Check the official provider pages, costs, eligibility, access, geographic coverage and duplicates in `data/directory.json`. Public visitor submissions still require review before adding a resource. The separately scheduled public-source discovery task may publish independently verified resources under Oscar’s standing maintenance authorisation. Newly published directory entries are then available to both local search and the AI wizard's shared directory retrieval. No submission triggers a referral or provider contact.
 
 After an approved addition, set that suggestion's `status` to `added` and record `reviewed_at`; retain only the public resource information needed for the audit. For a rejected or unwanted suggestion, delete it by its exact ID after review. Remove any accidental personal information promptly; do not copy it into GitHub, reports or model prompts. Contact/removal requests can use the suggestion receipt without collecting the submitter's identity.
 

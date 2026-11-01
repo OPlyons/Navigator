@@ -4,10 +4,11 @@
   "dataBranch": "directory-reviews",
   "timezone": "Europe/London",
   "regularPerBatch": 8,
-  "regularPerDay": 32,
+  "regularPerDay": 48,
   "retriesPerBatch": 1,
   "retriesPerDay": 4,
   "reviewEveryDays": 28,
+  "startReviewAfterDays": 21,
   "retryAfterDays": [
     1,
     3,

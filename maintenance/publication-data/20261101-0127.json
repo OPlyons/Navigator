@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "kind": "source_reviews",
+  "sourceDay": "2026-11-01",
+  "applied": [
+    {
+      "id": "brent-black-girls-do-run",
+      "checkedOn": "2026-11-01",
+      "fields": [
+        "who",
+        "url"
+      ],
+      "beforeFingerprint": "ac472088154b31fa09ae25980221ce81fb677e6a7856b6a53fa2bf24b1fe8f25",
+      "afterFingerprint": "fd0570a5d350cb8f9c88cb9501ba1087eaf6d4d72bff5ddc262de7f3d0123422"
+    },
+    {
+      "id": "brent-crisis-fund",
+      "checkedOn": "2026-11-01",
+      "fields": [],
+      "beforeFingerprint": "e284e59369634d9325dc3ea41efedde61208cfa2b6a486687960eadb5979e36f",
+      "afterFingerprint": "e284e59369634d9325dc3ea41efedde61208cfa2b6a486687960eadb5979e36f"
+    },
+    {
+      "id": "brent-start",
+      "checkedOn": "2026-11-01",
+      "fields": [],
+      "beforeFingerprint": "ea2073cab7cfe4973522389f8186191f4a0e67ee64aa4479bb105a827ab67ee8",
+      "afterFingerprint": "ea2073cab7cfe4973522389f8186191f4a0e67ee64aa4479bb105a827ab67ee8"
+    },
+    {
+      "id": "brent-sufra-openarms",
+      "checkedOn": "2026-11-01",
+      "fields": [],
+      "beforeFingerprint": "efb9810c6eab6e0499532b77880e9668f5ba1fab3bc5dcaaa6c0f9965d3ad5fa",
+      "afterFingerprint": "efb9810c6eab6e0499532b77880e9668f5ba1fab3bc5dcaaa6c0f9965d3ad5fa"
+    },
+    {
+      "id": "brent-sufra-wellbeing",
+      "checkedOn": "2026-11-01",
+      "fields": [],
+      "beforeFingerprint": "2cf50c7dfe9504c049e86c16139fbe6edbd1ed0ceedc549b335ba20d406009d9",
+      "afterFingerprint": "2cf50c7dfe9504c049e86c16139fbe6edbd1ed0ceedc549b335ba20d406009d9"
+    },
+    {
+      "id": "brent-talking-therapies",
+      "checkedOn": "2026-11-01",
+      "fields": [
+        "who",
+        "phone"
+      ],
+      "beforeFingerprint": "9e57cb97da476581d1a8f30c3a407034a91c6ba207c2159fc9794512c74f8bbf",
+      "afterFingerprint": "b4d8cd4f9b54c3f5d039678482a9ea8fbcc5bd9d96db5ded1b684d3ecd7789be"
+    },
+    {
+      "id": "brent-via",
+      "checkedOn": "2026-11-01",
+      "fields": [],
+      "beforeFingerprint": "89e39e9405a22091f36658fbaa0a51390c6d9d37909dd22d9ae3a5286585923f",
+      "afterFingerprint": "89e39e9405a22091f36658fbaa0a51390c6d9d37909dd22d9ae3a5286585923f"
+    },
+    {
+      "id": "brent-works",
+      "checkedOn": "2026-11-01",
+      "fields": [
+        "phone"
+      ],
+      "beforeFingerprint": "42df8bb49f1bad481bc094d8437a0feea8e75846c512638e1f19f26d82db417d",
+      "afterFingerprint": "491a51318a80798e27e798dac8a0338fb39fc3a8f8669e758944f0ab0b56a859"
+    }
+  ],
+  "skipped": []
+}

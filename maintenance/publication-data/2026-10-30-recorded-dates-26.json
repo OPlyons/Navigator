@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "kind": "recorded_source_dates",
+  "sourceDay": "2026-10-26",
+  "applied": [
+    {
+      "id": "acas",
+      "checkedOn": "2026-10-26",
+      "fields": [],
+      "beforeFingerprint": "dcad2dfbe8a21acf13ccc1e7727915d5a2c2c59897f127d6c4d46c85f2738928",
+      "afterFingerprint": "dcad2dfbe8a21acf13ccc1e7727915d5a2c2c59897f127d6c4d46c85f2738928"
+    },
+    {
+      "id": "adhd-uk",
+      "checkedOn": "2026-10-26",
+      "fields": [],
+      "beforeFingerprint": "210f985582d006e08f43a5d2ce22913acf41daab8d6eda1ed124204811e19816",
+      "afterFingerprint": "210f985582d006e08f43a5d2ce22913acf41daab8d6eda1ed124204811e19816"
+    },
+    {
+      "id": "advice",
+      "checkedOn": "2026-10-26",
+      "fields": [],
+      "beforeFingerprint": "62465182385f11c72ac56fd7983a1ad983a750a5481d0a009b8b0a56b749a452",
+      "afterFingerprint": "62465182385f11c72ac56fd7983a1ad983a750a5481d0a009b8b0a56b749a452"
+    },
+    {
+      "id": "brent-accessible-travel",
+      "checkedOn": "2026-10-26",
+      "fields": [],
+      "beforeFingerprint": "3dc8712f3385d15c4fc9c6dbaa4e68d3b1aef1825e8611da9b669a05132bf2b8",
+      "afterFingerprint": "3dc8712f3385d15c4fc9c6dbaa4e68d3b1aef1825e8611da9b669a05132bf2b8"
+    },
+    {
+      "id": "brent-active-together-finder",
+      "checkedOn": "2026-10-26",
+      "fields": [],
+      "beforeFingerprint": "a6e51bfd394bbb1ad875a9f19d9e18ae0decec8c52f2154554b70219992f2605",
+      "afterFingerprint": "a6e51bfd394bbb1ad875a9f19d9e18ae0decec8c52f2154554b70219992f2605"
+    },
+    {
+      "id": "brent-adult-care",
+      "checkedOn": "2026-10-26",
+      "fields": [],
+      "beforeFingerprint": "e2dfb4b548eaa756b8bf7fb7a11e322d2a2a5fc3abad3bd19caf2be02694526d",
+      "afterFingerprint": "e2dfb4b548eaa756b8bf7fb7a11e322d2a2a5fc3abad3bd19caf2be02694526d"
+    },
+    {
+      "id": "brent-advance",
+      "checkedOn": "2026-10-26",
+      "fields": [],
+      "beforeFingerprint": "3861e0ba30c0f218a93352242b5a45d9f03a2194ca1fd96e6abdb2023a8b146c",
+      "afterFingerprint": "3861e0ba30c0f218a93352242b5a45d9f03a2194ca1fd96e6abdb2023a8b146c"
+    },
+    {
+      "id": "brent-ageuk",
+      "checkedOn": "2026-10-26",
+      "fields": [],
+      "beforeFingerprint": "056d34f1f92f130a812083c7f638a8a27fca66a366c40fee4e86e889fbb64c53",
+      "afterFingerprint": "056d34f1f92f130a812083c7f638a8a27fca66a366c40fee4e86e889fbb64c53"
+    },
+    {
+      "id": "brent-allkind-befriending",
+      "checkedOn": "2026-10-26",
+      "fields": [],
+      "beforeFingerprint": "3729dbd8ab42922277fcf1e798f4f639cb3f18e505409daf60ca87863d342c75",
+      "afterFingerprint": "3729dbd8ab42922277fcf1e798f4f639cb3f18e505409daf60ca87863d342c75"
+    },
+    {
+      "id": "brent-ashford-place",
+      "checkedOn": "2026-10-26",
+      "fields": [],
+      "beforeFingerprint": "275b45519f33950e55549fc3f0079c9bf46e34a1a8443612799c64c2c74c4883",
+      "afterFingerprint": "275b45519f33950e55549fc3f0079c9bf46e34a1a8443612799c64c2c74c4883"
+    },
+    {
+      "id": "brent-awrc",
+      "checkedOn": "2026-10-26",
+      "fields": [],
+      "beforeFingerprint": "abe1156e6ed2a83ac5c9ccad8734da416febf9f4061611a13627fb08f65896a2",
+      "afterFingerprint": "abe1156e6ed2a83ac5c9ccad8734da416febf9f4061611a13627fb08f65896a2"
+    },
+    {
+      "id": "brent-awrc-welfare-advice",
+      "checkedOn": "2026-10-26",
+      "fields": [],
+      "beforeFingerprint": "5003ae254505b73134cdb9cf1c3e28fc6bce18cdfdb3ff5de851c98647774315",
+      "afterFingerprint": "5003ae254505b73134cdb9cf1c3e28fc6bce18cdfdb3ff5de851c98647774315"
+    },
+    {
+      "id": "brent-barham-community-library",
+      "checkedOn": "2026-10-26",
+      "fields": [],
+      "beforeFingerprint": "d1d90fa1603f2b2442f560c0d8a082dc939e0b29c96137b6fdea9558a0866259",
+      "afterFingerprint": "d1d90fa1603f2b2442f560c0d8a082dc939e0b29c96137b6fdea9558a0866259"
+    },
+    {
+      "id": "brent-barn-hill-conservation",
+      "checkedOn": "2026-10-26",
+      "fields": [],
+      "beforeFingerprint": "4ef60d81e37464c7bc3341817613802be9ad87480ac34cf63cffc2de40c87a7f",
+      "afterFingerprint": "4ef60d81e37464c7bc3341817613802be9ad87480ac34cf63cffc2de40c87a7f"
+    },
+    {
+      "id": "brent-benefits",
+      "checkedOn": "2026-10-26",
+      "fields": [],
+      "beforeFingerprint": "92d551ea0333a51a051d1e13a1500190a0bae691d485eb31a1fb8efe30b7eccb",
+      "afterFingerprint": "92d551ea0333a51a051d1e13a1500190a0bae691d485eb31a1fb8efe30b7eccb"
+    },
+    {
+      "id": "brent-bhcac-dzezva-cafe",
+      "checkedOn": "2026-10-26",
+      "fields": [],
+      "beforeFingerprint": "da4e68e536829be760d3a8fda02dffcd005a276fa1e96e3d7590c900fa61cd96",
+      "afterFingerprint": "da4e68e536829be760d3a8fda02dffcd005a276fa1e96e3d7590c900fa61cd96"
+    },
+    {
+      "id": "brent-bias-active-ageing",
+      "checkedOn": "2026-10-26",
+      "fields": [],
+      "beforeFingerprint": "f2c26a31cf69d147bb62309c8cbd5436803a9d29123d3ee40177efd2ae5b80c7",
+      "afterFingerprint": "f2c26a31cf69d147bb62309c8cbd5436803a9d29123d3ee40177efd2ae5b80c7"
+    },
+    {
+      "id": "brent-black-girls-do-run",
+      "checkedOn": "2026-10-26",
+      "fields": [],
+      "beforeFingerprint": "ac472088154b31fa09ae25980221ce81fb677e6a7856b6a53fa2bf24b1fe8f25",
+      "afterFingerprint": "ac472088154b31fa09ae25980221ce81fb677e6a7856b6a53fa2bf24b1fe8f25"
+    },
+    {
+      "id": "brent-brondesbury-park-synagogue",
+      "checkedOn": "2026-10-26",
+      "fields": [],
+      "beforeFingerprint": "cf1677a7cc581cc71b7ab00010481e1bbceb0e38b94ff3504a50a9613069b9d4",
+      "afterFingerprint": "cf1677a7cc581cc71b7ab00010481e1bbceb0e38b94ff3504a50a9613069b9d4"
+    },
+    {
+      "id": "brent-carers-centre",
+      "checkedOn": "2026-10-26",
+      "fields": [],
+      "beforeFingerprint": "7caf031b4a024601d3da1aa7cc11f41d17f99b31df9dcb6d48848e0b866b4550",
+      "afterFingerprint": "7caf031b4a024601d3da1aa7cc11f41d17f99b31df9dcb6d48848e0b866b4550"
+    },
+    {
+      "id": "brent-changing-mindsets",
+      "checkedOn": "2026-10-26",
+      "fields": [],
+      "beforeFingerprint": "1238d2fc842af9a35a7ba08cc465b2f9f6e730b2fe53f54411639705c9d25fef",
+      "afterFingerprint": "1238d2fc842af9a35a7ba08cc465b2f9f6e730b2fe53f54411639705c9d25fef"
+    },
+    {
+      "id": "brent-citizens-advice",
+      "checkedOn": "2026-10-26",
+      "fields": [],
+      "beforeFingerprint": "a748457719c5f61ffb75e23df8188bd73de68022b925017c24da5376d870c0f8",
+      "afterFingerprint": "a748457719c5f61ffb75e23df8188bd73de68022b925017c24da5376d870c0f8"
+    },
+    {
+      "id": "brent-club-brent-sport",
+      "checkedOn": "2026-10-26",
+      "fields": [],
+      "beforeFingerprint": "2debee6327892092d0ff0e2df4eb5d7b5fb906003552bc794aa228aa2c3b80fe",
+      "afterFingerprint": "2debee6327892092d0ff0e2df4eb5d7b5fb906003552bc794aa228aa2c3b80fe"
+    },
+    {
+      "id": "brent-cove",
+      "checkedOn": "2026-10-26",
+      "fields": [],
+      "beforeFingerprint": "2f3ca4caab3f75be20a15eb566321949b12769510303fa6482dcc6cc0359b0dd",
+      "afterFingerprint": "2f3ca4caab3f75be20a15eb566321949b12769510303fa6482dcc6cc0359b0dd"
+    }
+  ],
+  "skipped": []
+}

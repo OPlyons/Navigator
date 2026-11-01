@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "kind": "recorded_source_dates",
+  "sourceDay": "2026-10-27",
+  "applied": [
+    {
+      "id": "brent-crisis-fund",
+      "checkedOn": "2026-10-27",
+      "fields": [],
+      "beforeFingerprint": "e284e59369634d9325dc3ea41efedde61208cfa2b6a486687960eadb5979e36f",
+      "afterFingerprint": "e284e59369634d9325dc3ea41efedde61208cfa2b6a486687960eadb5979e36f"
+    },
+    {
+      "id": "brent-cycletastic",
+      "checkedOn": "2026-10-27",
+      "fields": [],
+      "beforeFingerprint": "9e8e37233d04c8b586b5d7d05f60756464fad230f249f0007986e1db1c8111b7",
+      "afterFingerprint": "9e8e37233d04c8b586b5d7d05f60756464fad230f249f0007986e1db1c8111b7"
+    },
+    {
+      "id": "brent-cycling-campaign",
+      "checkedOn": "2026-10-27",
+      "fields": [],
+      "beforeFingerprint": "05e94eaa68dd64c3ada7fdd5770b57426c1f76b8f284f15497a34da06b33ad22",
+      "afterFingerprint": "05e94eaa68dd64c3ada7fdd5770b57426c1f76b8f284f15497a34da06b33ad22"
+    },
+    {
+      "id": "brent-directory",
+      "checkedOn": "2026-10-27",
+      "fields": [],
+      "beforeFingerprint": "8544deb2ed2b7508d327576cadf47da378fbf0f27b843e53738b9508de4258c0",
+      "afterFingerprint": "8544deb2ed2b7508d327576cadf47da378fbf0f27b843e53738b9508de4258c0"
+    },
+    {
+      "id": "brent-diya",
+      "checkedOn": "2026-10-27",
+      "fields": [],
+      "beforeFingerprint": "97c7980d7584d5ffde292a0f434d1b3837c5d2c60a48904a840c3b12ae6be41d",
+      "afterFingerprint": "97c7980d7584d5ffde292a0f434d1b3837c5d2c60a48904a840c3b12ae6be41d"
+    },
+    {
+      "id": "brent-dolphins-adult-swimming",
+      "checkedOn": "2026-10-27",
+      "fields": [],
+      "beforeFingerprint": "a63c3bf0f4fbbc95caf9d5c710476d5d71558466b826ab42aeaa74df9ab8e41e",
+      "afterFingerprint": "a63c3bf0f4fbbc95caf9d5c710476d5d71558466b826ab42aeaa74df9ab8e41e"
+    },
+    {
+      "id": "brent-elders-voice-activities",
+      "checkedOn": "2026-10-27",
+      "fields": [],
+      "beforeFingerprint": "29e0e869055c204f8d4621222bc28bad02f256440ec2610bd38cab23d991b68a",
+      "afterFingerprint": "29e0e869055c204f8d4621222bc28bad02f256440ec2610bd38cab23d991b68a"
+    },
+    {
+      "id": "brent-foodbank",
+      "checkedOn": "2026-10-27",
+      "fields": [],
+      "beforeFingerprint": "b75c20000b84c43d344005871d627bb1cdc359bc19ece2005e8956f5227fdcf5",
+      "afterFingerprint": "b75c20000b84c43d344005871d627bb1cdc359bc19ece2005e8956f5227fdcf5"
+    },
+    {
+      "id": "brent-gladstone-parkrun",
+      "checkedOn": "2026-10-27",
+      "fields": [],
+      "beforeFingerprint": "65679f057009aa08386f4463e77069c104c89df3cbd13b05a8f5fd10dc770f31",
+      "afterFingerprint": "65679f057009aa08386f4463e77069c104c89df3cbd13b05a8f5fd10dc770f31"
+    },
+    {
+      "id": "brent-global-cooperation-meditation",
+      "checkedOn": "2026-10-27",
+      "fields": [],
+      "beforeFingerprint": "4dc3d7ab06473ffe5249855cd1a3e86a7db1cd387a257dc14a9ea6385bfc985c",
+      "afterFingerprint": "4dc3d7ab06473ffe5249855cd1a3e86a7db1cd387a257dc14a9ea6385bfc985c"
+    },
+    {
+      "id": "brent-goodgym-community",
+      "checkedOn": "2026-10-27",
+      "fields": [],
+      "beforeFingerprint": "eb1c9d93045f6ffdff8bea795c8ee8cfa3284a64584b6e951479272bcf04cb41",
+      "afterFingerprint": "eb1c9d93045f6ffdff8bea795c8ee8cfa3284a64584b6e951479272bcf04cb41"
+    },
+    {
+      "id": "brent-granville-community-kitchen",
+      "checkedOn": "2026-10-27",
+      "fields": [],
+      "beforeFingerprint": "a594fa385a3aaf19b432f46ef7121b02b2af889f966f6a2a5bd336ee745f8c00",
+      "afterFingerprint": "a594fa385a3aaf19b432f46ef7121b02b2af889f966f6a2a5bd336ee745f8c00"
+    },
+    {
+      "id": "brent-hayaan",
+      "checkedOn": "2026-10-27",
+      "fields": [],
+      "beforeFingerprint": "a0768a4e497630a3759333b9e797e9f2d4248e1edaa80e4e67e5eee4800624b3",
+      "afterFingerprint": "a0768a4e497630a3759333b9e797e9f2d4248e1edaa80e4e67e5eee4800624b3"
+    },
+    {
+      "id": "brent-healthwatch",
+      "checkedOn": "2026-10-27",
+      "fields": [],
+      "beforeFingerprint": "e4d65d1112866e99088ee87c93c27d87308ec19843898308be2a0509abb1da26",
+      "afterFingerprint": "e4d65d1112866e99088ee87c93c27d87308ec19843898308be2a0509abb1da26"
+    },
+    {
+      "id": "brent-healthy-walks",
+      "checkedOn": "2026-10-27",
+      "fields": [],
+      "beforeFingerprint": "908554975eca4bb1b514c191f3d01f16652a725c545fa449089217cb4b0c6d90",
+      "afterFingerprint": "908554975eca4bb1b514c191f3d01f16652a725c545fa449089217cb4b0c6d90"
+    },
+    {
+      "id": "brent-housing",
+      "checkedOn": "2026-10-27",
+      "fields": [],
+      "beforeFingerprint": "3701a1b03764b641e280c16ffdb919c7a3636e8dc265b5da58548dcb30846ce7",
+      "afterFingerprint": "3701a1b03764b641e280c16ffdb919c7a3636e8dc265b5da58548dcb30846ce7"
+    }
+  ],
+  "skipped": []
+}

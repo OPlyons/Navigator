@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "repository": "OPlyons/Navigator",
+  "dataBranch": "directory-discovery",
+  "timezone": "Europe/London",
+  "areasPerDay": 2,
+  "categoriesPerAreaPerDay": 3,
+  "candidatesPerDay": 4,
+  "candidatesPerCell": 2,
+  "searchesPerCell": 3,
+  "sourcePagesPerCandidate": 2,
+  "mode": "publish_evidence_backed_resources"
+}
