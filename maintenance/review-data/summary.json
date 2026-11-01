@@ -1,47 +1,11 @@
 {
-  "asOf": "2026-10-31",
-  "total": 888,
-  "attempted": 47,
-  "attemptedInLast28Days": 47,
-  "sourceReadInLast28Days": 47,
-  "lastRecordedRun": "2026-10-31",
+  "asOf": "2026-11-01",
+  "total": 891,
+  "attempted": 53,
+  "attemptedInLast28Days": 53,
+  "sourceReadInLast28Days": 53,
+  "lastRecordedRun": "2026-11-01",
   "monthlySourceChecksOverdue": [
-    {
-      "id": "brent-talking-therapies",
-      "name": "Brent NHS Talking Therapies",
-      "area": "brent",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "brent-start",
-      "name": "Brent Start — adult learning",
-      "area": "brent",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "brent-works",
-      "name": "Brent Works — jobs and employment support",
-      "area": "brent",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "brent-sufra-openarms",
-      "name": "Sufra OpenARMs — refugee and migrant support",
-      "area": "brent",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "brent-sufra-wellbeing",
-      "name": "Sufra — Community Wellbeing Service",
-      "area": "brent",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "brent-via",
-      "name": "Via Brent — New Beginnings",
-      "area": "brent",
-      "lastSourceRead": "2026-09-18"
-    },
     {
       "id": "harrow-advocacy",
       "name": "Advocacy 1st — Harrow",
@@ -1665,6 +1629,96 @@
       "firstSeen": "2026-10-27",
       "lastSeen": "2026-10-27",
       "occurrences": 1
+    },
+    {
+      "kind": "change",
+      "resourceId": "brent-black-girls-do-run",
+      "name": "Black Girls Do Run UK — North West London",
+      "area": "brent",
+      "field": "who",
+      "currentValue": "Black women and women of colour, including people new to running.",
+      "proposedValue": "Black women aged 18 and over, including people new to running.",
+      "reason": "The provider's local programme page explicitly states Black women aged 18 and over; it does not state the broader women-of-colour eligibility currently shown.",
+      "sourceUrl": "https://www.blackgirlsdorun.co.uk/north-west-london",
+      "evidence": "The programme describes its intended participants as Black women aged 18+ and says beginners are welcome.",
+      "priority": "normal",
+      "key": "a2eba3b17c8ad137dffe0e402253f202cf03eea71adf3e3af848638e70dc15cb",
+      "status": "open",
+      "firstSeen": "2026-11-01",
+      "lastSeen": "2026-11-01",
+      "occurrences": 1
+    },
+    {
+      "kind": "change",
+      "resourceId": "brent-black-girls-do-run",
+      "name": "Black Girls Do Run UK — North West London",
+      "area": "brent",
+      "field": "url",
+      "currentValue": "https://www.blackgirlsdorun.co.uk/",
+      "proposedValue": "https://www.blackgirlsdorun.co.uk/north-west-london",
+      "reason": "The local programme page is the direct page for this North West London listing and contains the joining route and session details.",
+      "sourceUrl": "https://www.blackgirlsdorun.co.uk/north-west-london",
+      "evidence": "The page is titled for the North West London social run and links to the next run.",
+      "priority": "normal",
+      "key": "4e514c385a4075f4f1c9933085d872016aca36fa9b980a36ecb416b1edaabe60",
+      "status": "open",
+      "firstSeen": "2026-11-01",
+      "lastSeen": "2026-11-01",
+      "occurrences": 1
+    },
+    {
+      "kind": "change",
+      "resourceId": "brent-talking-therapies",
+      "name": "Brent NHS Talking Therapies",
+      "area": "brent",
+      "field": "who",
+      "currentValue": "People with a Brent connection; ask the team about age and GP criteria.",
+      "proposedValue": "People aged over 16 who live, work, study or are registered with a GP in Brent.",
+      "reason": "The NHS page publishes the exact age and Brent connection criteria.",
+      "sourceUrl": "https://www.cnwl.nhs.uk/services/mental-health-services/adult-and-older-adult/brent-talking-therapies",
+      "evidence": "The eligibility section states over 16 and living, working, studying or GP registration in Brent.",
+      "priority": "normal",
+      "key": "ffc3ea77a8f798ab346e18da07237c5c2667155f6eb22cbe91e5bc850bdc9dad",
+      "status": "open",
+      "firstSeen": "2026-11-01",
+      "lastSeen": "2026-11-01",
+      "occurrences": 1
+    },
+    {
+      "kind": "change",
+      "resourceId": "brent-talking-therapies",
+      "name": "Brent NHS Talking Therapies",
+      "area": "brent",
+      "field": "phone",
+      "currentValue": "",
+      "proposedValue": "020 8206 3924",
+      "reason": "The NHS page publishes this as the service telephone and states patients can self-refer by phone.",
+      "sourceUrl": "https://www.cnwl.nhs.uk/services/mental-health-services/adult-and-older-adult/brent-talking-therapies",
+      "evidence": "The referral and contact sections both list the same service number.",
+      "priority": "normal",
+      "key": "b9996efbdf8d5c38f34f73b67b823472b58dd89bfcab8d574ce6b83f654c686b",
+      "status": "open",
+      "firstSeen": "2026-11-01",
+      "lastSeen": "2026-11-01",
+      "occurrences": 1
+    },
+    {
+      "kind": "change",
+      "resourceId": "brent-works",
+      "name": "Brent Works — jobs and employment support",
+      "area": "brent",
+      "field": "phone",
+      "currentValue": "",
+      "proposedValue": "020 8937 6295",
+      "reason": "The Brent Works portal publishes this direct contact number.",
+      "sourceUrl": "https://brentworks.brent.gov.uk/Default.aspx",
+      "evidence": "The portal footer lists the Brent Civic Centre contact telephone.",
+      "priority": "normal",
+      "key": "6c574118a997cb1de19c067f2ee14276bbcc52ca74051b44a762bb6d0a40405f",
+      "status": "open",
+      "firstSeen": "2026-11-01",
+      "lastSeen": "2026-11-01",
+      "occurrences": 1
     }
   ],
   "unableToVerify": [],
@@ -1683,6 +1737,11 @@
     {
       "day": "2026-10-31",
       "regular": 7,
+      "retries": 0
+    },
+    {
+      "day": "2026-11-01",
+      "regular": 8,
       "retries": 0
     }
   ]
