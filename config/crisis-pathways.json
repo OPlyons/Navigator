@@ -1,0 +1,196 @@
+{
+  "checkedOn": "2026-11-03",
+  "emergency": "Immediate danger, serious injury or overdose: call 999 or go to A&E. Do not wait for a café, peer call or email.",
+  "urgent": "Urgent mental health help: call NHS 111 and select the mental health option, 24/7. Use the person’s crisis plan and usual team where available.",
+  "staff": "For a safeguarding concern, follow the service’s safeguarding procedure and contact the named lead or backup. Record who accepted the handover. Peer callers share information and seek help; the receiving service decides assessment and referral needs.",
+  "ageNote": "Local services have different age and access rules. For a child or young person, or if unsure which route fits, use NHS 111’s mental health option.",
+  "areas": {
+    "brent": {
+      "name": "Brent",
+      "routes": [
+        {
+          "name": "Urgent NHS advice and SPA",
+          "text": "Call NHS 111 and select the mental health option, available 24/7. You can also use the Single Point of Access (SPA) contact in the care plan. Contact the usual care team when available; do not wait for an email reply in a crisis.",
+          "url": "https://www.cnwl.nhs.uk/patients-and-carers/help-mental-physical-health-crisis"
+        },
+        {
+          "name": "Brent Cove",
+          "text": "Residents aged 16+. Walk in for non-clinical crisis support, 2pm–10pm daily; no appointment needed. 27–29 Fairlight Avenue, NW10 8AL. Check the service page before travelling.",
+          "url": "https://www.cnwl.nhs.uk/services/coves"
+        },
+        {
+          "name": "MHCAS at St Charles Hospital",
+          "text": "For residents of Brent, Harrow, Hillingdon, Kensington and Chelsea or Westminster. Adults 18+. Walk in 24/7, no referral needed, for a mental health crisis without an urgent physical health need. Mental Health Centre, St Charles Hospital, Exmoor Street, W10 6DZ.",
+          "url": "https://www.cnwl.nhs.uk/services/mental-health-services/adult-and-older-adult/st-charles-hospital/mental-health-crisis-assessment-service-mhcas"
+        }
+      ]
+    },
+    "harrow": {
+      "name": "Harrow",
+      "routes": [
+        {
+          "name": "Urgent NHS advice and SPA",
+          "text": "Call NHS 111 and select the mental health option, available 24/7. You can also use the Single Point of Access (SPA) contact in the care plan. Contact the usual care team when available; do not wait for an email reply in a crisis.",
+          "url": "https://www.cnwl.nhs.uk/patients-and-carers/help-mental-physical-health-crisis"
+        },
+        {
+          "name": "Harrow Cove",
+          "text": "Residents aged 16+. Walk in for non-clinical crisis support, 2pm–10pm daily; no appointment needed. Carramea Centre, 27 Northolt Road, HA2 0LH. Check the service page before travelling.",
+          "url": "https://www.cnwl.nhs.uk/services/coves"
+        },
+        {
+          "name": "MHCAS at St Charles Hospital",
+          "text": "For residents of Brent, Harrow, Hillingdon, Kensington and Chelsea or Westminster. Adults 18+. Walk in 24/7, no referral needed, for a mental health crisis without an urgent physical health need. Mental Health Centre, St Charles Hospital, Exmoor Street, W10 6DZ.",
+          "url": "https://www.cnwl.nhs.uk/services/mental-health-services/adult-and-older-adult/st-charles-hospital/mental-health-crisis-assessment-service-mhcas"
+        }
+      ]
+    },
+    "hillingdon": {
+      "name": "Hillingdon",
+      "routes": [
+        {
+          "name": "Urgent NHS advice and SPA",
+          "text": "Call NHS 111 and select the mental health option, available 24/7. You can also use the Single Point of Access (SPA) contact in the care plan. Contact the usual care team when available; do not wait for an email reply in a crisis.",
+          "url": "https://www.cnwl.nhs.uk/patients-and-carers/help-mental-physical-health-crisis"
+        },
+        {
+          "name": "Hillingdon Cove",
+          "text": "Residents aged 16+. Walk in for non-clinical crisis support, 2pm–10pm daily; no appointment needed. Apple Blossom Cottage, 64 Ickenham Road, Ruislip, HA4 7DQ. Check the service page before travelling.",
+          "url": "https://www.cnwl.nhs.uk/services/coves"
+        },
+        {
+          "name": "MHCAS at St Charles Hospital",
+          "text": "For residents of Brent, Harrow, Hillingdon, Kensington and Chelsea or Westminster. Adults 18+. Walk in 24/7, no referral needed, for a mental health crisis without an urgent physical health need. Mental Health Centre, St Charles Hospital, Exmoor Street, W10 6DZ.",
+          "url": "https://www.cnwl.nhs.uk/services/mental-health-services/adult-and-older-adult/st-charles-hospital/mental-health-crisis-assessment-service-mhcas"
+        },
+        {
+          "name": "Lighthouse at Hillingdon Hospital",
+          "text": "Adults 18+. Access only after assessment and referral by Hillingdon A&E; not a direct walk-in. Open 8am–8pm, Pield Heath Road, UB8 3NN.",
+          "url": "https://www.cnwl.nhs.uk/services/mental-health-services/adult-and-older-adult/hillingdon-hospital/lighthouse-hillingdon-hospital-uxbridge"
+        }
+      ]
+    },
+    "kensington-chelsea": {
+      "name": "Kensington and Chelsea",
+      "routes": [
+        {
+          "name": "Urgent NHS advice and SPA",
+          "text": "Call NHS 111 and select the mental health option, available 24/7. You can also use the Single Point of Access (SPA) contact in the care plan. Contact the usual care team when available; do not wait for an email reply in a crisis.",
+          "url": "https://www.cnwl.nhs.uk/patients-and-carers/help-mental-physical-health-crisis"
+        },
+        {
+          "name": "Kensington Chelsea and Westminster Cove",
+          "text": "Adults 18+. NHS lists walk-in support 2pm–10pm daily at 57 Goldney Road, W9 2AR. Hestia reports limited support and no phone contact: check its current service notice before travelling.",
+          "url": "https://www.cnwl.nhs.uk/services/coves"
+        },
+        {
+          "name": "MHCAS at St Charles Hospital",
+          "text": "For residents of Brent, Harrow, Hillingdon, Kensington and Chelsea or Westminster. Adults 18+. Walk in 24/7, no referral needed, for a mental health crisis without an urgent physical health need. Mental Health Centre, St Charles Hospital, Exmoor Street, W10 6DZ.",
+          "url": "https://www.cnwl.nhs.uk/services/mental-health-services/adult-and-older-adult/st-charles-hospital/mental-health-crisis-assessment-service-mhcas"
+        },
+        {
+          "name": "Lighthouse at St Mary’s Hospital",
+          "text": "Adults 18+. Access only after assessment and referral by St Mary’s A&E; not a direct walk-in. Open 8am–9pm daily, Praed Street, W2 1NY.",
+          "url": "https://www.cnwl.nhs.uk/services/mental-health-services/adult-and-older-adult/lighthouse-st-marys-hospital-paddington"
+        }
+      ],
+      "notice": {
+        "text": "KCW Cove provider service notice",
+        "url": "https://www.hestia.org/faqs?startat=24"
+      }
+    },
+    "westminster": {
+      "name": "Westminster",
+      "routes": [
+        {
+          "name": "Urgent NHS advice and SPA",
+          "text": "Call NHS 111 and select the mental health option, available 24/7. You can also use the Single Point of Access (SPA) contact in the care plan. Contact the usual care team when available; do not wait for an email reply in a crisis.",
+          "url": "https://www.cnwl.nhs.uk/patients-and-carers/help-mental-physical-health-crisis"
+        },
+        {
+          "name": "Kensington Chelsea and Westminster Cove",
+          "text": "Adults 18+. NHS lists walk-in support 2pm–10pm daily at 57 Goldney Road, W9 2AR. Hestia reports limited support and no phone contact: check its current service notice before travelling.",
+          "url": "https://www.cnwl.nhs.uk/services/coves"
+        },
+        {
+          "name": "MHCAS at St Charles Hospital",
+          "text": "For residents of Brent, Harrow, Hillingdon, Kensington and Chelsea or Westminster. Adults 18+. Walk in 24/7, no referral needed, for a mental health crisis without an urgent physical health need. Mental Health Centre, St Charles Hospital, Exmoor Street, W10 6DZ.",
+          "url": "https://www.cnwl.nhs.uk/services/mental-health-services/adult-and-older-adult/st-charles-hospital/mental-health-crisis-assessment-service-mhcas"
+        },
+        {
+          "name": "Lighthouse at St Mary’s Hospital",
+          "text": "Adults 18+. Access only after assessment and referral by St Mary’s A&E; not a direct walk-in. Open 8am–9pm daily, Praed Street, W2 1NY.",
+          "url": "https://www.cnwl.nhs.uk/services/mental-health-services/adult-and-older-adult/lighthouse-st-marys-hospital-paddington"
+        }
+      ],
+      "notice": {
+        "text": "KCW Cove provider service notice",
+        "url": "https://www.hestia.org/faqs?startat=24"
+      }
+    },
+    "camden": {
+      "name": "Camden",
+      "routes": [
+        {
+          "name": "Urgent NHS advice and Crisis SPA",
+          "text": "Call NHS 111 and select the mental health option, 24/7, or use the Camden and Islington Crisis Single Point of Access contact in the care plan. Use the usual care team when available.",
+          "url": "https://www.northlondonmentalhealth.nhs.uk/crisis-referrals"
+        },
+        {
+          "name": "Camden Crisis Sanctuary",
+          "text": "Adults 18+ who live in Camden or have used mental health services there. Free walk-in support, no appointment, daily 5.30pm–10.30pm. 50–52 Hampstead Road, NW1 2PY.",
+          "url": "https://www.hestia.org/camden-crisis-sanctuary"
+        }
+      ]
+    },
+    "milton-keynes": {
+      "name": "Milton Keynes",
+      "routes": [
+        {
+          "name": "Urgent NHS advice and SPA",
+          "text": "Call NHS 111 and select the mental health option, available 24/7. Use the crisis contact in the care plan. CNWL SPA covers Milton Keynes out of hours; use the usual care team when available. Do not wait for an email reply in a crisis.",
+          "url": "https://www.cnwl.nhs.uk/patients-and-carers/help-mental-physical-health-crisis"
+        },
+        {
+          "name": "Milton Keynes Crisis Café",
+          "text": "Adults 18+. Community support for crisis or distress, 5pm–11pm daily. Check the current venue and access details on Mind BLMK’s service page before travelling.",
+          "url": "https://www.mind-blmk.org.uk/how-we-can-help/milton-keynes/crisis-cafe-milton-keynes/"
+        }
+      ],
+      "notice": {
+        "text": "NHS confirmation of Crisis Café hours",
+        "url": "https://www.cnwl.nhs.uk/patients-and-carers/help-mental-physical-health-crisis"
+      }
+    },
+    "surrey": {
+      "name": "Surrey",
+      "routes": [
+        {
+          "name": "Urgent NHS advice",
+          "text": "Call NHS 111 and select the mental health option, 24/7. Use the usual care team or the crisis contact in the care plan when available.",
+          "url": "https://www.sabp.nhs.uk/our-services/mental-health/safe-havens"
+        },
+        {
+          "name": "Surrey and North East Hampshire Safe Havens",
+          "text": "Adults 18+, including carers, living in Surrey or North East Hampshire. Free walk-in or online support, no referral or appointment, daily 6pm–11pm. Locations: Aldershot, Epsom, Guildford, Redhill and Woking.",
+          "url": "https://www.sabp.nhs.uk/our-services/mental-health/safe-havens"
+        }
+      ]
+    },
+    "ealing": {
+      "name": "Ealing",
+      "routes": [
+        {
+          "name": "Urgent NHS advice and SPA",
+          "text": "Call NHS 111 and select the mental health option, 24/7, or use the West London Single Point of Access contact in the care plan. Use the usual care team when available.",
+          "url": "https://www.westlondon.nhs.uk/our-services/adult/communuty-services/safe-spaces"
+        },
+        {
+          "name": "Ealing Safe Space",
+          "text": "Adults 18+ living in Ealing, using an Ealing GP or caring for someone living there. Walk in, no planned appointment, daily 2pm–10pm; last drop-in 9.30pm. Wolsey Wing, St Bernard’s Hospital, UB1 3EU.",
+          "url": "https://www.westlondon.nhs.uk/our-services/adult/communuty-services/safe-spaces"
+        }
+      ]
+    }
+  }
+}
