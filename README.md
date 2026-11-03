@@ -53,3 +53,5 @@ The initial D1 schema is in `navigator/migrations/0001_resource_suggestions.sql`
 A red Crisis help link is visible in the site header. It opens direct emergency/NHS 111 guidance and sourced area routes without using AI. The support borough opens its corresponding crisis section where possible; all other areas remain available.
 
 `config/crisis-pathways.json` records the current provider/NHS wording, access conditions, source links and actual check date. Preserve the difference between walk-in services, clinical advice and A&E-referred Lighthouse access, including provider limitation notices. Personal crisis plans and urgent clinical advice take precedence over directory information.
+
+Navigator owns the shared crisis wording. Update the reviewed copy in Discharge Project in a paired PR; its read-only consistency workflow compares all fields on PRs and checks current main daily. See the [3 November 2026 source review](maintenance/crisis-guidance-review-2026-11-03.md) for the eligibility decisions, sources and update process.
