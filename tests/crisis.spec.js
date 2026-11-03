@@ -33,3 +33,20 @@ test('expanded crisis guidance is keyboard accessible and passes axe',async({pag
  await expect(page.locator('#crisis-area-surrey > summary')).toBeFocused();
  const audit=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21a','wcag21aa','best-practice']).analyze();expect(audit.violations).toEqual([]);
 });
+
+test('MHCAS catchment and the two Milton Keynes SPA routes are readable on screen',async({page})=>{
+ await page.goto('/#urgent');
+ for(const area of ['brent','harrow','hillingdon','kensington-chelsea','westminster']){
+  await page.locator('#crisis-borough').selectOption(area);
+  const card=page.locator('#crisis-area-'+area);
+  await expect(card).toContainText('For residents of Brent, Harrow, Hillingdon, Kensington and Chelsea or Westminster.');
+  await expect(card).toContainText('Walk in 24/7, no referral needed');
+ }
+ await page.locator('#crisis-borough').selectOption('milton-keynes');
+ const card=page.locator('#crisis-area-milton-keynes');
+ await expect(card).toContainText('Milton Keynes SPA: 01908 724365 (24/7 crisis help)');
+ await expect(card).toContainText('Central CNWL SPA: 0800 0234 650 (Milton Keynes out-of-hours cover)');
+ expect(await page.locator('html').evaluate(el=>el.scrollWidth<=el.clientWidth)).toBeTruthy();
+ const audit=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21a','wcag21aa','best-practice']).analyze();
+ expect(audit.violations).toEqual([]);
+});

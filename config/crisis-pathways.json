@@ -148,7 +148,7 @@
       "routes": [
         {
           "name": "Urgent NHS advice and SPA",
-          "text": "Call NHS 111 and select the mental health option, available 24/7. Use the crisis contact in the care plan. CNWL SPA covers Milton Keynes out of hours; use the usual care team when available. Do not wait for an email reply in a crisis.",
+          "text": "Call NHS 111 and select the mental health option, 24/7. Milton Keynes SPA: 01908 724365 (24/7 crisis help). Central CNWL SPA: 0800 0234 650 (Milton Keynes out-of-hours cover). Use the crisis plan and usual care team when available. Do not wait for an email reply.",
           "url": "https://www.cnwl.nhs.uk/patients-and-carers/help-mental-physical-health-crisis"
         },
         {
