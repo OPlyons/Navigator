@@ -1,0 +1,23 @@
+body .brand-header .brand-inner{justify-content:space-between;gap:1rem}
+.crisis-help-button{display:inline-flex;align-items:center;justify-content:center;gap:.45rem;min-height:44px;padding:.55rem .85rem;flex-shrink:0;border:2px solid #9f1e2b;border-radius:10px;background:#b42332;color:#fff!important;font-size:.94rem;font-weight:750;line-height:1.2;text-decoration:none;white-space:nowrap}
+.crisis-help-button svg{flex:none;width:22px;height:22px}
+.crisis-help-button:hover{background:#8e1826;text-decoration:underline}
+.crisis-help-button:focus-visible{outline:3px solid #172c38;outline-offset:3px;box-shadow:0 0 0 6px #ffdc6e}
+.crisis-page .crisis-eyebrow{color:#9f1e2b;font-weight:700;margin-bottom:.3rem}
+.crisis-first-steps{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1rem 0 1.4rem}
+.crisis-first-steps section{padding:1.1rem;border:2px solid #ca626b;border-radius:10px;background:#fff7f7}
+.crisis-first-steps section+section{background:#f1f7fb;border-color:#799cae}
+.crisis-first-steps h2{margin-top:0}
+.crisis-first-steps p:last-child{margin-bottom:0}
+.crisis-first-steps .crisis-call{display:inline-block;font-weight:750;padding:.4rem .65rem;border:2px solid currentColor;border-radius:6px;margin-bottom:.6rem}
+.crisis-area-select{display:block;font-weight:650;margin:.5rem 0}
+#crisis-borough{font:inherit;width:min(100%,32rem);min-height:48px;padding:.5rem;border:2px solid #597b86;border-radius:6px;background:#fff}
+.crisis-borough-card{scroll-margin-top:1rem}
+.crisis-borough-card>summary{font-size:1.06rem}
+.crisis-service{padding:.65rem 0;border-top:1px solid #d1e0e3}
+.crisis-service h3{font-size:1.05rem;margin:.2rem 0 .5rem}
+.crisis-service p{margin-bottom:.5rem}
+.crisis-service a{display:inline-block;padding:.3rem 0}
+.crisis-limit{color:#85202c;font-weight:600}
+@media(max-width:600px){.crisis-first-steps{grid-template-columns:1fr}.crisis-help-button{font-size:.82rem;padding:.45rem .6rem}.navigator-brand{gap:.45rem}.navigator-brand .navigator-compass{width:36px;height:36px}}
+@media print{.crisis-help-button,#crisis-borough,.crisis-area-select{display:none}.crisis-first-steps{display:block}}

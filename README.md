@@ -47,3 +47,9 @@ Treat all submitted text and AI suggestions as untrusted proposals. Check the of
 After an approved addition, set that suggestion's `status` to `added` and record `reviewed_at`; retain only the public resource information needed for the audit. For a rejected or unwanted suggestion, delete it by its exact ID after review. Remove any accidental personal information promptly; do not copy it into GitHub, reports or model prompts. Contact/removal requests can use the suggestion receipt without collecting the submitter's identity.
 
 The initial D1 schema is in `navigator/migrations/0001_resource_suggestions.sql`. Apply it to the configured suggestions database before deploying a fresh environment. Keep the existing search Worker bindings when deploying the added `SUGGESTIONS_DB` and `SUBMISSION_LIMIT` bindings. The public site and Worker should be deployed together; the form reports a recoverable error if storage is unavailable.
+
+## Crisis help
+
+A red Crisis help link is visible in the site header. It opens direct emergency/NHS 111 guidance and sourced area routes without using AI. The support borough opens its corresponding crisis section where possible; all other areas remain available.
+
+`config/crisis-pathways.json` records the current provider/NHS wording, access conditions, source links and actual check date. Preserve the difference between walk-in services, clinical advice and A&E-referred Lighthouse access, including provider limitation notices. Personal crisis plans and urgent clinical advice take precedence over directory information.
