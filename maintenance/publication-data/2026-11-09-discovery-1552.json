@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "kind": "new_resources",
+  "sourceDay": "2026-11-09",
+  "applied": [
+    {
+      "candidateId": "discovery-87513f089c81324eca3f",
+      "resourceId": "kensington-chelsea-discovered-d3957faf516f",
+      "checkedOn": "2026-11-09"
+    },
+    {
+      "candidateId": "discovery-9ce9bf00ed90a8d1f4ea",
+      "resourceId": "kensington-chelsea-discovered-c1550f0beda9",
+      "checkedOn": "2026-11-09"
+    },
+    {
+      "candidateId": "discovery-17304270649819ef2df9",
+      "resourceId": "westminster-discovered-2844d4565c18",
+      "checkedOn": "2026-11-09"
+    },
+    {
+      "candidateId": "discovery-dd396c898a33592dbcfc",
+      "resourceId": "westminster-discovered-b572a6e932b3",
+      "checkedOn": "2026-11-09"
+    }
+  ],
+  "skipped": []
+}
