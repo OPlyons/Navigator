@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedOn": "2026-11-01",
+  "updatedOn": "2026-11-09",
   "entries": {
     "acas": {
       "name": "Acas employment advice",
@@ -506,16 +506,18 @@
       "name": "Brent Resident Support Fund — crisis payment",
       "area": "brent",
       "fingerprint": "e284e59369634d9325dc3ea41efedde61208cfa2b6a486687960eadb5979e36f",
-      "lastAttempt": "2026-11-01",
-      "lastRegularAttempt": "2026-11-01",
-      "lastSourceRead": "2026-11-01",
-      "lastOutcome": "no_change_found",
-      "lastSummary": "The council confirms the discretionary crisis fund for Brent residents aged 18+, savings under £6,000, essential costs and emergencies, with one application per rolling 12 months. Individual entitlement remains discretionary; the phone was not checked on the material read.",
+      "lastAttempt": "2026-11-09",
+      "lastRegularAttempt": "2026-11-09",
+      "lastSourceRead": "2026-11-09",
+      "lastOutcome": "changes_found",
+      "lastSummary": "Council confirms discretionary essential-cost help for Brent residents aged 18+, online application and Brent Hub help. The rolling limit applies across partners; the page does not establish award availability.",
       "checkedFields": [
         "name",
         "description",
         "who",
+        "access",
         "check",
+        "phone",
         "url"
       ],
       "consecutiveFailures": 0,
@@ -1099,6 +1101,152 @@
       "consecutiveFailures": 0,
       "retryCount": 0,
       "nextRetry": null
+    },
+    "camden-adult-social-care": {
+      "name": "Camden Adult Social Care",
+      "area": "camden",
+      "fingerprint": "346ae2dbdbd726813beff1af568b914211a4be8aad94f9e453dccbc1868c0049",
+      "lastAttempt": "2026-11-09",
+      "lastRegularAttempt": "2026-11-09",
+      "lastSourceRead": "2026-11-09",
+      "lastOutcome": "changes_found",
+      "lastSummary": "Council explains care needs support and the online form for self or another person; the telephone route is for difficulty completing the form, urgent support or immediate safety concern. Costs are not specified on this page.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "phone",
+        "url"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
+    },
+    "camden-age-uk-advice": {
+      "name": "Age UK Camden: information and advice",
+      "area": "camden",
+      "fingerprint": "78ccb75a06afc2a4387aee023aaed83e68edbd3eb06a06d6e931a3bdba4b642c",
+      "lastAttempt": "2026-11-09",
+      "lastRegularAttempt": "2026-11-09",
+      "lastSourceRead": "2026-11-09",
+      "lastOutcome": "no_change_found",
+      "lastSummary": "Age UK Camden describes free information and advice on money, benefits, housing and care; its service page confirms the advice team phone. Specific age threshold, appointment availability and documents are not established by these pages.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "phone",
+        "url"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
+    },
+    "camden-autism-hub": {
+      "name": "The Autism Hub: Camden and Islington",
+      "area": "camden",
+      "fingerprint": "8b602252b5e36e846b6a64414f5e3907b34de380a684f22f4ea94a64f27a8591",
+      "lastAttempt": "2026-11-09",
+      "lastRegularAttempt": "2026-11-09",
+      "lastSourceRead": "2026-11-09",
+      "lastOutcome": "no_change_found",
+      "lastSummary": "The provider states peer-led groups, advice, adult age, diagnosis, residency and learning-disability criteria, and gives a contact form or email. Waiting times and spaces are not published.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "url",
+        "coverage"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
+    },
+    "camden-autism-passport": {
+      "name": "Camden Autism Communication Passport",
+      "area": "camden",
+      "fingerprint": "69205c04ea6986c22b313e2e9bb1dc61b86bea6e605e18bd3f3179fdd0416e9a",
+      "lastAttempt": "2026-11-09",
+      "lastRegularAttempt": "2026-11-09",
+      "lastSourceRead": "2026-11-09",
+      "lastOutcome": "no_change_found",
+      "lastSummary": "Council describes the downloadable communication passport, self-completion or help, and telling Adult Social Care. The page does not specify costs or a telephone contact.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "url"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
+    },
+    "camden-befriending": {
+      "name": "Age UK Camden: befriending",
+      "area": "camden",
+      "fingerprint": "b72f8db7f18ef722a82ae831cbfb522fe31c5d81a233cf0f380a9374da89ba4d",
+      "lastAttempt": "2026-11-09",
+      "lastRegularAttempt": "2026-11-09",
+      "lastSourceRead": "2026-11-09",
+      "lastOutcome": "no_change_found",
+      "lastSummary": "Provider lists phone, in-person and dementia befriending, including Good Neighbours for people 65+ in NW3 and Primrose Hill. Waiting lists, costs and all routes' individual eligibility were not established.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "check",
+        "url"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
+    },
+    "camden-care-choices": {
+      "name": "Camden Care Choices",
+      "area": "camden",
+      "fingerprint": "2ec4249029d2348a52e2311cddf4e68354ed4ad5fc804b0485fd25353763ad9f",
+      "lastAttempt": "2026-11-09",
+      "lastRegularAttempt": "2026-11-09",
+      "lastSourceRead": "2026-11-09",
+      "lastOutcome": "no_change_found",
+      "lastSummary": "The council's indexed homepage identifies its Camden adult-care information and provider directory; the direct page request returned 520. Specific service eligibility, costs and referral arrangements were not established.",
+      "checkedFields": [
+        "name",
+        "description",
+        "url"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
+    },
+    "camden-carers": {
+      "name": "Camden Carers",
+      "area": "camden",
+      "fingerprint": "26672ff85bf01ddba0e33fa4e7eb9d5212d94d3a089a57f5dc38237169a94b0f",
+      "lastAttempt": "2026-11-09",
+      "lastRegularAttempt": "2026-11-09",
+      "lastSourceRead": "2026-11-09",
+      "lastOutcome": "no_change_found",
+      "lastSummary": "Provider states support for unpaid adult carers 18+ with specified Camden links and gives the listed telephone number and registration link. Individual group availability and charges are not stated.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "phone",
+        "url",
+        "coverage"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
     }
   },
   "days": {
@@ -1176,6 +1324,19 @@
         "brent-works"
       ],
       "retry": []
+    },
+    "2026-11-09": {
+      "regular": [
+        "brent-crisis-fund",
+        "camden-adult-social-care",
+        "camden-age-uk-advice",
+        "camden-autism-hub",
+        "camden-autism-passport",
+        "camden-befriending",
+        "camden-care-choices",
+        "camden-carers"
+      ],
+      "retry": []
     }
   },
   "queue": [
@@ -1192,10 +1353,11 @@
       "evidence": "The North West London programme describes encouraging Black women aged 18 and over to run and welcomes people just starting out.",
       "priority": "normal",
       "key": "89c2829757a4548d71d210d5196e6b0eb25e7b7b11f527ff13923e670aa8bd0d",
-      "status": "open",
+      "status": "superseded",
       "firstSeen": "2026-10-26",
       "lastSeen": "2026-10-26",
-      "occurrences": 1
+      "occurrences": 1,
+      "closedOn": "2026-11-09"
     },
     {
       "kind": "change",
@@ -1205,15 +1367,15 @@
       "field": "check",
       "currentValue": "Evidence required. Normally one application per rolling 12 months, even if a previous application was declined. Awards are discretionary.",
       "proposedValue": "Evidence required. One application per rolling 12 months, even if declined. For couples, an application by either partner counts towards this limit; it does not apply to other adult household members. Awards are discretionary.",
-      "reason": "The council states a firm rolling application limit and explicitly applies it to couples; the listing omits the partner rule and says normally.",
+      "reason": "The council states a firm rolling limit and partner restriction omitted from the current text.",
       "sourceUrl": "https://www.brent.gov.uk/benefits-and-money-advice/resident-support-fund",
       "evidence": "One application is allowed in a rolling 12 months, approved or rejected. A partner application during that period is declined; other adults in the household are not included in this partner restriction.",
       "priority": "normal",
       "key": "05227e76dcd6779613f1e4a3bf6b22bbe3fd9945009caa42439207fc06ec60de",
       "status": "open",
       "firstSeen": "2026-10-27",
-      "lastSeen": "2026-10-27",
-      "occurrences": 1
+      "lastSeen": "2026-11-09",
+      "occurrences": 2
     },
     {
       "kind": "change",
@@ -1228,10 +1390,11 @@
       "evidence": "The programme describes its intended participants as Black women aged 18+ and says beginners are welcome.",
       "priority": "normal",
       "key": "a2eba3b17c8ad137dffe0e402253f202cf03eea71adf3e3af848638e70dc15cb",
-      "status": "open",
+      "status": "applied",
       "firstSeen": "2026-11-01",
       "lastSeen": "2026-11-01",
-      "occurrences": 1
+      "occurrences": 1,
+      "closedOn": "2026-11-09"
     },
     {
       "kind": "change",
@@ -1246,10 +1409,11 @@
       "evidence": "The page is titled for the North West London social run and links to the next run.",
       "priority": "normal",
       "key": "4e514c385a4075f4f1c9933085d872016aca36fa9b980a36ecb416b1edaabe60",
-      "status": "open",
+      "status": "applied",
       "firstSeen": "2026-11-01",
       "lastSeen": "2026-11-01",
-      "occurrences": 1
+      "occurrences": 1,
+      "closedOn": "2026-11-09"
     },
     {
       "kind": "change",
@@ -1264,10 +1428,11 @@
       "evidence": "The eligibility section states over 16 and living, working, studying or GP registration in Brent.",
       "priority": "normal",
       "key": "ffc3ea77a8f798ab346e18da07237c5c2667155f6eb22cbe91e5bc850bdc9dad",
-      "status": "open",
+      "status": "applied",
       "firstSeen": "2026-11-01",
       "lastSeen": "2026-11-01",
-      "occurrences": 1
+      "occurrences": 1,
+      "closedOn": "2026-11-09"
     },
     {
       "kind": "change",
@@ -1282,10 +1447,11 @@
       "evidence": "The referral and contact sections both list the same service number.",
       "priority": "normal",
       "key": "b9996efbdf8d5c38f34f73b67b823472b58dd89bfcab8d574ce6b83f654c686b",
-      "status": "open",
+      "status": "applied",
       "firstSeen": "2026-11-01",
       "lastSeen": "2026-11-01",
-      "occurrences": 1
+      "occurrences": 1,
+      "closedOn": "2026-11-09"
     },
     {
       "kind": "change",
@@ -1300,9 +1466,28 @@
       "evidence": "The portal footer lists the Brent Civic Centre contact telephone.",
       "priority": "normal",
       "key": "6c574118a997cb1de19c067f2ee14276bbcc52ca74051b44a762bb6d0a40405f",
-      "status": "open",
+      "status": "applied",
       "firstSeen": "2026-11-01",
       "lastSeen": "2026-11-01",
+      "occurrences": 1,
+      "closedOn": "2026-11-09"
+    },
+    {
+      "kind": "change",
+      "resourceId": "camden-adult-social-care",
+      "name": "Camden Adult Social Care",
+      "area": "camden",
+      "field": "access",
+      "currentValue": "Use the online contact form or call and say “Adult Social Care”.",
+      "proposedValue": "Complete the online form for yourself or someone else. If you have difficulty with the form, need urgent support or are concerned about immediate safety, call and say “Adult Social Care”.",
+      "reason": "The council specifies when to use the telephone route rather than listing it as a general alternative.",
+      "sourceUrl": "https://camdencarechoices.camden.gov.uk/adult-social-care-services/contact-adult-social-care/",
+      "evidence": "The council directs requests to the online form and gives the contact number for form difficulties, urgent needs or immediate safety concerns.",
+      "priority": "normal",
+      "key": "d60427b55b1656f89817e323184cef7531542e82bf92b173b889a17a44d587e7",
+      "status": "open",
+      "firstSeen": "2026-11-09",
+      "lastSeen": "2026-11-09",
       "occurrences": 1
     }
   ]

@@ -1,0 +1,231 @@
+{
+  "schemaVersion": 1,
+  "day": "2026-11-09",
+  "catalogueCount": 895,
+  "results": [
+    {
+      "id": "brent-crisis-fund",
+      "status": "changes_found",
+      "summary": "Council confirms discretionary essential-cost help for Brent residents aged 18+, online application and Brent Hub help. The rolling limit applies across partners; the page does not establish award availability.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "phone",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://www.brent.gov.uk/benefits-and-money-advice/resident-support-fund",
+          "ownerType": "council",
+          "retrieval": "page",
+          "note": "Council details eligibility, online access, 12-month and partner rule, and contact."
+        }
+      ],
+      "findings": [
+        {
+          "field": "check",
+          "currentValue": "Evidence required. Normally one application per rolling 12 months, even if a previous application was declined. Awards are discretionary.",
+          "proposedValue": "Evidence required. One application per rolling 12 months, even if declined. For couples, an application by either partner counts towards this limit; it does not apply to other adult household members. Awards are discretionary.",
+          "reason": "The council states a firm rolling limit and partner restriction omitted from the current text.",
+          "sourceUrl": "https://www.brent.gov.uk/benefits-and-money-advice/resident-support-fund",
+          "evidence": "Council says an application from either partner counts for the 12-month period, while other adults in the household are not subject to this partner rule.",
+          "priority": "normal"
+        }
+      ],
+      "kind": "regular",
+      "fingerprint": "e284e59369634d9325dc3ea41efedde61208cfa2b6a486687960eadb5979e36f"
+    },
+    {
+      "id": "camden-adult-social-care",
+      "status": "changes_found",
+      "summary": "Council explains care needs support and the online form for self or another person; the telephone route is for difficulty completing the form, urgent support or immediate safety concern. Costs are not specified on this page.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "phone",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://camdencarechoices.camden.gov.uk/adult-social-care-services/contact-adult-social-care/",
+          "ownerType": "council",
+          "retrieval": "page",
+          "note": "Council contact page describes who may request support, online form and circumstances for telephone contact."
+        }
+      ],
+      "findings": [
+        {
+          "field": "access",
+          "currentValue": "Use the online contact form or call and say “Adult Social Care”.",
+          "proposedValue": "Complete the online form for yourself or someone else. If you have difficulty with the form, need urgent support or are concerned about immediate safety, call and say “Adult Social Care”.",
+          "reason": "The council specifies when to use the telephone route rather than listing it as a general alternative.",
+          "sourceUrl": "https://camdencarechoices.camden.gov.uk/adult-social-care-services/contact-adult-social-care/",
+          "evidence": "The council directs requests to the online form and gives the contact number for form difficulties, urgent needs or immediate safety concerns.",
+          "priority": "normal"
+        }
+      ],
+      "kind": "regular",
+      "fingerprint": "346ae2dbdbd726813beff1af568b914211a4be8aad94f9e453dccbc1868c0049"
+    },
+    {
+      "id": "camden-age-uk-advice",
+      "status": "no_change_found",
+      "summary": "Age UK Camden describes free information and advice on money, benefits, housing and care; its service page confirms the advice team phone. Specific age threshold, appointment availability and documents are not established by these pages.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "phone",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ageuk.org.uk/camden/",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "Provider identifies support for older people in Camden and information and advice."
+        },
+        {
+          "url": "https://www.ageuk.org.uk/camden/our-services/information-advice-0edb3c91-563b-ed11-97b0-0003ff4b081d/",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "Provider service page lists free advice and the advice telephone contact."
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "78ccb75a06afc2a4387aee023aaed83e68edbd3eb06a06d6e931a3bdba4b642c"
+    },
+    {
+      "id": "camden-autism-hub",
+      "status": "no_change_found",
+      "summary": "The provider states peer-led groups, advice, adult age, diagnosis, residency and learning-disability criteria, and gives a contact form or email. Waiting times and spaces are not published.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "url",
+        "coverage"
+      ],
+      "sources": [
+        {
+          "url": "https://theautismhub.org.uk/",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "Provider page lists services, explicit eligibility and contact form and email."
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "8b602252b5e36e846b6a64414f5e3907b34de380a684f22f4ea94a64f27a8591"
+    },
+    {
+      "id": "camden-autism-passport",
+      "status": "no_change_found",
+      "summary": "Council describes the downloadable communication passport, self-completion or help, and telling Adult Social Care. The page does not specify costs or a telephone contact.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://camdencarechoices.camden.gov.uk/autism/camden-autism-communication-passport/",
+          "ownerType": "council",
+          "retrieval": "page",
+          "note": "Council describes the passport and direct download and completing it with optional help."
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "69205c04ea6986c22b313e2e9bb1dc61b86bea6e605e18bd3f3179fdd0416e9a"
+    },
+    {
+      "id": "camden-befriending",
+      "status": "no_change_found",
+      "summary": "Provider lists phone, in-person and dementia befriending, including Good Neighbours for people 65+ in NW3 and Primrose Hill. Waiting lists, costs and all routes' individual eligibility were not established.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "check",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ageuk.org.uk/camden/our-services/befriending-services/",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "Provider describes the three programmes and Good Neighbours age and local area."
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "b72f8db7f18ef722a82ae831cbfb522fe31c5d81a233cf0f380a9374da89ba4d"
+    },
+    {
+      "id": "camden-care-choices",
+      "status": "no_change_found",
+      "summary": "The council's indexed homepage identifies its Camden adult-care information and provider directory; the direct page request returned 520. Specific service eligibility, costs and referral arrangements were not established.",
+      "checkedFields": [
+        "name",
+        "description",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://camdencarechoices.camden.gov.uk/",
+          "ownerType": "council",
+          "retrieval": "failed",
+          "note": "Direct page request returned HTTP 520."
+        },
+        {
+          "url": "https://camdencarechoices.camden.gov.uk/",
+          "ownerType": "council",
+          "retrieval": "official_indexed",
+          "note": "Official indexed homepage describes council adult care information and local provider directory; live page could not be read."
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "2ec4249029d2348a52e2311cddf4e68354ed4ad5fc804b0485fd25353763ad9f"
+    },
+    {
+      "id": "camden-carers",
+      "status": "no_change_found",
+      "summary": "Provider states support for unpaid adult carers 18+ with specified Camden links and gives the listed telephone number and registration link. Individual group availability and charges are not stated.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "phone",
+        "url",
+        "coverage"
+      ],
+      "sources": [
+        {
+          "url": "https://www.camdencs.org.uk/",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "Provider homepage states support, explicit eligibility, phone and registration link."
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "26672ff85bf01ddba0e33fa4e7eb9d5212d94d3a089a57f5dc38237169a94b0f"
+    }
+  ]
+}

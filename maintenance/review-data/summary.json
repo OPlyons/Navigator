@@ -1,10 +1,10 @@
 {
-  "asOf": "2026-11-01",
-  "total": 891,
-  "attempted": 53,
-  "attemptedInLast28Days": 53,
-  "sourceReadInLast28Days": 53,
-  "lastRecordedRun": "2026-11-01",
+  "asOf": "2026-11-09",
+  "total": 895,
+  "attempted": 60,
+  "attemptedInLast28Days": 60,
+  "sourceReadInLast28Days": 60,
+  "lastRecordedRun": "2026-11-09",
   "monthlySourceChecksOverdue": [
     {
       "id": "harrow-advocacy",
@@ -565,44 +565,8 @@
       "lastSourceRead": "2026-09-18"
     },
     {
-      "id": "camden-befriending",
-      "name": "Age UK Camden: befriending",
-      "area": "camden",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "camden-age-uk-advice",
-      "name": "Age UK Camden: information and advice",
-      "area": "camden",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "camden-adult-social-care",
-      "name": "Camden Adult Social Care",
-      "area": "camden",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "camden-autism-passport",
-      "name": "Camden Autism Communication Passport",
-      "area": "camden",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
       "id": "camden-financial-support",
       "name": "Camden benefits and financial support",
-      "area": "camden",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "camden-care-choices",
-      "name": "Camden Care Choices",
-      "area": "camden",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "camden-carers",
-      "name": "Camden Carers",
       "area": "camden",
       "lastSourceRead": "2026-09-18"
     },
@@ -711,12 +675,6 @@
     {
       "id": "camden-shak",
       "name": "SHAK and the SHELL Centre",
-      "area": "camden",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "camden-autism-hub",
-      "name": "The Autism Hub: Camden and Islington",
       "area": "camden",
       "lastSourceRead": "2026-09-18"
     },
@@ -1596,6 +1554,45 @@
   "openChanges": [
     {
       "kind": "change",
+      "resourceId": "brent-crisis-fund",
+      "name": "Brent Resident Support Fund — crisis payment",
+      "area": "brent",
+      "field": "check",
+      "currentValue": "Evidence required. Normally one application per rolling 12 months, even if a previous application was declined. Awards are discretionary.",
+      "proposedValue": "Evidence required. One application per rolling 12 months, even if declined. For couples, an application by either partner counts towards this limit; it does not apply to other adult household members. Awards are discretionary.",
+      "reason": "The council states a firm rolling limit and partner restriction omitted from the current text.",
+      "sourceUrl": "https://www.brent.gov.uk/benefits-and-money-advice/resident-support-fund",
+      "evidence": "One application is allowed in a rolling 12 months, approved or rejected. A partner application during that period is declined; other adults in the household are not included in this partner restriction.",
+      "priority": "normal",
+      "key": "05227e76dcd6779613f1e4a3bf6b22bbe3fd9945009caa42439207fc06ec60de",
+      "status": "open",
+      "firstSeen": "2026-10-27",
+      "lastSeen": "2026-11-09",
+      "occurrences": 2
+    },
+    {
+      "kind": "change",
+      "resourceId": "camden-adult-social-care",
+      "name": "Camden Adult Social Care",
+      "area": "camden",
+      "field": "access",
+      "currentValue": "Use the online contact form or call and say “Adult Social Care”.",
+      "proposedValue": "Complete the online form for yourself or someone else. If you have difficulty with the form, need urgent support or are concerned about immediate safety, call and say “Adult Social Care”.",
+      "reason": "The council specifies when to use the telephone route rather than listing it as a general alternative.",
+      "sourceUrl": "https://camdencarechoices.camden.gov.uk/adult-social-care-services/contact-adult-social-care/",
+      "evidence": "The council directs requests to the online form and gives the contact number for form difficulties, urgent needs or immediate safety concerns.",
+      "priority": "normal",
+      "key": "d60427b55b1656f89817e323184cef7531542e82bf92b173b889a17a44d587e7",
+      "status": "open",
+      "firstSeen": "2026-11-09",
+      "lastSeen": "2026-11-09",
+      "occurrences": 1
+    }
+  ],
+  "unableToVerify": [],
+  "recentResolved": [
+    {
+      "kind": "change",
       "resourceId": "brent-black-girls-do-run",
       "name": "Black Girls Do Run UK — North West London",
       "area": "brent",
@@ -1607,28 +1604,11 @@
       "evidence": "The North West London programme describes encouraging Black women aged 18 and over to run and welcomes people just starting out.",
       "priority": "normal",
       "key": "89c2829757a4548d71d210d5196e6b0eb25e7b7b11f527ff13923e670aa8bd0d",
-      "status": "open",
+      "status": "superseded",
       "firstSeen": "2026-10-26",
       "lastSeen": "2026-10-26",
-      "occurrences": 1
-    },
-    {
-      "kind": "change",
-      "resourceId": "brent-crisis-fund",
-      "name": "Brent Resident Support Fund — crisis payment",
-      "area": "brent",
-      "field": "check",
-      "currentValue": "Evidence required. Normally one application per rolling 12 months, even if a previous application was declined. Awards are discretionary.",
-      "proposedValue": "Evidence required. One application per rolling 12 months, even if declined. For couples, an application by either partner counts towards this limit; it does not apply to other adult household members. Awards are discretionary.",
-      "reason": "The council states a firm rolling application limit and explicitly applies it to couples; the listing omits the partner rule and says normally.",
-      "sourceUrl": "https://www.brent.gov.uk/benefits-and-money-advice/resident-support-fund",
-      "evidence": "One application is allowed in a rolling 12 months, approved or rejected. A partner application during that period is declined; other adults in the household are not included in this partner restriction.",
-      "priority": "normal",
-      "key": "05227e76dcd6779613f1e4a3bf6b22bbe3fd9945009caa42439207fc06ec60de",
-      "status": "open",
-      "firstSeen": "2026-10-27",
-      "lastSeen": "2026-10-27",
-      "occurrences": 1
+      "occurrences": 1,
+      "closedOn": "2026-11-09"
     },
     {
       "kind": "change",
@@ -1643,10 +1623,11 @@
       "evidence": "The programme describes its intended participants as Black women aged 18+ and says beginners are welcome.",
       "priority": "normal",
       "key": "a2eba3b17c8ad137dffe0e402253f202cf03eea71adf3e3af848638e70dc15cb",
-      "status": "open",
+      "status": "applied",
       "firstSeen": "2026-11-01",
       "lastSeen": "2026-11-01",
-      "occurrences": 1
+      "occurrences": 1,
+      "closedOn": "2026-11-09"
     },
     {
       "kind": "change",
@@ -1661,10 +1642,11 @@
       "evidence": "The page is titled for the North West London social run and links to the next run.",
       "priority": "normal",
       "key": "4e514c385a4075f4f1c9933085d872016aca36fa9b980a36ecb416b1edaabe60",
-      "status": "open",
+      "status": "applied",
       "firstSeen": "2026-11-01",
       "lastSeen": "2026-11-01",
-      "occurrences": 1
+      "occurrences": 1,
+      "closedOn": "2026-11-09"
     },
     {
       "kind": "change",
@@ -1679,10 +1661,11 @@
       "evidence": "The eligibility section states over 16 and living, working, studying or GP registration in Brent.",
       "priority": "normal",
       "key": "ffc3ea77a8f798ab346e18da07237c5c2667155f6eb22cbe91e5bc850bdc9dad",
-      "status": "open",
+      "status": "applied",
       "firstSeen": "2026-11-01",
       "lastSeen": "2026-11-01",
-      "occurrences": 1
+      "occurrences": 1,
+      "closedOn": "2026-11-09"
     },
     {
       "kind": "change",
@@ -1697,10 +1680,11 @@
       "evidence": "The referral and contact sections both list the same service number.",
       "priority": "normal",
       "key": "b9996efbdf8d5c38f34f73b67b823472b58dd89bfcab8d574ce6b83f654c686b",
-      "status": "open",
+      "status": "applied",
       "firstSeen": "2026-11-01",
       "lastSeen": "2026-11-01",
-      "occurrences": 1
+      "occurrences": 1,
+      "closedOn": "2026-11-09"
     },
     {
       "kind": "change",
@@ -1715,32 +1699,16 @@
       "evidence": "The portal footer lists the Brent Civic Centre contact telephone.",
       "priority": "normal",
       "key": "6c574118a997cb1de19c067f2ee14276bbcc52ca74051b44a762bb6d0a40405f",
-      "status": "open",
+      "status": "applied",
       "firstSeen": "2026-11-01",
       "lastSeen": "2026-11-01",
-      "occurrences": 1
+      "occurrences": 1,
+      "closedOn": "2026-11-09"
     }
   ],
-  "unableToVerify": [],
-  "recentResolved": [],
   "runsInLast7Days": [
     {
-      "day": "2026-10-26",
-      "regular": 24,
-      "retries": 0
-    },
-    {
-      "day": "2026-10-27",
-      "regular": 16,
-      "retries": 0
-    },
-    {
-      "day": "2026-10-31",
-      "regular": 7,
-      "retries": 0
-    },
-    {
-      "day": "2026-11-01",
+      "day": "2026-11-09",
       "regular": 8,
       "retries": 0
     }
