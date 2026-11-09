@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "day": "2026-11-09",
+  "results": [
+    {
+      "key": "[\"kensington-chelsea\",\"Legal advice and rights\"]",
+      "outcome": "completed",
+      "queries": [
+        "site:rbkc.gov.uk Kensington Chelsea free legal advice rights service",
+        "Kensington Chelsea legal advice charity official",
+        "Nucleus Legal Advice Centre Kensington Chelsea official services residents"
+      ],
+      "summary": "A bounded search of council, NHS, local advice-partnership and provider pages found Nucleus Legal Advice Centre as a distinct current local service. Citizens Advice and North Kensington Law Centre also appeared, but were not proposed within this batch's candidate limit.",
+      "candidates": [
+        {
+          "resource": {
+            "name": "Nucleus Legal Advice Centre — Kensington and Chelsea",
+            "directoryId": "kensington-chelsea",
+            "category": "Legal advice and rights",
+            "description": "Advice on welfare benefits, housing, debt and money, employment and other legal issues, with enquiry routes for local residents.",
+            "who": "People living in Kensington and Chelsea who need advice on employment, debt, housing, immigration or general legal issues.",
+            "access": "Use the relevant enquiry form on the provider page or call 020 7373 4005. The centre is at 298 Old Brompton Road, SW5 9JF.",
+            "check": "Contact Nucleus first to confirm which adviser, appointment or drop-in route fits your issue.",
+            "url": "https://www.nucleus.org.uk/kensington-chelsea",
+            "sourceUrl": "https://www.nucleus.org.uk/kensington-chelsea",
+            "sourceOwner": "Nucleus Legal Advice Centre",
+            "coverage": "Kensington and Chelsea",
+            "phone": "020 7373 4005"
+          },
+          "checkedFields": [
+            "name",
+            "description",
+            "who",
+            "access",
+            "url",
+            "phone",
+            "coverage"
+          ],
+          "sources": [
+            {
+              "url": "https://www.nucleus.org.uk/kensington-chelsea",
+              "ownerType": "provider",
+              "retrieval": "page",
+              "note": "Current provider page names its Kensington and Chelsea work, advice areas, enquiry forms, phone number and local address."
+            },
+            {
+              "url": "https://www.nhs.uk/services/service-directory/kensington-and-chelsea-nucleus-legal-advice-centre/N10501656",
+              "ownerType": "nhs",
+              "retrieval": "page",
+              "note": "Current NHS profile confirms the local population, advice subjects, address, phone and provider website; information supplied 11 September 2026."
+            }
+          ],
+          "evidence": "The provider offers welfare-benefit, housing, debt and money and pro-bono solicitor routes from its Kensington and Chelsea page; the NHS profile independently states that it advises borough residents on employment, debt, housing, immigration and general legal issues.",
+          "limitations": "Eligibility, adviser capacity, appointment availability, accessibility and any charges for particular casework were not established; contact the service before attending."
+        }
+      ]
+    },
+    {
+      "key": "[\"kensington-chelsea\",\"Housing and homelessness\"]",
+      "outcome": "completed",
+      "queries": [
+        "site:rbkc.gov.uk Kensington Chelsea homelessness support directory charity",
+        "Kensington Chelsea housing homelessness support provider official"
+      ],
+      "summary": "The limited search returned council homelessness and housing-support pages already represented by Housing Solutions, plus external indexes and services whose distinct current access or borough coverage was not sufficiently established for a new proposal.",
+      "candidates": []
+    },
+    {
+      "key": "[\"kensington-chelsea\",\"Local service directories\"]",
+      "outcome": "completed",
+      "queries": [
+        "site:rbkc.gov.uk Kensington Chelsea community services directory local support",
+        "Kensington Chelsea voluntary sector services directory official network"
+      ],
+      "summary": "The borough-wide KCSC directory is a distinct searchable source for local voluntary organisations and was not present in the catalogue or retained candidate history. Other results overlapped the existing People First listing or covered a narrower topic.",
+      "candidates": [
+        {
+          "resource": {
+            "name": "KCSC Directory of Local Organisations",
+            "directoryId": "kensington-chelsea",
+            "category": "Local service directories",
+            "description": "Search voluntary and community organisations operating in Kensington and Chelsea by name, beneficiary group or activity type.",
+            "who": "People looking for local voluntary and community organisations and the services or activities they provide in Kensington and Chelsea.",
+            "access": "Search by name or use the beneficiary-group and activity-type filters, then contact the relevant organisation directly.",
+            "check": "KCSC says organisations supply their own details and changes may not always be reported, so confirm current information with the organisation.",
+            "url": "https://www.kcsc.org.uk/kcsc-directory",
+            "sourceUrl": "https://www.kcsc.org.uk/kcsc-directory",
+            "sourceOwner": "Kensington & Chelsea Social Council",
+            "coverage": "Voluntary organisations operating in Kensington and Chelsea"
+          },
+          "checkedFields": [
+            "name",
+            "description",
+            "who",
+            "access",
+            "url",
+            "coverage"
+          ],
+          "sources": [
+            {
+              "url": "https://www.kcsc.org.uk/kcsc-directory",
+              "ownerType": "official_network",
+              "retrieval": "page",
+              "note": "The current KCSC page identifies a directory of organisations operating in the borough, explains its search filters and warns users to confirm details with providers."
+            }
+          ],
+          "evidence": "Kensington & Chelsea Social Council publishes a live directory with name, beneficiary and activity filters and populated organisation records for voluntary organisations operating in the borough.",
+          "limitations": "The directory is informational rather than an endorsement; entries are supplied by organisations and KCSC says it may not always be told about changes."
+        }
+      ]
+    },
+    {
+      "key": "[\"westminster\",\"Legal advice and rights\"]",
+      "outcome": "completed",
+      "queries": [
+        "site:westminster.gov.uk Westminster free legal advice rights service",
+        "Westminster legal advice charity residents official"
+      ],
+      "summary": "A bounded search found several current advice providers. South Westminster Legal Advice Centre was selected as a clearly evidenced, appointment-based service for people on low incomes who live or work in Westminster; other legal providers were left for later rotations rather than exceeding the daily cap.",
+      "candidates": [
+        {
+          "resource": {
+            "name": "South Westminster Legal Advice Centre",
+            "directoryId": "westminster",
+            "category": "Legal advice and rights",
+            "description": "Volunteer lawyers provide legal advice for people on low incomes, including help understanding rights in disputes and non-contentious matters.",
+            "who": "Primarily people who live or work in Westminster and cannot afford a solicitor, including homeless people with a Westminster connection.",
+            "access": "Book an appointment through the provider website. The service does not currently accept drop-ins.",
+            "check": "Advice is free, but the centre requests small donations for some letters, documents and photocopies; check whether it can advise on your issue before booking.",
+            "url": "https://swlac.org/",
+            "sourceUrl": "https://swlac.org/get-help/who-we-help/",
+            "sourceOwner": "South Westminster Legal Advice Centre",
+            "coverage": "City of Westminster, with surrounding postcodes considered when resources permit"
+          },
+          "checkedFields": [
+            "name",
+            "description",
+            "who",
+            "access",
+            "check",
+            "url",
+            "coverage"
+          ],
+          "sources": [
+            {
+              "url": "https://swlac.org/get-help/who-we-help/",
+              "ownerType": "provider",
+              "retrieval": "page",
+              "note": "The provider states its Westminster connection and low-income criteria, advice-only scope, free advice and small requested document or copying donations."
+            },
+            {
+              "url": "https://swlac.org/",
+              "ownerType": "provider",
+              "retrieval": "page",
+              "note": "The current home page confirms appointment-only access, the inability to accept drop-ins, free advice and service for people living or working in or near Westminster."
+            }
+          ],
+          "evidence": "The provider's current pages say volunteer lawyers give free advice to people who cannot afford legal help, primarily those living or working in Westminster, and require users to make an appointment online.",
+          "limitations": "The centre gives advice rather than legal representation and depends on volunteer capacity. It requests small donations for certain written work or copies, and help outside Westminster is only offered when resources permit."
+        }
+      ]
+    },
+    {
+      "key": "[\"westminster\",\"Disability and neurodiversity\"]",
+      "outcome": "completed",
+      "queries": [
+        "site:westminster.gov.uk Westminster disability neurodiversity local support service",
+        "Westminster disabled people support charity official local"
+      ],
+      "summary": "The council's current service pages identified ASSIST as a distinct adult autism support and social-connection service for Westminster. Other results were already represented, clinical referral services, or too narrow to prioritise within today's cap.",
+      "candidates": [
+        {
+          "resource": {
+            "name": "ASSIST — adult autism support in Westminster",
+            "directoryId": "westminster",
+            "category": "Disability and neurodiversity",
+            "description": "One-to-one practical support and social groups for autistic adults or adults actively seeking an autism diagnosis.",
+            "who": "Westminster residents aged 18 or over who have or are seeking an autism diagnosis and are not eligible for adult social care support.",
+            "access": "Contact ASSIST for an appointment by emailing assistlondon@nas.org.uk or calling 020 8962 3015.",
+            "check": "Ask ASSIST to confirm that you meet its current criteria and which appointment or group is suitable.",
+            "url": "https://www.westminster.gov.uk/health-and-social-care/find-mental-health-support-and-resources-our-wellbeing-hub/assist-autism-support-signposting-information-services-team",
+            "sourceUrl": "https://www.westminster.gov.uk/health-and-social-care/find-mental-health-support-and-resources-our-wellbeing-hub/assist-autism-support-signposting-information-services-team",
+            "sourceOwner": "Westminster City Council",
+            "coverage": "Westminster residents",
+            "phone": "020 8962 3015"
+          },
+          "checkedFields": [
+            "name",
+            "description",
+            "who",
+            "access",
+            "url",
+            "phone",
+            "coverage"
+          ],
+          "sources": [
+            {
+              "url": "https://www.westminster.gov.uk/health-and-social-care/find-mental-health-support-and-resources-our-wellbeing-hub/assist-autism-support-signposting-information-services-team",
+              "ownerType": "council",
+              "retrieval": "page",
+              "note": "The Westminster council page, updated 15 January 2026, gives the service activity, eligibility, appointment route, opening times and contact details."
+            }
+          ],
+          "evidence": "Westminster City Council says ASSIST provides one-to-one appointments and social groups, gives explicit adult autism and adult-social-care eligibility criteria, and publishes direct email and phone access routes.",
+          "limitations": "The page's overview also mentions Hammersmith and Fulham, while its detailed access criteria name Westminster or Kensington and Chelsea; this proposal is limited to the unambiguous Westminster coverage. Current capacity and waiting times are not stated."
+        }
+      ]
+    },
+    {
+      "key": "[\"westminster\",\"Local service directories\"]",
+      "outcome": "completed",
+      "queries": [
+        "site:westminster.gov.uk Westminster local services directory community support",
+        "Westminster voluntary community services directory official network"
+      ],
+      "summary": "The bounded search found council wellbeing listings and One Westminster's voluntary-sector directory. People First is already listed, and no additional directory was proposed because today's four-candidate limit had been reached; the distinct network directory remains available for a later rotation.",
+      "candidates": []
+    }
+  ],
+  "newCandidateIds": [
+    "discovery-87513f089c81324eca3f",
+    "discovery-9ce9bf00ed90a8d1f4ea",
+    "discovery-17304270649819ef2df9",
+    "discovery-dd396c898a33592dbcfc"
+  ],
+  "skippedCandidates": []
+}
