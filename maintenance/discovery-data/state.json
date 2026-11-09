@@ -237,7 +237,7 @@
     },
     {
       "id": "discovery-87513f089c81324eca3f",
-      "status": "proposed",
+      "status": "added",
       "firstSeen": "2026-11-09",
       "sourceCheckedOn": "2026-11-09",
       "resource": {
@@ -278,11 +278,14 @@
         "coverage"
       ],
       "evidence": "The provider offers welfare-benefit, housing, debt and money and pro-bono solicitor routes from its Kensington and Chelsea page; the NHS profile independently states that it advises borough residents on employment, debt, housing, immigration and general legal issues.",
-      "limitations": "Eligibility, adviser capacity, appointment availability, accessibility and any charges for particular casework were not established; contact the service before attending."
+      "limitations": "Eligibility, adviser capacity, appointment availability, accessibility and any charges for particular casework were not established; contact the service before attending.",
+      "publishedResourceId": "kensington-chelsea-discovered-d3957faf516f",
+      "publishedCommit": "578305e2d513b0809ea982ded36b62ba04b037e5",
+      "publishedOn": "2026-11-09"
     },
     {
       "id": "discovery-9ce9bf00ed90a8d1f4ea",
-      "status": "proposed",
+      "status": "added",
       "firstSeen": "2026-11-09",
       "sourceCheckedOn": "2026-11-09",
       "resource": {
@@ -315,11 +318,14 @@
         "coverage"
       ],
       "evidence": "Kensington & Chelsea Social Council publishes a live directory with name, beneficiary and activity filters and populated organisation records for voluntary organisations operating in the borough.",
-      "limitations": "The directory is informational rather than an endorsement; entries are supplied by organisations and KCSC says it may not always be told about changes."
+      "limitations": "The directory is informational rather than an endorsement; entries are supplied by organisations and KCSC says it may not always be told about changes.",
+      "publishedResourceId": "kensington-chelsea-discovered-c1550f0beda9",
+      "publishedCommit": "578305e2d513b0809ea982ded36b62ba04b037e5",
+      "publishedOn": "2026-11-09"
     },
     {
       "id": "discovery-17304270649819ef2df9",
-      "status": "proposed",
+      "status": "added",
       "firstSeen": "2026-11-09",
       "sourceCheckedOn": "2026-11-09",
       "resource": {
@@ -359,11 +365,14 @@
         "coverage"
       ],
       "evidence": "The provider's current pages say volunteer lawyers give free advice to people who cannot afford legal help, primarily those living or working in Westminster, and require users to make an appointment online.",
-      "limitations": "The centre gives advice rather than legal representation and depends on volunteer capacity. It requests small donations for certain written work or copies, and help outside Westminster is only offered when resources permit."
+      "limitations": "The centre gives advice rather than legal representation and depends on volunteer capacity. It requests small donations for certain written work or copies, and help outside Westminster is only offered when resources permit.",
+      "publishedResourceId": "westminster-discovered-2844d4565c18",
+      "publishedCommit": "578305e2d513b0809ea982ded36b62ba04b037e5",
+      "publishedOn": "2026-11-09"
     },
     {
       "id": "discovery-dd396c898a33592dbcfc",
-      "status": "proposed",
+      "status": "added",
       "firstSeen": "2026-11-09",
       "sourceCheckedOn": "2026-11-09",
       "resource": {
@@ -398,7 +407,10 @@
         "coverage"
       ],
       "evidence": "Westminster City Council says ASSIST provides one-to-one appointments and social groups, gives explicit adult autism and adult-social-care eligibility criteria, and publishes direct email and phone access routes.",
-      "limitations": "The page's overview also mentions Hammersmith and Fulham, while its detailed access criteria name Westminster or Kensington and Chelsea; this proposal is limited to the unambiguous Westminster coverage. Current capacity and waiting times are not stated."
+      "limitations": "The page's overview also mentions Hammersmith and Fulham, while its detailed access criteria name Westminster or Kensington and Chelsea; this proposal is limited to the unambiguous Westminster coverage. Current capacity and waiting times are not stated.",
+      "publishedResourceId": "westminster-discovered-b572a6e932b3",
+      "publishedCommit": "578305e2d513b0809ea982ded36b62ba04b037e5",
+      "publishedOn": "2026-11-09"
     }
   ]
 }
