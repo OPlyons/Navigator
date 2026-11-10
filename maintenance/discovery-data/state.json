@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedOn": "2026-11-09",
+  "updatedOn": "2026-11-10",
   "cells": {
     "[\"brent\",\"Legal advice and rights\"]": {
       "directoryId": "brent",
@@ -73,6 +73,42 @@
       "category": "Local service directories",
       "lastAttempt": "2026-11-09",
       "outcome": "completed"
+    },
+    "[\"camden\",\"Legal advice and rights\"]": {
+      "directoryId": "camden",
+      "category": "Legal advice and rights",
+      "lastAttempt": "2026-11-10",
+      "outcome": "completed"
+    },
+    "[\"camden\",\"Alcohol and drug support\"]": {
+      "directoryId": "camden",
+      "category": "Alcohol and drug support",
+      "lastAttempt": "2026-11-10",
+      "outcome": "completed"
+    },
+    "[\"camden\",\"Carers and family\"]": {
+      "directoryId": "camden",
+      "category": "Carers and family",
+      "lastAttempt": "2026-11-10",
+      "outcome": "completed"
+    },
+    "[\"hillingdon\",\"Legal advice and rights\"]": {
+      "directoryId": "hillingdon",
+      "category": "Legal advice and rights",
+      "lastAttempt": "2026-11-10",
+      "outcome": "completed"
+    },
+    "[\"hillingdon\",\"Safety and abuse support\"]": {
+      "directoryId": "hillingdon",
+      "category": "Safety and abuse support",
+      "lastAttempt": "2026-11-10",
+      "outcome": "completed"
+    },
+    "[\"hillingdon\",\"Voice and advocacy\"]": {
+      "directoryId": "hillingdon",
+      "category": "Voice and advocacy",
+      "lastAttempt": "2026-11-10",
+      "outcome": "completed"
     }
   },
   "days": {
@@ -105,6 +141,22 @@
         "discovery-9ce9bf00ed90a8d1f4ea",
         "discovery-17304270649819ef2df9",
         "discovery-dd396c898a33592dbcfc"
+      ]
+    },
+    "2026-11-10": {
+      "cells": [
+        "[\"camden\",\"Legal advice and rights\"]",
+        "[\"camden\",\"Alcohol and drug support\"]",
+        "[\"camden\",\"Carers and family\"]",
+        "[\"hillingdon\",\"Legal advice and rights\"]",
+        "[\"hillingdon\",\"Safety and abuse support\"]",
+        "[\"hillingdon\",\"Voice and advocacy\"]"
+      ],
+      "candidateIds": [
+        "discovery-2a46dce5accc21cf591d",
+        "discovery-3cd4c33c2a62aad0a83f",
+        "discovery-07a905b4103b010780fa",
+        "discovery-1574ab6c3b10835ef47b"
       ]
     }
   },
@@ -411,6 +463,187 @@
       "publishedResourceId": "westminster-discovered-b572a6e932b3",
       "publishedCommit": "578305e2d513b0809ea982ded36b62ba04b037e5",
       "publishedOn": "2026-11-09"
+    },
+    {
+      "id": "discovery-2a46dce5accc21cf591d",
+      "status": "proposed",
+      "firstSeen": "2026-11-10",
+      "sourceCheckedOn": "2026-11-10",
+      "resource": {
+        "name": "North West London Law Centres — Camden",
+        "directoryId": "camden",
+        "category": "Legal advice and rights",
+        "description": "Free and independent legal advice and representation covering employment, housing, welfare benefits, asylum and immigration law.",
+        "who": "People living, working or studying in Camden who need help in one of the law centre's advice areas.",
+        "access": "Use the online contact form on the provider website to ask for help.",
+        "check": "Contact the law centre first to confirm that it can take your issue and whether funding or other eligibility criteria apply.",
+        "url": "https://nwllc.org.uk/",
+        "sourceUrl": "https://nwllc.org.uk/",
+        "sourceOwner": "North West London Law Centres",
+        "coverage": "People living, working or studying in Camden and Brent; this listing records the Camden service."
+      },
+      "sources": [
+        {
+          "url": "https://nwllc.org.uk/",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "The current provider page names the Camden and Brent catchment, advice subjects, free and independent service, and online contact route."
+        },
+        {
+          "url": "https://www.camden.gov.uk/camden-advice-network",
+          "ownerType": "council",
+          "retrieval": "page",
+          "note": "Camden Council's current advice network lists North West London Law Centres and confirms free advice on employment, housing, benefits, asylum and immigration."
+        }
+      ],
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "url",
+        "coverage"
+      ],
+      "evidence": "The provider states that it offers free independent legal advice and representation to people living, working and studying in Camden and Brent, with an online contact form; Camden Council lists the same service and subjects.",
+      "limitations": "The sources do not establish current capacity, waiting times, accessibility or the eligibility rules for each type of case. Contact the service before relying on help being available."
+    },
+    {
+      "id": "discovery-3cd4c33c2a62aad0a83f",
+      "status": "proposed",
+      "firstSeen": "2026-11-10",
+      "sourceCheckedOn": "2026-11-10",
+      "resource": {
+        "name": "Islington and Camden Young Carers service",
+        "directoryId": "camden",
+        "category": "Carers and family",
+        "description": "Individual, group and whole-family support for young carers, including advice, peer support and help reducing the impact of caring responsibilities.",
+        "who": "Young people under 18 who live in Camden and have caring responsibilities for a family member or friend.",
+        "access": "Call 0207 841 4445 or email icyc@childrenssociety.org.uk to ask for information or support.",
+        "check": "Contact the service to confirm its current assessment process, availability and the support it can offer.",
+        "url": "https://www.childrenssociety.org.uk/information/young-people/well-being/services/islington-camden-young-carers",
+        "sourceUrl": "https://www.childrenssociety.org.uk/information/young-people/well-being/services/islington-camden-young-carers",
+        "sourceOwner": "The Children's Society",
+        "coverage": "Young carers under 18 living in Camden or Islington; this listing records the Camden route.",
+        "phone": "0207 841 4445"
+      },
+      "sources": [
+        {
+          "url": "https://www.childrenssociety.org.uk/information/young-people/well-being/services/islington-camden-young-carers",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "The current provider page states the under-18 Camden or Islington eligibility, support activities and direct phone and email access."
+        },
+        {
+          "url": "https://families.camden.gov.uk/parents-and-carers/support/support-for-young-carers/",
+          "ownerType": "council",
+          "retrieval": "page",
+          "note": "Camden Council describes young carers, names the service and publishes the same contact route."
+        }
+      ],
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "url",
+        "phone",
+        "coverage"
+      ],
+      "evidence": "The provider page says the service supports under-18s in Camden or Islington through tailored one-to-one work, groups, advice and whole-family support, and publishes direct phone and email access; Camden Council confirms the route.",
+      "limitations": "Costs, current capacity, waiting times and detailed referral or consent arrangements were not stated. The listing does not extend the under-18 provider criteria to young adult carers."
+    },
+    {
+      "id": "discovery-07a905b4103b010780fa",
+      "status": "proposed",
+      "firstSeen": "2026-11-10",
+      "sourceCheckedOn": "2026-11-10",
+      "resource": {
+        "name": "Citizens Advice Hillingdon",
+        "directoryId": "hillingdon",
+        "category": "Legal advice and rights",
+        "description": "Free, confidential advice and information on rights and practical problems, with general advice and specialist projects for more complex needs.",
+        "who": "Hillingdon residents seeking advice on matters such as benefits, debt, employment rights, housing, discrimination or other rights issues.",
+        "access": "Call the free Adviceline on 0808 278 7893, Monday to Friday, 9am to 5pm, or use the provider's advice pages.",
+        "check": "Start with Adviceline so the service can assess whether general advice, a specialist project or another local provider is appropriate.",
+        "url": "https://www.hillingdoncab.org.uk/advice/",
+        "sourceUrl": "https://www.hillingdoncab.org.uk/advice/",
+        "sourceOwner": "Citizens Advice Hillingdon",
+        "coverage": "Hillingdon residents",
+        "phone": "0808 278 7893"
+      },
+      "sources": [
+        {
+          "url": "https://www.hillingdoncab.org.uk/",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "The current provider home page confirms free confidential general advice, specialist projects, Hillingdon coverage and the freephone Adviceline."
+        },
+        {
+          "url": "https://www.hillingdoncab.org.uk/advice/",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "The advice page lists rights topics, local access, specialist-project criteria and Adviceline hours."
+        }
+      ],
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "url",
+        "phone",
+        "coverage"
+      ],
+      "evidence": "Citizens Advice Hillingdon publishes a freephone borough-wide first contact for general advice, names benefits, debt and employment-rights support, and links rights topics including housing, discrimination, immigration and work.",
+      "limitations": "Not every topic has local specialist casework, and eligibility for funded projects varies. The sources do not state current waiting times or guarantee an appointment."
+    },
+    {
+      "id": "discovery-1574ab6c3b10835ef47b",
+      "status": "proposed",
+      "firstSeen": "2026-11-10",
+      "sourceCheckedOn": "2026-11-10",
+      "resource": {
+        "name": "Hillingdon Domestic Abuse Advocacy Service",
+        "directoryId": "hillingdon",
+        "category": "Safety and abuse support",
+        "description": "Independent and confidential domestic-abuse advocacy, including telephone advice, risk assessment, safety planning and coordinated support.",
+        "who": "Adult victims aged 16 or over who live in Hillingdon, of any gender, and their children.",
+        "access": "Call 07874 620954 or email hdaas@hillingdon.gov.uk to ask for confidential help and advice.",
+        "check": "Use a safe device and contact method if possible. Ask the service to confirm its current response arrangements and the support available for your situation.",
+        "url": "https://pre.hillingdon.gov.uk/domestic-abuse/hillingdon-domestic-abuse-advocacy-service",
+        "sourceUrl": "https://pre.hillingdon.gov.uk/domestic-abuse/hillingdon-domestic-abuse-advocacy-service",
+        "sourceOwner": "Hillingdon Council",
+        "coverage": "Victims of domestic abuse living in Hillingdon",
+        "phone": "07874 620954"
+      },
+      "sources": [
+        {
+          "url": "https://pre.hillingdon.gov.uk/domestic-abuse/hillingdon-domestic-abuse-advocacy-service",
+          "ownerType": "council",
+          "retrieval": "page",
+          "note": "The current council page states the borough and age criteria, all-gender and all-risk support, service activities and direct confidential contact route."
+        },
+        {
+          "url": "https://www.cnwl.nhs.uk/patients-and-carers/safety-safeguarding-adults-and-children/domestic-abuse-support-services",
+          "ownerType": "nhs",
+          "retrieval": "page",
+          "note": "CNWL's current domestic-abuse page confirms the Hillingdon advocacy service and the same public phone contact."
+        }
+      ],
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "url",
+        "phone",
+        "coverage"
+      ],
+      "evidence": "Hillingdon Council says the service supports male and female Hillingdon victims at all risk levels, provides telephone advice, risk assessments and safety plans for clients aged 16 and over and their children, and publishes direct confidential contact details.",
+      "limitations": "Current waiting times and capacity are not stated. The NHS page uses a slightly different service abbreviation and email address, so the listing uses the council service name and council contact route."
     }
   ]
 }
