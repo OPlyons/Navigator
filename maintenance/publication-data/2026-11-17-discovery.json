@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "kind": "new_resources",
+  "sourceDay": "2026-11-17",
+  "applied": [
+    {
+      "candidateId": "discovery-ac050bc34fabb3ab64f5",
+      "resourceId": "milton-keynes-discovered-92344f147037",
+      "checkedOn": "2026-11-17"
+    },
+    {
+      "candidateId": "discovery-3d2bc4583ffef00e59f0",
+      "resourceId": "milton-keynes-discovered-0a9db21de312",
+      "checkedOn": "2026-11-17"
+    }
+  ],
+  "skipped": [
+    {
+      "id": "discovery-2a46dce5accc21cf591d",
+      "reason": "Refresh older source evidence before publishing"
+    },
+    {
+      "id": "discovery-3cd4c33c2a62aad0a83f",
+      "reason": "Refresh older source evidence before publishing"
+    },
+    {
+      "id": "discovery-1574ab6c3b10835ef47b",
+      "reason": "Refresh older source evidence before publishing"
+    }
+  ]
+}

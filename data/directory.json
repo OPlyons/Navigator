@@ -26366,6 +26366,88 @@
           "https://www.westminster.gov.uk/health-and-social-care/find-mental-health-support-and-resources-our-wellbeing-hub/assist-autism-support-signposting-information-services-team"
         ]
       }
+    },
+    {
+      "id": "milton-keynes-discovered-92344f147037",
+      "directoryId": "milton-keynes",
+      "name": "DAFS — Drug and Alcohol Family Support",
+      "category": "Alcohol and drug support",
+      "description": "Peer-led groups for relatives and friends affected by someone else's alcohol or drug addiction.",
+      "who": "Affected family members and friends aged 18 or over.",
+      "access": "Complete the provider's contact form; the team will contact you to discuss a suitable group.",
+      "check": "Confirm the next meeting and any access needs. The council describes support as free; the provider mentions voluntary contributions for refreshments.",
+      "coverage": "Groups in Newport Pagnell and Westcroft, Milton Keynes; the provider also offers groups elsewhere and online.",
+      "url": "https://www.dafsmk.co.uk/",
+      "sourceUrl": "https://www.dafsmk.co.uk/",
+      "sourceOwner": "DAFS",
+      "phone": "",
+      "picture": "talk",
+      "tags": [
+        "DAFS — Drug and Alcohol Family Support",
+        "Alcohol and drug support"
+      ],
+      "audiences": [],
+      "lastChecked": "2026-11-17",
+      "nextReview": "2026-12-15",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-17",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "coverage",
+          "url"
+        ],
+        "notes": "Current places, accessibility and exact next meeting dates were not confirmed. This is peer support, not a promise of treatment.",
+        "evidenceUrls": [
+          "https://www.dafsmk.co.uk/",
+          "https://www.milton-keynes.gov.uk/health-and-wellbeing/support-drugs-alcohol-and-gambling/drug-and-alcohol-support-services-adults"
+        ]
+      }
+    },
+    {
+      "id": "milton-keynes-discovered-0a9db21de312",
+      "directoryId": "milton-keynes",
+      "name": "Newcomers MK — community connection",
+      "category": "Culture, identity and belonging",
+      "description": "Community meetups and local connections to help people moving to Milton Keynes settle in and feel they belong.",
+      "who": "People new to Milton Keynes or planning to move there.",
+      "access": "Email Newcomersmk@gmail.com or use the website's Join online community link to ask how to take part.",
+      "check": "Ask about current activities, costs, accessibility and joining arrangements before attending.",
+      "coverage": "Milton Keynes.",
+      "url": "https://www.newcomersmk.org.uk/",
+      "sourceUrl": "https://www.newcomersmk.org.uk/",
+      "sourceOwner": "Newcomers MK",
+      "phone": "",
+      "picture": "community",
+      "tags": [
+        "Newcomers MK — community connection",
+        "Culture, identity and belonging"
+      ],
+      "audiences": [],
+      "lastChecked": "2026-11-17",
+      "nextReview": "2026-12-15",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-17",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "coverage",
+          "url"
+        ],
+        "notes": "Costs, age criteria, accessibility, activity dates and current availability are not established; no free-service or protected-characteristic eligibility claim is made.",
+        "evidenceUrls": [
+          "https://www.newcomersmk.org.uk/",
+          "https://www.milton-keynes.gov.uk/libraries/coin/newcomers-mk"
+        ]
+      }
     }
   ],
   "areaDownloads": {
