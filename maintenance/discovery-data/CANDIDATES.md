@@ -1,7 +1,7 @@
 # New resource suggestions
 
-Last saved search: 2026-11-10. 18 of 200 area/category combinations attempted.
-3 resources await publication. Search coverage is limited, not exhaustive.
+Last saved search: 2026-11-17. 24 of 200 area/category combinations attempted.
+5 resources await publication. Search coverage is limited, not exhaustive.
 
 Candidates are public-source research only. They have not been added to the public directory. Eligible additions publish automatically after the normal quality checks; uncertain cases remain flagged. Existing listing reviews have their own progress and limits.
 
@@ -43,4 +43,32 @@ Category: Safety and abuse support
 - Evidence: Council service page read on 16 November 2026 confirms local coverage, support for all victims regardless of risk, telephone advice, risk assessments and safety planning for clients aged 16 and over and their children, and the listed phone and email.
 - Limitations: Current capacity and waiting times are not established. Contact details follow the council service page; no immediate response or cost claim is made.
 - Source: <https://pre.hillingdon.gov.uk/domestic-abuse/hillingdon-domestic-abuse-advocacy-service> — The current council page states the borough and age criteria, all-gender and all-risk support, service activities and direct confidential contact route.
+
+## DAFS — Drug and Alcohol Family Support — milton-keynes
+Candidate: discovery-ac050bc34fabb3ab64f5. Source checked: 2026-11-17.
+Category: Alcohol and drug support
+- What it offers: Peer-led groups for relatives and friends affected by someone else's alcohol or drug addiction.
+- Who: Affected family members and friends aged 18 or over.
+- Access: Complete the provider's contact form; the team will contact you to discuss a suitable group.
+- Costs/checks: Confirm the next meeting and any access needs. The council describes support as free; the provider mentions voluntary contributions for refreshments.
+- Coverage: Groups in Newport Pagnell and Westcroft, Milton Keynes; the provider also offers groups elsewhere and online.
+- Website: <https://www.dafsmk.co.uk/>
+- Evidence: Provider and council pages describe a distinct local family peer-support service and its access route.
+- Limitations: Current places, accessibility and exact next meeting dates were not confirmed. This is peer support, not a promise of treatment.
+- Source: <https://www.dafsmk.co.uk/> — Confirms adult family/friend audience, local groups and initial contact-form route.
+- Source: <https://www.milton-keynes.gov.uk/health-and-wellbeing/support-drugs-alcohol-and-gambling/drug-and-alcohol-support-services-adults> — Lists free peer-led DAFS support and the two Milton Keynes meeting locations.
+
+## Newcomers MK — community connection — milton-keynes
+Candidate: discovery-3d2bc4583ffef00e59f0. Source checked: 2026-11-17.
+Category: Culture, identity and belonging
+- What it offers: Community meetups and local connections to help people moving to Milton Keynes settle in and feel they belong.
+- Who: People new to Milton Keynes or planning to move there.
+- Access: Email Newcomersmk@gmail.com or use the website's Join online community link to ask how to take part.
+- Costs/checks: Ask about current activities, costs, accessibility and joining arrangements before attending.
+- Coverage: Milton Keynes.
+- Website: <https://www.newcomersmk.org.uk/>
+- Evidence: Provider and council pages confirm the local community purpose and route to enquire about participation.
+- Limitations: Costs, age criteria, accessibility, activity dates and current availability are not established; no free-service or protected-characteristic eligibility claim is made.
+- Source: <https://www.newcomersmk.org.uk/> — Describes support for newcomers, community participation and public contact email.
+- Source: <https://www.milton-keynes.gov.uk/libraries/coin/newcomers-mk> — Confirms local newcomers group, regular meetups and provider website.
 
