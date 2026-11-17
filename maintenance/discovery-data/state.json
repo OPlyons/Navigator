@@ -859,7 +859,7 @@
     },
     {
       "id": "discovery-ac050bc34fabb3ab64f5",
-      "status": "proposed",
+      "status": "added",
       "firstSeen": "2026-11-17",
       "sourceCheckedOn": "2026-11-17",
       "resource": {
@@ -898,11 +898,15 @@
         "url"
       ],
       "evidence": "Provider and council pages describe a distinct local family peer-support service and its access route.",
-      "limitations": "Current places, accessibility and exact next meeting dates were not confirmed. This is peer support, not a promise of treatment."
+      "limitations": "Current places, accessibility and exact next meeting dates were not confirmed. This is peer support, not a promise of treatment.",
+      "publishedResourceId": "milton-keynes-discovered-92344f147037",
+      "publishedCommit": "5e501acf672e4562bfc955d938bdf8eac675feae",
+      "publishedOn": "2026-11-17",
+      "productionDeploymentId": "05214d78-67fc-48f0-99dc-635b76750f19"
     },
     {
       "id": "discovery-3d2bc4583ffef00e59f0",
-      "status": "proposed",
+      "status": "added",
       "firstSeen": "2026-11-17",
       "sourceCheckedOn": "2026-11-17",
       "resource": {
@@ -941,7 +945,11 @@
         "url"
       ],
       "evidence": "Provider and council pages confirm the local community purpose and route to enquire about participation.",
-      "limitations": "Costs, age criteria, accessibility, activity dates and current availability are not established; no free-service or protected-characteristic eligibility claim is made."
+      "limitations": "Costs, age criteria, accessibility, activity dates and current availability are not established; no free-service or protected-characteristic eligibility claim is made.",
+      "publishedResourceId": "milton-keynes-discovered-0a9db21de312",
+      "publishedCommit": "5e501acf672e4562bfc955d938bdf8eac675feae",
+      "publishedOn": "2026-11-17",
+      "productionDeploymentId": "05214d78-67fc-48f0-99dc-635b76750f19"
     }
   ]
 }
