@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "kind": "source_reviews",
+  "sourceDay": "2026-11-21",
+  "applied": [
+    {
+      "id": "camden-mind",
+      "checkedOn": "2026-11-21",
+      "fields": [
+        "check"
+      ],
+      "beforeFingerprint": "9dd0b87720d66084db7c88766dc4767d7c60d5619d693b43818b41db60fceb61",
+      "afterFingerprint": "ca7828db130fd5c5e15af8f93cbfb2bcba9720cd704b1154ec95561842330b9b"
+    },
+    {
+      "id": "camden-nafsiyat",
+      "checkedOn": "2026-11-21",
+      "fields": [
+        "check",
+        "access"
+      ],
+      "beforeFingerprint": "38e9d907276cd481ab9a63027361b66d36df9e007b900f074bdfaa67ae272eed",
+      "afterFingerprint": "259268d5363e462b5ca3bd6c403b5e7c9370e7bf57e6852ce6b1003151059e2e"
+    },
+    {
+      "id": "camden-new-horizon",
+      "checkedOn": "2026-11-21",
+      "fields": [
+        "url",
+        "access"
+      ],
+      "beforeFingerprint": "e4a8f08107ddae82f20b2c96e9824db56b8f3ec106c880ad84b5c55db661f61a",
+      "afterFingerprint": "678f509c5961281a7715402b70f903e88c1698d26baf3c820e5efb67a63ad4c2"
+    },
+    {
+      "id": "camden-people-first",
+      "checkedOn": "2026-11-21",
+      "fields": [],
+      "beforeFingerprint": "ee33a2f39a6a3f0dd330d027b5a5720cec7522bc8af3b06f265f10945f5d5548",
+      "afterFingerprint": "ee33a2f39a6a3f0dd330d027b5a5720cec7522bc8af3b06f265f10945f5d5548"
+    },
+    {
+      "id": "camden-shak",
+      "checkedOn": "2026-11-21",
+      "fields": [],
+      "beforeFingerprint": "02b8038dd94846c2197cfaf0e347614ef844db44d81f2f0e52a83621db59e01a",
+      "afterFingerprint": "02b8038dd94846c2197cfaf0e347614ef844db44d81f2f0e52a83621db59e01a"
+    },
+    {
+      "id": "camden-talking-therapies",
+      "checkedOn": "2026-11-21",
+      "fields": [],
+      "beforeFingerprint": "ed48fd4745e823da2fd2a211e1d0cac5ff8313ba87d0b3ae7ca60427c25bfaf9",
+      "afterFingerprint": "ed48fd4745e823da2fd2a211e1d0cac5ff8313ba87d0b3ae7ca60427c25bfaf9"
+    },
+    {
+      "id": "camden-urgent-mental-health",
+      "checkedOn": "2026-11-21",
+      "fields": [],
+      "beforeFingerprint": "9c27384239f56661b2fe249029ebc4d97d743fb4ae3d9d849d2f5fb3b47c8997",
+      "afterFingerprint": "9c27384239f56661b2fe249029ebc4d97d743fb4ae3d9d849d2f5fb3b47c8997"
+    },
+    {
+      "id": "camden-west-hampstead-women",
+      "checkedOn": "2026-11-21",
+      "fields": [],
+      "beforeFingerprint": "cc40b32c7575653730b3a2f3b79932bc87addbf58713dba11cb36718a276f327",
+      "afterFingerprint": "cc40b32c7575653730b3a2f3b79932bc87addbf58713dba11cb36718a276f327"
+    }
+  ],
+  "skipped": []
+}
