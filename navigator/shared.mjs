@@ -1,7 +1,7 @@
 /* Provider-neutral request contract. No conversation, identities or queries are stored. */
 export const RELEASE = 'community-navigator-v18-2026-10-25';
 export const AREAS = {
- brent:'Brent',harrow:'Harrow','kensington-chelsea':'Kensington and Chelsea',westminster:'Westminster',camden:'Camden',hillingdon:'Hillingdon','milton-keynes':'Milton Keynes',surrey:'Surrey',ealing:'Ealing','wider-support':'Wider support'
+ brent:'Brent',harrow:'Harrow','kensington-chelsea':'Kensington and Chelsea',westminster:'Westminster',camden:'Camden',hillingdon:'Hillingdon','milton-keynes':'Milton Keynes',surrey:'Surrey',ealing:'Ealing',barnet:'Barnet',islington:'Islington','hammersmith-fulham':'Hammersmith and Fulham',hounslow:'Hounslow','richmond-upon-thames':'Richmond upon Thames','wider-support':'Wider support'
 };
 // These describe support topics, never an entitlement or a clinical assessment.
 export const PRACTICAL_NEEDS = {
@@ -64,7 +64,8 @@ export const NEEDS = {
 export const AUDIENCES = {women:'women',men:'men',neurodivergent:'neurodivergent people',disabled:'disabled people',lgbtq:'LGBTQ+ people',trans:'trans and non-binary people','culture-faith':'cultural and faith communities',older:'older people','young-adults':'young adults','pregnancy-parents':'parents',relationships:'families',carers:'carers'};
 export const PREFERENCES = {online:'Online or text preferred',free:'Free or low cost preferred',gentle:'Gentle or beginner-friendly',dropin:'Drop-in or direct contact preferred'};
 export const fold = v => String(v||'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[’']/g,'').replace(/[^a-z0-9+& -]/g,' ').replace(/\s+/g,' ').trim();
-const areaPatterns = {brent:/\bbrent\b/,harrow:/\bharrow\b/,'kensington-chelsea':/\bkensington\b|\bchelsea\b|\bk\s*&\s*c\b/,westminster:/\bwestminster\b/,camden:/\bcamden\b/,hillingdon:/\bhillingdon\b/,'milton-keynes':/\bmilton keynes\b|\bmk\b/,surrey:/\bsurrey\b/,ealing:/\bealing\b/};
+const areaPatterns = {brent:/\bbrent\b/,harrow:/\bharrow\b/,'kensington-chelsea':/\bkensington\b|\bchelsea\b|\bk\s*&\s*c\b/,westminster:/\bwestminster\b/,camden:/\bcamden\b/,hillingdon:/\bhillingdon\b/,'milton-keynes':/\bmilton keynes\b|\bmk\b/,surrey:/\bsurrey\b/,ealing:/\bealing\b/,barnet:/\bbarnet\b/,islington:/\bislington\b/,'hammersmith-fulham':/\b(?:hammersmith|fulham)\b|\bh\s*&\s*f\b/,hounslow:/\bhounslow\b/,'richmond-upon-thames':/\brichmond(?: upon thames)?\b(?! (?:hill|park|yorkshire|north yorkshire)\b)/};
+export const namedLocalAreas = value => Object.entries(areaPatterns).filter(([,re])=>re.test(fold(value))).map(([id])=>id);
 const audiencePatterns = {women:/\bwom[ae]ns?\b|\bfemale\b/,men:/\b(?:men|man|male)s?\b/,neurodivergent:/\b(?:neurodiver\w*|adhd|autis\w*)\b/,disabled:/\b(?:disabil\w*|disabled|deaf|wheelchair)\b/,lgbtq:/\b(?:lgbt\w*|gay|lesbian|bisexual|queer)\b/,trans:/\b(?:trans|transgender|non binary|nonbinary)\b/,'culture-faith':/\b(?:muslim|jewish|sikh|black|asian|refugee|migrant|culture|faith)\b/,older:/\b(?:older|retired|retirement|pensioner)\b/,'young-adults':/\byoung (?:adult|person|people)\b|\b(?:1[6-9]|2[0-5]) (?:year|years) old\b|\b(?:im|i am|aged?) (?:1[6-9]|2[0-5])\b/,'pregnancy-parents':/\b(?:pregnan\w*|parent\w*|mum|dad|mother|father)\b/,relationships:/\b(?:famil\w*|relationship\w*)\b/,carers:/\b(?:carer\w*|caring for)\b/};
 const preferencePatterns = {online:/\b(?:online|webchat|email|text|bsl)\b|\b(?:cant|cannot|dont|unable to|difficult to|struggle to) (?:use |make |face |manage )?(?:phone|call)|\bphone calls (?:are )?(?:hard|difficult)/,free:/\b(?:free|cheap|affordable|low cost|no money|no income)\b|\b(?:cant|cannot) (?:afford|pay)\b/,gentle:/\b(?:gentle|beginner\w*|low impact|slow|quiet)\b|\beasy (?:walk|exercise|activity)/,dropin:/\b(?:drop in|dropin|no referral|without a? ?(?:referral|voucher)|no voucher|no booking|self referral|self refer)\b|\b(?:do not|dont) have (?:a |an )?(?:voucher|referral)\b/};
 export function sensitiveInput(value) {
@@ -95,7 +96,7 @@ export function localIntent(raw) {
  add('carers',/\b(?:carer\w*|caring for)\b/);
  add('advocacy',/\b(?:advocacy|advocate|speak up|heard)\b/);
  add('safety',/\b(?:domestic abuse|domestic violence|unsafe relationship|refuge)\b/);
- const areas=Object.entries(areaPatterns).filter(([,re])=>re.test(q)).map(([id])=>id);
+ const areas=namedLocalAreas(q);
  const audiences=Object.entries(audiencePatterns).filter(([,re])=>re.test(q)).map(([id])=>id);
  const preferences=Object.entries(preferencePatterns).filter(([,re])=>re.test(q)).map(([id])=>id);
  const exclude=[...q.matchAll(/\b(?:not|no) (football|swimming|yoga|church|housing|alcohol|drugs|sport|sports)\b/g)].map(x=>x[1]);

@@ -120,6 +120,7 @@
  audienceDialog.addEventListener('click',event=>{if(event.target!==audienceDialog)return;const r=audienceDialog.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)audienceDialog.close();});
  window.addEventListener('hashchange',()=>{if(audienceDialog.open)audienceDialog.close();});
  const areaButtons=[...document.querySelectorAll('#support button[data-area]')];
+ const areaOptions=new Map([...area.options].map(option=>[option.value,option]));
  const shapes=[...document.querySelectorAll('[data-map-shape]')];
  for(const b of areaButtons){
   b.addEventListener('click',()=>chooseArea(b.dataset.area));
@@ -183,8 +184,11 @@
  function syncChoices(words){
   const counts=Object.fromEntries(data.directories.map(d=>[d.id,0]));
   for(const r of data.resources)if(matches(r,engine.parse(''),true))counts[r.directoryId]++;
-  for(const b of areaButtons){const id=b.dataset.area,count=counts[id]||0,selected=area.value===id;const name=data.directories.find(d=>d.id===id).name;
-   b.setAttribute('aria-pressed',String(selected));b.removeAttribute('aria-label');const countLabel=b.querySelector('.map-place-count,.area-count');countLabel.removeAttribute('aria-hidden');countLabel.textContent=' '+count+' '+(count===1?'listing':'listings');
+  for(const b of areaButtons){const id=b.dataset.area,count=counts[id]||0,selected=area.value===id;const name=data.directories.find(d=>d.id===id)?.name;
+   if(!name)continue;
+   b.setAttribute('aria-pressed',String(selected));b.title=name+' · '+count+' '+(count===1?'listing':'listings');
+   b.setAttribute('aria-label',name+', '+count+' '+(count===1?'listing':'listings'));
+   const option=areaOptions.get(id);if(option)option.textContent=b.title;const countLabel=b.querySelector('.map-place-count,.area-count');countLabel.removeAttribute('aria-hidden');countLabel.textContent=' '+count+' '+(count===1?'listing':'listings');
   }
   for(const p of shapes){p.classList.toggle('is-selected',p.dataset.mapShape===area.value);p.classList.toggle('no-matches',!counts[p.dataset.mapShape]);}
   for(const b of activityButtons)b.setAttribute('aria-pressed',String(b.dataset.activity===activity&&!topic.value));

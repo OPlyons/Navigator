@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "kind": "new_resources",
+  "sourceDay": "2026-11-21",
+  "origin": "Neighbouring borough starter directories; individual provider evidence is recorded on each listing.",
+  "applied": [
+    {
+      "resourceId": "barnet-enabling-connections",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "resourceId": "barnet-citizens-advice",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "resourceId": "barnet-recovery-college",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "resourceId": "barnet-adult-carers",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "resourceId": "islington-access-hubs",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "resourceId": "islington-mind-recovery-pathway",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "resourceId": "islington-carers-hub",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "resourceId": "islington-hand-in-hand-peer-travel",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "resourceId": "hammersmith-fulham-citizens-advice",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "resourceId": "hammersmith-fulham-nourish-hub",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "resourceId": "hammersmith-fulham-age-uk-activity-centre",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "resourceId": "hounslow-community-hubs",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "resourceId": "hounslow-carers-service",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "resourceId": "hounslow-citizens-advice",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "resourceId": "richmond-upon-thames-citizens-advice",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "resourceId": "richmond-upon-thames-carers-centre",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "resourceId": "richmond-upon-thames-library-book-groups",
+      "checkedOn": "2026-11-21"
+    }
+  ],
+  "skipped": []
+}
