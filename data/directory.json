@@ -8694,7 +8694,7 @@
       "category": "Learning, work and volunteering",
       "description": "Free help with finding work, training, CVs and interviews, including tailored disability employment support.",
       "who": "Camden residents, including disabled people and people with mental health conditions.",
-      "access": "Register through Good Work Camden and explain the support or adjustments you would like.",
+      "access": "Register with Good Work Camden or use the Job Hub email link to contact an adviser. For the Disability Job Hub, the council asks you to say you are disabled when you register.",
       "check": "Ask for the Disability Job Hub if relevant. Support can be arranged in person, by phone or by video.",
       "url": "https://goodwork.camden.gov.uk/Web%20Forms/WebUser/PortalPage.aspx?Page=camden-job-hub",
       "phone": "",
@@ -8706,14 +8706,30 @@
         "disability",
         "mental health"
       ],
-      "lastChecked": "2026-09-18",
-      "nextReview": "2026-10-16",
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
       "sourceUrl": "https://goodwork.camden.gov.uk/Web%20Forms/WebUser/PortalPage.aspx?Page=camden-job-hub",
       "sourceOwner": "Camden Council / Good Work Camden",
-      "verificationStatus": "Council or government website checked",
+      "verificationStatus": "Automated source check; current availability not confirmed",
       "audiences": [
         "disabled"
-      ]
+      ],
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "check",
+          "url"
+        ],
+        "notes": "The Job Hub offers free employment support to Camden residents, with workshops, job and training opportunities and a choice of in-person, telephone or video appointments. The Disability Job Hub has a specific registration instruction. Waiting times and a general public telephone number were not established.",
+        "evidenceUrls": [
+          "https://goodwork.camden.gov.uk/Web%20Forms/WebUser/PortalPage.aspx?Page=camden-job-hub"
+        ]
+      }
     },
     {
       "id": "camden-learning-disability-service",
@@ -8733,14 +8749,29 @@
         "social care",
         "Easy Read"
       ],
-      "lastChecked": "2026-09-18",
-      "nextReview": "2026-10-16",
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
       "sourceUrl": "https://www.camden.gov.uk/clds",
       "sourceOwner": "Camden Council",
-      "verificationStatus": "Council or government website checked",
+      "verificationStatus": "Automated source check; current availability not confirmed",
       "audiences": [
         "disabled"
-      ]
+      ],
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "access",
+          "phone",
+          "url"
+        ],
+        "notes": "The council identifies the service, links to its contact and access pages and publishes the same team phone number. The service page links to Easy Read information. Full eligibility, the scope of individual support, fees and availability were not confirmed. The form could not be assessed from this reading; no form was tested or submitted.",
+        "evidenceUrls": [
+          "https://www.camden.gov.uk/clds",
+          "https://www.camden.gov.uk/opening-hours"
+        ]
+      }
     },
     {
       "id": "camden-libraries",
@@ -8761,12 +8792,30 @@
         "home library",
         "connection"
       ],
-      "lastChecked": "2026-09-18",
-      "nextReview": "2026-10-16",
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
       "sourceUrl": "https://www.camden.gov.uk/libraries-local-studies",
       "sourceOwner": "Camden Council",
-      "verificationStatus": "Council or government website checked",
-      "audiences": []
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "audiences": [],
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "check",
+          "url"
+        ],
+        "notes": "Camden Council lists local branches, events, digital books and its Home Library Service. Anyone can join; the membership page explains what to bring to borrow items. The home service is free for people unable to visit because they are housebound, older or have mobility difficulties. Individual activity costs, bookings and availability were not checked.",
+        "evidenceUrls": [
+          "https://www.camden.gov.uk/libraries-local-studies",
+          "https://www.camden.gov.uk/join-the-library",
+          "https://www.camden.gov.uk/home-library-service"
+        ]
+      }
     },
     {
       "id": "camden-talking-therapies",
@@ -8840,12 +8889,28 @@
         "homelessness",
         "daily living"
       ],
-      "lastChecked": "2026-09-18",
-      "nextReview": "2026-10-16",
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
       "sourceUrl": "https://www.camden.gov.uk/leaving-hospital-and-at-risk-of-being-homeless",
       "sourceOwner": "Camden Council",
-      "verificationStatus": "Council or government website checked",
-      "audiences": []
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "audiences": [],
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "check",
+          "url"
+        ],
+        "notes": "Camden describes help both for someone who has nowhere to live and for someone unable to manage at home. A person can tell the discharge team or use the housing form themselves. A council assessment and local connection matter; an offer of accommodation is not assured. We did not confirm individual eligibility, vacancies, costs or a direct telephone number.",
+        "evidenceUrls": [
+          "https://www.camden.gov.uk/leaving-hospital-and-at-risk-of-being-homeless"
+        ]
+      }
     },
     {
       "id": "camden-cindex",
@@ -9199,14 +9264,31 @@
         "employment",
         "wellbeing"
       ],
-      "lastChecked": "2026-09-18",
-      "nextReview": "2026-10-16",
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
       "sourceUrl": "https://hopscotchuk.org/",
       "sourceOwner": "Hopscotch Women’s Centre",
-      "verificationStatus": "Provider website checked",
+      "verificationStatus": "Automated source check; current availability not confirmed",
       "audiences": [
         "women"
-      ]
+      ],
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "phone",
+          "url"
+        ],
+        "notes": "The centre confirms support with abuse, welfare and benefits, employment and mental wellbeing. Its published centre contact matches the listing and is distinct from its homecare contact. Hopscotch describes its advocacy as London-wide; the Camden listing does not claim exclusive eligibility. Programme-specific entry conditions, appointment availability, costs and languages for an individual session were not established.",
+        "evidenceUrls": [
+          "https://hopscotchuk.org/",
+          "https://hopscotchuk.org/womens-centre/"
+        ]
+      }
     },
     {
       "id": "camden-baitul-aman-mosque",
@@ -9341,10 +9423,10 @@
       "category": "Culture, identity and belonging",
       "description": "Advice on benefits, housing and practical matters, including Irish passport and birth certificate questions.",
       "who": "People seeking the centre’s community advice; check the criteria for your enquiry.",
-      "access": "Find the London Irish Centre contact route in Camden Advice Network.",
-      "check": "Ask about appointments and which advice the centre can currently offer.",
-      "url": "https://www.camden.gov.uk/camden-advice-network",
-      "phone": "",
+      "access": "Ask the centre for an appointment by phone (choose option 1 twice) or use the email link on its advice page. If neither works for you, check its Camden Square reception hours.",
+      "check": "Advice is by appointment. Check reception hours before visiting. The centre gives housing advice but does not find private accommodation.",
+      "url": "https://londonirishcentre.org/our-services/advice-information-support/",
+      "phone": "020 7916 2222",
       "picture": "community",
       "tags": [
         "Irish community",
@@ -9352,14 +9434,31 @@
         "housing",
         "practical advice"
       ],
-      "lastChecked": "2026-09-18",
-      "nextReview": "2026-10-16",
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
       "sourceUrl": "https://www.camden.gov.uk/camden-advice-network",
       "sourceOwner": "Camden Council / Camden Advice Network",
-      "verificationStatus": "Council or government website checked",
+      "verificationStatus": "Automated source check; current availability not confirmed",
       "audiences": [
         "culture-faith"
-      ]
+      ],
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "access",
+          "check",
+          "url",
+          "phone"
+        ],
+        "notes": "The council confirms the advice topics, including Irish documents. The centre publishes its own direct contact route and says advice requires an appointment. No blanket eligibility or fee rule for all enquiries, available appointments or immediate response was established.",
+        "evidenceUrls": [
+          "https://www.camden.gov.uk/camden-advice-network",
+          "https://londonirishcentre.org/our-services/advice-information-support/"
+        ]
+      }
     },
     {
       "id": "camden-mary-ward",
@@ -9367,9 +9466,9 @@
       "name": "Mary Ward Legal Centre",
       "category": "Housing and homelessness",
       "description": "Specialist legal advice on housing, debt and welfare benefits, with some additional legal advice services.",
-      "who": "People on a low income in London; case and funding criteria apply.",
-      "access": "Call or use the relevant enquiry form to ask whether the centre can help.",
-      "check": "Ask about eligibility and capacity before travelling. The centre may not be able to take every case.",
+      "who": "Londoners on low incomes are the priority. For housing advice, people who live, work or study in Camden do not need to qualify for Legal Help. Eligibility differs by service.",
+      "access": "For housing, use the online form on Monday. If you cannot complete it, call Monday or Wednesday, 10am–noon; help filling it in is available on Monday only. For debt or benefits, use the separate contact instructions on the homepage.",
+      "check": "Housing capacity is limited. If you get no reply within five days, seek another adviser. As of 21 November 2026, no pro bono appointments are available; check the homepage before trying to book.",
       "url": "https://www.marywardlegal.org.uk/",
       "phone": "020 7831 7079",
       "picture": "home",
@@ -9379,12 +9478,31 @@
         "benefits",
         "legal advice"
       ],
-      "lastChecked": "2026-09-18",
-      "nextReview": "2026-10-16",
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
       "sourceUrl": "https://www.marywardlegal.org.uk/",
       "sourceOwner": "Mary Ward Legal Centre",
-      "verificationStatus": "Provider website checked",
-      "audiences": []
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "audiences": [],
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "check",
+          "phone",
+          "url"
+        ],
+        "notes": "The centre confirms free specialist advice with eligibility varying by service. Housing enquiries are limited to Mondays online; the centre reports reduced capacity and a separate pro bono booking pause. Individual eligibility, appointment availability and a reopening date were not confirmed.",
+        "evidenceUrls": [
+          "https://www.marywardlegal.org.uk/",
+          "https://www.marywardlegal.org.uk/legal-advice/housing-advice/",
+          "https://www.marywardlegal.org.uk/legal-advice/general-legal-advice/"
+        ]
+      }
     },
     {
       "id": "camden-mind",
@@ -9761,12 +9879,29 @@
         "distress",
         "wellbeing"
       ],
-      "lastChecked": "2026-09-18",
-      "nextReview": "2026-10-16",
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
       "sourceUrl": "https://www.hestia.org/the-lantern-islington",
       "sourceOwner": "Hestia",
-      "verificationStatus": "Provider website checked",
-      "audiences": []
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "audiences": [],
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "check",
+          "phone",
+          "url"
+        ],
+        "notes": "Hestia confirms the Camden catchment, adult age threshold, walk-in or telephone access, address, opening hours and daily activities. Groups follow an initial session. The separate online referral route is for organisations; an individual does not need it to visit. The page did not establish fees or the availability of a place at a particular time.",
+        "evidenceUrls": [
+          "https://www.hestia.org/the-lantern-islington"
+        ]
+      }
     },
     {
       "id": "camden-urgent-mental-health",

@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "kind": "source_reviews",
+  "sourceDay": "2026-11-21",
+  "applied": [
+    {
+      "id": "camden-hopscotch",
+      "checkedOn": "2026-11-21",
+      "fields": [],
+      "beforeFingerprint": "a85d08740fd92bf45cb4ca6ad2b21340080d08e1b55711e6dfaf5b675a6f9799",
+      "afterFingerprint": "a85d08740fd92bf45cb4ca6ad2b21340080d08e1b55711e6dfaf5b675a6f9799"
+    },
+    {
+      "id": "camden-housing-after-hospital",
+      "checkedOn": "2026-11-21",
+      "fields": [],
+      "beforeFingerprint": "da5f9323b311c586a007ed24f29322cf6695f30f7ed0b6d7a96ebdfd4304d3e7",
+      "afterFingerprint": "da5f9323b311c586a007ed24f29322cf6695f30f7ed0b6d7a96ebdfd4304d3e7"
+    },
+    {
+      "id": "camden-job-hub",
+      "checkedOn": "2026-11-21",
+      "fields": [
+        "access"
+      ],
+      "beforeFingerprint": "6d2f7705697f678f445623089fb94b3952e9855c3abcffad05984b894d82695a",
+      "afterFingerprint": "ab96f489225c3651ff507bc4b4188d44b4602cd08760ae8dcfb2a7baf9a3d35e"
+    },
+    {
+      "id": "camden-lantern",
+      "checkedOn": "2026-11-21",
+      "fields": [],
+      "beforeFingerprint": "132b22df2ecbb0ba153b3b114b7f44ddfe8cfda77c90be264263415a7149cfa9",
+      "afterFingerprint": "132b22df2ecbb0ba153b3b114b7f44ddfe8cfda77c90be264263415a7149cfa9"
+    },
+    {
+      "id": "camden-learning-disability-service",
+      "checkedOn": "2026-11-21",
+      "fields": [],
+      "beforeFingerprint": "ca308abc68e8ffa913b44e84217556d50adcf414665f1fecd05f805f3ff91d1a",
+      "afterFingerprint": "ca308abc68e8ffa913b44e84217556d50adcf414665f1fecd05f805f3ff91d1a"
+    },
+    {
+      "id": "camden-libraries",
+      "checkedOn": "2026-11-21",
+      "fields": [],
+      "beforeFingerprint": "2b2cfb1abaf6ee564b76399f00e37a3a50d9cef9c8c68d2041ffb3b366376409",
+      "afterFingerprint": "2b2cfb1abaf6ee564b76399f00e37a3a50d9cef9c8c68d2041ffb3b366376409"
+    },
+    {
+      "id": "camden-london-irish",
+      "checkedOn": "2026-11-21",
+      "fields": [
+        "access",
+        "check",
+        "url",
+        "phone"
+      ],
+      "beforeFingerprint": "d0902889b3cccf99220b888041ec2d42060baa5e64e299803d77eab8dc85e4da",
+      "afterFingerprint": "69a2c6a8824d195bdfb5b519b6d195bf6e911de9fc5751672f4d035d576a5cfc"
+    },
+    {
+      "id": "camden-mary-ward",
+      "checkedOn": "2026-11-21",
+      "fields": [
+        "access",
+        "check",
+        "who"
+      ],
+      "beforeFingerprint": "cddf918bec379ada02f83f01cb231f669039c15246cffe6ab8398bcd01e5ced7",
+      "afterFingerprint": "29e73344f8c3d84c8c96b46fc8a9cab49cf43054015ad63cf3a446171004d494"
+    }
+  ],
+  "skipped": []
+}
