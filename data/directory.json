@@ -1322,7 +1322,7 @@
       "description": "Help with essential costs during financial difficulty or an unexpected emergency.",
       "who": "Brent residents aged 18+ meeting the fund’s savings and other eligibility rules.",
       "access": "Apply online; Brent Hubs can help with the form.",
-      "check": "Evidence required. Normally one application per rolling 12 months, even if a previous application was declined. Awards are discretionary.",
+      "check": "Evidence required. One application per rolling 12 months, even if declined. For couples, an application by either partner counts towards this limit; it does not apply to other adult household members. Awards are discretionary.",
       "url": "https://www.brent.gov.uk/benefits-and-money-advice/resident-support-fund",
       "phone": "020 8937 1800",
       "picture": "money",
@@ -1334,23 +1334,25 @@
         "financial hardship",
         "white goods"
       ],
-      "lastChecked": "2026-11-01",
-      "nextReview": "2026-11-29",
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
       "sourceUrl": "https://www.brent.gov.uk/benefits-and-money-advice/resident-support-fund",
       "sourceOwner": "Brent Council",
       "verificationStatus": "Automated source check; current availability not confirmed",
       "audiences": [],
       "sourceCheck": {
-        "date": "2026-11-01",
+        "date": "2026-11-21",
         "method": "automated",
         "checkedFields": [
           "name",
           "description",
           "who",
+          "access",
           "check",
+          "phone",
           "url"
         ],
-        "notes": "The council confirms the discretionary crisis fund for Brent residents aged 18+, savings under £6,000, essential costs and emergencies, with one application per rolling 12 months. Individual entitlement remains discretionary; the phone was not checked on the material read.",
+        "notes": "Brent confirms essential-cost and emergency support for eligible residents aged 18 and over, online applications, Hub help and its contact number. The rolling limit covers both partners in a couple. An award is not guaranteed.",
         "evidenceUrls": [
           "https://www.brent.gov.uk/benefits-and-money-advice/resident-support-fund"
         ]
@@ -8378,12 +8380,26 @@
         "grants",
         "money"
       ],
-      "lastChecked": "2026-09-18",
-      "nextReview": "2026-10-16",
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
       "sourceUrl": "https://www.camden.gov.uk/benefits-support",
       "sourceOwner": "Camden Council",
-      "verificationStatus": "Council or government website checked",
-      "audiences": []
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "audiences": [],
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "access",
+          "url"
+        ],
+        "notes": "Camden’s benefits hub links to money advice, Council Tax Support, benefits claims, and grants, funds and loans. The overview does not establish individual entitlement, award levels, a general telephone route or the evidence each scheme requires.",
+        "evidenceUrls": [
+          "https://www.camden.gov.uk/benefits-support"
+        ]
+      }
     },
     {
       "id": "camden-care-choices",
@@ -8480,12 +8496,29 @@
         "walk-in",
         "listening"
       ],
-      "lastChecked": "2026-09-18",
-      "nextReview": "2026-10-16",
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
       "sourceUrl": "https://www.hestia.org/camden-crisis-sanctuary",
       "sourceOwner": "Hestia",
-      "verificationStatus": "Provider website checked",
-      "audiences": []
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "audiences": [],
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "check",
+          "phone",
+          "url"
+        ],
+        "notes": "Hestia confirms free listening and practical support for adults who live in Camden or have used its mental health services. It accepts walk-ins and calls during evening opening times, including bank holidays, at the listed location. Current availability was not confirmed.",
+        "evidenceUrls": [
+          "https://www.hestia.org/camden-crisis-sanctuary"
+        ]
+      }
     },
     {
       "id": "camden-camden-cyclists-rides",
@@ -8529,14 +8562,32 @@
         "BSL",
         "rights"
       ],
-      "lastChecked": "2026-09-18",
-      "nextReview": "2026-10-16",
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
       "sourceUrl": "https://camdendisabilityaction.org.uk/get-help/",
       "sourceOwner": "Camden Disability Action",
-      "verificationStatus": "Provider website checked",
+      "verificationStatus": "Automated source check; current availability not confirmed",
       "audiences": [
         "disabled"
-      ]
+      ],
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "check",
+          "phone",
+          "url"
+        ],
+        "notes": "Camden Disability Action describes disabled-led advice, advocacy and local opportunities to shape services. Its help page confirms telephone and text contact, a BSL interpreting link and 10am to 4pm advice hours. It does not specify days or fees.",
+        "evidenceUrls": [
+          "https://camdendisabilityaction.org.uk/get-help/",
+          "https://camdendisabilityaction.org.uk/about-us/our-organisation/"
+        ]
+      }
     },
     {
       "id": "camden-drug-alcohol",
@@ -8545,7 +8596,7 @@
       "category": "Alcohol and drug support",
       "description": "Free, confidential support with alcohol or drugs, including one-to-one help, groups and support for families.",
       "who": "People over 18 in Camden affected by alcohol or drugs.",
-      "access": "Refer yourself or someone else online, or call to discuss support.",
+      "access": "You can refer yourself online or call to ask about support. Professionals referring someone else need that person’s permission.",
       "check": "Ask about the most suitable location. Appointments can be arranged at different Camden sites.",
       "url": "https://www.changegrowlive.org/service/camden-drug-alcohol",
       "phone": "020 7485 2722",
@@ -8557,12 +8608,31 @@
         "recovery",
         "families"
       ],
-      "lastChecked": "2026-09-18",
-      "nextReview": "2026-10-16",
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
       "sourceUrl": "https://www.changegrowlive.org/service/camden-drug-alcohol",
       "sourceOwner": "Change Grow Live",
-      "verificationStatus": "Provider website checked",
-      "audiences": []
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "audiences": [],
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "check",
+          "phone",
+          "url"
+        ],
+        "notes": "Change Grow Live confirms free drug and alcohol support for people over 18 in Camden, family support, telephone enquiries and appointments at several sites. It distinguishes the self-referral form from the professional route, which requires the person’s permission. Waiting times were not established.",
+        "evidenceUrls": [
+          "https://www.changegrowlive.org/service/camden-drug-alcohol",
+          "https://www.changegrowlive.org/service/camden-drug-alcohol/referrals",
+          "https://www.changegrowlive.org/service/camden-drug-alcohol/refer-someone-else"
+        ]
+      }
     },
     {
       "id": "camden-foodbank",
@@ -8795,12 +8865,26 @@
         "community",
         "support"
       ],
-      "lastChecked": "2026-09-18",
-      "nextReview": "2026-10-16",
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
       "sourceUrl": "https://cindex.camden.gov.uk/kb5/camden/cd/home.page",
       "sourceOwner": "Camden Council / Cindex",
-      "verificationStatus": "Council or government website checked",
-      "audiences": []
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "audiences": [],
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "access",
+          "url"
+        ],
+        "notes": "Camden lists services, organisations and local groups in a directory searchable by keyword or topic. Its directory homepage does not establish individual providers’ eligibility, fees, contact details or opening times.",
+        "evidenceUrls": [
+          "https://cindex.camden.gov.uk/kb5/camden/cd/home.page"
+        ]
+      }
     },
     {
       "id": "camden-citizens-advice",
@@ -8821,12 +8905,30 @@
         "employment",
         "advice"
       ],
-      "lastChecked": "2026-09-18",
-      "nextReview": "2026-10-16",
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
       "sourceUrl": "https://www.camdencabservice.org.uk/",
       "sourceOwner": "Citizens Advice Camden",
-      "verificationStatus": "Provider website checked",
-      "audiences": []
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "audiences": [],
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "check",
+          "phone",
+          "url"
+        ],
+        "notes": "Citizens Advice Camden confirms free independent and confidential advice for residents, a weekday freephone line from 10am to 4pm and an online callback request. Callback timing depends on demand; no appointment availability was established.",
+        "evidenceUrls": [
+          "https://www.camdencabservice.org.uk/",
+          "https://www.camdencabservice.org.uk/get-advice/request-a-callback/"
+        ]
+      }
     },
     {
       "id": "camden-creative-health-camden",
