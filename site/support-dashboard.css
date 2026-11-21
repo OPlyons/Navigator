@@ -274,3 +274,104 @@ body .brand-header .brand-inner{display:flex;align-items:center;min-height:64px}
  .large #support .map-connectors{display:none}
  .large #support .borough-map .map-place{position:static;transform:none;max-width:none;min-height:44px;font-size:.85rem;overflow-wrap:anywhere}
 }
+
+/* On the opening screen, use the width for choices. No fixed-height panels:
+   results, reading settings and open filters are always free to grow. */
+@media screen {
+ #support #navigator-status:empty{margin:0}
+ #support #support-start{min-height:0;margin:.4rem 0 0}
+ #support #support-start[hidden]{display:none}
+ #support #browse-all-areas{min-height:36px;text-decoration:underline;text-underline-offset:.17em;padding:.2rem 0}
+}
+@media screen and (min-width:1150px){
+ html:not(.large) body:has(#support.active){
+  --desk-width:1600px;--desk-edge:clamp(18px,2.2vw,36px);
+ }
+ html:not(.large) body:has(#support.active) .navigator-masthead{
+  display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;column-gap:clamp(18px,2.5vw,44px);
+  padding:6px max(var(--desk-edge),calc((100% - var(--desk-width))/2 + var(--desk-edge)));
+  border-top:4px solid var(--blue);border-bottom:1px solid var(--line);background:#fff;
+ }
+ html:not(.large) body:has(#support.active) .navigator-masthead .brand-header,
+ html:not(.large) body:has(#support.active) .navigator-masthead .brand-inner{display:contents}
+ html:not(.large) body:has(#support.active) .navigator-brand{grid-area:1/1;font-size:.94rem}
+ html:not(.large) body:has(#support.active) .navigator-brand img{width:38px;height:38px}
+ html:not(.large) body:has(#support.active) .crisis-help-button{grid-area:1/3;min-height:44px;padding:.3rem .7rem}
+ html:not(.large) body:has(#support.active) .navigation-wrap{
+  grid-area:1/2;display:flex;align-items:center;justify-content:space-between;gap:.5rem;
+  min-width:0;border:none;background:transparent;
+ }
+ html:not(.large) body:has(#support.active) .navigation-wrap>nav,
+ html:not(.large) body:has(#support.active) .utility-bar{margin:0;padding:0;flex-wrap:nowrap}
+ html:not(.large) body:has(#support.active) .navigation-wrap>nav a{min-height:40px;padding:.3rem .6rem}
+ html:not(.large) body:has(#support.active) .utility-bar{display:flex;gap:.9rem;align-items:baseline}
+ html:not(.large) body:has(#support.active) #reading-options{flex:none}
+ html:not(.large) body:has(#support.active) #reading-options>summary,
+ html:not(.large) body:has(#support.active) .utility-bar>a{white-space:nowrap}
+ html:not(.large) body:has(#support.active) #reading-options[open]{position:relative}
+ html:not(.large) body:has(#support.active) #reading-options[open] .reading-controls{
+  position:absolute;top:100%;right:0;z-index:8;width:16rem;max-width:none;padding:.7rem;
+  border:1px solid var(--line);border-radius:12px;background:#fff;box-shadow:0 6px 22px #163d4a24;
+ }
+ html:not(.large) body:has(#support.active) main{max-width:var(--desk-width);padding:.65rem var(--desk-edge) .2rem}
+ html:not(.large) #support .support-heading{grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:1rem;margin-bottom:.6rem}
+ html:not(.large) #support .support-title-line{justify-content:flex-start;gap:.8rem}
+ html:not(.large) #support .support-heading h1{font-size:1.65rem}
+ html:not(.large) #support .support-intro-links{margin-top:.15rem;gap:.45rem;flex-wrap:wrap}
+ html:not(.large) #support .suggest-resource-button,html:not(.large) #support .after-hospital-toggle{
+  min-height:36px;padding:.25rem .55rem;font-size:.74rem;line-height:1.25;
+ }
+ html:not(.large) #support .support-reset{min-height:36px;padding:.15rem .55rem}
+ html:not(.large) #support .directory-coverage{padding:.18rem .55rem}
+ html:not(.large) #support .support-dashboard{
+  grid-template-columns:minmax(0,.93fr) minmax(0,1fr) minmax(0,1.44fr);gap:clamp(10px,1vw,18px);
+ }
+ html:not(.large) #support .dashboard-panel,html:not(.large) #support .wizard-panel{padding:clamp(12px,1.1vw,18px)}
+ html:not(.large) #support .wizard-heading{margin-bottom:.5rem}
+ html:not(.large) #support .wizard-picture{width:40px;height:40px;flex-basis:40px}
+ html:not(.large) #support .wizard-panel textarea{height:3rem;min-height:3rem}
+ html:not(.large) #support .wizard-panel .navigator-warning{margin-bottom:.45rem}
+ html:not(.large) #support .wizard-actions{margin-top:.45rem}
+ html:not(.large) #support .wizard-panel #search-help{margin-top:.35rem}
+ html:not(.large) #support .dashboard-panel-heading{margin-bottom:.3rem}
+ html:not(.large) #support .support-types-note{margin:0 0 .45rem}
+ html:not(.large) #support .activity-choices{grid-template-columns:repeat(5,minmax(0,1fr));grid-auto-rows:1fr;gap:6px}
+ html:not(.large) #support .activity-choice{min-height:62px;gap:3px;padding:5px 3px;font-size:.7rem;line-height:1.2}
+ html:not(.large) #support .activity-choice .activity-icon{width:22px;height:22px;flex-basis:22px}
+ html:not(.large) #support .area-map-panel{margin-top:.3rem}
+ html:not(.large) #support .other-areas{margin-bottom:.25rem}
+ html:not(.large) #support .pg-hub{
+  display:grid;grid-template-columns:minmax(6rem,.42fr) minmax(0,3fr);align-items:center;
+  gap:.8rem;margin:.55rem 0 .3rem;padding:.5rem .7rem;border-radius:14px;
+ }
+ html:not(.large) #support .pg-header{display:block}
+ html:not(.large) #support .pg-header h2{font-size:1.02rem}
+ html:not(.large) #support .pg-header p{font-size:.72rem;line-height:1.35;margin:.2rem 0 0}
+ html:not(.large) #support .pg-groups{margin:0;gap:.7rem}
+ html:not(.large) #support .pg-group h3{font-size:.72rem;line-height:1.25;margin:0 0 .2rem}
+ html:not(.large) #support .pg-pair{height:auto;gap:6px}
+ html:not(.large) #support .pg-tile{min-height:44px;height:100%;font-size:.77rem;gap:.35rem;padding:.25rem .4rem}
+ html:not(.large) #support .pg-icon{width:1.5rem;height:1.5rem;flex-basis:1.5rem}
+ html:not(.large) #support .pg-icon svg{width:1rem;height:1rem}
+ html:not(.large) #support .directory-bottom{margin:0;padding:.15rem 0 0;align-items:center;border:0}
+ html:not(.large) body:has(#support.active) .navigator-foot{
+  display:flex;align-items:center;justify-content:space-between;gap:.5rem 1rem;flex-wrap:wrap;
+  padding:.15rem max(var(--desk-edge),calc((100% - var(--desk-width))/2 + var(--desk-edge)));
+  border-top:1px solid var(--line);background:#fff;
+ }
+ html:not(.large) body:has(#support.active) .page-bottom{margin:0;padding:0;gap:.4rem}
+ html:not(.large) body:has(#support.active) .page-bottom a[href="#support"]{display:none}
+ html:not(.large) body:has(#support.active) footer{padding:0;margin:0;border:none}
+ html:not(.large) body:has(#support.active) .footer-inner{display:block;margin:0;padding:0;max-width:none}
+ html:not(.large) body:has(#support.active) .footer-inner>div:last-child{display:flex;align-items:center;gap:1rem;flex-wrap:wrap}
+ html:not(.large) body:has(#support.active) .footer-tree,html:not(.large) body:has(#support.active) .footer-title,html:not(.large) body:has(#support.active) .footer-workforce-name+p{display:none}
+ html:not(.large) body:has(#support.active) .footer-workforce-name{margin:0}
+ html:not(.large) body:has(#support.active) footer nav{gap:.7rem}
+ html:not(.large) body:has(#support.active) footer nav a{min-height:34px;padding:.2rem 0}
+}
+@media screen and (min-width:1150px) and (max-height:790px){
+ html:not(.large) body:has(#support.active) main{padding-top:.4rem}
+ html:not(.large) #support .support-heading{margin-bottom:.4rem}
+ html:not(.large) #support .activity-choice{min-height:55px}
+ html:not(.large) #support .dashboard-panel,html:not(.large) #support .wizard-panel{padding:12px}
+}

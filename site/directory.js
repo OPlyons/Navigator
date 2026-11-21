@@ -260,7 +260,7 @@
    data=value;area.value=pendingArea;
    topic.replaceChildren(new Option('All types',''));for(const cat of [...new Set(data.resources.map(r=>r.category))].sort())topic.append(new Option(cat,cat));
    for(const n of [area,topic,search,audience,audienceTrigger,hospitalTrigger,$('clear-filters'),$('browse-all-areas'),...activityButtons,...areaButtons])n.disabled=false;
-   $('browse-all-areas').textContent='Or browse all '+data.resources.length+' listings →';$('directory-coverage').textContent=data.resources.length+' resources';
+   $('browse-all-areas').textContent='Browse all '+data.resources.length+' listings';$('directory-coverage').textContent=data.resources.length+' resources';
    areaChanged();
   }catch(error){$('resource-count').textContent='The directory could not be loaded.';$('directory-loading-error').hidden=false;console.error('Directory load failed:',error);}
   finally{$('resource-list').removeAttribute('aria-busy');loading=null;}})();return loading;

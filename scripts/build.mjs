@@ -21,7 +21,7 @@ fill('script','navigator-core',core);fill('script','navigator-ui',await read('si
 fill('style','navigator-design',await read('site/navigator.css'));fill('style','needs-search-design',await read('site/needs-search.css'));
 fill('script','public-resources',JSON.stringify({directories:directory.directories,areaDownloads:directory.areaDownloads,directoryRelease:directory.directoryRelease}));
 fill('span','directory-coverage',directory.resources.length+' resources');
-fill('button','browse-all-areas','Or browse all '+directory.resources.length+' listings →');
+fill('button','browse-all-areas','Browse all '+directory.resources.length+' listings');
 template=template.replace('</head>','<style id="support-dashboard-design">'+await read('site/support-dashboard.css')+'</style></head>');
 fill('script','navigator-config',JSON.stringify({endpoint:settings.apiPath,release:'community-navigator-v18-2026-10-25'}));
 const ingestOrigin=new URL(settings.sentry.dsn).origin;
