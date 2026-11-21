@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "kind": "new_resources",
+  "sourceDay": "2026-11-21",
+  "applied": [
+    {
+      "candidateId": "expanded-barnet-1",
+      "resourceId": "barnet-discovered-bb3803d3a5f9",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "candidateId": "expanded-barnet-2",
+      "resourceId": "barnet-discovered-fde4b129238c",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "candidateId": "expanded-barnet-3",
+      "resourceId": "barnet-discovered-bfded5e51953",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "candidateId": "expanded-barnet-4",
+      "resourceId": "barnet-discovered-b3f8d7031e91",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "candidateId": "expanded-barnet-5",
+      "resourceId": "barnet-discovered-22e8292ad0aa",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "candidateId": "expanded-barnet-6",
+      "resourceId": "barnet-discovered-8a0ac1893f2c",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "candidateId": "expanded-islington-7",
+      "resourceId": "islington-discovered-e3ce54e7e804",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "candidateId": "expanded-islington-8",
+      "resourceId": "islington-discovered-05f45a946bb5",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "candidateId": "expanded-islington-9",
+      "resourceId": "islington-discovered-b4de53048cb4",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "candidateId": "expanded-islington-10",
+      "resourceId": "islington-discovered-6b81bb7d4579",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "candidateId": "expanded-islington-11",
+      "resourceId": "islington-discovered-43b724daa381",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "candidateId": "expanded-islington-12",
+      "resourceId": "islington-discovered-0b1c99e4c374",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "candidateId": "expanded-hammersmith-fulham-13",
+      "resourceId": "hammersmith-fulham-discovered-82ad1b34fa3f",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "candidateId": "expanded-hammersmith-fulham-14",
+      "resourceId": "hammersmith-fulham-discovered-57e36bc956d9",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "candidateId": "expanded-hammersmith-fulham-15",
+      "resourceId": "hammersmith-fulham-discovered-085abc97d403",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "candidateId": "expanded-hammersmith-fulham-16",
+      "resourceId": "hammersmith-fulham-discovered-858a7d72f566",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "candidateId": "expanded-hammersmith-fulham-17",
+      "resourceId": "hammersmith-fulham-discovered-0b402b25ded8",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "candidateId": "expanded-hammersmith-fulham-18",
+      "resourceId": "hammersmith-fulham-discovered-c6f824dcc0c7",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "candidateId": "expanded-hounslow-19",
+      "resourceId": "hounslow-discovered-6895c1c99c9d",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "candidateId": "expanded-hounslow-20",
+      "resourceId": "hounslow-discovered-a487743bcee3",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "candidateId": "expanded-hounslow-21",
+      "resourceId": "hounslow-discovered-457accfdd6f0",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "candidateId": "expanded-hounslow-22",
+      "resourceId": "hounslow-discovered-723bbafdaf50",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "candidateId": "expanded-hounslow-23",
+      "resourceId": "hounslow-discovered-380e2c2592d3",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "candidateId": "expanded-hounslow-24",
+      "resourceId": "hounslow-discovered-e6909c9df54c",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "candidateId": "expanded-richmond-upon-thames-25",
+      "resourceId": "richmond-upon-thames-discovered-04f15c0a9783",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "candidateId": "expanded-richmond-upon-thames-26",
+      "resourceId": "richmond-upon-thames-discovered-d274dd1c200f",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "candidateId": "expanded-richmond-upon-thames-27",
+      "resourceId": "richmond-upon-thames-discovered-afd5993bf816",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "candidateId": "expanded-richmond-upon-thames-28",
+      "resourceId": "richmond-upon-thames-discovered-f4c233d4eb6d",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "candidateId": "expanded-richmond-upon-thames-29",
+      "resourceId": "richmond-upon-thames-discovered-e5875dffc707",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "candidateId": "expanded-richmond-upon-thames-30",
+      "resourceId": "richmond-upon-thames-discovered-d881af755d0d",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "candidateId": "expanded-barnet-31",
+      "resourceId": "barnet-discovered-83d776b02ee9",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "candidateId": "expanded-islington-32",
+      "resourceId": "islington-discovered-9cbdb1b4173c",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "candidateId": "expanded-hammersmith-fulham-33",
+      "resourceId": "hammersmith-fulham-discovered-fb4e5f7375af",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "candidateId": "expanded-hounslow-34",
+      "resourceId": "hounslow-discovered-7cb4c8763229",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "candidateId": "expanded-richmond-upon-thames-35",
+      "resourceId": "richmond-upon-thames-discovered-31b7dc8cf7c1",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "candidateId": "expanded-barnet-36",
+      "resourceId": "barnet-discovered-175b4aa7c290",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "candidateId": "expanded-islington-37",
+      "resourceId": "islington-discovered-581335e8a072",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "candidateId": "expanded-hammersmith-fulham-38",
+      "resourceId": "hammersmith-fulham-discovered-b3e9a1b9f62d",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "candidateId": "expanded-hounslow-39",
+      "resourceId": "hounslow-discovered-73eead688806",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "candidateId": "expanded-richmond-upon-thames-40",
+      "resourceId": "richmond-upon-thames-discovered-88a301422b97",
+      "checkedOn": "2026-11-21"
+    }
+  ],
+  "skipped": [],
+  "origin": "Requested expansion of the five neighbouring borough directories; primary evidence and limits recorded on each listing."
+}
