@@ -1,10 +1,10 @@
 {
-  "asOf": "2026-11-09",
-  "total": 895,
-  "attempted": 60,
-  "attemptedInLast28Days": 60,
-  "sourceReadInLast28Days": 60,
-  "lastRecordedRun": "2026-11-09",
+  "asOf": "2026-11-21",
+  "total": 897,
+  "attempted": 66,
+  "attemptedInLast28Days": 66,
+  "sourceReadInLast28Days": 66,
+  "lastRecordedRun": "2026-11-21",
   "monthlySourceChecksOverdue": [
     {
       "id": "harrow-advocacy",
@@ -565,30 +565,6 @@
       "lastSourceRead": "2026-09-18"
     },
     {
-      "id": "camden-financial-support",
-      "name": "Camden benefits and financial support",
-      "area": "camden",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "camden-crisis-sanctuary",
-      "name": "Camden Crisis Sanctuary",
-      "area": "camden",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "camden-disability-action",
-      "name": "Camden Disability Action",
-      "area": "camden",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "camden-drug-alcohol",
-      "name": "Camden drug and alcohol service",
-      "area": "camden",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
       "id": "camden-job-hub",
       "name": "Camden Job Hub and Disability Job Hub",
       "area": "camden",
@@ -621,18 +597,6 @@
     {
       "id": "camden-housing-after-hospital",
       "name": "Camden: housing help when leaving hospital",
-      "area": "camden",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "camden-cindex",
-      "name": "Cindex: Camden community directory",
-      "area": "camden",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "camden-citizens-advice",
-      "name": "Citizens Advice Camden",
       "area": "camden",
       "lastSourceRead": "2026-09-18"
     },
@@ -1567,8 +1531,8 @@
       "key": "05227e76dcd6779613f1e4a3bf6b22bbe3fd9945009caa42439207fc06ec60de",
       "status": "open",
       "firstSeen": "2026-10-27",
-      "lastSeen": "2026-11-09",
-      "occurrences": 2
+      "lastSeen": "2026-11-21",
+      "occurrences": 3
     },
     {
       "kind": "change",
@@ -1585,130 +1549,33 @@
       "key": "d60427b55b1656f89817e323184cef7531542e82bf92b173b889a17a44d587e7",
       "status": "open",
       "firstSeen": "2026-11-09",
-      "lastSeen": "2026-11-09",
+      "lastSeen": "2026-11-21",
+      "occurrences": 2
+    },
+    {
+      "kind": "change",
+      "resourceId": "camden-drug-alcohol",
+      "name": "Camden drug and alcohol service",
+      "area": "camden",
+      "field": "access",
+      "currentValue": "Refer yourself or someone else online, or call to discuss support.",
+      "proposedValue": "You can refer yourself online or call to ask about support. Professionals referring someone else need that person’s permission.",
+      "reason": "The listing presents referring someone else as a general route. The provider identifies a separate professional form and explicitly requires consent.",
+      "sourceUrl": "https://www.changegrowlive.org/service/camden-drug-alcohol/refer-someone-else",
+      "evidence": "The service links separately to self-referral and professional referrals. The latter requires the referring professional to confirm the person has agreed to be contacted.",
+      "priority": "normal",
+      "key": "0ac99d0d895b264ab50611f570778ea7ddc0c71c5743672e3ad6e6581645e61a",
+      "status": "open",
+      "firstSeen": "2026-11-21",
+      "lastSeen": "2026-11-21",
       "occurrences": 1
     }
   ],
   "unableToVerify": [],
-  "recentResolved": [
-    {
-      "kind": "change",
-      "resourceId": "brent-black-girls-do-run",
-      "name": "Black Girls Do Run UK — North West London",
-      "area": "brent",
-      "field": "who",
-      "currentValue": "Black women and women of colour, including people new to running.",
-      "proposedValue": "Black women and women of colour aged 18 and over, including people new to running.",
-      "reason": "Include the explicit minimum age stated on the local programme page so callers can check suitability before joining.",
-      "sourceUrl": "https://www.blackgirlsdorun.co.uk/north-west-london",
-      "evidence": "The North West London programme describes encouraging Black women aged 18 and over to run and welcomes people just starting out.",
-      "priority": "normal",
-      "key": "89c2829757a4548d71d210d5196e6b0eb25e7b7b11f527ff13923e670aa8bd0d",
-      "status": "superseded",
-      "firstSeen": "2026-10-26",
-      "lastSeen": "2026-10-26",
-      "occurrences": 1,
-      "closedOn": "2026-11-09"
-    },
-    {
-      "kind": "change",
-      "resourceId": "brent-black-girls-do-run",
-      "name": "Black Girls Do Run UK — North West London",
-      "area": "brent",
-      "field": "who",
-      "currentValue": "Black women and women of colour, including people new to running.",
-      "proposedValue": "Black women aged 18 and over, including people new to running.",
-      "reason": "The provider's local programme page explicitly states Black women aged 18 and over; it does not state the broader women-of-colour eligibility currently shown.",
-      "sourceUrl": "https://www.blackgirlsdorun.co.uk/north-west-london",
-      "evidence": "The programme describes its intended participants as Black women aged 18+ and says beginners are welcome.",
-      "priority": "normal",
-      "key": "a2eba3b17c8ad137dffe0e402253f202cf03eea71adf3e3af848638e70dc15cb",
-      "status": "applied",
-      "firstSeen": "2026-11-01",
-      "lastSeen": "2026-11-01",
-      "occurrences": 1,
-      "closedOn": "2026-11-09"
-    },
-    {
-      "kind": "change",
-      "resourceId": "brent-black-girls-do-run",
-      "name": "Black Girls Do Run UK — North West London",
-      "area": "brent",
-      "field": "url",
-      "currentValue": "https://www.blackgirlsdorun.co.uk/",
-      "proposedValue": "https://www.blackgirlsdorun.co.uk/north-west-london",
-      "reason": "The local programme page is the direct page for this North West London listing and contains the joining route and session details.",
-      "sourceUrl": "https://www.blackgirlsdorun.co.uk/north-west-london",
-      "evidence": "The page is titled for the North West London social run and links to the next run.",
-      "priority": "normal",
-      "key": "4e514c385a4075f4f1c9933085d872016aca36fa9b980a36ecb416b1edaabe60",
-      "status": "applied",
-      "firstSeen": "2026-11-01",
-      "lastSeen": "2026-11-01",
-      "occurrences": 1,
-      "closedOn": "2026-11-09"
-    },
-    {
-      "kind": "change",
-      "resourceId": "brent-talking-therapies",
-      "name": "Brent NHS Talking Therapies",
-      "area": "brent",
-      "field": "who",
-      "currentValue": "People with a Brent connection; ask the team about age and GP criteria.",
-      "proposedValue": "People aged over 16 who live, work, study or are registered with a GP in Brent.",
-      "reason": "The NHS page publishes the exact age and Brent connection criteria.",
-      "sourceUrl": "https://www.cnwl.nhs.uk/services/mental-health-services/adult-and-older-adult/brent-talking-therapies",
-      "evidence": "The eligibility section states over 16 and living, working, studying or GP registration in Brent.",
-      "priority": "normal",
-      "key": "ffc3ea77a8f798ab346e18da07237c5c2667155f6eb22cbe91e5bc850bdc9dad",
-      "status": "applied",
-      "firstSeen": "2026-11-01",
-      "lastSeen": "2026-11-01",
-      "occurrences": 1,
-      "closedOn": "2026-11-09"
-    },
-    {
-      "kind": "change",
-      "resourceId": "brent-talking-therapies",
-      "name": "Brent NHS Talking Therapies",
-      "area": "brent",
-      "field": "phone",
-      "currentValue": "",
-      "proposedValue": "020 8206 3924",
-      "reason": "The NHS page publishes this as the service telephone and states patients can self-refer by phone.",
-      "sourceUrl": "https://www.cnwl.nhs.uk/services/mental-health-services/adult-and-older-adult/brent-talking-therapies",
-      "evidence": "The referral and contact sections both list the same service number.",
-      "priority": "normal",
-      "key": "b9996efbdf8d5c38f34f73b67b823472b58dd89bfcab8d574ce6b83f654c686b",
-      "status": "applied",
-      "firstSeen": "2026-11-01",
-      "lastSeen": "2026-11-01",
-      "occurrences": 1,
-      "closedOn": "2026-11-09"
-    },
-    {
-      "kind": "change",
-      "resourceId": "brent-works",
-      "name": "Brent Works — jobs and employment support",
-      "area": "brent",
-      "field": "phone",
-      "currentValue": "",
-      "proposedValue": "020 8937 6295",
-      "reason": "The Brent Works portal publishes this direct contact number.",
-      "sourceUrl": "https://brentworks.brent.gov.uk/Default.aspx",
-      "evidence": "The portal footer lists the Brent Civic Centre contact telephone.",
-      "priority": "normal",
-      "key": "6c574118a997cb1de19c067f2ee14276bbcc52ca74051b44a762bb6d0a40405f",
-      "status": "applied",
-      "firstSeen": "2026-11-01",
-      "lastSeen": "2026-11-01",
-      "occurrences": 1,
-      "closedOn": "2026-11-09"
-    }
-  ],
+  "recentResolved": [],
   "runsInLast7Days": [
     {
-      "day": "2026-11-09",
+      "day": "2026-11-21",
       "regular": 8,
       "retries": 0
     }

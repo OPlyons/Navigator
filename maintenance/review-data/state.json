@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedOn": "2026-11-09",
+  "updatedOn": "2026-11-21",
   "entries": {
     "acas": {
       "name": "Acas employment advice",
@@ -506,11 +506,11 @@
       "name": "Brent Resident Support Fund — crisis payment",
       "area": "brent",
       "fingerprint": "e284e59369634d9325dc3ea41efedde61208cfa2b6a486687960eadb5979e36f",
-      "lastAttempt": "2026-11-09",
-      "lastRegularAttempt": "2026-11-09",
-      "lastSourceRead": "2026-11-09",
+      "lastAttempt": "2026-11-21",
+      "lastRegularAttempt": "2026-11-21",
+      "lastSourceRead": "2026-11-21",
       "lastOutcome": "changes_found",
-      "lastSummary": "Council confirms discretionary essential-cost help for Brent residents aged 18+, online application and Brent Hub help. The rolling limit applies across partners; the page does not establish award availability.",
+      "lastSummary": "Brent confirms essential-cost and emergency support for eligible residents aged 18 and over, online applications, Hub help and its contact number. The rolling limit covers both partners in a couple. An award is not guaranteed.",
       "checkedFields": [
         "name",
         "description",
@@ -1106,19 +1106,16 @@
       "name": "Camden Adult Social Care",
       "area": "camden",
       "fingerprint": "346ae2dbdbd726813beff1af568b914211a4be8aad94f9e453dccbc1868c0049",
-      "lastAttempt": "2026-11-09",
-      "lastRegularAttempt": "2026-11-09",
-      "lastSourceRead": "2026-11-09",
+      "lastAttempt": "2026-11-21",
+      "lastRegularAttempt": "2026-11-21",
+      "lastSourceRead": "2026-11-21",
       "lastOutcome": "changes_found",
-      "lastSummary": "Council explains care needs support and the online form for self or another person; the telephone route is for difficulty completing the form, urgent support or immediate safety concern. Costs are not specified on this page.",
+      "lastSummary": "Camden’s indexed council contact page describes asking about care needs and the specific reasons for using the phone instead of the form. The full page returned a 520 response today; fees, individual eligibility and response times were not established.",
       "checkedFields": [
         "name",
         "description",
-        "who",
         "access",
-        "check",
-        "phone",
-        "url"
+        "phone"
       ],
       "consecutiveFailures": 0,
       "retryCount": 0,
@@ -1247,6 +1244,132 @@
       "consecutiveFailures": 0,
       "retryCount": 0,
       "nextRetry": null
+    },
+    "camden-cindex": {
+      "name": "Cindex: Camden community directory",
+      "area": "camden",
+      "fingerprint": "9b620220494caf73359d0b882be6f925e905fd98f3d208db0c3e42ef556d53fa",
+      "lastAttempt": "2026-11-21",
+      "lastRegularAttempt": "2026-11-21",
+      "lastSourceRead": "2026-11-21",
+      "lastOutcome": "no_change_found",
+      "lastSummary": "Camden lists services, organisations and local groups in a directory searchable by keyword or topic. Its directory homepage does not establish individual providers’ eligibility, fees, contact details or opening times.",
+      "checkedFields": [
+        "name",
+        "description",
+        "access",
+        "url"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
+    },
+    "camden-citizens-advice": {
+      "name": "Citizens Advice Camden",
+      "area": "camden",
+      "fingerprint": "478659ea06d1a7e5ab91bdc0689f3243e4d68fa2c3504cb943b175f4504f8ab4",
+      "lastAttempt": "2026-11-21",
+      "lastRegularAttempt": "2026-11-21",
+      "lastSourceRead": "2026-11-21",
+      "lastOutcome": "no_change_found",
+      "lastSummary": "Citizens Advice Camden confirms free independent and confidential advice for residents, a weekday freephone line from 10am to 4pm and an online callback request. Callback timing depends on demand; no appointment availability was established.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "phone",
+        "url"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
+    },
+    "camden-crisis-sanctuary": {
+      "name": "Camden Crisis Sanctuary",
+      "area": "camden",
+      "fingerprint": "8f8308994bfd31a1cbcb4704da61ce8bfa552ef4907ddc2fbc9a5766bbe7b3d8",
+      "lastAttempt": "2026-11-21",
+      "lastRegularAttempt": "2026-11-21",
+      "lastSourceRead": "2026-11-21",
+      "lastOutcome": "no_change_found",
+      "lastSummary": "Hestia confirms free listening and practical support for adults who live in Camden or have used its mental health services. It accepts walk-ins and calls during evening opening times, including bank holidays, at the listed location. Current availability was not confirmed.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "phone",
+        "url"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
+    },
+    "camden-disability-action": {
+      "name": "Camden Disability Action",
+      "area": "camden",
+      "fingerprint": "1aa878616de242ce191901523eba6c47279d630bab35574018ca58197fd442e6",
+      "lastAttempt": "2026-11-21",
+      "lastRegularAttempt": "2026-11-21",
+      "lastSourceRead": "2026-11-21",
+      "lastOutcome": "no_change_found",
+      "lastSummary": "Camden Disability Action describes disabled-led advice, advocacy and local opportunities to shape services. Its help page confirms telephone and text contact, a BSL interpreting link and 10am to 4pm advice hours. It does not specify days or fees.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "phone",
+        "url"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
+    },
+    "camden-drug-alcohol": {
+      "name": "Camden drug and alcohol service",
+      "area": "camden",
+      "fingerprint": "4b7c637bb2c16fe9dbc2d63973f0525cc4ccf650c95ae20d9028c2cd0c7c1490",
+      "lastAttempt": "2026-11-21",
+      "lastRegularAttempt": "2026-11-21",
+      "lastSourceRead": "2026-11-21",
+      "lastOutcome": "changes_found",
+      "lastSummary": "Change Grow Live confirms free drug and alcohol support for people over 18 in Camden, family support, telephone enquiries and appointments at several sites. It distinguishes the self-referral form from the professional route, which requires the person’s permission. Waiting times were not established.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "phone",
+        "url"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
+    },
+    "camden-financial-support": {
+      "name": "Camden benefits and financial support",
+      "area": "camden",
+      "fingerprint": "b73fc040d58863d690ba098e6d21b4aed9e64a331842a62a84436b51a5c60e9e",
+      "lastAttempt": "2026-11-21",
+      "lastRegularAttempt": "2026-11-21",
+      "lastSourceRead": "2026-11-21",
+      "lastOutcome": "no_change_found",
+      "lastSummary": "Camden’s benefits hub links to money advice, Council Tax Support, benefits claims, and grants, funds and loans. The overview does not establish individual entitlement, award levels, a general telephone route or the evidence each scheme requires.",
+      "checkedFields": [
+        "name",
+        "description",
+        "access",
+        "url"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
     }
   },
   "days": {
@@ -1337,6 +1460,19 @@
         "camden-carers"
       ],
       "retry": []
+    },
+    "2026-11-21": {
+      "regular": [
+        "brent-crisis-fund",
+        "camden-adult-social-care",
+        "camden-cindex",
+        "camden-citizens-advice",
+        "camden-crisis-sanctuary",
+        "camden-disability-action",
+        "camden-drug-alcohol",
+        "camden-financial-support"
+      ],
+      "retry": []
     }
   },
   "queue": [
@@ -1374,8 +1510,8 @@
       "key": "05227e76dcd6779613f1e4a3bf6b22bbe3fd9945009caa42439207fc06ec60de",
       "status": "open",
       "firstSeen": "2026-10-27",
-      "lastSeen": "2026-11-09",
-      "occurrences": 2
+      "lastSeen": "2026-11-21",
+      "occurrences": 3
     },
     {
       "kind": "change",
@@ -1487,7 +1623,25 @@
       "key": "d60427b55b1656f89817e323184cef7531542e82bf92b173b889a17a44d587e7",
       "status": "open",
       "firstSeen": "2026-11-09",
-      "lastSeen": "2026-11-09",
+      "lastSeen": "2026-11-21",
+      "occurrences": 2
+    },
+    {
+      "kind": "change",
+      "resourceId": "camden-drug-alcohol",
+      "name": "Camden drug and alcohol service",
+      "area": "camden",
+      "field": "access",
+      "currentValue": "Refer yourself or someone else online, or call to discuss support.",
+      "proposedValue": "You can refer yourself online or call to ask about support. Professionals referring someone else need that person’s permission.",
+      "reason": "The listing presents referring someone else as a general route. The provider identifies a separate professional form and explicitly requires consent.",
+      "sourceUrl": "https://www.changegrowlive.org/service/camden-drug-alcohol/refer-someone-else",
+      "evidence": "The service links separately to self-referral and professional referrals. The latter requires the referring professional to confirm the person has agreed to be contacted.",
+      "priority": "normal",
+      "key": "0ac99d0d895b264ab50611f570778ea7ddc0c71c5743672e3ad6e6581645e61a",
+      "status": "open",
+      "firstSeen": "2026-11-21",
+      "lastSeen": "2026-11-21",
       "occurrences": 1
     }
   ]
