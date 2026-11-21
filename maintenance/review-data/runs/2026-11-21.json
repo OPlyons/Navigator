@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "day": "2026-11-21",
-  "catalogueCount": 897,
+  "catalogueCount": 954,
   "results": [
     {
       "id": "brent-crisis-fund",
@@ -247,6 +247,321 @@
       "findings": [],
       "kind": "regular",
       "fingerprint": "b73fc040d58863d690ba098e6d21b4aed9e64a331842a62a84436b51a5c60e9e"
+    },
+    {
+      "id": "camden-hopscotch",
+      "status": "no_change_found",
+      "summary": "The centre confirms support with abuse, welfare and benefits, employment and mental wellbeing. Its published centre contact matches the listing and is distinct from its homecare contact. Hopscotch describes its advocacy as London-wide; the Camden listing does not claim exclusive eligibility. Programme-specific entry conditions, appointment availability, costs and languages for an individual session were not established.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "phone",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://hopscotchuk.org/",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "The homepage identifies the charity and lists the address and telephone contact for the women’s centre separately from the homecare service."
+        },
+        {
+          "url": "https://hopscotchuk.org/womens-centre/",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "The programme overview describes culturally sensitive services for women and girls, including domestic abuse, employment, welfare advice and wellbeing, with links to individual programmes."
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "a85d08740fd92bf45cb4ca6ad2b21340080d08e1b55711e6dfaf5b675a6f9799"
+    },
+    {
+      "id": "camden-housing-after-hospital",
+      "status": "no_change_found",
+      "summary": "Camden describes help both for someone who has nowhere to live and for someone unable to manage at home. A person can tell the discharge team or use the housing form themselves. A council assessment and local connection matter; an offer of accommodation is not assured. We did not confirm individual eligibility, vacancies, costs or a direct telephone number.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://www.camden.gov.uk/leaving-hospital-and-at-risk-of-being-homeless",
+          "ownerType": "council",
+          "retrieval": "page",
+          "note": "Camden distinguishes help with daily living from homelessness advice, names both the ward route and the direct form, and explains the local-connection and assessment process."
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "da5f9323b311c586a007ed24f29322cf6695f30f7ed0b6d7a96ebdfd4304d3e7"
+    },
+    {
+      "id": "camden-job-hub",
+      "status": "changes_found",
+      "summary": "The Job Hub offers free employment support to Camden residents, with workshops, job and training opportunities and a choice of in-person, telephone or video appointments. The Disability Job Hub has a specific registration instruction. Waiting times and a general public telephone number were not established.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://goodwork.camden.gov.uk/Web%20Forms/WebUser/PortalPage.aspx?Page=camden-job-hub",
+          "ownerType": "council",
+          "retrieval": "page",
+          "note": "Council page describes free support, inclusive resident eligibility, appointment formats, registration and the separate instruction for accessing the Disability Job Hub."
+        }
+      ],
+      "findings": [
+        {
+          "field": "access",
+          "currentValue": "Register through Good Work Camden and explain the support or adjustments you would like.",
+          "proposedValue": "Register with Good Work Camden or use the Job Hub email link to contact an adviser. For the Disability Job Hub, the council asks you to say you are disabled when you register.",
+          "reason": "The current instruction omits the disability declaration specifically requested for the specialist hub and the general email enquiry route.",
+          "sourceUrl": "https://goodwork.camden.gov.uk/Web%20Forms/WebUser/PortalPage.aspx?Page=camden-job-hub",
+          "evidence": "The council offers registration or email for general advice. For the Disability Job Hub, it asks residents to register and identify themselves as disabled on that registration.",
+          "priority": "normal"
+        }
+      ],
+      "kind": "regular",
+      "fingerprint": "6d2f7705697f678f445623089fb94b3952e9855c3abcffad05984b894d82695a"
+    },
+    {
+      "id": "camden-lantern",
+      "status": "no_change_found",
+      "summary": "Hestia confirms the Camden catchment, adult age threshold, walk-in or telephone access, address, opening hours and daily activities. Groups follow an initial session. The separate online referral route is for organisations; an individual does not need it to visit. The page did not establish fees or the availability of a place at a particular time.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "phone",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://www.hestia.org/the-lantern-islington",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "The provider programme page identifies the five eligible boroughs and minimum age, gives separate public access and organisational referral instructions, and lists its address, times, contact and daily groups."
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "132b22df2ecbb0ba153b3b114b7f44ddfe8cfda77c90be264263415a7149cfa9"
+    },
+    {
+      "id": "camden-learning-disability-service",
+      "status": "no_change_found",
+      "summary": "The council identifies the service, links to its contact and access pages and publishes the same team phone number. The service page links to Easy Read information. Full eligibility, the scope of individual support, fees and availability were not confirmed. The form could not be assessed from this reading; no form was tested or submitted.",
+      "checkedFields": [
+        "name",
+        "access",
+        "phone",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://www.camden.gov.uk/clds",
+          "ownerType": "council",
+          "retrieval": "page",
+          "note": "The council overview names the service, links to its help and contact pages, and signposts Easy Read materials."
+        },
+        {
+          "url": "https://www.camden.gov.uk/opening-hours",
+          "ownerType": "council",
+          "retrieval": "page",
+          "note": "The team's public contact page lists the same number as the Navigator record and describes its weekday office hours."
+        },
+        {
+          "url": "https://www.camden.gov.uk/how-to-get-help",
+          "ownerType": "council",
+          "retrieval": "failed",
+          "note": "The linked form displayed an upload-field permission message. Its completion requirements and usability could not be checked."
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "ca308abc68e8ffa913b44e84217556d50adcf414665f1fecd05f805f3ff91d1a"
+    },
+    {
+      "id": "camden-libraries",
+      "status": "no_change_found",
+      "summary": "Camden Council lists local branches, events, digital books and its Home Library Service. Anyone can join; the membership page explains what to bring to borrow items. The home service is free for people unable to visit because they are housebound, older or have mobility difficulties. Individual activity costs, bookings and availability were not checked.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://www.camden.gov.uk/libraries-local-studies",
+          "ownerType": "council",
+          "retrieval": "page",
+          "note": "Lists branch opening times, membership, activities, digital reading and Home Library Service links."
+        },
+        {
+          "url": "https://www.camden.gov.uk/join-the-library",
+          "ownerType": "council",
+          "retrieval": "page",
+          "note": "Confirms anyone can join online; explains ordinary book borrowing, free membership and documents needed to use the library."
+        },
+        {
+          "url": "https://www.camden.gov.uk/home-library-service",
+          "ownerType": "council",
+          "retrieval": "page",
+          "note": "Describes free home visits and direct enquiries for people unable to get to the library."
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "2b2cfb1abaf6ee564b76399f00e37a3a50d9cef9c8c68d2041ffb3b366376409"
+    },
+    {
+      "id": "camden-london-irish",
+      "status": "changes_found",
+      "summary": "The council confirms the advice topics, including Irish documents. The centre publishes its own direct contact route and says advice requires an appointment. No blanket eligibility or fee rule for all enquiries, available appointments or immediate response was established.",
+      "checkedFields": [
+        "name",
+        "description",
+        "access",
+        "check",
+        "url",
+        "phone"
+      ],
+      "sources": [
+        {
+          "url": "https://www.camden.gov.uk/camden-advice-network",
+          "ownerType": "council",
+          "retrieval": "page",
+          "note": "Camden lists the provider and its benefits, housing and Irish document advice."
+        },
+        {
+          "url": "https://londonirishcentre.org/our-services/advice-information-support/",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "The advice page sets out booking instructions, the telephone menu, reception access and the limits of support."
+        }
+      ],
+      "findings": [
+        {
+          "field": "access",
+          "currentValue": "Find the London Irish Centre contact route in Camden Advice Network.",
+          "proposedValue": "Ask the centre for an appointment by phone (choose option 1 twice) or use the email link on its advice page. If neither works for you, check its Camden Square reception hours.",
+          "reason": "The existing listing directs callers through a council directory instead of giving the direct booking route.",
+          "sourceUrl": "https://londonirishcentre.org/our-services/advice-information-support/",
+          "evidence": "The provider accepts booking enquiries by telephone or email. Its Camden Square reception is an alternative for people unable to use these routes.",
+          "priority": "normal"
+        },
+        {
+          "field": "check",
+          "currentValue": "Ask about appointments and which advice the centre can currently offer.",
+          "proposedValue": "Advice is by appointment. Check reception hours before visiting. The centre gives housing advice but does not find private accommodation.",
+          "reason": "The current wording asks visitors to check whether an appointment is needed; the provider says it is required.",
+          "sourceUrl": "https://londonirishcentre.org/our-services/advice-information-support/",
+          "evidence": "The service page requires booked appointments and distinguishes housing advice from finding private accommodation.",
+          "priority": "normal"
+        },
+        {
+          "field": "url",
+          "currentValue": "https://www.camden.gov.uk/camden-advice-network",
+          "proposedValue": "https://londonirishcentre.org/our-services/advice-information-support/",
+          "reason": "Link directly to the advice service and its booking information.",
+          "sourceUrl": "https://londonirishcentre.org/our-services/advice-information-support/",
+          "evidence": "The current council list links onward to the provider; the provider’s own advice page contains contact routes and service limitations.",
+          "priority": "normal"
+        },
+        {
+          "field": "phone",
+          "currentValue": "",
+          "proposedValue": "020 7916 2222",
+          "reason": "Add the public booking number for people who cannot use online contact.",
+          "sourceUrl": "https://londonirishcentre.org/our-services/advice-information-support/",
+          "evidence": "The advice service publishes this number and asks callers to choose option 1 twice.",
+          "priority": "normal"
+        }
+      ],
+      "kind": "regular",
+      "fingerprint": "d0902889b3cccf99220b888041ec2d42060baa5e64e299803d77eab8dc85e4da"
+    },
+    {
+      "id": "camden-mary-ward",
+      "status": "changes_found",
+      "summary": "The centre confirms free specialist advice with eligibility varying by service. Housing enquiries are limited to Mondays online; the centre reports reduced capacity and a separate pro bono booking pause. Individual eligibility, appointment availability and a reopening date were not confirmed.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "phone",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://www.marywardlegal.org.uk/",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "The current homepage separates housing, debt, benefits and pro bono intake, including a pro bono pause."
+        },
+        {
+          "url": "https://www.marywardlegal.org.uk/legal-advice/housing-advice/",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "The housing page confirms Monday intake, limited phone assistance, the five-day response rule and the Camden exception to Legal Help eligibility."
+        },
+        {
+          "url": "https://www.marywardlegal.org.uk/legal-advice/general-legal-advice/",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "The clinic describes limited-capacity, one-off telephone advice by appointment; the homepage carries the current booking notice."
+        }
+      ],
+      "findings": [
+        {
+          "field": "access",
+          "currentValue": "Call or use the relevant enquiry form to ask whether the centre can help.",
+          "proposedValue": "For housing, use the online form on Monday. If you cannot complete it, call Monday or Wednesday, 10am–noon; help filling it in is available on Monday only. For debt or benefits, use the separate contact instructions on the homepage.",
+          "reason": "The general access wording omits the one-day housing form and the phone alternative.",
+          "sourceUrl": "https://www.marywardlegal.org.uk/legal-advice/housing-advice/",
+          "evidence": "Housing intake is online on Mondays. The provider gives two morning phone windows for people unable to use the form, but assisted form completion is only offered on Monday.",
+          "priority": "normal"
+        },
+        {
+          "field": "check",
+          "currentValue": "Ask about eligibility and capacity before travelling. The centre may not be able to take every case.",
+          "proposedValue": "Housing capacity is limited. If you get no reply within five days, seek another adviser. As of 21 November 2026, no pro bono appointments are available; check the homepage before trying to book.",
+          "reason": "The centre gives a specific reduced-capacity notice for housing and reports that pro bono appointments are unavailable.",
+          "sourceUrl": "https://www.marywardlegal.org.uk/",
+          "evidence": "The homepage says to seek another housing adviser after five days without a response. Its hoped-for reopening of the pro bono form is not a confirmed appointment date.",
+          "priority": "urgent"
+        },
+        {
+          "field": "who",
+          "currentValue": "People on a low income in London; case and funding criteria apply.",
+          "proposedValue": "Londoners on low incomes are the priority. For housing advice, people who live, work or study in Camden do not need to qualify for Legal Help. Eligibility differs by service.",
+          "reason": "The listing does not explain the local exception for housing enquiries.",
+          "sourceUrl": "https://www.marywardlegal.org.uk/legal-advice/housing-advice/",
+          "evidence": "The housing team expressly exempts people who live, work or study in Camden from the Legal Help eligibility requirement for advice, while prioritising low income.",
+          "priority": "normal"
+        }
+      ],
+      "kind": "regular",
+      "fingerprint": "cddf918bec379ada02f83f01cb231f669039c15246cffe6ab8398bcd01e5ced7"
     }
   ]
 }

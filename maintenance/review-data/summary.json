@@ -1,9 +1,9 @@
 {
   "asOf": "2026-11-21",
-  "total": 897,
-  "attempted": 66,
-  "attemptedInLast28Days": 66,
-  "sourceReadInLast28Days": 66,
+  "total": 954,
+  "attempted": 74,
+  "attemptedInLast28Days": 74,
+  "sourceReadInLast28Days": 74,
   "lastRecordedRun": "2026-11-21",
   "monthlySourceChecksOverdue": [
     {
@@ -301,12 +301,6 @@
       "lastSourceRead": "2026-09-18"
     },
     {
-      "id": "kensington-chelsea-cove",
-      "name": "Kensington, Chelsea and Westminster Cove",
-      "area": "kensington-chelsea",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
       "id": "kensington-chelsea-open-age",
       "name": "Open Age — activities for people aged 50+",
       "area": "kensington-chelsea",
@@ -445,12 +439,6 @@
       "lastSourceRead": "2026-09-18"
     },
     {
-      "id": "westminster-cove",
-      "name": "Kensington, Chelsea and Westminster Cove",
-      "area": "westminster",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
       "id": "westminster-ldn-hubs",
       "name": "LDN London — Westminster community hubs",
       "area": "westminster",
@@ -565,24 +553,6 @@
       "lastSourceRead": "2026-09-18"
     },
     {
-      "id": "camden-job-hub",
-      "name": "Camden Job Hub and Disability Job Hub",
-      "area": "camden",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "camden-learning-disability-service",
-      "name": "Camden Learning Disabilities Service",
-      "area": "camden",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "camden-libraries",
-      "name": "Camden libraries",
-      "area": "camden",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
       "id": "camden-talking-therapies",
       "name": "Camden NHS Talking Therapies",
       "area": "camden",
@@ -591,30 +561,6 @@
     {
       "id": "camden-people-first",
       "name": "Camden People First",
-      "area": "camden",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "camden-housing-after-hospital",
-      "name": "Camden: housing help when leaving hospital",
-      "area": "camden",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "camden-hopscotch",
-      "name": "Hopscotch Women’s Centre",
-      "area": "camden",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "camden-london-irish",
-      "name": "London Irish Centre: advice",
-      "area": "camden",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "camden-mary-ward",
-      "name": "Mary Ward Legal Centre",
       "area": "camden",
       "lastSourceRead": "2026-09-18"
     },
@@ -639,12 +585,6 @@
     {
       "id": "camden-shak",
       "name": "SHAK and the SHELL Centre",
-      "area": "camden",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "camden-lantern",
-      "name": "The Lantern, Islington",
       "area": "camden",
       "lastSourceRead": "2026-09-18"
     },
@@ -1518,24 +1458,6 @@
   "openChanges": [
     {
       "kind": "change",
-      "resourceId": "brent-crisis-fund",
-      "name": "Brent Resident Support Fund — crisis payment",
-      "area": "brent",
-      "field": "check",
-      "currentValue": "Evidence required. Normally one application per rolling 12 months, even if a previous application was declined. Awards are discretionary.",
-      "proposedValue": "Evidence required. One application per rolling 12 months, even if declined. For couples, an application by either partner counts towards this limit; it does not apply to other adult household members. Awards are discretionary.",
-      "reason": "The council states a firm rolling limit and partner restriction omitted from the current text.",
-      "sourceUrl": "https://www.brent.gov.uk/benefits-and-money-advice/resident-support-fund",
-      "evidence": "One application is allowed in a rolling 12 months, approved or rejected. A partner application during that period is declined; other adults in the household are not included in this partner restriction.",
-      "priority": "normal",
-      "key": "05227e76dcd6779613f1e4a3bf6b22bbe3fd9945009caa42439207fc06ec60de",
-      "status": "open",
-      "firstSeen": "2026-10-27",
-      "lastSeen": "2026-11-21",
-      "occurrences": 3
-    },
-    {
-      "kind": "change",
       "resourceId": "camden-adult-social-care",
       "name": "Camden Adult Social Care",
       "area": "camden",
@@ -1554,6 +1476,172 @@
     },
     {
       "kind": "change",
+      "resourceId": "camden-job-hub",
+      "name": "Camden Job Hub and Disability Job Hub",
+      "area": "camden",
+      "field": "access",
+      "currentValue": "Register through Good Work Camden and explain the support or adjustments you would like.",
+      "proposedValue": "Register with Good Work Camden or use the Job Hub email link to contact an adviser. For the Disability Job Hub, the council asks you to say you are disabled when you register.",
+      "reason": "The current instruction omits the disability declaration specifically requested for the specialist hub and the general email enquiry route.",
+      "sourceUrl": "https://goodwork.camden.gov.uk/Web%20Forms/WebUser/PortalPage.aspx?Page=camden-job-hub",
+      "evidence": "The council offers registration or email for general advice. For the Disability Job Hub, it asks residents to register and identify themselves as disabled on that registration.",
+      "priority": "normal",
+      "key": "180f0d3639bd984f0fd70d849adb3d48c64e76b2ca4546b662d32b8ce4d84ecd",
+      "status": "open",
+      "firstSeen": "2026-11-21",
+      "lastSeen": "2026-11-21",
+      "occurrences": 1
+    },
+    {
+      "kind": "change",
+      "resourceId": "camden-london-irish",
+      "name": "London Irish Centre: advice",
+      "area": "camden",
+      "field": "access",
+      "currentValue": "Find the London Irish Centre contact route in Camden Advice Network.",
+      "proposedValue": "Ask the centre for an appointment by phone (choose option 1 twice) or use the email link on its advice page. If neither works for you, check its Camden Square reception hours.",
+      "reason": "The existing listing directs callers through a council directory instead of giving the direct booking route.",
+      "sourceUrl": "https://londonirishcentre.org/our-services/advice-information-support/",
+      "evidence": "The provider accepts booking enquiries by telephone or email. Its Camden Square reception is an alternative for people unable to use these routes.",
+      "priority": "normal",
+      "key": "918bbffa956dfd227940e9555374ccb01200ea3722cd67482c3f19f63ce3b72f",
+      "status": "open",
+      "firstSeen": "2026-11-21",
+      "lastSeen": "2026-11-21",
+      "occurrences": 1
+    },
+    {
+      "kind": "change",
+      "resourceId": "camden-london-irish",
+      "name": "London Irish Centre: advice",
+      "area": "camden",
+      "field": "check",
+      "currentValue": "Ask about appointments and which advice the centre can currently offer.",
+      "proposedValue": "Advice is by appointment. Check reception hours before visiting. The centre gives housing advice but does not find private accommodation.",
+      "reason": "The current wording asks visitors to check whether an appointment is needed; the provider says it is required.",
+      "sourceUrl": "https://londonirishcentre.org/our-services/advice-information-support/",
+      "evidence": "The service page requires booked appointments and distinguishes housing advice from finding private accommodation.",
+      "priority": "normal",
+      "key": "ccbb198157655bb0a3b74b59a415f65ec9a72923c04d75564e0eee79efdcf601",
+      "status": "open",
+      "firstSeen": "2026-11-21",
+      "lastSeen": "2026-11-21",
+      "occurrences": 1
+    },
+    {
+      "kind": "change",
+      "resourceId": "camden-london-irish",
+      "name": "London Irish Centre: advice",
+      "area": "camden",
+      "field": "url",
+      "currentValue": "https://www.camden.gov.uk/camden-advice-network",
+      "proposedValue": "https://londonirishcentre.org/our-services/advice-information-support/",
+      "reason": "Link directly to the advice service and its booking information.",
+      "sourceUrl": "https://londonirishcentre.org/our-services/advice-information-support/",
+      "evidence": "The current council list links onward to the provider; the provider’s own advice page contains contact routes and service limitations.",
+      "priority": "normal",
+      "key": "3a465237504e8d48f37f83fbe987be7cefe1983ff003c43674f4750b6ab67057",
+      "status": "open",
+      "firstSeen": "2026-11-21",
+      "lastSeen": "2026-11-21",
+      "occurrences": 1
+    },
+    {
+      "kind": "change",
+      "resourceId": "camden-london-irish",
+      "name": "London Irish Centre: advice",
+      "area": "camden",
+      "field": "phone",
+      "currentValue": "",
+      "proposedValue": "020 7916 2222",
+      "reason": "Add the public booking number for people who cannot use online contact.",
+      "sourceUrl": "https://londonirishcentre.org/our-services/advice-information-support/",
+      "evidence": "The advice service publishes this number and asks callers to choose option 1 twice.",
+      "priority": "normal",
+      "key": "cfd3daca05324172e85f51a7eda615a26db9cd260c611cd30fe5c18999ad3f36",
+      "status": "open",
+      "firstSeen": "2026-11-21",
+      "lastSeen": "2026-11-21",
+      "occurrences": 1
+    },
+    {
+      "kind": "change",
+      "resourceId": "camden-mary-ward",
+      "name": "Mary Ward Legal Centre",
+      "area": "camden",
+      "field": "access",
+      "currentValue": "Call or use the relevant enquiry form to ask whether the centre can help.",
+      "proposedValue": "For housing, use the online form on Monday. If you cannot complete it, call Monday or Wednesday, 10am–noon; help filling it in is available on Monday only. For debt or benefits, use the separate contact instructions on the homepage.",
+      "reason": "The general access wording omits the one-day housing form and the phone alternative.",
+      "sourceUrl": "https://www.marywardlegal.org.uk/legal-advice/housing-advice/",
+      "evidence": "Housing intake is online on Mondays. The provider gives two morning phone windows for people unable to use the form, but assisted form completion is only offered on Monday.",
+      "priority": "normal",
+      "key": "7d71021c184cf106fc1f91a7381432f08211b1eaf636d68f386ca3638cacac56",
+      "status": "open",
+      "firstSeen": "2026-11-21",
+      "lastSeen": "2026-11-21",
+      "occurrences": 1
+    },
+    {
+      "kind": "change",
+      "resourceId": "camden-mary-ward",
+      "name": "Mary Ward Legal Centre",
+      "area": "camden",
+      "field": "check",
+      "currentValue": "Ask about eligibility and capacity before travelling. The centre may not be able to take every case.",
+      "proposedValue": "Housing capacity is limited. If you get no reply within five days, seek another adviser. As of 21 November 2026, no pro bono appointments are available; check the homepage before trying to book.",
+      "reason": "The centre gives a specific reduced-capacity notice for housing and reports that pro bono appointments are unavailable.",
+      "sourceUrl": "https://www.marywardlegal.org.uk/",
+      "evidence": "The homepage says to seek another housing adviser after five days without a response. Its hoped-for reopening of the pro bono form is not a confirmed appointment date.",
+      "priority": "urgent",
+      "key": "662d5365ddf282a44dca7e7a1c667edec0e3f5e99e91c2b339f5be1cc0e009e1",
+      "status": "open",
+      "firstSeen": "2026-11-21",
+      "lastSeen": "2026-11-21",
+      "occurrences": 1
+    },
+    {
+      "kind": "change",
+      "resourceId": "camden-mary-ward",
+      "name": "Mary Ward Legal Centre",
+      "area": "camden",
+      "field": "who",
+      "currentValue": "People on a low income in London; case and funding criteria apply.",
+      "proposedValue": "Londoners on low incomes are the priority. For housing advice, people who live, work or study in Camden do not need to qualify for Legal Help. Eligibility differs by service.",
+      "reason": "The listing does not explain the local exception for housing enquiries.",
+      "sourceUrl": "https://www.marywardlegal.org.uk/legal-advice/housing-advice/",
+      "evidence": "The housing team expressly exempts people who live, work or study in Camden from the Legal Help eligibility requirement for advice, while prioritising low income.",
+      "priority": "normal",
+      "key": "90b3ee17cb08f2609a000f3a6b77aad7b4ea2bed9080a6cb5e5d3335e3b67c41",
+      "status": "open",
+      "firstSeen": "2026-11-21",
+      "lastSeen": "2026-11-21",
+      "occurrences": 1
+    }
+  ],
+  "unableToVerify": [],
+  "recentResolved": [
+    {
+      "kind": "change",
+      "resourceId": "brent-crisis-fund",
+      "name": "Brent Resident Support Fund — crisis payment",
+      "area": "brent",
+      "field": "check",
+      "currentValue": "Evidence required. Normally one application per rolling 12 months, even if a previous application was declined. Awards are discretionary.",
+      "proposedValue": "Evidence required. One application per rolling 12 months, even if declined. For couples, an application by either partner counts towards this limit; it does not apply to other adult household members. Awards are discretionary.",
+      "reason": "The council states a firm rolling limit and partner restriction omitted from the current text.",
+      "sourceUrl": "https://www.brent.gov.uk/benefits-and-money-advice/resident-support-fund",
+      "evidence": "One application is allowed in a rolling 12 months, approved or rejected. A partner application during that period is declined; other adults in the household are not included in this partner restriction.",
+      "priority": "normal",
+      "key": "05227e76dcd6779613f1e4a3bf6b22bbe3fd9945009caa42439207fc06ec60de",
+      "status": "applied",
+      "firstSeen": "2026-10-27",
+      "lastSeen": "2026-11-21",
+      "occurrences": 3,
+      "closedOn": "2026-11-21"
+    },
+    {
+      "kind": "change",
       "resourceId": "camden-drug-alcohol",
       "name": "Camden drug and alcohol service",
       "area": "camden",
@@ -1565,18 +1653,17 @@
       "evidence": "The service links separately to self-referral and professional referrals. The latter requires the referring professional to confirm the person has agreed to be contacted.",
       "priority": "normal",
       "key": "0ac99d0d895b264ab50611f570778ea7ddc0c71c5743672e3ad6e6581645e61a",
-      "status": "open",
+      "status": "applied",
       "firstSeen": "2026-11-21",
       "lastSeen": "2026-11-21",
-      "occurrences": 1
+      "occurrences": 1,
+      "closedOn": "2026-11-21"
     }
   ],
-  "unableToVerify": [],
-  "recentResolved": [],
   "runsInLast7Days": [
     {
       "day": "2026-11-21",
-      "regular": 8,
+      "regular": 16,
       "retries": 0
     }
   ]
