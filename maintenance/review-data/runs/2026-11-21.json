@@ -562,6 +562,283 @@
       ],
       "kind": "regular",
       "fingerprint": "cddf918bec379ada02f83f01cb231f669039c15246cffe6ab8398bcd01e5ced7"
+    },
+    {
+      "id": "camden-mind",
+      "status": "changes_found",
+      "summary": "The provider describes free Phoenix groups, no drop-ins and a separate paid counselling service. Group places and waiting times were not established.",
+      "checkedFields": [
+        "name",
+        "description",
+        "access",
+        "check",
+        "phone",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://www.mindincamden.org.uk/",
+          "ownerType": "provider",
+          "note": "Phoenix groups, direct enquiries, office phone and no drop-in service.",
+          "retrieval": "page"
+        },
+        {
+          "url": "https://www.mindincamden.org.uk/counselling-mind-in-camden",
+          "ownerType": "provider",
+          "note": "Weekly in-person individual therapy after assessment, £35 per session.",
+          "retrieval": "page"
+        }
+      ],
+      "findings": [
+        {
+          "field": "check",
+          "currentValue": "Check joining arrangements. Mind in Camden says it does not offer a counselling or drop-in service.",
+          "proposedValue": "There is no drop-in service. Phoenix support groups are free. Separate one-to-one counselling costs £35 per weekly session after an assessment.",
+          "reason": "The listing rules out a counselling service that is now advertised.",
+          "evidence": "The dedicated counselling page describes individual sessions, assessment and the fee; the main page distinguishes free groups from drop-ins.",
+          "sourceUrl": "https://www.mindincamden.org.uk/counselling-mind-in-camden",
+          "priority": "normal"
+        }
+      ],
+      "kind": "regular",
+      "fingerprint": "9dd0b87720d66084db7c88766dc4767d7c60d5619d693b43818b41db60fceb61"
+    },
+    {
+      "id": "camden-nafsiyat",
+      "status": "changes_found",
+      "summary": "Nafsiyat describes free short-term individual therapy for Camden residents and lists a self-referral route. A place, current intake and waiting times are not confirmed.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "phone",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://www.nafsiyat.org.uk/",
+          "ownerType": "provider",
+          "note": "Intercultural therapy and language support.",
+          "retrieval": "page"
+        },
+        {
+          "url": "https://www.nafsiyat.org.uk/individual-therapy",
+          "ownerType": "provider",
+          "note": "Names the four boroughs, free short-term service, self-referral and professional route.",
+          "retrieval": "page"
+        },
+        {
+          "url": "https://www.nafsiyat.org.uk/refer",
+          "ownerType": "provider",
+          "note": "Referral page lists the centre’s public contact details; no open appointment was confirmed.",
+          "retrieval": "page"
+        }
+      ],
+      "findings": [
+        {
+          "field": "check",
+          "currentValue": "Ask whether funded or paid therapy applies, and about assessment and waiting times.",
+          "proposedValue": "The short-term individual therapy programme is free for Camden residents. Ask about current availability; the centre also has a separate paid service.",
+          "reason": "The listing does not distinguish the free local programme from other services.",
+          "evidence": "The individual therapy page explicitly includes Camden, describes the sessions as free and signposts the separate paid service.",
+          "sourceUrl": "https://www.nafsiyat.org.uk/individual-therapy",
+          "priority": "normal"
+        },
+        {
+          "field": "access",
+          "currentValue": "Contact the centre to ask about referral and the languages and support available.",
+          "proposedValue": "Use the self-referral link on the individual therapy page, or contact the centre to ask about languages and availability. Health professionals have a referral route too.",
+          "reason": "The programme explicitly lists self-referral as well as professional referral.",
+          "evidence": "The programme page offers both routes and warns that therapists may be fully booked.",
+          "sourceUrl": "https://www.nafsiyat.org.uk/individual-therapy",
+          "priority": "normal"
+        }
+      ],
+      "kind": "regular",
+      "fingerprint": "38e9d907276cd481ab9a63027361b66d36df9e007b900f074bdfaa67ae272eed"
+    },
+    {
+      "id": "camden-new-horizon",
+      "status": "changes_found",
+      "summary": "The council and provider describe support for young people aged 16–24 facing homelessness in London. The centre explains how to seek help directly. Accommodation and places are not guaranteed.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://www.camden.gov.uk/camden-advice-network",
+          "ownerType": "council",
+          "note": "Council network identifies the youth service and remit.",
+          "retrieval": "page"
+        },
+        {
+          "url": "https://nhyouthcentre.org.uk/",
+          "ownerType": "provider",
+          "note": "Youth homelessness charity links directly to Get Help.",
+          "retrieval": "page"
+        },
+        {
+          "url": "https://nhyouthcentre.org.uk/young-person/get-help/",
+          "ownerType": "provider",
+          "note": "Service describes morning drop-in, age range, housing help and self-referral.",
+          "retrieval": "page"
+        }
+      ],
+      "findings": [
+        {
+          "field": "url",
+          "currentValue": "https://www.camden.gov.uk/camden-advice-network",
+          "proposedValue": "https://nhyouthcentre.org.uk/young-person/get-help/",
+          "reason": "The listing sends people to a council directory instead of the provider’s access information.",
+          "evidence": "The Get Help page gives direct routes for young people.",
+          "sourceUrl": "https://nhyouthcentre.org.uk/young-person/get-help/",
+          "priority": "normal"
+        },
+        {
+          "field": "access",
+          "currentValue": "Use Camden Advice Network’s New Horizon listing to reach the centre and ask for help.",
+          "proposedValue": "If you are aged 16 to 24 and facing homelessness in London, you can come to the day centre in the morning or use the self-referral route on its Get Help page.",
+          "reason": "People can approach the provider directly.",
+          "evidence": "The provider describes its morning drop-in and invites young people at risk of homelessness to attend or self-refer.",
+          "sourceUrl": "https://nhyouthcentre.org.uk/young-person/get-help/",
+          "priority": "normal"
+        }
+      ],
+      "kind": "regular",
+      "fingerprint": "e4a8f08107ddae82f20b2c96e9824db56b8f3ec106c880ad84b5c55db661f61a"
+    },
+    {
+      "id": "camden-people-first",
+      "status": "no_change_found",
+      "summary": "The organisation describes its self-advocacy work and publishes referral forms. Session availability and charges were not established.",
+      "checkedFields": [
+        "name",
+        "description",
+        "access",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://www.camdenpeoplefirst.org.uk/",
+          "ownerType": "provider",
+          "note": "Self-advocacy organisation and public service links.",
+          "retrieval": "page"
+        },
+        {
+          "url": "https://www.camdenpeoplefirst.org.uk/copy-of-support-us",
+          "ownerType": "provider",
+          "note": "Referral and activity forms and contact route.",
+          "retrieval": "page"
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "ee33a2f39a6a3f0dd330d027b5a5720cec7522bc8af3b06f265f10945f5d5548"
+    },
+    {
+      "id": "camden-shak",
+      "status": "no_change_found",
+      "summary": "The provider describes local activities and adult learning at the SHELL Centre, including drop-in learning and some free courses. Individual course dates, costs and places were not checked.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "url",
+        "phone"
+      ],
+      "sources": [
+        {
+          "url": "https://www.shakonline.co.uk/",
+          "ownerType": "provider",
+          "note": "Local community, activities and published contact number.",
+          "retrieval": "page"
+        },
+        {
+          "url": "https://www.shakonline.co.uk/the-shell-centre/",
+          "ownerType": "provider",
+          "note": "Adult learning through informal drop-ins and structured courses.",
+          "retrieval": "page"
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "02b8038dd94846c2197cfaf0e347614ef844db44d81f2f0e52a83621db59e01a"
+    },
+    {
+      "id": "camden-talking-therapies",
+      "status": "no_change_found",
+      "summary": "The NHS confirms online self-referral, phone alternatives, GP referral and assessment. The referral page does not establish individual eligibility or current appointment availability.",
+      "checkedFields": [
+        "name",
+        "access",
+        "check",
+        "url",
+        "phone"
+      ],
+      "sources": [
+        {
+          "url": "https://www.camdenandislingtontalkingtherapies.nhs.uk/request-an-appointment/",
+          "ownerType": "nhs",
+          "note": "Published self-referral and telephone routes, and assessment process.",
+          "retrieval": "page"
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "ed48fd4745e823da2fd2a211e1d0cac5ff8313ba87d0b3ae7ca60427c25bfaf9"
+    },
+    {
+      "id": "camden-urgent-mental-health",
+      "status": "no_change_found",
+      "summary": "The trust confirms the urgent mental health route and distinguishes it from immediate danger. Local response times and capacity were not established.",
+      "checkedFields": [
+        "description",
+        "name",
+        "access",
+        "check",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://www.northlondonmentalhealth.nhs.uk/urgent-help",
+          "ownerType": "nhs",
+          "note": "Trust guidance describes urgent support, emergency assessment and what to do when safety is at risk.",
+          "retrieval": "page"
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "9c27384239f56661b2fe249029ebc4d97d743fb4ae3d9d849d2f5fb3b47c8997"
+    },
+    {
+      "id": "camden-west-hampstead-women",
+      "status": "no_change_found",
+      "summary": "The centre describes advice, wellbeing activities, classes, local coverage and its timetable. Session-specific charges, booking and access arrangements were not established.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://whwc.org.uk/",
+          "ownerType": "provider",
+          "note": "Public information on who the centre supports, its activities and programme links.",
+          "retrieval": "page"
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "cc40b32c7575653730b3a2f3b79932bc87addbf58713dba11cb36718a276f327"
     }
   ]
 }

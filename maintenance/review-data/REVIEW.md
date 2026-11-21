@@ -1,22 +1,13 @@
 # Directory review queue
 
-Updated: 2026-11-21. 74 of 954 listings attempted in the last 28 days.
-74 listings had provider or official source content read in that period.
+Updated: 2026-11-21. 82 of 954 listings attempted in the last 28 days.
+82 listings had provider or official source content read in that period.
 Last recorded run: 2026-11-21.
-241 listings are overdue for a source check. Routine capacity: 1344 per 28 days.
+233 listings are overdue for a source check. Routine capacity: 1344 per 28 days.
 
 Automated source checks do not confirm availability. Evidence-backed factual updates and actual source-check dates are published through the normal quality checks; ambiguous findings stay here.
 
 ## Findings
-
-### Mary Ward Legal Centre — camden
-Field: **check** · **Priority review**
-- Current: Ask about eligibility and capacity before travelling. The centre may not be able to take every case.
-- Suggested: Housing capacity is limited. If you get no reply within five days, seek another adviser. As of 21 November 2026, no pro bono appointments are available; check the homepage before trying to book.
-- Why: The centre gives a specific reduced-capacity notice for housing and reports that pro bono appointments are unavailable.
-- Evidence summary: The homepage says to seek another housing adviser after five days without a response. Its hoped-for reopening of the pro bono form is not a confirmed appointment date.
-- Source: <https://www.marywardlegal.org.uk/>
-- First found: 2026-11-21; last seen: 2026-11-21.
 
 ### Camden Adult Social Care — camden
 Field: **access**
@@ -27,67 +18,49 @@ Field: **access**
 - Source: <https://camdencarechoices.camden.gov.uk/adult-social-care-services/contact-adult-social-care/>
 - First found: 2026-11-09; last seen: 2026-11-21.
 
-### Camden Job Hub and Disability Job Hub — camden
-Field: **access**
-- Current: Register through Good Work Camden and explain the support or adjustments you would like.
-- Suggested: Register with Good Work Camden or use the Job Hub email link to contact an adviser. For the Disability Job Hub, the council asks you to say you are disabled when you register.
-- Why: The current instruction omits the disability declaration specifically requested for the specialist hub and the general email enquiry route.
-- Evidence summary: The council offers registration or email for general advice. For the Disability Job Hub, it asks residents to register and identify themselves as disabled on that registration.
-- Source: <https://goodwork.camden.gov.uk/Web%20Forms/WebUser/PortalPage.aspx?Page=camden-job-hub>
-- First found: 2026-11-21; last seen: 2026-11-21.
-
-### London Irish Centre: advice — camden
-Field: **access**
-- Current: Find the London Irish Centre contact route in Camden Advice Network.
-- Suggested: Ask the centre for an appointment by phone (choose option 1 twice) or use the email link on its advice page. If neither works for you, check its Camden Square reception hours.
-- Why: The existing listing directs callers through a council directory instead of giving the direct booking route.
-- Evidence summary: The provider accepts booking enquiries by telephone or email. Its Camden Square reception is an alternative for people unable to use these routes.
-- Source: <https://londonirishcentre.org/our-services/advice-information-support/>
-- First found: 2026-11-21; last seen: 2026-11-21.
-
-### London Irish Centre: advice — camden
+### Mind in Camden — camden
 Field: **check**
-- Current: Ask about appointments and which advice the centre can currently offer.
-- Suggested: Advice is by appointment. Check reception hours before visiting. The centre gives housing advice but does not find private accommodation.
-- Why: The current wording asks visitors to check whether an appointment is needed; the provider says it is required.
-- Evidence summary: The service page requires booked appointments and distinguishes housing advice from finding private accommodation.
-- Source: <https://londonirishcentre.org/our-services/advice-information-support/>
+- Current: Check joining arrangements. Mind in Camden says it does not offer a counselling or drop-in service.
+- Suggested: There is no drop-in service. Phoenix support groups are free. Separate one-to-one counselling costs £35 per weekly session after an assessment.
+- Why: The listing rules out a counselling service that is now advertised.
+- Evidence summary: The dedicated counselling page describes individual sessions, assessment and the fee; the main page distinguishes free groups from drop-ins.
+- Source: <https://www.mindincamden.org.uk/counselling-mind-in-camden>
 - First found: 2026-11-21; last seen: 2026-11-21.
 
-### London Irish Centre: advice — camden
+### Nafsiyat Intercultural Therapy Centre — camden
+Field: **check**
+- Current: Ask whether funded or paid therapy applies, and about assessment and waiting times.
+- Suggested: The short-term individual therapy programme is free for Camden residents. Ask about current availability; the centre also has a separate paid service.
+- Why: The listing does not distinguish the free local programme from other services.
+- Evidence summary: The individual therapy page explicitly includes Camden, describes the sessions as free and signposts the separate paid service.
+- Source: <https://www.nafsiyat.org.uk/individual-therapy>
+- First found: 2026-11-21; last seen: 2026-11-21.
+
+### Nafsiyat Intercultural Therapy Centre — camden
+Field: **access**
+- Current: Contact the centre to ask about referral and the languages and support available.
+- Suggested: Use the self-referral link on the individual therapy page, or contact the centre to ask about languages and availability. Health professionals have a referral route too.
+- Why: The programme explicitly lists self-referral as well as professional referral.
+- Evidence summary: The programme page offers both routes and warns that therapists may be fully booked.
+- Source: <https://www.nafsiyat.org.uk/individual-therapy>
+- First found: 2026-11-21; last seen: 2026-11-21.
+
+### New Horizon Youth Centre — camden
 Field: **url**
 - Current: https://www.camden.gov.uk/camden-advice-network
-- Suggested: https://londonirishcentre.org/our-services/advice-information-support/
-- Why: Link directly to the advice service and its booking information.
-- Evidence summary: The current council list links onward to the provider; the provider’s own advice page contains contact routes and service limitations.
-- Source: <https://londonirishcentre.org/our-services/advice-information-support/>
+- Suggested: https://nhyouthcentre.org.uk/young-person/get-help/
+- Why: The listing sends people to a council directory instead of the provider’s access information.
+- Evidence summary: The Get Help page gives direct routes for young people.
+- Source: <https://nhyouthcentre.org.uk/young-person/get-help/>
 - First found: 2026-11-21; last seen: 2026-11-21.
 
-### London Irish Centre: advice — camden
-Field: **phone**
-- Current: 
-- Suggested: 020 7916 2222
-- Why: Add the public booking number for people who cannot use online contact.
-- Evidence summary: The advice service publishes this number and asks callers to choose option 1 twice.
-- Source: <https://londonirishcentre.org/our-services/advice-information-support/>
-- First found: 2026-11-21; last seen: 2026-11-21.
-
-### Mary Ward Legal Centre — camden
+### New Horizon Youth Centre — camden
 Field: **access**
-- Current: Call or use the relevant enquiry form to ask whether the centre can help.
-- Suggested: For housing, use the online form on Monday. If you cannot complete it, call Monday or Wednesday, 10am–noon; help filling it in is available on Monday only. For debt or benefits, use the separate contact instructions on the homepage.
-- Why: The general access wording omits the one-day housing form and the phone alternative.
-- Evidence summary: Housing intake is online on Mondays. The provider gives two morning phone windows for people unable to use the form, but assisted form completion is only offered on Monday.
-- Source: <https://www.marywardlegal.org.uk/legal-advice/housing-advice/>
-- First found: 2026-11-21; last seen: 2026-11-21.
-
-### Mary Ward Legal Centre — camden
-Field: **who**
-- Current: People on a low income in London; case and funding criteria apply.
-- Suggested: Londoners on low incomes are the priority. For housing advice, people who live, work or study in Camden do not need to qualify for Legal Help. Eligibility differs by service.
-- Why: The listing does not explain the local exception for housing enquiries.
-- Evidence summary: The housing team expressly exempts people who live, work or study in Camden from the Legal Help eligibility requirement for advice, while prioritising low income.
-- Source: <https://www.marywardlegal.org.uk/legal-advice/housing-advice/>
+- Current: Use Camden Advice Network’s New Horizon listing to reach the centre and ask for help.
+- Suggested: If you are aged 16 to 24 and facing homelessness in London, you can come to the day centre in the morning or use the self-referral route on its Get Help page.
+- Why: People can approach the provider directly.
+- Evidence summary: The provider describes its morning drop-in and invites young people at risk of homelessness to attend or self-refer.
+- Source: <https://nhyouthcentre.org.uk/young-person/get-help/>
 - First found: 2026-11-21; last seen: 2026-11-21.
 
 

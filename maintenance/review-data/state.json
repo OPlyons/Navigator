@@ -1538,6 +1538,169 @@
       "consecutiveFailures": 0,
       "retryCount": 0,
       "nextRetry": null
+    },
+    "camden-mind": {
+      "name": "Mind in Camden",
+      "area": "camden",
+      "fingerprint": "9dd0b87720d66084db7c88766dc4767d7c60d5619d693b43818b41db60fceb61",
+      "lastAttempt": "2026-11-21",
+      "lastRegularAttempt": "2026-11-21",
+      "lastSourceRead": "2026-11-21",
+      "lastOutcome": "changes_found",
+      "lastSummary": "The provider describes free Phoenix groups, no drop-ins and a separate paid counselling service. Group places and waiting times were not established.",
+      "checkedFields": [
+        "name",
+        "description",
+        "access",
+        "check",
+        "phone",
+        "url"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
+    },
+    "camden-nafsiyat": {
+      "name": "Nafsiyat Intercultural Therapy Centre",
+      "area": "camden",
+      "fingerprint": "38e9d907276cd481ab9a63027361b66d36df9e007b900f074bdfaa67ae272eed",
+      "lastAttempt": "2026-11-21",
+      "lastRegularAttempt": "2026-11-21",
+      "lastSourceRead": "2026-11-21",
+      "lastOutcome": "changes_found",
+      "lastSummary": "Nafsiyat describes free short-term individual therapy for Camden residents and lists a self-referral route. A place, current intake and waiting times are not confirmed.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "phone",
+        "url"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
+    },
+    "camden-new-horizon": {
+      "name": "New Horizon Youth Centre",
+      "area": "camden",
+      "fingerprint": "e4a8f08107ddae82f20b2c96e9824db56b8f3ec106c880ad84b5c55db661f61a",
+      "lastAttempt": "2026-11-21",
+      "lastRegularAttempt": "2026-11-21",
+      "lastSourceRead": "2026-11-21",
+      "lastOutcome": "changes_found",
+      "lastSummary": "The council and provider describe support for young people aged 16–24 facing homelessness in London. The centre explains how to seek help directly. Accommodation and places are not guaranteed.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "url"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
+    },
+    "camden-people-first": {
+      "name": "Camden People First",
+      "area": "camden",
+      "fingerprint": "ee33a2f39a6a3f0dd330d027b5a5720cec7522bc8af3b06f265f10945f5d5548",
+      "lastAttempt": "2026-11-21",
+      "lastRegularAttempt": "2026-11-21",
+      "lastSourceRead": "2026-11-21",
+      "lastOutcome": "no_change_found",
+      "lastSummary": "The organisation describes its self-advocacy work and publishes referral forms. Session availability and charges were not established.",
+      "checkedFields": [
+        "name",
+        "description",
+        "access",
+        "url"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
+    },
+    "camden-shak": {
+      "name": "SHAK and the SHELL Centre",
+      "area": "camden",
+      "fingerprint": "02b8038dd94846c2197cfaf0e347614ef844db44d81f2f0e52a83621db59e01a",
+      "lastAttempt": "2026-11-21",
+      "lastRegularAttempt": "2026-11-21",
+      "lastSourceRead": "2026-11-21",
+      "lastOutcome": "no_change_found",
+      "lastSummary": "The provider describes local activities and adult learning at the SHELL Centre, including drop-in learning and some free courses. Individual course dates, costs and places were not checked.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "url",
+        "phone"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
+    },
+    "camden-talking-therapies": {
+      "name": "Camden NHS Talking Therapies",
+      "area": "camden",
+      "fingerprint": "ed48fd4745e823da2fd2a211e1d0cac5ff8313ba87d0b3ae7ca60427c25bfaf9",
+      "lastAttempt": "2026-11-21",
+      "lastRegularAttempt": "2026-11-21",
+      "lastSourceRead": "2026-11-21",
+      "lastOutcome": "no_change_found",
+      "lastSummary": "The NHS confirms online self-referral, phone alternatives, GP referral and assessment. The referral page does not establish individual eligibility or current appointment availability.",
+      "checkedFields": [
+        "name",
+        "access",
+        "check",
+        "url",
+        "phone"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
+    },
+    "camden-urgent-mental-health": {
+      "name": "Urgent NHS mental health help: Camden",
+      "area": "camden",
+      "fingerprint": "9c27384239f56661b2fe249029ebc4d97d743fb4ae3d9d849d2f5fb3b47c8997",
+      "lastAttempt": "2026-11-21",
+      "lastRegularAttempt": "2026-11-21",
+      "lastSourceRead": "2026-11-21",
+      "lastOutcome": "no_change_found",
+      "lastSummary": "The trust confirms the urgent mental health route and distinguishes it from immediate danger. Local response times and capacity were not established.",
+      "checkedFields": [
+        "description",
+        "name",
+        "access",
+        "check",
+        "url"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
+    },
+    "camden-west-hampstead-women": {
+      "name": "West Hampstead Women’s Centre",
+      "area": "camden",
+      "fingerprint": "cc40b32c7575653730b3a2f3b79932bc87addbf58713dba11cb36718a276f327",
+      "lastAttempt": "2026-11-21",
+      "lastRegularAttempt": "2026-11-21",
+      "lastSourceRead": "2026-11-21",
+      "lastOutcome": "no_change_found",
+      "lastSummary": "The centre describes advice, wellbeing activities, classes, local coverage and its timetable. Session-specific charges, booking and access arrangements were not established.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "url"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
     }
   },
   "days": {
@@ -1646,7 +1809,15 @@
         "camden-learning-disability-service",
         "camden-libraries",
         "camden-london-irish",
-        "camden-mary-ward"
+        "camden-mary-ward",
+        "camden-mind",
+        "camden-nafsiyat",
+        "camden-new-horizon",
+        "camden-people-first",
+        "camden-shak",
+        "camden-talking-therapies",
+        "camden-urgent-mental-health",
+        "camden-west-hampstead-women"
       ],
       "retry": []
     }
@@ -1835,10 +2006,11 @@
       "evidence": "The council offers registration or email for general advice. For the Disability Job Hub, it asks residents to register and identify themselves as disabled on that registration.",
       "priority": "normal",
       "key": "180f0d3639bd984f0fd70d849adb3d48c64e76b2ca4546b662d32b8ce4d84ecd",
-      "status": "open",
+      "status": "applied",
       "firstSeen": "2026-11-21",
       "lastSeen": "2026-11-21",
-      "occurrences": 1
+      "occurrences": 1,
+      "closedOn": "2026-11-21"
     },
     {
       "kind": "change",
@@ -1853,10 +2025,11 @@
       "evidence": "The provider accepts booking enquiries by telephone or email. Its Camden Square reception is an alternative for people unable to use these routes.",
       "priority": "normal",
       "key": "918bbffa956dfd227940e9555374ccb01200ea3722cd67482c3f19f63ce3b72f",
-      "status": "open",
+      "status": "applied",
       "firstSeen": "2026-11-21",
       "lastSeen": "2026-11-21",
-      "occurrences": 1
+      "occurrences": 1,
+      "closedOn": "2026-11-21"
     },
     {
       "kind": "change",
@@ -1871,10 +2044,11 @@
       "evidence": "The service page requires booked appointments and distinguishes housing advice from finding private accommodation.",
       "priority": "normal",
       "key": "ccbb198157655bb0a3b74b59a415f65ec9a72923c04d75564e0eee79efdcf601",
-      "status": "open",
+      "status": "applied",
       "firstSeen": "2026-11-21",
       "lastSeen": "2026-11-21",
-      "occurrences": 1
+      "occurrences": 1,
+      "closedOn": "2026-11-21"
     },
     {
       "kind": "change",
@@ -1889,10 +2063,11 @@
       "evidence": "The current council list links onward to the provider; the provider’s own advice page contains contact routes and service limitations.",
       "priority": "normal",
       "key": "3a465237504e8d48f37f83fbe987be7cefe1983ff003c43674f4750b6ab67057",
-      "status": "open",
+      "status": "applied",
       "firstSeen": "2026-11-21",
       "lastSeen": "2026-11-21",
-      "occurrences": 1
+      "occurrences": 1,
+      "closedOn": "2026-11-21"
     },
     {
       "kind": "change",
@@ -1907,10 +2082,11 @@
       "evidence": "The advice service publishes this number and asks callers to choose option 1 twice.",
       "priority": "normal",
       "key": "cfd3daca05324172e85f51a7eda615a26db9cd260c611cd30fe5c18999ad3f36",
-      "status": "open",
+      "status": "applied",
       "firstSeen": "2026-11-21",
       "lastSeen": "2026-11-21",
-      "occurrences": 1
+      "occurrences": 1,
+      "closedOn": "2026-11-21"
     },
     {
       "kind": "change",
@@ -1925,10 +2101,11 @@
       "evidence": "Housing intake is online on Mondays. The provider gives two morning phone windows for people unable to use the form, but assisted form completion is only offered on Monday.",
       "priority": "normal",
       "key": "7d71021c184cf106fc1f91a7381432f08211b1eaf636d68f386ca3638cacac56",
-      "status": "open",
+      "status": "applied",
       "firstSeen": "2026-11-21",
       "lastSeen": "2026-11-21",
-      "occurrences": 1
+      "occurrences": 1,
+      "closedOn": "2026-11-21"
     },
     {
       "kind": "change",
@@ -1943,10 +2120,11 @@
       "evidence": "The homepage says to seek another housing adviser after five days without a response. Its hoped-for reopening of the pro bono form is not a confirmed appointment date.",
       "priority": "urgent",
       "key": "662d5365ddf282a44dca7e7a1c667edec0e3f5e99e91c2b339f5be1cc0e009e1",
-      "status": "open",
+      "status": "applied",
       "firstSeen": "2026-11-21",
       "lastSeen": "2026-11-21",
-      "occurrences": 1
+      "occurrences": 1,
+      "closedOn": "2026-11-21"
     },
     {
       "kind": "change",
@@ -1961,6 +2139,97 @@
       "evidence": "The housing team expressly exempts people who live, work or study in Camden from the Legal Help eligibility requirement for advice, while prioritising low income.",
       "priority": "normal",
       "key": "90b3ee17cb08f2609a000f3a6b77aad7b4ea2bed9080a6cb5e5d3335e3b67c41",
+      "status": "applied",
+      "firstSeen": "2026-11-21",
+      "lastSeen": "2026-11-21",
+      "occurrences": 1,
+      "closedOn": "2026-11-21"
+    },
+    {
+      "kind": "change",
+      "resourceId": "camden-mind",
+      "name": "Mind in Camden",
+      "area": "camden",
+      "field": "check",
+      "currentValue": "Check joining arrangements. Mind in Camden says it does not offer a counselling or drop-in service.",
+      "proposedValue": "There is no drop-in service. Phoenix support groups are free. Separate one-to-one counselling costs £35 per weekly session after an assessment.",
+      "reason": "The listing rules out a counselling service that is now advertised.",
+      "evidence": "The dedicated counselling page describes individual sessions, assessment and the fee; the main page distinguishes free groups from drop-ins.",
+      "sourceUrl": "https://www.mindincamden.org.uk/counselling-mind-in-camden",
+      "priority": "normal",
+      "key": "423d6203198751df90d5d6f442fb905643d15c56d84b3067b9efc72b85c54207",
+      "status": "open",
+      "firstSeen": "2026-11-21",
+      "lastSeen": "2026-11-21",
+      "occurrences": 1
+    },
+    {
+      "kind": "change",
+      "resourceId": "camden-nafsiyat",
+      "name": "Nafsiyat Intercultural Therapy Centre",
+      "area": "camden",
+      "field": "check",
+      "currentValue": "Ask whether funded or paid therapy applies, and about assessment and waiting times.",
+      "proposedValue": "The short-term individual therapy programme is free for Camden residents. Ask about current availability; the centre also has a separate paid service.",
+      "reason": "The listing does not distinguish the free local programme from other services.",
+      "evidence": "The individual therapy page explicitly includes Camden, describes the sessions as free and signposts the separate paid service.",
+      "sourceUrl": "https://www.nafsiyat.org.uk/individual-therapy",
+      "priority": "normal",
+      "key": "507ba625f204843a1b3392c1de7566dac99d5e315ac6d8a0d6366b951c5cf27e",
+      "status": "open",
+      "firstSeen": "2026-11-21",
+      "lastSeen": "2026-11-21",
+      "occurrences": 1
+    },
+    {
+      "kind": "change",
+      "resourceId": "camden-nafsiyat",
+      "name": "Nafsiyat Intercultural Therapy Centre",
+      "area": "camden",
+      "field": "access",
+      "currentValue": "Contact the centre to ask about referral and the languages and support available.",
+      "proposedValue": "Use the self-referral link on the individual therapy page, or contact the centre to ask about languages and availability. Health professionals have a referral route too.",
+      "reason": "The programme explicitly lists self-referral as well as professional referral.",
+      "evidence": "The programme page offers both routes and warns that therapists may be fully booked.",
+      "sourceUrl": "https://www.nafsiyat.org.uk/individual-therapy",
+      "priority": "normal",
+      "key": "c94b52b1a24ed7d8587fe1f86a2f32a8afd4263f96c74e227a82d94f7833cad4",
+      "status": "open",
+      "firstSeen": "2026-11-21",
+      "lastSeen": "2026-11-21",
+      "occurrences": 1
+    },
+    {
+      "kind": "change",
+      "resourceId": "camden-new-horizon",
+      "name": "New Horizon Youth Centre",
+      "area": "camden",
+      "field": "url",
+      "currentValue": "https://www.camden.gov.uk/camden-advice-network",
+      "proposedValue": "https://nhyouthcentre.org.uk/young-person/get-help/",
+      "reason": "The listing sends people to a council directory instead of the provider’s access information.",
+      "evidence": "The Get Help page gives direct routes for young people.",
+      "sourceUrl": "https://nhyouthcentre.org.uk/young-person/get-help/",
+      "priority": "normal",
+      "key": "efaab9ffb8290c73b86510872f449460e84c0bd47505bb73ebf089bb2b7dc3af",
+      "status": "open",
+      "firstSeen": "2026-11-21",
+      "lastSeen": "2026-11-21",
+      "occurrences": 1
+    },
+    {
+      "kind": "change",
+      "resourceId": "camden-new-horizon",
+      "name": "New Horizon Youth Centre",
+      "area": "camden",
+      "field": "access",
+      "currentValue": "Use Camden Advice Network’s New Horizon listing to reach the centre and ask for help.",
+      "proposedValue": "If you are aged 16 to 24 and facing homelessness in London, you can come to the day centre in the morning or use the self-referral route on its Get Help page.",
+      "reason": "People can approach the provider directly.",
+      "evidence": "The provider describes its morning drop-in and invites young people at risk of homelessness to attend or self-refer.",
+      "sourceUrl": "https://nhyouthcentre.org.uk/young-person/get-help/",
+      "priority": "normal",
+      "key": "2513842349c8a7d2fc09fecb65f4096b20d9f3943399e47f7b5d20507d5810dd",
       "status": "open",
       "firstSeen": "2026-11-21",
       "lastSeen": "2026-11-21",
