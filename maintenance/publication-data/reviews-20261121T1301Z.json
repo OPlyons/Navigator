@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "kind": "source_reviews",
+  "sourceDay": "2026-11-21",
+  "applied": [
+    {
+      "id": "brent-crisis-fund",
+      "checkedOn": "2026-11-21",
+      "fields": [
+        "check"
+      ],
+      "beforeFingerprint": "e284e59369634d9325dc3ea41efedde61208cfa2b6a486687960eadb5979e36f",
+      "afterFingerprint": "df9ee28db0d9bc15eec78f5483d166162e35e253eab8b29978f8dd9c5f276c96"
+    },
+    {
+      "id": "camden-cindex",
+      "checkedOn": "2026-11-21",
+      "fields": [],
+      "beforeFingerprint": "9b620220494caf73359d0b882be6f925e905fd98f3d208db0c3e42ef556d53fa",
+      "afterFingerprint": "9b620220494caf73359d0b882be6f925e905fd98f3d208db0c3e42ef556d53fa"
+    },
+    {
+      "id": "camden-citizens-advice",
+      "checkedOn": "2026-11-21",
+      "fields": [],
+      "beforeFingerprint": "478659ea06d1a7e5ab91bdc0689f3243e4d68fa2c3504cb943b175f4504f8ab4",
+      "afterFingerprint": "478659ea06d1a7e5ab91bdc0689f3243e4d68fa2c3504cb943b175f4504f8ab4"
+    },
+    {
+      "id": "camden-crisis-sanctuary",
+      "checkedOn": "2026-11-21",
+      "fields": [],
+      "beforeFingerprint": "8f8308994bfd31a1cbcb4704da61ce8bfa552ef4907ddc2fbc9a5766bbe7b3d8",
+      "afterFingerprint": "8f8308994bfd31a1cbcb4704da61ce8bfa552ef4907ddc2fbc9a5766bbe7b3d8"
+    },
+    {
+      "id": "camden-disability-action",
+      "checkedOn": "2026-11-21",
+      "fields": [],
+      "beforeFingerprint": "1aa878616de242ce191901523eba6c47279d630bab35574018ca58197fd442e6",
+      "afterFingerprint": "1aa878616de242ce191901523eba6c47279d630bab35574018ca58197fd442e6"
+    },
+    {
+      "id": "camden-drug-alcohol",
+      "checkedOn": "2026-11-21",
+      "fields": [
+        "access"
+      ],
+      "beforeFingerprint": "4b7c637bb2c16fe9dbc2d63973f0525cc4ccf650c95ae20d9028c2cd0c7c1490",
+      "afterFingerprint": "f268e3643026e1b9bb46f663471503eec8c574192de7e9327b5a29ef6dc17c20"
+    },
+    {
+      "id": "camden-financial-support",
+      "checkedOn": "2026-11-21",
+      "fields": [],
+      "beforeFingerprint": "b73fc040d58863d690ba098e6d21b4aed9e64a331842a62a84436b51a5c60e9e",
+      "afterFingerprint": "b73fc040d58863d690ba098e6d21b4aed9e64a331842a62a84436b51a5c60e9e"
+    }
+  ],
+  "skipped": []
+}
