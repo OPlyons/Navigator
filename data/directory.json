@@ -8836,12 +8836,27 @@
         "sleep",
         "self-referral"
       ],
-      "lastChecked": "2026-09-18",
-      "nextReview": "2026-10-16",
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
       "sourceUrl": "https://www.camdenandislingtontalkingtherapies.nhs.uk/request-an-appointment/",
       "sourceOwner": "Camden and Islington NHS Talking Therapies",
-      "verificationStatus": "Provider website checked",
-      "audiences": []
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "audiences": [],
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "access",
+          "check",
+          "url",
+          "phone"
+        ],
+        "notes": "The NHS confirms online self-referral, phone alternatives, GP referral and assessment. The referral page does not establish individual eligibility or current appointment availability.",
+        "evidenceUrls": [
+          "https://www.camdenandislingtontalkingtherapies.nhs.uk/request-an-appointment/"
+        ]
+      }
     },
     {
       "id": "camden-people-first",
@@ -8862,14 +8877,29 @@
         "Easy Read",
         "peer support"
       ],
-      "lastChecked": "2026-09-18",
-      "nextReview": "2026-10-16",
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
       "sourceUrl": "https://www.camdenpeoplefirst.org.uk/",
       "sourceOwner": "Camden People First",
-      "verificationStatus": "Provider website checked",
+      "verificationStatus": "Automated source check; current availability not confirmed",
       "audiences": [
         "disabled"
-      ]
+      ],
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "access",
+          "url"
+        ],
+        "notes": "The organisation describes its self-advocacy work and publishes referral forms. Session availability and charges were not established.",
+        "evidenceUrls": [
+          "https://www.camdenpeoplefirst.org.uk/",
+          "https://www.camdenpeoplefirst.org.uk/copy-of-support-us"
+        ]
+      }
     },
     {
       "id": "camden-housing-after-hospital",
@@ -9512,7 +9542,7 @@
       "description": "Peer support, free support groups and opportunities to connect with others around mental health and wellbeing.",
       "who": "People seeking the support described in Mind in Camden’s programmes; each group has its own criteria.",
       "access": "Call the team or use the website to ask which group or programme would suit you.",
-      "check": "Check joining arrangements. Mind in Camden says it does not offer a counselling or drop-in service.",
+      "check": "There is no drop-in service. Phoenix support groups are free. Separate one-to-one counselling costs £35 per weekly session after an assessment.",
       "url": "https://www.mindincamden.org.uk/",
       "phone": "020 7911 0822",
       "picture": "talk",
@@ -9522,12 +9552,29 @@
         "mental health",
         "connection"
       ],
-      "lastChecked": "2026-09-18",
-      "nextReview": "2026-10-16",
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
       "sourceUrl": "https://www.mindincamden.org.uk/",
       "sourceOwner": "Mind in Camden",
-      "verificationStatus": "Provider website checked",
-      "audiences": []
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "audiences": [],
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "access",
+          "check",
+          "phone",
+          "url"
+        ],
+        "notes": "The provider describes free Phoenix groups, no drop-ins and a separate paid counselling service. Group places and waiting times were not established.",
+        "evidenceUrls": [
+          "https://www.mindincamden.org.uk/",
+          "https://www.mindincamden.org.uk/counselling-mind-in-camden"
+        ]
+      }
     },
     {
       "id": "camden-mornington-chasers",
@@ -9559,8 +9606,8 @@
       "category": "Culture, identity and belonging",
       "description": "Therapy that takes account of culture, language, migration and experiences of trauma.",
       "who": "People from diverse communities, including Camden; eligibility depends on the referral and funding route.",
-      "access": "Contact the centre to ask about referral and the languages and support available.",
-      "check": "Ask whether funded or paid therapy applies, and about assessment and waiting times.",
+      "access": "Use the self-referral link on the individual therapy page, or contact the centre to ask about languages and availability. Health professionals have a referral route too.",
+      "check": "The short-term individual therapy programme is free for Camden residents. Ask about current availability; the centre also has a separate paid service.",
       "url": "https://www.nafsiyat.org.uk/",
       "phone": "020 7263 6947",
       "picture": "talk",
@@ -9571,12 +9618,31 @@
         "trauma",
         "migration"
       ],
-      "lastChecked": "2026-09-18",
-      "nextReview": "2026-10-16",
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
       "sourceUrl": "https://www.nafsiyat.org.uk/",
       "sourceOwner": "Nafsiyat",
-      "verificationStatus": "Provider website checked",
-      "audiences": []
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "audiences": [],
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "check",
+          "phone",
+          "url"
+        ],
+        "notes": "Nafsiyat describes free short-term individual therapy for Camden residents and lists a self-referral route. A place, current intake and waiting times are not confirmed.",
+        "evidenceUrls": [
+          "https://www.nafsiyat.org.uk/",
+          "https://www.nafsiyat.org.uk/individual-therapy",
+          "https://www.nafsiyat.org.uk/refer"
+        ]
+      }
     },
     {
       "id": "camden-new-horizon",
@@ -9585,9 +9651,9 @@
       "category": "Housing and homelessness",
       "description": "Support with housing, health and skills for young people facing homelessness or insecure housing.",
       "who": "Young people aged 16 to 24.",
-      "access": "Use Camden Advice Network’s New Horizon listing to reach the centre and ask for help.",
+      "access": "If you are aged 16 to 24 and facing homelessness in London, you can come to the day centre in the morning or use the self-referral route on its Get Help page.",
       "check": "Check the current access route and service availability with the centre.",
-      "url": "https://www.camden.gov.uk/camden-advice-network",
+      "url": "https://nhyouthcentre.org.uk/young-person/get-help/",
       "phone": "",
       "picture": "home",
       "tags": [
@@ -9596,14 +9662,31 @@
         "housing",
         "skills"
       ],
-      "lastChecked": "2026-09-18",
-      "nextReview": "2026-10-16",
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
       "sourceUrl": "https://www.camden.gov.uk/camden-advice-network",
       "sourceOwner": "Camden Council / Camden Advice Network",
-      "verificationStatus": "Council or government website checked",
+      "verificationStatus": "Automated source check; current availability not confirmed",
       "audiences": [
         "young-adults"
-      ]
+      ],
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "url"
+        ],
+        "notes": "The council and provider describe support for young people aged 16–24 facing homelessness in London. The centre explains how to seek help directly. Accommodation and places are not guaranteed.",
+        "evidenceUrls": [
+          "https://www.camden.gov.uk/camden-advice-network",
+          "https://nhyouthcentre.org.uk/",
+          "https://nhyouthcentre.org.uk/young-person/get-help/"
+        ]
+      }
     },
     {
       "id": "camden-primrose-hill-open-house",
@@ -9723,12 +9806,29 @@
         "community",
         "activities"
       ],
-      "lastChecked": "2026-09-18",
-      "nextReview": "2026-10-16",
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
       "sourceUrl": "https://www.shakonline.co.uk/",
       "sourceOwner": "South Hampstead and Kilburn Community Partnership",
-      "verificationStatus": "Provider website checked",
-      "audiences": []
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "audiences": [],
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "url",
+          "phone"
+        ],
+        "notes": "The provider describes local activities and adult learning at the SHELL Centre, including drop-in learning and some free courses. Individual course dates, costs and places were not checked.",
+        "evidenceUrls": [
+          "https://www.shakonline.co.uk/",
+          "https://www.shakonline.co.uk/the-shell-centre/"
+        ]
+      }
     },
     {
       "id": "camden-somers-town-community-kitchen",
@@ -9921,12 +10021,27 @@
         "crisis",
         "NHS 111"
       ],
-      "lastChecked": "2026-09-18",
-      "nextReview": "2026-10-16",
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
       "sourceUrl": "https://www.northlondonmentalhealth.nhs.uk/urgent-help",
       "sourceOwner": "North London NHS Foundation Trust",
-      "verificationStatus": "Provider website checked",
-      "audiences": []
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "audiences": [],
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "description",
+          "name",
+          "access",
+          "check",
+          "url"
+        ],
+        "notes": "The trust confirms the urgent mental health route and distinguishes it from immediate danger. Local response times and capacity were not established.",
+        "evidenceUrls": [
+          "https://www.northlondonmentalhealth.nhs.uk/urgent-help"
+        ]
+      }
     },
     {
       "id": "camden-volunteer-centre-camden",
@@ -9993,14 +10108,29 @@
         "advice",
         "connection"
       ],
-      "lastChecked": "2026-09-18",
-      "nextReview": "2026-10-16",
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
       "sourceUrl": "https://whwc.org.uk/",
       "sourceOwner": "West Hampstead Women’s Centre",
-      "verificationStatus": "Provider website checked",
+      "verificationStatus": "Automated source check; current availability not confirmed",
       "audiences": [
         "women"
-      ]
+      ],
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "url"
+        ],
+        "notes": "The centre describes advice, wellbeing activities, classes, local coverage and its timetable. Session-specific charges, booking and access arrangements were not established.",
+        "evidenceUrls": [
+          "https://whwc.org.uk/"
+        ]
+      }
     },
     {
       "id": "hillingdon-good-neighbours",
