@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "kind": "source_reviews",
+  "sourceDay": "2026-11-21",
+  "applied": [
+    {
+      "id": "carers",
+      "checkedOn": "2026-11-21",
+      "fields": [],
+      "beforeFingerprint": "c54c1d952d5d0ddabfb436aac1635bd7ff2a451b579b075da5d689fce3fca66d",
+      "afterFingerprint": "c54c1d952d5d0ddabfb436aac1635bd7ff2a451b579b075da5d689fce3fca66d"
+    },
+    {
+      "id": "carers-uk",
+      "checkedOn": "2026-11-21",
+      "fields": [],
+      "beforeFingerprint": "83ec48eb7bbea1cc8dc5cc51b016f73b37aee1858de29e70f4ffdea92c7ad02d",
+      "afterFingerprint": "83ec48eb7bbea1cc8dc5cc51b016f73b37aee1858de29e70f4ffdea92c7ad02d"
+    },
+    {
+      "id": "cnwl-recovery-college",
+      "checkedOn": "2026-11-21",
+      "fields": [
+        "url"
+      ],
+      "beforeFingerprint": "a285c806d6eefdf1fc1036477dda5d128a967bdf5541d2e83ec00533250a56e3",
+      "afterFingerprint": "c92d56d46404ede37ee8bc993f8a24953995a6e8b128fc936396542d0b0ac338"
+    },
+    {
+      "id": "cove",
+      "checkedOn": "2026-11-21",
+      "fields": [],
+      "beforeFingerprint": "35a9532642d1f3ae5887ebb9ffcc67cefc49a8a64b2c8cd6fa22c000a5277ef3",
+      "afterFingerprint": "35a9532642d1f3ae5887ebb9ffcc67cefc49a8a64b2c8cd6fa22c000a5277ef3"
+    },
+    {
+      "id": "cruse",
+      "checkedOn": "2026-11-21",
+      "fields": [],
+      "beforeFingerprint": "ef8675e7cc9b0044b925d82fb62d7fc8fe14eb35bd7a4ae8cd7d5967829720f3",
+      "afterFingerprint": "ef8675e7cc9b0044b925d82fb62d7fc8fe14eb35bd7a4ae8cd7d5967829720f3"
+    },
+    {
+      "id": "ealing-active",
+      "checkedOn": "2026-11-21",
+      "fields": [],
+      "beforeFingerprint": "b6af9ccba790dd0694a6c55fbc9d75227af4ed62f7a6dce8c7a62fd2e851f08b",
+      "afterFingerprint": "b6af9ccba790dd0694a6c55fbc9d75227af4ed62f7a6dce8c7a62fd2e851f08b"
+    },
+    {
+      "id": "ealing-adult-learning",
+      "checkedOn": "2026-11-21",
+      "fields": [
+        "phone",
+        "access"
+      ],
+      "beforeFingerprint": "b202163911149eec751217722fffbbee386c9e0c590e9a872ebcb8e7007cb3be",
+      "afterFingerprint": "19d9722013aa1ace25f752fd79d816de9153b1e6e7ff6d7a497e1e7210a53844"
+    },
+    {
+      "id": "ealing-adult-social-care",
+      "checkedOn": "2026-11-21",
+      "fields": [
+        "url",
+        "access"
+      ],
+      "beforeFingerprint": "63133769322763e2a4a554a707c51c2364c20cb0f8e44f100d09c37e965a953e",
+      "afterFingerprint": "275004f860f464edf88def38976c4dad3e5e2ce15c16723241cd34a3ae278373"
+    }
+  ],
+  "skipped": []
+}

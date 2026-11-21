@@ -3223,15 +3223,31 @@
         "wellbeing",
         "support"
       ],
-      "lastChecked": "2026-09-18",
-      "nextReview": "2026-10-16",
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
       "sourceUrl": "https://harrowcarers.org/",
       "sourceOwner": "Harrow Carers",
-      "verificationStatus": "Provider website checked",
+      "verificationStatus": "Automated source check; current availability not confirmed",
       "audiences": [
         "young-adults",
         "carers"
-      ]
+      ],
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "phone",
+          "url"
+        ],
+        "notes": "Harrow Carers describes local support for unpaid carers, including young carers, and publishes a registration link and the listed phone number. Costs and availability for individual activities were not established.",
+        "evidenceUrls": [
+          "https://harrowcarers.org/"
+        ]
+      }
     },
     {
       "id": "harrow-carer-assessment",
@@ -3450,12 +3466,28 @@
         "weekends",
         "mental health"
       ],
-      "lastChecked": "2026-09-18",
-      "nextReview": "2026-10-16",
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
       "sourceUrl": "https://www.hestia.org/harrow-cove",
       "sourceOwner": "Hestia",
-      "verificationStatus": "Provider website checked",
-      "audiences": []
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "audiences": [],
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "check"
+        ],
+        "notes": "Hestia’s indexed Harrow listing agrees on the age, borough or GP route and daily opening hours. CNWL independently describes the Cove drop-in model and hours. The Harrow provider page could not be opened directly; current contact details and same-day availability were not verified.",
+        "evidenceUrls": [
+          "https://www.hestia.org/harrow-cove",
+          "https://www.cnwl.nhs.uk/camhs/our-services/crisis-and-urgent-care/help-mental-health-crisis"
+        ]
+      }
     },
     {
       "id": "harrow-crisis-fund",
@@ -17089,9 +17121,9 @@
       "category": "Physical health and care",
       "description": "Ask about help with everyday living, care needs, independence and support for carers.",
       "who": "Adults in Ealing who may need care or support, and unpaid carers.",
-      "access": "Call the adult social care contact centre or use the council website.",
+      "access": "Call the council or use its self-referral form. If you are contacting the council for someone else, make sure they know first; there is a separate form for representatives.",
       "check": "An assessment may be needed. Ask about eligibility, any financial assessment and support while you wait.",
-      "url": "https://www.ealing.gov.uk/info/201073/health_and_adult_social_care",
+      "url": "https://www.ealing.gov.uk/info/201082/what_to_expect_from_adult_social_care/2526/contacting_adult_social_care",
       "phone": "020 8825 8000",
       "picture": "hospital",
       "tags": [
@@ -17100,14 +17132,31 @@
         "carers",
         "independence"
       ],
-      "lastChecked": "2026-09-18",
-      "nextReview": "2026-10-16",
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
       "sourceUrl": "https://www.ealing.gov.uk/info/201073/health_and_adult_social_care",
       "sourceOwner": "Ealing Council",
-      "verificationStatus": "Council or government website checked",
+      "verificationStatus": "Automated source check; current availability not confirmed",
       "audiences": [
         "carers"
-      ]
+      ],
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "access",
+          "check",
+          "phone",
+          "url"
+        ],
+        "notes": "The council confirms that people can contact adult social care for themselves by phone or online. The centre initially assesses needs and may suggest community help or a further assessment. Individual eligibility, costs and waiting times were not established.",
+        "evidenceUrls": [
+          "https://www.ealing.gov.uk/info/201073/health_and_adult_social_care",
+          "https://www.ealing.gov.uk/info/201082/what_to_expect_from_adult_social_care/2526/contacting_adult_social_care"
+        ]
+      }
     },
     {
       "id": "ealing-advice-general",
@@ -17784,15 +17833,30 @@
         "inclusive activities",
         "physical wellbeing"
       ],
-      "lastChecked": "2026-09-18",
-      "nextReview": "2026-10-16",
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
       "sourceUrl": "https://www.ealing.gov.uk/info/201137/sports_and_leisure",
       "sourceOwner": "Ealing Council",
-      "verificationStatus": "Council or government website checked",
+      "verificationStatus": "Automated source check; current availability not confirmed",
       "audiences": [
         "disabled",
         "older"
-      ]
+      ],
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "url"
+        ],
+        "notes": "Ealing Council lists sports facilities and activities for a range of ages and abilities and advises contacting the local centre about individual activities. Session dates, accessibility arrangements and prices were not confirmed.",
+        "evidenceUrls": [
+          "https://www.ealing.gov.uk/info/201137/sports_and_leisure"
+        ]
+      }
     },
     {
       "id": "ealing-ealing-u3a",
@@ -18077,10 +18141,10 @@
       "category": "Learning, work and volunteering",
       "description": "Adult and family learning, including English, maths, digital skills, employment skills and creative courses.",
       "who": "Adults and families looking for learning opportunities in Ealing.",
-      "access": "Browse the course listings and enrol using the details for your chosen course.",
+      "access": "Use the council’s Learn Ealing link to register online, then attend an information and advice session. You can call Learn Ealing if you need help getting started.",
       "check": "Check entry requirements, dates, course fees and whether you qualify for free or reduced-fee learning.",
       "url": "https://www.ealing.gov.uk/info/201108/learning_and_schools/2814/adult_learning",
-      "phone": "",
+      "phone": "020 8825 5577",
       "picture": "book",
       "tags": [
         "adult learning",
@@ -18089,12 +18153,29 @@
         "digital",
         "skills"
       ],
-      "lastChecked": "2026-09-18",
-      "nextReview": "2026-10-16",
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
       "sourceUrl": "https://www.ealing.gov.uk/info/201108/learning_and_schools/2814/adult_learning",
       "sourceOwner": "Ealing Council / Learn Ealing",
-      "verificationStatus": "Council or government website checked",
-      "audiences": []
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "audiences": [],
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "check",
+          "phone",
+          "url"
+        ],
+        "notes": "Ealing Council describes adult and family courses, online registration, an advice session and a phone enquiry route. Funding depends on eligibility. The separate course portal was blocked, so individual fees, enrolment deadlines and places were not checked.",
+        "evidenceUrls": [
+          "https://www.ealing.gov.uk/info/201108/learning_and_schools/2814/adult_learning"
+        ]
+      }
     },
     {
       "id": "ealing-lets-go-southall",
@@ -19220,14 +19301,30 @@
         "family",
         "unpaid care"
       ],
-      "lastChecked": "2026-09-18",
-      "nextReview": "2026-10-16",
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
       "sourceUrl": "https://www.carersuk.org/help-and-advice/helpline-and-other-support/",
       "sourceOwner": "Carers UK",
-      "verificationStatus": "Provider website checked",
+      "verificationStatus": "Automated source check; current availability not confirmed",
       "audiences": [
         "carers"
-      ]
+      ],
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "access",
+          "check",
+          "phone",
+          "url"
+        ],
+        "notes": "Carers UK confirms its phone number and weekday hours including bank holidays, online meetups and email for more detailed enquiries. Individual response times were not established.",
+        "evidenceUrls": [
+          "https://www.carersuk.org/help-and-advice/helpline-and-other-support/"
+        ]
+      }
     },
     {
       "id": "wider-carers-allowance-claim",
@@ -19340,7 +19437,7 @@
       "who": "People using CNWL services, or registered with a GP in its catchment, and their carers, family, friends or supporters.",
       "access": "Use the enrolment page or call the college to discuss courses and eligibility.",
       "check": "The catchment includes Brent, Harrow, Hillingdon, Kensington and Chelsea, Westminster and Milton Keynes. Courses are not therapy.",
-      "url": "https://www.cnwl.nhs.uk/services/recovery-and-wellbeing-college/how-enrol-recovery-and-wellbeing-college",
+      "url": "https://www.cnwl.nhs.uk/services/recovery-and-wellbeing-college/how-to-become-a-student",
       "phone": "020 32145686",
       "picture": "book",
       "tags": [
@@ -19350,14 +19447,30 @@
         "wellbeing",
         "carers"
       ],
-      "lastChecked": "2026-09-18",
-      "nextReview": "2026-10-16",
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
       "sourceUrl": "https://www.cnwl.nhs.uk/services/recovery-and-wellbeing-college/how-enrol-recovery-and-wellbeing-college",
       "sourceOwner": "CNWL NHS Foundation Trust",
-      "verificationStatus": "Provider website checked",
+      "verificationStatus": "Automated source check; current availability not confirmed",
       "audiences": [
         "carers"
-      ]
+      ],
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "access",
+          "check",
+          "phone",
+          "url"
+        ],
+        "notes": "The NHS publishes a working enrolment page, the college phone number and its GP catchment. The former page also listed using CNWL services as a route. The current page does not address service users whose GP is outside the catchment; eligibility on that basis remains unconfirmed. No place or exclusion was inferred.",
+        "evidenceUrls": [
+          "https://www.cnwl.nhs.uk/services/recovery-and-wellbeing-college/how-enrol-recovery-and-wellbeing-college",
+          "https://www.cnwl.nhs.uk/services/recovery-and-wellbeing-college/how-to-become-a-student"
+        ]
+      }
     },
     {
       "id": "wider-cocaine-anonymous",
@@ -19435,12 +19548,27 @@
         "loss",
         "listening"
       ],
-      "lastChecked": "2026-09-18",
-      "nextReview": "2026-10-16",
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
       "sourceUrl": "https://www.cruse.org.uk/get-support/",
       "sourceOwner": "Cruse Bereavement Support",
-      "verificationStatus": "Provider website checked",
-      "audiences": []
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "audiences": [],
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "access",
+          "phone"
+        ],
+        "notes": "Only indexed text from Cruse could be read. It describes bereavement support, the published number for its national telephone service and local branches. This was a limited check: no local availability, waiting time or access to a particular branch was confirmed.",
+        "evidenceUrls": [
+          "https://www.cruse.org.uk/get-support/",
+          "https://www.cruse.org.uk/get-support/helpline/"
+        ]
+      }
     },
     {
       "id": "wider-cycling-uk-groups",
