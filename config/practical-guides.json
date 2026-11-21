@@ -1,0 +1,396 @@
+{
+  "checkedOn": "2026-11-21",
+  "groups": [
+    {
+      "title": "Money & banking",
+      "guides": [
+        "benefits",
+        "bank-account"
+      ]
+    },
+    {
+      "title": "ID & rights",
+      "guides": [
+        "identification",
+        "legal-advice"
+      ]
+    },
+    {
+      "title": "Work & learning",
+      "guides": [
+        "starting-work",
+        "courses"
+      ]
+    }
+  ],
+  "guides": {
+    "benefits": {
+      "title": "Benefits advice",
+      "question": "What would you like help with?",
+      "routes": [
+        {
+          "title": "Check what I could get",
+          "steps": [
+            "Use the Turn2us calculator for an estimate. It does not decide a claim or assess whether you qualify for PIP.",
+            "Already getting benefits? Ask an adviser before starting Universal Credit: a new claim can end some existing benefits."
+          ],
+          "links": [
+            {
+              "label": "Use the Turn2us benefits calculator",
+              "url": "https://benefits-calculator.turn2us.org.uk/"
+            },
+            {
+              "label": "Turn2us: find a local adviser",
+              "url": "https://advicefinder.turn2us.org.uk/"
+            }
+          ]
+        },
+        {
+          "title": "Claim Universal Credit",
+          "steps": [
+            "Create or sign in to your Universal Credit account on the government website. Submit the claim to start it.",
+            "No bank account, email or access to a phone? You can ask at a Jobcentre. If you cannot apply online, the government guide gives the phone route."
+          ],
+          "links": [
+            {
+              "label": "Start Universal Credit online",
+              "url": "https://www.universal-credit.service.gov.uk/start"
+            },
+            {
+              "label": "GOV.UK: what to have ready",
+              "url": "https://www.gov.uk/universal-credit/how-to-claim"
+            },
+            {
+              "label": "Citizens Advice: Help to Claim",
+              "url": "https://www.citizensadvice.org.uk/benefits/universal-credit/claiming/helptoclaim/"
+            }
+          ]
+        },
+        {
+          "title": "Start or finish a PIP claim",
+          "steps": [
+            "Starting a claim? The postcode checker tells you whether you can apply fully online. GOV.UK also explains how to start by phone or post.",
+            "Already started online? Sign in to your PIP account. If DWP sent a personal link or paper form asking how your disability affects you, use that instead. Citizens Advice has help for each question."
+          ],
+          "links": [
+            {
+              "label": "Check if I can start PIP online",
+              "url": "https://www.apply-for-pip.dwp.gov.uk/eligibility"
+            },
+            {
+              "label": "Sign in to an existing online PIP claim",
+              "url": "https://www.apply-for-pip.dwp.gov.uk/verify"
+            },
+            {
+              "label": "GOV.UK: all ways to claim PIP",
+              "url": "https://www.gov.uk/pip/how-to-claim"
+            },
+            {
+              "label": "Citizens Advice: help with each PIP question",
+              "url": "https://www.citizensadvice.org.uk/benefits/sick-or-disabled-people-and-carers/pip/help-with-your-claim/fill-in-form-pip/"
+            }
+          ]
+        },
+        {
+          "title": "Speak to a benefits adviser",
+          "steps": [
+            "For a new Universal Credit claim, contact Help to Claim by phone or chat.",
+            "For PIP, another benefit or advice about switching, use Find an Adviser to find a service near you."
+          ],
+          "links": [
+            {
+              "label": "Citizens Advice: Help to Claim",
+              "url": "https://www.citizensadvice.org.uk/benefits/universal-credit/claiming/helptoclaim/"
+            },
+            {
+              "label": "Turn2us: find a local adviser",
+              "url": "https://advicefinder.turn2us.org.uk/"
+            }
+          ]
+        }
+      ]
+    },
+    "bank-account": {
+      "title": "Open a bank account",
+      "question": "Which route fits your situation?",
+      "routes": [
+        {
+          "title": "No fixed address: ask a charity about HSBC",
+          "steps": [
+            "If you are experiencing homelessness or housing difficulties, ask your support charity whether it is part of Shelter’s Breaking the Cycle programme.",
+            "A caseworker from a participating organisation arranges the HSBC appointment. Agree where your card, PIN and letters can safely be sent. An ordinary branch visit does not start this scheme."
+          ],
+          "links": [
+            {
+              "label": "HSBC: how the no fixed address service works",
+              "url": "https://www.hsbc.co.uk/help/money-worries/no-fixed-address/"
+            },
+            {
+              "label": "Shelter: get help to open an account",
+              "url": "https://england.shelter.org.uk/housing_advice/homelessness/how_to_open_a_bank_account"
+            }
+          ]
+        },
+        {
+          "title": "No fixed address or standard ID: ask Barclays",
+          "steps": [
+            "Barclays lists its Basic Current Account as an option if you have no fixed address. Use its account page to arrange a branch or Barclays Local appointment.",
+            "Before travelling, explain which documents you have and ask what alternatives the bank will accept. The bank makes the decision."
+          ],
+          "links": [
+            {
+              "label": "Barclays: Basic Current Account and appointments",
+              "url": "https://www.barclays.co.uk/current-accounts/basic-account/"
+            },
+            {
+              "label": "Barclays: documents and alternatives",
+              "url": "https://www.barclays.co.uk/help/accounts/opening/what-id/"
+            }
+          ]
+        },
+        {
+          "title": "Temporary address: compare other accounts",
+          "steps": [
+            "If you are in a hostel or temporary accommodation, ask the bank if it accepts an occupancy agreement or a letter from the manager. If you are in a refuge, ask staff before sharing any address.",
+            "Lloyds: start a current account application. You cannot apply for its Basic Account directly; Lloyds may offer it after its checks. Ask about a branch appointment if applying online is difficult.",
+            "Nationwide: check the FlexBasic eligibility and documents on its account page, then follow its application options. Ask about acceptable proof before applying. These are ordinary accounts, with no guarantee that a particular address or document will be accepted."
+          ],
+          "links": [
+            {
+              "label": "Shelter: ways to prove a temporary address",
+              "url": "https://england.shelter.org.uk/housing_advice/homelessness/how_to_open_a_bank_account/proof_of_temporary_address"
+            },
+            {
+              "label": "Lloyds: Basic Account process",
+              "url": "https://www.lloydsbank.com/current-accounts/basic-account.html"
+            },
+            {
+              "label": "Nationwide: FlexBasic application",
+              "url": "https://www.nationwide.co.uk/current-accounts/flexbasic/"
+            }
+          ]
+        }
+      ]
+    },
+    "identification": {
+      "title": "Get ID",
+      "question": "What do you need the document for?",
+      "routes": [
+        {
+          "title": "Everyday photo ID or proof of age",
+          "steps": [
+            "Ask the organisation what it accepts before paying. CitizenCard is a UK photo ID and proof-of-age card. It does not prove a right to work or replace a passport for international travel.",
+            "Apply with a photo and choose a verification route. If you have no accepted photo ID or eVisa, check whether a professional can confirm your details from records or verify a document."
+          ],
+          "links": [
+            {
+              "label": "CitizenCard: apply and check the fee",
+              "url": "https://www.citizencard.com/apply-for-a-uk-id-card-online"
+            },
+            {
+              "label": "CitizenCard: check who can be a referee",
+              "url": "https://support.citizencard.com/kb/articles/who-can-be-a-referee"
+            }
+          ]
+        },
+        {
+          "title": "Get a provisional driving licence",
+          "steps": [
+            "Use DVLA’s guide to check the age, eyesight and permission-to-live requirements first.",
+            "Check the fee and accepted identity documents, then choose the online or postal route. A licence is not proof of a right to work."
+          ],
+          "links": [
+            {
+              "label": "DVLA: first provisional licence",
+              "url": "https://www.gov.uk/apply-first-provisional-driving-licence"
+            },
+            {
+              "label": "DVLA: accepted identity documents",
+              "url": "https://www.gov.uk/id-for-driving-licence"
+            }
+          ]
+        },
+        {
+          "title": "Replace a birth certificate or get a passport",
+          "steps": [
+            "For a birth registered in England or Wales, order an official copy through the General Register Office. The guide links to other registration services. A birth certificate is not photo ID.",
+            "For a first adult British passport, check who can apply and which documents you need before paying."
+          ],
+          "links": [
+            {
+              "label": "Order a copy of a birth certificate",
+              "url": "https://www.gov.uk/order-copy-birth-death-marriage-certificate"
+            },
+            {
+              "label": "Apply for a first adult British passport",
+              "url": "https://www.gov.uk/apply-first-adult-passport"
+            }
+          ]
+        }
+      ]
+    },
+    "legal-advice": {
+      "title": "Free legal advice",
+      "question": "What kind of legal help do you need?",
+      "routes": [
+        {
+          "title": "Find a free legal advice clinic",
+          "steps": [
+            "Use LawWorks to search by town or postcode and area of law. Read the clinic’s entry for its opening times, topics and booking instructions.",
+            "A first advice appointment does not automatically include someone representing you in court. Tell the clinic about any deadline when you contact it."
+          ],
+          "links": [
+            {
+              "label": "LawWorks: find a free legal advice clinic",
+              "url": "https://www.lawworks.org.uk/find-legal-advice/individuals/find-legal-advice-clinic"
+            },
+            {
+              "label": "Law Centres Network: get local help",
+              "url": "https://www.lawcentres.org.uk/get-help"
+            }
+          ]
+        },
+        {
+          "title": "Check if legal aid could pay",
+          "steps": [
+            "Use the government checker to see if your issue and circumstances may qualify. Follow its advice about finding a legal adviser.",
+            "For civil legal aid, an adviser applies for you. If you have court papers or a deadline, contact an adviser promptly."
+          ],
+          "links": [
+            {
+              "label": "GOV.UK: check legal aid",
+              "url": "https://www.gov.uk/legal-aid/check-legal-aid"
+            }
+          ]
+        },
+        {
+          "title": "Ask about a volunteer barrister",
+          "steps": [
+            "Advocate considers applications in England and Wales for help from a volunteer barrister. Read its criteria and gather the case papers it asks for.",
+            "It usually needs at least three weeks after receiving the complete application. Help is not guaranteed. If a deadline is close, do not wait for Advocate before seeking other legal help."
+          ],
+          "links": [
+            {
+              "label": "Advocate: check the process and apply",
+              "url": "https://weareadvocate.org.uk/apply-for-help/how-our-service-works.html"
+            },
+            {
+              "label": "Find a legal adviser",
+              "url": "https://www.gov.uk/find-legal-advice/find-legal-adviser"
+            }
+          ]
+        }
+      ]
+    },
+    "starting-work": {
+      "title": "Get ready for work",
+      "question": "Where are you with work?",
+      "routes": [
+        {
+          "title": "I’m applying for jobs",
+          "steps": [
+            "Start with one job advert. Match your skills and experience to what it asks for; volunteering, caring or learning can give you examples.",
+            "Use the National Careers Service guide to make or update your CV. Only share documents with the employer through a trusted route."
+          ],
+          "links": [
+            {
+              "label": "National Careers Service: build a CV",
+              "url": "https://nationalcareers.service.gov.uk/careers-advice/cv-sections"
+            }
+          ]
+        },
+        {
+          "title": "I need to prove my right to work",
+          "steps": [
+            "British or Irish citizen? Check the passport and document options. For example, a UK birth certificate can be used with an official document showing your name and National Insurance number.",
+            "For other nationalities, GOV.UK explains when a share code or eligible immigration documents can be used. An ordinary photo ID card alone is not enough."
+          ],
+          "links": [
+            {
+              "label": "GOV.UK: choose my right-to-work route",
+              "url": "https://www.gov.uk/prove-right-to-work"
+            },
+            {
+              "label": "Get a right-to-work share code",
+              "url": "https://www.gov.uk/prove-right-to-work/get-a-share-code-online"
+            }
+          ]
+        },
+        {
+          "title": "I’m starting a job or need support",
+          "steps": [
+            "Give your employer your P45 if you have one. If you do not, use HMRC’s starter checklist so payroll can work out your tax code.",
+            "You can start work before receiving a National Insurance number if you can prove your right to work. If a health condition or disability affects work, check Access to Work for possible support."
+          ],
+          "links": [
+            {
+              "label": "HMRC: starter checklist",
+              "url": "https://www.gov.uk/guidance/starter-checklist-for-paye"
+            },
+            {
+              "label": "Check or apply for a National Insurance number",
+              "url": "https://www.gov.uk/apply-national-insurance-number"
+            },
+            {
+              "label": "GOV.UK: Access to Work",
+              "url": "https://www.gov.uk/access-to-work"
+            }
+          ]
+        }
+      ]
+    },
+    "courses": {
+      "title": "Find a course",
+      "question": "How would you like to learn?",
+      "routes": [
+        {
+          "title": "Try free learning at home",
+          "steps": [
+            "OpenLearn from The Open University has free short courses. “Succeed in the workplace” helps you explore your skills and plan a next step.",
+            "You can browse the free course materials before deciding whether to study further. OpenLearn short courses are different from enrolling on a degree."
+          ],
+          "links": [
+            {
+              "label": "OpenLearn: Succeed in the workplace",
+              "url": "https://www.open.edu/openlearn/education-development/succeed-the-workplace"
+            },
+            {
+              "label": "Browse free OpenLearn courses",
+              "url": "https://www.open.edu/openlearn/free-courses"
+            }
+          ]
+        },
+        {
+          "title": "Explore a funded qualification",
+          "steps": [
+            "Learning Curve Group offers flexible online courses. Choose a subject and check the entry and funding rules for that course.",
+            "Free study depends on eligibility. Before enrolling, ask about costs, time each week and what happens if you need to stop."
+          ],
+          "links": [
+            {
+              "label": "Learning Curve Group: flexible courses",
+              "url": "https://www.learningcurvegroup.co.uk/flexible-learning/"
+            },
+            {
+              "label": "GOV.UK: free courses for jobs",
+              "url": "https://www.gov.uk/guidance/free-courses-for-jobs"
+            }
+          ]
+        },
+        {
+          "title": "Find a course near me",
+          "steps": [
+            "Search the National Careers Service by town or postcode. Try a skill such as “digital skills”, “English” or “customer service”.",
+            "Choose online or classroom learning, then check dates, fees, accessibility and how to enrol with the course provider."
+          ],
+          "links": [
+            {
+              "label": "National Careers Service: find a course",
+              "url": "https://nationalcareers.service.gov.uk/find-a-course"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

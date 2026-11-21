@@ -1,4 +1,5 @@
 import fs from 'node:fs/promises';
+import {buildPracticalGuides} from './render-practical-guides.mjs';
 import path from 'node:path';
 import {execFileSync} from 'node:child_process';
 import {build} from 'esbuild';
@@ -38,6 +39,7 @@ fill('div','crisis-guide-content',crisisContent);
 template=template.replace('</head>','<style>'+await read('site/crisis-help.css')+'</style></head>');
 template=template.replace('</body>','<script>'+await read('site/crisis-help.js')+'</script></body>');
 
+template=await buildPracticalGuides({root,out,template});
 await fs.writeFile(path.join(out,'index.html'),template);
 await fs.writeFile(path.join(out,'_routes.json'),JSON.stringify({version:1,include:['/api/*'],exclude:[]}));
 await fs.writeFile(path.join(out,'build-info.json'),JSON.stringify({release,commit,resources:directory.resources.length}));
