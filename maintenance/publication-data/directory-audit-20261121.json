@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "kind": "directory_audit_corrections",
+  "sourceDay": "2026-11-21",
+  "applied": [
+    {
+      "id": "westminster-london-central-mosque",
+      "field": "sourceUrl",
+      "was": "https://www.iccuk.org/page2.php?page=contact&section=contact",
+      "now": "https://www.iccuk.org/contact-us",
+      "source": "https://www.iccuk.org/contact-us",
+      "evidence": "The directory source returned HTTP 404. The live provider homepage links Contact Us to the new address. That page returned 200 and names the London Central Mosque Trust and Islamic Cultural Centre, gives its Park Road address and lists general enquiries, education and visits, including the tour booking link.",
+      "limit": "The resource homepage is unchanged. This does not establish individual activity capacity, exact tour fees or eligibility; no change to those claims is proposed.",
+      "serviceDateUpdated": false
+    },
+    {
+      "id": "harrow-discovered-5b9ab492f902",
+      "field": "url",
+      "was": "https://www.sangamcentre.org.uk/",
+      "now": "https://sangamfoundation.org.uk/",
+      "source": "https://sangamfoundation.org.uk/",
+      "evidence": "The existing provider URL redirected to this address; the response identified Sangam Centre, its Edgware address and the same general contact phone found in the listing. The organisation's site describes activities, grants and community support.",
+      "limit": "The NHS profile returned 404 in the live link audit. Indexed NHS and Barnet Council text mentions advice, but the Council page was not readable, and the provider homepage does not confirm the current legal advice offer, catchment, access or cost. No replacement evidence source established. Do not refresh the service's check date, assert closure or use the organisation homepage as a programme-specific source.",
+      "serviceDateUpdated": false
+    },
+    {
+      "id": "westminster-cove",
+      "fields": [
+        "access",
+        "check",
+        "phone",
+        "url",
+        "sourceUrl",
+        "sourceOwner"
+      ],
+      "source": "https://www.hestia.org/faqs/kensington-chelsea-and-westminster-cove",
+      "alsoRead": "https://www.cnwl.nhs.uk/services/coves",
+      "evidence": "The provider gives an explicit temporary limitation on phone contact and confirms visits and email remain possible. Removed the direct call action; no replacement number is proposed.",
+      "serviceDateUpdated": true
+    },
+    {
+      "id": "kensington-chelsea-cove",
+      "fields": [
+        "access",
+        "check",
+        "phone",
+        "url",
+        "sourceUrl",
+        "sourceOwner"
+      ],
+      "source": "https://www.hestia.org/faqs/kensington-chelsea-and-westminster-cove",
+      "alsoRead": "https://www.cnwl.nhs.uk/services/coves",
+      "evidence": "The provider gives an explicit temporary limitation on phone contact and confirms visits and email remain possible. Removed the direct call action; no replacement number is proposed.",
+      "serviceDateUpdated": true
+    }
+  ],
+  "held": [
+    {
+      "id": "harrow-discovered-5b9ab492f902",
+      "issue": "The NHS programme reference returned 404; the provider’s new homepage does not establish that free legal advice is currently accessible. Retain the existing service-check date."
+    },
+    {
+      "id": "milton-keynes-moon-stars-yoga",
+      "issue": "The class link returned 404. No replacement route to the Stony Stratford class was confirmed; keep the existing service-check date. A different class venue does not establish a move or closure."
+    }
+  ]
+}

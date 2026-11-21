@@ -5605,10 +5605,10 @@
       "category": "Urgent help",
       "description": "A calm community space for immediate emotional support when you are distressed.",
       "who": "Adults 18+ in the local catchment.",
-      "access": "Call or visit 57 Goldney Road, W9 2AR.",
-      "check": "Open access daily 2–10pm. Call about access needs; not for people currently under the influence of alcohol or drugs.",
-      "url": "https://www.cnwl.nhs.uk/services/coves",
-      "phone": "07827 437081",
+      "access": "Visit the Cove at North Paddington Food Bank, 57 Goldney Road, W9 2AR, or use the email link in Hestia’s service update. The Cove cannot currently take phone calls.",
+      "check": "Hestia says support is limited. Check its update before visiting. The listed hours are 2pm–10pm daily. CNWL says the service cannot support someone currently under the influence of alcohol or drugs.",
+      "url": "https://www.hestia.org/faqs/kensington-chelsea-and-westminster-cove",
+      "phone": "",
       "picture": "phone",
       "tags": [
         "crisis",
@@ -5616,12 +5616,29 @@
         "peer support",
         "drop-in"
       ],
-      "lastChecked": "2026-09-18",
-      "nextReview": "2026-10-16",
-      "sourceUrl": "https://www.cnwl.nhs.uk/services/coves",
-      "sourceOwner": "CNWL NHS Foundation Trust",
-      "verificationStatus": "Provider website checked",
-      "audiences": []
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "sourceUrl": "https://www.hestia.org/faqs/kensington-chelsea-and-westminster-cove",
+      "sourceOwner": "Hestia and CNWL NHS Foundation Trust",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "audiences": [],
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "access",
+          "check",
+          "phone",
+          "url"
+        ],
+        "notes": "Hestia’s specific service notice takes precedence over older telephone instructions. It lists in-person visits and an email link. CNWL publishes the access restriction. Current availability was not confirmed.",
+        "evidenceUrls": [
+          "https://www.hestia.org/faqs/kensington-chelsea-and-westminster-cove",
+          "https://www.cnwl.nhs.uk/services/coves"
+        ]
+      }
     },
     {
       "id": "kensington-chelsea-all-ability-cycling",
@@ -6994,10 +7011,10 @@
       "category": "Urgent help",
       "description": "A calm community space for immediate emotional support when you are distressed.",
       "who": "Adults 18+ in the local catchment.",
-      "access": "Call or visit 57 Goldney Road, W9 2AR.",
-      "check": "Open access daily 2–10pm. Call about access needs; not for people currently under the influence of alcohol or drugs.",
-      "url": "https://www.cnwl.nhs.uk/services/coves",
-      "phone": "07827 437081",
+      "access": "Visit the Cove at North Paddington Food Bank, 57 Goldney Road, W9 2AR, or use the email link in Hestia’s service update. The Cove cannot currently take phone calls.",
+      "check": "Hestia says support is limited. Check its update before visiting. The listed hours are 2pm–10pm daily. CNWL says the service cannot support someone currently under the influence of alcohol or drugs.",
+      "url": "https://www.hestia.org/faqs/kensington-chelsea-and-westminster-cove",
+      "phone": "",
       "picture": "phone",
       "tags": [
         "crisis",
@@ -7005,12 +7022,29 @@
         "peer support",
         "drop-in"
       ],
-      "lastChecked": "2026-09-18",
-      "nextReview": "2026-10-16",
-      "sourceUrl": "https://www.cnwl.nhs.uk/services/coves",
-      "sourceOwner": "CNWL NHS Foundation Trust",
-      "verificationStatus": "Provider website checked",
-      "audiences": []
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "sourceUrl": "https://www.hestia.org/faqs/kensington-chelsea-and-westminster-cove",
+      "sourceOwner": "Hestia and CNWL NHS Foundation Trust",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "audiences": [],
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "access",
+          "check",
+          "phone",
+          "url"
+        ],
+        "notes": "Hestia’s specific service notice takes precedence over older telephone instructions. It lists in-person visits and an email link. CNWL publishes the access restriction. Current availability was not confirmed.",
+        "evidenceUrls": [
+          "https://www.hestia.org/faqs/kensington-chelsea-and-westminster-cove",
+          "https://www.cnwl.nhs.uk/services/coves"
+        ]
+      }
     },
     {
       "id": "westminster-ldn-hubs",
@@ -7092,7 +7126,7 @@
       ],
       "lastChecked": "2026-10-25",
       "nextReview": "2026-11-22",
-      "sourceUrl": "https://www.iccuk.org/page2.php?page=contact&section=contact",
+      "sourceUrl": "https://www.iccuk.org/contact-us",
       "sourceOwner": "London Central Mosque and Islamic Cultural Centre",
       "verificationStatus": "Primary provider indexed programme and contact pages checked; full-page retrieval returned 502"
     },
@@ -26156,7 +26190,7 @@
       "access": "Phone 020 8952 7062 to ask about the advice you need and how to access it.",
       "check": "The NHS profile lists legal advice as free. Confirm current arrangements and whether the service can help with your issue.",
       "coverage": "Barnet, Brent and Harrow; this listing provides the Harrow access route.",
-      "url": "https://www.sangamcentre.org.uk/",
+      "url": "https://sangamfoundation.org.uk/",
       "sourceUrl": "https://www.nhs.uk/services/service-directory/sangam-centre/N10498810",
       "sourceOwner": "NHS service directory — Sangam Centre",
       "phone": "",
