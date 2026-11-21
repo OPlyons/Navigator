@@ -279,7 +279,7 @@ body .brand-header .brand-inner{display:flex;align-items:center;min-height:64px}
    results, reading settings and open filters are always free to grow. */
 @media screen {
  #support #navigator-status:empty{margin:0}
- #support #support-start{min-height:0;margin:.4rem 0 0}
+ #support #support-start{min-height:0;margin:0}
  #support #support-start[hidden]{display:none}
  #support #browse-all-areas{min-height:36px;text-decoration:underline;text-underline-offset:.17em;padding:.2rem 0}
 }
@@ -341,7 +341,7 @@ body .brand-header .brand-inner{display:flex;align-items:center;min-height:64px}
  html:not(.large) #support .area-map-panel{margin-top:.3rem}
  html:not(.large) #support .other-areas{margin-bottom:.25rem}
  html:not(.large) #support .pg-hub{
-  display:grid;grid-template-columns:minmax(6rem,.42fr) minmax(0,3fr);align-items:center;
+  display:grid;grid-template-columns:8.5rem minmax(0,1fr);align-items:center;
   gap:.8rem;margin:.55rem 0 .3rem;padding:.5rem .7rem;border-radius:14px;
  }
  html:not(.large) #support .pg-header{display:block}
@@ -353,7 +353,6 @@ body .brand-header .brand-inner{display:flex;align-items:center;min-height:64px}
  html:not(.large) #support .pg-tile{min-height:44px;height:100%;font-size:.77rem;gap:.35rem;padding:.25rem .4rem}
  html:not(.large) #support .pg-icon{width:1.5rem;height:1.5rem;flex-basis:1.5rem}
  html:not(.large) #support .pg-icon svg{width:1rem;height:1rem}
- html:not(.large) #support .directory-bottom{margin:0;padding:.15rem 0 0;align-items:center;border:0}
  html:not(.large) body:has(#support.active) .navigator-foot{
   display:flex;align-items:center;justify-content:space-between;gap:.5rem 1rem;flex-wrap:wrap;
   padding:.15rem max(var(--desk-edge),calc((100% - var(--desk-width))/2 + var(--desk-edge)));
@@ -374,4 +373,13 @@ body .brand-header .brand-inner{display:flex;align-items:center;min-height:64px}
  html:not(.large) #support .support-heading{margin-bottom:.4rem}
  html:not(.large) #support .activity-choice{min-height:55px}
  html:not(.large) #support .dashboard-panel,html:not(.large) #support .wizard-panel{padding:12px}
+}
+@media screen {
+ #support .area-map-panel .map-credit{padding:0;border:0;margin:0;background:transparent}
+ #support .area-map-panel .map-credit>summary{font-size:.72rem;line-height:1.4;padding:.2rem 0;min-height:32px;color:#365f52}
+ #support .area-map-panel .map-credit p{font-size:.78rem;line-height:1.5;margin:.3rem 0}
+}
+@media screen and (min-width:1150px){
+ html:not(.large) #support .support-intro-links #browse-all-areas{margin:0;font-size:.72rem}
+ html:not(.large) #support .wizard-actions{grid-template-columns:minmax(0,1fr) minmax(0,1.12fr)}
 }

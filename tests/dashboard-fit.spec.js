@@ -8,7 +8,7 @@ const controls = [
   '#after-hospital-toggle', '#navigator-warning', '#service-search', '#navigator-submit',
   '#navigator-local', '#area', '#borough-map', '#support-more-filters > summary',
   '#activity-choices > button', '[data-open-guide]', '#browse-all-areas',
-  '#reading-options > summary', '.directory-bottom .map-credit > summary',
+  '#reading-options > summary', '#area-map-panel .map-credit > summary',
   '#print-page', '.footer-workforce-name', 'footer nav a'
 ];
 
