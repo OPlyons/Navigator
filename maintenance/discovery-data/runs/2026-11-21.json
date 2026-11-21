@@ -1,0 +1,231 @@
+{
+  "schemaVersion": 1,
+  "day": "2026-11-21",
+  "results": [
+    {
+      "key": "[\"ealing\",\"Legal advice and rights\"]",
+      "outcome": "completed",
+      "queries": [
+        "Ealing free legal advice rights service charity"
+      ],
+      "summary": "The bounded search found Ealing Law Centre and Ealing Advice Service already represented in other directory categories. Ealing Community Advice Programme is a distinct appointment-based legal service and was checked against current NHS and provider pages.",
+      "candidates": [
+        {
+          "resource": {
+            "name": "Ealing Community Advice Programme — free legal advice",
+            "directoryId": "ealing",
+            "category": "Legal advice and rights",
+            "description": "Free legal advice and assistance on employment, discrimination and human rights, housing, family, consumer and immigration law.",
+            "who": "Members of the public in Ealing seeking initial legal advice in one of the programme's areas.",
+            "access": "Use the West London Equality Centre website contact route to request an appointment. The service is appointment only.",
+            "check": "Ask whether the programme can help with your issue and confirm the current appointment arrangements before relying on support.",
+            "url": "https://www.wlec.net/",
+            "sourceUrl": "https://www.wlec.net/",
+            "sourceOwner": "West London Equality Centre",
+            "coverage": "Ealing; the provider also describes wider West London work."
+          },
+          "checkedFields": [
+            "name",
+            "description",
+            "who",
+            "access",
+            "check",
+            "url",
+            "coverage"
+          ],
+          "sources": [
+            {
+              "url": "https://www.wlec.net/",
+              "ownerType": "provider",
+              "retrieval": "page",
+              "note": "The current provider page confirms free legal advice through the Community Advice Programme, its subject areas, Ealing location and website contact route."
+            },
+            {
+              "url": "https://www.nhs.uk/services/service-directory/ealing-community-advice-programme/N10502093",
+              "ownerType": "nhs",
+              "retrieval": "page",
+              "note": "The NHS service profile confirms Ealing coverage, appointment-only self-referral and the programme's legal advice areas."
+            }
+          ],
+          "evidence": "Current provider and NHS pages establish a free, appointment-based legal advice programme in Ealing with a public website route to request help.",
+          "limitations": "The two sources publish different telephone numbers, so none is reproduced. Current capacity, waiting time, accessibility and case eligibility were not established."
+        }
+      ]
+    },
+    {
+      "key": "[\"ealing\",\"Carers and family\"]",
+      "outcome": "completed",
+      "queries": [
+        "Ealing carers family support local service"
+      ],
+      "summary": "Ealing Carers already represents practical and emotional support for adult, young and parent carers across the borough. Council results largely repeated that service. No distinct addition was advanced from this bounded search.",
+      "candidates": []
+    },
+    {
+      "key": "[\"ealing\",\"Food and essentials\"]",
+      "outcome": "completed",
+      "queries": [
+        "Ealing community food essentials free pantry support"
+      ],
+      "summary": "The search returned the existing Ealing Foodbank, existing council hardship support and a time-expired one-off pantry notice. No separate current service with sufficiently clear ongoing access evidence was proposed.",
+      "candidates": []
+    },
+    {
+      "key": "[\"barnet\",\"Faith and belief communities\"]",
+      "outcome": "completed",
+      "queries": [
+        "Barnet faith community groups welcoming activities council directory"
+      ],
+      "summary": "Barnet Multi Faith Forum was absent from the catalogue and history. Current provider and council pages establish an inclusive borough-wide forum, public access and contact route.",
+      "candidates": [
+        {
+          "resource": {
+            "name": "Barnet Multi Faith Forum",
+            "directoryId": "barnet",
+            "category": "Faith and belief communities",
+            "description": "An inclusive multi-faith forum connecting faith communities, supporting social action and celebrating religious and cultural diversity.",
+            "who": "People of any faith in Barnet, including potential new members interested in the forum's community work and events.",
+            "access": "Email info@barnetmultifaithforum.org or use the provider website contact and mailing-list routes to ask about taking part.",
+            "check": "Check the provider website for current activities and joining arrangements before attending an event.",
+            "url": "https://barnetmultifaithforum.org/",
+            "sourceUrl": "https://barnetmultifaithforum.org/",
+            "sourceOwner": "Barnet Multi Faith Forum",
+            "coverage": "London Borough of Barnet."
+          },
+          "checkedFields": [
+            "name",
+            "description",
+            "who",
+            "access",
+            "check",
+            "url",
+            "coverage"
+          ],
+          "sources": [
+            {
+              "url": "https://barnetmultifaithforum.org/",
+              "ownerType": "provider",
+              "retrieval": "page",
+              "note": "The current provider page describes an inclusive welcome, events, contact route and mailing list."
+            },
+            {
+              "url": "https://www.barnet.gov.uk/directories/hate-crime-reporting-centres/barnet-multi-faith-forum",
+              "ownerType": "council",
+              "retrieval": "page",
+              "note": "Barnet Council confirms support for all faiths across Barnet, public access, free access and the public email."
+            }
+          ],
+          "evidence": "Provider and council pages confirm a current, inclusive multi-faith organisation for Barnet with public contact and participation routes.",
+          "limitations": "No upcoming event was shown on the provider homepage. Accessibility for individual activities and current membership arrangements were not established."
+        }
+      ]
+    },
+    {
+      "key": "[\"barnet\",\"Learning, work and volunteering\"]",
+      "outcome": "completed",
+      "queries": [
+        "Barnet free adult learning volunteering employment community support"
+      ],
+      "summary": "The bounded search found current council and provider information for Volunteering Barnet. Its borough volunteer-matching and support route is distinct from the catalogue's individual GoodGym listing and broader national volunteering resources.",
+      "candidates": [
+        {
+          "resource": {
+            "name": "Volunteering Barnet — find a volunteer role",
+            "directoryId": "barnet",
+            "category": "Learning, work and volunteering",
+            "description": "A local volunteer opportunity finder with help registering, applying for roles and discussing accessibility or other questions.",
+            "who": "People looking for volunteering opportunities in and around Barnet.",
+            "access": "Register free on the opportunity database, then search by postcode and apply for suitable roles. Contact Volunteering Barnet if you need help.",
+            "check": "An email address is needed for online registration. Check each role's requirements, location, expenses and accessibility before applying.",
+            "url": "https://volunteeringbarnet.org.uk/find-a-role/",
+            "sourceUrl": "https://volunteeringbarnet.org.uk/find-a-role/",
+            "sourceOwner": "Volunteering Barnet",
+            "coverage": "Barnet; individual role locations and eligibility vary."
+          },
+          "checkedFields": [
+            "name",
+            "description",
+            "who",
+            "access",
+            "check",
+            "url",
+            "coverage"
+          ],
+          "sources": [
+            {
+              "url": "https://volunteeringbarnet.org.uk/find-a-role/",
+              "ownerType": "provider",
+              "retrieval": "page",
+              "note": "The provider page confirms free registration, postcode-based role search, application steps and help with accessibility questions."
+            },
+            {
+              "url": "https://www.barnet.gov.uk/community/get-involved-your-community/volunteering-barnet",
+              "ownerType": "council",
+              "retrieval": "official_indexed",
+              "note": "Barnet Council identifies Volunteering Barnet as the borough volunteer centre and describes application and one-to-one support."
+            }
+          ],
+          "evidence": "Current provider content and Barnet Council's official listing substantiate the borough role finder, free registration and support for people who need help getting involved.",
+          "limitations": "The sources do not guarantee suitable vacancies, expenses or accessibility; these depend on the individual opportunity."
+        }
+      ]
+    },
+    {
+      "key": "[\"barnet\",\"Legal advice and rights\"]",
+      "outcome": "completed",
+      "queries": [
+        "Barnet free legal advice rights clinic charity"
+      ],
+      "summary": "Citizens Advice Barnet is already represented. Middlesex University's current clinic is a separate supervised legal-advice service with an online appointment route and was absent from the catalogue and history.",
+      "candidates": [
+        {
+          "resource": {
+            "name": "Middlesex University Legal Advice Clinic",
+            "directoryId": "barnet",
+            "category": "Legal advice and rights",
+            "description": "Free legal advice from law students working under qualified solicitor supervision, covering contract, employment and family matters.",
+            "who": "Members of the local community, including Barnet residents, who need initial advice in the clinic's listed areas.",
+            "access": "Use the Book an appointment link on the clinic website to submit an enquiry for assessment.",
+            "check": "The clinic assesses requests before confirming whether it can help. It gives advice and next steps; specialist referral or signposting may be offered where needed.",
+            "url": "https://www.mdx.ac.uk/about-us/our-faculties/faculty-of-business-and-law/legal-advice-clinic/",
+            "sourceUrl": "https://www.mdx.ac.uk/about-us/our-faculties/faculty-of-business-and-law/legal-advice-clinic/",
+            "sourceOwner": "Middlesex University",
+            "coverage": "Barnet and the wider North London community; the clinic is on the Hendon campus."
+          },
+          "checkedFields": [
+            "name",
+            "description",
+            "who",
+            "access",
+            "check",
+            "url",
+            "coverage"
+          ],
+          "sources": [
+            {
+              "url": "https://www.mdx.ac.uk/about-us/our-faculties/faculty-of-business-and-law/legal-advice-clinic/",
+              "ownerType": "provider",
+              "retrieval": "page",
+              "note": "The current clinic page confirms free supervised advice, the legal areas, online appointment route and service process."
+            },
+            {
+              "url": "https://www.mdx.ac.uk/news/2026/5/middlesex-university-law-clinic/",
+              "ownerType": "provider",
+              "retrieval": "page",
+              "note": "The university's May 2026 article confirms Barnet and wider North London coverage, Hendon location and clinic subjects."
+            }
+          ],
+          "evidence": "Two current university pages confirm a free supervised legal clinic in Hendon serving Barnet and wider North London, with a public online appointment route.",
+          "limitations": "Opening times, accessibility, waiting time and case capacity are not stated. An appointment request is not a guarantee that the clinic can assist."
+        }
+      ]
+    }
+  ],
+  "newCandidateIds": [
+    "discovery-f94c53fe33450c38ec84",
+    "discovery-6013c4a8c6223ef43540",
+    "discovery-cc71c65f67545aecc71a",
+    "discovery-b78370a9b826b9c0e923"
+  ],
+  "skippedCandidates": []
+}
