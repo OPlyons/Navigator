@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "kind": "new_resources",
+  "sourceDay": "2026-11-21",
+  "applied": [
+    {
+      "candidateId": "discovery-f94c53fe33450c38ec84",
+      "resourceId": "ealing-discovered-67b573fba6fa",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "candidateId": "discovery-6013c4a8c6223ef43540",
+      "resourceId": "barnet-discovered-7cd490d269ab",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "candidateId": "discovery-cc71c65f67545aecc71a",
+      "resourceId": "barnet-discovered-591ab712c7e1",
+      "checkedOn": "2026-11-21"
+    },
+    {
+      "candidateId": "discovery-b78370a9b826b9c0e923",
+      "resourceId": "barnet-discovered-f4ca582b77fe",
+      "checkedOn": "2026-11-21"
+    }
+  ],
+  "skipped": [
+    {
+      "id": "discovery-2a46dce5accc21cf591d",
+      "reason": "Refresh older source evidence before publishing"
+    },
+    {
+      "id": "discovery-3cd4c33c2a62aad0a83f",
+      "reason": "Refresh older source evidence before publishing"
+    },
+    {
+      "id": "discovery-1574ab6c3b10835ef47b",
+      "reason": "Refresh older source evidence before publishing"
+    }
+  ]
+}
