@@ -46,6 +46,31 @@
       "description": "Support in Ealing. You can explore these services independently. Check each service’s access requirements."
     },
     {
+      "id": "barnet",
+      "name": "Barnet",
+      "description": "Support in Barnet. Start with these local services and contact them directly to ask what is available."
+    },
+    {
+      "id": "islington",
+      "name": "Islington",
+      "description": "Support in Islington. Start with these local services and contact them directly to ask what is available."
+    },
+    {
+      "id": "hammersmith-fulham",
+      "name": "Hammersmith and Fulham",
+      "description": "Support in Hammersmith and Fulham. Start with these local services and contact them directly to ask what is available."
+    },
+    {
+      "id": "hounslow",
+      "name": "Hounslow",
+      "description": "Support in Hounslow. Start with these local services and contact them directly to ask what is available."
+    },
+    {
+      "id": "richmond-upon-thames",
+      "name": "Richmond upon Thames",
+      "description": "Support in Richmond upon Thames. Start with these local services and contact them directly to ask what is available."
+    },
+    {
       "id": "wider-support",
       "name": "Wider support",
       "description": "England-wide or UK-wide support, plus regional services. Check the area, age and access details for each service."
@@ -26446,6 +26471,789 @@
         "evidenceUrls": [
           "https://www.newcomersmk.org.uk/",
           "https://www.milton-keynes.gov.uk/libraries/coin/newcomers-mk"
+        ]
+      }
+    },
+    {
+      "id": "barnet-enabling-connections",
+      "directoryId": "barnet",
+      "name": "Age UK Barnet — Enabling Connections",
+      "category": "Social connection and activities",
+      "description": "A volunteer helps you reconnect with other people, including after a hospital stay. You might practise getting out, find an activity or get help to stay in touch online.",
+      "who": "Barnet residents aged 55 or over who feel isolated or are at risk of loneliness, want to reconnect, can consent and work with a volunteer, and manage their own personal care.",
+      "access": "Call Age UK Barnet or email enablingconnections@ageukbarnet.org.uk to discuss whether it suits you.",
+      "check": "Free, for up to six months. Volunteers do not provide personal care or clinical support.",
+      "coverage": "London Borough of Barnet.",
+      "url": "https://www.ageuk.org.uk/barnet/our-services/befriending-94c1bc3e-a6fa-eb11-ba5e-00155d585af3/",
+      "sourceOwner": "Age UK Barnet",
+      "phone": "020 8150 0967",
+      "picture": "people",
+      "tags": [
+        "befriending",
+        "loneliness",
+        "after hospital",
+        "volunteer",
+        "older people",
+        "stay connected"
+      ],
+      "audiences": [
+        "older"
+      ],
+      "sourceUrl": "https://www.ageuk.org.uk/barnet/our-services/befriending-94c1bc3e-a6fa-eb11-ba5e-00155d585af3/",
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "check",
+          "coverage",
+          "url",
+          "phone"
+        ],
+        "notes": "The provider distinguishes this programme from its older befriending schemes, which are not accepting new referrals. No current volunteer match or waiting time was confirmed.",
+        "evidenceUrls": [
+          "https://www.ageuk.org.uk/barnet/our-services/befriending-94c1bc3e-a6fa-eb11-ba5e-00155d585af3/"
+        ]
+      }
+    },
+    {
+      "id": "barnet-citizens-advice",
+      "directoryId": "barnet",
+      "name": "Citizens Advice Barnet",
+      "category": "Money and benefits",
+      "description": "Free advice on benefits, debt, housing and problems at work.",
+      "who": "People who live, work or study in Barnet.",
+      "access": "Call the advice line, or use the email advice form yourself. The form cannot accept requests sent for someone else.",
+      "check": "In-person advice needs an appointment. The email service cannot deal with urgent deadlines.",
+      "coverage": "Barnet.",
+      "url": "https://barnetcab.org.uk/get-advice/",
+      "sourceOwner": "Citizens Advice Barnet",
+      "phone": "0808 250 5708",
+      "picture": "choice",
+      "tags": [
+        "money worries",
+        "bills",
+        "rent",
+        "benefits",
+        "debt",
+        "CAB"
+      ],
+      "audiences": [],
+      "sourceUrl": "https://barnetcab.org.uk/get-advice/",
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "check",
+          "coverage",
+          "url",
+          "phone"
+        ],
+        "notes": "The provider publishes separate routes for individual email enquiries and professional referrals. No response time or appointment was confirmed.",
+        "evidenceUrls": [
+          "https://barnetcab.org.uk/get-advice/",
+          "https://barnetcab.org.uk/get-advice/email-us/",
+          "https://barnetcab.org.uk/get-advice/call-us/"
+        ]
+      }
+    },
+    {
+      "id": "barnet-recovery-college",
+      "directoryId": "barnet",
+      "name": "Barnet Recovery College",
+      "category": "Mental health and wellbeing",
+      "description": "Learn with others through courses such as gardening, art and ways to manage stress. Mind in Enfield and Barnet runs the college with Barnet and Southgate College.",
+      "who": "Barnet residents interested in a wellbeing course.",
+      "access": "Email wellbeingactivities@mindeb.org.uk yourself. Mind will ask about your goals before you enrol.",
+      "check": "Check which courses are running, whether there is a fee and when the next one starts.",
+      "coverage": "Barnet.",
+      "url": "https://www.barnetwellbeing.org.uk/the-recovery-college",
+      "sourceOwner": "Barnet Wellbeing Service",
+      "phone": "",
+      "picture": "book",
+      "tags": [
+        "recovery college",
+        "wellbeing courses",
+        "gardening",
+        "art",
+        "mental health",
+        "adult learning"
+      ],
+      "audiences": [],
+      "sourceUrl": "https://www.barnetwellbeing.org.uk/the-recovery-college",
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "coverage",
+          "url"
+        ],
+        "notes": "The programme page confirms direct self-referral and an assessment. Course fees, availability, and additional entry requirements were not established.",
+        "evidenceUrls": [
+          "https://www.barnetwellbeing.org.uk/the-recovery-college"
+        ]
+      }
+    },
+    {
+      "id": "barnet-adult-carers",
+      "directoryId": "barnet",
+      "name": "Barnet Carers — Adult Carers Team",
+      "category": "Carers and family",
+      "description": "A coordinator can help you work out what support you need as a carer. You can ask about a carer’s assessment, individual support and local carers’ events.",
+      "who": "Adults giving unpaid support to a relative, neighbour or friend in Barnet.",
+      "access": "Call the team or email adultcarers@barnetcarers.org. You can also book a phone assessment through the service page.",
+      "check": "Arrange an appointment before visiting the office.",
+      "coverage": "Barnet.",
+      "url": "https://barnetcarers.org/adult-carers/",
+      "sourceOwner": "Barnet Carers",
+      "phone": "020 3995 1909",
+      "picture": "people",
+      "tags": [
+        "unpaid carer",
+        "family",
+        "carer assessment",
+        "carers group",
+        "support plan"
+      ],
+      "audiences": [
+        "carers"
+      ],
+      "sourceUrl": "https://barnetcarers.org/adult-carers/",
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "check",
+          "coverage",
+          "url",
+          "phone"
+        ],
+        "notes": "The team lists contact and assessment routes. No event place, cost or waiting time was established.",
+        "evidenceUrls": [
+          "https://barnetcarers.org/adult-carers/",
+          "https://barnetcarers.org/contact-us/"
+        ]
+      }
+    },
+    {
+      "id": "islington-access-hubs",
+      "directoryId": "islington",
+      "name": "Access Islington Hubs",
+      "category": "Food and essentials",
+      "description": "Speak to a council adviser in person about food bank vouchers, money worries, housing or finding local wellbeing support.",
+      "who": "Islington residents looking for practical help.",
+      "access": "Drop in at the North, Central or South Hub. To book instead, call or email HereToHelp@islington.gov.uk.",
+      "check": "The council lists all three locations and weekday opening times. Ask the adviser about your situation; food or housing support is not guaranteed.",
+      "coverage": "Three hubs in Islington: Manor Gardens, Upper Street and Finsbury Library.",
+      "url": "https://www.islington.gov.uk/contact-us/our-offices/access-islington-hubs",
+      "sourceOwner": "Islington Council",
+      "phone": "020 7527 8222",
+      "picture": "community",
+      "tags": [
+        "foodbank",
+        "food bank voucher",
+        "housing",
+        "debt",
+        "money worries",
+        "drop in"
+      ],
+      "audiences": [],
+      "sourceUrl": "https://www.islington.gov.uk/contact-us/our-offices/access-islington-hubs",
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "check",
+          "coverage",
+          "url",
+          "phone"
+        ],
+        "notes": "The council confirms drop-in and appointment access. Individual entitlement, food availability and accommodation are not confirmed.",
+        "evidenceUrls": [
+          "https://www.islington.gov.uk/contact-us/our-offices/access-islington-hubs"
+        ]
+      }
+    },
+    {
+      "id": "islington-mind-recovery-pathway",
+      "directoryId": "islington",
+      "name": "Islington Mind — Mental Health Recovery Pathway",
+      "category": "Mental health and wellbeing",
+      "description": "Meet peers at a day centre, try creative groups or ask for individual help with practical and emotional concerns.",
+      "who": "People aged 18 or over who live in Islington or have an Islington GP and are struggling with their mental health. A diagnosis is not required.",
+      "access": "Use the form on the programme page to refer yourself.",
+      "check": "Check the timetable before going; some sessions at the Isledon Road centre need booking.",
+      "coverage": "Islington residents or people registered with an Islington GP.",
+      "url": "https://www.islingtonmind.org.uk/mental-health-recovery-pathway/",
+      "sourceOwner": "Islington Mind",
+      "phone": "",
+      "picture": "talk",
+      "tags": [
+        "peer support",
+        "recovery",
+        "day centre",
+        "art",
+        "music",
+        "one to one"
+      ],
+      "audiences": [],
+      "sourceUrl": "https://www.islingtonmind.org.uk/mental-health-recovery-pathway/",
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "check",
+          "coverage",
+          "url"
+        ],
+        "notes": "The provider confirms self-referral, coverage and current activity information. Places, waiting times and individual activity costs have not been confirmed.",
+        "evidenceUrls": [
+          "https://www.islingtonmind.org.uk/mental-health-recovery-pathway/",
+          "https://www.islingtonmind.org.uk/mental-health-recovery-pathway/isledon-road/"
+        ]
+      }
+    },
+    {
+      "id": "islington-carers-hub",
+      "directoryId": "islington",
+      "name": "Islington Carers Hub",
+      "category": "Carers and family",
+      "description": "Advice on money, housing and wellbeing for unpaid carers, plus workshops and ways to meet other carers.",
+      "who": "Carers aged 18 or over who live or work in Islington, or who care for an adult living in Islington.",
+      "access": "Call, email info@islingtoncarershub.org or use the contact form to ask for support or register.",
+      "check": "Ask the hub about dates, places and any costs for the activity you want.",
+      "coverage": "Islington, including people who work in the borough or care for an adult resident.",
+      "url": "https://islingtoncarershub.org/contact-us/",
+      "sourceOwner": "Islington Carers Hub (Age UK Islington)",
+      "phone": "020 7281 3319",
+      "picture": "people",
+      "tags": [
+        "unpaid carer",
+        "carers group",
+        "short breaks",
+        "family",
+        "carer advice"
+      ],
+      "audiences": [
+        "carers"
+      ],
+      "sourceUrl": "https://islingtoncarershub.org/contact-us/",
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "coverage",
+          "url",
+          "phone"
+        ],
+        "notes": "Provider and council describe eligibility and direct contact. The council specifies an adult cared for under the non-resident route. Event costs and bookings were not established.",
+        "evidenceUrls": [
+          "https://islingtoncarershub.org/contact-us/",
+          "https://www.islington.gov.uk/social-care-and-health/carers/information-for-carers"
+        ]
+      }
+    },
+    {
+      "id": "islington-hand-in-hand-peer-travel",
+      "directoryId": "islington",
+      "name": "Hand in Hand — peer travel buddies",
+      "category": "Social connection and activities",
+      "description": "A volunteer with lived experience can accompany you to an appointment, the shops, an activity or on a local walk if getting out feels difficult.",
+      "who": "People experiencing mental health difficulties who live in Islington or have an Islington GP.",
+      "access": "Use the Hand in Hand request form yourself. If you are new to Islington Mind, the team will arrange a short assessment.",
+      "check": "Journeys take place on weekdays. Give at least a week’s notice if possible; the team cannot guarantee a buddy at short notice.",
+      "coverage": "Islington residents or people registered with an Islington GP.",
+      "url": "https://www.islingtonmind.org.uk/hand-in-hand-service/",
+      "sourceOwner": "Islington Mind",
+      "phone": "",
+      "picture": "people",
+      "tags": [
+        "peer support",
+        "travel buddy",
+        "getting to appointments",
+        "shopping",
+        "walking",
+        "confidence"
+      ],
+      "audiences": [],
+      "sourceUrl": "https://www.islingtonmind.org.uk/hand-in-hand-service/",
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "check",
+          "coverage",
+          "url"
+        ],
+        "notes": "The provider confirms that people can request a buddy for themselves; no match, travel costs or availability were confirmed.",
+        "evidenceUrls": [
+          "https://www.islingtonmind.org.uk/hand-in-hand-service/"
+        ]
+      }
+    },
+    {
+      "id": "hammersmith-fulham-citizens-advice",
+      "directoryId": "hammersmith-fulham",
+      "name": "Citizens Advice Hammersmith and Fulham",
+      "category": "Money and benefits",
+      "description": "Get advice on benefits, debt, housing, work and consumer problems.",
+      "who": "People who live, work or study in Hammersmith and Fulham.",
+      "access": "Call the Adviceline or send an enquiry using the link on the website.",
+      "check": "Advice is free. Check opening times before calling.",
+      "coverage": "Hammersmith and Fulham.",
+      "url": "https://cahf.org.uk/",
+      "sourceUrl": "https://cahf.org.uk/",
+      "sourceOwner": "Citizens Advice Hammersmith and Fulham",
+      "phone": "0808 278 7832",
+      "picture": "choice",
+      "tags": [
+        "benefits",
+        "debt",
+        "housing",
+        "work",
+        "bills"
+      ],
+      "audiences": [],
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "coverage",
+          "url",
+          "check",
+          "phone"
+        ],
+        "notes": "The local service states its coverage, advice topics, free advice and contact routes. Waiting times were not confirmed.",
+        "evidenceUrls": [
+          "https://cahf.org.uk/"
+        ]
+      }
+    },
+    {
+      "id": "hammersmith-fulham-nourish-hub",
+      "directoryId": "hammersmith-fulham",
+      "name": "Nourish Hub — community lunch",
+      "category": "Food and essentials",
+      "description": "Share a weekday vegetarian or vegan lunch made with surplus food.",
+      "who": "Anyone can come for lunch.",
+      "access": "Drop in without booking at 1 St Ann’s Road, London W11 4SS. Lunch runs Monday to Friday, noon to 3pm.",
+      "check": "Lunch starts at £3. The separate monthly community supper is pay what you can and must be booked.",
+      "coverage": "Nourish Hub, 1 St Ann’s Road, W11 4SS.",
+      "url": "https://www.nourishhub.org.uk/community/",
+      "sourceUrl": "https://www.nourishhub.org.uk/community/",
+      "sourceOwner": "Nourish Hub (UKHarvest)",
+      "phone": "",
+      "picture": "community",
+      "tags": [
+        "food",
+        "eat together",
+        "community meal",
+        "vegetarian",
+        "vegan",
+        "affordable lunch"
+      ],
+      "audiences": [],
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "coverage",
+          "url",
+          "check"
+        ],
+        "notes": "The provider distinguishes weekday lunches from its monthly suppers. Individual menus, dietary suitability and on-the-day availability were not checked.",
+        "evidenceUrls": [
+          "https://www.nourishhub.org.uk/community/",
+          "https://www.nourishhub.org.uk/contact-us/"
+        ]
+      }
+    },
+    {
+      "id": "hammersmith-fulham-age-uk-activity-centre",
+      "directoryId": "hammersmith-fulham",
+      "name": "Age UK Hammersmith and Fulham — Activity Centre",
+      "category": "Social connection and activities",
+      "description": "Meet people over a cup of tea, join gentle exercise or a creative group, or get help with digital skills.",
+      "who": "Older people looking for activities and company.",
+      "access": "Visit the centre at 105 Greyhound Road, W6 8NJ. Use the activities timetable on its website to choose a session.",
+      "check": "Ask about the cost, any booking requirement and access needs for your chosen activity.",
+      "coverage": "Greyhound Road Activity Centre, Hammersmith and Fulham.",
+      "url": "https://www.ageuk.org.uk/hammersmithandfulham/our-services/activity-centre/",
+      "sourceUrl": "https://www.ageuk.org.uk/hammersmithandfulham/our-services/activity-centre/",
+      "sourceOwner": "Age UK Hammersmith and Fulham",
+      "phone": "",
+      "picture": "community",
+      "tags": [
+        "social group",
+        "gentle exercise",
+        "digital skills",
+        "older people",
+        "loneliness"
+      ],
+      "audiences": [
+        "older"
+      ],
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "coverage",
+          "url"
+        ],
+        "notes": "The activity and contact pages confirm the centre, location and range of activities. A minimum age, prices and individual session availability were not established.",
+        "evidenceUrls": [
+          "https://www.ageuk.org.uk/hammersmithandfulham/our-services/activity-centre/",
+          "https://www.ageuk.org.uk/hammersmithandfulham/about-us/contact-us/"
+        ]
+      }
+    },
+    {
+      "id": "hounslow-community-hubs",
+      "directoryId": "hounslow",
+      "name": "Hounslow Community Hubs and Libraries",
+      "category": "Social connection and activities",
+      "description": "Find local activities and support, or ask staff for help getting online.",
+      "who": "Local residents looking for support or activities in Hounslow.",
+      "access": "Choose your nearest hub on the council’s page. You can drop in and ask a member of staff.",
+      "check": "Check the branch page for opening times and what is on before visiting.",
+      "coverage": "Community hubs in libraries across the London Borough of Hounslow.",
+      "url": "https://www.hounslow.gov.uk/hub",
+      "sourceUrl": "https://www.hounslow.gov.uk/hub",
+      "sourceOwner": "London Borough of Hounslow",
+      "phone": "",
+      "picture": "community",
+      "tags": [
+        "community hub",
+        "library",
+        "digital help",
+        "activities",
+        "drop in"
+      ],
+      "audiences": [],
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "coverage",
+          "url"
+        ],
+        "notes": "The council lists branches and identifies drop-in guidance for residents. Charges and places for particular activities were not established.",
+        "evidenceUrls": [
+          "https://www.hounslow.gov.uk/hub"
+        ]
+      }
+    },
+    {
+      "id": "hounslow-carers-service",
+      "directoryId": "hounslow",
+      "name": "Hounslow Carers Service",
+      "category": "Carers and family",
+      "description": "Talk to a carers adviser about practical support, or meet other carers at a Carers Café.",
+      "who": "People who look after a friend or family member without pay, including occasional carers.",
+      "access": "Email carers@hounslow.gov.uk yourself to speak with an adviser. Include a number if you would like a call back.",
+      "check": "For face-to-face advice or a café, check the council’s current venues and dates.",
+      "coverage": "Advisers visit community venues across the London Borough of Hounslow.",
+      "url": "https://www.hounslow.gov.uk/carers/support-carers",
+      "sourceUrl": "https://www.hounslow.gov.uk/carers/support-carers",
+      "sourceOwner": "London Borough of Hounslow",
+      "phone": "",
+      "picture": "people",
+      "tags": [
+        "unpaid carers",
+        "carers café",
+        "caring for someone",
+        "family support",
+        "peer support"
+      ],
+      "audiences": [
+        "carers"
+      ],
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "coverage",
+          "url"
+        ],
+        "notes": "The council confirms that carers can contact the advisers directly. Requirements for specific schemes, charges and current café places were not established.",
+        "evidenceUrls": [
+          "https://www.hounslow.gov.uk/carers/support-carers",
+          "https://www.hounslow.gov.uk/carers/support-carers/5"
+        ]
+      }
+    },
+    {
+      "id": "hounslow-citizens-advice",
+      "directoryId": "hounslow",
+      "name": "Citizens Advice Hounslow",
+      "category": "Money and benefits",
+      "description": "Ask for help with benefits, debt, housing or employment problems.",
+      "who": "People seeking local advice in Hounslow.",
+      "access": "Call the local Adviceline or check the website for a drop-in session. Drop-ins do not need an appointment.",
+      "check": "Advice is free. Drop-ins see people in arrival order, so check the venue and times first.",
+      "coverage": "Hounslow borough, including Chiswick and Feltham.",
+      "url": "https://hounslowcabs.org.uk/advice/",
+      "sourceUrl": "https://hounslowcabs.org.uk/advice/",
+      "sourceOwner": "Citizens Advice Hounslow",
+      "phone": "0808 278 7830",
+      "picture": "choice",
+      "tags": [
+        "benefits",
+        "housing",
+        "work",
+        "debt",
+        "advice",
+        "drop in"
+      ],
+      "audiences": [],
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "coverage",
+          "url",
+          "check",
+          "phone"
+        ],
+        "notes": "The provider confirms its general coverage, advice topics, contact number and drop-in arrangements. Same-day service is not guaranteed.",
+        "evidenceUrls": [
+          "https://hounslowcabs.org.uk/advice/",
+          "https://hounslowcabs.org.uk/about-us/our-service/"
+        ]
+      }
+    },
+    {
+      "id": "richmond-upon-thames-citizens-advice",
+      "directoryId": "richmond-upon-thames",
+      "name": "Citizens Advice Richmond",
+      "category": "Money and benefits",
+      "description": "Get advice on topics such as debt, money and energy bills.",
+      "who": "People who live, work or study in the London Borough of Richmond upon Thames.",
+      "access": "Use the online enquiry form to ask for help. The Get Advice page also lists phone and in-person routes.",
+      "check": "Advice is free. The team can arrange a call or appointment if needed.",
+      "coverage": "London Borough of Richmond upon Thames.",
+      "url": "https://www.citizensadvicerichmond.org/get-advice/",
+      "sourceUrl": "https://www.citizensadvicerichmond.org/get-advice/",
+      "sourceOwner": "Citizens Advice Richmond",
+      "phone": "",
+      "picture": "choice",
+      "tags": [
+        "debt",
+        "energy bills",
+        "benefits",
+        "money",
+        "advice"
+      ],
+      "audiences": [],
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "coverage",
+          "url",
+          "check"
+        ],
+        "notes": "The provider confirms borough eligibility, free advice and contact options. Waiting times and appointment availability were not established.",
+        "evidenceUrls": [
+          "https://www.citizensadvicerichmond.org/get-advice/"
+        ]
+      }
+    },
+    {
+      "id": "richmond-upon-thames-carers-centre",
+      "directoryId": "richmond-upon-thames",
+      "name": "Richmond Carers Centre — support for adult carers",
+      "category": "Carers and family",
+      "description": "Talk to someone who understands caring, ask about your rights, and find support groups or workshops.",
+      "who": "Adult unpaid carers who live in Richmond upon Thames or care for someone who lives there.",
+      "access": "Call or email the centre for advice. To register for additional support, call the carers team directly.",
+      "check": "Advice is free and you do not need to register to ask a question. Groups and other services can require registration.",
+      "coverage": "London Borough of Richmond upon Thames.",
+      "url": "https://www.richmondcarers.org/services/services-for-adult-carers/",
+      "sourceUrl": "https://www.richmondcarers.org/services/services-for-adult-carers/",
+      "sourceOwner": "Richmond Carers Centre",
+      "phone": "020 8867 2380",
+      "picture": "people",
+      "tags": [
+        "carers",
+        "support group",
+        "caring for someone",
+        "family support"
+      ],
+      "audiences": [
+        "carers"
+      ],
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "coverage",
+          "url",
+          "check",
+          "phone"
+        ],
+        "notes": "The adult service distinguishes initial advice from registration for further services. Waiting times, places and charges for individual activities were not established.",
+        "evidenceUrls": [
+          "https://www.richmondcarers.org/services/services-for-adult-carers/",
+          "https://www.nhs.uk/services/service-directory/richmond-carers-centre/N10502002"
+        ]
+      }
+    },
+    {
+      "id": "richmond-upon-thames-library-book-groups",
+      "directoryId": "richmond-upon-thames",
+      "name": "Richmond Libraries — book groups",
+      "category": "Social connection and activities",
+      "description": "Meet others to talk about books in a local library. Options include Pride & Pages at East Sheen Library.",
+      "who": "People interested in reading with others. Pride & Pages, the LGBTQ+ book group, is for adults aged 18 and over.",
+      "access": "Contact the library branch where you would like to join and ask about its next session.",
+      "check": "Joining a library book group is free. Check dates and places with the branch.",
+      "coverage": "Libraries in the London Borough of Richmond upon Thames.",
+      "url": "https://www.richmond.gov.uk/reading_groups",
+      "sourceUrl": "https://www.richmond.gov.uk/reading_groups",
+      "sourceOwner": "London Borough of Richmond upon Thames",
+      "phone": "",
+      "picture": "community",
+      "tags": [
+        "book club",
+        "libraries",
+        "reading",
+        "meet people",
+        "Pride and Pages",
+        "LGBTQ+"
+      ],
+      "audiences": [
+        "lgbtq"
+      ],
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "coverage",
+          "url",
+          "check"
+        ],
+        "notes": "The 18-and-over wording applies specifically to Pride & Pages; the council does not give that age limit for all groups. Current places were not confirmed.",
+        "evidenceUrls": [
+          "https://www.richmond.gov.uk/reading_groups"
         ]
       }
     }

@@ -1,4 +1,4 @@
-import {AREAS,NEEDS,localIntent,sensitiveInput,fold} from './shared.mjs';
+import {AREAS,NEEDS,localIntent,sensitiveInput,fold,namedLocalAreas} from './shared.mjs';
 
 export const CATEGORIES=[...new Set(Object.values(NEEDS).flatMap(n=>n.categories)),'Urgent help'];
 const ORIGINS=['https://navigator.lxportal.space','https://cnwl-community-navigator.pages.dev'];
@@ -28,8 +28,7 @@ export function validateSuggestion(body){
 function explicitAreas(item){
  if(item.area)return [item.area];
  const text=fold(item.name+' '+item.description);
- const ids=Object.entries(AREAS).filter(([id,label])=>id!=='wider-support'&&new RegExp('\\b'+fold(label)+'\\b').test(text)).map(([id])=>id);
- if(/\bkensington\b|\bchelsea\b/.test(text)&&!ids.includes('kensington-chelsea'))ids.push('kensington-chelsea');
+ const ids=namedLocalAreas(text);
  if(/\b(?:national|uk wide|england wide|across (?:the )?(?:uk|england)|throughout (?:the )?(?:uk|england))\b/.test(text))ids.push('wider-support');
  return [...new Set(ids)];
 }

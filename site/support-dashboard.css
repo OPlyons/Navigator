@@ -258,3 +258,19 @@ body .brand-header .brand-inner{display:flex;align-items:center;min-height:64px}
 .navigator-compass{display:block;flex:none}
 .navigator-brand .navigator-compass{width:44px;height:44px}
 .footer-tree .navigator-compass{width:64px;height:64px}
+
+/* Twelve London boroughs share the same geographic scale. The native controls
+   sit in five staggered rows so small, adjacent boroughs remain selectable. */
+@media screen{
+ #support .borough-map{aspect-ratio:680/480;min-height:200px;container-type:inline-size}
+ #support .borough-map .map-place{max-width:29%;min-width:24px;min-height:30px;min-block-size:30px;padding:2px 4px;font-size:clamp(11px,3.8cqw,13px);white-space:normal;line-height:1.08}
+ #support .borough-map .map-place-count.sr-only{margin:0}
+ #support .map-connectors{pointer-events:none;fill:none;stroke:#677e72;stroke-width:1.7}
+ #support .borough-shapes path[data-map-shape]{cursor:pointer}
+ #support .map-place:focus-visible{outline:3px solid #553b84;outline-offset:2px}
+ /* With enlarged text, let the controls flow instead of crowding the map. */
+ .large #support .borough-map{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.3rem;aspect-ratio:auto;max-width:none}
+ .large #support .borough-shapes{position:relative;grid-column:1/-1;height:8rem}
+ .large #support .map-connectors{display:none}
+ .large #support .borough-map .map-place{position:static;transform:none;max-width:none;min-height:44px;font-size:.85rem;overflow-wrap:anywhere}
+}
