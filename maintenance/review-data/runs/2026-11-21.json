@@ -839,6 +839,290 @@
       "findings": [],
       "kind": "regular",
       "fingerprint": "cc40b32c7575653730b3a2f3b79932bc87addbf58713dba11cb36718a276f327"
+    },
+    {
+      "id": "carers",
+      "status": "no_change_found",
+      "summary": "Harrow Carers describes local support for unpaid carers, including young carers, and publishes a registration link and the listed phone number. Costs and availability for individual activities were not established.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "phone",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://harrowcarers.org/",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "Unpaid carer support, young carers, registration for advice and public contact number."
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "c54c1d952d5d0ddabfb436aac1635bd7ff2a451b579b075da5d689fce3fca66d"
+    },
+    {
+      "id": "carers-uk",
+      "status": "no_change_found",
+      "summary": "Carers UK confirms its phone number and weekday hours including bank holidays, online meetups and email for more detailed enquiries. Individual response times were not established.",
+      "checkedFields": [
+        "name",
+        "description",
+        "access",
+        "check",
+        "phone",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://www.carersuk.org/help-and-advice/helpline-and-other-support/",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "Information on benefits and rights, the telephone signposting service and its hours, email guidance and online support."
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "83ec48eb7bbea1cc8dc5cc51b016f73b37aee1858de29e70f4ffdea92c7ad02d"
+    },
+    {
+      "id": "cnwl-recovery-college",
+      "status": "changes_found",
+      "summary": "The NHS publishes a working enrolment page, the college phone number and its GP catchment. The former page also listed using CNWL services as a route. The current page does not address service users whose GP is outside the catchment; eligibility on that basis remains unconfirmed. No place or exclusion was inferred.",
+      "checkedFields": [
+        "name",
+        "access",
+        "check",
+        "phone",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cnwl.nhs.uk/services/recovery-and-wellbeing-college/how-enrol-recovery-and-wellbeing-college",
+          "ownerType": "nhs",
+          "retrieval": "failed",
+          "note": "The previous enrolment URL returned 404 on direct reading."
+        },
+        {
+          "url": "https://www.cnwl.nhs.uk/services/recovery-and-wellbeing-college/how-enrol-recovery-and-wellbeing-college",
+          "ownerType": "nhs",
+          "retrieval": "official_indexed",
+          "note": "Indexed older NHS guidance included people using CNWL services as well as the GP route."
+        },
+        {
+          "url": "https://www.cnwl.nhs.uk/services/recovery-and-wellbeing-college/how-to-become-a-student",
+          "ownerType": "nhs",
+          "retrieval": "page",
+          "note": "Current enrolment form, GP catchment, carers and supporters, workforce routes, phone and email options."
+        }
+      ],
+      "findings": [
+        {
+          "field": "url",
+          "currentValue": "https://www.cnwl.nhs.uk/services/recovery-and-wellbeing-college/how-enrol-recovery-and-wellbeing-college",
+          "proposedValue": "https://www.cnwl.nhs.uk/services/recovery-and-wellbeing-college/how-to-become-a-student",
+          "reason": "The directory sends learners to the former enrolment URL, while the current NHS page contains the enrolment route.",
+          "sourceUrl": "https://www.cnwl.nhs.uk/services/recovery-and-wellbeing-college/how-to-become-a-student",
+          "evidence": "The NHS student page links to the college enrolment form and lists non-digital ways to enrol.",
+          "priority": "normal"
+        }
+      ],
+      "kind": "regular",
+      "fingerprint": "a285c806d6eefdf1fc1036477dda5d128a967bdf5541d2e83ec00533250a56e3"
+    },
+    {
+      "id": "cove",
+      "status": "no_change_found",
+      "summary": "Hestia’s indexed Harrow listing agrees on the age, borough or GP route and daily opening hours. CNWL independently describes the Cove drop-in model and hours. The Harrow provider page could not be opened directly; current contact details and same-day availability were not verified.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check"
+      ],
+      "sources": [
+        {
+          "url": "https://www.hestia.org/harrow-cove",
+          "ownerType": "provider",
+          "retrieval": "failed",
+          "note": "The Harrow-specific page was blocked on direct access."
+        },
+        {
+          "url": "https://www.hestia.org/harrow-cove",
+          "ownerType": "provider",
+          "retrieval": "official_indexed",
+          "note": "Indexed Harrow service text gives age 16+, resident or borough GP, drop-in support and hours."
+        },
+        {
+          "url": "https://www.cnwl.nhs.uk/camhs/our-services/crisis-and-urgent-care/help-mental-health-crisis",
+          "ownerType": "nhs",
+          "retrieval": "page",
+          "note": "NHS partner describes the Coves as drop-in crisis support and gives daily opening times."
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "35a9532642d1f3ae5887ebb9ffcc67cefc49a8a64b2c8cd6fa22c000a5277ef3"
+    },
+    {
+      "id": "cruse",
+      "status": "no_change_found",
+      "summary": "Only indexed text from Cruse could be read. It describes bereavement support, the published number for its national telephone service and local branches. This was a limited check: no local availability, waiting time or access to a particular branch was confirmed.",
+      "checkedFields": [
+        "name",
+        "description",
+        "access",
+        "phone"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cruse.org.uk/get-support/",
+          "ownerType": "provider",
+          "retrieval": "failed",
+          "note": "Direct page request was blocked."
+        },
+        {
+          "url": "https://www.cruse.org.uk/get-support/",
+          "ownerType": "provider",
+          "retrieval": "official_indexed",
+          "note": "Indexed provider text describes support after a bereavement and points to telephone and local support."
+        },
+        {
+          "url": "https://www.cruse.org.uk/get-support/helpline/",
+          "ownerType": "provider",
+          "retrieval": "official_indexed",
+          "note": "Indexed provider text describes the bereavement telephone service, who can call and the listed number. The page could not be read directly."
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "ef8675e7cc9b0044b925d82fb62d7fc8fe14eb35bd7a4ae8cd7d5967829720f3"
+    },
+    {
+      "id": "ealing-active",
+      "status": "no_change_found",
+      "summary": "Ealing Council lists sports facilities and activities for a range of ages and abilities and advises contacting the local centre about individual activities. Session dates, accessibility arrangements and prices were not confirmed.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ealing.gov.uk/info/201137/sports_and_leisure",
+          "ownerType": "council",
+          "retrieval": "page",
+          "note": "Council sports directory lists indoor and outdoor activities and directs enquiries to local centres."
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "b6af9ccba790dd0694a6c55fbc9d75227af4ed62f7a6dce8c7a62fd2e851f08b"
+    },
+    {
+      "id": "ealing-adult-learning",
+      "status": "changes_found",
+      "summary": "Ealing Council describes adult and family courses, online registration, an advice session and a phone enquiry route. Funding depends on eligibility. The separate course portal was blocked, so individual fees, enrolment deadlines and places were not checked.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "phone",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ealing.gov.uk/info/201108/learning_and_schools/2814/adult_learning",
+          "ownerType": "council",
+          "retrieval": "page",
+          "note": "Council adult learning page lists courses, funding guidance, the registration steps and the Learn Ealing contact number."
+        },
+        {
+          "url": "https://www.learnealing.org.uk/",
+          "ownerType": "provider",
+          "retrieval": "failed",
+          "note": "Course portal could not be read directly."
+        }
+      ],
+      "findings": [
+        {
+          "field": "phone",
+          "currentValue": "",
+          "proposedValue": "020 8825 5577",
+          "reason": "The empty phone field omits the council’s published Learn Ealing enquiry number.",
+          "sourceUrl": "https://www.ealing.gov.uk/info/201108/learning_and_schools/2814/adult_learning",
+          "evidence": "The council gives this number in the contact section of its adult learning page.",
+          "priority": "normal"
+        },
+        {
+          "field": "access",
+          "currentValue": "Browse the course listings and enrol using the details for your chosen course.",
+          "proposedValue": "Use the council’s Learn Ealing link to register online, then attend an information and advice session. You can call Learn Ealing if you need help getting started.",
+          "reason": "The council gives two enrolment steps, not just a course search.",
+          "sourceUrl": "https://www.ealing.gov.uk/info/201108/learning_and_schools/2814/adult_learning",
+          "evidence": "The enrolment section directs learners to register online and attend an IAG session. A contact number is provided below it.",
+          "priority": "normal"
+        }
+      ],
+      "kind": "regular",
+      "fingerprint": "b202163911149eec751217722fffbbee386c9e0c590e9a872ebcb8e7007cb3be"
+    },
+    {
+      "id": "ealing-adult-social-care",
+      "status": "changes_found",
+      "summary": "The council confirms that people can contact adult social care for themselves by phone or online. The centre initially assesses needs and may suggest community help or a further assessment. Individual eligibility, costs and waiting times were not established.",
+      "checkedFields": [
+        "name",
+        "description",
+        "access",
+        "check",
+        "phone",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ealing.gov.uk/info/201073/health_and_adult_social_care",
+          "ownerType": "council",
+          "retrieval": "page",
+          "note": "Council adult social care index and contact number."
+        },
+        {
+          "url": "https://www.ealing.gov.uk/info/201082/what_to_expect_from_adult_social_care/2526/contacting_adult_social_care",
+          "ownerType": "council",
+          "retrieval": "page",
+          "note": "Direct self-referral form, separate representative form, phone contact and initial assessment process."
+        }
+      ],
+      "findings": [
+        {
+          "field": "url",
+          "currentValue": "https://www.ealing.gov.uk/info/201073/health_and_adult_social_care",
+          "proposedValue": "https://www.ealing.gov.uk/info/201082/what_to_expect_from_adult_social_care/2526/contacting_adult_social_care",
+          "reason": "The listed index requires extra navigation to reach the contact routes.",
+          "sourceUrl": "https://www.ealing.gov.uk/info/201082/what_to_expect_from_adult_social_care/2526/contacting_adult_social_care",
+          "evidence": "The council contact page links directly to the self-referral form and gives the same telephone number.",
+          "priority": "normal"
+        },
+        {
+          "field": "access",
+          "currentValue": "Call the adult social care contact centre or use the council website.",
+          "proposedValue": "Call the council or use its self-referral form. If you are contacting the council for someone else, make sure they know first; there is a separate form for representatives.",
+          "reason": "The council distinguishes asking for yourself from contacting it for somebody else.",
+          "sourceUrl": "https://www.ealing.gov.uk/info/201082/what_to_expect_from_adult_social_care/2526/contacting_adult_social_care",
+          "evidence": "The council lists the two forms and asks representatives to make the person aware before making contact.",
+          "priority": "normal"
+        }
+      ],
+      "kind": "regular",
+      "fingerprint": "63133769322763e2a4a554a707c51c2364c20cb0f8e44f100d09c37e965a953e"
     }
   ]
 }

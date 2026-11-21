@@ -1,9 +1,9 @@
 # Directory review queue
 
-Updated: 2026-11-21. 82 of 954 listings attempted in the last 28 days.
-82 listings had provider or official source content read in that period.
+Updated: 2026-11-21. 90 of 954 listings attempted in the last 28 days.
+90 listings had provider or official source content read in that period.
 Last recorded run: 2026-11-21.
-233 listings are overdue for a source check. Routine capacity: 1344 per 28 days.
+225 listings are overdue for a source check. Routine capacity: 1344 per 28 days.
 
 Automated source checks do not confirm availability. Evidence-backed factual updates and actual source-check dates are published through the normal quality checks; ambiguous findings stay here.
 
@@ -18,49 +18,49 @@ Field: **access**
 - Source: <https://camdencarechoices.camden.gov.uk/adult-social-care-services/contact-adult-social-care/>
 - First found: 2026-11-09; last seen: 2026-11-21.
 
-### Mind in Camden — camden
-Field: **check**
-- Current: Check joining arrangements. Mind in Camden says it does not offer a counselling or drop-in service.
-- Suggested: There is no drop-in service. Phoenix support groups are free. Separate one-to-one counselling costs £35 per weekly session after an assessment.
-- Why: The listing rules out a counselling service that is now advertised.
-- Evidence summary: The dedicated counselling page describes individual sessions, assessment and the fee; the main page distinguishes free groups from drop-ins.
-- Source: <https://www.mindincamden.org.uk/counselling-mind-in-camden>
-- First found: 2026-11-21; last seen: 2026-11-21.
-
-### Nafsiyat Intercultural Therapy Centre — camden
-Field: **check**
-- Current: Ask whether funded or paid therapy applies, and about assessment and waiting times.
-- Suggested: The short-term individual therapy programme is free for Camden residents. Ask about current availability; the centre also has a separate paid service.
-- Why: The listing does not distinguish the free local programme from other services.
-- Evidence summary: The individual therapy page explicitly includes Camden, describes the sessions as free and signposts the separate paid service.
-- Source: <https://www.nafsiyat.org.uk/individual-therapy>
-- First found: 2026-11-21; last seen: 2026-11-21.
-
-### Nafsiyat Intercultural Therapy Centre — camden
-Field: **access**
-- Current: Contact the centre to ask about referral and the languages and support available.
-- Suggested: Use the self-referral link on the individual therapy page, or contact the centre to ask about languages and availability. Health professionals have a referral route too.
-- Why: The programme explicitly lists self-referral as well as professional referral.
-- Evidence summary: The programme page offers both routes and warns that therapists may be fully booked.
-- Source: <https://www.nafsiyat.org.uk/individual-therapy>
-- First found: 2026-11-21; last seen: 2026-11-21.
-
-### New Horizon Youth Centre — camden
+### CNWL Recovery and Wellbeing College — wider-support
 Field: **url**
-- Current: https://www.camden.gov.uk/camden-advice-network
-- Suggested: https://nhyouthcentre.org.uk/young-person/get-help/
-- Why: The listing sends people to a council directory instead of the provider’s access information.
-- Evidence summary: The Get Help page gives direct routes for young people.
-- Source: <https://nhyouthcentre.org.uk/young-person/get-help/>
+- Current: https://www.cnwl.nhs.uk/services/recovery-and-wellbeing-college/how-enrol-recovery-and-wellbeing-college
+- Suggested: https://www.cnwl.nhs.uk/services/recovery-and-wellbeing-college/how-to-become-a-student
+- Why: The directory sends learners to the former enrolment URL, while the current NHS page contains the enrolment route.
+- Evidence summary: The NHS student page links to the college enrolment form and lists non-digital ways to enrol.
+- Source: <https://www.cnwl.nhs.uk/services/recovery-and-wellbeing-college/how-to-become-a-student>
 - First found: 2026-11-21; last seen: 2026-11-21.
 
-### New Horizon Youth Centre — camden
+### Ealing Adult Social Care — ealing
+Field: **url**
+- Current: https://www.ealing.gov.uk/info/201073/health\_and\_adult\_social\_care
+- Suggested: https://www.ealing.gov.uk/info/201082/what\_to\_expect\_from\_adult\_social\_care/2526/contacting\_adult\_social\_care
+- Why: The listed index requires extra navigation to reach the contact routes.
+- Evidence summary: The council contact page links directly to the self-referral form and gives the same telephone number.
+- Source: <https://www.ealing.gov.uk/info/201082/what_to_expect_from_adult_social_care/2526/contacting_adult_social_care>
+- First found: 2026-11-21; last seen: 2026-11-21.
+
+### Ealing Adult Social Care — ealing
 Field: **access**
-- Current: Use Camden Advice Network’s New Horizon listing to reach the centre and ask for help.
-- Suggested: If you are aged 16 to 24 and facing homelessness in London, you can come to the day centre in the morning or use the self-referral route on its Get Help page.
-- Why: People can approach the provider directly.
-- Evidence summary: The provider describes its morning drop-in and invites young people at risk of homelessness to attend or self-refer.
-- Source: <https://nhyouthcentre.org.uk/young-person/get-help/>
+- Current: Call the adult social care contact centre or use the council website.
+- Suggested: Call the council or use its self-referral form. If you are contacting the council for someone else, make sure they know first; there is a separate form for representatives.
+- Why: The council distinguishes asking for yourself from contacting it for somebody else.
+- Evidence summary: The council lists the two forms and asks representatives to make the person aware before making contact.
+- Source: <https://www.ealing.gov.uk/info/201082/what_to_expect_from_adult_social_care/2526/contacting_adult_social_care>
+- First found: 2026-11-21; last seen: 2026-11-21.
+
+### Learn Ealing — ealing
+Field: **phone**
+- Current: 
+- Suggested: 020 8825 5577
+- Why: The empty phone field omits the council’s published Learn Ealing enquiry number.
+- Evidence summary: The council gives this number in the contact section of its adult learning page.
+- Source: <https://www.ealing.gov.uk/info/201108/learning_and_schools/2814/adult_learning>
+- First found: 2026-11-21; last seen: 2026-11-21.
+
+### Learn Ealing — ealing
+Field: **access**
+- Current: Browse the course listings and enrol using the details for your chosen course.
+- Suggested: Use the council’s Learn Ealing link to register online, then attend an information and advice session. You can call Learn Ealing if you need help getting started.
+- Why: The council gives two enrolment steps, not just a course search.
+- Evidence summary: The enrolment section directs learners to register online and attend an IAG session. A contact number is provided below it.
+- Source: <https://www.ealing.gov.uk/info/201108/learning_and_schools/2814/adult_learning>
 - First found: 2026-11-21; last seen: 2026-11-21.
 
 

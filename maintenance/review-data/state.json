@@ -1701,6 +1701,170 @@
       "consecutiveFailures": 0,
       "retryCount": 0,
       "nextRetry": null
+    },
+    "carers": {
+      "name": "Harrow Carers",
+      "area": "harrow",
+      "fingerprint": "c54c1d952d5d0ddabfb436aac1635bd7ff2a451b579b075da5d689fce3fca66d",
+      "lastAttempt": "2026-11-21",
+      "lastRegularAttempt": "2026-11-21",
+      "lastSourceRead": "2026-11-21",
+      "lastOutcome": "no_change_found",
+      "lastSummary": "Harrow Carers describes local support for unpaid carers, including young carers, and publishes a registration link and the listed phone number. Costs and availability for individual activities were not established.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "phone",
+        "url"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
+    },
+    "carers-uk": {
+      "name": "Carers UK advice and support",
+      "area": "wider-support",
+      "fingerprint": "83ec48eb7bbea1cc8dc5cc51b016f73b37aee1858de29e70f4ffdea92c7ad02d",
+      "lastAttempt": "2026-11-21",
+      "lastRegularAttempt": "2026-11-21",
+      "lastSourceRead": "2026-11-21",
+      "lastOutcome": "no_change_found",
+      "lastSummary": "Carers UK confirms its phone number and weekday hours including bank holidays, online meetups and email for more detailed enquiries. Individual response times were not established.",
+      "checkedFields": [
+        "name",
+        "description",
+        "access",
+        "check",
+        "phone",
+        "url"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
+    },
+    "cnwl-recovery-college": {
+      "name": "CNWL Recovery and Wellbeing College",
+      "area": "wider-support",
+      "fingerprint": "a285c806d6eefdf1fc1036477dda5d128a967bdf5541d2e83ec00533250a56e3",
+      "lastAttempt": "2026-11-21",
+      "lastRegularAttempt": "2026-11-21",
+      "lastSourceRead": "2026-11-21",
+      "lastOutcome": "changes_found",
+      "lastSummary": "The NHS publishes a working enrolment page, the college phone number and its GP catchment. The former page also listed using CNWL services as a route. The current page does not address service users whose GP is outside the catchment; eligibility on that basis remains unconfirmed. No place or exclusion was inferred.",
+      "checkedFields": [
+        "name",
+        "access",
+        "check",
+        "phone",
+        "url"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
+    },
+    "cove": {
+      "name": "Harrow Cove",
+      "area": "harrow",
+      "fingerprint": "35a9532642d1f3ae5887ebb9ffcc67cefc49a8a64b2c8cd6fa22c000a5277ef3",
+      "lastAttempt": "2026-11-21",
+      "lastRegularAttempt": "2026-11-21",
+      "lastSourceRead": "2026-11-21",
+      "lastOutcome": "no_change_found",
+      "lastSummary": "Hestia’s indexed Harrow listing agrees on the age, borough or GP route and daily opening hours. CNWL independently describes the Cove drop-in model and hours. The Harrow provider page could not be opened directly; current contact details and same-day availability were not verified.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
+    },
+    "cruse": {
+      "name": "Cruse Bereavement Support",
+      "area": "wider-support",
+      "fingerprint": "ef8675e7cc9b0044b925d82fb62d7fc8fe14eb35bd7a4ae8cd7d5967829720f3",
+      "lastAttempt": "2026-11-21",
+      "lastRegularAttempt": "2026-11-21",
+      "lastSourceRead": "2026-11-21",
+      "lastOutcome": "no_change_found",
+      "lastSummary": "Only indexed text from Cruse could be read. It describes bereavement support, the published number for its national telephone service and local branches. This was a limited check: no local availability, waiting time or access to a particular branch was confirmed.",
+      "checkedFields": [
+        "name",
+        "description",
+        "access",
+        "phone"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
+    },
+    "ealing-active": {
+      "name": "Ealing sport, leisure and activities",
+      "area": "ealing",
+      "fingerprint": "b6af9ccba790dd0694a6c55fbc9d75227af4ed62f7a6dce8c7a62fd2e851f08b",
+      "lastAttempt": "2026-11-21",
+      "lastRegularAttempt": "2026-11-21",
+      "lastSourceRead": "2026-11-21",
+      "lastOutcome": "no_change_found",
+      "lastSummary": "Ealing Council lists sports facilities and activities for a range of ages and abilities and advises contacting the local centre about individual activities. Session dates, accessibility arrangements and prices were not confirmed.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "url"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
+    },
+    "ealing-adult-learning": {
+      "name": "Learn Ealing",
+      "area": "ealing",
+      "fingerprint": "b202163911149eec751217722fffbbee386c9e0c590e9a872ebcb8e7007cb3be",
+      "lastAttempt": "2026-11-21",
+      "lastRegularAttempt": "2026-11-21",
+      "lastSourceRead": "2026-11-21",
+      "lastOutcome": "changes_found",
+      "lastSummary": "Ealing Council describes adult and family courses, online registration, an advice session and a phone enquiry route. Funding depends on eligibility. The separate course portal was blocked, so individual fees, enrolment deadlines and places were not checked.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "phone",
+        "url"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
+    },
+    "ealing-adult-social-care": {
+      "name": "Ealing Adult Social Care",
+      "area": "ealing",
+      "fingerprint": "63133769322763e2a4a554a707c51c2364c20cb0f8e44f100d09c37e965a953e",
+      "lastAttempt": "2026-11-21",
+      "lastRegularAttempt": "2026-11-21",
+      "lastSourceRead": "2026-11-21",
+      "lastOutcome": "changes_found",
+      "lastSummary": "The council confirms that people can contact adult social care for themselves by phone or online. The centre initially assesses needs and may suggest community help or a further assessment. Individual eligibility, costs and waiting times were not established.",
+      "checkedFields": [
+        "name",
+        "description",
+        "access",
+        "check",
+        "phone",
+        "url"
+      ],
+      "consecutiveFailures": 0,
+      "retryCount": 0,
+      "nextRetry": null
     }
   },
   "days": {
@@ -1817,7 +1981,15 @@
         "camden-shak",
         "camden-talking-therapies",
         "camden-urgent-mental-health",
-        "camden-west-hampstead-women"
+        "camden-west-hampstead-women",
+        "carers",
+        "carers-uk",
+        "cnwl-recovery-college",
+        "cove",
+        "cruse",
+        "ealing-active",
+        "ealing-adult-learning",
+        "ealing-adult-social-care"
       ],
       "retry": []
     }
@@ -2158,10 +2330,11 @@
       "sourceUrl": "https://www.mindincamden.org.uk/counselling-mind-in-camden",
       "priority": "normal",
       "key": "423d6203198751df90d5d6f442fb905643d15c56d84b3067b9efc72b85c54207",
-      "status": "open",
+      "status": "applied",
       "firstSeen": "2026-11-21",
       "lastSeen": "2026-11-21",
-      "occurrences": 1
+      "occurrences": 1,
+      "closedOn": "2026-11-21"
     },
     {
       "kind": "change",
@@ -2176,10 +2349,11 @@
       "sourceUrl": "https://www.nafsiyat.org.uk/individual-therapy",
       "priority": "normal",
       "key": "507ba625f204843a1b3392c1de7566dac99d5e315ac6d8a0d6366b951c5cf27e",
-      "status": "open",
+      "status": "applied",
       "firstSeen": "2026-11-21",
       "lastSeen": "2026-11-21",
-      "occurrences": 1
+      "occurrences": 1,
+      "closedOn": "2026-11-21"
     },
     {
       "kind": "change",
@@ -2194,10 +2368,11 @@
       "sourceUrl": "https://www.nafsiyat.org.uk/individual-therapy",
       "priority": "normal",
       "key": "c94b52b1a24ed7d8587fe1f86a2f32a8afd4263f96c74e227a82d94f7833cad4",
-      "status": "open",
+      "status": "applied",
       "firstSeen": "2026-11-21",
       "lastSeen": "2026-11-21",
-      "occurrences": 1
+      "occurrences": 1,
+      "closedOn": "2026-11-21"
     },
     {
       "kind": "change",
@@ -2212,10 +2387,11 @@
       "sourceUrl": "https://nhyouthcentre.org.uk/young-person/get-help/",
       "priority": "normal",
       "key": "efaab9ffb8290c73b86510872f449460e84c0bd47505bb73ebf089bb2b7dc3af",
-      "status": "open",
+      "status": "applied",
       "firstSeen": "2026-11-21",
       "lastSeen": "2026-11-21",
-      "occurrences": 1
+      "occurrences": 1,
+      "closedOn": "2026-11-21"
     },
     {
       "kind": "change",
@@ -2230,6 +2406,97 @@
       "sourceUrl": "https://nhyouthcentre.org.uk/young-person/get-help/",
       "priority": "normal",
       "key": "2513842349c8a7d2fc09fecb65f4096b20d9f3943399e47f7b5d20507d5810dd",
+      "status": "applied",
+      "firstSeen": "2026-11-21",
+      "lastSeen": "2026-11-21",
+      "occurrences": 1,
+      "closedOn": "2026-11-21"
+    },
+    {
+      "kind": "change",
+      "resourceId": "cnwl-recovery-college",
+      "name": "CNWL Recovery and Wellbeing College",
+      "area": "wider-support",
+      "field": "url",
+      "currentValue": "https://www.cnwl.nhs.uk/services/recovery-and-wellbeing-college/how-enrol-recovery-and-wellbeing-college",
+      "proposedValue": "https://www.cnwl.nhs.uk/services/recovery-and-wellbeing-college/how-to-become-a-student",
+      "reason": "The directory sends learners to the former enrolment URL, while the current NHS page contains the enrolment route.",
+      "sourceUrl": "https://www.cnwl.nhs.uk/services/recovery-and-wellbeing-college/how-to-become-a-student",
+      "evidence": "The NHS student page links to the college enrolment form and lists non-digital ways to enrol.",
+      "priority": "normal",
+      "key": "534ec95acff1f61b94c2c870924f02a56c381ffce80b5e1eff567607dac93cd6",
+      "status": "open",
+      "firstSeen": "2026-11-21",
+      "lastSeen": "2026-11-21",
+      "occurrences": 1
+    },
+    {
+      "kind": "change",
+      "resourceId": "ealing-adult-learning",
+      "name": "Learn Ealing",
+      "area": "ealing",
+      "field": "phone",
+      "currentValue": "",
+      "proposedValue": "020 8825 5577",
+      "reason": "The empty phone field omits the council’s published Learn Ealing enquiry number.",
+      "sourceUrl": "https://www.ealing.gov.uk/info/201108/learning_and_schools/2814/adult_learning",
+      "evidence": "The council gives this number in the contact section of its adult learning page.",
+      "priority": "normal",
+      "key": "ab38be70e399a4f5035f02ff8de39958fcf86cf7d9599d41225ceadfe1bb7ff9",
+      "status": "open",
+      "firstSeen": "2026-11-21",
+      "lastSeen": "2026-11-21",
+      "occurrences": 1
+    },
+    {
+      "kind": "change",
+      "resourceId": "ealing-adult-learning",
+      "name": "Learn Ealing",
+      "area": "ealing",
+      "field": "access",
+      "currentValue": "Browse the course listings and enrol using the details for your chosen course.",
+      "proposedValue": "Use the council’s Learn Ealing link to register online, then attend an information and advice session. You can call Learn Ealing if you need help getting started.",
+      "reason": "The council gives two enrolment steps, not just a course search.",
+      "sourceUrl": "https://www.ealing.gov.uk/info/201108/learning_and_schools/2814/adult_learning",
+      "evidence": "The enrolment section directs learners to register online and attend an IAG session. A contact number is provided below it.",
+      "priority": "normal",
+      "key": "368a5455c299074209a0dabe53c861fade4d6db191323df1e49a6f3d722ce7fe",
+      "status": "open",
+      "firstSeen": "2026-11-21",
+      "lastSeen": "2026-11-21",
+      "occurrences": 1
+    },
+    {
+      "kind": "change",
+      "resourceId": "ealing-adult-social-care",
+      "name": "Ealing Adult Social Care",
+      "area": "ealing",
+      "field": "url",
+      "currentValue": "https://www.ealing.gov.uk/info/201073/health_and_adult_social_care",
+      "proposedValue": "https://www.ealing.gov.uk/info/201082/what_to_expect_from_adult_social_care/2526/contacting_adult_social_care",
+      "reason": "The listed index requires extra navigation to reach the contact routes.",
+      "sourceUrl": "https://www.ealing.gov.uk/info/201082/what_to_expect_from_adult_social_care/2526/contacting_adult_social_care",
+      "evidence": "The council contact page links directly to the self-referral form and gives the same telephone number.",
+      "priority": "normal",
+      "key": "548a74e0a2d0a9a7c2e0b2f929a40c0ee64372ad6a53a67cb89fe43fc656e3b6",
+      "status": "open",
+      "firstSeen": "2026-11-21",
+      "lastSeen": "2026-11-21",
+      "occurrences": 1
+    },
+    {
+      "kind": "change",
+      "resourceId": "ealing-adult-social-care",
+      "name": "Ealing Adult Social Care",
+      "area": "ealing",
+      "field": "access",
+      "currentValue": "Call the adult social care contact centre or use the council website.",
+      "proposedValue": "Call the council or use its self-referral form. If you are contacting the council for someone else, make sure they know first; there is a separate form for representatives.",
+      "reason": "The council distinguishes asking for yourself from contacting it for somebody else.",
+      "sourceUrl": "https://www.ealing.gov.uk/info/201082/what_to_expect_from_adult_social_care/2526/contacting_adult_social_care",
+      "evidence": "The council lists the two forms and asks representatives to make the person aware before making contact.",
+      "priority": "normal",
+      "key": "c18fd96c092a62b5e2e2f039ac4983e5dbe7f11e60a556af0dcb96a51df9342e",
       "status": "open",
       "firstSeen": "2026-11-21",
       "lastSeen": "2026-11-21",
