@@ -1005,7 +1005,7 @@
     },
     {
       "id": "discovery-f94c53fe33450c38ec84",
-      "status": "proposed",
+      "status": "added",
       "firstSeen": "2026-11-21",
       "sourceCheckedOn": "2026-11-21",
       "resource": {
@@ -1045,11 +1045,15 @@
         "coverage"
       ],
       "evidence": "Current provider and NHS pages establish a free, appointment-based legal advice programme in Ealing with a public website route to request help.",
-      "limitations": "The two sources publish different telephone numbers, so none is reproduced. Current capacity, waiting time, accessibility and case eligibility were not established."
+      "limitations": "The two sources publish different telephone numbers, so none is reproduced. Current capacity, waiting time, accessibility and case eligibility were not established.",
+      "publishedResourceId": "ealing-discovered-67b573fba6fa",
+      "publishedCommit": "d48e3a06d6f21c1d20d7bcbdd2e76a863578e731",
+      "publishedOn": "2026-11-21",
+      "productionDeploymentId": "b62bfc56-e90a-4f9e-b14b-4da18ed4cb91"
     },
     {
       "id": "discovery-6013c4a8c6223ef43540",
-      "status": "proposed",
+      "status": "added",
       "firstSeen": "2026-11-21",
       "sourceCheckedOn": "2026-11-21",
       "resource": {
@@ -1089,11 +1093,15 @@
         "coverage"
       ],
       "evidence": "Provider and council pages confirm a current, inclusive multi-faith organisation for Barnet with public contact and participation routes.",
-      "limitations": "No upcoming event was shown on the provider homepage. Accessibility for individual activities and current membership arrangements were not established."
+      "limitations": "No upcoming event was shown on the provider homepage. Accessibility for individual activities and current membership arrangements were not established.",
+      "publishedResourceId": "barnet-discovered-7cd490d269ab",
+      "publishedCommit": "d48e3a06d6f21c1d20d7bcbdd2e76a863578e731",
+      "publishedOn": "2026-11-21",
+      "productionDeploymentId": "b62bfc56-e90a-4f9e-b14b-4da18ed4cb91"
     },
     {
       "id": "discovery-cc71c65f67545aecc71a",
-      "status": "proposed",
+      "status": "added",
       "firstSeen": "2026-11-21",
       "sourceCheckedOn": "2026-11-21",
       "resource": {
@@ -1133,11 +1141,15 @@
         "coverage"
       ],
       "evidence": "Current provider content and Barnet Council's official listing substantiate the borough role finder, free registration and support for people who need help getting involved.",
-      "limitations": "The sources do not guarantee suitable vacancies, expenses or accessibility; these depend on the individual opportunity."
+      "limitations": "The sources do not guarantee suitable vacancies, expenses or accessibility; these depend on the individual opportunity.",
+      "publishedResourceId": "barnet-discovered-591ab712c7e1",
+      "publishedCommit": "d48e3a06d6f21c1d20d7bcbdd2e76a863578e731",
+      "publishedOn": "2026-11-21",
+      "productionDeploymentId": "b62bfc56-e90a-4f9e-b14b-4da18ed4cb91"
     },
     {
       "id": "discovery-b78370a9b826b9c0e923",
-      "status": "proposed",
+      "status": "added",
       "firstSeen": "2026-11-21",
       "sourceCheckedOn": "2026-11-21",
       "resource": {
@@ -1177,7 +1189,11 @@
         "coverage"
       ],
       "evidence": "Two current university pages confirm a free supervised legal clinic in Hendon serving Barnet and wider North London, with a public online appointment route.",
-      "limitations": "Opening times, accessibility, waiting time and case capacity are not stated. An appointment request is not a guarantee that the clinic can assist."
+      "limitations": "Opening times, accessibility, waiting time and case capacity are not stated. An appointment request is not a guarantee that the clinic can assist.",
+      "publishedResourceId": "barnet-discovered-f4ca582b77fe",
+      "publishedCommit": "d48e3a06d6f21c1d20d7bcbdd2e76a863578e731",
+      "publishedOn": "2026-11-21",
+      "productionDeploymentId": "b62bfc56-e90a-4f9e-b14b-4da18ed4cb91"
     }
   ]
 }

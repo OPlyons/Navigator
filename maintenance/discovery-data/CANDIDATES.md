@@ -1,7 +1,7 @@
 # New resource suggestions
 
 Last saved search: 2026-11-21. 30 of 300 area/category combinations attempted.
-7 resources await publication. Search coverage is limited, not exhaustive.
+3 resources await publication. Search coverage is limited, not exhaustive.
 
 Candidates are public-source research only. They have not been added to the public directory. Eligible additions publish automatically after the normal quality checks; uncertain cases remain flagged. Existing listing reviews have their own progress and limits.
 
@@ -43,60 +43,4 @@ Category: Safety and abuse support
 - Evidence: Council service page read on 16 November 2026 confirms local coverage, support for all victims regardless of risk, telephone advice, risk assessments and safety planning for clients aged 16 and over and their children, and the listed phone and email.
 - Limitations: Current capacity and waiting times are not established. Contact details follow the council service page; no immediate response or cost claim is made.
 - Source: <https://pre.hillingdon.gov.uk/domestic-abuse/hillingdon-domestic-abuse-advocacy-service> — The current council page states the borough and age criteria, all-gender and all-risk support, service activities and direct confidential contact route.
-
-## Ealing Community Advice Programme — free legal advice — ealing
-Candidate: discovery-f94c53fe33450c38ec84. Source checked: 2026-11-21.
-Category: Legal advice and rights
-- What it offers: Free legal advice and assistance on employment, discrimination and human rights, housing, family, consumer and immigration law.
-- Who: Members of the public in Ealing seeking initial legal advice in one of the programme's areas.
-- Access: Use the West London Equality Centre website contact route to request an appointment. The service is appointment only.
-- Costs/checks: Ask whether the programme can help with your issue and confirm the current appointment arrangements before relying on support.
-- Coverage: Ealing; the provider also describes wider West London work.
-- Website: <https://www.wlec.net/>
-- Evidence: Current provider and NHS pages establish a free, appointment-based legal advice programme in Ealing with a public website route to request help.
-- Limitations: The two sources publish different telephone numbers, so none is reproduced. Current capacity, waiting time, accessibility and case eligibility were not established.
-- Source: <https://www.wlec.net/> — The current provider page confirms free legal advice through the Community Advice Programme, its subject areas, Ealing location and website contact route.
-- Source: <https://www.nhs.uk/services/service-directory/ealing-community-advice-programme/N10502093> — The NHS service profile confirms Ealing coverage, appointment-only self-referral and the programme's legal advice areas.
-
-## Barnet Multi Faith Forum — barnet
-Candidate: discovery-6013c4a8c6223ef43540. Source checked: 2026-11-21.
-Category: Faith and belief communities
-- What it offers: An inclusive multi-faith forum connecting faith communities, supporting social action and celebrating religious and cultural diversity.
-- Who: People of any faith in Barnet, including potential new members interested in the forum's community work and events.
-- Access: Email info@barnetmultifaithforum.org or use the provider website contact and mailing-list routes to ask about taking part.
-- Costs/checks: Check the provider website for current activities and joining arrangements before attending an event.
-- Coverage: London Borough of Barnet.
-- Website: <https://barnetmultifaithforum.org/>
-- Evidence: Provider and council pages confirm a current, inclusive multi-faith organisation for Barnet with public contact and participation routes.
-- Limitations: No upcoming event was shown on the provider homepage. Accessibility for individual activities and current membership arrangements were not established.
-- Source: <https://barnetmultifaithforum.org/> — The current provider page describes an inclusive welcome, events, contact route and mailing list.
-- Source: <https://www.barnet.gov.uk/directories/hate-crime-reporting-centres/barnet-multi-faith-forum> — Barnet Council confirms support for all faiths across Barnet, public access, free access and the public email.
-
-## Volunteering Barnet — find a volunteer role — barnet
-Candidate: discovery-cc71c65f67545aecc71a. Source checked: 2026-11-21.
-Category: Learning, work and volunteering
-- What it offers: A local volunteer opportunity finder with help registering, applying for roles and discussing accessibility or other questions.
-- Who: People looking for volunteering opportunities in and around Barnet.
-- Access: Register free on the opportunity database, then search by postcode and apply for suitable roles. Contact Volunteering Barnet if you need help.
-- Costs/checks: An email address is needed for online registration. Check each role's requirements, location, expenses and accessibility before applying.
-- Coverage: Barnet; individual role locations and eligibility vary.
-- Website: <https://volunteeringbarnet.org.uk/find-a-role/>
-- Evidence: Current provider content and Barnet Council's official listing substantiate the borough role finder, free registration and support for people who need help getting involved.
-- Limitations: The sources do not guarantee suitable vacancies, expenses or accessibility; these depend on the individual opportunity.
-- Source: <https://volunteeringbarnet.org.uk/find-a-role/> — The provider page confirms free registration, postcode-based role search, application steps and help with accessibility questions.
-- Source: <https://www.barnet.gov.uk/community/get-involved-your-community/volunteering-barnet> — Barnet Council identifies Volunteering Barnet as the borough volunteer centre and describes application and one-to-one support.
-
-## Middlesex University Legal Advice Clinic — barnet
-Candidate: discovery-b78370a9b826b9c0e923. Source checked: 2026-11-21.
-Category: Legal advice and rights
-- What it offers: Free legal advice from law students working under qualified solicitor supervision, covering contract, employment and family matters.
-- Who: Members of the local community, including Barnet residents, who need initial advice in the clinic's listed areas.
-- Access: Use the Book an appointment link on the clinic website to submit an enquiry for assessment.
-- Costs/checks: The clinic assesses requests before confirming whether it can help. It gives advice and next steps; specialist referral or signposting may be offered where needed.
-- Coverage: Barnet and the wider North London community; the clinic is on the Hendon campus.
-- Website: <https://www.mdx.ac.uk/about-us/our-faculties/faculty-of-business-and-law/legal-advice-clinic/>
-- Evidence: Two current university pages confirm a free supervised legal clinic in Hendon serving Barnet and wider North London, with a public online appointment route.
-- Limitations: Opening times, accessibility, waiting time and case capacity are not stated. An appointment request is not a guarantee that the clinic can assist.
-- Source: <https://www.mdx.ac.uk/about-us/our-faculties/faculty-of-business-and-law/legal-advice-clinic/> — The current clinic page confirms free supervised advice, the legal areas, online appointment route and service process.
-- Source: <https://www.mdx.ac.uk/news/2026/5/middlesex-university-law-clinic/> — The university's May 2026 article confirms Barnet and wider North London coverage, Hendon location and clinic subjects.
 
