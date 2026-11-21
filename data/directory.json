@@ -27392,6 +27392,1927 @@
           "https://www.richmond.gov.uk/reading_groups"
         ]
       }
+    },
+    {
+      "id": "barnet-discovered-bb3803d3a5f9",
+      "directoryId": "barnet",
+      "name": "Homeless Action in Barnet — day centre",
+      "category": "Housing and homelessness",
+      "description": "A daytime place to get housing advice, a meal, a shower or help with washing clothes.",
+      "who": "People who are homeless or at risk of losing their home and have a connection to Barnet. Ask the team if you are unsure what counts.",
+      "access": "If you are sleeping rough or have nowhere to stay, drop in on a weekday between 9am and 12.30pm at 36B Woodhouse Road, North Finchley, N12 0RG. Otherwise, call the team to make an appointment.",
+      "check": "This is a day centre. There is no overnight accommodation here.",
+      "coverage": "Barnet; the day centre is in North Finchley.",
+      "url": "https://www.habcentre.org/get-help/",
+      "sourceUrl": "https://www.habcentre.org/get-help/",
+      "sourceOwner": "Homeless Action in Barnet",
+      "phone": "",
+      "picture": "home",
+      "tags": [
+        "Homeless Action in Barnet — day centre",
+        "Housing and homelessness",
+        "housing advice",
+        "rough sleeping",
+        "showers",
+        "laundry",
+        "homeless",
+        "housing"
+      ],
+      "audiences": [],
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "check",
+          "coverage",
+          "url"
+        ],
+        "notes": "The provider distinguishes morning drop-in access from appointments. It confirms there are no beds at the centre. Costs and waiting times were not verified.",
+        "evidenceUrls": [
+          "https://www.habcentre.org/get-help/"
+        ]
+      }
+    },
+    {
+      "id": "barnet-discovered-fde4b129238c",
+      "directoryId": "barnet",
+      "name": "Finchley Foodbank",
+      "category": "Food and essentials",
+      "description": "Emergency groceries for three days, with some toiletries and household essentials.",
+      "who": "People of any age living in the London Borough of Barnet who are struggling to afford food.",
+      "access": "No voucher or referral needed. Register at the hall behind St Mary’s, 279 High Road, East Finchley, N2 8HG. Arrive between noon and 1pm on a Tuesday or Saturday for your first visit.",
+      "check": "Bring recent proof of address for each adult over 18 you are collecting for. If you do not have it for the first visit, the foodbank says to bring it next time. Check the provider page for what to bring for a baby under one.",
+      "coverage": "Barnet residents; collection in East Finchley.",
+      "url": "https://www.finchleyfoodbank.org.uk/get-help",
+      "sourceUrl": "https://www.finchleyfoodbank.org.uk/get-help",
+      "sourceOwner": "Finchley Foodbank",
+      "phone": "",
+      "picture": "community",
+      "tags": [
+        "Finchley Foodbank",
+        "Food and essentials",
+        "food bank",
+        "food parcel",
+        "groceries",
+        "no voucher",
+        "toiletries"
+      ],
+      "audiences": [],
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "check",
+          "coverage",
+          "url"
+        ],
+        "notes": "The provider explains who can register, its first-visit cut-off, evidence requirements and ongoing appointments. No promise of particular items or continued supply.",
+        "evidenceUrls": [
+          "https://www.finchleyfoodbank.org.uk/get-help"
+        ]
+      }
+    },
+    {
+      "id": "barnet-discovered-bfded5e51953",
+      "directoryId": "barnet",
+      "name": "Inclusion Barnet — Touchpoint Peer Support",
+      "category": "Disability and neurodiversity",
+      "description": "Work one to one with a peer who has experience of disability. You choose a goal, such as using a local service, getting out or finding equipment.",
+      "who": "People who identify as disabled, live, work or study in Barnet, and are finding it hard to get the support they need. This can include neurodivergence and mental health difficulties.",
+      "access": "Use the self-referral form on the Touchpoint page. For help with the form, email touchpoint@inclusionbarnet.org.uk or call the team.",
+      "check": "Free. Waiting times vary, and the service accepts up to two referrals per person in 12 months.",
+      "coverage": "People who live, work or study in Barnet.",
+      "url": "https://www.inclusionbarnet.org.uk/touchpoint-support/",
+      "sourceUrl": "https://www.inclusionbarnet.org.uk/touchpoint-support/",
+      "sourceOwner": "Inclusion Barnet",
+      "phone": "",
+      "picture": "community",
+      "tags": [
+        "Inclusion Barnet — Touchpoint Peer Support",
+        "Disability and neurodiversity",
+        "peer support",
+        "disabled people",
+        "one to one",
+        "neurodiversity",
+        "access",
+        "independence"
+      ],
+      "audiences": [
+        "disabled",
+        "neurodivergent"
+      ],
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "check",
+          "coverage",
+          "url"
+        ],
+        "notes": "The provider confirms lived-experience peer support, self-referral, eligibility, cost and the referral limit. No appointment or waiting time was confirmed.",
+        "evidenceUrls": [
+          "https://www.inclusionbarnet.org.uk/touchpoint-support/"
+        ]
+      }
+    },
+    {
+      "id": "barnet-discovered-b3f8d7031e91",
+      "directoryId": "barnet",
+      "name": "Barnet Wellbeing Hub",
+      "category": "Mental health and wellbeing",
+      "description": "Talk with a wellbeing navigator about what you would like to change and which local groups or support might help.",
+      "who": "People aged 17½ or over who live in Barnet and are registered with a Barnet GP.",
+      "access": "Use the self-referral link on the Hub page, or email info@barnetwellbeing.org.uk to arrange a conversation.",
+      "check": "Free. Appointments are available by contacting the team; the Hub is closed to walk-ins.",
+      "coverage": "Barnet residents registered with a Barnet GP.",
+      "url": "https://www.barnetwellbeing.org.uk/wellbeing-hub",
+      "sourceUrl": "https://www.barnetwellbeing.org.uk/wellbeing-hub",
+      "sourceOwner": "Barnet Wellbeing Service / Meridian Wellbeing",
+      "phone": "",
+      "picture": "talk",
+      "tags": [
+        "Barnet Wellbeing Hub",
+        "Mental health and wellbeing",
+        "social prescribing",
+        "wellbeing navigator",
+        "self-referral",
+        "local activities",
+        "mental health"
+      ],
+      "audiences": [],
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "check",
+          "coverage",
+          "url"
+        ],
+        "notes": "The specific access section of the partnership website gives residential and GP requirements and cost; the Hub programme page confirms self-referral and no walk-in access. No onward service or appointment is guaranteed.",
+        "evidenceUrls": [
+          "https://www.barnetwellbeing.org.uk/wellbeing-hub",
+          "https://www.barnetwellbeing.org.uk/"
+        ]
+      }
+    },
+    {
+      "id": "barnet-discovered-22e8292ad0aa",
+      "directoryId": "barnet",
+      "name": "GoodGym Barnet",
+      "category": "Sport and movement",
+      "description": "Walk, run or cycle as part of a local volunteering group. Sessions might include gardening or helping a community project.",
+      "who": "Adults aged 18 or over interested in combining movement and practical volunteering in Barnet.",
+      "access": "Choose Sessions on the Barnet group page and sign up for a suitable activity. The page also has a contact for questions before joining.",
+      "check": "Taking part is free. Check the meeting point, activity and physical demands for your chosen session.",
+      "coverage": "Community projects in Barnet; meeting points vary.",
+      "url": "https://www.goodgym.org/v3/areas/barnet",
+      "sourceUrl": "https://www.goodgym.org/v3/areas/barnet",
+      "sourceOwner": "GoodGym",
+      "phone": "",
+      "picture": "community",
+      "tags": [
+        "GoodGym Barnet",
+        "Sport and movement",
+        "walking",
+        "running",
+        "cycling",
+        "volunteering",
+        "gardening",
+        "meet people"
+      ],
+      "audiences": [],
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "check",
+          "coverage",
+          "url"
+        ],
+        "notes": "GoodGym confirms the age minimum across its activities. The dated example is evidence for that rule, not an upcoming session.",
+        "evidenceUrls": [
+          "https://www.goodgym.org/v3/areas/barnet",
+          "https://www.goodgym.org/group-runs",
+          "https://www.goodgym.org/happenings/barnet-environmental-project-micro-forest?legacy=true"
+        ]
+      }
+    },
+    {
+      "id": "barnet-discovered-8a0ac1893f2c",
+      "directoryId": "barnet",
+      "name": "artsdepot Creative Circle — writing group for people aged 55+",
+      "category": "Arts and creativity",
+      "description": "A group for trying poetry and prose and sharing your writing with others. It meets on Monday mornings in term time in North Finchley.",
+      "who": "People aged 55 and over who would like to write with others.",
+      "access": "Choose a dated session on the project page, or contact the artsdepot box office to ask about a free taster.",
+      "check": "The current term ends 14 December 2026. Sessions cost £10, with a £7 rate if money is tight and a £15 supporter rate. Check the page for future dates and prices.",
+      "coverage": "At artsdepot, 5 Nether Street, North Finchley, N12 0GA.",
+      "url": "https://www.artsdepot.co.uk/project/creative-circle/",
+      "sourceUrl": "https://www.artsdepot.co.uk/project/creative-circle/",
+      "sourceOwner": "artsdepot",
+      "phone": "",
+      "picture": "book",
+      "tags": [
+        "artsdepot Creative Circle — writing group for people aged 55+",
+        "Arts and creativity",
+        "creative writing",
+        "poetry",
+        "arts",
+        "older people",
+        "social group"
+      ],
+      "audiences": [
+        "older"
+      ],
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "check",
+          "coverage",
+          "url"
+        ],
+        "notes": "The 55+ programme and term-time schedule are described on the provider’s ongoing projects page. Autumn 2026 prices and the taster booking route were checked on the project page; future terms and spaces were not confirmed.",
+        "evidenceUrls": [
+          "https://www.artsdepot.co.uk/project/creative-circle/",
+          "https://www.artsdepot.co.uk/project/creative-opportunities-for-older-adults/"
+        ]
+      }
+    },
+    {
+      "id": "islington-discovered-e3ce54e7e804",
+      "directoryId": "islington",
+      "name": "The Margins Project — Union Chapel drop-in",
+      "category": "Housing and homelessness",
+      "description": "A hot meal and a chance to ask about housing or benefits. Showers and laundry are available in limited numbers.",
+      "who": "People experiencing homelessness or hardship.",
+      "access": "Go to the entrance behind Union Chapel on Compton Avenue on Monday or Wednesday, 11am–1pm. You can also contact the advice team through the project page.",
+      "check": "Urgent advice at the drop-in is first come, first served. Book ahead for advice on other days. This is a day service, not a place to sleep.",
+      "coverage": "Union Chapel, Islington.",
+      "url": "https://unionchapel.org.uk/projects/margins",
+      "sourceUrl": "https://unionchapel.org.uk/projects/margins",
+      "sourceOwner": "Union Chapel",
+      "phone": "",
+      "picture": "home",
+      "tags": [
+        "The Margins Project — Union Chapel drop-in",
+        "Housing and homelessness",
+        "housing advice",
+        "homelessness",
+        "rough sleeping",
+        "hot meal",
+        "showers",
+        "laundry"
+      ],
+      "audiences": [],
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "check",
+          "coverage",
+          "url"
+        ],
+        "notes": "The provider describes a day service, two drop-ins and separate appointment routes. Showers, laundry and advice slots are limited; no bed or appointment is promised.",
+        "evidenceUrls": [
+          "https://unionchapel.org.uk/projects/margins"
+        ]
+      }
+    },
+    {
+      "id": "islington-discovered-05f45a946bb5",
+      "directoryId": "islington",
+      "name": "FoodCycle Finsbury Park — community meal",
+      "category": "Food and essentials",
+      "description": "Sit down with other people for a free hot meal cooked by local volunteers.",
+      "who": "Anyone who would like a meal or some company.",
+      "access": "Come to Andover Estate Community Centre, Corker Walk, N7 7RY. The meal is listed for Saturdays at 1pm; no booking is needed.",
+      "check": "This is a meal to eat together, rather than a food parcel to take home. The venue lists level access and an accessible toilet.",
+      "coverage": "Finsbury Park, Islington.",
+      "url": "https://foodcycle.org.uk/location/foodcycle-finsbury-park/",
+      "sourceUrl": "https://foodcycle.org.uk/location/foodcycle-finsbury-park/",
+      "sourceOwner": "FoodCycle",
+      "phone": "",
+      "picture": "community",
+      "tags": [
+        "FoodCycle Finsbury Park — community meal",
+        "Food and essentials",
+        "food",
+        "free meal",
+        "community lunch",
+        "eat together",
+        "loneliness",
+        "company"
+      ],
+      "audiences": [],
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "check",
+          "coverage",
+          "url"
+        ],
+        "notes": "The local programme page confirms the open invitation, free meal, venue, access details and time. Dietary requirements or spaces on a given day were not checked.",
+        "evidenceUrls": [
+          "https://foodcycle.org.uk/location/foodcycle-finsbury-park/"
+        ]
+      }
+    },
+    {
+      "id": "islington-discovered-b4de53048cb4",
+      "directoryId": "islington",
+      "name": "Islington People’s Rights — benefits and debt advice",
+      "category": "Money and benefits",
+      "description": "Independent advice on benefit claims, appeals, bills and debt.",
+      "who": "Islington residents with a benefits or debt question.",
+      "access": "Call the advice line listed on the service page on Monday, Tuesday or Friday, 2pm–4pm. The team can book an appointment in Holloway or at St Luke’s.",
+      "check": "Advice is free and confidential. Book through the advice line before going to a centre.",
+      "coverage": "Islington residents.",
+      "url": "https://www.ipradvice.org.uk/services/",
+      "sourceUrl": "https://www.ipradvice.org.uk/services/",
+      "sourceOwner": "Islington People’s Rights",
+      "phone": "",
+      "picture": "people",
+      "tags": [
+        "Islington People’s Rights — benefits and debt advice",
+        "Money and benefits",
+        "welfare benefits",
+        "debt",
+        "benefit appeal",
+        "bills",
+        "money advice"
+      ],
+      "audiences": [],
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "check",
+          "coverage",
+          "url"
+        ],
+        "notes": "The provider confirms borough eligibility, free advice and telephone booking. A specific appointment time or outcome has not been confirmed.",
+        "evidenceUrls": [
+          "https://www.ipradvice.org.uk/services/"
+        ]
+      }
+    },
+    {
+      "id": "islington-discovered-6b81bb7d4579",
+      "directoryId": "islington",
+      "name": "Claremont Project — classes and groups for people aged 55+",
+      "category": "Social connection and activities",
+      "description": "Meet other people through regular classes, group activities and events at a community centre in Angel.",
+      "who": "People aged 55 and over in Islington and surrounding boroughs.",
+      "access": "Fill in the membership enquiry on the website or ring the centre to arrange a chat. Become a member before getting a class ticket.",
+      "check": "Membership is free. Classes can have a charge; check the timetable before choosing. The centre takes card payments for tickets.",
+      "coverage": "Angel, Islington; membership also includes surrounding boroughs.",
+      "url": "https://www.claremont-project.org/membership-centre/",
+      "sourceUrl": "https://www.claremont-project.org/membership-centre/",
+      "sourceOwner": "Claremont Project",
+      "phone": "",
+      "picture": "community",
+      "tags": [
+        "Claremont Project — classes and groups for people aged 55+",
+        "Social connection and activities",
+        "older people",
+        "community centre",
+        "classes",
+        "social groups",
+        "meet people",
+        "activities"
+      ],
+      "audiences": [
+        "older"
+      ],
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "check",
+          "coverage",
+          "url"
+        ],
+        "notes": "The provider’s membership and home pages distinguish free membership from activity tickets. Fees and places for individual sessions were not checked.",
+        "evidenceUrls": [
+          "https://www.claremont-project.org/membership-centre/",
+          "https://www.claremont-project.org/"
+        ]
+      }
+    },
+    {
+      "id": "islington-discovered-43b724daa381",
+      "directoryId": "islington",
+      "name": "Freightliners City Farm — free visits",
+      "category": "Nature and outdoors",
+      "description": "Spend time outdoors at a working city farm and explore at your own pace.",
+      "who": "Individuals, friends and families are welcome during public opening hours.",
+      "access": "Drop in at Sheringham Road, N7 8PF. Use the visit page to check seasonal opening times before travelling.",
+      "check": "Public entry is free. Organised community and school groups need to book ahead.",
+      "coverage": "Islington, near Highbury & Islington station.",
+      "url": "https://www.freightlinersfarm.org.uk/visit",
+      "sourceUrl": "https://www.freightlinersfarm.org.uk/visit",
+      "sourceOwner": "Freightliners City Farm",
+      "phone": "",
+      "picture": "community",
+      "tags": [
+        "Freightliners City Farm — free visits",
+        "Nature and outdoors",
+        "city farm",
+        "nature",
+        "outdoors",
+        "animals",
+        "free outing",
+        "family visit"
+      ],
+      "audiences": [],
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "check",
+          "coverage",
+          "url"
+        ],
+        "notes": "The provider confirms free individual and family visits and separate group booking rules; no organised group place or therapeutic programme is implied.",
+        "evidenceUrls": [
+          "https://www.freightlinersfarm.org.uk/visit"
+        ]
+      }
+    },
+    {
+      "id": "islington-discovered-0b1c99e4c374",
+      "directoryId": "islington",
+      "name": "The Elfrida Society — inclusive sport",
+      "category": "Sport and movement",
+      "description": "Try tennis, fitness, football or cricket with a group. Islington venues include the Tennis Centre and Gym and Caxton Community House.",
+      "who": "Adults with learning disabilities and neurodivergent adults.",
+      "access": "Use the sports team contact on the provider page to ask about joining your chosen session. The page also links to individual activity flyers.",
+      "check": "The charity lists its sports project as free to attend. Check the date, venue and access arrangements for your activity before going.",
+      "coverage": "Islington; local venues vary by sport and season.",
+      "url": "https://www.elfrida.com/Inclusive_sports.html",
+      "sourceUrl": "https://www.elfrida.com/Inclusive_sports.html",
+      "sourceOwner": "The Elfrida Society",
+      "phone": "",
+      "picture": "community",
+      "tags": [
+        "The Elfrida Society — inclusive sport",
+        "Sport and movement",
+        "accessible sport",
+        "learning disability",
+        "neurodivergent",
+        "tennis",
+        "football",
+        "cricket",
+        "exercise"
+      ],
+      "audiences": [
+        "disabled",
+        "neurodivergent"
+      ],
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "check",
+          "coverage",
+          "url"
+        ],
+        "notes": "The programme page confirms the adult audience, local activities and direct contact. The provider’s welcome booklet confirms free attendance; a place and individual access requirements were not confirmed.",
+        "evidenceUrls": [
+          "https://www.elfrida.com/Inclusive_sports.html",
+          "https://www.elfrida.com/assets/docs/Welcome-to-the-Elfrida-Soceity.pdf"
+        ]
+      }
+    },
+    {
+      "id": "hammersmith-fulham-discovered-82ad1b34fa3f",
+      "directoryId": "hammersmith-fulham",
+      "name": "Hammersmith and Fulham Foodbank — getting a food parcel",
+      "category": "Food and essentials",
+      "description": "Emergency food parcels for people who cannot afford food.",
+      "who": "People in or around Hammersmith and Fulham who need emergency food.",
+      "access": "Ask a local agency you already know about a foodbank voucher. If unsure where to start, ask H&F Citizens Advice or contact the foodbank for help finding an agency.",
+      "check": "The agency decides whether to issue a voucher. Take your referral to a collection centre and check its opening times first.",
+      "coverage": "Hammersmith and Fulham and the surrounding area.",
+      "url": "https://hammersmithfulham.foodbank.org.uk/get-help/how-to-get-help/",
+      "sourceUrl": "https://hammersmithfulham.foodbank.org.uk/get-help/how-to-get-help/",
+      "sourceOwner": "Hammersmith and Fulham Foodbank",
+      "phone": "",
+      "picture": "community",
+      "tags": [
+        "Hammersmith and Fulham Foodbank — getting a food parcel",
+        "Food and essentials",
+        "food bank",
+        "food parcel",
+        "voucher",
+        "emergency food",
+        "cannot afford food"
+      ],
+      "audiences": [],
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "coverage",
+          "url",
+          "check"
+        ],
+        "notes": "The provider distinguishes asking for help from obtaining a voucher. Individual eligibility, stock and availability were not confirmed.",
+        "evidenceUrls": [
+          "https://hammersmithfulham.foodbank.org.uk/get-help/how-to-get-help/"
+        ]
+      }
+    },
+    {
+      "id": "hammersmith-fulham-discovered-57e36bc956d9",
+      "directoryId": "hammersmith-fulham",
+      "name": "Carers Network — Hammersmith and Fulham carers support groups",
+      "category": "Carers and family",
+      "description": "Meet other unpaid carers in local groups and ask about a carer’s assessment.",
+      "who": "Adult unpaid carers looking after someone over 18 who lives in Hammersmith and Fulham.",
+      "access": "Use the online registration form yourself. Ask the team for the next local group.",
+      "check": "Check the current venue, booking arrangements and any costs before attending.",
+      "coverage": "Groups in Hammersmith and Fulham; eligibility is based on where the person receiving care lives.",
+      "url": "https://www.carers-network.org.uk/help-and-advice/register-for-support",
+      "sourceUrl": "https://www.carers-network.org.uk/help-and-advice/register-for-support",
+      "sourceOwner": "Carers Network",
+      "phone": "",
+      "picture": "community",
+      "tags": [
+        "Carers Network — Hammersmith and Fulham carers support groups",
+        "Carers and family",
+        "unpaid carer",
+        "peer support",
+        "carer assessment",
+        "support group",
+        "caring for someone"
+      ],
+      "audiences": [
+        "carers"
+      ],
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "coverage",
+          "url"
+        ],
+        "notes": "The provider confirms who can register directly. West London NHS Trust describes the Hammersmith and Fulham support groups. Individual session costs, dates and availability were not confirmed.",
+        "evidenceUrls": [
+          "https://www.carers-network.org.uk/help-and-advice/register-for-support",
+          "https://www.westlondon.nhs.uk/our-services/adult/iapt/IAPT-Hammersmith_Fulham-back-track-iapt/support-carers"
+        ]
+      }
+    },
+    {
+      "id": "hammersmith-fulham-discovered-085abc97d403",
+      "directoryId": "hammersmith-fulham",
+      "name": "Hammersmith and Fulham Law Centre — housing advice",
+      "category": "Legal advice and rights",
+      "description": "Advice if you face eviction or homelessness, or if poor conditions in your rented home are affecting your health.",
+      "who": "People with a housing problem such as a possession notice, homelessness or serious disrepair.",
+      "access": "Email reception@hflaw.org.uk or use the contact link on the housing advice page to ask for help.",
+      "check": "Legal aid may cover all or part of the cost if you qualify. The centre does not handle housing transfers or neighbour disputes.",
+      "coverage": "Housing team based at Hammersmith Library, London W6.",
+      "url": "https://hflaw.org.uk/housing/",
+      "sourceUrl": "https://hflaw.org.uk/housing/",
+      "sourceOwner": "Hammersmith and Fulham Law Centre",
+      "phone": "",
+      "picture": "book",
+      "tags": [
+        "Hammersmith and Fulham Law Centre — housing advice",
+        "Legal advice and rights",
+        "housing",
+        "homelessness",
+        "eviction",
+        "housing rights",
+        "legal aid",
+        "disrepair"
+      ],
+      "audiences": [],
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "coverage",
+          "url",
+          "check"
+        ],
+        "notes": "The housing team describes legal aid as conditional. A local office is confirmed, but no exclusive borough catchment or guarantee of representation is claimed.",
+        "evidenceUrls": [
+          "https://hflaw.org.uk/housing/"
+        ]
+      }
+    },
+    {
+      "id": "hammersmith-fulham-discovered-858a7d72f566",
+      "directoryId": "hammersmith-fulham",
+      "name": "Action on Disability — H&F welfare benefits advice",
+      "category": "Money and benefits",
+      "description": "Get help with benefit claim forms, rejected claims, reconsiderations and appeals.",
+      "who": "Disabled or ill people of any age who live in Hammersmith and Fulham, including families and carers looking for support.",
+      "access": "Complete the online request form on the service page. The team will get in touch to discuss your situation.",
+      "check": "Advice is free. Ask about a phone, online or face-to-face appointment.",
+      "coverage": "Hammersmith and Fulham residents.",
+      "url": "https://aod.org.uk/welfare-benefits/hf-welfare-benefits-service/",
+      "sourceUrl": "https://aod.org.uk/welfare-benefits/hf-welfare-benefits-service/",
+      "sourceOwner": "Action on Disability",
+      "phone": "",
+      "picture": "people",
+      "tags": [
+        "Action on Disability — H&F welfare benefits advice",
+        "Money and benefits",
+        "disability benefits",
+        "PIP",
+        "universal credit",
+        "appeal",
+        "claim form",
+        "mandatory reconsideration"
+      ],
+      "audiences": [
+        "disabled",
+        "carers"
+      ],
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "coverage",
+          "url",
+          "check"
+        ],
+        "notes": "The provider confirms free advice, residence requirements and direct requests. Individual entitlement, response time and availability of representation were not verified.",
+        "evidenceUrls": [
+          "https://aod.org.uk/welfare-benefits/hf-welfare-benefits-service/"
+        ]
+      }
+    },
+    {
+      "id": "hammersmith-fulham-discovered-0b402b25ded8",
+      "directoryId": "hammersmith-fulham",
+      "name": "Get Out There! — community gardening",
+      "category": "Nature and outdoors",
+      "description": "Join a group of volunteers who look after local gardens and green spaces. Learn gardening skills and meet people outdoors.",
+      "who": "People interested in active outdoor volunteering. No gardening experience is needed.",
+      "access": "Email volunteering@hcga.org.uk or fill in the expression of interest form on the project page.",
+      "check": "The group travels together to different sites. Ask where to meet and whether the tasks suit you.",
+      "coverage": "Hammersmith and Fulham and other parts of west London.",
+      "url": "https://hcga.org.uk/get-out-there/",
+      "sourceUrl": "https://hcga.org.uk/get-out-there/",
+      "sourceOwner": "Hammersmith Community Gardens Association",
+      "phone": "",
+      "picture": "community",
+      "tags": [
+        "Get Out There! — community gardening",
+        "Nature and outdoors",
+        "gardening",
+        "outdoors",
+        "volunteering",
+        "nature",
+        "meet people"
+      ],
+      "audiences": [],
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "coverage",
+          "url",
+          "check"
+        ],
+        "notes": "The provider describes a weekly volunteer group and a direct enquiry route. Minimum age, specific access arrangements, costs and places were not confirmed.",
+        "evidenceUrls": [
+          "https://hcga.org.uk/get-out-there/"
+        ]
+      }
+    },
+    {
+      "id": "hammersmith-fulham-discovered-c6f824dcc0c7",
+      "directoryId": "hammersmith-fulham",
+      "name": "Hestia — Hammersmith and Fulham Mental Health Community Support",
+      "category": "Mental health and wellbeing",
+      "description": "Support may include a peer mentor, befriending, community workshops or one-to-one help with recovery goals.",
+      "who": "People aged 18 or over with a mental health need who live in Hammersmith and Fulham or have a GP in the borough.",
+      "access": "Ask your GP or local Mental Health Integrated Network Team about a referral.",
+      "check": "The support offered depends on what you need. Ask about waiting times and any costs when discussing a referral.",
+      "coverage": "Hammersmith and Fulham residents or people registered with a GP in the borough.",
+      "url": "https://www.hestia.org/hammersmith-and-fulham-mental-health-community-support-service",
+      "sourceUrl": "https://www.hestia.org/hammersmith-and-fulham-mental-health-community-support-service",
+      "sourceOwner": "Hestia",
+      "phone": "",
+      "picture": "talk",
+      "tags": [
+        "Hestia — Hammersmith and Fulham Mental Health Community Support",
+        "Mental health and wellbeing",
+        "peer mentor",
+        "peer support",
+        "befriending",
+        "recovery",
+        "social connection"
+      ],
+      "audiences": [],
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "coverage",
+          "url",
+          "check"
+        ],
+        "notes": "Hestia identifies a GP or local mental health team route for individuals. The page does not offer a direct self-referral route or confirm fees, waiting times or individual availability.",
+        "evidenceUrls": [
+          "https://www.hestia.org/hammersmith-and-fulham-mental-health-community-support-service"
+        ]
+      }
+    },
+    {
+      "id": "hounslow-discovered-6895c1c99c9d",
+      "directoryId": "hounslow",
+      "name": "Hounslow FoodBox — emergency food parcels",
+      "category": "Food and essentials",
+      "description": "Emergency food parcels and basic supplies for households struggling to afford food.",
+      "who": "People living in the London Borough of Hounslow who need emergency food.",
+      "access": "Ask a registered FoodBox partner, such as the council Community Hub, about a voucher. If you are unsure where to start, email info@hounslowfoodbox.org.uk and ask for help finding a partner.",
+      "check": "You cannot refer yourself. Wait for FoodBox to confirm your parcel before travelling to collect it.",
+      "coverage": "London Borough of Hounslow; collection in Brentford.",
+      "url": "https://hounslowfoodbox.org.uk/need-support/",
+      "sourceUrl": "https://hounslowfoodbox.org.uk/need-support/",
+      "sourceOwner": "Hounslow Community FoodBox",
+      "phone": "",
+      "picture": "community",
+      "tags": [
+        "Hounslow FoodBox — emergency food parcels",
+        "Food and essentials",
+        "foodbank",
+        "food vouchers",
+        "food parcels",
+        "emergency groceries",
+        "Brentford"
+      ],
+      "audiences": [],
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "check",
+          "url",
+          "coverage"
+        ],
+        "notes": "The provider explains partner referral and collection. Contents, special dietary requests and delivery depend on stock or volunteers.",
+        "evidenceUrls": [
+          "https://hounslowfoodbox.org.uk/need-support/"
+        ]
+      }
+    },
+    {
+      "id": "hounslow-discovered-a487743bcee3",
+      "directoryId": "hounslow",
+      "name": "Muslim Hands — Hounslow Open Kitchen",
+      "category": "Food and essentials",
+      "description": "A community kitchen serving a free hot meal every day.",
+      "who": "Anyone in need of a meal.",
+      "access": "Go to 514 Great West Road, Hounslow TW5 0TE. You do not need a referral or food bank voucher.",
+      "check": "The kitchen lists service from 1pm to 2pm, including weekends and bank holidays. Check the provider page for changes before travelling.",
+      "coverage": "Hounslow, west London.",
+      "url": "https://muslimhands.org.uk/giving/uk-projects/the-open-kitchen",
+      "sourceUrl": "https://muslimhands.org.uk/giving/uk-projects/the-open-kitchen",
+      "sourceOwner": "Muslim Hands UK",
+      "phone": "",
+      "picture": "community",
+      "tags": [
+        "Muslim Hands — Hounslow Open Kitchen",
+        "Food and essentials",
+        "hot food",
+        "free lunch",
+        "community kitchen",
+        "no referral",
+        "food today"
+      ],
+      "audiences": [],
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "check",
+          "url",
+          "coverage"
+        ],
+        "notes": "Provider confirms the location, cost and serving times. Hounslow Council explicitly confirms no referral is needed.",
+        "evidenceUrls": [
+          "https://muslimhands.org.uk/giving/uk-projects/the-open-kitchen",
+          "https://www.hounslow.gov.uk/support-asylum-seekers/accommodation-essential-living-support/2"
+        ]
+      }
+    },
+    {
+      "id": "hounslow-discovered-457accfdd6f0",
+      "directoryId": "hounslow",
+      "name": "Hounslow Council — homelessness and housing advice",
+      "category": "Housing and homelessness",
+      "description": "Advice if you have nowhere to stay or are at risk of losing your home.",
+      "who": "People seeking help in Hounslow who are homeless now or worried they may become homeless within 56 days.",
+      "access": "Use the council’s online form or call its housing team. If you have nowhere to stay tonight, use the urgent contact on the page; an out-of-hours number is listed.",
+      "check": "If you are still in hospital and have nowhere to return to, tell ward staff so they can contact the housing team. The council assesses what help it can offer.",
+      "coverage": "London Borough of Hounslow.",
+      "url": "https://www.hounslow.gov.uk/homelessness/homeless-worried-becoming-homeless",
+      "sourceUrl": "https://www.hounslow.gov.uk/homelessness/homeless-worried-becoming-homeless",
+      "sourceOwner": "London Borough of Hounslow",
+      "phone": "",
+      "picture": "home",
+      "tags": [
+        "Hounslow Council — homelessness and housing advice",
+        "Housing and homelessness",
+        "somewhere to stay",
+        "homeless tonight",
+        "leaving hospital",
+        "housing advice",
+        "nowhere to go"
+      ],
+      "audiences": [],
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "check",
+          "url",
+          "coverage"
+        ],
+        "notes": "Source confirms direct access, the 56-day window and the route from hospital. No promise of accommodation; entitlement depends on the individual assessment.",
+        "evidenceUrls": [
+          "https://www.hounslow.gov.uk/homelessness/homeless-worried-becoming-homeless",
+          "https://www.hounslow.gov.uk/homelessness/advice-support-youre-facing-homelessness"
+        ]
+      }
+    },
+    {
+      "id": "hounslow-discovered-723bbafdaf50",
+      "directoryId": "hounslow",
+      "name": "Hounslow Wellbeing Network",
+      "category": "Social connection and activities",
+      "description": "A free community network where residents can meet people through groups such as coffee and chat, crafts or gentle movement.",
+      "who": "Adults aged 18 or over who live in Hounslow, including people feeling lonely or rebuilding their social connections.",
+      "access": "Email hello@wellbeinghounslow.co.uk to ask about joining, or visit the Arts Centre in the Treaty Centre to sign up yourself.",
+      "check": "Ask for the current programme: activity dates and venues vary.",
+      "coverage": "Hounslow borough; the Arts Centre and other local venues.",
+      "url": "https://www.westlondon.nhs.uk/our-services/adult/mental-health-services/hounslow",
+      "sourceUrl": "https://www.westlondon.nhs.uk/our-services/adult/mental-health-services/hounslow",
+      "sourceOwner": "West London NHS Trust",
+      "phone": "",
+      "picture": "community",
+      "tags": [
+        "Hounslow Wellbeing Network",
+        "Social connection and activities",
+        "loneliness",
+        "meet people",
+        "peer connection",
+        "mental wellbeing",
+        "coffee and chat",
+        "crafts"
+      ],
+      "audiences": [],
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "check",
+          "url",
+          "coverage"
+        ],
+        "notes": "The NHS page supplies the contact and describes the network. The local health partnership confirms free membership, access routes and the adult audience. Current places or a fixed session schedule were not confirmed.",
+        "evidenceUrls": [
+          "https://www.westlondon.nhs.uk/our-services/adult/mental-health-services/hounslow",
+          "https://www.hounslowhealthandcare.org/news-and-campaigns/news/free-hounslow-wellbeing-network-residents"
+        ]
+      }
+    },
+    {
+      "id": "hounslow-discovered-380e2c2592d3",
+      "directoryId": "hounslow",
+      "name": "Inwood Park — all-ability cycling",
+      "category": "Sport and movement",
+      "description": "Try an adapted cycle, such as a hand cycle, trike or side-by-side bike, with instructors in an enclosed park area.",
+      "who": "Hounslow residents with learning or physical disabilities, including adults and children.",
+      "access": "Book an individual Saturday session using the booking link on the council page. Enter the cycling hub from Inwood Road, TW3 1XG.",
+      "check": "Check the booking for a time and space. Weekday sessions are for schools, community groups and organisations.",
+      "coverage": "Inwood Park, Hounslow.",
+      "url": "https://www.hounslow.gov.uk/transport-traffic/free-cycle-training/2",
+      "sourceUrl": "https://www.hounslow.gov.uk/transport-traffic/free-cycle-training/2",
+      "sourceOwner": "London Borough of Hounslow",
+      "phone": "",
+      "picture": "community",
+      "tags": [
+        "Inwood Park — all-ability cycling",
+        "Sport and movement",
+        "adapted cycling",
+        "cycling",
+        "accessible sport",
+        "trikes",
+        "disability"
+      ],
+      "audiences": [
+        "disabled"
+      ],
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "check",
+          "url",
+          "coverage"
+        ],
+        "notes": "The council lists the venue, adapted cycles, weekend booking and weekday group arrangements. No specific minimum age or fee is asserted.",
+        "evidenceUrls": [
+          "https://www.hounslow.gov.uk/transport-traffic/free-cycle-training/2"
+        ]
+      }
+    },
+    {
+      "id": "hounslow-discovered-e6909c9df54c",
+      "directoryId": "hounslow",
+      "name": "Cultivate London — Salopian Garden volunteering",
+      "category": "Nature and outdoors",
+      "description": "Join other volunteers to help look after a community garden in Isleworth. Beginners are welcome.",
+      "who": "People interested in gardening and meeting others; no gardening experience is needed.",
+      "access": "Drop in at the Salopian Garden, 689a London Road, Isleworth TW7 4ES, during its Wednesday volunteer session.",
+      "check": "The provider lists Wednesdays, 10am to 4pm. Check the current session before travelling.",
+      "coverage": "Isleworth, London Borough of Hounslow.",
+      "url": "https://cultivatelondon.org/get-involved/",
+      "sourceUrl": "https://cultivatelondon.org/get-involved/",
+      "sourceOwner": "Cultivate London",
+      "phone": "",
+      "picture": "community",
+      "tags": [
+        "Cultivate London — Salopian Garden volunteering",
+        "Nature and outdoors",
+        "community gardening",
+        "volunteering",
+        "outdoors",
+        "grow food",
+        "meet people",
+        "Isleworth"
+      ],
+      "audiences": [],
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "check",
+          "url",
+          "coverage"
+        ],
+        "notes": "The Salopian Garden has its own Wednesday sessions. It is a different site from the Hanwell garden already listed in Ealing. Accessibility arrangements and an age threshold were not specified.",
+        "evidenceUrls": [
+          "https://cultivatelondon.org/get-involved/",
+          "https://cultivatelondon.org/salopian-garden-history/"
+        ]
+      }
+    },
+    {
+      "id": "richmond-upon-thames-discovered-04f15c0a9783",
+      "directoryId": "richmond-upon-thames",
+      "name": "Richmond Borough Mind — Peer Group Network",
+      "category": "Mental health and wellbeing",
+      "description": "Meet people with lived experience of mental health difficulties through groups such as crafts, reading and conversation, online or in person.",
+      "who": "People over 18 living in Richmond or the surrounding areas.",
+      "access": "Fill in Mind’s own referral form and choose Peer Group Network. You can also email peer.network@rbmind.org to ask about a group.",
+      "check": "Check the group page for its dates, venue and any activity costs.",
+      "coverage": "Richmond upon Thames and surrounding areas.",
+      "url": "https://www.rbmind.org/support-for-adults/peer-group-activities/",
+      "sourceUrl": "https://www.rbmind.org/support-for-adults/peer-group-activities/",
+      "sourceOwner": "Richmond Borough Mind",
+      "phone": "",
+      "picture": "talk",
+      "tags": [
+        "Richmond Borough Mind — Peer Group Network",
+        "Mental health and wellbeing",
+        "peer support",
+        "meet people",
+        "mental health",
+        "crafts",
+        "reading",
+        "loneliness"
+      ],
+      "audiences": [],
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "coverage",
+          "url"
+        ],
+        "notes": "The provider confirms the age wording, self-referral and in-person and online options. Current spaces and activity-specific costs were not confirmed.",
+        "evidenceUrls": [
+          "https://www.rbmind.org/support-for-adults/peer-group-activities/"
+        ]
+      }
+    },
+    {
+      "id": "richmond-upon-thames-discovered-d274dd1c200f",
+      "directoryId": "richmond-upon-thames",
+      "name": "Richmond Foodbank — food parcels and vouchers",
+      "category": "Food and essentials",
+      "description": "Emergency food parcels for people struggling to afford food.",
+      "who": "People in food crisis who can obtain a voucher through a partner agency.",
+      "access": "Contact Citizens Advice Richmond to ask about a voucher. If you are unsure who to ask, contact Richmond Foodbank and they can help you find an agency.",
+      "check": "You need a voucher to collect a food parcel. Check the locations and opening times before travelling.",
+      "coverage": "Richmond Foodbank collection centres in the Richmond area.",
+      "url": "https://richmond.foodbank.org.uk/get-help/how-to-get-help/",
+      "sourceUrl": "https://richmond.foodbank.org.uk/get-help/how-to-get-help/",
+      "sourceOwner": "Richmond Foodbank (Vineyard Community Centre)",
+      "phone": "",
+      "picture": "community",
+      "tags": [
+        "Richmond Foodbank — food parcels and vouchers",
+        "Food and essentials",
+        "food bank",
+        "food voucher",
+        "emergency groceries",
+        "food parcel",
+        "cannot afford food"
+      ],
+      "audiences": [],
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "coverage",
+          "url",
+          "check"
+        ],
+        "notes": "Partners decide whether to issue a voucher. The directory does not issue vouchers and no same-day parcel is guaranteed.",
+        "evidenceUrls": [
+          "https://richmond.foodbank.org.uk/get-help/how-to-get-help/"
+        ]
+      }
+    },
+    {
+      "id": "richmond-upon-thames-discovered-afd5993bf816",
+      "directoryId": "richmond-upon-thames",
+      "name": "Ruils — volunteer befriending",
+      "category": "Disability and neurodiversity",
+      "description": "A volunteer can visit for a chat, go for a short walk with you or join you at a community activity.",
+      "who": "Adults who are disabled, have a long-term condition or face other barriers to socialising.",
+      "access": "Use “Contact our team” on the Ruils page to ask about befriending for yourself. The downloadable referral form is for organisations.",
+      "check": "Ask about the wait for a volunteer and whether there are any costs for outings.",
+      "coverage": "Richmond upon Thames.",
+      "url": "https://ruils.co.uk/our-services/adults/befriending-service-2/",
+      "sourceUrl": "https://ruils.co.uk/our-services/adults/befriending-service-2/",
+      "sourceOwner": "Ruils Independent Living",
+      "phone": "",
+      "picture": "community",
+      "tags": [
+        "Ruils — volunteer befriending",
+        "Disability and neurodiversity",
+        "befriending",
+        "disabled people",
+        "long term condition",
+        "loneliness",
+        "company",
+        "home visits"
+      ],
+      "audiences": [
+        "disabled"
+      ],
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "coverage",
+          "url"
+        ],
+        "notes": "Ruils describes adult eligibility, volunteer matching and direct contact. No wait, fee, travel charge or place was confirmed.",
+        "evidenceUrls": [
+          "https://ruils.co.uk/our-services/adults/befriending-service-2/"
+        ]
+      }
+    },
+    {
+      "id": "richmond-upon-thames-discovered-f4c233d4eb6d",
+      "directoryId": "richmond-upon-thames",
+      "name": "Richmond Health Walks",
+      "category": "Sport and movement",
+      "description": "Gentle group walks with volunteer leaders. Shorter, slower walks are available.",
+      "who": "People of all ages who would like to become more active, including beginners.",
+      "access": "Choose a walk from the council’s current timetable and arrive at its meeting point ten minutes before the start.",
+      "check": "Walks are free. On your first visit you will be asked to complete a short health questionnaire.",
+      "coverage": "Routes across Richmond upon Thames.",
+      "url": "https://www.richmond.gov.uk/health_walks",
+      "sourceUrl": "https://www.richmond.gov.uk/health_walks",
+      "sourceOwner": "London Borough of Richmond upon Thames",
+      "phone": "",
+      "picture": "community",
+      "tags": [
+        "Richmond Health Walks",
+        "Sport and movement",
+        "walking group",
+        "gentle exercise",
+        "walk and talk",
+        "outdoors",
+        "free activity",
+        "meet people"
+      ],
+      "audiences": [],
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "coverage",
+          "url",
+          "check"
+        ],
+        "notes": "The council confirms cost and how to join. The meeting point and terrain depend on the chosen walk; no step-free access or particular session is assumed.",
+        "evidenceUrls": [
+          "https://www.richmond.gov.uk/health_walks"
+        ]
+      }
+    },
+    {
+      "id": "richmond-upon-thames-discovered-e5875dffc707",
+      "directoryId": "richmond-upon-thames",
+      "name": "Multicultural Richmond — community mental wellbeing",
+      "category": "Culture, identity and belonging",
+      "description": "Individual wellbeing conversations and community activities for people dealing with isolation, life changes or the effects of migration.",
+      "who": "Richmond residents from diverse cultural backgrounds, including migrant and refugee communities.",
+      "access": "Use the Get in Touch section to ask the community mental health officer about individual support or the activity that interests you.",
+      "check": "This is community support rather than counselling or clinical treatment. Ask about costs, dates and availability.",
+      "coverage": "Richmond upon Thames.",
+      "url": "https://multiculturalrichmond.org.uk/community-mental-wellbeing-services/",
+      "sourceUrl": "https://multiculturalrichmond.org.uk/community-mental-wellbeing-services/",
+      "sourceOwner": "Multicultural Richmond",
+      "phone": "",
+      "picture": "community",
+      "tags": [
+        "Multicultural Richmond — community mental wellbeing",
+        "Culture, identity and belonging",
+        "community wellbeing",
+        "migration",
+        "migrants",
+        "refugees",
+        "isolation",
+        "cultural support",
+        "wellbeing lunches"
+      ],
+      "audiences": [
+        "culture-faith"
+      ],
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "coverage",
+          "url",
+          "check"
+        ],
+        "notes": "Provider describes non-clinical support and invites direct enquiries. Council confirms population and borough. No fee, wait, eligibility decision or appointment is assumed.",
+        "evidenceUrls": [
+          "https://multiculturalrichmond.org.uk/community-mental-wellbeing-services/",
+          "https://www.richmond.gov.uk/mental_health_services_in_richmond"
+        ]
+      }
+    },
+    {
+      "id": "richmond-upon-thames-discovered-d881af755d0d",
+      "directoryId": "richmond-upon-thames",
+      "name": "Richmond Council — housing options and homelessness advice",
+      "category": "Housing and homelessness",
+      "description": "Talk to the council about keeping your home or finding somewhere to live if you have lost it.",
+      "who": "People seeking help from Richmond Council who are homeless or at risk of losing their home.",
+      "access": "Use “request a callback” on the council’s guide. If you have already applied, contact your housing options officer instead.",
+      "check": "The council assesses what help it can offer. Requesting a call does not guarantee emergency accommodation.",
+      "coverage": "London Borough of Richmond upon Thames.",
+      "url": "https://www.richmond.gov.uk/services/housing/worried_about_losing_your_home/how_we_can_help_homelessness/homelessness_application_guide",
+      "sourceUrl": "https://www.richmond.gov.uk/services/housing/worried_about_losing_your_home/how_we_can_help_homelessness/homelessness_application_guide",
+      "sourceOwner": "London Borough of Richmond upon Thames",
+      "phone": "",
+      "picture": "home",
+      "tags": [
+        "Richmond Council — housing options and homelessness advice",
+        "Housing and homelessness",
+        "homeless",
+        "somewhere to stay",
+        "housing options",
+        "losing my home",
+        "eviction",
+        "housing advice"
+      ],
+      "audiences": [],
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "coverage",
+          "url",
+          "check"
+        ],
+        "notes": "The published guide confirms direct callback requests, assessment and the existing-applicant route. The council distinguishes general advice from eligibility for accommodation. No bed, timescale or priority is promised.",
+        "evidenceUrls": [
+          "https://www.richmond.gov.uk/services/housing/worried_about_losing_your_home/how_we_can_help_homelessness/homelessness_application_guide",
+          "https://www.richmond.gov.uk/services/housing/homelessness"
+        ]
+      }
+    },
+    {
+      "id": "barnet-discovered-83d776b02ee9",
+      "directoryId": "barnet",
+      "name": "Meridian Wellbeing — Chinese Wellbeing Club",
+      "category": "Culture, identity and belonging",
+      "description": "Meet other people through tai chi, dance, singing and cultural celebrations. The club runs mainly in Cantonese.",
+      "who": "The club welcomes everyone. The wider wellbeing service is designed with Chinese and South-East Asian communities in mind.",
+      "access": "Use Contact Us on the programme page to ask about joining the Monday club.",
+      "check": "Ask about the next session, booking and any charge before travelling.",
+      "coverage": "Meridian Wellbeing is based at the Meritage Centre in Hendon, Barnet.",
+      "url": "https://www.meridianwellbeing.com/chinese-wellbeing-services",
+      "sourceUrl": "https://www.meridianwellbeing.com/chinese-wellbeing-services",
+      "sourceOwner": "Meridian Wellbeing",
+      "phone": "",
+      "picture": "community",
+      "tags": [
+        "Meridian Wellbeing — Chinese Wellbeing Club",
+        "Culture, identity and belonging",
+        "Cantonese",
+        "Chinese",
+        "South-East Asian",
+        "tai chi",
+        "dance",
+        "singing",
+        "social club"
+      ],
+      "audiences": [
+        "culture-faith"
+      ],
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "coverage",
+          "url"
+        ],
+        "notes": "The provider confirms the language, activities and inclusive audience. It does not publish a club price or confirm places.",
+        "evidenceUrls": [
+          "https://www.meridianwellbeing.com/chinese-wellbeing-services"
+        ]
+      }
+    },
+    {
+      "id": "islington-discovered-9cbdb1b4173c",
+      "directoryId": "islington",
+      "name": "Islington Mind — Outcome",
+      "category": "Mental health and wellbeing",
+      "description": "A community-led LGBTQI+ mental health project with peer groups, gentle walks and creative activities. People can take part in person or online.",
+      "who": "LGBTQI+ people across London who want support with their mental health. The project also offers groups for trans and non-binary people.",
+      "access": "Use the self-referral form on the Outcome page, or call or email the team. Speak to them before visiting the centre.",
+      "check": "Ask which session would suit you. The Tuesday lunch has a charge.",
+      "coverage": "Based at 35 Ashley Road in Islington; open to LGBTQI+ people across London.",
+      "url": "https://www.islingtonmind.org.uk/our-services/outcome/",
+      "sourceUrl": "https://www.islingtonmind.org.uk/our-services/outcome/",
+      "sourceOwner": "Islington Mind",
+      "phone": "",
+      "picture": "talk",
+      "tags": [
+        "Islington Mind — Outcome",
+        "Mental health and wellbeing",
+        "LGBTQ+",
+        "LGBTQI+",
+        "trans",
+        "non-binary",
+        "peer support",
+        "walking",
+        "social group",
+        "art"
+      ],
+      "audiences": [
+        "lgbtq",
+        "trans"
+      ],
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "coverage",
+          "url",
+          "check"
+        ],
+        "notes": "The provider explicitly asks new visitors to make contact first. A lunch charge is published; this does not establish the price of other activities.",
+        "evidenceUrls": [
+          "https://www.islingtonmind.org.uk/our-services/outcome/"
+        ]
+      }
+    },
+    {
+      "id": "hammersmith-fulham-discovered-fb4e5f7375af",
+      "directoryId": "hammersmith-fulham",
+      "name": "West London Deaf Club at Our Place",
+      "category": "Social connection and activities",
+      "description": "A monthly Saturday social club where people who use British Sign Language meet for activities, conversation and mutual support.",
+      "who": "Deaf BSL users and people learning BSL.",
+      "access": "Find West London Deaf Club on the Our Place activities page. Use its email link to ask about the next meeting.",
+      "check": "Check the date, venue and any entry charge before going.",
+      "coverage": "Our Place, Hammersmith and Fulham, serving West London.",
+      "url": "https://aod.org.uk/our-place/our-place-activities/",
+      "sourceUrl": "https://aod.org.uk/our-place/our-place-activities/",
+      "sourceOwner": "Action on Disability",
+      "phone": "",
+      "picture": "community",
+      "tags": [
+        "West London Deaf Club at Our Place",
+        "Social connection and activities",
+        "Deaf community",
+        "BSL",
+        "British Sign Language",
+        "social club",
+        "meet people",
+        "peer support"
+      ],
+      "audiences": [
+        "disabled"
+      ],
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "coverage",
+          "url"
+        ],
+        "notes": "The provider identifies a monthly club for Deaf people and BSL learners. A second provider page confirms the borough; an entry fee and current places for the next session were not established.",
+        "evidenceUrls": [
+          "https://aod.org.uk/our-place/our-place-activities/",
+          "https://aod.org.uk/planning-your-visit-with-confidence/"
+        ]
+      }
+    },
+    {
+      "id": "hounslow-discovered-7cb4c8763229",
+      "directoryId": "hounslow",
+      "name": "NAZ — Cherish Hounslow counselling",
+      "category": "Mental health and wellbeing",
+      "description": "A short course of counselling, with individual, couples or group options. Topics can include relationships, sexuality, HIV and self-esteem.",
+      "who": "Hounslow residents who are LGBTQ+ or from a Global Majority background. You do not have to be both.",
+      "access": "Refer yourself using the Cherish Hounslow form on the NAZ website, or email info@naz.org.uk to ask questions.",
+      "check": "NAZ offers 12 free sessions. Ask the team about waiting times and where sessions take place.",
+      "coverage": "For residents of the London Borough of Hounslow.",
+      "url": "https://www.naz.org.uk/cherish-hounslow",
+      "sourceUrl": "https://www.naz.org.uk/cherish-hounslow",
+      "sourceOwner": "NAZ",
+      "phone": "",
+      "picture": "talk",
+      "tags": [
+        "NAZ — Cherish Hounslow counselling",
+        "Mental health and wellbeing",
+        "LGBTQ+",
+        "counselling",
+        "talking therapy",
+        "Global Majority",
+        "sexual health",
+        "HIV",
+        "relationships"
+      ],
+      "audiences": [
+        "lgbtq",
+        "culture-faith"
+      ],
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "coverage",
+          "url",
+          "check"
+        ],
+        "notes": "The service page specifies a free course and accepts self-referrals. The address in the site footer was not assumed to be the therapy venue. No waiting time or place is promised.",
+        "evidenceUrls": [
+          "https://www.naz.org.uk/cherish-hounslow"
+        ]
+      }
+    },
+    {
+      "id": "richmond-upon-thames-discovered-31b7dc8cf7c1",
+      "directoryId": "richmond-upon-thames",
+      "name": "National Autistic Society — Richmond branch",
+      "category": "Disability and neurodiversity",
+      "description": "Local coffee mornings and an information pack for autistic people and the people around them.",
+      "who": "Autistic people of any age, their families, friends and carers, and local professionals.",
+      "access": "Email richmond.branch@nas.org.uk to ask about the next coffee morning or request the information pack.",
+      "check": "Check the venue, date and any cost with the branch before attending.",
+      "coverage": "Richmond upon Thames and surrounding areas.",
+      "url": "https://www.autism.org.uk/what-we-do/branches/nas-richmond-branch",
+      "sourceUrl": "https://www.autism.org.uk/what-we-do/branches/nas-richmond-branch",
+      "sourceOwner": "National Autistic Society",
+      "phone": "",
+      "picture": "community",
+      "tags": [
+        "National Autistic Society — Richmond branch",
+        "Disability and neurodiversity",
+        "autism",
+        "autistic",
+        "coffee morning",
+        "social group",
+        "family",
+        "carers",
+        "information pack"
+      ],
+      "audiences": [
+        "neurodivergent",
+        "carers"
+      ],
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "coverage",
+          "url"
+        ],
+        "notes": "The branch confirms the audience, area, coffee mornings and email enquiry route. Meeting dates, charges and places are not published on the branch page.",
+        "evidenceUrls": [
+          "https://www.autism.org.uk/what-we-do/branches/nas-richmond-branch"
+        ]
+      }
+    },
+    {
+      "id": "barnet-discovered-175b4aa7c290",
+      "directoryId": "barnet",
+      "name": "Change Grow Live Barnet — alcohol and drug support",
+      "category": "Alcohol and drug support",
+      "description": "One-to-one support and groups for people who want help with their drinking or drug use.",
+      "who": "People seeking support in Barnet. The adult service directs people under 25 to a separate young people’s service.",
+      "access": "Use the form for yourself. If you’re under 25, use the young people’s link at the top of the same page.",
+      "check": "The team gets in touch after the form. You can bring someone you trust to an appointment.",
+      "coverage": "Barnet.",
+      "url": "https://www.changegrowlive.org/service/barnet-drug-alcohol/referrals",
+      "sourceUrl": "https://www.changegrowlive.org/service/barnet-drug-alcohol/referrals",
+      "sourceOwner": "Change Grow Live",
+      "phone": "0300 303 2866",
+      "picture": "talk",
+      "tags": [
+        "Change Grow Live Barnet — alcohol and drug support",
+        "Alcohol and drug support",
+        "alcohol",
+        "drugs",
+        "recovery",
+        "substance use",
+        "self-referral"
+      ],
+      "audiences": [],
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "check",
+          "coverage",
+          "url",
+          "phone"
+        ],
+        "notes": "The self-referral and programme pages distinguish the age routes. Appointment times and group places are not confirmed.",
+        "evidenceUrls": [
+          "https://www.changegrowlive.org/service/barnet-drug-alcohol/referrals",
+          "https://www.changegrowlive.org/service/barnet-drug-alcohol/info"
+        ]
+      }
+    },
+    {
+      "id": "islington-discovered-581335e8a072",
+      "directoryId": "islington",
+      "name": "Better Lives Islington — alcohol and drug support",
+      "category": "Alcohol and drug support",
+      "description": "Talk to a keyworker about your goals, explore a recovery group or ask about support for your family.",
+      "who": "Adults in Islington concerned about drug or alcohol use. There is also a service for families.",
+      "access": "Use the NHS page’s referral link to ask for help yourself, or email nlft.betterlivesreferrals@nhs.net.",
+      "check": "Free and confidential. Check which of the service’s sites to attend before you travel.",
+      "coverage": "Islington.",
+      "url": "https://drugandalcohol.northlondonmentalhealth.nhs.uk/islington/",
+      "sourceUrl": "https://drugandalcohol.northlondonmentalhealth.nhs.uk/islington/",
+      "sourceOwner": "North London NHS Foundation Trust and Islington Council",
+      "phone": "020 3317 6099",
+      "picture": "talk",
+      "tags": [
+        "Better Lives Islington — alcohol and drug support",
+        "Alcohol and drug support",
+        "alcohol",
+        "drugs",
+        "recovery",
+        "substance use",
+        "self-referral"
+      ],
+      "audiences": [],
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "check",
+          "coverage",
+          "url",
+          "phone"
+        ],
+        "notes": "The local NHS service and council confirm direct access and the service offer; waiting times are not published here.",
+        "evidenceUrls": [
+          "https://drugandalcohol.northlondonmentalhealth.nhs.uk/islington/",
+          "https://www.islington.gov.uk/social-care-and-health/health-services-in-islington/drugs-and-alcohol/get-help/treatment"
+        ]
+      }
+    },
+    {
+      "id": "hammersmith-fulham-discovered-b3e9a1b9f62d",
+      "directoryId": "hammersmith-fulham",
+      "name": "Turning Point Hammersmith and Fulham — alcohol and drug support",
+      "category": "Alcohol and drug support",
+      "description": "One-to-one and peer support for people who want to change their drinking or drug use, including people who want to reduce harm.",
+      "who": "People seeking drug or alcohol support in Hammersmith and Fulham.",
+      "access": "Drop in at the New Coach House on Uxbridge Road, call the team, or choose “Refer yourself online” on its page.",
+      "check": "The service is free. Check hub hours before visiting; the first assessment can be in person or by phone.",
+      "coverage": "Hammersmith and Fulham.",
+      "url": "https://www.turning-point.co.uk/services/hammersmith-fulham",
+      "sourceUrl": "https://www.turning-point.co.uk/services/hammersmith-fulham",
+      "sourceOwner": "Turning Point",
+      "phone": "020 8740 6815",
+      "picture": "talk",
+      "tags": [
+        "Turning Point Hammersmith and Fulham — alcohol and drug support",
+        "Alcohol and drug support",
+        "alcohol",
+        "drugs",
+        "recovery",
+        "substance use",
+        "self-referral"
+      ],
+      "audiences": [],
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "check",
+          "coverage",
+          "url",
+          "phone"
+        ],
+        "notes": "The provider and NHS list the local service, direct access and peer groups; no place or response time was confirmed.",
+        "evidenceUrls": [
+          "https://www.turning-point.co.uk/services/hammersmith-fulham",
+          "https://www.nhs.uk/services/service-directory/turning-point-hammersmith-and-fulham/N11029790"
+        ]
+      }
+    },
+    {
+      "id": "hounslow-discovered-73eead688806",
+      "directoryId": "hounslow",
+      "name": "ARC Hounslow — alcohol and drug support",
+      "category": "Alcohol and drug support",
+      "description": "Speak with a local team about drinking or drug use and what sort of help you want, at any stage.",
+      "who": "Adults living in the London Borough of Hounslow.",
+      "access": "Use the online self-referral form, call ARC, or visit Montague Hall on Montague Road in Hounslow.",
+      "check": "Free and confidential. Check opening times before going; evening hours vary.",
+      "coverage": "Hounslow.",
+      "url": "https://www.cnwl.nhs.uk/services/addictions/arc-hounslow",
+      "sourceUrl": "https://www.cnwl.nhs.uk/services/addictions/arc-hounslow",
+      "sourceOwner": "Central and North West London NHS Foundation Trust",
+      "phone": "01895 488675",
+      "picture": "talk",
+      "tags": [
+        "ARC Hounslow — alcohol and drug support",
+        "Alcohol and drug support",
+        "alcohol",
+        "drugs",
+        "recovery",
+        "substance use",
+        "self-referral"
+      ],
+      "audiences": [],
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "check",
+          "coverage",
+          "url",
+          "phone"
+        ],
+        "notes": "CNWL confirms eligibility and self-referral. Appointment and treatment availability were not confirmed.",
+        "evidenceUrls": [
+          "https://www.cnwl.nhs.uk/services/addictions/arc-hounslow",
+          "https://www.nhs.uk/services/service-directory/arc-hounslow/N11029685"
+        ]
+      }
+    },
+    {
+      "id": "richmond-upon-thames-discovered-88a301422b97",
+      "directoryId": "richmond-upon-thames",
+      "name": "Richmond Community Drug and Alcohol Service",
+      "category": "Alcohol and drug support",
+      "description": "One-to-one sessions with a recovery worker, groups, and support for friends or family affected by someone’s drinking or drug use.",
+      "who": "Richmond upon Thames residents over 18 who are concerned about alcohol or drug use.",
+      "access": "Call the local team yourself. If a phone call is difficult, use the provider’s contact page to ask about visiting.",
+      "check": "Support is free. Ask which appointments can take place in person, online or in the community.",
+      "coverage": "Richmond upon Thames.",
+      "url": "https://www.wearewithyou.org.uk/local-hubs/richmond/services/drug-and-alcohol-support",
+      "sourceUrl": "https://www.wearewithyou.org.uk/local-hubs/richmond/services/drug-and-alcohol-support",
+      "sourceOwner": "WithYou — Richmond Community Drug and Alcohol Service",
+      "phone": "020 3228 3020",
+      "picture": "talk",
+      "tags": [
+        "Richmond Community Drug and Alcohol Service",
+        "Alcohol and drug support",
+        "alcohol",
+        "drugs",
+        "recovery",
+        "substance use",
+        "self-referral"
+      ],
+      "audiences": [],
+      "lastChecked": "2026-11-21",
+      "nextReview": "2026-12-19",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-21",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "check",
+          "coverage",
+          "url",
+          "phone"
+        ],
+        "notes": "The provider publishes local adult eligibility, fees and ways to get in touch. This listing does not confirm a place.",
+        "evidenceUrls": [
+          "https://www.wearewithyou.org.uk/local-hubs/richmond/services/drug-and-alcohol-support",
+          "https://www.wearewithyou.org.uk/local-hubs/richmond"
+        ]
+      }
     }
   ],
   "areaDownloads": {
