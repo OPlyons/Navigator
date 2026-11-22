@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedOn": "2026-11-21",
+  "updatedOn": "2026-11-22",
   "cells": {
     "[\"brent\",\"Legal advice and rights\"]": {
       "directoryId": "brent",
@@ -181,6 +181,42 @@
       "category": "Legal advice and rights",
       "lastAttempt": "2026-11-21",
       "outcome": "completed"
+    },
+    "[\"islington\",\"Arts and creativity\"]": {
+      "directoryId": "islington",
+      "category": "Arts and creativity",
+      "lastAttempt": "2026-11-22",
+      "outcome": "completed"
+    },
+    "[\"islington\",\"Culture, identity and belonging\"]": {
+      "directoryId": "islington",
+      "category": "Culture, identity and belonging",
+      "lastAttempt": "2026-11-22",
+      "outcome": "completed"
+    },
+    "[\"islington\",\"Disability and neurodiversity\"]": {
+      "directoryId": "islington",
+      "category": "Disability and neurodiversity",
+      "lastAttempt": "2026-11-22",
+      "outcome": "completed"
+    },
+    "[\"hammersmith-fulham\",\"Arts and creativity\"]": {
+      "directoryId": "hammersmith-fulham",
+      "category": "Arts and creativity",
+      "lastAttempt": "2026-11-22",
+      "outcome": "completed"
+    },
+    "[\"hammersmith-fulham\",\"Culture, identity and belonging\"]": {
+      "directoryId": "hammersmith-fulham",
+      "category": "Culture, identity and belonging",
+      "lastAttempt": "2026-11-22",
+      "outcome": "completed"
+    },
+    "[\"hammersmith-fulham\",\"Disability and neurodiversity\"]": {
+      "directoryId": "hammersmith-fulham",
+      "category": "Disability and neurodiversity",
+      "lastAttempt": "2026-11-22",
+      "outcome": "completed"
     }
   },
   "days": {
@@ -259,6 +295,22 @@
         "discovery-6013c4a8c6223ef43540",
         "discovery-cc71c65f67545aecc71a",
         "discovery-b78370a9b826b9c0e923"
+      ]
+    },
+    "2026-11-22": {
+      "cells": [
+        "[\"islington\",\"Arts and creativity\"]",
+        "[\"islington\",\"Culture, identity and belonging\"]",
+        "[\"islington\",\"Disability and neurodiversity\"]",
+        "[\"hammersmith-fulham\",\"Arts and creativity\"]",
+        "[\"hammersmith-fulham\",\"Culture, identity and belonging\"]",
+        "[\"hammersmith-fulham\",\"Disability and neurodiversity\"]"
+      ],
+      "candidateIds": [
+        "discovery-5e658297fc303bd4bf53",
+        "discovery-7bf3c30a4614d3e11100",
+        "discovery-93cb0584ee4c78969c5d",
+        "discovery-1d139e2af9f53245124f"
       ]
     }
   },
@@ -1194,6 +1246,180 @@
       "publishedCommit": "d48e3a06d6f21c1d20d7bcbdd2e76a863578e731",
       "publishedOn": "2026-11-21",
       "productionDeploymentId": "b62bfc56-e90a-4f9e-b14b-4da18ed4cb91"
+    },
+    {
+      "id": "discovery-5e658297fc303bd4bf53",
+      "status": "proposed",
+      "firstSeen": "2026-11-22",
+      "sourceCheckedOn": "2026-11-22",
+      "resource": {
+        "name": "Arts on Estates — Islington creative activities",
+        "directoryId": "islington",
+        "category": "Arts and creativity",
+        "description": "Creative activities including art, singing, crafts, knitting, pottery and printmaking through community centres, hubs and partner venues.",
+        "who": "Islington council estate residents who find mainstream arts difficult to access because of financial, health or social barriers.",
+        "access": "Email partnerships@islington.gov.uk to join the Community Partnerships mailing list and ask about upcoming activities.",
+        "check": "The programme is mostly free and activities change with demand. Confirm the current activity, venue, eligibility, accessibility and any charge before attending.",
+        "url": "https://www.islington.gov.uk/libraries-arts-and-heritage/arts/cultural-things-to-do/arts-on-estates",
+        "sourceUrl": "https://www.islington.gov.uk/libraries-arts-and-heritage/arts/cultural-things-to-do/arts-on-estates",
+        "sourceOwner": "Islington Council",
+        "coverage": "Islington council estates, through local community centres, hubs and partner venues."
+      },
+      "sources": [
+        {
+          "url": "https://www.islington.gov.uk/libraries-arts-and-heritage/arts/cultural-things-to-do/arts-on-estates",
+          "ownerType": "council",
+          "retrieval": "page",
+          "note": "The council page describes the estate-resident audience, examples of creative activities, mostly-free status, delivery settings and mailing-list contact."
+        }
+      ],
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "url",
+        "coverage"
+      ],
+      "evidence": "Islington Council describes an ongoing creative programme for estate residents facing barriers to mainstream arts and publishes a direct email route for current opportunities.",
+      "limitations": "The page does not publish a current timetable, individual venues, age rules for every activity, accessibility details or which activities carry a charge."
+    },
+    {
+      "id": "discovery-7bf3c30a4614d3e11100",
+      "status": "proposed",
+      "firstSeen": "2026-11-22",
+      "sourceCheckedOn": "2026-11-22",
+      "resource": {
+        "name": "Islington Chinese Association — culture and community",
+        "directoryId": "islington",
+        "category": "Culture, identity and belonging",
+        "description": "Chinese cultural, recreational and social activities that help people connect, share traditions and build community.",
+        "who": "People of all races and age groups who want to connect with the community or learn about Chinese culture.",
+        "access": "Use the provider website's membership link, email info@islingtonchinese.com or call 020 7263 5986 to ask about current activities. The NHS profile says people can self-refer.",
+        "check": "Ask about the current activity timetable, membership arrangements, availability, accessibility and any charges before visiting.",
+        "url": "https://islingtonchinese.com/",
+        "sourceUrl": "https://islingtonchinese.com/",
+        "sourceOwner": "Islington Chinese Association",
+        "coverage": "Based in Islington; the NHS profile lists the London Borough of Islington and neighbouring boroughs.",
+        "phone": "020 7263 5986"
+      },
+      "sources": [
+        {
+          "url": "https://islingtonchinese.com/",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "The current provider site describes its social-cohesion purpose, Chinese cultural and community activities, open welcome, membership route and active November 2026 updates."
+        },
+        {
+          "url": "https://www.nhs.uk/services/service-directory/islington-chinese-association/N10499798",
+          "ownerType": "nhs",
+          "retrieval": "page",
+          "note": "The NHS profile confirms the address, phone, email, Islington and neighbouring-borough catchment, open audience, self-referral and wheelchair access."
+        }
+      ],
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "url",
+        "phone",
+        "coverage"
+      ],
+      "evidence": "Current provider and NHS pages establish an active Islington community organisation offering Chinese cultural and social connection, with public membership and self-referral contact routes.",
+      "limitations": "The pages do not establish the current timetable, availability or membership and activity charges. Individual activities may have different access requirements."
+    },
+    {
+      "id": "discovery-93cb0584ee4c78969c5d",
+      "status": "proposed",
+      "firstSeen": "2026-11-22",
+      "sourceCheckedOn": "2026-11-22",
+      "resource": {
+        "name": "Society of Fulham Artists and Potters",
+        "directoryId": "hammersmith-fulham",
+        "category": "Arts and creativity",
+        "description": "A local art society offering exhibitions, tutor-led workshops, plein-air days, talks, social events and connections with other artists.",
+        "who": "People aged 18 or over who live, work or study in Hammersmith and Fulham or a neighbouring borough.",
+        "access": "Complete the provider's online joining form or email members@sofap.co.uk to ask about membership.",
+        "check": "Annual membership is listed as £45. Members are expected to help at events they take part in; confirm the current fee, workshop charges, dates and accessibility before joining.",
+        "url": "https://www.sofap.co.uk/",
+        "sourceUrl": "https://www.sofap.co.uk/",
+        "sourceOwner": "Society of Fulham Artists and Potters",
+        "coverage": "Hammersmith and Fulham and neighbouring boroughs."
+      },
+      "sources": [
+        {
+          "url": "https://www.sofap.co.uk/",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "The current provider homepage confirms the society's local purpose, adult area criteria, events, workshops and public membership route."
+        },
+        {
+          "url": "https://www.sofap.co.uk/join-us/joining-form/",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "The joining page confirms the online application, age and area rules, £45 annual membership and requirement to help at events."
+        }
+      ],
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "url",
+        "coverage"
+      ],
+      "evidence": "Current provider pages establish an active local adult art society with a direct joining route and a clear programme of creative and social opportunities.",
+      "limitations": "The pages do not establish accessibility, capacity or the cost and schedule of each workshop or event. Membership is not free and includes a volunteering expectation."
+    },
+    {
+      "id": "discovery-1d139e2af9f53245124f",
+      "status": "proposed",
+      "firstSeen": "2026-11-22",
+      "sourceCheckedOn": "2026-11-22",
+      "resource": {
+        "name": "HF Mencap — My Life Day Opportunities",
+        "directoryId": "hammersmith-fulham",
+        "category": "Disability and neurodiversity",
+        "description": "Tailored day support and activity-centre sessions for adults with learning disabilities, autism or complex needs, including social, creative, fitness and independence activities.",
+        "who": "Adults aged 18 or over with learning disabilities, autism or complex support needs.",
+        "access": "Contact HF Mencap to arrange a visit and support assessment. A package can be funded by a local authority or arranged using a Direct Payment.",
+        "check": "Centre activities are free to My Life clients; some external activities have a small charge. Confirm funding, assessment, schedule, transport, current availability and any activity costs.",
+        "url": "https://hfmencap.org/what-we-do/my-life-day-opportunities/",
+        "sourceUrl": "https://hfmencap.org/what-we-do/my-life-day-opportunities/",
+        "sourceOwner": "Hammersmith & Fulham Mencap",
+        "coverage": "Activity hubs in Hammersmith and Fulham; the provider says it supports clients across Central and West London boroughs.",
+        "phone": "020 8748 5168"
+      },
+      "sources": [
+        {
+          "url": "https://hfmencap.org/what-we-do/my-life-day-opportunities/",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "The current service page confirms the adult audience, activities, funding routes, assessment, locations, phone, client costs and wider Central and West London reach."
+        },
+        {
+          "url": "https://hfmencap.org/what-we-do/",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "The provider overview confirms My Life as a current HF Mencap support and activity-centre service for people with learning disabilities."
+        }
+      ],
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "url",
+        "phone",
+        "coverage"
+      ],
+      "evidence": "HF Mencap's current pages describe a distinct adult day-opportunity service, its activities, access assessment, funding arrangements and two Hammersmith and Fulham hubs.",
+      "limitations": "A support assessment and funding arrangement are required. The pages do not establish current capacity, waiting times, individual accessibility needs or the exact cost of external activities."
     }
   ]
 }

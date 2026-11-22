@@ -1,7 +1,7 @@
 # New resource suggestions
 
-Last saved search: 2026-11-21. 30 of 300 area/category combinations attempted.
-3 resources await publication. Search coverage is limited, not exhaustive.
+Last saved search: 2026-11-22. 36 of 300 area/category combinations attempted.
+7 resources await publication. Search coverage is limited, not exhaustive.
 
 Candidates are public-source research only. They have not been added to the public directory. Eligible additions publish automatically after the normal quality checks; uncertain cases remain flagged. Existing listing reviews have their own progress and limits.
 
@@ -43,4 +43,59 @@ Category: Safety and abuse support
 - Evidence: Council service page read on 16 November 2026 confirms local coverage, support for all victims regardless of risk, telephone advice, risk assessments and safety planning for clients aged 16 and over and their children, and the listed phone and email.
 - Limitations: Current capacity and waiting times are not established. Contact details follow the council service page; no immediate response or cost claim is made.
 - Source: <https://pre.hillingdon.gov.uk/domestic-abuse/hillingdon-domestic-abuse-advocacy-service> — The current council page states the borough and age criteria, all-gender and all-risk support, service activities and direct confidential contact route.
+
+## Arts on Estates — Islington creative activities — islington
+Candidate: discovery-5e658297fc303bd4bf53. Source checked: 2026-11-22.
+Category: Arts and creativity
+- What it offers: Creative activities including art, singing, crafts, knitting, pottery and printmaking through community centres, hubs and partner venues.
+- Who: Islington council estate residents who find mainstream arts difficult to access because of financial, health or social barriers.
+- Access: Email partnerships@islington.gov.uk to join the Community Partnerships mailing list and ask about upcoming activities.
+- Costs/checks: The programme is mostly free and activities change with demand. Confirm the current activity, venue, eligibility, accessibility and any charge before attending.
+- Coverage: Islington council estates, through local community centres, hubs and partner venues.
+- Website: <https://www.islington.gov.uk/libraries-arts-and-heritage/arts/cultural-things-to-do/arts-on-estates>
+- Evidence: Islington Council describes an ongoing creative programme for estate residents facing barriers to mainstream arts and publishes a direct email route for current opportunities.
+- Limitations: The page does not publish a current timetable, individual venues, age rules for every activity, accessibility details or which activities carry a charge.
+- Source: <https://www.islington.gov.uk/libraries-arts-and-heritage/arts/cultural-things-to-do/arts-on-estates> — The council page describes the estate-resident audience, examples of creative activities, mostly-free status, delivery settings and mailing-list contact.
+
+## Islington Chinese Association — culture and community — islington
+Candidate: discovery-7bf3c30a4614d3e11100. Source checked: 2026-11-22.
+Category: Culture, identity and belonging
+- What it offers: Chinese cultural, recreational and social activities that help people connect, share traditions and build community.
+- Who: People of all races and age groups who want to connect with the community or learn about Chinese culture.
+- Access: Use the provider website's membership link, email info@islingtonchinese.com or call 020 7263 5986 to ask about current activities. The NHS profile says people can self-refer.
+- Costs/checks: Ask about the current activity timetable, membership arrangements, availability, accessibility and any charges before visiting.
+- Coverage: Based in Islington; the NHS profile lists the London Borough of Islington and neighbouring boroughs.
+- Website: <https://islingtonchinese.com/>
+- Evidence: Current provider and NHS pages establish an active Islington community organisation offering Chinese cultural and social connection, with public membership and self-referral contact routes.
+- Limitations: The pages do not establish the current timetable, availability or membership and activity charges. Individual activities may have different access requirements.
+- Source: <https://islingtonchinese.com/> — The current provider site describes its social-cohesion purpose, Chinese cultural and community activities, open welcome, membership route and active November 2026 updates.
+- Source: <https://www.nhs.uk/services/service-directory/islington-chinese-association/N10499798> — The NHS profile confirms the address, phone, email, Islington and neighbouring-borough catchment, open audience, self-referral and wheelchair access.
+
+## Society of Fulham Artists and Potters — hammersmith-fulham
+Candidate: discovery-93cb0584ee4c78969c5d. Source checked: 2026-11-22.
+Category: Arts and creativity
+- What it offers: A local art society offering exhibitions, tutor-led workshops, plein-air days, talks, social events and connections with other artists.
+- Who: People aged 18 or over who live, work or study in Hammersmith and Fulham or a neighbouring borough.
+- Access: Complete the provider's online joining form or email members@sofap.co.uk to ask about membership.
+- Costs/checks: Annual membership is listed as £45. Members are expected to help at events they take part in; confirm the current fee, workshop charges, dates and accessibility before joining.
+- Coverage: Hammersmith and Fulham and neighbouring boroughs.
+- Website: <https://www.sofap.co.uk/>
+- Evidence: Current provider pages establish an active local adult art society with a direct joining route and a clear programme of creative and social opportunities.
+- Limitations: The pages do not establish accessibility, capacity or the cost and schedule of each workshop or event. Membership is not free and includes a volunteering expectation.
+- Source: <https://www.sofap.co.uk/> — The current provider homepage confirms the society's local purpose, adult area criteria, events, workshops and public membership route.
+- Source: <https://www.sofap.co.uk/join-us/joining-form/> — The joining page confirms the online application, age and area rules, £45 annual membership and requirement to help at events.
+
+## HF Mencap — My Life Day Opportunities — hammersmith-fulham
+Candidate: discovery-1d139e2af9f53245124f. Source checked: 2026-11-22.
+Category: Disability and neurodiversity
+- What it offers: Tailored day support and activity-centre sessions for adults with learning disabilities, autism or complex needs, including social, creative, fitness and independence activities.
+- Who: Adults aged 18 or over with learning disabilities, autism or complex support needs.
+- Access: Contact HF Mencap to arrange a visit and support assessment. A package can be funded by a local authority or arranged using a Direct Payment.
+- Costs/checks: Centre activities are free to My Life clients; some external activities have a small charge. Confirm funding, assessment, schedule, transport, current availability and any activity costs.
+- Coverage: Activity hubs in Hammersmith and Fulham; the provider says it supports clients across Central and West London boroughs.
+- Website: <https://hfmencap.org/what-we-do/my-life-day-opportunities/>
+- Evidence: HF Mencap's current pages describe a distinct adult day-opportunity service, its activities, access assessment, funding arrangements and two Hammersmith and Fulham hubs.
+- Limitations: A support assessment and funding arrangement are required. The pages do not establish current capacity, waiting times, individual accessibility needs or the exact cost of external activities.
+- Source: <https://hfmencap.org/what-we-do/my-life-day-opportunities/> — The current service page confirms the adult audience, activities, funding routes, assessment, locations, phone, client costs and wider Central and West London reach.
+- Source: <https://hfmencap.org/what-we-do/> — The provider overview confirms My Life as a current HF Mencap support and activity-centre service for people with learning disabilities.
 
