@@ -71,7 +71,7 @@
  const matchesGroup=(r,g)=>!g||(!g.categories||g.categories.includes(r.category))&&(!g.facets||g.facets.some(f=>(r.supportFacets||[]).includes(f)));
  const audiences=[['women','Women'],['men','Men'],['neurodivergent','Neurodivergent people'],['disabled','Disabled people / access'],['lgbtq','LGBTQ+ people'],['trans','Trans & non-binary people'],['culture-faith','Cultural & faith communities'],['older','Older people'],['young-adults','Young adults'],['pregnancy-parents','Pregnancy & new parents'],['relationships','Relationships & families'],['carers','Carers']];
  for(const [id,label] of audiences)audience.append(new Option(label,id));
- let data=null,loading=null,shown=12,filtered=[],pendingArea=metadata.directories.find(d=>location.hash==='#area-'+d.id)?.id||'',activity='all';
+ let data=null,loading=null,shown=12,filtered=[],pendingArea=metadata.directories.find(d=>location.hash==='#area-'+d.id)?.id||'',activity='all',browsingTypes=false;
  for(const d of metadata.directories)area.append(new Option(d.name,d.id));
  const normalise=value=>String(value||'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase('en-GB');
  const date=value=>{if(!/^\d{4}-\d{2}-\d{2}$/.test(value||''))return 'Not recorded';return new Date(value+'T12:00:00').toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'});};
@@ -103,7 +103,12 @@
  hospitalDialog.addEventListener('click',event=>{if(event.target!==hospitalDialog)return;const r=hospitalDialog.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)hospitalDialog.close();});
  window.addEventListener('hashchange',()=>{if(hospitalDialog.open)hospitalDialog.close();});
 
- const activityButtons=groups.map(g=>{const b=make('button',undefined,'activity-choice');b.type='button';b.dataset.activity=g.id;b.setAttribute('aria-pressed',String(g.id===activity));b.disabled=true;b.append(icon(g.id,'activity-icon'),make('span',g.label));b.addEventListener('click',()=>{activity=g.id;if(g.id==='all'&&!area.value)area.value='all';topic.value='';shown=12;render();});$('activity-choices').insertBefore(b,audienceTrigger);return b;});
+ function toggleActivity(id){
+  activity=id===activity?'all':id;
+  // Showing all types is independent of whether the wizard may infer a borough.
+  browsingTypes=true;topic.value='';shown=12;render();
+ }
+ const activityButtons=groups.map(g=>{const b=make('button',undefined,'activity-choice');b.type='button';b.dataset.activity=g.id;b.setAttribute('aria-pressed',String(g.id===activity));b.disabled=true;b.append(icon(g.id,'activity-icon'),make('span',g.label));b.addEventListener('click',()=>toggleActivity(g.id));$('activity-choices').insertBefore(b,audienceTrigger);return b;});
  audienceTrigger.prepend(icon('everyone','activity-icon'));
  // Optional group choices use the same local filter as the previous select.
  // Symbols accompany text; no personal details or identity choices are stored.
@@ -123,12 +128,12 @@
  const areaOptions=new Map([...area.options].map(option=>[option.value,option]));
  const shapes=[...document.querySelectorAll('[data-map-shape]')];
  for(const b of areaButtons){
-  b.addEventListener('click',()=>chooseArea(b.dataset.area));
+  b.addEventListener('click',()=>toggleArea(b.dataset.area));
   const highlight=on=>shapes.find(p=>p.dataset.mapShape===b.dataset.area)?.classList.toggle('is-hovered',on);
   b.addEventListener('mouseenter',()=>highlight(true));b.addEventListener('mouseleave',()=>highlight(false));b.addEventListener('focus',()=>highlight(true));b.addEventListener('blur',()=>highlight(false));
  }
  // The native button labels and the borough shapes choose the same area.
- $('borough-map').addEventListener('click',event=>{const id=event.target.closest('[data-map-shape]')?.dataset.mapShape;if(id&&data)chooseArea(id);});
+ $('borough-map').addEventListener('click',event=>{const id=event.target.closest('[data-map-shape]')?.dataset.mapShape;if(id)toggleArea(id);});
  function groupFor(category){return groups.find(g=>g.categories?.includes(category))||groups[0];}
  function definition(dl,label,value){if(value)dl.append(make('dt',label),make('dd',value));}
  function resourceCard(r){
@@ -212,7 +217,7 @@
  }
  function render(){
   if(!data)return;
-  const words=terms(),started=!!(area.value||words.raw||activity!=='all'||topic.value||audience.value),dir=data.directories.find(d=>d.id===area.value),name=dir?.name||'all areas';
+  const words=terms(),started=!!(browsingTypes||area.value||words.raw||activity!=='all'||topic.value||audience.value),dir=data.directories.find(d=>d.id===area.value),name=dir?.name||'all areas';
   syncChoices(words);selectedChoices();guidance(words,dir);$('directory-start').hidden=started;$('directory-call-note').hidden=!started;
   document.dispatchEvent(new CustomEvent('directorychoiceschange',{detail:{started}}));
   const widerCount=data.resources.filter(r=>r.directoryId==='wider-support'&&matches(r,words,true)&&!(withNational(words)&&r.national)).length;
@@ -243,6 +248,7 @@
   if(dir){const original=$('dl-'+data.areaDownloads[dir.id]);if(original){const a=original.cloneNode(true);a.removeAttribute('id');a.querySelector('span').textContent='Download the '+dir.name+' directory';const detail=make('details');detail.append(make('summary','Printable '+dir.name+' directory'),a);$('area-download').append(detail);}}
   render();
  }
+ function toggleArea(id){chooseArea(area.value===id?'all':id);}
  function chooseArea(id){if(!data)return;area.value=id;area.dispatchEvent(new Event('change',{bubbles:true}));}
  async function load(){
   if(data)return;if(loading)return loading;
@@ -266,7 +272,7 @@
   finally{$('resource-list').removeAttribute('aria-busy');loading=null;}})();return loading;
  }
  const maybeLoad=()=>{if(location.hash==='#support'||$('support').classList.contains('active'))load();};
- window.CNWLResourceDirectory={async getData(){await load();return data;},getSearchCatalog(){const group=groups.find(g=>g.id===activity);return data?{...data,resources:data.resources.filter(r=>matchesGroup(r,group))}:data;},setInferredArea(id){pendingArea=id;area.value=id;areaChanged();},search(){clearTimeout(timer);shown=12;render();showResults();},reset(){reset();},setArea(id){pendingArea=metadata.directories.some(d=>d.id===id)?id:'';area.value=pendingArea;if(data){search.value='';topic.value='';activity='all';audience.value='';areaChanged();}}};
+ window.CNWLResourceDirectory={async getData(){await load();return data;},getSearchCatalog(){const group=groups.find(g=>g.id===activity);return data?{...data,resources:data.resources.filter(r=>matchesGroup(r,group))}:data;},setInferredArea(id){pendingArea=id;area.value=id;areaChanged();},search(){clearTimeout(timer);shown=12;render();showResults();},reset(){reset();},setArea(id){browsingTypes=false;pendingArea=metadata.directories.some(d=>d.id===id)?id:'';area.value=pendingArea;if(data){search.value='';topic.value='';activity='all';audience.value='';areaChanged();}}};
  area.addEventListener('change',()=>{pendingArea=area.value;areaChanged();});
  topic.addEventListener('change',()=>{activity='all';shown=12;render();});
  audience.addEventListener('change',()=>{shown=12;render();});
@@ -274,7 +280,7 @@
  let timer;search.addEventListener('input',()=>{clearTimeout(timer);timer=setTimeout(()=>{shown=12;render();},180);});
  function showResults(){const h=$('resource-results-heading');h.focus({preventScroll:true});h.scrollIntoView({block:'start',behavior:'auto'});}
  $('directory-search-form').addEventListener('submit',event=>{event.preventDefault();clearTimeout(timer);shown=12;render();showResults();});
- function reset(all=false){clearTimeout(timer);topic.value='';activity='all';audience.value='';search.value='';area.value=all?'all':'';pendingArea=area.value;areaChanged();search.focus({preventScroll:true});}
+ function reset(all=false){browsingTypes=false;clearTimeout(timer);topic.value='';activity='all';audience.value='';search.value='';area.value=all?'all':'';pendingArea=area.value;areaChanged();search.focus({preventScroll:true});}
  $('clear-filters').addEventListener('click',()=>reset(true));$('empty-reset').addEventListener('click',()=>reset(true));
  $('empty-wider').addEventListener('click',()=>{search.value='';chooseArea('wider-support');showResults();});
  $('matching-wider-support').addEventListener('click',()=>{chooseArea('wider-support');showResults();});
