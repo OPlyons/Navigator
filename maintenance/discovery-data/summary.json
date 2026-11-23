@@ -1,9 +1,9 @@
 {
-  "asOf": "2026-11-22",
-  "lastRecordedSearch": "2026-11-22",
+  "asOf": "2026-11-23",
+  "lastRecordedSearch": "2026-11-23",
   "totalCombinations": 300,
-  "combinationsAttempted": 36,
-  "pendingCandidates": 7,
+  "combinationsAttempted": 42,
+  "pendingCandidates": 11,
   "nowInDirectory": [],
   "days": [
     {
@@ -33,6 +33,11 @@
     },
     {
       "day": "2026-11-22",
+      "cells": 6,
+      "newCandidates": 4
+    },
+    {
+      "day": "2026-11-23",
       "cells": 6,
       "newCandidates": 4
     }

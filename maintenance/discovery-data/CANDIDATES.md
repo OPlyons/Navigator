@@ -1,7 +1,7 @@
 # New resource suggestions
 
-Last saved search: 2026-11-22. 36 of 300 area/category combinations attempted.
-7 resources await publication. Search coverage is limited, not exhaustive.
+Last saved search: 2026-11-23. 42 of 300 area/category combinations attempted.
+11 resources await publication. Search coverage is limited, not exhaustive.
 
 Candidates are public-source research only. They have not been added to the public directory. Eligible additions publish automatically after the normal quality checks; uncertain cases remain flagged. Existing listing reviews have their own progress and limits.
 
@@ -98,4 +98,58 @@ Category: Disability and neurodiversity
 - Limitations: A support assessment and funding arrangement are required. The pages do not establish current capacity, waiting times, individual accessibility needs or the exact cost of external activities.
 - Source: <https://hfmencap.org/what-we-do/my-life-day-opportunities/> — The current service page confirms the adult audience, activities, funding routes, assessment, locations, phone, client costs and wider Central and West London reach.
 - Source: <https://hfmencap.org/what-we-do/> — The provider overview confirms My Life as a current HF Mencap support and activity-centre service for people with learning disabilities.
+
+## Art Social Wellbeing Club — Hounslow — hounslow
+Candidate: discovery-c1bcae2ae710c5ebe19f. Source checked: 2026-11-23.
+Category: Arts and creativity
+- What it offers: A relaxed weekly art and wellbeing club with painting, drawing, sewing, embroidery, crafts, refreshments and time to meet other people.
+- Who: Local residents, particularly older people, adults with disabilities or additional needs, and anyone who wants creative activity, wellbeing and social connection.
+- Access: Drop in on Tuesdays from 10.30am to 12.30pm at Brabazon Community Centre, 106 Brabazon Road, Hounslow TW5 9LT. Call 07903 215946 for more information.
+- Costs/checks: The sessions are listed as free and open to everyone. Confirm that the session is running, and ask about accessibility or other support before travelling.
+- Coverage: Brabazon Community Centre in Hounslow; aimed at local residents.
+- Website: <https://ccwl.org.uk/our-projects>
+- Evidence: Current provider and local voluntary-sector pages describe the same ongoing weekly club, its creative activities, inclusive access, free status and Hounslow contact route.
+- Limitations: Capacity, detailed accessibility, holiday closures and individual support availability are not published. Session arrangements may change at short notice.
+- Source: <https://ccwl.org.uk/our-projects> — The current provider page confirms the weekly Hounslow club, audience, creative activities, wellbeing purpose, venue and Tuesday time.
+- Source: <https://ehcvs.org.uk/free-community-activities-in-heston-cranford-c-change-west-london/> — Ealing and Hounslow CVS confirms that the club is free, open to everyone, welcomes drop-ins and publishes the venue, time and contact number.
+
+## Hounslow Community Provisions — hounslow
+Candidate: discovery-21f2ed3d55c1e488af50. Source checked: 2026-11-23.
+Category: Disability and neurodiversity
+- What it offers: Council support connecting disabled and autistic residents with community activities, independent travel, employment opportunities and help to overcome barriers.
+- Who: Eligible Hounslow residents with disabilities, particularly adults with learning disabilities or autism. Age and needs criteria vary by service.
+- Access: Email Community.Provisions@hounslow.gov.uk to explain what support you are looking for and ask which service may be suitable.
+- Costs/checks: Services are free to eligible residents. Ask the team to confirm eligibility, assessment, current availability, accessibility and the support offered.
+- Coverage: London Borough of Hounslow.
+- Website: <https://www.hounslow.gov.uk/communityprovisions>
+- Evidence: Hounslow Council publishes a current group of services supporting disabled and autistic residents with activities, travel and work, with explicit local eligibility and contact information.
+- Limitations: Eligibility and age rules differ between services. The page does not publish assessment times, capacity, waiting times or the exact activities currently available.
+- Source: <https://www.hounslow.gov.uk/communityprovisions> — The council page describes all four Community Provisions services, their audiences, Hounslow coverage, free provision for eligible residents and public email route.
+
+## Richmond Faith and Belief Forum — richmond-upon-thames
+Candidate: discovery-3b62195ae03b4f524e4e. Source checked: 2026-11-23.
+Category: Faith and belief communities
+- What it offers: A forum where people from different faith and belief groups meet, share information, build understanding and discuss issues affecting local communities.
+- Who: Local people and representatives from faith and belief groups in Richmond upon Thames and neighbouring boroughs.
+- Access: Email partnerships@richmond.gov.uk to ask about joining the forum and its next meeting.
+- Costs/checks: The forum usually meets three or four times a year at places of worship or York House. Confirm the next date, venue, accessibility and participation arrangements.
+- Coverage: Richmond upon Thames and neighbouring boroughs.
+- Website: <https://www.richmond.gov.uk/council/how_we_work/partnerships/inter_faith_forum>
+- Evidence: Richmond Council describes an active inclusive forum that connects local faith and belief groups and provides a direct public route to enquire about membership.
+- Limitations: The page does not publish the next meeting date, detailed membership process, costs, accessibility for each venue or whether every meeting is open to individual residents.
+- Source: <https://www.richmond.gov.uk/council/how_we_work/partnerships/inter_faith_forum> — The council page confirms the forum's aims, inclusive local network, meeting frequency, venues and email route for joining.
+
+## Richmond Volunteer Service — find a volunteer role — richmond-upon-thames
+Candidate: discovery-ecd0e8d2ab6704078df4. Source checked: 2026-11-23.
+Category: Learning, work and volunteering
+- What it offers: Help to search and apply for volunteer roles with charities and not-for-profit organisations, with individual support if you are unsure which opportunity suits you.
+- Who: People looking for volunteering opportunities in Richmond upon Thames.
+- Access: Search and apply for roles through the provider website, register online for updates or email volunteer@communityconnectionsrichmond.org.uk for help.
+- Costs/checks: Check each role's requirements, time commitment, expenses, accessibility, safeguarding checks and current availability before applying.
+- Coverage: London Borough of Richmond upon Thames.
+- Website: <https://richmondcvs.org.uk/richmond-volunteer-service/>
+- Evidence: Current provider and council pages establish a borough volunteer-matching service with searchable roles, registration and direct support for people seeking opportunities.
+- Limitations: Role requirements, accessibility, expenses, training and safeguarding checks vary. The pages do not promise a suitable role or immediate placement.
+- Source: <https://richmondcvs.org.uk/richmond-volunteer-service/> — The provider page confirms borough-wide role matching, online search and applications, individual support, email contact and a large range of charity roles.
+- Source: <https://www.richmond.gov.uk/services/voluntary_and_community_sector/volunteering_richmond> — The council identifies Richmond CVS as the borough volunteering service and confirms registration, opportunity-finding and direct team contact.
 
