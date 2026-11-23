@@ -5,7 +5,7 @@ test.beforeEach(async ({page}) => { await interceptSentry(page); });
 
 const controls = [
   '#crisis-help-button', '#workforce-advice-link', '#support [data-suggest-resource]',
-  '#after-hospital-toggle', '#navigator-warning', '#service-search', '#navigator-submit',
+  '.pg-hub #after-hospital-toggle', '.directory-update-note', '#navigator-warning', '#service-search', '#navigator-submit',
   '#navigator-local', '#area', '#borough-map', '#support-more-filters > summary',
   '#activity-choices > button', '[data-open-guide]', '#browse-all-areas',
   '#reading-options > summary', '#area-map-panel .map-credit > summary',

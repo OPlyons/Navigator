@@ -1,44 +1,40 @@
 import {test,expect} from '@playwright/test';
-import {mockNavigator,interceptSentry,openSupport,housingIntent,records} from './support.js';
+import {mockNavigator,interceptSentry,openSupport,openMainNavigation,housingIntent,records} from './support.js';
 
 test.beforeEach(async({page})=>{await interceptSentry(page);});
 test('standalone home and navigation open the navigator',async({page})=>{
- const navigation=page.getByRole('navigation',{name:'Main navigation',exact:true});
- const supportLink=navigation.getByRole('link',{name:'Find support',exact:true});
- const directoriesLink=navigation.getByRole('link',{name:'Printable directories',exact:true});
  const homeLink=page.getByRole('banner').getByRole('link',{name:'Community Navigator home',exact:true});
- async function expectSupportSection(heading){
-  await expect(page.locator('.page.active h1')).toHaveText(heading);
-  await expect(page).toHaveTitle(heading+' | Community Navigator');
-  // The router keeps Printable directories within the Find support section.
-  await expect(navigation.locator('[aria-current="page"]')).toHaveText(['Find support']);
+ const heading=page.locator('.page.active h1');
+ const homeTitle='Find support near you.';
+ async function visit(label){
+  const navigation=await openMainNavigation(page);
+  await navigation.getByRole('link',{name:label,exact:true}).click();
  }
-
  await page.goto('/');
- await expectSupportSection('Find support');
+ await expect(heading).toHaveText(homeTitle);
+ await expect(page).toHaveTitle(homeTitle+' | Community Navigator');
  await expect(page.locator('#service-search')).toBeEnabled();
- await expect(navigation.getByRole('link')).toHaveText(['Find support','Printable directories']);
- await expect(supportLink).toHaveAttribute('href','#support');
- await expect(directoriesLink).toHaveAttribute('href','#resources');
- await expect(homeLink).toBeVisible();
+ const navigation=await openMainNavigation(page);
+ await expect(navigation.getByRole('link')).toHaveText(['Find support','Practical guides','Printable directories','Contact and help']);
+ await expect(navigation.locator('[aria-current="page"]')).toHaveText('Find support');
  await expect(homeLink).toHaveAttribute('href','#support');
- await expect(homeLink.locator('img')).toHaveAttribute('src','assets/compass-rose.svg');
+ await expect(homeLink.locator('svg')).toBeVisible();
  await expect(page.locator('a[href*="dtp.lxportal.space"]')).toHaveCount(0);
-
- await directoriesLink.click();
+ await visit('Practical guides');
+ await expect(page.locator('#pg-heading')).toBeFocused();
+ await visit('Printable directories');
  await expect(page).toHaveURL(/\/#resources$/);
- await expectSupportSection('Printable local directories');
- await supportLink.click();
- await expect(page).toHaveURL(/\/#support$/);
- await expectSupportSection('Find support');
+ await expect(heading).toHaveText('Printable local directories');
+ await expect(page).toHaveTitle('Printable local directories | Community Navigator');
+ await expect(page.locator('#primary-nav [aria-current="page"]')).toHaveText('Printable directories');
+ await visit('Find support');
+ await expect(heading).toHaveText(homeTitle);
  await expect(page.locator('#service-search')).toBeEnabled();
-
- await directoriesLink.click();
- await expectSupportSection('Printable local directories');
+ await visit('Contact and help');
+ await expect(page).toHaveURL(/\/#contact$/);
  await homeLink.click();
  await expect(page).toHaveURL(/\/#support$/);
- await expectSupportSection('Find support');
- await expect(page.locator('#service-search')).toBeEnabled();
+ await expect(heading).toHaveText(homeTitle);
 });
 test('staff area links open matching support without sharing form information',async({page})=>{
  await page.goto('/#area-harrow');await expect(page.locator('#area')).toHaveValue('harrow');await expect(page.locator('#resource-list article').first()).toBeVisible();

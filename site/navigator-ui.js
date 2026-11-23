@@ -6,6 +6,7 @@
  const make=(tag,text,cls)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;};
  const client=window.crypto?.randomUUID?.()||Array.from(window.crypto.getRandomValues(new Uint8Array(16)),b=>b.toString(16).padStart(2,'0')).join('').replace(/(.{8})(.{4})(.{4})(.{4})(.{12})/,'$1-$2-$3-$4-$5');
  let generation=0,controller=null,last=null,catalog=null,shownMore=0;
+ let localSearchArea='';
  const status=text=>{$('navigator-status').textContent=text;};
  const choices=()=>({area:area.value,audience:$('audience').value,topic:$('topic').value});
  function stop(){generation++;controller?.abort();controller=null;$('navigator-submit').disabled=false;form.removeAttribute('aria-busy');}
@@ -45,7 +46,7 @@
  function render(){
   if(!last)return;
   last.result=core.searchDirectory(window.CNWLResourceDirectory.getSearchCatalog(),last.intent,choices(),last.query);const result=last.result;
-  $('directory-explorer').hidden=true;$('support-start').hidden=true;
+  $('directory-explorer').hidden=true;$('support-start').hidden=true;$('view-matches').hidden=false;
   $('navigator-results').hidden=false;$('navigator-more-list').replaceChildren();shownMore=0;$('navigator-more').open=false;
   const labels=last.intent.needs.map(id=>core.NEEDS[id].label.toLowerCase());
   $('navigator-result-heading').textContent=result.count?'A few places to start':'No close matches yet';
@@ -108,14 +109,39 @@
   }catch(error){if(id===generation){if(error.message!=='personal_information')window.DTPMonitoring?.captureCode('directory_unavailable');status(error.message==='personal_information'?'Please remove personal information and describe only the support needed and borough.':'The directory is unavailable. Please try again, or use the printable directories below.');}}
   finally{clearTimeout(timeout);if(id===generation){form.removeAttribute('aria-busy');$('navigator-submit').disabled=false;controller=null;}}
  }
- form.addEventListener('submit',event=>{event.preventDefault();event.stopImmediatePropagation();if(event.submitter?.id==='navigator-local'){stop();clearResults();window.CNWLResourceDirectory.search();}else navigate();},true);
+ function searchWithoutAI(){
+  stop();clearResults();$('navigator-safety').hidden=true;
+  const directory=window.CNWLResourceDirectory;
+  const query=search.value.trim();
+  const placeClause=query.match(/^(.*?)\s+(?:in|near|around|within|across)\s+(.+)$/i);
+  const place=core.fold(placeClause?placeClause[2]:query).replace(/\s*&\s*/g,' and ');
+  const areaId=Object.keys(core.AREAS).find(id=>core.fold(core.AREAS[id])===place);
+  if(areaId&&(!area.value||area.value===localSearchArea||area.value===areaId)){
+   search.value=placeClause?placeClause[1].trim():'';
+   localSearchArea=areaId;directory.setInferredArea(areaId);
+  }else if(!query&&!area.value&&!$('topic').value&&!$('audience').value&&document.querySelector('[data-activity="all"]')?.getAttribute('aria-pressed')==='true'){
+   directory.setInferredArea('all');
+  }
+  directory.search();
+ }
+ area.addEventListener('change',()=>{localSearchArea='';});
+ form.addEventListener('submit',event=>{event.preventDefault();event.stopImmediatePropagation();if(event.submitter?.id==='navigator-local')searchWithoutAI();else navigate();},true);
  search.addEventListener('input',event=>{event.stopImmediatePropagation();stop();clearResults();$('navigator-safety').hidden=true;},true);
  search.addEventListener('keydown',event=>{if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();form.requestSubmit();}});
- function resetNavigator(){stop();clearResults();window.CNWLResourceDirectory.reset();$('navigator-safety').hidden=true;search.focus({preventScroll:true});$('support-heading').scrollIntoView({block:'start',behavior:'auto'});}
+ function resetNavigator(){stop();clearResults();localSearchArea='';window.CNWLResourceDirectory.reset();$('navigator-safety').hidden=true;search.focus({preventScroll:true});$('support-heading').scrollIntoView({block:'start',behavior:'auto'});}
  $('navigator-reset').addEventListener('click',resetNavigator);$('navigator-clear-results').addEventListener('click',resetNavigator);
  $('navigator-edit').addEventListener('click',()=>{search.focus();search.scrollIntoView({block:'center',behavior:'auto'});});
  $('clear-filters').addEventListener('click',()=>{stop();clearResults();$('navigator-safety').hidden=true;});
- document.addEventListener('directorychoiceschange',event=>{if(last){stop();render();}else{$('directory-explorer').hidden=!event.detail.started;$('support-start').hidden=event.detail.started;}});
+ document.addEventListener('directorychoiceschange',event=>{
+  if(last){stop();render();return;}
+  $('directory-explorer').hidden=!event.detail.started;
+  $('support-start').hidden=event.detail.started;
+  $('view-matches').hidden=!event.detail.started;
+ });
+ $('view-matches').addEventListener('click',()=>{
+  const heading=$(last?'navigator-result-heading':'resource-results-heading');
+  heading.focus({preventScroll:true});heading.scrollIntoView({block:'start'});
+ });
  $('navigator-choose-area').addEventListener('click',()=>{area.focus();area.scrollIntoView({block:'center'});});
  $('navigator-more').addEventListener('toggle',()=>{if($('navigator-more').open&&shownMore===0)renderMore();});
  $('navigator-more-button').addEventListener('click',renderMore);

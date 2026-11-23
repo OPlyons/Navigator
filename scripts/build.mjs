@@ -40,6 +40,11 @@ template=template.replace('</head>','<style>'+await read('site/crisis-help.css')
 template=template.replace('</body>','<script>'+await read('site/crisis-help.js')+'</script></body>');
 
 template=await buildPracticalGuides({root,out,template});
+// The template includes base styles for the directory, its dialogs and printable pages.
+template=template.replace(/(<style\b[^>]*>)([\s\S]*?)(<\/style>)/g,
+ (_match,open,css,close)=>open+'@layer original {\n'+css+'\n}'+close);
+const design=await read('site/community-design.css');
+template=template.replace('</head>',()=>'<style id="community-design">'+design+'</style></head>');
 await fs.writeFile(path.join(out,'index.html'),template);
 await fs.writeFile(path.join(out,'_routes.json'),JSON.stringify({version:1,include:['/api/*'],exclude:[]}));
 await fs.writeFile(path.join(out,'build-info.json'),JSON.stringify({release,commit,resources:directory.resources.length}));

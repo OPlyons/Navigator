@@ -13,3 +13,9 @@ export async function interceptSentry(page){
  return envelopes;
 }
 export async function openSupport(page){await page.goto('/#support');await page.locator('#service-search').waitFor({state:'visible'});await page.locator('#service-search').fill('');}
+
+export async function openMainNavigation(page){
+ const toggle=page.getByRole('button',{name:'Open menu',exact:true});
+ if(await toggle.isVisible())await toggle.click();
+ return page.getByRole('navigation',{name:'Main navigation',exact:true});
+}

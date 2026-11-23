@@ -1,5 +1,5 @@
 import {test,expect} from '@playwright/test';
-import {interceptSentry,mockNavigator,openSupport,records} from './support.js';
+import {interceptSentry,mockNavigator,openSupport,openMainNavigation,records} from './support.js';
 
 const areas=[
  ['barnet','Barnet'],['islington','Islington'],['hammersmith-fulham','Hammersmith and Fulham'],
@@ -58,7 +58,7 @@ test('leaving a covered borough does not carry its local crisis route into a nei
  await help.click();
  await expect(page.locator('#crisis-area-camden')).toHaveAttribute('open','');
  for(const [id,label] of areas){
-  await support.click();
+  await openMainNavigation(page);await support.click();
   await page.locator('#area').selectOption(id);
   await help.click();
   await expect(page.getByRole('link',{name:'Call NHS 111',exact:true})).toBeVisible();
