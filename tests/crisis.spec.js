@@ -6,7 +6,7 @@ test('red crisis button is visible across pages and opens direct emergency help 
  let calls=0;await page.route('**/api/navigate',route=>{calls++;return route.abort();});
  await openSupport(page);
  const button=page.getByRole('link',{name:'Crisis help',exact:true});
- await expect(button).toBeVisible();await expect(button).toHaveCSS('background-color','rgb(180, 35, 50)');
+ await expect(button).toBeVisible();await expect(button).toHaveCSS('background-color','rgb(241, 127, 115)');
  await button.click();await expect(page).toHaveURL(/#urgent$/);
  await expect(page.getByRole('heading',{name:'Crisis help',exact:true})).toBeVisible();
  await expect(page.getByRole('link',{name:'Call 999',exact:true})).toHaveAttribute('href','tel:999');

@@ -4,6 +4,9 @@ import {interceptSentry,mockNavigator,openSupport,records} from './support.js';
 test.beforeEach(async({page})=>{await interceptSentry(page);});
 test('six hospital shortcuts preserve the borough, clear conflicting filters and run locally',async({page})=>{
  const calls=await mockNavigator(page);await openSupport(page);await page.locator('#area').selectOption('brent');
+ const guides=page.getByRole('region',{name:'Practical guides',exact:true});
+ await expect(guides.locator('.pg-tile')).toHaveCount(7);
+ await expect(guides.getByRole('button',{name:'Recently left hospital?',exact:true})).toBeVisible();
  const cases=[['Help at home','Help at home after hospital — reablement'],['Money and essentials','Benefits after a hospital stay'],['Medicines support','NHS Discharge Medicines Service'],['Getting to appointments','NHS Healthcare Travel Costs Scheme'],['People and connection',null],['Support for carers','Carers UK — make a back-up care plan']];
  for(const [label,expected] of cases){
   await page.locator('[data-activity="faith"]').click();

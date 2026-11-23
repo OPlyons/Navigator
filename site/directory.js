@@ -108,7 +108,7 @@
   // Showing all types is independent of whether the wizard may infer a borough.
   browsingTypes=true;topic.value='';shown=12;render();
  }
- const activityButtons=groups.map(g=>{const b=make('button',undefined,'activity-choice');b.type='button';b.dataset.activity=g.id;b.setAttribute('aria-pressed',String(g.id===activity));b.disabled=true;b.append(icon(g.id,'activity-icon'),make('span',g.label));b.addEventListener('click',()=>toggleActivity(g.id));$('activity-choices').insertBefore(b,audienceTrigger);return b;});
+ const activityButtons=groups.map(g=>{const b=make('button',undefined,'activity-choice');b.type='button';b.dataset.activity=g.id;b.setAttribute('aria-pressed',String(g.id===activity));b.disabled=true;b.append(icon(g.id,'activity-icon'),make('span',g.label));b.addEventListener('click',()=>toggleActivity(g.id));$('activity-choices').append(b);return b;});
  audienceTrigger.prepend(icon('everyone','activity-icon'));
  // Optional group choices use the same local filter as the previous select.
  // Symbols accompany text; no personal details or identity choices are stored.
