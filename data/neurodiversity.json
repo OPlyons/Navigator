@@ -160,7 +160,7 @@
         {
           "id": "online-groups",
           "title": "Facebook groups",
-          "description": "Online communities. A Facebook account or group membership may be needed."
+          "description": "Some online groups ask you to sign in to Facebook or join the group."
         },
         {
           "id": "abuse",
@@ -1905,7 +1905,7 @@
     },
     {
       "title": "Practising a Universal Credit application",
-      "description": "The board’s practice portal could not be verified. GOV.UK explains how to make a real claim.",
+      "description": "The board’s practice portal could not be verified. GOV.UK explains how to submit a claim.",
       "links": [
         {
           "label": "Official Universal Credit application guidance",
@@ -4523,7 +4523,7 @@
       "title": "Autistic London on Facebook",
       "description": "A social media page about autism and London. Facebook may ask you to sign in.",
       "links": [],
-      "note": "Account may be needed · Current provider details could not be confirmed. The CAAS card is available below.",
+      "note": "You may need an account. The provider’s current details could not be confirmed. The CAAS card is available below.",
       "sources": [
         {
           "card": "ynV2ApqQ",
@@ -4535,7 +4535,7 @@
       "title": "Neurodiverse UK on Facebook",
       "description": "An online community. Facebook may ask you to sign in or request membership.",
       "links": [],
-      "note": "Account may be needed · Current provider details could not be confirmed. The CAAS card is available below.",
+      "note": "You may need an account. The provider’s current details could not be confirmed. The CAAS card is available below.",
       "sources": [
         {
           "card": "QlObhY42",

@@ -11,7 +11,7 @@ test('MHCAS self-referral advice keeps its catchment, age and clinical access co
  for(const route of routes){
   assert.ok(route);
   for(const borough of ['Brent','Harrow','Hillingdon','Kensington and Chelsea','Westminster'])assert.ok(route.text.includes(borough));
-  for(const condition of ['Adults 18+','Walk in 24/7','no referral needed','without an urgent physical health need'])assert.ok(route.text.includes(condition),condition);
+  for(const condition of ['adults aged 18 or over','Walk in 24/7','no referral needed','without an urgent physical health need'])assert.ok(route.text.includes(condition),condition);
   assert.deepEqual(route,routes[0],'the same walk-in service has the same advice in each borough');
  }
  assert.deepEqual(Object.keys(data.areas).filter(area=>data.areas[area].routes.some(route=>route.name==='MHCAS at St Charles Hospital')),boroughs);

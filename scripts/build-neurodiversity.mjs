@@ -59,7 +59,7 @@ export async function buildNeurodiversity({root, out, template}) {
   const masthead = renderMasthead(template, 'neurodiversity');
   let page = await read('site/neurodiversity.html');
   for (const [slot, content] of Object.entries({
-    'shared masthead': masthead, 'collection count': `${data.resources.length} resources · ${topics.length} topics`,
+    'shared masthead': masthead, 'collection count': `${data.resources.length} resources across ${topics.length} topics`,
     'topic options': choices, 'topic sections': groups,
     'collection date': new Intl.DateTimeFormat('en-GB', {day:'numeric', month:'long', year:'numeric', timeZone:'UTC'}).format(new Date(data.source.checkedOn + 'T12:00:00Z'))
   })) {

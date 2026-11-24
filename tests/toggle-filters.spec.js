@@ -36,14 +36,14 @@ test('clearing a borough inferred by the wizard keeps the query and active suppo
  const brent=page.locator('#borough-map [data-area="brent"]'),summary=page.locator('#navigator-result-summary');
  const money=page.locator('[data-activity="money"]');
  await expect(brent).toHaveAttribute('aria-pressed','true');
- await expect(summary).toContainText('Area: Brent.');
+ await expect(summary).toContainText(' in Brent.');
  await money.click();
  await brent.click();
  await expect(brent).toHaveAttribute('aria-pressed','false');
  await expect(page.locator('[data-map-shape="brent"]')).not.toHaveClass(/is-selected/);
  await expect(page.locator('#area')).toHaveValue(/^(all)?$/);
  await expect(summary).toBeVisible();
- await expect(summary).toContainText('Local and wider options.');
+ await expect(summary).toContainText(' across local and wider services.');
  await expect(page.locator('#navigator-cards article').first()).toBeVisible();
  await expect(money).toHaveAttribute('aria-pressed','true');
  await expect(page.locator('#service-search')).toHaveValue(query);
@@ -66,6 +66,6 @@ test('clearing the only type shows all listings and still lets the next search c
  await expect(shape).toHaveClass(/is-selected/);
  await shape.dispatchEvent('click');
  await expect(shape).not.toHaveClass(/is-selected/);
- await expect(page.locator('#navigator-result-summary')).toContainText('Local and wider options.');
+ await expect(page.locator('#navigator-result-summary')).toContainText(' across local and wider services.');
  expect(calls).toHaveLength(1);
 });

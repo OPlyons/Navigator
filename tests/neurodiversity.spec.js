@@ -5,7 +5,7 @@ import {interceptSentry, openMainNavigation, records} from './support.js';
 
 const collection = JSON.parse(fs.readFileSync(new URL('../data/neurodiversity.json', import.meta.url)));
 const topicCount = collection.groups.flatMap(group => group.topics).length;
-const allCount = `${collection.resources.length} resources · ${topicCount} topics`;
+const allCount = `${collection.resources.length} resources across ${topicCount} topics`;
 
 test('the homepage opens the collection and the local services link applies the directory audience', async ({page}) => {
   await interceptSentry(page);
@@ -26,7 +26,7 @@ test('topic and text filters combine, clear, and support reading options', async
   await page.goto('/neurodiversity/');
   await page.getByLabel('Topic', {exact:true}).selectOption('apps');
   await page.getByRole('searchbox').fill('goblin');
-  await expect(page.locator('#nd-count')).toHaveText('1 resource · 1 topic');
+  await expect(page.locator('#nd-count')).toHaveText('1 resource across 1 topic');
   await expect(page.locator('.nd-entry:visible h4')).toContainText(/goblin/i);
   await page.getByRole('searchbox').fill('qzqxqz');
   await expect(page.locator('#nd-empty')).toBeVisible();
