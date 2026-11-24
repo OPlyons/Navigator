@@ -1,13 +1,13 @@
 import {test, expect} from '@playwright/test';
-import {interceptSentry} from './support.js';
+import {interceptSentry,openPracticalGuides} from './support.js';
 
 test.beforeEach(async ({page}) => { await interceptSentry(page); });
 
 const controls = [
   '#crisis-help-button', '#workforce-advice-link', '#support [data-suggest-resource]',
-  '.pg-hub #after-hospital-toggle', '.directory-update-note', '#navigator-warning', '#service-search', '#navigator-submit',
+  '#primary-nav [data-nav=guides]', '.directory-update-note', '#navigator-warning', '#service-search', '#navigator-submit',
   '#search-help', '#area', '#borough-map', '#support-more-filters > summary',
-  '#activity-choices > button', '[data-open-guide]', '#browse-all-areas',
+  '#activity-choices > button', '#browse-all-areas',
   '#reading-options > summary', '#area-map-panel .map-credit > summary',
   '#print-page', '.footer-workforce-name', 'footer nav a'
 ];
@@ -21,7 +21,7 @@ for (const [width, height] of [[1280, 720], [1440, 900], [1844, 1024]]) {
     await page.goto('/');
     await expect(page.locator('#browse-all-areas')).toBeEnabled();
     await expect(page.locator('#activity-choices > button')).toHaveCount(20);
-    await expect(page.locator('[data-open-guide]')).toHaveCount(6);
+    await expect(page.getByRole('heading',{name:'Support wizard',exact:true})).toHaveCount(1);
     await page.evaluate(async () => {
       await document.fonts.ready;
       window.scrollTo({top:0, left:0, behavior:'instant'});
@@ -53,7 +53,7 @@ for (const [width, height] of [[1280, 720], [1440, 900], [1844, 1024]]) {
   });
 }
 
-test('mobile and larger text allow vertical scrolling to the guides without sideways scrolling', async ({page, isMobile}) => {
+test('the wizard follows the area and support choices, and guides are reachable at any text size', async ({page, isMobile}) => {
   await page.setViewportSize(isMobile ? {width:390,height:844} : {width:1280,height:720});
   await page.goto('/');
   await expect(page.locator('#browse-all-areas')).toBeEnabled();
@@ -62,11 +62,24 @@ test('mobile and larger text allow vertical scrolling to the guides without side
     expect(overflow, 'The page should not need horizontal scrolling').toBeLessThanOrEqual(1);
   };
   await checkWidth();
+  const wizard=page.getByRole('search');
+  await expect(wizard.getByRole('button',{name:'Search',exact:true})).toHaveCount(1);
+  await expect(page.locator('#support .pg-hub,#support [data-open-guide]')).toHaveCount(0);
+  const map=await page.locator('#area-map-panel').boundingBox();
+  const types=await page.locator('#activity-choices').boundingBox();
+  const search=await wizard.boundingBox();
+  expect(search.y).toBeGreaterThanOrEqual(Math.max(map.y+map.height,types.y+types.height));
+  await page.locator('#area').selectOption('brent');
+  const results=await page.locator('#directory-explorer').boundingBox();
+  expect(results.y).toBeGreaterThanOrEqual(search.y+search.height);
   const reading = page.locator('#reading-options > summary');
   await reading.click();
   await page.locator('#larger-text').click();
   await reading.click();
   await checkWidth();
+  await page.locator('#service-search').scrollIntoViewIfNeeded();
+  await expect(page.locator('#service-search')).toBeInViewport();
+  await openPracticalGuides(page);
   const course = page.locator('[data-open-guide="courses"]');
   await course.click();
   await expect(page.locator('#pg-drawer')).toBeVisible();

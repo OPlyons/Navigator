@@ -77,7 +77,8 @@
  const date=value=>{if(!/^\d{4}-\d{2}-\d{2}$/.test(value||''))return 'Not recorded';return new Date(value+'T12:00:00').toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'});};
  function icon(key,cls){const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');svg.setAttribute('viewBox','0 0 24 24');svg.setAttribute('fill','none');svg.setAttribute('stroke','currentColor');svg.setAttribute('stroke-width','1.7');svg.setAttribute('stroke-linecap','round');svg.setAttribute('stroke-linejoin','round');svg.setAttribute('aria-hidden','true');svg.setAttribute('focusable','false');if(cls)svg.setAttribute('class',cls);const p=document.createElementNS(svg.namespaceURI,'path');p.setAttribute('d',paths[key]||paths.all);svg.append(p);return svg;}
  const audienceTrigger=$('support-for-toggle'),audienceDialog=$('support-for-dialog');
- const hospitalTrigger=$('after-hospital-toggle'),hospitalDialog=$('after-hospital-dialog');
+ const hospitalDialog=$('after-hospital-dialog');
+ const guideLinks=[...document.querySelectorAll('a[href="/guides/"]')];
  const hospitalChoices=[
   ['home','practical','Help at home','Everyday tasks and aftercare','Help at home after hospital and aftercare rights'],
   ['essentials','money','Money and essentials','Benefits, food and household items','Money and essentials after hospital'],
@@ -96,10 +97,21 @@
   });
   $('after-hospital-choices').append(b);return b;
  });
- hospitalTrigger.addEventListener('click',()=>{hospitalDialog.returnValue='';hospitalDialog.showModal();hospitalTrigger.setAttribute('aria-expanded','true');hospitalButtons[0].focus({preventScroll:true});});
+ function openHospitalGuide(){
+  if(hospitalDialog.open)return;
+  hospitalDialog.returnValue='';
+  hospitalDialog.showModal();
+  hospitalButtons[0].focus({preventScroll:true});
+ }
  $('after-hospital-close').addEventListener('click',()=>hospitalDialog.close());
  hospitalDialog.addEventListener('keydown',event=>{if(event.key!=='Tab')return;const first=$('after-hospital-close'),last=hospitalButtons.at(-1);if(event.shiftKey&&document.activeElement===first){event.preventDefault();last.focus();}else if(!event.shiftKey&&document.activeElement===last){event.preventDefault();first.focus();}});
- hospitalDialog.addEventListener('close',()=>{hospitalTrigger.setAttribute('aria-expanded','false');if(hospitalDialog.returnValue==='choice')showResults();else hospitalTrigger.focus({preventScroll:true});});
+ hospitalDialog.addEventListener('close',()=>{
+  if(!/^#after-hospital(?:\/|$)/.test(location.hash))return;
+  history.replaceState(history.state,'','#support');
+  if(hospitalDialog.returnValue==='choice'){showResults();return;}
+  const guides=guideLinks.find(link=>link.getClientRects().length);
+  (guides||$('menu-toggle')).focus();
+ });
  hospitalDialog.addEventListener('click',event=>{if(event.target!==hospitalDialog)return;const r=hospitalDialog.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)hospitalDialog.close();});
  window.addEventListener('hashchange',()=>{if(hospitalDialog.open)hospitalDialog.close();});
 
@@ -251,6 +263,8 @@
  }
  function areaChanged(){
   if(!data)return;shown=12;
+  const guidesHref=area.value?'/guides/#area-'+area.value:'/guides/';
+  for(const link of guideLinks)link.setAttribute('href',guidesHref);
   const dir=data.directories.find(d=>d.id===area.value);$('area-download').replaceChildren();
   if(dir){const original=$('dl-'+data.areaDownloads[dir.id]);if(original){const a=original.cloneNode(true);a.removeAttribute('id');a.querySelector('span').textContent='Download the '+dir.name+' directory';const detail=make('details');detail.append(make('summary','Printable '+dir.name+' directory'),a);$('area-download').append(detail);}}
   render();
@@ -272,18 +286,25 @@
    for(const r of value.resources)r.searchIndex=engine.index(r);
    data=value;area.value=pendingArea;
    topic.replaceChildren(new Option('All types',''));for(const cat of [...new Set(data.resources.map(r=>r.category))].sort())topic.append(new Option(cat,cat));
-   for(const n of [area,topic,search,audience,audienceTrigger,hospitalTrigger,$('clear-filters'),$('browse-all-areas'),...activityButtons,...areaButtons])n.disabled=false;
+   for(const n of [area,topic,search,audience,audienceTrigger,$('clear-filters'),$('browse-all-areas'),...activityButtons,...areaButtons])n.disabled=false;
    $('browse-all-areas').textContent='Browse all '+data.resources.length+' listings';$('directory-coverage').textContent=data.resources.length+' resources';
    areaChanged();
   }catch(error){$('resource-count').textContent='The directory could not be loaded.';$('directory-loading-error').hidden=false;console.error('Directory load failed:',error);}
   finally{$('resource-list').removeAttribute('aria-busy');loading=null;}})();return loading;
  }
  async function maybeLoad(){
+  if(location.hash==='#pg-heading'){location.replace('/guides/');return;}
   if(!$('support').classList.contains('active'))return;
   await load();
   if(!data)return;
-  if(location.hash==='#after-hospital'&&!hospitalDialog.open)hospitalTrigger.click();
-  if(location.hash==='#service-search')search.focus();
+  const guide=location.hash.match(/^#(after-hospital|service-search)(?:\/([a-z-]+))?$/);
+  if(guide){
+   const [,destination,borough]=guide;
+   if(borough&&areaOptions.has(borough)&&borough!==area.value)chooseArea(borough);
+   if(destination==='after-hospital')openHospitalGuide();
+   else{search.removeAttribute('tabindex');search.focus();}
+   return;
+  }
   if(location.hash!=='#neurodivergent-services')return;
   clearTimeout(timer);
   browsingTypes=false;search.value='';topic.value='';activity='all';
