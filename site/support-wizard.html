@@ -1,15 +1,20 @@
-<div class="wizard-column">
-<form id="directory-search-form" class="directory-search needs-search wizard-panel" role="search" aria-label="Search groups, activities and support">
-<div id="navigator-heading" class="navigator-heading wizard-heading"><h2>Support wizard</h2></div>
-<label for="service-search" id="search-label">Tell us what you need in your own words.</label>
-<p id="search-help">Try “I need a sofa”, “I have no food” or “I’m lonely”.</p>
-<div class="search-row"><div><textarea id="service-search" maxlength="400" aria-describedby="search-help navigator-warning" autocomplete="off" disabled rows="2"></textarea></div></div>
-<p id="navigator-warning" class="wizard-privacy"><span id="search-data-note">Search sends your words to Cloudflare.</span> Leave out personal details. <a href="#navigator-privacy">Search privacy</a></p>
-<div class="wizard-actions"><button type="submit" class="button" id="navigator-submit">Search</button></div>
-<p id="navigator-status" class="navigator-status" role="status" aria-live="polite" aria-atomic="true"></p><div id="navigator-safety" class="navigator-safety" hidden=""><a href="#urgent">Open Crisis help</a></div>
-</form>
-<aside class="directory-update-note" aria-labelledby="directory-update-heading">
-  <strong id="directory-update-heading">Keeping listings up to date</strong>
-  <p>Listings are due an automatic check every four weeks. We look for new resources daily.</p>
-</aside>
+<div class="support-search-section">
+  <form id="directory-search-form" class="directory-search needs-search wizard-panel" role="search" aria-label="Search groups, activities and support">
+    <div class="wizard-intro">
+      <div id="navigator-heading" class="navigator-heading wizard-heading"><h2>Support wizard</h2></div>
+      <label for="service-search" id="search-label">Tell us what you need in your own words.</label>
+      <p id="search-help">Try “I need a sofa”, “I have no food” or “I’m lonely”.</p>
+    </div>
+    <div class="wizard-entry">
+      <p id="navigator-warning" class="wizard-privacy"><span id="search-data-note">Search sends your words to Cloudflare.</span> Leave out personal details. <a href="#navigator-privacy">Search privacy</a></p>
+      <textarea id="service-search" maxlength="400" aria-describedby="search-help navigator-warning" autocomplete="off" disabled rows="2"></textarea>
+      <button type="submit" class="button" id="navigator-submit">Search</button>
+      <p id="navigator-status" class="navigator-status" role="status" aria-live="polite" aria-atomic="true"></p>
+      <div id="navigator-safety" class="navigator-safety" hidden><a href="#urgent">Open Crisis help</a></div>
+    </div>
+  </form>
+  <aside class="directory-update-note" aria-labelledby="directory-update-heading">
+    <strong id="directory-update-heading">Keeping listings up to date</strong>
+    <p>Listings are due an automatic check every four weeks. We look for new resources daily.</p>
+  </aside>
 </div>

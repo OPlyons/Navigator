@@ -1,4 +1,18 @@
 (()=>{'use strict';
+// Carry only the chosen area when a guide takes someone back to the directory.
+const directoryLinks=[...document.querySelectorAll('.guide-group a[href^="/#"]')];
+const homeLink=document.querySelector('.guide-footer a');
+function linkDirectoryArea(){
+ const borough=location.hash.match(/^#area-([a-z-]+)$/)?.[1];
+ for(const link of directoryLinks){
+  const target=link.hash.split('/')[0];
+  link.setAttribute('href','/'+target+(borough?'/'+borough:''));
+ }
+ if(homeLink)homeLink.href=borough&&borough!=='all'?'/#area-'+borough:'/#support';
+}
+linkDirectoryArea();
+window.addEventListener('hashchange',linkDirectoryArea);
+
 const drawer=document.querySelector('#pg-drawer');
 if(!drawer||typeof drawer.showModal!=='function')return;
 const title=drawer.querySelector('#pg-title'),body=drawer.querySelector('.pg-body'),back=drawer.querySelector('.pg-back');

@@ -8,6 +8,7 @@ export function editPublicPageCopy(template) {
     .replace('<span aria-hidden="true">↻</span> Start again', 'Start again')
     .replace('>A few places to start</h2>', '>Where you could start</h2>')
     .replace('See matching wider support →', 'See matching wider support')
+    .replace('Search and filter choices stay in the open page.', 'Guide links carry the selected area back to the directory. This tab also remembers your reading options.')
     .replace('Workforce map ↗', 'Workforce map')
     .replace(/(<span class="file-meta">)PDF · (\d+ pages?) · (\d+ KB) <span aria-hidden="true">↓<\/span>/g, '$1PDF, $2, $3');
 }

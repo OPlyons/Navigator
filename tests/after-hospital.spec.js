@@ -1,16 +1,17 @@
 import {test,expect} from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
-import {interceptSentry,mockNavigator,openSupport,records} from './support.js';
+import {interceptSentry,mockNavigator,openSupport,openPracticalGuides,records} from './support.js';
 test.beforeEach(async({page})=>{await interceptSentry(page);});
+async function openHospitalGuide(page){
+ await openPracticalGuides(page);
+ await page.getByRole('link',{name:'Recently left hospital?',exact:true}).press('Enter');
+}
 test('six hospital shortcuts preserve the borough, clear conflicting filters and run locally',async({page})=>{
  const calls=await mockNavigator(page);await openSupport(page);await page.locator('#area').selectOption('brent');
- const guides=page.getByRole('region',{name:'Practical guides',exact:true});
- await expect(guides.locator('.pg-tile')).toHaveCount(7);
- await expect(guides.getByRole('button',{name:'Recently left hospital?',exact:true})).toBeVisible();
  const cases=[['Help at home','Help at home after hospital — reablement'],['Money and essentials','Benefits after a hospital stay'],['Medicines support','NHS Discharge Medicines Service'],['Getting to appointments','NHS Healthcare Travel Costs Scheme'],['People and connection',null],['Support for carers','Carers UK — make a back-up care plan']];
  for(const [label,expected] of cases){
   await page.locator('[data-activity="faith"]').click();
-  await page.locator('#after-hospital-toggle').click();
+  await openHospitalGuide(page);
   const dialog=page.getByRole('dialog',{name:'Recently left hospital?',exact:true});
   await expect(dialog.locator('.after-hospital-choice')).toHaveCount(6);
   await dialog.getByRole('button',{name:label}).click();
@@ -24,21 +25,21 @@ test('six hospital shortcuts preserve the borough, clear conflicting filters and
 });
 test('a hospital shortcut replaces prior AI results without another AI request',async({page})=>{
  const calls=await mockNavigator(page);await openSupport(page);await page.locator('#service-search').fill('Housing and benefits in Brent tonight');await page.locator('#navigator-submit').click();await expect(page.locator('#navigator-results')).toBeVisible();
- await page.locator('#after-hospital-toggle').click();await page.getByRole('button',{name:'Medicines support'}).click();
+ await openHospitalGuide(page);await page.getByRole('button',{name:'Medicines support'}).click();
  await expect(page.locator('#navigator-results')).toBeHidden();await expect(page.locator('#resource-list')).toContainText('NHS Discharge Medicines Service');expect(calls).toHaveLength(1);
- await page.locator('#navigator-reset').click();await expect(page.locator('#support-start')).toBeVisible();await expect(page.locator('#service-search')).toHaveValue('');
+ await page.locator('#navigator-reset').click();await expect(page.locator('#support-start')).toBeVisible();await expect(page.locator('#support-heading')).toBeFocused();await expect(page.locator('#service-search')).toHaveValue('');
 });
 test('hospital choices work with keyboard and reading options',async({page})=>{
- await mockNavigator(page);await openSupport(page);const trigger=page.locator('#after-hospital-toggle'),dialog=page.getByRole('dialog',{name:'Recently left hospital?',exact:true});
- await trigger.press('Enter');await expect(dialog.getByRole('button',{name:'Help at home'})).toBeFocused();
+ await mockNavigator(page);await openSupport(page);const dialog=page.getByRole('dialog',{name:'Recently left hospital?',exact:true});
+ await openHospitalGuide(page);await expect(dialog.getByRole('button',{name:'Help at home'})).toBeFocused();
  await page.keyboard.press('Shift+Tab');await expect(page.locator('#after-hospital-close')).toBeFocused();await page.keyboard.press('Shift+Tab');await expect(dialog.getByRole('button',{name:'Support for carers'})).toBeFocused();
- await page.keyboard.press('Escape');await expect(dialog).toBeHidden();await expect(trigger).toBeFocused();
+ await page.keyboard.press('Escape');await expect(dialog).toBeHidden();await expect(page.getByRole('link',{name:'Practical guides',exact:true})).toBeFocused();
  await page.locator('#reading-options > summary').click();await page.locator('#larger-text').click();await page.locator('#hide-pictures').click();await page.locator('#reduce-colours').click();
- await trigger.click();await expect(dialog.locator('.after-hospital-icon').first()).toBeHidden();expect(await dialog.evaluate(el=>el.scrollWidth<=el.clientWidth)).toBeTruthy();
+ await openHospitalGuide(page);await expect(dialog.locator('.after-hospital-icon').first()).toBeHidden();expect(await dialog.evaluate(el=>el.scrollWidth<=el.clientWidth)).toBeTruthy();
  await dialog.getByRole('button',{name:'Money and essentials'}).press('Enter');await expect(page.locator('#resource-list')).toContainText('Benefits after a hospital stay');
 });
 test('axe: hospital picker and practical results',async({page})=>{
- await mockNavigator(page);await openSupport(page);await page.locator('#after-hospital-toggle').click();
+ await mockNavigator(page);await openSupport(page);await openHospitalGuide(page);
  const audit=async()=>{const result=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21a','wcag21aa','best-practice']).analyze();expect(result.violations).toEqual([]);};
  await audit();await page.getByRole('button',{name:'Getting to appointments'}).click();await audit();
 });

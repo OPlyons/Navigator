@@ -26,3 +26,9 @@ export async function openMainNavigation(page){
  if(await toggle.isVisible())await toggle.click();
  return page.getByRole('navigation',{name:'Main navigation',exact:true});
 }
+
+export async function openPracticalGuides(page){
+ const navigation=await openMainNavigation(page);
+ await navigation.getByRole('link',{name:'Practical guides',exact:true}).click();
+ await page.getByRole('heading',{level:1,name:'Practical guides'}).waitFor();
+}

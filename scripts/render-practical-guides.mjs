@@ -18,8 +18,8 @@ const routeBody=r=>'<ol class="pg-steps">'+r.steps.map(t=>'<li>'+escape(t)+'</li
 const privacy='<p class="pg-footnote">Provider links open in a new tab. Enter personal details only on the provider’s own site.</p>';
 
 function indexGroup(title, links) {
- const items=links.map(({id,title,href}) =>
-  '<li><a href="'+escape(href)+'">'+icon(id)+'<span>'+escape(title)+'</span></a></li>'
+ const items=links.map(({id,title,href,walkthrough}) =>
+  '<li><a href="'+escape(href)+'"'+(walkthrough?' data-open-guide="'+id+'"':'')+'>'+icon(id)+'<span>'+escape(title)+'</span></a></li>'
  ).join('');
  return '<section class="guide-group"><h2>'+escape(title)+'</h2><ul>'+items+'</ul></section>';
 }
@@ -34,16 +34,14 @@ export async function buildPracticalGuides({root,out,template}){
  const readComponent=file=>fs.readFile(path.join(root,'site',file),'utf8');
  const [wizard,privacyOptions]=await Promise.all([readComponent('support-wizard.html'),readComponent('search-privacy.html')]);
  template=editPublicPageCopy(linkGuideIndex(template));
- template=replaceElement(template,'<form id="directory-search-form"','</form>',wizard);
+ template=replaceElement(template,'<form id="directory-search-form"','</form>','');
  template=replaceElement(template,'<section id="navigator-privacy"','</section>',privacyOptions);
  template=template.replace('You can search without AI.','<a href="#navigator-privacy">Search privacy</a> lets you keep searches on this device.');
  const data=JSON.parse(await fs.readFile(path.join(root,'config/practical-guides.json'),'utf8'));
  const {groups,guides}=data,ids=groups.flatMap(g=>g.guides);
  if(ids.length!==new Set(ids).size||ids.length!==Object.keys(guides).length)throw Error('Every guide needs one group');
- const grid=groups.map((grp,n)=>'<section class="pg-group pg-theme-'+n+'"><h3>'+escape(grp.title)+'</h3><div class="pg-pair">'+grp.guides.map(id=>'<a class="pg-tile" href="/guides/'+id+'/" data-open-guide="'+id+'">'+icon(id)+'<span>'+escape(guides[id].title)+'</span></a>').join('')+'</div></section>').join('');
- const hospitalGuide='<section class="pg-group pg-hospital"><h3>Back at home</h3><button class="pg-tile after-hospital-toggle" type="button" id="after-hospital-toggle" aria-haspopup="dialog" aria-controls="after-hospital-dialog" aria-expanded="false" disabled><span class="pg-icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><use href="#i-home"></use></svg></span><span>Recently left hospital?</span></button></section>';
  const pane=Object.entries(guides).map(([id,g])=>'<template id="pg-template-'+id+'"><p class="pg-question">'+escape(g.question)+'</p><div class="pg-options">'+g.routes.map((r,i)=>'<button type="button" data-route="'+i+'">'+escape(r.title)+'</button>').join('')+'</div>'+g.routes.map((r,i)=>'<section class="pg-route" data-content="'+i+'" hidden><h3 tabindex="-1">'+escape(r.title)+'</h3>'+routeBody(r)+'</section>').join('')+'</template>').join('');
- const launcher='<section class="pg-hub" aria-labelledby="pg-heading"><div class="pg-header"><h2 id="pg-heading">Practical guides</h2></div><div class="pg-groups">'+grid+hospitalGuide+'</div></section><dialog class="pg-drawer" id="pg-drawer" aria-labelledby="pg-title"><header class="pg-drawer-head"><div><h2 id="pg-title" tabindex="-1"></h2></div><button type="button" class="pg-close" aria-label="Close practical guide">Close</button></header><button type="button" class="pg-back" hidden>Back to choices</button><div class="pg-body"></div>'+privacy+'</dialog>'+pane;
+ const drawer='<dialog class="pg-drawer" id="pg-drawer" aria-labelledby="pg-title"><header class="pg-drawer-head"><div><h2 id="pg-title" tabindex="-1"></h2></div><button type="button" class="pg-close" aria-label="Close practical guide">Close</button></header><button type="button" class="pg-back" hidden>Back to choices</button><div class="pg-body"></div>'+privacy+'</dialog>'+pane;
  if(!template.includes('<!-- practical guides -->'))throw Error('Missing dashboard guide slot');
  for(const [id,g] of Object.entries(guides)){
   if(!/^[a-z-]+$/.test(id)||!symbols[id])throw Error('Unknown guide: '+id);
@@ -52,7 +50,7 @@ export async function buildPracticalGuides({root,out,template}){
   await fs.writeFile(path.join(folder,'index.html'),page);
  }
  const sections=groups.map(group=>indexGroup(group.title,group.guides.map(id=>({
-  id,title:guides[id].title,href:'/guides/'+id+'/'
+  id,title:guides[id].title,href:'/guides/'+id+'/',walkthrough:true
  }))));
  sections.push(indexGroup('Everyday support',[
   {id:'hospital',title:'Recently left hospital?',href:'/#after-hospital'},
@@ -61,10 +59,10 @@ export async function buildPracticalGuides({root,out,template}){
  const index=await fs.readFile(path.join(root,'site/guides.html'),'utf8');
  await fs.writeFile(path.join(out,'guides/index.html'),index
   .replace('<!-- shared masthead -->',()=>renderMasthead(template,'guides'))
-  .replace('<!-- guide groups -->',()=>sections.join('\n')));
+  .replace('<!-- guide groups -->',()=>sections.join('\n'))
+  .replace('<!-- guide walkthroughs -->',()=>drawer));
  const indexStyles=await Promise.all(['community-design.css','guides.css'].map(file=>fs.readFile(path.join(root,'site',file),'utf8')));
  await fs.writeFile(path.join(out,'assets/guides.css'),indexStyles.join('\n'));
  for(const ext of ['css','js'])await fs.copyFile(path.join(root,'site/practical-guides.'+ext),path.join(out,'assets/practical-guides.'+ext));
- const css=await fs.readFile(path.join(root,'site/practical-guides.css'),'utf8');
- return template.replace('<!-- practical guides -->',launcher).replace('</head>','<style>'+css+'</style></head>').replace('</body>','<script src="/assets/practical-guides.js" defer></script></body>');
+ return template.replace('<!-- practical guides -->',()=>wizard.trimEnd());
 }

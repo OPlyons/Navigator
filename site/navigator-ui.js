@@ -150,7 +150,11 @@
  form.addEventListener('submit',event=>{event.preventDefault();event.stopImmediatePropagation();runSearch();},true);
  search.addEventListener('input',event=>{event.stopImmediatePropagation();stop();clearResults();$('navigator-safety').hidden=true;},true);
  search.addEventListener('keydown',event=>{if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();form.requestSubmit();}});
- function resetNavigator(){stop();clearResults();localSearchArea='';window.CNWLResourceDirectory.reset();$('navigator-safety').hidden=true;search.focus({preventScroll:true});$('support-heading').scrollIntoView({block:'start',behavior:'auto'});}
+ function resetNavigator(){
+  stop();clearResults();localSearchArea='';window.CNWLResourceDirectory.reset();$('navigator-safety').hidden=true;
+  const heading=$('support-heading');
+  heading.focus({preventScroll:true});heading.scrollIntoView({block:'start',behavior:'auto'});
+ }
  $('navigator-reset').addEventListener('click',resetNavigator);$('navigator-clear-results').addEventListener('click',resetNavigator);
  $('navigator-edit').addEventListener('click',()=>{search.focus();search.scrollIntoView({block:'center',behavior:'auto'});});
  $('clear-filters').addEventListener('click',()=>{stop();clearResults();$('navigator-safety').hidden=true;});

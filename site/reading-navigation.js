@@ -2,9 +2,32 @@
  'use strict';
  document.documentElement.classList.add('js');
  const $=id=>document.getElementById(id);
-$('larger-text').addEventListener('click',e=>{const on=document.documentElement.classList.toggle('large');e.currentTarget.setAttribute('aria-pressed',on);e.currentTarget.textContent=on?'Standard text size':'Larger text';});
-$('hide-pictures').addEventListener('click',e=>{const on=document.documentElement.classList.toggle('no-pictures');e.currentTarget.setAttribute('aria-pressed',on);e.currentTarget.textContent=on?'Show pictures':'Hide pictures';});
-$('reduce-colours').addEventListener('click',e=>{const on=document.documentElement.classList.toggle('reduced-colours');e.currentTarget.setAttribute('aria-pressed',String(on));e.currentTarget.textContent=on?'Show section colours':'Reduce colours';});
+ const root=document.documentElement;
+ const options=[
+  ['larger-text','large','Larger text','Standard text size'],
+  ['hide-pictures','no-pictures','Hide pictures','Show pictures'],
+  ['reduce-colours','reduced-colours','Reduce colours','Show section colours']
+ ];
+ const readingKey='navigator-reading-options';
+ let saved=[];
+ try{saved=(sessionStorage.getItem(readingKey)||'').split(' ');}catch{}
+ for(const [id,setting,offLabel,onLabel] of options){
+  const button=$(id);
+  function apply(on){
+   root.classList.toggle(setting,on);
+   button.setAttribute('aria-pressed',String(on));
+   button.textContent=on?onLabel:offLabel;
+  }
+  apply(saved.includes(setting));
+  button.addEventListener('click',()=>{
+   apply(!root.classList.contains(setting));
+   const enabled=options.map(option=>option[1]).filter(name=>root.classList.contains(name));
+   try{
+    if(enabled.length)sessionStorage.setItem(readingKey,enabled.join(' '));
+    else sessionStorage.removeItem(readingKey);
+   }catch{}
+  });
+ }
 $('print-page').addEventListener('click',()=>window.print());
   const menu=$('menu-toggle'), nav=$('primary-nav');
   function closeMenu(){nav.classList.remove('opened');menu.setAttribute('aria-expanded','false');menu.setAttribute('aria-label','Open menu');}
