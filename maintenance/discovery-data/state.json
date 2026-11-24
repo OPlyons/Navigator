@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedOn": "2026-11-23",
+  "updatedOn": "2026-11-24",
   "cells": {
     "[\"brent\",\"Legal advice and rights\"]": {
       "directoryId": "brent",
@@ -253,6 +253,42 @@
       "category": "Learning, work and volunteering",
       "lastAttempt": "2026-11-23",
       "outcome": "completed"
+    },
+    "[\"wider-support\",\"Voice and advocacy\"]": {
+      "directoryId": "wider-support",
+      "category": "Voice and advocacy",
+      "lastAttempt": "2026-11-24",
+      "outcome": "completed"
+    },
+    "[\"wider-support\",\"Local service directories\"]": {
+      "directoryId": "wider-support",
+      "category": "Local service directories",
+      "lastAttempt": "2026-11-24",
+      "outcome": "completed"
+    },
+    "[\"wider-support\",\"Faith and belief communities\"]": {
+      "directoryId": "wider-support",
+      "category": "Faith and belief communities",
+      "lastAttempt": "2026-11-24",
+      "outcome": "completed"
+    },
+    "[\"brent\",\"Housing and homelessness\"]": {
+      "directoryId": "brent",
+      "category": "Housing and homelessness",
+      "lastAttempt": "2026-11-24",
+      "outcome": "completed"
+    },
+    "[\"brent\",\"Urgent help\"]": {
+      "directoryId": "brent",
+      "category": "Urgent help",
+      "lastAttempt": "2026-11-24",
+      "outcome": "completed"
+    },
+    "[\"brent\",\"Voice and advocacy\"]": {
+      "directoryId": "brent",
+      "category": "Voice and advocacy",
+      "lastAttempt": "2026-11-24",
+      "outcome": "completed"
     }
   },
   "days": {
@@ -363,6 +399,22 @@
         "discovery-21f2ed3d55c1e488af50",
         "discovery-3b62195ae03b4f524e4e",
         "discovery-ecd0e8d2ab6704078df4"
+      ]
+    },
+    "2026-11-24": {
+      "cells": [
+        "[\"wider-support\",\"Voice and advocacy\"]",
+        "[\"wider-support\",\"Local service directories\"]",
+        "[\"wider-support\",\"Faith and belief communities\"]",
+        "[\"brent\",\"Housing and homelessness\"]",
+        "[\"brent\",\"Urgent help\"]",
+        "[\"brent\",\"Voice and advocacy\"]"
+      ],
+      "candidateIds": [
+        "discovery-b2ae312da84ce90211b2",
+        "discovery-fc7ec0e49ee6eca90588",
+        "discovery-8d7414828e412bc79a7a",
+        "discovery-c06545c4957e08337434"
       ]
     }
   },
@@ -1638,6 +1690,165 @@
       ],
       "evidence": "Current provider and council pages establish a borough volunteer-matching service with searchable roles, registration and direct support for people seeking opportunities.",
       "limitations": "Role requirements, accessibility, expenses, training and safeguarding checks vary. The pages do not promise a suitable role or immediate placement."
+    },
+    {
+      "id": "discovery-b2ae312da84ce90211b2",
+      "status": "proposed",
+      "firstSeen": "2026-11-24",
+      "sourceCheckedOn": "2026-11-24",
+      "resource": {
+        "name": "Coram Voice — find a children's advocacy service",
+        "directoryId": "wider-support",
+        "category": "Voice and advocacy",
+        "description": "A searchable directory of independent advocacy services that can help children and young people have their views heard in decisions about their lives.",
+        "who": "Children and young people in England who have a social worker and want help from an independent advocate.",
+        "access": "Search by local authority, town or postcode to find the advocacy service covering your area. A social worker, foster carer or independent reviewing officer can also help identify the correct service.",
+        "check": "Each local service sets its own referral process and eligibility. Check the result for your area before making contact.",
+        "url": "https://coramvoice.org.uk/get-help/advocacy/",
+        "sourceUrl": "https://coramvoice.org.uk/get-help/advocacy/",
+        "sourceOwner": "Coram Voice",
+        "coverage": "All local authority areas in England.",
+        "national": true
+      },
+      "sources": [
+        {
+          "url": "https://coramvoice.org.uk/get-help/advocacy/",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "The current provider page explains the right to advocacy for children and young people with a social worker and provides a searchable directory covering all English local authorities."
+        }
+      ],
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "url",
+        "coverage"
+      ],
+      "evidence": "Coram Voice publishes a current England-wide finder for the local independent service supporting children and young people with a social worker to have their views heard.",
+      "limitations": "The finder does not establish the detailed eligibility, waiting time, accessibility or referral process for each local provider. Users must check the individual result."
+    },
+    {
+      "id": "discovery-fc7ec0e49ee6eca90588",
+      "status": "proposed",
+      "firstSeen": "2026-11-24",
+      "sourceCheckedOn": "2026-11-24",
+      "resource": {
+        "name": "GOV.UK — find local community support",
+        "directoryId": "wider-support",
+        "category": "Local service directories",
+        "description": "A postcode search that directs you to your local council, which may list community organisations offering local help and support.",
+        "who": "People in England or Wales looking for community groups or support organisations near them.",
+        "access": "Enter a postcode on the GOV.UK page to find the responsible local council and follow its community-support information.",
+        "check": "Council directories and the services they list vary by area. Check the council page for current eligibility, contact details and availability.",
+        "url": "https://www.gov.uk/find-a-community-support-group-or-organisation",
+        "sourceUrl": "https://www.gov.uk/find-a-community-support-group-or-organisation",
+        "sourceOwner": "GOV.UK",
+        "coverage": "England and Wales."
+      },
+      "sources": [
+        {
+          "url": "https://www.gov.uk/find-a-community-support-group-or-organisation",
+          "ownerType": "council",
+          "retrieval": "page",
+          "note": "The current GOV.UK page provides a postcode route to the relevant council's community-support information and explicitly states England and Wales coverage."
+        }
+      ],
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "url",
+        "coverage"
+      ],
+      "evidence": "The current government page directs people by postcode to local council information about community organisations that may offer help and support.",
+      "limitations": "This is a route to council information rather than a complete directory. The range, quality and update frequency of local listings differ between councils."
+    },
+    {
+      "id": "discovery-8d7414828e412bc79a7a",
+      "status": "proposed",
+      "firstSeen": "2026-11-24",
+      "sourceCheckedOn": "2026-11-24",
+      "resource": {
+        "name": "Crisis Skylight Brent",
+        "directoryId": "brent",
+        "category": "Housing and homelessness",
+        "description": "Practical support to help people experiencing homelessness find and settle into a home, look for work and support their health and wellbeing.",
+        "who": "People aged over 16 in Brent or North West London who are experiencing homelessness or immediately at risk, particularly people who face barriers to using other services.",
+        "access": "Self-refer in person at the drop-in at 1–2 Bank Buildings, High Street, Harlesden, NW10 4LT, Monday to Friday from 10am to 1pm. The team will assess your needs and explain what support it can offer.",
+        "check": "Crisis is not an emergency service. Contact the local council first if you are homeless or at risk. Confirm the drop-in is available before travelling because attendance depends on staff availability.",
+        "url": "https://www.crisis.org.uk/get-help/brent/",
+        "sourceUrl": "https://www.crisis.org.uk/get-help/brent/",
+        "sourceOwner": "Crisis",
+        "coverage": "Brent and North West London."
+      },
+      "sources": [
+        {
+          "url": "https://www.crisis.org.uk/get-help/brent/",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "The current provider page confirms the audience, Brent and North West London coverage, support offered, in-person self-referral route, location, drop-in hours and that the service is not an emergency service."
+        },
+        {
+          "url": "https://www.brent.gov.uk/neighbourhoods-and-communities/community-directory/crisis-skylight-brent",
+          "ownerType": "council",
+          "retrieval": "page",
+          "note": "Brent Council's directory, updated in August 2026, confirms the local centre, housing, work and wellbeing support and Brent contact details."
+        }
+      ],
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "url",
+        "coverage"
+      ],
+      "evidence": "Current Crisis and Brent Council pages describe the same local service, its homelessness focus, practical support, Brent location and public self-referral route.",
+      "limitations": "The provider prioritises people facing barriers and assesses support individually. Capacity, waiting time and the exact help offered are not guaranteed; drop-in availability can vary."
+    },
+    {
+      "id": "discovery-c06545c4957e08337434",
+      "status": "proposed",
+      "firstSeen": "2026-11-24",
+      "sourceCheckedOn": "2026-11-24",
+      "resource": {
+        "name": "POhWER — independent advocacy in Brent",
+        "directoryId": "brent",
+        "category": "Voice and advocacy",
+        "description": "Independent advocacy covering mental health, mental capacity, Care Act decisions and complaints about NHS-funded care.",
+        "who": "People in Brent who may qualify for one of POhWER's commissioned advocacy services. Eligibility and who can refer depend on the type of advocacy needed.",
+        "access": "Use the referral form for the relevant Brent service or contact POhWER to ask which advocacy route applies.",
+        "check": "Advocacy services have different legal criteria and referral rules. Confirm eligibility and the correct provider with POhWER before completing a referral.",
+        "url": "https://www.pohwer.net/brent",
+        "sourceUrl": "https://www.pohwer.net/brent",
+        "sourceOwner": "POhWER",
+        "coverage": "London Borough of Brent."
+      },
+      "sources": [
+        {
+          "url": "https://www.pohwer.net/brent",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "The current provider page lists Brent Independent Mental Health, Mental Capacity, Care Act and Health Complaints Advocacy, with separate referral forms and a direct enquiry route."
+        }
+      ],
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "url",
+        "coverage"
+      ],
+      "evidence": "POhWER's current Brent page identifies four local advocacy services and provides service-specific referral forms plus a route to ask for advice about eligibility.",
+      "limitations": "Detailed eligibility and referral rules differ between advocacy types. Brent Council also retains an older directory page for VoiceAbility community advocacy, so people should confirm which provider covers their particular need."
     }
   ]
 }

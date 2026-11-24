@@ -1,7 +1,7 @@
 # New resource suggestions
 
-Last saved search: 2026-11-23. 42 of 300 area/category combinations attempted.
-11 resources await publication. Search coverage is limited, not exhaustive.
+Last saved search: 2026-11-24. 48 of 300 area/category combinations attempted.
+15 resources await publication. Search coverage is limited, not exhaustive.
 
 Candidates are public-source research only. They have not been added to the public directory. Eligible additions publish automatically after the normal quality checks; uncertain cases remain flagged. Existing listing reviews have their own progress and limits.
 
@@ -152,4 +152,57 @@ Category: Learning, work and volunteering
 - Limitations: Role requirements, accessibility, expenses, training and safeguarding checks vary. The pages do not promise a suitable role or immediate placement.
 - Source: <https://richmondcvs.org.uk/richmond-volunteer-service/> — The provider page confirms borough-wide role matching, online search and applications, individual support, email contact and a large range of charity roles.
 - Source: <https://www.richmond.gov.uk/services/voluntary_and_community_sector/volunteering_richmond> — The council identifies Richmond CVS as the borough volunteering service and confirms registration, opportunity-finding and direct team contact.
+
+## Coram Voice — find a children's advocacy service — wider-support
+Candidate: discovery-b2ae312da84ce90211b2. Source checked: 2026-11-24.
+Category: Voice and advocacy
+- What it offers: A searchable directory of independent advocacy services that can help children and young people have their views heard in decisions about their lives.
+- Who: Children and young people in England who have a social worker and want help from an independent advocate.
+- Access: Search by local authority, town or postcode to find the advocacy service covering your area. A social worker, foster carer or independent reviewing officer can also help identify the correct service.
+- Costs/checks: Each local service sets its own referral process and eligibility. Check the result for your area before making contact.
+- Coverage: All local authority areas in England.
+- Website: <https://coramvoice.org.uk/get-help/advocacy/>
+- Evidence: Coram Voice publishes a current England-wide finder for the local independent service supporting children and young people with a social worker to have their views heard.
+- Limitations: The finder does not establish the detailed eligibility, waiting time, accessibility or referral process for each local provider. Users must check the individual result.
+- Source: <https://coramvoice.org.uk/get-help/advocacy/> — The current provider page explains the right to advocacy for children and young people with a social worker and provides a searchable directory covering all English local authorities.
+
+## GOV.UK — find local community support — wider-support
+Candidate: discovery-fc7ec0e49ee6eca90588. Source checked: 2026-11-24.
+Category: Local service directories
+- What it offers: A postcode search that directs you to your local council, which may list community organisations offering local help and support.
+- Who: People in England or Wales looking for community groups or support organisations near them.
+- Access: Enter a postcode on the GOV.UK page to find the responsible local council and follow its community-support information.
+- Costs/checks: Council directories and the services they list vary by area. Check the council page for current eligibility, contact details and availability.
+- Coverage: England and Wales.
+- Website: <https://www.gov.uk/find-a-community-support-group-or-organisation>
+- Evidence: The current government page directs people by postcode to local council information about community organisations that may offer help and support.
+- Limitations: This is a route to council information rather than a complete directory. The range, quality and update frequency of local listings differ between councils.
+- Source: <https://www.gov.uk/find-a-community-support-group-or-organisation> — The current GOV.UK page provides a postcode route to the relevant council's community-support information and explicitly states England and Wales coverage.
+
+## Crisis Skylight Brent — brent
+Candidate: discovery-8d7414828e412bc79a7a. Source checked: 2026-11-24.
+Category: Housing and homelessness
+- What it offers: Practical support to help people experiencing homelessness find and settle into a home, look for work and support their health and wellbeing.
+- Who: People aged over 16 in Brent or North West London who are experiencing homelessness or immediately at risk, particularly people who face barriers to using other services.
+- Access: Self-refer in person at the drop-in at 1–2 Bank Buildings, High Street, Harlesden, NW10 4LT, Monday to Friday from 10am to 1pm. The team will assess your needs and explain what support it can offer.
+- Costs/checks: Crisis is not an emergency service. Contact the local council first if you are homeless or at risk. Confirm the drop-in is available before travelling because attendance depends on staff availability.
+- Coverage: Brent and North West London.
+- Website: <https://www.crisis.org.uk/get-help/brent/>
+- Evidence: Current Crisis and Brent Council pages describe the same local service, its homelessness focus, practical support, Brent location and public self-referral route.
+- Limitations: The provider prioritises people facing barriers and assesses support individually. Capacity, waiting time and the exact help offered are not guaranteed; drop-in availability can vary.
+- Source: <https://www.crisis.org.uk/get-help/brent/> — The current provider page confirms the audience, Brent and North West London coverage, support offered, in-person self-referral route, location, drop-in hours and that the service is not an emergency service.
+- Source: <https://www.brent.gov.uk/neighbourhoods-and-communities/community-directory/crisis-skylight-brent> — Brent Council's directory, updated in August 2026, confirms the local centre, housing, work and wellbeing support and Brent contact details.
+
+## POhWER — independent advocacy in Brent — brent
+Candidate: discovery-c06545c4957e08337434. Source checked: 2026-11-24.
+Category: Voice and advocacy
+- What it offers: Independent advocacy covering mental health, mental capacity, Care Act decisions and complaints about NHS-funded care.
+- Who: People in Brent who may qualify for one of POhWER's commissioned advocacy services. Eligibility and who can refer depend on the type of advocacy needed.
+- Access: Use the referral form for the relevant Brent service or contact POhWER to ask which advocacy route applies.
+- Costs/checks: Advocacy services have different legal criteria and referral rules. Confirm eligibility and the correct provider with POhWER before completing a referral.
+- Coverage: London Borough of Brent.
+- Website: <https://www.pohwer.net/brent>
+- Evidence: POhWER's current Brent page identifies four local advocacy services and provides service-specific referral forms plus a route to ask for advice about eligibility.
+- Limitations: Detailed eligibility and referral rules differ between advocacy types. Brent Council also retains an older directory page for VoiceAbility community advocacy, so people should confirm which provider covers their particular need.
+- Source: <https://www.pohwer.net/brent> — The current provider page lists Brent Independent Mental Health, Mental Capacity, Care Act and Health Complaints Advocacy, with separate referral forms and a direct enquiry route.
 
