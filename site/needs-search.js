@@ -18,7 +18,7 @@
  function parse(raw){
   const all=tokens(raw),normal=all.join(' '),positive=normal.replace(/\b(?:not|no longer) homeless\b/g,'').replace(/\b(?:dont|do not) (?:need|want) (?:legal advice|housing help)\b/g,'');
   let ids=core?.practicalNeeds(raw)||[];
-  const housing=/\b(?:homeless\w*|accommodation|shelter|housing|sofa surf\w*|rough sleep\w*)\b|\bsleep(?:ing)? (?:rough|outside|on the streets?)\b|\b(?:somewhere|nowhere|place) (?:safe )?(?:to )?(?:stay|sleep|live)\b|\bno (?:safe )?(?:home|place to stay)\b|\b(?:evict\w*|possession|rent arrears|kicked out)\b|\b(?:losing|lose|lost) (?:my |their |your |the )?(?:home|flat|house)\b/.test(positive);
+  const housing=/\b(?:homeless\w*|accommodation|shelter|housing|(?:sofa|couch)[ -]?surf\w*|rough sleep\w*)\b|\bsleep(?:ing)? (?:rough|outside|on the streets?)\b|\b(?:somewhere|nowhere|place) (?:safe )?(?:to )?(?:stay|sleep|live)\b|\bno (?:safe )?(?:home|place to stay)\b|\b(?:evict\w*|possession|rent arrears|kicked out)\b|\b(?:losing|lose|lost) (?:my |their |your |the )?(?:home|flat|house)\b/.test(positive);
   const supported=/\b(?:supported|sheltered|supportive) (?:housing|accommodation)|\bhousing with support|\bextra care housing/.test(positive);
   if(normal==='money and essentials after hospital')ids.push('benefits','food');
   if(housing||supported)ids.push(supported?'supported-housing':'housing');

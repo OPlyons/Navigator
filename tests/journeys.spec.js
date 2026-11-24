@@ -1,5 +1,5 @@
 import {test,expect} from '@playwright/test';
-import {mockNavigator,interceptSentry,openSupport,openMainNavigation,housingIntent,records} from './support.js';
+import {mockNavigator,interceptSentry,keepSearchInBrowser,openSupport,openMainNavigation,housingIntent,records} from './support.js';
 
 test.beforeEach(async({page})=>{await interceptSentry(page);});
 test('standalone home and navigation open the navigator',async({page})=>{
@@ -21,7 +21,9 @@ test('standalone home and navigation open the navigator',async({page})=>{
  await expect(homeLink.locator('svg')).toBeVisible();
  await expect(page.locator('a[href*="dtp.lxportal.space"]')).toHaveCount(0);
  await visit('Practical guides');
- await expect(page.locator('#pg-heading')).toBeFocused();
+ await expect(page).toHaveURL(/\/guides\/$/);
+ await expect(page.getByRole('heading',{level:1,name:'Practical guides',exact:true})).toBeVisible();
+ await expect(page.locator('#primary-nav [aria-current="page"]')).toHaveText('Practical guides');
  await visit('Printable directories');
  await expect(page).toHaveURL(/\/#resources$/);
  await expect(heading).toHaveText('Printable local directories');
@@ -41,9 +43,14 @@ test('staff area links open matching support without sharing form information',a
  await expect(page.locator('#resource-list article').first().locator('.checked')).toBeVisible();
  await expect(page.locator('#resource-list article').first().locator('.checked')).toContainText('Last source check:');
 });
-test('privacy warning precedes search and typing sends no AI request',async({page})=>{
- const calls=await mockNavigator(page);await openSupport(page);await expect(page.locator('#navigator-warning')).toContainText('No names, addresses');
- expect(await page.locator('#navigator-warning').evaluate(el=>el.compareDocumentPosition(document.getElementById('service-search'))&Node.DOCUMENT_POSITION_FOLLOWING)).toBeTruthy();
+test('the Support wizard explains everyday searches, has one submit and sends nothing while typing',async({page})=>{
+ const calls=await mockNavigator(page);await openSupport(page);
+ const wizard=page.getByRole('search',{name:'Search groups, activities and support'});
+ await expect(wizard.getByRole('heading',{name:'Support wizard',exact:true})).toBeVisible();
+ await expect(wizard.getByRole('button')).toHaveCount(1);
+ await expect(wizard.getByRole('button',{name:'Search',exact:true})).toBeVisible();
+ await expect(wizard.getByRole('textbox')).toHaveAccessibleDescription(/I need a sofa.*I have no food.*I’m lonely.*Leave out personal details/);
+ expect(await page.locator('#navigator-warning').evaluate(el=>el.compareDocumentPosition(document.getElementById('navigator-submit'))&Node.DOCUMENT_POSITION_FOLLOWING)).toBeTruthy();
  await page.locator('#service-search').fill('Housing and benefits in Brent');await expect(page.locator('#navigator-results')).toBeHidden();expect(calls).toHaveLength(0);
 });
 test('AI returns canonical distinct options and clear next steps',async({page})=>{
@@ -68,13 +75,13 @@ test('personal identifiers are blocked before the AI request',async({page})=>{
  }
  expect(calls).toHaveLength(0);
 });
-test('unavailable AI has a labelled local fallback',async({page})=>{
+test('the Search button still finds directory matches if the provider is unavailable',async({page})=>{
  await page.route('**/api/navigate',route=>route.fulfill({status:503,contentType:'application/json',body:'{"error":"unavailable"}'}));
- await openSupport(page);await page.locator('#service-search').fill('AA meetings in Brent');await page.locator('#navigator-submit').click();await expect(page.locator('#navigator-result-summary')).toContainText('AI is unavailable');await expect(page.locator('#navigator-cards')).toContainText('Alcoholics Anonymous');
+ await openSupport(page);await page.locator('#service-search').fill('AA meetings in Brent');await page.locator('#navigator-submit').click();await expect(page.locator('#navigator-result-summary')).toContainText('Brent');await expect(page.locator('#navigator-cards')).toContainText('Alcoholics Anonymous');
 });
 test('directory filters and one clear action work without AI',async({page})=>{
- const calls=await mockNavigator(page);await openSupport(page);await page.locator('#area').selectOption('harrow');await page.locator('[data-activity="move"]').click();
- await expect(page.locator('#resource-list article').first()).toBeVisible();await page.locator('#service-search').fill('cycling');await page.locator('#navigator-local').click();await expect(page.locator('#resource-list')).toContainText(/cycling/i);
+ const calls=await mockNavigator(page);await openSupport(page);await keepSearchInBrowser(page);await page.locator('#area').selectOption('harrow');await page.locator('[data-activity="move"]').click();
+ await expect(page.locator('#resource-list article').first()).toBeVisible();await page.locator('#service-search').fill('cycling');await page.getByRole('button',{name:'Search',exact:true}).click();await expect(page.locator('#resource-list')).toContainText(/cycling/i);
  await page.locator('#clear-filters').click();await expect(page.locator('#service-search')).toHaveValue('');await expect(page.locator('#resource-count')).toContainText(records.length+' listings');expect(calls).toHaveLength(0);
 });
 test('larger text and phone layouts have no sideways overflow',async({page})=>{

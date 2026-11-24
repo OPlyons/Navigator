@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import {renderMasthead} from './render-masthead.mjs';
 
 const escape = value => String(value).replace(/[&<>"']/g, char => ({
   '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
@@ -55,12 +56,7 @@ export async function buildNeurodiversity({root, out, template}) {
   const groups = data.groups.map(group => `<section class="nd-group">
     <h3>${escape(group.title)}</h3><div class="nd-topic-grid">${group.topics.map(renderTopic).join('\n')}</div>
   </section>`).join('\n');
-  const start = template.indexOf('<svg xmlns="http://www.w3.org/2000/svg" class="sprite"');
-  const end = template.indexOf('</header>', start);
-  if (start === -1 || end === -1) throw new Error('Shared masthead missing');
-  const masthead = template.slice(start, end + '</header>'.length)
-    .replace(/(<a\b[^>]*?\bhref=")(#[^"]+)/g, '$1/$2')
-    .replace('class="nd-nav-link"', 'class="nd-nav-link" aria-current="page"');
+  const masthead = renderMasthead(template, 'neurodiversity');
   let page = await read('site/neurodiversity.html');
   for (const [slot, content] of Object.entries({
     'shared masthead': masthead, 'collection count': `${data.resources.length} resources · ${topics.length} topics`,

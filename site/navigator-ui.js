@@ -7,6 +7,20 @@
  const client=window.crypto?.randomUUID?.()||Array.from(window.crypto.getRandomValues(new Uint8Array(16)),b=>b.toString(16).padStart(2,'0')).join('').replace(/(.{8})(.{4})(.{4})(.{4})(.{12})/,'$1-$2-$3-$4-$5');
  let generation=0,controller=null,last=null,catalog=null,shownMore=0;
  let localSearchArea='';
+ const localOnly=$('local-search-only');
+ // Remember only the search preference. Never store the words someone types.
+ try{localOnly.checked=sessionStorage.getItem('navigator-local-search')==='on';}catch{}
+ function showSearchPrivacy(){
+  $('search-data-note').textContent=localOnly.checked?'Your search stays in this tab.':'Search sends your words to Cloudflare.';
+ }
+ showSearchPrivacy();
+ localOnly.addEventListener('change',()=>{
+  stop();clearResults();showSearchPrivacy();
+  try{
+   if(localOnly.checked)sessionStorage.setItem('navigator-local-search','on');
+   else sessionStorage.removeItem('navigator-local-search');
+  }catch{}
+ });
  const status=text=>{$('navigator-status').textContent=text;};
  const choices=()=>({area:area.value,audience:$('audience').value,topic:$('topic').value});
  function stop(){generation++;controller?.abort();controller=null;$('navigator-submit').disabled=false;form.removeAttribute('aria-busy');}
@@ -55,7 +69,7 @@
   const labels=last.intent.needs.map(id=>core.NEEDS[id].label.toLowerCase());
   $('nd-ai-link').hidden=!(last.intent.audiences.includes('neurodivergent')||$('audience').value==='neurodivergent');
   $('navigator-result-heading').textContent=result.count?'A few places to start':'No close matches yet';
-  $('navigator-result-summary').textContent=(last.mode==='ai'?'AI matched your request to the checked directory. ':'AI is unavailable, so these are directory matches. ')+(labels.length?'Looking for '+labels.join(', ')+'. ':'')+(result.area?'Area: '+result.areaLabel+'. ':'Local and wider options. ')+result.count+' '+(result.count===1?'match':'matches')+'.';
+  $('navigator-result-summary').textContent=(labels.length?'Looking for '+labels.join(', ')+'. ':'')+(result.area?'Area: '+result.areaLabel+'. ':'Local and wider options. ')+result.count+' '+(result.count===1?'match':'matches')+'.';
   const prefs=$('navigator-preferences');prefs.replaceChildren();
   for(const id of last.intent.preferences)prefs.append(make('span',core.PREFERENCES[id],'navigator-preference'));
   prefs.hidden=!last.intent.preferences.length;
@@ -88,7 +102,7 @@
   try{
    catalog=await window.CNWLResourceDirectory.getData();if(!catalog)throw new Error('directory');
    for(const r of catalog.resources)r.navigatorIndex||=core.indexResource(r);
-   let intent,matchedMode='ai';
+   let intent;
    try{
     timeout=setTimeout(()=>currentController.abort(),12000);
     const response=await fetch(config.endpoint,{method:'POST',mode:'cors',credentials:'omit',cache:'no-store',referrerPolicy:'no-referrer',headers:{'Content-Type':'application/json','X-Navigator-Client':client},body:JSON.stringify({query}),signal:currentController.signal});
@@ -100,21 +114,21 @@
     if(id!==generation)return;
     if(['personal_information','urgent_support'].includes(error.message))throw error;
     window.DTPMonitoring?.captureCode('navigator_unavailable');
-    intent=core.localIntent(query);matchedMode='local';
+    intent=core.localIntent(query);
     if(!intent.needs.length&&!intent.keywords.length){
      const words=core.fold(query).split(' ').filter(x=>x.length>2&&!['the','and','need','help','with','find','some','looking','please','want','for','support','group','groups','someone'].includes(x));intent.keywords=words.slice(0,6);intent.specific=true;
     }
    }finally{clearTimeout(timeout);}
    if(id!==generation)return;
    if(intent.outOfScope){status('This Navigator finds community groups and practical support. Try a support need such as housing advice, benefits or meeting people. For treatment questions, contact your care team.');return;}
-   last={intent,query,mode:matchedMode,result:null};
+   last={intent,query,result:null};
    if(!area.value&&intent.area)window.CNWLResourceDirectory.setInferredArea(intent.area);
    render();
    $('navigator-result-heading').focus({preventScroll:true});$('navigator-results').scrollIntoView({block:'start',behavior:'auto'});
   }catch(error){if(id===generation){if(error.message!=='personal_information')window.DTPMonitoring?.captureCode('directory_unavailable');status(error.message==='personal_information'?'Please remove personal information and describe only the support needed and borough.':'The directory is unavailable. Please try again, or use the printable directories below.');}}
   finally{clearTimeout(timeout);if(id===generation){form.removeAttribute('aria-busy');$('navigator-submit').disabled=false;controller=null;}}
  }
- function searchWithoutAI(){
+ function searchInBrowser(){
   stop();clearResults();$('navigator-safety').hidden=true;
   const directory=window.CNWLResourceDirectory;
   const query=search.value.trim();
@@ -130,7 +144,8 @@
   directory.search();
  }
  area.addEventListener('change',()=>{localSearchArea='';});
- form.addEventListener('submit',event=>{event.preventDefault();event.stopImmediatePropagation();if(event.submitter?.id==='navigator-local')searchWithoutAI();else navigate();},true);
+ function runSearch(){if(localOnly.checked)searchInBrowser();else navigate();}
+ form.addEventListener('submit',event=>{event.preventDefault();event.stopImmediatePropagation();runSearch();},true);
  search.addEventListener('input',event=>{event.stopImmediatePropagation();stop();clearResults();$('navigator-safety').hidden=true;},true);
  search.addEventListener('keydown',event=>{if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();form.requestSubmit();}});
  function resetNavigator(){stop();clearResults();localSearchArea='';window.CNWLResourceDirectory.reset();$('navigator-safety').hidden=true;search.focus({preventScroll:true});$('support-heading').scrollIntoView({block:'start',behavior:'auto'});}
@@ -150,5 +165,5 @@
  $('navigator-choose-area').addEventListener('click',()=>{area.focus();area.scrollIntoView({block:'center'});});
  $('navigator-more').addEventListener('toggle',()=>{if($('navigator-more').open&&shownMore===0)renderMore();});
  $('navigator-more-button').addEventListener('click',renderMore);
- window.CNWLNavigatorUI={active:()=>!!last,clear(){stop();clearResults();$('navigator-safety').hidden=true;},example(value){stop();search.value=value;clearResults();search.focus();navigate();}};
+ window.CNWLNavigatorUI={active:()=>!!last,clear(){stop();clearResults();$('navigator-safety').hidden=true;},example(value){stop();search.value=value;clearResults();search.focus();runSearch();}};
 })();

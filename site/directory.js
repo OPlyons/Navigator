@@ -280,7 +280,10 @@
  async function maybeLoad(){
   if(!$('support').classList.contains('active'))return;
   await load();
-  if(!data||location.hash!=='#neurodivergent-services')return;
+  if(!data)return;
+  if(location.hash==='#after-hospital'&&!hospitalDialog.open)hospitalTrigger.click();
+  if(location.hash==='#service-search')search.focus();
+  if(location.hash!=='#neurodivergent-services')return;
   clearTimeout(timer);
   browsingTypes=false;search.value='';topic.value='';activity='all';
   audience.value='neurodivergent';pendingArea='all';area.value='all';

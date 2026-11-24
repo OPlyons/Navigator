@@ -27,6 +27,9 @@ export function practicalNeeds(raw){
  const add=(id,re)=>{if(re.test(q))ids.push(id);};
  add('home-help',/\b(?:reablement|home care|help at home|help with (?:washing|dressing|cooking)|care needs assessment|daily living)\b|\b(?:struggl\w*|help)\b.{0,35}\b(?:wash|dress|cook)\b/);
  add('household',/\b(?:fridge|freezer|cooker|washing machine|furniture|appliances?|bedding|mattress|household essentials)\b|\b(?:need|no|without|afford) (?:a |any )?bed\b/);
+ // A request for a sofa is about furniture. Sofa surfing is a housing need.
+ const furnitureWords=q.replace(/\b(?:sofa|couch)[ -]?surf\w*\b/g,'');
+ if(!ids.includes('household')&&(/^(?:sofas?|couch(?:es)?|settees?)(?: in | near |$)/.test(furnitureWords)||/\b(?:need|want|find|get|buy|afford|looking for) (?:\w+ ){0,3}(?:sofas?|couch(?:es)?|settees?)\b/.test(furnitureWords)))ids.push('household');
  add('digital',/\b(?:mobile data|no data|free data|sim card|internet|wifi|wi fi|phone credit|top up|databank|digital access)\b/);
  add('travel',/\b(?:travel costs?|bus fare|train fare|healthcare travel|patient transport)\b|\b(?:get|getting|travel|transport|journey|fare)\b.{0,40}\b(?:appointments?|clinic|hospital)\b/);
  add('medicines',/\b(?:medicines?|medication|pharmacist|pharmacy|prescriptions?|tablets?)\b/);
@@ -70,6 +73,11 @@ export const NEEDS = {
 export const AUDIENCES = {women:'women',men:'men',neurodivergent:'neurodivergent people',disabled:'disabled people',lgbtq:'LGBTQ+ people',trans:'trans and non-binary people','culture-faith':'cultural and faith communities',older:'older people','young-adults':'young adults','pregnancy-parents':'parents',relationships:'families',carers:'carers'};
 export const PREFERENCES = {online:'Online or text preferred',free:'Free or low cost preferred',gentle:'Gentle or beginner-friendly',dropin:'Drop-in or direct contact preferred'};
 export const fold = v => String(v||'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[’']/g,'').replace(/[^a-z0-9+& -]/g,' ').replace(/\s+/g,' ').trim();
+export function companionshipPriority(query,name,widerSearch){
+ if(!/\b(?:lonely|loneliness|isolated|isolation)\b/.test(query))return 0;
+ if(!/\b(?:befriending|friendship|social activities|social groups)\b/.test(name))return 0;
+ return widerSearch?140:100;
+}
 const areaPatterns = {brent:/\bbrent\b/,harrow:/\bharrow\b/,'kensington-chelsea':/\bkensington\b|\bchelsea\b|\bk\s*&\s*c\b/,westminster:/\bwestminster\b/,camden:/\bcamden\b/,hillingdon:/\bhillingdon\b/,'milton-keynes':/\bmilton keynes\b|\bmk\b/,surrey:/\bsurrey\b/,ealing:/\bealing\b/,barnet:/\bbarnet\b/,islington:/\bislington\b/,'hammersmith-fulham':/\b(?:hammersmith|fulham)\b|\bh\s*&\s*f\b/,hounslow:/\bhounslow\b/,'richmond-upon-thames':/\brichmond(?: upon thames)?\b(?! (?:hill|park|yorkshire|north yorkshire)\b)/};
 export const namedLocalAreas = value => Object.entries(areaPatterns).filter(([,re])=>re.test(fold(value))).map(([id])=>id);
 const audiencePatterns = {women:/\bwom[ae]ns?\b|\bfemale\b/,men:/\b(?:men|man|male)s?\b/,neurodivergent:/\b(?:neurodiver\w*|adhd|autis\w*)\b/,disabled:/\b(?:disabil\w*|disabled|deaf|wheelchair)\b/,lgbtq:/\b(?:lgbt\w*|gay|lesbian|bisexual|queer)\b/,trans:/\b(?:trans|transgender|non binary|nonbinary)\b/,'culture-faith':/\b(?:muslim|jewish|sikh|black|asian|refugee|migrant|culture|faith)\b/,older:/\b(?:older|retired|retirement|pensioner)\b/,'young-adults':/\byoung (?:adult|person|people)\b|\b(?:1[6-9]|2[0-5]) (?:year|years) old\b|\b(?:im|i am|aged?) (?:1[6-9]|2[0-5])\b/,'pregnancy-parents':/\b(?:pregnan\w*|parent\w*|mum|dad|mother|father)\b/,relationships:/\b(?:famil\w*|relationship\w*)\b/,carers:/\b(?:carer\w*|caring for)\b/};
@@ -83,7 +91,7 @@ export function localIntent(raw) {
  const q=fold(raw).replace(/\baccom(?:o|a)dation\b/g,'accommodation').replace(/\bhomless\b/g,'homeless').replace(/\bben(?:i|e)fits?\b/g,'benefits');
  const needs=practicalNeeds(q);
  const add=(id,re)=>{if(re.test(q))needs.push(id);};
- add('housing',/\b(?:housing|homeless\w*|accommodation|sofa surf\w*|rough sleep\w*|evict\w*|rent arrears)\b|\b(?:somewhere|nowhere|place) (?:safe )?(?:to )?(?:stay|sleep|live)\b|\blandlord\b.*\b(?:out|leave|notice)\b/);
+ add('housing',/\b(?:housing|homeless\w*|accommodation|(?:sofa|couch)[ -]?surf\w*|rough sleep\w*|evict\w*|rent arrears)\b|\b(?:somewhere|nowhere|place) (?:safe )?(?:to )?(?:stay|sleep|live)\b|\blandlord\b.*\b(?:out|leave|notice)\b/);
  add('supported-housing',/\b(?:supported|sheltered) (?:housing|accommodation)|housing with support/);
  add('legal',/\b(?:legal|lawyer\w*|solicitor\w*|court|tribunal|evict\w*|discrimination|rights|possession)\b/);
  add('benefits',/\b(?:benefits?|pip|esa|universal credit|allowance|welfare|no income|money to live)\b/);

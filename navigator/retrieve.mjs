@@ -1,4 +1,4 @@
-import {AREAS,NEEDS,AUDIENCES,PRACTICAL_NEEDS,practicalResourceNeeds,fold} from './shared.mjs';
+import {AREAS,NEEDS,AUDIENCES,PRACTICAL_NEEDS,practicalResourceNeeds,companionshipPriority,fold} from './shared.mjs';
 
 const leading={housing:['wider-council-homeless-help','shelter','wider-homeless-england'],'supported-housing':['wider-rethink-supported-housing'],legal:['wider-civil-legal-advice','wider-law-centres-finder','wider-lawworks-clinic-finder'],benefits:['wider-citizens-advice','turn2us','wider-help-to-claim'],debt:['stepchange','wider-national-debtline'],food:['wider-help-through-hardship']};
 const atom=w=>({womens:'woman',women:'woman',female:'woman',mens:'man',men:'man',male:'man',walking:'walk',walks:'walk',outdoors:'outdoor',exercise:'fitness',exercises:'fitness',workout:'fitness',movement:'fitness',autistic:'autism',appeals:'appeal',challenge:'appeal',challenging:'appeal',boardgames:'boardgame',games:'game',gaming:'game'}[w]||w.replace(/ies$/,'y').replace(/s$/,''));
@@ -54,6 +54,7 @@ export function searchDirectory(catalog,intent,choices={},raw=''){
   if(!intent.needs.length&&keywords.length&&!keywordHits.length)continue;
   if(!intent.needs.length&&!keywords.length)continue;
   let score=matchedNeeds.length*85+keywordHits.length*95+(area&&r.directoryId===area?160:0)+(exactName?1000:0);
+  if(matchedNeeds.includes('meet'))score+=companionshipPriority(query,x.name,!area&&r.directoryId==='wider-support');
   if(practicalMatch)score+=1000;
   if(/\badvice\b/.test(query)&&/\badvice\b/.test(x.own))score+=150;
   for(const k of keywordHits){if(wordMatch(x.name,k))score+=160;else if(wordMatch(x.own,k))score+=85;}

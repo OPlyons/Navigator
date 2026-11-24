@@ -1,6 +1,7 @@
 // Build static guide pages and a progressively enhanced dashboard from one source.
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import {linkGuideIndex,renderMasthead} from './render-masthead.mjs';
 const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const symbols={
  benefits:'<path d="M4 7h16v12H4zM4 10h16"/><circle cx="15.5" cy="14.5" r="1"/>',
@@ -8,11 +9,33 @@ const symbols={
  identification:'<rect x="2" y="5" width="20" height="14" rx="2"/><circle cx="8" cy="11" r="2"/><path d="M5 16q3-4 6 0m3-6h4m-4 4h4"/>',
  'legal-advice':'<path d="M12 3v16m-5 2h10M3 7h18M6 7l-3 6h6l-3-6Zm12 0-3 6h6l-3-6Z"/>',
  'starting-work':'<rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V4h8v3M3 12q9 4 18 0m-9 0v3"/>',
- courses:'<path d="M12 6C9 4 6 4 3 5v13c3-1 6-1 9 1 3-2 6-2 9-1V5c-3-1-6-1-9 1Zm0 0v13"/>'};
+ courses:'<path d="M12 6C9 4 6 4 3 5v13c3-1 6-1 9 1 3-2 6-2 9-1V5c-3-1-6-1-9 1Zm0 0v13"/>',
+ hospital:'<path d="m2 11 10-8 10 8M5 10v11h14V10m-9 11v-7h4v7"/>',
+ wizard:'<circle cx="10" cy="10" r="6"/><path d="m15 15 6 6"/>'};
 const icon=id=>'<span class="pg-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round">'+symbols[id]+'</svg></span>';
 const routeBody=r=>'<ol class="pg-steps">'+r.steps.map(t=>'<li>'+escape(t)+'</li>').join('')+'</ol><div class="pg-links">'+r.links.map(l=>{if(new URL(l.url).protocol!=='https:')throw Error('Expected HTTPS guide link');return '<a href="'+escape(l.url)+'" target="_blank" rel="noopener noreferrer">'+escape(l.label)+'</a>'}).join('')+'</div>';
 const privacy='<p class="pg-footnote">Provider links open in a new tab. Enter personal details only on the provider’s own site.</p>';
+
+function indexGroup(title, links) {
+ const items=links.map(({id,title,href}) =>
+  '<li><a href="'+escape(href)+'">'+icon(id)+'<span>'+escape(title)+'</span></a></li>'
+ ).join('');
+ return '<section class="guide-group"><h2>'+escape(title)+'</h2><ul>'+items+'</ul></section>';
+}
+
+function replaceElement(template,opening,closing,fragment) {
+ const start=template.indexOf(opening), end=template.indexOf(closing,start);
+ if(start<0||end<0||template.indexOf(opening,start+1)!==-1)throw new Error('Expected one '+opening);
+ return template.slice(0,start)+fragment.trimEnd()+template.slice(end+closing.length);
+}
+
 export async function buildPracticalGuides({root,out,template}){
+ const readComponent=file=>fs.readFile(path.join(root,'site',file),'utf8');
+ const [wizard,privacyOptions]=await Promise.all([readComponent('support-wizard.html'),readComponent('search-privacy.html')]);
+ template=linkGuideIndex(template);
+ template=replaceElement(template,'<form id="directory-search-form"','</form>',wizard);
+ template=replaceElement(template,'<section id="navigator-privacy"','</section>',privacyOptions);
+ template=template.replace('You can search without AI.','<a href="#navigator-privacy">Search privacy</a> lets you keep searches on this device.');
  const data=JSON.parse(await fs.readFile(path.join(root,'config/practical-guides.json'),'utf8'));
  const {groups,guides}=data,ids=groups.flatMap(g=>g.guides);
  if(ids.length!==new Set(ids).size||ids.length!==Object.keys(guides).length)throw Error('Every guide needs one group');
@@ -24,9 +47,22 @@ export async function buildPracticalGuides({root,out,template}){
  for(const [id,g] of Object.entries(guides)){
   if(!/^[a-z-]+$/.test(id)||!symbols[id])throw Error('Unknown guide: '+id);
   const folder=path.join(out,'guides',id);await fs.mkdir(folder,{recursive:true});
-  const page='<!doctype html><html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>'+escape(g.title)+' | Community Navigator</title><link rel="icon" href="/assets/favicon-64.png"><link rel="stylesheet" href="/assets/practical-guides.css"></head><body class="pg-standalone"><main><a href="/#support">Back to Community Navigator</a><p class="pg-kicker">Practical guide</p><h1>'+escape(g.title)+'</h1><p>'+escape(g.question)+'</p>'+g.routes.map(r=>'<details><summary>'+escape(r.title)+'</summary>'+routeBody(r)+'</details>').join('')+privacy+'</main></body></html>';
+  const page='<!doctype html><html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>'+escape(g.title)+' | Community Navigator</title><link rel="icon" href="/assets/favicon-64.png"><link rel="stylesheet" href="/assets/practical-guides.css"></head><body class="pg-standalone"><main><a href="/guides/">All practical guides</a><p class="pg-kicker">Practical guide</p><h1>'+escape(g.title)+'</h1><p>'+escape(g.question)+'</p>'+g.routes.map(r=>'<details><summary>'+escape(r.title)+'</summary>'+routeBody(r)+'</details>').join('')+privacy+'<a href="/#support">Back to Community Navigator</a></main></body></html>';
   await fs.writeFile(path.join(folder,'index.html'),page);
  }
+ const sections=groups.map(group=>indexGroup(group.title,group.guides.map(id=>({
+  id,title:guides[id].title,href:'/guides/'+id+'/'
+ }))));
+ sections.push(indexGroup('Everyday support',[
+  {id:'hospital',title:'Recently left hospital?',href:'/#after-hospital'},
+  {id:'wizard',title:'Support wizard',href:'/#service-search'}
+ ]));
+ const index=await fs.readFile(path.join(root,'site/guides.html'),'utf8');
+ await fs.writeFile(path.join(out,'guides/index.html'),index
+  .replace('<!-- shared masthead -->',()=>renderMasthead(template,'guides'))
+  .replace('<!-- guide groups -->',()=>sections.join('\n')));
+ const indexStyles=await Promise.all(['community-design.css','guides.css'].map(file=>fs.readFile(path.join(root,'site',file),'utf8')));
+ await fs.writeFile(path.join(out,'assets/guides.css'),indexStyles.join('\n'));
  for(const ext of ['css','js'])await fs.copyFile(path.join(root,'site/practical-guides.'+ext),path.join(out,'assets/practical-guides.'+ext));
  const css=await fs.readFile(path.join(root,'site/practical-guides.css'),'utf8');
  return template.replace('<!-- practical guides -->',launcher).replace('</head>','<style>'+css+'</style></head>').replace('</body>','<script src="/assets/practical-guides.js" defer></script></body>');
