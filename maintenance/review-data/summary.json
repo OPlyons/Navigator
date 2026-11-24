@@ -1,1360 +1,16 @@
 {
-  "asOf": "2026-11-21",
-  "total": 954,
-  "attempted": 90,
-  "attemptedInLast28Days": 90,
-  "sourceReadInLast28Days": 90,
-  "lastRecordedRun": "2026-11-21",
+  "asOf": "2026-11-24",
+  "total": 958,
+  "attempted": 958,
+  "attemptedInLast28Days": 958,
+  "sourceReadInLast28Days": 957,
+  "lastRecordedRun": "2026-11-24",
   "monthlySourceChecksOverdue": [
     {
-      "id": "harrow-advocacy",
-      "name": "Advocacy 1st — Harrow",
-      "area": "harrow",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "harrow-ageuk",
-      "name": "Age UK Hillingdon, Harrow and Brent",
-      "area": "harrow",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "harrow-community-connex",
-      "name": "Community ConneX",
-      "area": "harrow",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "harrow-diya",
-      "name": "Diya — South Asian peer support",
-      "area": "harrow",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "harrow-asap",
-      "name": "HAD — Autism Service Aspiring Potential",
-      "area": "harrow",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "harrow-deaf",
-      "name": "HAD — Deaf services",
-      "area": "harrow",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "harrow-adult-care",
-      "name": "Harrow Adult Social Care — needs assessment",
-      "area": "harrow",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "harrow-had",
-      "name": "Harrow Association of Disabled People — HAD",
-      "area": "harrow",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "harrow-benefits",
-      "name": "Harrow benefits and financial help",
-      "area": "harrow",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "harrow-carer-assessment",
-      "name": "Harrow Carers — carers assessments",
-      "area": "harrow",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "harrow-carers-hospital",
-      "name": "Harrow Carers — hospital support",
-      "area": "harrow",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "harrow-carers-groups",
-      "name": "Harrow Carers — workshops and support groups",
-      "area": "harrow",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "harrow-conversation-cafe",
-      "name": "Harrow Conversation Café",
-      "area": "harrow",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "harrow-crisis-fund",
-      "name": "Harrow Crisis and Resilience Fund",
-      "area": "harrow",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "harrow-domestic-abuse",
-      "name": "Harrow DASS — domestic abuse support",
-      "area": "harrow",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "harrow-law-centre",
-      "name": "Harrow Law Centre",
-      "area": "harrow",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "harrow-libraries",
-      "name": "Harrow libraries",
-      "area": "harrow",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "harrow-talking-therapies",
-      "name": "Harrow NHS Talking Therapies",
-      "area": "harrow",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "rise",
-      "name": "Harrow RISE",
-      "area": "harrow",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "harrow-hug",
-      "name": "Harrow User Group — HUG",
-      "area": "harrow",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "harrow-housing",
-      "name": "Harrow — help if you may lose your home",
-      "area": "harrow",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "harrow-reablement",
-      "name": "Harrow — support to regain daily living skills",
-      "area": "harrow",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "harrow-hayaan",
-      "name": "Hayaan — Somali mental wellbeing support",
-      "area": "harrow",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "harrow-healthwatch",
-      "name": "Healthwatch Harrow",
-      "area": "harrow",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "harrow-food-directory",
-      "name": "Healthy Harrow — food support near you",
-      "area": "harrow",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "harrow-learn",
-      "name": "Learn Harrow",
-      "area": "harrow",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "harrow-stepping-stones",
-      "name": "Mind in Harrow — Stepping Stones",
-      "area": "harrow",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "via-harrow",
-      "name": "Via Harrow — drug and alcohol support",
-      "area": "harrow",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "kensington-chelsea-adkc",
-      "name": "Action Disability Kensington and Chelsea",
-      "area": "kensington-chelsea",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "kensington-chelsea-age-uk",
-      "name": "Age UK Kensington & Chelsea",
-      "area": "kensington-chelsea",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "kensington-chelsea-al-hasaniya",
-      "name": "Al-Hasaniya Moroccan Women’s Centre",
-      "area": "kensington-chelsea",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "kensington-chelsea-allkind-skills",
-      "name": "Allkind Skills Development",
-      "area": "kensington-chelsea",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "kensington-chelsea-cen-peer",
-      "name": "Allkind — peer support for complex emotional needs",
-      "area": "kensington-chelsea",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "kensington-chelsea-angelou",
-      "name": "Angelou — domestic and sexual abuse support",
-      "area": "kensington-chelsea",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "kensington-chelsea-build-on-belief",
-      "name": "Build on Belief — Acorn Hall weekend support",
-      "area": "kensington-chelsea",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "kensington-chelsea-carers-network",
-      "name": "Carers Network",
-      "area": "kensington-chelsea",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "kensington-chelsea-citizens-advice",
-      "name": "Citizens Advice Kensington & Chelsea",
-      "area": "kensington-chelsea",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "kensington-chelsea-talking-therapies",
-      "name": "Community Living Well — NHS Talking Therapies",
-      "area": "kensington-chelsea",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "kensington-chelsea-clw-peer",
-      "name": "Community Living Well — peer support (Allkind)",
-      "area": "kensington-chelsea",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "kensington-chelsea-clw-navigators",
-      "name": "Community Living Well — practical support navigators",
-      "area": "kensington-chelsea",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "kensington-chelsea-equal-people",
-      "name": "Equal People Mencap",
-      "area": "kensington-chelsea",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "kensington-chelsea-healthwatch",
-      "name": "Healthwatch Kensington & Chelsea",
-      "area": "kensington-chelsea",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "kensington-chelsea-adult-social-care",
-      "name": "Kensington & Chelsea Adult Social Care",
-      "area": "kensington-chelsea",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "kensington-chelsea-housing-employment",
-      "name": "Kensington & Chelsea Housing and Employment Service",
-      "area": "kensington-chelsea",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "kensington-chelsea-housing-solutions",
-      "name": "Kensington & Chelsea Housing Solutions",
-      "area": "kensington-chelsea",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "kensington-chelsea-libraries",
-      "name": "Kensington & Chelsea libraries",
-      "area": "kensington-chelsea",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "kensington-chelsea-carer-assessment",
-      "name": "Kensington & Chelsea — carer’s assessment",
-      "area": "kensington-chelsea",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "kensington-chelsea-open-age",
-      "name": "Open Age — activities for people aged 50+",
-      "area": "kensington-chelsea",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "kensington-chelsea-open-age-befriending",
-      "name": "Open Age — befriending",
-      "area": "kensington-chelsea",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "kensington-chelsea-people-first",
-      "name": "People First — local care and support directory",
-      "area": "kensington-chelsea",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "kensington-chelsea-resonate-arts",
-      "name": "Resonate Arts — dementia and creativity",
-      "area": "kensington-chelsea",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "kensington-chelsea-smart",
-      "name": "SMART — activities and community",
-      "area": "kensington-chelsea",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "kensington-chelsea-clementjames",
-      "name": "The ClementJames Centre",
-      "area": "kensington-chelsea",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "kensington-chelsea-turning-point",
-      "name": "Turning Point — drug and alcohol support",
-      "area": "kensington-chelsea",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "kensington-chelsea-volunteer-centre",
-      "name": "Volunteer Centre Kensington & Chelsea",
-      "area": "kensington-chelsea",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "kensington-chelsea-wand",
-      "name": "WAND — Women’s Association for Networking and Development",
-      "area": "kensington-chelsea",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "kensington-chelsea-westway",
-      "name": "Westway Trust — community activities and learning",
-      "area": "kensington-chelsea",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "kensington-chelsea-young-adult-navigator",
-      "name": "Young Adult Community Navigators",
-      "area": "kensington-chelsea",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "westminster-dean-street",
-      "name": "56 Dean Street — sexual health and HIV services",
-      "area": "westminster",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "westminster-age-uk",
-      "name": "Age UK Westminster",
-      "area": "westminster",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "westminster-cen-peer",
-      "name": "Allkind — peer support for complex emotional needs",
-      "area": "westminster",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "westminster-angelou",
-      "name": "Angelou — domestic and sexual abuse support",
-      "area": "westminster",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "westminster-build-on-belief",
-      "name": "Build on Belief — Westminster weekend support",
-      "area": "westminster",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "westminster-cardinal-hume",
-      "name": "Cardinal Hume Centre",
-      "area": "westminster",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "westminster-carers-network",
-      "name": "Carers Network",
-      "area": "westminster",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "westminster-citizens-advice",
-      "name": "Citizens Advice Westminster",
-      "area": "westminster",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "westminster-clw-peer",
-      "name": "Community Living Well — peer support (Allkind)",
-      "area": "westminster",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "westminster-clw-navigators",
-      "name": "Community Living Well — practical support navigators",
-      "area": "westminster",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "westminster-healthwatch",
-      "name": "Healthwatch Westminster",
-      "area": "westminster",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "westminster-iranian-association",
-      "name": "Iranian Association — community support",
-      "area": "westminster",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "westminster-ldn-hubs",
-      "name": "LDN London — Westminster community hubs",
-      "area": "westminster",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "westminster-north-paddington-foodbank",
-      "name": "North Paddington Foodbank — cash-first support",
-      "area": "westminster",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "westminster-social-prescribing",
-      "name": "One Westminster — social prescribing",
-      "area": "westminster",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "westminster-onewestminster-volunteer",
-      "name": "One Westminster — volunteering",
-      "area": "westminster",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "westminster-open-age",
-      "name": "Open Age — activities for people aged 50+",
-      "area": "westminster",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "westminster-open-age-befriending",
-      "name": "Open Age — befriending",
-      "area": "westminster",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "westminster-people-first",
-      "name": "People First — local care and support directory",
-      "area": "westminster",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "westminster-resonate-arts",
-      "name": "Resonate Arts — dementia and creativity",
-      "area": "westminster",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "westminster-abbey-centre",
-      "name": "The Abbey Centre",
-      "area": "westminster",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "westminster-connection",
-      "name": "The Connection at St Martin’s",
-      "area": "westminster",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "westminster-passage",
-      "name": "The Passage — homelessness resource centre",
-      "area": "westminster",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "westminster-turning-point",
-      "name": "Turning Point — drug and alcohol support",
-      "area": "westminster",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "westminster-adult-education",
-      "name": "Westminster Adult Education Service",
-      "area": "westminster",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "westminster-adult-social-care",
-      "name": "Westminster Adult Social Care",
-      "area": "westminster",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "westminster-housing-solutions",
-      "name": "Westminster Housing Solutions",
-      "area": "westminster",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "westminster-libraries",
-      "name": "Westminster libraries and archives",
-      "area": "westminster",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "westminster-talking-therapies",
-      "name": "Westminster NHS Talking Therapies",
-      "area": "westminster",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "westminster-living-costs",
-      "name": "Westminster — cost of living support hub",
-      "area": "westminster",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "westminster-benefit-support",
-      "name": "Westminster — Housing Benefit and Council Tax Support",
-      "area": "westminster",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "hillingdon-good-neighbours",
-      "name": "Age UK Good Neighbours",
-      "area": "hillingdon",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "hillingdon-help-at-home",
-      "name": "Age UK Help at Home",
-      "area": "hillingdon",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "hillingdon-age-uk",
-      "name": "Age UK Hillingdon, Harrow and Brent",
-      "area": "hillingdon",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "hillingdon-arch",
-      "name": "ARCH Hillingdon",
-      "area": "hillingdon",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "hillingdon-carers-trust",
-      "name": "Carers Trust Hillingdon",
-      "area": "hillingdon",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "hillingdon-spa",
-      "name": "CNWL Single Point of Access",
-      "area": "hillingdon",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "hillingdon-dash",
-      "name": "DASH",
-      "area": "hillingdon",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "hillingdon-h4all",
-      "name": "H4All community partnership",
-      "area": "hillingdon",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "hillingdon-volunteer-hub",
-      "name": "H4All Volunteer Hub",
-      "area": "hillingdon",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "hillingdon-hacs-autism",
-      "name": "HACS Autism Hub",
-      "area": "hillingdon",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "hillingdon-hospice-bereavement",
-      "name": "Harlington Hospice bereavement counselling",
-      "area": "hillingdon",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "hillingdon-healthwatch",
-      "name": "Healthwatch Hillingdon",
-      "area": "hillingdon",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "hillingdon-social-care",
-      "name": "Hillingdon Adult Social Care",
-      "area": "hillingdon",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "hillingdon-benefits",
-      "name": "Hillingdon benefits and council tax support",
-      "area": "hillingdon",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "hillingdon-citizens-advice",
-      "name": "Hillingdon Citizens Advice",
-      "area": "hillingdon",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "hillingdon-cost-of-living",
-      "name": "Hillingdon cost of living support",
-      "area": "hillingdon",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "hillingdon-cove",
-      "name": "Hillingdon Cove",
-      "area": "hillingdon",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "hillingdon-community-mental-health",
-      "name": "Hillingdon East and West Community Mental Health Team",
-      "area": "hillingdon",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "hillingdon-employment-support",
-      "name": "Hillingdon employment support",
-      "area": "hillingdon",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "hillingdon-home-library",
-      "name": "Hillingdon Home Library Service",
-      "area": "hillingdon",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "hillingdon-housing",
-      "name": "Hillingdon homelessness prevention",
-      "area": "hillingdon",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "hillingdon-libraries",
-      "name": "Hillingdon libraries",
-      "area": "hillingdon",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "hillingdon-talking-therapies",
-      "name": "Hillingdon NHS Talking Therapies",
-      "area": "hillingdon",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "hillingdon-stop-smoking",
-      "name": "Hillingdon Stop Smoking Service",
-      "area": "hillingdon",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "hillingdon-taxicard",
-      "name": "Hillingdon Taxicard",
-      "area": "hillingdon",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "hillingdon-womens-centre",
-      "name": "Hillingdon Women's Centre",
-      "area": "hillingdon",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "hillingdon-adult-learning",
-      "name": "Learn Hillingdon",
-      "area": "hillingdon",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "hillingdon-mind-carers",
-      "name": "Mind in Hillingdon: Mental Health Carers Project",
-      "area": "hillingdon",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "hillingdon-mind-recovery",
-      "name": "Mind in Hillingdon: recovery and wellbeing",
-      "area": "hillingdon",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "hillingdon-trinity",
-      "name": "Trinity Homeless Projects",
-      "area": "hillingdon",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "milton-keynes-arc",
-      "name": "Addiction Recovery Community Milton Keynes",
-      "area": "milton-keynes",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "milton-keynes-adult-carers-navigation",
-      "name": "Adult carer support: Citizens Advice MK",
-      "area": "milton-keynes",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "milton-keynes-age-uk",
-      "name": "Age UK Milton Keynes",
-      "area": "milton-keynes",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "milton-keynes-arts-for-health",
-      "name": "Arts for Health Milton Keynes",
-      "area": "milton-keynes",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "milton-keynes-citizens-advice",
-      "name": "Citizens Advice Milton Keynes",
-      "area": "milton-keynes",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "milton-keynes-volunteering",
-      "name": "Community Action MK: find a volunteering role",
-      "area": "milton-keynes",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "milton-keynes-community-directory",
-      "name": "Community Action MK: local groups directory",
-      "area": "milton-keynes",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "milton-keynes-adult-learning",
-      "name": "Community Learning Milton Keynes",
-      "area": "milton-keynes",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "milton-keynes-healthwatch",
-      "name": "Healthwatch Milton Keynes",
-      "area": "milton-keynes",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "milton-keynes-home1st",
-      "name": "Help after hospital: Home1st and reablement",
-      "area": "milton-keynes",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "milton-keynes-adult-social-care",
-      "name": "Milton Keynes adult social care",
-      "area": "milton-keynes",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "milton-keynes-social-care-directory",
-      "name": "Milton Keynes adult social care directory",
-      "area": "milton-keynes",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "milton-keynes-mkcil",
-      "name": "Milton Keynes Centre for Integrated Living",
-      "area": "milton-keynes",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "milton-keynes-crisis-cafe",
-      "name": "Milton Keynes Crisis Café",
-      "area": "milton-keynes",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "milton-keynes-housing-solutions",
-      "name": "Milton Keynes Housing Solutions",
-      "area": "milton-keynes",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "milton-keynes-libraries",
-      "name": "Milton Keynes Libraries",
-      "area": "milton-keynes",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "milton-keynes-nhs-talking-therapies",
-      "name": "Milton Keynes NHS Talking Therapies",
-      "area": "milton-keynes",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "milton-keynes-mind-cen",
-      "name": "Mind BLMK: complex emotional needs peer group",
-      "area": "milton-keynes",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "milton-keynes-mind-peer-support",
-      "name": "Mind BLMK: Milton Keynes peer support",
-      "area": "milton-keynes",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "milton-keynes-mind-carers",
-      "name": "Mind BLMK: MK carers support",
-      "area": "milton-keynes",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "milton-keynes-suicide-bereavement",
-      "name": "Mind BLMK: support after a suicide",
-      "area": "milton-keynes",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "milton-keynes-mk-act",
-      "name": "MK Act: domestic abuse support",
-      "area": "milton-keynes",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "milton-keynes-qalliance",
-      "name": "Q:alliance: LGBTQ+ adult spaces",
-      "area": "milton-keynes",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "milton-keynes-saass",
-      "name": "Sexual Assault and Abuse Support Service",
-      "area": "milton-keynes",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "milton-keynes-advocacy",
-      "name": "The Advocacy People: Milton Keynes",
-      "area": "milton-keynes",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "milton-keynes-parks-trust",
-      "name": "The Parks Trust: parks and activities",
-      "area": "milton-keynes",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "milton-keynes-shelter-mk",
-      "name": "The Shelter MK",
-      "area": "milton-keynes",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "milton-keynes-unity",
-      "name": "UnityMK",
-      "area": "milton-keynes",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "milton-keynes-works-for-us",
-      "name": "Works for Us",
-      "area": "milton-keynes",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "surrey-action-carers",
-      "name": "Action for Carers Surrey",
-      "area": "surrey",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "surrey-age-uk",
-      "name": "Age UK Surrey",
-      "area": "surrey",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "surrey-autism-friendly",
-      "name": "Autism Friendly Surrey",
-      "area": "surrey",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "surrey-catalyst-connections",
-      "name": "Catalyst: Community Connections",
-      "area": "surrey",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "surrey-citizens-advice-south-west",
-      "name": "Citizens Advice South West Surrey",
-      "area": "surrey",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "surrey-citizens-advice-surrey-heath",
-      "name": "Citizens Advice Surrey Heath",
-      "area": "surrey",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "surrey-esdas",
-      "name": "East Surrey Domestic Abuse Services",
-      "area": "surrey",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "surrey-healthwatch",
-      "name": "Healthwatch Surrey",
-      "area": "surrey",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "surrey-iaccess",
-      "name": "i-access: Surrey drug and alcohol support",
-      "area": "surrey",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "surrey-mft-connections",
-      "name": "Mary Frances Trust: Community Connections",
-      "area": "surrey",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "surrey-mind-matters",
-      "name": "Mind Matters Surrey NHS Talking Therapies",
-      "area": "surrey",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "surrey-nas-branch",
-      "name": "National Autistic Society: Surrey branch",
-      "area": "surrey",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "surrey-oakleaf",
-      "name": "Oakleaf Enterprise",
-      "area": "surrey",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "surrey-pohwer",
-      "name": "POhWER: Surrey advocacy",
-      "area": "surrey",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "surrey-sun",
-      "name": "SUN: complex emotional needs peer support",
-      "area": "surrey",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "surrey-crisis-line",
-      "name": "Surrey and North East Hampshire mental health crisis line",
-      "area": "surrey",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "surrey-safe-havens",
-      "name": "Surrey and North East Hampshire Safe Havens",
-      "area": "surrey",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "surrey-care-trust",
-      "name": "Surrey Care Trust",
-      "area": "surrey",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "surrey-surrey-choices",
-      "name": "Surrey Choices",
-      "area": "surrey",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "surrey-coalition",
-      "name": "Surrey Coalition of Disabled People",
-      "area": "surrey",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "surrey-drug-alcohol-care",
-      "name": "Surrey Drug and Alcohol Care",
-      "area": "surrey",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "surrey-good-neighbours",
-      "name": "Surrey good neighbour schemes",
-      "area": "surrey",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "surrey-minority-ethnic-forum",
-      "name": "Surrey Minority Ethnic Forum",
-      "area": "surrey",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "surrey-recovery-college",
-      "name": "Surrey Recovery College",
-      "area": "surrey",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "surrey-tech-angels",
-      "name": "Tech Angels: digital support in east Surrey",
-      "area": "surrey",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "surrey-transform",
-      "name": "Transform Housing & Support",
-      "area": "surrey",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "surrey-warmth-matters",
-      "name": "Warmth Matters: energy advice",
-      "area": "surrey",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "surrey-east-connections",
-      "name": "Waythrough: East Surrey Community Connections",
-      "area": "surrey",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "surrey-your-sanctuary",
-      "name": "Your Sanctuary",
-      "area": "surrey",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "ealing-age-uk",
-      "name": "Age UK Ealing",
-      "area": "ealing",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "ealing-bloom",
-      "name": "Bloom: Sanctuary Seeker Support",
-      "area": "ealing",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "ealing-community-directory",
-      "name": "Do Something Good: Ealing community directory",
-      "area": "ealing",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "ealing-volunteering",
-      "name": "Do Something Good: volunteering in Ealing",
-      "area": "ealing",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "ealing-advice-service",
-      "name": "Ealing Advice Service: mental health advice route",
-      "area": "ealing",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "ealing-carers",
-      "name": "Ealing Carers",
-      "area": "ealing",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "ealing-community-health",
-      "name": "Ealing Community Partners",
-      "area": "ealing",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "ealing-crisis-resilience-fund",
-      "name": "Ealing Crisis and Resilience Fund",
-      "area": "ealing",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "ealing-law-centre",
-      "name": "Ealing Law Centre",
-      "area": "ealing",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "ealing-learning-disability-support",
-      "name": "Ealing learning disability information",
-      "area": "ealing",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "ealing-libraries",
-      "name": "Ealing libraries",
-      "area": "ealing",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "ealing-talking-therapies",
-      "name": "Ealing NHS Talking Therapies",
-      "area": "ealing",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "ealing-rise",
-      "name": "Ealing RISE: drug and alcohol support",
-      "area": "ealing",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "ealing-safe-space",
-      "name": "Ealing Safe Space",
-      "area": "ealing",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "ealing-housing-after-hospital",
-      "name": "Ealing: housing help when leaving hospital",
-      "area": "ealing",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "ealing-healthwatch",
-      "name": "Healthwatch Ealing",
-      "area": "ealing",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "ealing-health-complaints-advocacy",
-      "name": "Independent Health Complaints Advocacy: Ealing",
-      "area": "ealing",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "ealing-mental-health-advocacy",
-      "name": "Independent Mental Health Advocacy: Ealing",
-      "area": "ealing",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "ealing-southall-black-sisters",
-      "name": "Southall Black Sisters",
-      "area": "ealing",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "ealing-solace-centre",
-      "name": "The Solace Centre",
-      "area": "ealing",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "ealing-wellbeing-directory",
-      "name": "Wellbeing West London directory",
-      "area": "ealing",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "ealing-mind-pathways",
-      "name": "West London Mind: Ealing Pathways",
-      "area": "ealing",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "ealing-ips-employment",
-      "name": "West London NHS employment support (IPS)",
-      "area": "ealing",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "ealing-urgent-mental-health",
-      "name": "West London NHS mental health crisis line",
-      "area": "ealing",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "ealing-recovery-college",
-      "name": "West London Wellbeing & Recovery College",
-      "area": "ealing",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "frank",
-      "name": "FRANK drug information and support finder",
-      "area": "wider-support",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "galop",
-      "name": "Galop LGBT+ abuse support",
-      "area": "wider-support",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "gamcare",
-      "name": "GamCare gambling support",
-      "area": "wider-support",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "pharmacy-help",
-      "name": "Help from a community pharmacist",
-      "area": "wider-support",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "hub-hope",
-      "name": "Hub of Hope",
-      "area": "wider-support",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "mens-advice-line",
-      "name": "Men's Advice Line",
-      "area": "wider-support",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "migrant-help",
-      "name": "Migrant Help asylum support",
-      "area": "wider-support",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "mind-information",
-      "name": "Mind: information and support",
-      "area": "wider-support",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "national-autistic-society",
-      "name": "National Autistic Society: advice and guidance",
-      "area": "wider-support",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "refuge",
-      "name": "National Domestic Abuse Helpline",
-      "area": "wider-support",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "nhs-111-mental-health",
-      "name": "NHS 111: urgent mental health help",
-      "area": "wider-support",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "nhs-low-income",
-      "name": "NHS Low Income Scheme",
-      "area": "wider-support",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "gp-register",
-      "name": "Register with a GP",
-      "area": "wider-support",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "relay",
-      "name": "Relay UK",
-      "area": "wider-support",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "rethink-information",
-      "name": "Rethink Mental Illness: advice and information",
-      "area": "wider-support",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "rnib",
-      "name": "RNIB: living with sight loss",
-      "area": "wider-support",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "rnid",
-      "name": "RNID hearing loss and tinnitus support",
-      "area": "wider-support",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "samaritans",
-      "name": "Samaritans",
-      "area": "wider-support",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "scope",
-      "name": "Scope disability information and support",
-      "area": "wider-support",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "shout",
-      "name": "Shout text support",
-      "area": "wider-support",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "stepchange",
-      "name": "StepChange Debt Charity",
-      "area": "wider-support",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "switchboard",
-      "name": "Switchboard LGBTQIA+ support line",
-      "area": "wider-support",
-      "lastSourceRead": "2026-09-18"
-    },
-    {
-      "id": "turn2us",
-      "name": "Turn2us",
-      "area": "wider-support",
-      "lastSourceRead": "2026-09-18"
+      "id": "brent-our-parks-library-yoga",
+      "name": "Our Parks — Willesden Library yoga",
+      "area": "brent",
+      "lastSourceRead": "2026-10-26"
     }
   ],
   "monthlyRoutineCapacity": 1344,
@@ -1368,108 +24,400 @@
       "field": "access",
       "currentValue": "Use the online contact form or call and say “Adult Social Care”.",
       "proposedValue": "Complete the online form for yourself or someone else. If you have difficulty with the form, need urgent support or are concerned about immediate safety, call and say “Adult Social Care”.",
-      "reason": "The council specifies when to use the telephone route rather than listing it as a general alternative.",
+      "reason": "The current wording makes the form and phone appear interchangeable, whereas the council gives specific circumstances for phoning.",
       "sourceUrl": "https://camdencarechoices.camden.gov.uk/adult-social-care-services/contact-adult-social-care/",
       "evidence": "The council directs requests to the online form and gives the contact number for form difficulties, urgent needs or immediate safety concerns.",
       "priority": "normal",
       "key": "d60427b55b1656f89817e323184cef7531542e82bf92b173b889a17a44d587e7",
       "status": "open",
       "firstSeen": "2026-11-09",
-      "lastSeen": "2026-11-21",
-      "occurrences": 2
+      "lastSeen": "2026-11-24",
+      "occurrences": 3
     },
     {
       "kind": "change",
-      "resourceId": "cnwl-recovery-college",
-      "name": "CNWL Recovery and Wellbeing College",
-      "area": "wider-support",
-      "field": "url",
-      "currentValue": "https://www.cnwl.nhs.uk/services/recovery-and-wellbeing-college/how-enrol-recovery-and-wellbeing-college",
-      "proposedValue": "https://www.cnwl.nhs.uk/services/recovery-and-wellbeing-college/how-to-become-a-student",
-      "reason": "The directory sends learners to the former enrolment URL, while the current NHS page contains the enrolment route.",
-      "sourceUrl": "https://www.cnwl.nhs.uk/services/recovery-and-wellbeing-college/how-to-become-a-student",
-      "evidence": "The NHS student page links to the college enrolment form and lists non-digital ways to enrol.",
+      "resourceId": "harrow-sangat-activities",
+      "name": "Sangat Advice Centre — community activities",
+      "area": "harrow",
+      "field": "name",
+      "currentValue": "Sangat Advice Centre — community activities",
+      "proposedValue": "Sangam Foundation — community activities",
+      "reason": "The current provider identifies itself as Sangam Foundation.",
+      "sourceUrl": "https://sangamfoundation.org.uk/activites/",
+      "evidence": "The current activities page is branded Sangam Foundation and presents activities at the Sangam Centre.",
       "priority": "normal",
-      "key": "534ec95acff1f61b94c2c870924f02a56c381ffce80b5e1eff567607dac93cd6",
+      "key": "f871181856ac1edc798dbc27856ae1c182bed3351b1b3fee9ccda79b34fd8d2c",
       "status": "open",
-      "firstSeen": "2026-11-21",
-      "lastSeen": "2026-11-21",
+      "firstSeen": "2026-11-24",
+      "lastSeen": "2026-11-24",
       "occurrences": 1
     },
     {
       "kind": "change",
-      "resourceId": "ealing-adult-learning",
-      "name": "Learn Ealing",
-      "area": "ealing",
+      "resourceId": "harrow-sangat-activities",
+      "name": "Sangat Advice Centre — community activities",
+      "area": "harrow",
+      "field": "description",
+      "currentValue": "Community activities including yoga alongside an advice service.",
+      "proposedValue": "Community activities at the Sangam Centre, including yoga, bridge, senior clubs and knitting.",
+      "reason": "The provider now publishes a wider, named set of community activities.",
+      "sourceUrl": "https://sangamfoundation.org.uk/activites/",
+      "evidence": "The page lists yoga, bridge, senior clubs and knitting as current activities.",
+      "priority": "normal",
+      "key": "6328993135f13f8d9eea419614389eec4e617a4d9324c010a708dd9654fa82db",
+      "status": "open",
+      "firstSeen": "2026-11-24",
+      "lastSeen": "2026-11-24",
+      "occurrences": 1
+    },
+    {
+      "kind": "change",
+      "resourceId": "harrow-sangat-activities",
+      "name": "Sangat Advice Centre — community activities",
+      "area": "harrow",
+      "field": "who",
+      "currentValue": "People in Harrow’s Asian communities; ask about adult group availability.",
+      "proposedValue": "People looking for community activities in and around Burnt Oak. Individual clubs have their own age or membership arrangements.",
+      "reason": "The current page presents community activities without limiting the overall offer to Asian communities, while individual clubs have their own arrangements.",
+      "sourceUrl": "https://sangamfoundation.org.uk/activites/",
+      "evidence": "The provider lists centre activities for the local community and gives specific age or membership details only for individual clubs.",
+      "priority": "normal",
+      "key": "7c360fdb5ab2b33855ea6c4db1fd67e480448c2dfcfed674c3bef08af81439b4",
+      "status": "open",
+      "firstSeen": "2026-11-24",
+      "lastSeen": "2026-11-24",
+      "occurrences": 1
+    },
+    {
+      "kind": "change",
+      "resourceId": "harrow-sangat-activities",
+      "name": "Sangat Advice Centre — community activities",
+      "area": "harrow",
+      "field": "access",
+      "currentValue": "Contact Sangat through its website to ask what is currently running.",
+      "proposedValue": "Use the activities page or contact Sangam by phone or email to ask about the current club and register.",
+      "reason": "The current provider page supplies activity-specific joining information and direct contact routes.",
+      "sourceUrl": "https://sangamfoundation.org.uk/activites/",
+      "evidence": "The page publishes club schedules, booking or drop-in arrangements and the centre’s contact details.",
+      "priority": "normal",
+      "key": "b60c2d0e8caefeb54924d7ebc530fe57bbc9199ec4de21a871b0305fff9fe125",
+      "status": "open",
+      "firstSeen": "2026-11-24",
+      "lastSeen": "2026-11-24",
+      "occurrences": 1
+    },
+    {
+      "kind": "change",
+      "resourceId": "harrow-sangat-activities",
+      "name": "Sangat Advice Centre — community activities",
+      "area": "harrow",
+      "field": "check",
+      "currentValue": "Confirm current activities, costs, membership and booking before attending.",
+      "proposedValue": "Some activities are bookable and others are drop-in. Fees and membership arrangements vary; check the current timetable, price and access before attending.",
+      "reason": "The provider explicitly gives different booking, drop-in, fee and membership arrangements across activities.",
+      "sourceUrl": "https://sangamfoundation.org.uk/activites/",
+      "evidence": "The listed activities have varying schedules and payment or membership arrangements.",
+      "priority": "normal",
+      "key": "c52353fb6dffee89dd3993ccfeeb3fa3007ffde4a286b4ce17547d2b929b7d46",
+      "status": "open",
+      "firstSeen": "2026-11-24",
+      "lastSeen": "2026-11-24",
+      "occurrences": 1
+    },
+    {
+      "kind": "change",
+      "resourceId": "harrow-sangat-activities",
+      "name": "Sangat Advice Centre — community activities",
+      "area": "harrow",
       "field": "phone",
       "currentValue": "",
-      "proposedValue": "020 8825 5577",
-      "reason": "The empty phone field omits the council’s published Learn Ealing enquiry number.",
-      "sourceUrl": "https://www.ealing.gov.uk/info/201108/learning_and_schools/2814/adult_learning",
-      "evidence": "The council gives this number in the contact section of its adult learning page.",
+      "proposedValue": "020 8952 7062",
+      "reason": "The provider publishes this centre telephone number on the activities page.",
+      "sourceUrl": "https://sangamfoundation.org.uk/activites/",
+      "evidence": "The activities page provides 020 8952 7062 as the contact telephone number.",
       "priority": "normal",
-      "key": "ab38be70e399a4f5035f02ff8de39958fcf86cf7d9599d41225ceadfe1bb7ff9",
+      "key": "7be595c3e9b64c756739b06090dc4d708a635126da60c7fe5184ef1e8e2565ed",
       "status": "open",
-      "firstSeen": "2026-11-21",
-      "lastSeen": "2026-11-21",
+      "firstSeen": "2026-11-24",
+      "lastSeen": "2026-11-24",
       "occurrences": 1
     },
     {
       "kind": "change",
-      "resourceId": "ealing-adult-learning",
-      "name": "Learn Ealing",
-      "area": "ealing",
-      "field": "access",
-      "currentValue": "Browse the course listings and enrol using the details for your chosen course.",
-      "proposedValue": "Use the council’s Learn Ealing link to register online, then attend an information and advice session. You can call Learn Ealing if you need help getting started.",
-      "reason": "The council gives two enrolment steps, not just a course search.",
-      "sourceUrl": "https://www.ealing.gov.uk/info/201108/learning_and_schools/2814/adult_learning",
-      "evidence": "The enrolment section directs learners to register online and attend an IAG session. A contact number is provided below it.",
-      "priority": "normal",
-      "key": "368a5455c299074209a0dabe53c861fade4d6db191323df1e49a6f3d722ce7fe",
-      "status": "open",
-      "firstSeen": "2026-11-21",
-      "lastSeen": "2026-11-21",
-      "occurrences": 1
-    },
-    {
-      "kind": "change",
-      "resourceId": "ealing-adult-social-care",
-      "name": "Ealing Adult Social Care",
-      "area": "ealing",
+      "resourceId": "harrow-sangat-activities",
+      "name": "Sangat Advice Centre — community activities",
+      "area": "harrow",
       "field": "url",
-      "currentValue": "https://www.ealing.gov.uk/info/201073/health_and_adult_social_care",
-      "proposedValue": "https://www.ealing.gov.uk/info/201082/what_to_expect_from_adult_social_care/2526/contacting_adult_social_care",
-      "reason": "The listed index requires extra navigation to reach the contact routes.",
-      "sourceUrl": "https://www.ealing.gov.uk/info/201082/what_to_expect_from_adult_social_care/2526/contacting_adult_social_care",
-      "evidence": "The council contact page links directly to the self-referral form and gives the same telephone number.",
+      "currentValue": "https://www.sangat.org.uk/Activities.html",
+      "proposedValue": "https://sangamfoundation.org.uk/activites/",
+      "reason": "The old Sangat address is not the current provider route; the Sangam Foundation activities page is readable and current.",
+      "sourceUrl": "https://sangamfoundation.org.uk/activites/",
+      "evidence": "The current provider page directly presents the named activities and joining details.",
       "priority": "normal",
-      "key": "548a74e0a2d0a9a7c2e0b2f929a40c0ee64372ad6a53a67cb89fe43fc656e3b6",
+      "key": "5a09614d7bd8b032e7c3a5e64e7d976b2cf93beb81db74d107dbb5bf753b10ce",
       "status": "open",
-      "firstSeen": "2026-11-21",
-      "lastSeen": "2026-11-21",
+      "firstSeen": "2026-11-24",
+      "lastSeen": "2026-11-24",
       "occurrences": 1
     },
     {
       "kind": "change",
-      "resourceId": "ealing-adult-social-care",
-      "name": "Ealing Adult Social Care",
-      "area": "ealing",
-      "field": "access",
-      "currentValue": "Call the adult social care contact centre or use the council website.",
-      "proposedValue": "Call the council or use its self-referral form. If you are contacting the council for someone else, make sure they know first; there is a separate form for representatives.",
-      "reason": "The council distinguishes asking for yourself from contacting it for somebody else.",
-      "sourceUrl": "https://www.ealing.gov.uk/info/201082/what_to_expect_from_adult_social_care/2526/contacting_adult_social_care",
-      "evidence": "The council lists the two forms and asks representatives to make the person aware before making contact.",
+      "resourceId": "westminster-community-fitness",
+      "name": "Everyone Active — Westminster community fitness",
+      "area": "westminster",
+      "field": "name",
+      "currentValue": "Everyone Active — Westminster community fitness",
+      "proposedValue": "ActiveWestminster — Neighbourhood Sports Club programme",
+      "reason": "The council’s current programme covers multiple community providers and activities rather than a single Everyone Active outreach centre.",
+      "sourceUrl": "https://active.westminster.gov.uk/neighbourhood-sports-club-programme/",
+      "evidence": "Westminster publishes the current offer under the Neighbourhood Sports Club programme and includes Everyone Active among several providers.",
       "priority": "normal",
-      "key": "c18fd96c092a62b5e2e2f039ac4983e5dbe7f11e60a556af0dcb96a51df9342e",
+      "key": "c9f803e6cdbcbff81e66952dbeac33ec723bca5d81a43b9269ec268cb167354f",
       "status": "open",
-      "firstSeen": "2026-11-21",
-      "lastSeen": "2026-11-21",
+      "firstSeen": "2026-11-24",
+      "lastSeen": "2026-11-24",
+      "occurrences": 1
+    },
+    {
+      "kind": "change",
+      "resourceId": "westminster-community-fitness",
+      "name": "Everyone Active — Westminster community fitness",
+      "area": "westminster",
+      "field": "description",
+      "currentValue": "Fitness classes in community venues and local outdoor spaces.",
+      "proposedValue": "Free or low-cost sport and movement sessions across Westminster, including fitness, yoga, walking, boxing, football and table tennis.",
+      "reason": "The current council programme lists a broader set of sport and movement activities and identifies them as free or low-cost.",
+      "sourceUrl": "https://active.westminster.gov.uk/neighbourhood-sports-club-programme/",
+      "evidence": "The programme table lists multiple types of activity across borough venues, and the introduction describes free or low-cost sessions.",
+      "priority": "normal",
+      "key": "0f87326d19f684bd0844f9a31fe745607e3bcb56189cb7ffde9db2bd4eb82a5c",
+      "status": "open",
+      "firstSeen": "2026-11-24",
+      "lastSeen": "2026-11-24",
+      "occurrences": 1
+    },
+    {
+      "kind": "change",
+      "resourceId": "westminster-community-fitness",
+      "name": "Everyone Active — Westminster community fitness",
+      "area": "westminster",
+      "field": "who",
+      "currentValue": "Adults looking for exercise near home in Westminster.",
+      "proposedValue": "People who live, work or study in Westminster. Individual sessions have their own age and target-group criteria.",
+      "reason": "The council gives live, work or study in Westminster as the programme-wide basis and publishes session-specific criteria.",
+      "sourceUrl": "https://active.westminster.gov.uk/neighbourhood-sports-club-programme/",
+      "evidence": "The page states the programme is for people who live, work or study in Westminster and the table includes age and target-group details.",
+      "priority": "normal",
+      "key": "03c32ef69d96da9d042f036afc7d897e054267a02b202d4619fdd7539a072a95",
+      "status": "open",
+      "firstSeen": "2026-11-24",
+      "lastSeen": "2026-11-24",
+      "occurrences": 1
+    },
+    {
+      "kind": "change",
+      "resourceId": "westminster-community-fitness",
+      "name": "Everyone Active — Westminster community fitness",
+      "area": "westminster",
+      "field": "access",
+      "currentValue": "Use the community timetable to choose a class and ask the provider how to book.",
+      "proposedValue": "Use the current programme table to choose a session and check whether advance booking is required.",
+      "reason": "The current council page contains the active programme and indicates that booking requirements vary.",
+      "sourceUrl": "https://active.westminster.gov.uk/neighbourhood-sports-club-programme/",
+      "evidence": "The dated programme table is the current route and the page says most, rather than all, sessions need no advance booking.",
+      "priority": "normal",
+      "key": "d554ea768c4f4aec7aee8bf88066c612b0dc2b1e63213c5b8f553f4499834a8a",
+      "status": "open",
+      "firstSeen": "2026-11-24",
+      "lastSeen": "2026-11-24",
+      "occurrences": 1
+    },
+    {
+      "kind": "change",
+      "resourceId": "westminster-community-fitness",
+      "name": "Everyone Active — Westminster community fitness",
+      "area": "westminster",
+      "field": "check",
+      "currentValue": "Check the current venue, age or eligibility rules, fees and concessions for the class you choose.",
+      "proposedValue": "Most sessions do not require advance booking. Check the current timetable, age or target-group criteria, venue and any cost before attending.",
+      "reason": "The council gives a general no-booking expectation but session-specific criteria and costs still vary.",
+      "sourceUrl": "https://active.westminster.gov.uk/neighbourhood-sports-club-programme/",
+      "evidence": "The page says most sessions need no advance booking and publishes session rows with target group, time, place and cost information.",
+      "priority": "normal",
+      "key": "a81d8ac129da1c878314047d88b1103a510658f28705b20788e5e33c74cea703",
+      "status": "open",
+      "firstSeen": "2026-11-24",
+      "lastSeen": "2026-11-24",
+      "occurrences": 1
+    },
+    {
+      "kind": "change",
+      "resourceId": "westminster-community-fitness",
+      "name": "Everyone Active — Westminster community fitness",
+      "area": "westminster",
+      "field": "url",
+      "currentValue": "https://www.everyoneactive.com/centre/westminster-community-outreach/",
+      "proposedValue": "https://active.westminster.gov.uk/neighbourhood-sports-club-programme/",
+      "reason": "The old Everyone Active outreach route was unavailable; the council page is the current readable programme route.",
+      "sourceUrl": "https://active.westminster.gov.uk/neighbourhood-sports-club-programme/",
+      "evidence": "The council page presents a current dated programme and links or contact information for its sessions.",
+      "priority": "normal",
+      "key": "154b442208d460b23738fab0562b0211143f88fdf06d4cae9500d78f13c3bca7",
+      "status": "open",
+      "firstSeen": "2026-11-24",
+      "lastSeen": "2026-11-24",
+      "occurrences": 1
+    },
+    {
+      "kind": "change",
+      "resourceId": "milton-keynes-moon-stars-yoga",
+      "name": "Moon and Stars Yoga — Stony Stratford",
+      "area": "milton-keynes",
+      "field": "name",
+      "currentValue": "Moon and Stars Yoga — Stony Stratford",
+      "proposedValue": "Moon and Stars Yoga — Milton Keynes",
+      "reason": "The current class is advertised at The Cross and Stable Church in Milton Keynes rather than on the old Stony Stratford route.",
+      "sourceUrl": "https://www.moonandstarsyoga.co.uk/experiences/yoga-classes/",
+      "evidence": "The current page publishes the venue as The Cross and Stable Church, Milton Keynes MK14 7RZ.",
+      "priority": "normal",
+      "key": "bb1df49012d70884015bc3776d98c655b4b0f3f0bdd4b403d3ae6a4168ba4009",
+      "status": "open",
+      "firstSeen": "2026-11-24",
+      "lastSeen": "2026-11-24",
+      "occurrences": 1
+    },
+    {
+      "kind": "change",
+      "resourceId": "milton-keynes-moon-stars-yoga",
+      "name": "Moon and Stars Yoga — Stony Stratford",
+      "area": "milton-keynes",
+      "field": "description",
+      "currentValue": "Group Vinyasa and restorative yoga, including beginner-friendly sessions in Stony Stratford.",
+      "proposedValue": "Beginner-friendly candle-lit Vinyasa yoga with mindful movement, stretching, breathwork and relaxation.",
+      "reason": "The current provider page describes this specific class format and no longer presents the saved Stony Stratford description.",
+      "sourceUrl": "https://www.moonandstarsyoga.co.uk/experiences/yoga-classes/",
+      "evidence": "The provider describes candle-lit Vinyasa with mindful movement, stretching, breathwork and relaxation and says beginners are welcome.",
+      "priority": "normal",
+      "key": "098338716933bf5602f7f52d712cab8e5fb560af8cac7726ba0d9bf738b87fac",
+      "status": "open",
+      "firstSeen": "2026-11-24",
+      "lastSeen": "2026-11-24",
+      "occurrences": 1
+    },
+    {
+      "kind": "change",
+      "resourceId": "milton-keynes-moon-stars-yoga",
+      "name": "Moon and Stars Yoga — Stony Stratford",
+      "area": "milton-keynes",
+      "field": "who",
+      "currentValue": "People seeking a local group yoga class, including beginners.",
+      "proposedValue": "Adults seeking a group yoga class in Milton Keynes, including beginners.",
+      "reason": "The current class is explicitly beginner-friendly and located in Milton Keynes.",
+      "sourceUrl": "https://www.moonandstarsyoga.co.uk/experiences/yoga-classes/",
+      "evidence": "The page welcomes beginners and gives a Milton Keynes venue.",
+      "priority": "normal",
+      "key": "3b3068cb0d09d8bf0b7ecb384bced03ceb5c0c4c65221debe715ba8de4756c3e",
+      "status": "open",
+      "firstSeen": "2026-11-24",
+      "lastSeen": "2026-11-24",
+      "occurrences": 1
+    },
+    {
+      "kind": "change",
+      "resourceId": "milton-keynes-moon-stars-yoga",
+      "name": "Moon and Stars Yoga — Stony Stratford",
+      "area": "milton-keynes",
+      "field": "access",
+      "currentValue": "Use the yoga lessons page or contact the teacher to book and confirm the current venue.",
+      "proposedValue": "Use the current yoga classes page to book a Monday evening session.",
+      "reason": "The provider now supplies a current class page with the Monday schedule and booking route.",
+      "sourceUrl": "https://www.moonandstarsyoga.co.uk/experiences/yoga-classes/",
+      "evidence": "The page advertises the Monday 7pm class and provides the current route for selecting the session option.",
+      "priority": "normal",
+      "key": "98da190a64bf1fde50cada79349c904011e17f3f870c87e1af72c7fd9141ba27",
+      "status": "open",
+      "firstSeen": "2026-11-24",
+      "lastSeen": "2026-11-24",
+      "occurrences": 1
+    },
+    {
+      "kind": "change",
+      "resourceId": "milton-keynes-moon-stars-yoga",
+      "name": "Moon and Stars Yoga — Stony Stratford",
+      "area": "milton-keynes",
+      "field": "check",
+      "currentValue": "Paid classes. Confirm price, timetable and suitability before booking; sessions may use scented oils and candles.",
+      "proposedValue": "£10 pay as you go or £30 for four consecutive lessons. Sessions use aromatherapy and candlelight; confirm the current timetable, suitability and access before booking.",
+      "reason": "The current provider page publishes the two price options and sensory features.",
+      "sourceUrl": "https://www.moonandstarsyoga.co.uk/experiences/yoga-classes/",
+      "evidence": "The provider lists £10 for one class or £30 for four consecutive classes and describes aromatherapy and candlelight.",
+      "priority": "normal",
+      "key": "e46c304f6139076ca42244adff25a859e30a4631b05c84f7a772d771c690844f",
+      "status": "open",
+      "firstSeen": "2026-11-24",
+      "lastSeen": "2026-11-24",
+      "occurrences": 1
+    },
+    {
+      "kind": "change",
+      "resourceId": "milton-keynes-moon-stars-yoga",
+      "name": "Moon and Stars Yoga — Stony Stratford",
+      "area": "milton-keynes",
+      "field": "url",
+      "currentValue": "https://www.moonandstarsyoga.co.uk/yoga-lessons/",
+      "proposedValue": "https://www.moonandstarsyoga.co.uk/experiences/yoga-classes/",
+      "reason": "The old lessons URL returned 404; this is the current readable provider class page.",
+      "sourceUrl": "https://www.moonandstarsyoga.co.uk/experiences/yoga-classes/",
+      "evidence": "The current page contains the active class description, schedule, venue and prices.",
+      "priority": "normal",
+      "key": "33477a12cd44222b82911ff34bc64c7532a2d0028216ab5ee6b76aac9d5225fe",
+      "status": "open",
+      "firstSeen": "2026-11-24",
+      "lastSeen": "2026-11-24",
       "occurrences": 1
     }
   ],
-  "unableToVerify": [],
+  "unableToVerify": [
+    {
+      "kind": "verification",
+      "resourceId": "brent-our-parks-library-yoga",
+      "name": "Our Parks — Willesden Library yoga",
+      "area": "brent",
+      "reason": "The named offer appears in current official indexed material, but the saved direct route is 404 and no stable readable page confirmed current joining, cost or access information.",
+      "sourceUrl": "https://ourparks.org.uk/borough/willesden-library",
+      "priority": "normal",
+      "key": "e2fcc22f5218926573d465d5baf69f537a71854520f6edeb1ca3034b54fb0825",
+      "status": "open",
+      "firstSeen": "2026-11-24",
+      "lastSeen": "2026-11-24",
+      "occurrences": 1
+    },
+    {
+      "kind": "verification",
+      "resourceId": "harrow-discovered-5b9ab492f902",
+      "name": "Sangam Advice Centre — legal advice",
+      "area": "harrow",
+      "reason": "Current primary pages do not confirm that the named legal-advice service, eligibility and free access arrangements are operating; the saved NHS profile is unavailable and the provider refers to future launch.",
+      "sourceUrl": "https://www.nhs.uk/services/service-directory/sangam-centre/N10498810",
+      "priority": "normal",
+      "key": "813d4747d08397d2879a5b6549e8c56a70bef95452672133185e0f4c3236874b",
+      "status": "open",
+      "firstSeen": "2026-11-24",
+      "lastSeen": "2026-11-24",
+      "occurrences": 1
+    },
+    {
+      "kind": "verification",
+      "resourceId": "surrey-liaise-womens-centre",
+      "name": "Liaise Women’s Centre — Woking",
+      "area": "surrey",
+      "reason": "Latest published attempt could not confirm this named programme.",
+      "sourceUrl": "https://communitymarketplace.surreycc.gov.uk/organisation-profile/829",
+      "priority": "normal",
+      "lastSeen": "2026-11-24",
+      "status": "open"
+    }
+  ],
   "recentResolved": [
     {
       "kind": "change",
@@ -1755,12 +703,112 @@
       "lastSeen": "2026-11-21",
       "occurrences": 1,
       "closedOn": "2026-11-21"
+    },
+    {
+      "kind": "change",
+      "resourceId": "cnwl-recovery-college",
+      "name": "CNWL Recovery and Wellbeing College",
+      "area": "wider-support",
+      "field": "url",
+      "currentValue": "https://www.cnwl.nhs.uk/services/recovery-and-wellbeing-college/how-enrol-recovery-and-wellbeing-college",
+      "proposedValue": "https://www.cnwl.nhs.uk/services/recovery-and-wellbeing-college/how-to-become-a-student",
+      "reason": "The directory sends learners to the former enrolment URL, while the current NHS page contains the enrolment route.",
+      "sourceUrl": "https://www.cnwl.nhs.uk/services/recovery-and-wellbeing-college/how-to-become-a-student",
+      "evidence": "The NHS student page links to the college enrolment form and lists non-digital ways to enrol.",
+      "priority": "normal",
+      "key": "534ec95acff1f61b94c2c870924f02a56c381ffce80b5e1eff567607dac93cd6",
+      "status": "applied",
+      "firstSeen": "2026-11-21",
+      "lastSeen": "2026-11-21",
+      "occurrences": 1,
+      "closedOn": "2026-11-24"
+    },
+    {
+      "kind": "change",
+      "resourceId": "ealing-adult-learning",
+      "name": "Learn Ealing",
+      "area": "ealing",
+      "field": "phone",
+      "currentValue": "",
+      "proposedValue": "020 8825 5577",
+      "reason": "The empty phone field omits the council’s published Learn Ealing enquiry number.",
+      "sourceUrl": "https://www.ealing.gov.uk/info/201108/learning_and_schools/2814/adult_learning",
+      "evidence": "The council gives this number in the contact section of its adult learning page.",
+      "priority": "normal",
+      "key": "ab38be70e399a4f5035f02ff8de39958fcf86cf7d9599d41225ceadfe1bb7ff9",
+      "status": "applied",
+      "firstSeen": "2026-11-21",
+      "lastSeen": "2026-11-21",
+      "occurrences": 1,
+      "closedOn": "2026-11-24"
+    },
+    {
+      "kind": "change",
+      "resourceId": "ealing-adult-learning",
+      "name": "Learn Ealing",
+      "area": "ealing",
+      "field": "access",
+      "currentValue": "Browse the course listings and enrol using the details for your chosen course.",
+      "proposedValue": "Use the council’s Learn Ealing link to register online, then attend an information and advice session. You can call Learn Ealing if you need help getting started.",
+      "reason": "The council gives two enrolment steps, not just a course search.",
+      "sourceUrl": "https://www.ealing.gov.uk/info/201108/learning_and_schools/2814/adult_learning",
+      "evidence": "The enrolment section directs learners to register online and attend an IAG session. A contact number is provided below it.",
+      "priority": "normal",
+      "key": "368a5455c299074209a0dabe53c861fade4d6db191323df1e49a6f3d722ce7fe",
+      "status": "applied",
+      "firstSeen": "2026-11-21",
+      "lastSeen": "2026-11-21",
+      "occurrences": 1,
+      "closedOn": "2026-11-24"
+    },
+    {
+      "kind": "change",
+      "resourceId": "ealing-adult-social-care",
+      "name": "Ealing Adult Social Care",
+      "area": "ealing",
+      "field": "url",
+      "currentValue": "https://www.ealing.gov.uk/info/201073/health_and_adult_social_care",
+      "proposedValue": "https://www.ealing.gov.uk/info/201082/what_to_expect_from_adult_social_care/2526/contacting_adult_social_care",
+      "reason": "The listed index requires extra navigation to reach the contact routes.",
+      "sourceUrl": "https://www.ealing.gov.uk/info/201082/what_to_expect_from_adult_social_care/2526/contacting_adult_social_care",
+      "evidence": "The council contact page links directly to the self-referral form and gives the same telephone number.",
+      "priority": "normal",
+      "key": "548a74e0a2d0a9a7c2e0b2f929a40c0ee64372ad6a53a67cb89fe43fc656e3b6",
+      "status": "applied",
+      "firstSeen": "2026-11-21",
+      "lastSeen": "2026-11-21",
+      "occurrences": 1,
+      "closedOn": "2026-11-24"
+    },
+    {
+      "kind": "change",
+      "resourceId": "ealing-adult-social-care",
+      "name": "Ealing Adult Social Care",
+      "area": "ealing",
+      "field": "access",
+      "currentValue": "Call the adult social care contact centre or use the council website.",
+      "proposedValue": "Call the council or use its self-referral form. If you are contacting the council for someone else, make sure they know first; there is a separate form for representatives.",
+      "reason": "The council distinguishes asking for yourself from contacting it for somebody else.",
+      "sourceUrl": "https://www.ealing.gov.uk/info/201082/what_to_expect_from_adult_social_care/2526/contacting_adult_social_care",
+      "evidence": "The council lists the two forms and asks representatives to make the person aware before making contact.",
+      "priority": "normal",
+      "key": "c18fd96c092a62b5e2e2f039ac4983e5dbe7f11e60a556af0dcb96a51df9342e",
+      "status": "applied",
+      "firstSeen": "2026-11-21",
+      "lastSeen": "2026-11-21",
+      "occurrences": 1,
+      "closedOn": "2026-11-24"
     }
   ],
   "runsInLast7Days": [
     {
       "day": "2026-11-21",
       "regular": 32,
+      "retries": 0
+    },
+    {
+      "day": "2026-11-24",
+      "regular": 7,
       "retries": 0
     }
   ]

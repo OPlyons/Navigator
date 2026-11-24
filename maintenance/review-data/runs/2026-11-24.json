@@ -1,0 +1,371 @@
+{
+  "schemaVersion": 1,
+  "day": "2026-11-24",
+  "catalogueCount": 958,
+  "results": [
+    {
+      "id": "camden-adult-social-care",
+      "status": "changes_found",
+      "summary": "Camden’s indexed council contact page confirms the service and distinguishes the online form from the limited circumstances for phoning. The full page returned an error, so the access correction remains a proposal and fees, individual eligibility and response times were not established.",
+      "checkedFields": [
+        "name",
+        "description",
+        "access",
+        "phone"
+      ],
+      "sources": [
+        {
+          "url": "https://camdencarechoices.camden.gov.uk/adult-social-care-services/contact-adult-social-care/",
+          "ownerType": "council",
+          "retrieval": "official_indexed",
+          "note": "The indexed Camden Council page says the form is for contacting Adult Social Care for yourself or someone else, while the phone route is for difficulty using the form, urgent support or immediate-safety concerns. The direct page returned an error during this check."
+        }
+      ],
+      "findings": [
+        {
+          "field": "access",
+          "currentValue": "Use the online contact form or call and say “Adult Social Care”.",
+          "proposedValue": "Complete the online form for yourself or someone else. If you have difficulty with the form, need urgent support or are concerned about immediate safety, call and say “Adult Social Care”.",
+          "reason": "The current wording makes the form and phone appear interchangeable, whereas the council gives specific circumstances for phoning.",
+          "sourceUrl": "https://camdencarechoices.camden.gov.uk/adult-social-care-services/contact-adult-social-care/",
+          "evidence": "The indexed council content separates the normal online contact route from phone use for form difficulty, urgency or immediate-safety concerns.",
+          "priority": "normal"
+        }
+      ],
+      "kind": "regular",
+      "fingerprint": "346ae2dbdbd726813beff1af568b914211a4be8aad94f9e453dccbc1868c0049"
+    },
+    {
+      "id": "harrow-sangat-activities",
+      "status": "changes_found",
+      "summary": "Sangam Foundation’s current activities page confirms yoga, bridge, senior clubs and knitting at the Sangam Centre, with different schedules, booking arrangements and fees. It publishes a phone contact. The old Sangat activities address is no longer the current route.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "phone",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://sangamfoundation.org.uk/activites/",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "The provider page lists current yoga, bridge, senior-club and knitting activities, including schedules, fees or membership arrangements and the centre’s contact details."
+        }
+      ],
+      "findings": [
+        {
+          "field": "name",
+          "currentValue": "Sangat Advice Centre — community activities",
+          "proposedValue": "Sangam Foundation — community activities",
+          "reason": "The current provider identifies itself as Sangam Foundation.",
+          "sourceUrl": "https://sangamfoundation.org.uk/activites/",
+          "evidence": "The current activities page is branded Sangam Foundation and presents activities at the Sangam Centre.",
+          "priority": "normal"
+        },
+        {
+          "field": "description",
+          "currentValue": "Community activities including yoga alongside an advice service.",
+          "proposedValue": "Community activities at the Sangam Centre, including yoga, bridge, senior clubs and knitting.",
+          "reason": "The provider now publishes a wider, named set of community activities.",
+          "sourceUrl": "https://sangamfoundation.org.uk/activites/",
+          "evidence": "The page lists yoga, bridge, senior clubs and knitting as current activities.",
+          "priority": "normal"
+        },
+        {
+          "field": "who",
+          "currentValue": "People in Harrow’s Asian communities; ask about adult group availability.",
+          "proposedValue": "People looking for community activities in and around Burnt Oak. Individual clubs have their own age or membership arrangements.",
+          "reason": "The current page presents community activities without limiting the overall offer to Asian communities, while individual clubs have their own arrangements.",
+          "sourceUrl": "https://sangamfoundation.org.uk/activites/",
+          "evidence": "The provider lists centre activities for the local community and gives specific age or membership details only for individual clubs.",
+          "priority": "normal"
+        },
+        {
+          "field": "access",
+          "currentValue": "Contact Sangat through its website to ask what is currently running.",
+          "proposedValue": "Use the activities page or contact Sangam by phone or email to ask about the current club and register.",
+          "reason": "The current provider page supplies activity-specific joining information and direct contact routes.",
+          "sourceUrl": "https://sangamfoundation.org.uk/activites/",
+          "evidence": "The page publishes club schedules, booking or drop-in arrangements and the centre’s contact details.",
+          "priority": "normal"
+        },
+        {
+          "field": "check",
+          "currentValue": "Confirm current activities, costs, membership and booking before attending.",
+          "proposedValue": "Some activities are bookable and others are drop-in. Fees and membership arrangements vary; check the current timetable, price and access before attending.",
+          "reason": "The provider explicitly gives different booking, drop-in, fee and membership arrangements across activities.",
+          "sourceUrl": "https://sangamfoundation.org.uk/activites/",
+          "evidence": "The listed activities have varying schedules and payment or membership arrangements.",
+          "priority": "normal"
+        },
+        {
+          "field": "phone",
+          "currentValue": "",
+          "proposedValue": "020 8952 7062",
+          "reason": "The provider publishes this centre telephone number on the activities page.",
+          "sourceUrl": "https://sangamfoundation.org.uk/activites/",
+          "evidence": "The activities page provides 020 8952 7062 as the contact telephone number.",
+          "priority": "normal"
+        },
+        {
+          "field": "url",
+          "currentValue": "https://www.sangat.org.uk/Activities.html",
+          "proposedValue": "https://sangamfoundation.org.uk/activites/",
+          "reason": "The old Sangat address is not the current provider route; the Sangam Foundation activities page is readable and current.",
+          "sourceUrl": "https://sangamfoundation.org.uk/activites/",
+          "evidence": "The current provider page directly presents the named activities and joining details.",
+          "priority": "normal"
+        }
+      ],
+      "kind": "regular",
+      "fingerprint": "4135728b92386355f1b99518f2e7666de01b2340aa59e8dfc890206a314723d7"
+    },
+    {
+      "id": "surrey-liaise-womens-centre",
+      "status": "no_change_found",
+      "summary": "Surrey County Council’s indexed organisation profile still describes Liaise as a women-led centre for women who live or work in Woking, particularly those facing disadvantage or isolation, with opportunities to develop skills. The direct profile redirected repeatedly, and current sessions, costs, accessibility and joining arrangements were not published in the material read.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://communitymarketplace.surreycc.gov.uk/organisation-profile/829",
+          "ownerType": "council",
+          "retrieval": "official_indexed",
+          "note": "The indexed council profile supports the organisation name, women-led description, Woking coverage and focus on disadvantage or isolation. The direct page entered a redirect loop."
+        }
+      ],
+      "findings": [],
+      "kind": "regular",
+      "fingerprint": "2d2d7fe944d9a7687007d7f05bf97217817c44c11f8019594d7bde978b8810be"
+    },
+    {
+      "id": "westminster-community-fitness",
+      "status": "changes_found",
+      "summary": "Westminster City Council now publishes the Neighbourhood Sports Club programme as the current free or low-cost community activity route for people who live, work or study in the borough. The page includes a current November 2026 programme and says most sessions do not require advance booking.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://active.westminster.gov.uk/neighbourhood-sports-club-programme/",
+          "ownerType": "council",
+          "retrieval": "page",
+          "note": "The current council page describes the programme, eligibility, booking expectation and a dated November 2026 table of sessions across Westminster."
+        }
+      ],
+      "findings": [
+        {
+          "field": "name",
+          "currentValue": "Everyone Active — Westminster community fitness",
+          "proposedValue": "ActiveWestminster — Neighbourhood Sports Club programme",
+          "reason": "The council’s current programme covers multiple community providers and activities rather than a single Everyone Active outreach centre.",
+          "sourceUrl": "https://active.westminster.gov.uk/neighbourhood-sports-club-programme/",
+          "evidence": "Westminster publishes the current offer under the Neighbourhood Sports Club programme and includes Everyone Active among several providers.",
+          "priority": "normal"
+        },
+        {
+          "field": "description",
+          "currentValue": "Fitness classes in community venues and local outdoor spaces.",
+          "proposedValue": "Free or low-cost sport and movement sessions across Westminster, including fitness, yoga, walking, boxing, football and table tennis.",
+          "reason": "The current council programme lists a broader set of sport and movement activities and identifies them as free or low-cost.",
+          "sourceUrl": "https://active.westminster.gov.uk/neighbourhood-sports-club-programme/",
+          "evidence": "The programme table lists multiple types of activity across borough venues, and the introduction describes free or low-cost sessions.",
+          "priority": "normal"
+        },
+        {
+          "field": "who",
+          "currentValue": "Adults looking for exercise near home in Westminster.",
+          "proposedValue": "People who live, work or study in Westminster. Individual sessions have their own age and target-group criteria.",
+          "reason": "The council gives live, work or study in Westminster as the programme-wide basis and publishes session-specific criteria.",
+          "sourceUrl": "https://active.westminster.gov.uk/neighbourhood-sports-club-programme/",
+          "evidence": "The page states the programme is for people who live, work or study in Westminster and the table includes age and target-group details.",
+          "priority": "normal"
+        },
+        {
+          "field": "access",
+          "currentValue": "Use the community timetable to choose a class and ask the provider how to book.",
+          "proposedValue": "Use the current programme table to choose a session and check whether advance booking is required.",
+          "reason": "The current council page contains the active programme and indicates that booking requirements vary.",
+          "sourceUrl": "https://active.westminster.gov.uk/neighbourhood-sports-club-programme/",
+          "evidence": "The dated programme table is the current route and the page says most, rather than all, sessions need no advance booking.",
+          "priority": "normal"
+        },
+        {
+          "field": "check",
+          "currentValue": "Check the current venue, age or eligibility rules, fees and concessions for the class you choose.",
+          "proposedValue": "Most sessions do not require advance booking. Check the current timetable, age or target-group criteria, venue and any cost before attending.",
+          "reason": "The council gives a general no-booking expectation but session-specific criteria and costs still vary.",
+          "sourceUrl": "https://active.westminster.gov.uk/neighbourhood-sports-club-programme/",
+          "evidence": "The page says most sessions need no advance booking and publishes session rows with target group, time, place and cost information.",
+          "priority": "normal"
+        },
+        {
+          "field": "url",
+          "currentValue": "https://www.everyoneactive.com/centre/westminster-community-outreach/",
+          "proposedValue": "https://active.westminster.gov.uk/neighbourhood-sports-club-programme/",
+          "reason": "The old Everyone Active outreach route was unavailable; the council page is the current readable programme route.",
+          "sourceUrl": "https://active.westminster.gov.uk/neighbourhood-sports-club-programme/",
+          "evidence": "The council page presents a current dated programme and links or contact information for its sessions.",
+          "priority": "normal"
+        }
+      ],
+      "kind": "regular",
+      "fingerprint": "2e368313a7ac5859b0e979b7eb607394401d28a0bb2f68e773ebe86bc6f843db"
+    },
+    {
+      "id": "brent-our-parks-library-yoga",
+      "status": "unable_to_verify",
+      "summary": "Official indexed results show an Our Parks Willesden Library yoga listing with sessions dated in November 2026, but the saved resource page returned 404 and a stable readable programme page could not be established. No conclusion was drawn about closure, fees or current access.",
+      "checkedFields": [
+        "name",
+        "description",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://ourparks.org.uk/borough/willesden-library",
+          "ownerType": "provider",
+          "retrieval": "failed",
+          "note": "The directory’s saved programme URL returned 404."
+        },
+        {
+          "url": "https://ourparks.org.uk/classes?field_class_type_tid=All&og_group_ref_target_id=77043&page=12",
+          "ownerType": "provider",
+          "retrieval": "official_indexed",
+          "note": "The official indexed result names Willesden Library Yoga and shows November 2026 session dates, but the result could not be opened as a stable readable programme page."
+        }
+      ],
+      "findings": [],
+      "failureReason": "The named offer appears in current official indexed material, but the saved direct route is 404 and no stable readable page confirmed current joining, cost or access information.",
+      "kind": "regular",
+      "fingerprint": "c5e777c61dcee2d8435ef356f86f6a20e080b47e93e5723ead48a7552732398b"
+    },
+    {
+      "id": "milton-keynes-moon-stars-yoga",
+      "status": "changes_found",
+      "summary": "Moon and Stars Yoga’s current page lists a beginner-friendly candle-lit Vinyasa class on Monday evenings at The Cross and Stable Church in Milton Keynes, with pay-as-you-go and four-class prices. The previous Stony Stratford page is no longer current.",
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://www.moonandstarsyoga.co.uk/experiences/yoga-classes/",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "The provider’s current classes page gives the yoga style, beginner suitability, Monday time, Milton Keynes venue and current payment options."
+        }
+      ],
+      "findings": [
+        {
+          "field": "name",
+          "currentValue": "Moon and Stars Yoga — Stony Stratford",
+          "proposedValue": "Moon and Stars Yoga — Milton Keynes",
+          "reason": "The current class is advertised at The Cross and Stable Church in Milton Keynes rather than on the old Stony Stratford route.",
+          "sourceUrl": "https://www.moonandstarsyoga.co.uk/experiences/yoga-classes/",
+          "evidence": "The current page publishes the venue as The Cross and Stable Church, Milton Keynes MK14 7RZ.",
+          "priority": "normal"
+        },
+        {
+          "field": "description",
+          "currentValue": "Group Vinyasa and restorative yoga, including beginner-friendly sessions in Stony Stratford.",
+          "proposedValue": "Beginner-friendly candle-lit Vinyasa yoga with mindful movement, stretching, breathwork and relaxation.",
+          "reason": "The current provider page describes this specific class format and no longer presents the saved Stony Stratford description.",
+          "sourceUrl": "https://www.moonandstarsyoga.co.uk/experiences/yoga-classes/",
+          "evidence": "The provider describes candle-lit Vinyasa with mindful movement, stretching, breathwork and relaxation and says beginners are welcome.",
+          "priority": "normal"
+        },
+        {
+          "field": "who",
+          "currentValue": "People seeking a local group yoga class, including beginners.",
+          "proposedValue": "Adults seeking a group yoga class in Milton Keynes, including beginners.",
+          "reason": "The current class is explicitly beginner-friendly and located in Milton Keynes.",
+          "sourceUrl": "https://www.moonandstarsyoga.co.uk/experiences/yoga-classes/",
+          "evidence": "The page welcomes beginners and gives a Milton Keynes venue.",
+          "priority": "normal"
+        },
+        {
+          "field": "access",
+          "currentValue": "Use the yoga lessons page or contact the teacher to book and confirm the current venue.",
+          "proposedValue": "Use the current yoga classes page to book a Monday evening session.",
+          "reason": "The provider now supplies a current class page with the Monday schedule and booking route.",
+          "sourceUrl": "https://www.moonandstarsyoga.co.uk/experiences/yoga-classes/",
+          "evidence": "The page advertises the Monday 7pm class and provides the current route for selecting the session option.",
+          "priority": "normal"
+        },
+        {
+          "field": "check",
+          "currentValue": "Paid classes. Confirm price, timetable and suitability before booking; sessions may use scented oils and candles.",
+          "proposedValue": "£10 pay as you go or £30 for four consecutive lessons. Sessions use aromatherapy and candlelight; confirm the current timetable, suitability and access before booking.",
+          "reason": "The current provider page publishes the two price options and sensory features.",
+          "sourceUrl": "https://www.moonandstarsyoga.co.uk/experiences/yoga-classes/",
+          "evidence": "The provider lists £10 for one class or £30 for four consecutive classes and describes aromatherapy and candlelight.",
+          "priority": "normal"
+        },
+        {
+          "field": "url",
+          "currentValue": "https://www.moonandstarsyoga.co.uk/yoga-lessons/",
+          "proposedValue": "https://www.moonandstarsyoga.co.uk/experiences/yoga-classes/",
+          "reason": "The old lessons URL returned 404; this is the current readable provider class page.",
+          "sourceUrl": "https://www.moonandstarsyoga.co.uk/experiences/yoga-classes/",
+          "evidence": "The current page contains the active class description, schedule, venue and prices.",
+          "priority": "normal"
+        }
+      ],
+      "kind": "regular",
+      "fingerprint": "5b919114c89c84efdbf7a7a82b8ae343cd1e037a6a4821787a790c25222c66b1"
+    },
+    {
+      "id": "harrow-discovered-5b9ab492f902",
+      "status": "unable_to_verify",
+      "summary": "Sangam Foundation’s current site confirms the organisation and contact route, but does not establish that the directory’s named legal-advice offer is operating. Its current project page describes pro-bono legal advice as something to offer when a project is fully launched, while the saved NHS profile returns 404. No closure was inferred.",
+      "checkedFields": [
+        "name",
+        "description",
+        "access",
+        "url"
+      ],
+      "sources": [
+        {
+          "url": "https://www.nhs.uk/services/service-directory/sangam-centre/N10498810",
+          "ownerType": "nhs",
+          "retrieval": "failed",
+          "note": "The saved NHS service-directory profile returned 404."
+        },
+        {
+          "url": "https://sangamfoundation.org.uk/projects/",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "The current provider project page describes pro-bono legal advice as part of a project when fully launched, rather than confirming the saved ongoing legal-advice offer."
+        },
+        {
+          "url": "https://sangamfoundation.org.uk/",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "The provider homepage confirms Sangam Foundation and its current general contact route but does not publish the directory’s detailed legal-advice eligibility or scope."
+        }
+      ],
+      "findings": [],
+      "failureReason": "Current primary pages do not confirm that the named legal-advice service, eligibility and free access arrangements are operating; the saved NHS profile is unavailable and the provider refers to future launch.",
+      "kind": "regular",
+      "fingerprint": "766911980da0fcd2996cd66b10a56ce1e046c21f27c8544a3af8e8b08ddad63d"
+    }
+  ]
+}
