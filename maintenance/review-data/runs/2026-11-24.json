@@ -42,7 +42,6 @@
       "checkedFields": [
         "name",
         "description",
-        "who",
         "access",
         "check",
         "phone",
@@ -73,15 +72,6 @@
           "reason": "The provider now publishes a wider, named set of community activities.",
           "sourceUrl": "https://sangamfoundation.org.uk/activites/",
           "evidence": "The page lists yoga, bridge, senior clubs and knitting as current activities.",
-          "priority": "normal"
-        },
-        {
-          "field": "who",
-          "currentValue": "People in Harrow’s Asian communities; ask about adult group availability.",
-          "proposedValue": "People looking for community activities in and around Burnt Oak. Individual clubs have their own age or membership arrangements.",
-          "reason": "The current page presents community activities without limiting the overall offer to Asian communities, while individual clubs have their own arrangements.",
-          "sourceUrl": "https://sangamfoundation.org.uk/activites/",
-          "evidence": "The provider lists centre activities for the local community and gives specific age or membership details only for individual clubs.",
           "priority": "normal"
         },
         {
@@ -290,15 +280,6 @@
           "reason": "The current provider page describes this specific class format and no longer presents the saved Stony Stratford description.",
           "sourceUrl": "https://www.moonandstarsyoga.co.uk/experiences/yoga-classes/",
           "evidence": "The provider describes candle-lit Vinyasa with mindful movement, stretching, breathwork and relaxation and says beginners are welcome.",
-          "priority": "normal"
-        },
-        {
-          "field": "who",
-          "currentValue": "People seeking a local group yoga class, including beginners.",
-          "proposedValue": "Adults seeking a group yoga class in Milton Keynes, including beginners.",
-          "reason": "The current class is explicitly beginner-friendly and located in Milton Keynes.",
-          "sourceUrl": "https://www.moonandstarsyoga.co.uk/experiences/yoga-classes/",
-          "evidence": "The page welcomes beginners and gives a Milton Keynes venue.",
           "priority": "normal"
         },
         {

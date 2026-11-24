@@ -91,15 +91,6 @@ Field: **description**
 - First found: 2026-11-24; last seen: 2026-11-24.
 
 ### Moon and Stars Yoga — Stony Stratford — milton-keynes
-Field: **who**
-- Current: People seeking a local group yoga class, including beginners.
-- Suggested: Adults seeking a group yoga class in Milton Keynes, including beginners.
-- Why: The current class is explicitly beginner-friendly and located in Milton Keynes.
-- Evidence summary: The page welcomes beginners and gives a Milton Keynes venue.
-- Source: <https://www.moonandstarsyoga.co.uk/experiences/yoga-classes/>
-- First found: 2026-11-24; last seen: 2026-11-24.
-
-### Moon and Stars Yoga — Stony Stratford — milton-keynes
 Field: **access**
 - Current: Use the yoga lessons page or contact the teacher to book and confirm the current venue.
 - Suggested: Use the current yoga classes page to book a Monday evening session.
@@ -141,15 +132,6 @@ Field: **description**
 - Suggested: Community activities at the Sangam Centre, including yoga, bridge, senior clubs and knitting.
 - Why: The provider now publishes a wider, named set of community activities.
 - Evidence summary: The page lists yoga, bridge, senior clubs and knitting as current activities.
-- Source: <https://sangamfoundation.org.uk/activites/>
-- First found: 2026-11-24; last seen: 2026-11-24.
-
-### Sangat Advice Centre — community activities — harrow
-Field: **who**
-- Current: People in Harrow’s Asian communities; ask about adult group availability.
-- Suggested: People looking for community activities in and around Burnt Oak. Individual clubs have their own age or membership arrangements.
-- Why: The current page presents community activities without limiting the overall offer to Asian communities, while individual clubs have their own arrangements.
-- Evidence summary: The provider lists centre activities for the local community and gives specific age or membership details only for individual clubs.
 - Source: <https://sangamfoundation.org.uk/activites/>
 - First found: 2026-11-24; last seen: 2026-11-24.
 
