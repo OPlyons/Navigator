@@ -233,8 +233,11 @@ main>.page:not(#support) p{font-size:1rem;line-height:1.48}
  #support .support-heading{margin-bottom:.6rem}
  #support #support-heading{font-size:clamp(1.95rem,2.7vw,2.6rem)}
  #support .support-intro-links{margin:.15rem 0 0}
- #support .wizard-panel,#support .dashboard-panel{padding-block:.7rem}
- #support #borough-map{max-width:20rem}
+ #support .dashboard-panel{padding-block:.65rem 0}
+ #support .dashboard-panel-heading{margin-bottom:.4rem}
+ #support .support-search-section{grid-template-columns:minmax(0,1fr) 14rem}
+ #support .wizard-panel{grid-template-columns:minmax(0,.94fr) minmax(0,1.26fr);padding-block:.5rem}
+ #support #borough-map{max-width:19.5rem}
  #support .activity-choice{min-height:3.37rem;gap:.14rem}
  #support .activity-choice .activity-icon{width:1.55rem;height:1.55rem;flex-basis:1.55rem}
  .navigator-foot{padding-block:.25rem}
