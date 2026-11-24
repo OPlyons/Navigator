@@ -15,7 +15,7 @@ test('standalone home and navigation open the navigator',async({page})=>{
  await expect(page).toHaveTitle(homeTitle+' | Community Navigator');
  await expect(page.locator('#service-search')).toBeEnabled();
  const navigation=await openMainNavigation(page);
- await expect(navigation.getByRole('link')).toHaveText(['Find support','Practical guides','Printable directories','Contact and help']);
+ await expect(navigation.getByRole('link')).toHaveText(['Find support','Practical guides','Neurodiversity','Printable directories','Contact and help']);
  await expect(navigation.locator('[aria-current="page"]')).toHaveText('Find support');
  await expect(homeLink).toHaveAttribute('href','#support');
  await expect(homeLink.locator('svg')).toBeVisible();
