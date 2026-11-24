@@ -1,0 +1,5205 @@
+{
+  "source": {
+    "title": "Neurodivergent Resources - NW London",
+    "url": "https://trello.com/b/qVjC7adv",
+    "checkedOn": "2026-11-24",
+    "publisher": "Centre for ADHD & Autism Support (CAAS)",
+    "boardLastUpdated": "2026-11-03",
+    "resourceCards": 310,
+    "outboundLinksReviewed": 375
+  },
+  "groups": [
+    {
+      "title": "Support near you",
+      "topics": [
+        {
+          "id": "harrow-brent",
+          "title": "Harrow and Brent",
+          "description": "Local organisations, groups and practical support for people in Harrow and Brent."
+        },
+        {
+          "id": "hillingdon-ealing",
+          "title": "Hillingdon and Ealing",
+          "description": "Local disability support, community organisations and ways to connect."
+        },
+        {
+          "id": "westminster-kensington-chelsea",
+          "title": "Westminster, Kensington and Chelsea",
+          "description": "Support for residents of Westminster and Kensington and Chelsea."
+        },
+        {
+          "id": "hammersmith-fulham-hounslow",
+          "title": "Hammersmith and Fulham, and Hounslow",
+          "description": "Local advocacy, wellbeing services and other places to ask for help."
+        }
+      ]
+    },
+    {
+      "title": "Health and understanding yourself",
+      "topics": [
+        {
+          "id": "health",
+          "title": "Health, hospitals and GPs",
+          "description": "Tools for explaining your needs, preparing for appointments and communicating in healthcare."
+        },
+        {
+          "id": "assessment",
+          "title": "Assessment and diagnosis",
+          "description": "Information about autism and ADHD assessment, screening questionnaires and support around a diagnosis."
+        },
+        {
+          "id": "adhd",
+          "title": "ADHD",
+          "description": "Information about ADHD, day-to-day strategies and groups for adults."
+        },
+        {
+          "id": "wellbeing",
+          "title": "Mental health and coaching",
+          "description": "Find talking therapies, wellbeing support, listening services and coaching."
+        },
+        {
+          "id": "sensory",
+          "title": "Sensory needs",
+          "description": "Explore sound, light, movement and noticing signals from your body."
+        },
+        {
+          "id": "alcohol-drugs",
+          "title": "Alcohol and drugs",
+          "description": "Advice, information and organisations you can approach about alcohol or drug use."
+        },
+        {
+          "id": "sexual-health",
+          "title": "Sexual health",
+          "description": "Find sexual health services and information about testing in London."
+        }
+      ]
+    },
+    {
+      "title": "Money, housing and rights",
+      "topics": [
+        {
+          "id": "pip",
+          "title": "Personal Independence Payment (PIP)",
+          "description": "Benefits information, guides and tools for preparing a PIP claim."
+        },
+        {
+          "id": "money",
+          "title": "Money and bills",
+          "description": "Help with debt, household bills, travel costs and managing money."
+        },
+        {
+          "id": "housing",
+          "title": "Housing",
+          "description": "Information about housing rights, advice and finding somewhere to live."
+        },
+        {
+          "id": "advocacy",
+          "title": "Advocacy",
+          "description": "Find someone who can help you understand your choices or have your views heard."
+        },
+        {
+          "id": "legal",
+          "title": "Legal advice",
+          "description": "Organisations and guides covering legal advice, discrimination, representation and rights."
+        },
+        {
+          "id": "complaints",
+          "title": "Complaints and ombudsmen",
+          "description": "Find routes for raising a concern about services, care or a financial organisation."
+        }
+      ]
+    },
+    {
+      "title": "Work and everyday life",
+      "topics": [
+        {
+          "id": "work-learning",
+          "title": "Work and education",
+          "description": "Job support, adjustments, training and funding for work or study."
+        },
+        {
+          "id": "young-adults",
+          "title": "Young adults aged 18 to 25",
+          "description": "Information on becoming an adult, local youth support and getting involved."
+        },
+        {
+          "id": "travel-planning",
+          "title": "Travel and planning",
+          "description": "Travel schemes, tools for daily planning and ways to organise support."
+        },
+        {
+          "id": "research",
+          "title": "Research, workshops and talks",
+          "description": "Projects, research reports and past calls for participants. Check dates on any invitation."
+        }
+      ]
+    },
+    {
+      "title": "Community and relationships",
+      "topics": [
+        {
+          "id": "london-groups",
+          "title": "Social groups in and around London",
+          "description": "Meet other neurodivergent people through local and online groups."
+        },
+        {
+          "id": "friendship-dating",
+          "title": "Friendship and dating",
+          "description": "Opportunities to meet people, explore relationships and find social activities."
+        },
+        {
+          "id": "women",
+          "title": "Autistic women",
+          "description": "Groups, networks and writing about the experiences of autistic women."
+        },
+        {
+          "id": "lgbtq",
+          "title": "LGBTQ+ support",
+          "description": "Organisations offering support around identity, relationships and community."
+        },
+        {
+          "id": "online-groups",
+          "title": "Facebook groups",
+          "description": "Online communities. A Facebook account or group membership may be needed."
+        },
+        {
+          "id": "abuse",
+          "title": "Domestic abuse support",
+          "description": "Organisations supporting people affected by abuse, including specialist services."
+        }
+      ]
+    },
+    {
+      "title": "Books, tools and media",
+      "topics": [
+        {
+          "id": "books",
+          "title": "Books",
+          "description": "Reading for adults, families and people working with neurodivergent people. Some links go to booksellers."
+        },
+        {
+          "id": "apps",
+          "title": "Apps and digital tools",
+          "description": "Tools for planning, communication, sensory needs and daily tasks. Prices and device support can change."
+        },
+        {
+          "id": "websites-podcasts",
+          "title": "Websites, videos and podcasts",
+          "description": "Reading, audio and video about neurodiversity and lived experience."
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "title": "Urgent and crisis support",
+      "description": "Find current NHS crisis routes for your area. The board also collects national listening services.",
+      "links": [
+        {
+          "label": "Current CNWL urgent help",
+          "url": "https://www.cnwl.nhs.uk/patients-and-carers/help-mental-physical-health-crisis"
+        }
+      ],
+      "sources": [
+        {
+          "card": "pa97gxo2",
+          "topic": "health"
+        }
+      ]
+    },
+    {
+      "title": "Autistic Communication Tool",
+      "description": "A form to share how you communicate, what feels difficult in appointments and what would help.",
+      "links": [
+        {
+          "label": "Autistic Communication Tool (A.C.T.)",
+          "url": "https://autisticcommunicationtool.com/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "YlfSeG0u",
+          "topic": "health"
+        }
+      ]
+    },
+    {
+      "title": "My Health Passport",
+      "description": "A National Autistic Society template for telling hospital staff about your communication, sensory needs and preferences.",
+      "links": [
+        {
+          "label": "My health passport",
+          "url": "https://www.autism.org.uk/advice-and-guidance/physical-health/my-health-passport"
+        }
+      ],
+      "sources": [
+        {
+          "card": "N8U70C2c",
+          "topic": "health"
+        }
+      ]
+    },
+    {
+      "title": "Help with travel costs for NHS appointments",
+      "description": "The NHS explains which journeys the Healthcare Travel Costs Scheme covers and how to ask for a refund.",
+      "links": [
+        {
+          "label": "Healthcare Travel Costs Scheme (HTCS)",
+          "url": "https://www.nhs.uk/nhs-services/help-with-health-costs/healthcare-travel-costs-scheme-htcs/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "JKqm6jMP",
+          "topic": "health"
+        },
+        {
+          "card": "0rk1tfZM",
+          "topic": "money"
+        }
+      ]
+    },
+    {
+      "title": "Hidden Disabilities Sunflower lanyards and cards",
+      "description": "A lanyard or card can let others know that you may need extra support. The Sunflower shop lists available items.",
+      "links": [
+        {
+          "label": "Official Hidden Disabilities Sunflower website",
+          "url": "https://hdsunflower.com/uk/"
+        },
+        {
+          "label": "Everyday accessibility supports",
+          "url": "https://www.royalfree.nhs.uk/patients-and-visitors/patient-information-leaflets/everyday-accessibility-supports"
+        }
+      ],
+      "sources": [
+        {
+          "card": "5z71qF59",
+          "topic": "health"
+        },
+        {
+          "card": "VGcBAPYt",
+          "topic": "health"
+        }
+      ]
+    },
+    {
+      "title": "What to ask at a GP appointment",
+      "description": "NHS prompts for preparing questions and checking what will happen next.",
+      "links": [
+        {
+          "label": "What to ask your doctor or other healthcare professional",
+          "url": "https://www.nhs.uk/nhs-services/gps/what-to-ask-your-doctor/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "fViGPeeM",
+          "topic": "health"
+        }
+      ]
+    },
+    {
+      "title": "Find a GP surgery",
+      "description": "Search the NHS directory for GP practices near you.",
+      "links": [
+        {
+          "label": "Find a GP",
+          "url": "https://www.nhs.uk/service-search/find-a-gp"
+        }
+      ],
+      "sources": [
+        {
+          "card": "TTWUKjw6",
+          "topic": "health"
+        }
+      ]
+    },
+    {
+      "title": "Harrow community dental service",
+      "description": "Local information on specialist dental care, who can use it and how referrals work.",
+      "links": [
+        {
+          "label": "Community Dental Service",
+          "url": "https://www.whittington.nhs.uk/mini-apps/leaflet/Default.asp?id=625"
+        }
+      ],
+      "sources": [
+        {
+          "card": "VYAYZ1dm",
+          "topic": "health"
+        },
+        {
+          "card": "RuULMLRd",
+          "topic": "harrow-brent"
+        }
+      ]
+    },
+    {
+      "title": "Police autism alert cards and passports",
+      "description": "Read about the London police scheme for sharing communication needs during contact with officers.",
+      "links": [
+        {
+          "label": "Launch of tri-Force Autism Alert Card scheme",
+          "url": "https://www.npaa.org.uk/launch-of-tri-force-autism-alert-card-scheme/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "7fysxzQQ",
+          "topic": "health"
+        }
+      ]
+    },
+    {
+      "title": "Autism assessments for adults",
+      "description": "Find out how to ask about an NHS assessment. The board also lists independent assessment providers.",
+      "links": [
+        {
+          "label": "NHS guide to autism assessments",
+          "url": "https://www.nhs.uk/conditions/autism/assessments/"
+        },
+        {
+          "label": "CNWL adult autism diagnostic service",
+          "url": "https://www.cnwl.nhs.uk/services/adult-autism-diagnostic-service"
+        },
+        {
+          "label": "Hendrickx Associates",
+          "url": "https://www.hendrickxautism.com/"
+        },
+        {
+          "label": "ASD ADHD Assessors.co.uk",
+          "url": "https://asd-adhd-assessors.co.uk/"
+        },
+        {
+          "label": "Spectrum Specialist Consultancy Limited",
+          "url": "https://www.spectrumspecialistconsultancy.com/"
+        },
+        {
+          "label": "The Giaroli Centre",
+          "url": "https://www.dr-giaroli.org/"
+        },
+        {
+          "label": "National Autistic Society assessment directory",
+          "url": "https://www.autism.org.uk/autism-services-directory/autism-assessments"
+        }
+      ],
+      "sources": [
+        {
+          "card": "juEcHMx4",
+          "topic": "assessment"
+        }
+      ]
+    },
+    {
+      "title": "ADHD assessments",
+      "description": "Explore NHS and independent assessment routes. Providers differ in the ages they see and the referrals they accept.",
+      "links": [
+        {
+          "label": "NHS information about adult ADHD",
+          "url": "https://www.nhs.uk/conditions/adhd-adults/"
+        },
+        {
+          "label": "Harrow Health adult ADHD service",
+          "url": "https://adhdrighttochoose.com/"
+        },
+        {
+          "label": "The ADHD Centre’s assessment fees",
+          "url": "https://www.adhdcentre.co.uk/assessment-costs-child-adult/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "1MaracR2",
+          "topic": "assessment"
+        }
+      ]
+    },
+    {
+      "title": "CAAS resources before and after diagnosis",
+      "description": "Information for adults exploring an autism diagnosis, waiting for an assessment or thinking about what follows.",
+      "links": [
+        {
+          "label": "CAAS resources before an autism diagnosis",
+          "url": "https://adhdandautism.org/resources/adults-resources/autism-pre/"
+        },
+        {
+          "label": "CAAS resources after an autism diagnosis",
+          "url": "https://adhdandautism.org/resources/adults-resources/autism-post/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "4KXQhQM8",
+          "topic": "assessment"
+        }
+      ]
+    },
+    {
+      "title": "Understanding demand avoidance",
+      "description": "The PDA Society shares information and lived experiences about how everyday demands can feel.",
+      "links": [
+        {
+          "label": "What is PDA?",
+          "url": "https://www.pdasociety.org.uk/what-is-PDA/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "ajsU0eny",
+          "topic": "assessment"
+        }
+      ]
+    },
+    {
+      "title": "The Adult Autism & ADHD Practice",
+      "description": "An independent provider of adult assessments. Check its fees and what the assessment includes.",
+      "links": [
+        {
+          "label": "The Adult Autism & ADHD Practice",
+          "url": "https://www.adultautism.ie/"
+        }
+      ],
+      "note": "Private provider",
+      "sources": [
+        {
+          "card": "OuDiR8Px",
+          "topic": "assessment"
+        }
+      ]
+    },
+    {
+      "title": "Private autism and ADHD assessments",
+      "description": "The original provider link no longer opens. The NHS explains the assessment process.",
+      "links": [
+        {
+          "label": "NHS guide to autism assessments",
+          "url": "https://www.nhs.uk/conditions/autism/assessments/"
+        }
+      ],
+      "note": "Private provider",
+      "sources": [
+        {
+          "card": "UfbUt9t3",
+          "topic": "assessment"
+        }
+      ]
+    },
+    {
+      "title": "Centre for ADHD & Autism Support (CAAS)",
+      "description": "Explore adult groups, one-to-one support and workshops. The areas covered vary between ADHD and autism services.",
+      "links": [
+        {
+          "label": "About CAAS",
+          "url": "https://adhdandautism.org/"
+        },
+        {
+          "label": "Services for adults",
+          "url": "https://adhdandautism.org/services/adult-services/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "uWdT04DS",
+          "topic": "harrow-brent"
+        },
+        {
+          "card": "tV0JhYMf",
+          "topic": "hillingdon-ealing"
+        },
+        {
+          "card": "PvVDQNb0",
+          "topic": "westminster-kensington-chelsea"
+        },
+        {
+          "card": "56OBSfPj",
+          "topic": "hammersmith-fulham-hounslow"
+        }
+      ]
+    },
+    {
+      "title": "Harrow Enablement Service",
+      "description": "Practical support with independent living, travel, learning and work. Ask the service about eligibility and referrals.",
+      "links": [
+        {
+          "label": "Harrow Council social care enquiries",
+          "url": "https://www.harrow.gov.uk/contactinformation"
+        }
+      ],
+      "sources": [
+        {
+          "card": "To5uJyBL",
+          "topic": "harrow-brent"
+        }
+      ]
+    },
+    {
+      "title": "Mind in Harrow",
+      "description": "Find local mental health information, support and community projects.",
+      "links": [
+        {
+          "label": "Mind in Harrow",
+          "url": "https://www.mindinharrow.org.uk/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "LucLsrLf",
+          "topic": "harrow-brent"
+        }
+      ]
+    },
+    {
+      "title": "Mental health support in Harrow",
+      "description": "The original flyer dates from 2019. Use the current NHS page for urgent support in Harrow.",
+      "links": [
+        {
+          "label": "Current CNWL urgent help",
+          "url": "https://www.cnwl.nhs.uk/patients-and-carers/help-mental-physical-health-crisis"
+        },
+        {
+          "label": "Harrow Council mental health support",
+          "url": "https://www.harrow.gov.uk/adult-social-care/mental-health"
+        }
+      ],
+      "sources": [
+        {
+          "card": "ZYpm24b3",
+          "topic": "harrow-brent"
+        },
+        {
+          "card": "7YyfF4T5",
+          "topic": "wellbeing"
+        }
+      ]
+    },
+    {
+      "title": "Harrow Conversation Café",
+      "description": "Meet council and community organisations to ask about housing, social care and other local support. Check the next session.",
+      "links": [
+        {
+          "label": "Conversation Café",
+          "url": "https://www.harrow.gov.uk/adult-social-care/conversation-cafe"
+        }
+      ],
+      "sources": [
+        {
+          "card": "Wp4KZhlJ",
+          "topic": "harrow-brent"
+        }
+      ]
+    },
+    {
+      "title": "Food support and surplus food in Harrow",
+      "description": "The board lists a local food project and the Too Good To Go app for buying surplus food. Check the latest collection details.",
+      "links": [
+        {
+          "label": "Too Good To Go",
+          "url": "https://www.toogoodtogo.com/en-gb"
+        }
+      ],
+      "sources": [
+        {
+          "card": "TROXTIf6",
+          "topic": "harrow-brent"
+        }
+      ]
+    },
+    {
+      "title": "Harrow NHS Talking Therapies",
+      "description": "Find Harrow’s talking therapies service and check how to refer yourself.",
+      "links": [
+        {
+          "label": "Refer yourself in Harrow",
+          "url": "https://talkingtherapies.cnwl.nhs.uk/harrow/refer-yourself-harrow"
+        }
+      ],
+      "sources": [
+        {
+          "card": "9Zodbd5c",
+          "topic": "harrow-brent"
+        }
+      ]
+    },
+    {
+      "title": "AMOS mentoring in Harrow",
+      "description": "The board includes a leaflet on local mentoring. Check the project’s current arrangements before visiting.",
+      "links": [
+        {
+          "label": "Autism Mentoring and Outreach Service (AMOS)",
+          "url": "https://www.harrow.gov.uk/send-local-offer/harrow-association-disabled-people"
+        }
+      ],
+      "sources": [
+        {
+          "card": "WUNPPcgz",
+          "topic": "harrow-brent"
+        }
+      ]
+    },
+    {
+      "title": "Coffee Afrik community projects",
+      "description": "Find out about this community-led organisation and the projects it runs. Ask about activities in your area.",
+      "links": [
+        {
+          "label": "Coffee Afrik CIC",
+          "url": "https://www.coffeeafrique.co.uk/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "NqJQBRM6",
+          "topic": "harrow-brent"
+        }
+      ]
+    },
+    {
+      "title": "Via Harrow",
+      "description": "Support with alcohol or drug use in Harrow, including concerns about someone you care about.",
+      "links": [
+        {
+          "label": "Via Harrow",
+          "url": "https://www.viaorg.uk/services/harrow/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "fAjHHt3E",
+          "topic": "harrow-brent"
+        }
+      ]
+    },
+    {
+      "title": "Advance domestic abuse support in Brent",
+      "description": "Find the charity’s current routes for confidential domestic abuse support in Brent.",
+      "links": [
+        {
+          "label": "Advance Charity",
+          "url": "https://www.advancecharity.org.uk/get-help/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "YvpUFQZS",
+          "topic": "harrow-brent"
+        }
+      ]
+    },
+    {
+      "title": "Brent Autism Care Navigation Service",
+      "description": "The Advocacy Project can help people in Brent find their way around health and care services. Check the referral criteria.",
+      "links": [
+        {
+          "label": "Autism Care Navigation Service",
+          "url": "https://www.advocacyproject.org.uk/service/autism-care-navigation-service/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "cDOIoDav",
+          "topic": "harrow-brent"
+        }
+      ]
+    },
+    {
+      "title": "Harrow Carers counselling and employment support",
+      "description": "Explore support for unpaid carers, including talking to a counsellor and getting help with work.",
+      "links": [
+        {
+          "label": "Harrow Carers counselling",
+          "url": "https://harrowcarers.org/mental-health/counselling/"
+        },
+        {
+          "label": "Contact Harrow Carers",
+          "url": "https://harrowcarers.org/contact-us/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "Ccj69uP8",
+          "topic": "harrow-brent"
+        }
+      ]
+    },
+    {
+      "title": "DASH in Hillingdon",
+      "description": "Explore local support, activities and opportunities for disabled people.",
+      "links": [
+        {
+          "label": "DASH Services",
+          "url": "https://www.dash.org.uk/programs"
+        }
+      ],
+      "sources": [
+        {
+          "card": "5mJjPpkk",
+          "topic": "hillingdon-ealing"
+        }
+      ]
+    },
+    {
+      "title": "Ealing and Hounslow Community Voluntary Service",
+      "description": "Find volunteering opportunities and support for local voluntary and community groups.",
+      "links": [
+        {
+          "label": "Ealing and Hounslow CVS",
+          "url": "https://ehcvs.org.uk/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "EcEV1hHX",
+          "topic": "hillingdon-ealing"
+        },
+        {
+          "card": "mEdLTnuk",
+          "topic": "hammersmith-fulham-hounslow"
+        }
+      ]
+    },
+    {
+      "title": "Creative art group for ages 18–25 in Ealing",
+      "description": "This eight-week group ended on 20 October 2026. Ealing Carers Partnership is the contact for any future groups.",
+      "links": [
+        {
+          "label": "Ask Ealing Carers Partnership about future groups",
+          "url": "https://www.ealingcarerspartnership.org/contact"
+        }
+      ],
+      "sources": [
+        {
+          "card": "lQai9Afu",
+          "topic": "hillingdon-ealing"
+        }
+      ]
+    },
+    {
+      "title": "One You Westminster",
+      "description": "Local information about health and wellbeing activities. Check which programmes are running.",
+      "links": [
+        {
+          "label": "One You Westminster and Kensington & Chelsea",
+          "url": "https://www.westminster.gov.uk/health-and-social-care/find-mental-health-support-and-resources-our-wellbeing-hub/one-you-westminster-and-kensington-chelsea"
+        }
+      ],
+      "sources": [
+        {
+          "card": "Ua2rdYvC",
+          "topic": "westminster-kensington-chelsea"
+        }
+      ]
+    },
+    {
+      "title": "Groundswell",
+      "description": "People with experience of homelessness work together on healthcare, research and advocacy.",
+      "links": [
+        {
+          "label": "Groundswell",
+          "url": "https://groundswell.org.uk/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "Px52mfIe",
+          "topic": "westminster-kensington-chelsea"
+        }
+      ]
+    },
+    {
+      "title": "Hounslow NHS Talking Therapies",
+      "description": "Find the local service and information about how to refer yourself.",
+      "links": [
+        {
+          "label": "Hounslow NHS Talking Therapies",
+          "url": "https://www.westlondon.nhs.uk/hounslow-talking-therapies"
+        }
+      ],
+      "sources": [
+        {
+          "card": "YMzpdmQe",
+          "topic": "hammersmith-fulham-hounslow"
+        }
+      ]
+    },
+    {
+      "title": "Hammersmith and Fulham Advocacy Network",
+      "description": "Find an independent advocate who can help you communicate your wishes and take part in decisions.",
+      "links": [
+        {
+          "label": "HFAN / Hammersmith and Fulham Advocacy Network",
+          "url": "https://www.hfan.org.uk/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "HB4xcYnB",
+          "topic": "hammersmith-fulham-hounslow"
+        },
+        {
+          "card": "i5iA8uvd",
+          "topic": "advocacy"
+        }
+      ]
+    },
+    {
+      "title": "HYPE in Hounslow",
+      "description": "The NHS lists drug and alcohol support for people aged 10–18 in Hounslow, and up to 25 for care leavers.",
+      "links": [
+        {
+          "label": "NHS listing for HYPE Hounslow",
+          "url": "https://www.nhs.uk/services/service-directory/hype-hounslow-young-people-engaged/N10992961"
+        }
+      ],
+      "sources": [
+        {
+          "card": "NZMKmbCk",
+          "topic": "hammersmith-fulham-hounslow"
+        }
+      ]
+    },
+    {
+      "title": "ARC Hounslow",
+      "description": "Local NHS drug and alcohol support for adults. Check how to contact the team or seek an assessment.",
+      "links": [
+        {
+          "label": "ARC Hounslow",
+          "url": "https://www.cnwl.nhs.uk/services/addictions/arc-hounslow"
+        }
+      ],
+      "sources": [
+        {
+          "card": "BHn921j2",
+          "topic": "hammersmith-fulham-hounslow"
+        }
+      ]
+    },
+    {
+      "title": "Healthy Hounslow",
+      "description": "Find local coaching and activities for movement, food, sleep and wellbeing.",
+      "links": [
+        {
+          "label": "Healthy Hounslow",
+          "url": "https://healthyhounslow.co.uk/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "30Nm1x5E",
+          "topic": "hammersmith-fulham-hounslow"
+        }
+      ]
+    },
+    {
+      "title": "Support for carers in Hounslow",
+      "description": "Hounslow Council explains carers’ assessments, emergency plans, breaks and other support.",
+      "links": [
+        {
+          "label": "Hounslow support for carers",
+          "url": "https://www.hounslow.gov.uk/carers/support-carers"
+        },
+        {
+          "label": "Carer’s assessment",
+          "url": "https://www.hounslow.gov.uk/carers/carers-assessment"
+        },
+        {
+          "label": "Emergency support for carers",
+          "url": "https://www.hounslow.gov.uk/carers/emergency-help-carers"
+        },
+        {
+          "label": "Short breaks and respite",
+          "url": "https://www.hounslow.gov.uk/carers/short-breaks-respite-carers"
+        },
+        {
+          "label": "Direct payments",
+          "url": "https://www.hounslow.gov.uk/money-legal-matters/direct-payments"
+        },
+        {
+          "label": "Carer’s Allowance and Attendance Allowance",
+          "url": "https://www.hounslow.gov.uk/carers/carers-allowance-attendance-allowance"
+        },
+        {
+          "label": "Become a benefits appointee",
+          "url": "https://www.gov.uk/become-appointee-for-someone-claiming-benefits"
+        },
+        {
+          "label": "Lasting power of attorney",
+          "url": "https://www.gov.uk/power-of-attorney"
+        },
+        {
+          "label": "Apply to become a deputy",
+          "url": "https://www.gov.uk/become-deputy"
+        },
+        {
+          "label": "Carers’ participation group",
+          "url": "https://www.hounslow.gov.uk/carers/support-carers/4"
+        }
+      ],
+      "sources": [
+        {
+          "card": "x1xITHvQ",
+          "topic": "hammersmith-fulham-hounslow"
+        }
+      ]
+    },
+    {
+      "title": "Hounslow community support services",
+      "description": "Council services covering community activities, learning to travel and finding work. Each service has its own criteria.",
+      "links": [
+        {
+          "label": "Community Provisions – London Borough of Hounslow",
+          "url": "https://www.hounslow.gov.uk/directory/1004/social-care-services-directory/category/16"
+        },
+        {
+          "label": "Community access service",
+          "url": "https://www.hounslow.gov.uk/directory-record/10778/community-access-service-cas"
+        },
+        {
+          "label": "Travel training service",
+          "url": "https://www.hounslow.gov.uk/directory-record/10777/travel-training-service"
+        },
+        {
+          "label": "Prevention, transition and development service",
+          "url": "https://www.hounslow.gov.uk/directory-record/10776/prevention-transition-and-development-service"
+        },
+        {
+          "label": "Employment opportunities service",
+          "url": "https://www.hounslow.gov.uk/directory-record/10775/employment-opportunities-service"
+        }
+      ],
+      "sources": [
+        {
+          "card": "jdmkTHU7",
+          "topic": "hammersmith-fulham-hounslow"
+        }
+      ]
+    },
+    {
+      "title": "Young Hounslow Sexual Health",
+      "description": "Sexual health and relationship information for young people in Hounslow, including where to find local support.",
+      "links": [
+        {
+          "label": "Sexual health support for young people in Hounslow",
+          "url": "https://www.turning-point.co.uk/services/young-hounslow-sexual-health"
+        }
+      ],
+      "sources": [
+        {
+          "card": "1MSSw4T6",
+          "topic": "hammersmith-fulham-hounslow"
+        }
+      ]
+    },
+    {
+      "title": "Full ADHD and ADHD and You",
+      "description": "Explore experiences of ADHD through a choice-based story game and an information website.",
+      "links": [
+        {
+          "label": "FULL ADHD",
+          "url": "https://psyongames.com/full-adhd/"
+        },
+        {
+          "label": "ADHD and You",
+          "url": "https://adhdandyou.co.uk/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "eLCyLGuf",
+          "topic": "adhd"
+        }
+      ]
+    },
+    {
+      "title": "ADDitude magazine",
+      "description": "A US magazine with articles on ADHD, family life, work and relationships.",
+      "links": [
+        {
+          "label": "ADDitude Magazine: ADHD Help for Families and Adults",
+          "url": "https://www.additudemag.com/additude-magazine/"
+        }
+      ],
+      "note": "The provider appears in search results. Direct access to the page could not be confirmed.",
+      "sources": [
+        {
+          "card": "CRAyIdl8",
+          "topic": "adhd"
+        }
+      ]
+    },
+    {
+      "title": "UK Adult ADHD Collective: London and online",
+      "description": "Check the group’s Meetup page for current events and how to join.",
+      "links": [
+        {
+          "label": "UK Adult ADHD Collective",
+          "url": "https://www.meetup.com/london-adult-adhd-associated-conditions-meetup/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "Tjy2tIyo",
+          "topic": "adhd"
+        }
+      ]
+    },
+    {
+      "title": "ADDers support group directory",
+      "description": "An index of ADHD groups in England. Contact a group to check whether it still meets.",
+      "links": [
+        {
+          "label": "English ADD/ADHD Support Groups",
+          "url": "https://www.adders.org.uk/englandmap.htm"
+        }
+      ],
+      "sources": [
+        {
+          "card": "hX6NJBan",
+          "topic": "adhd"
+        }
+      ]
+    },
+    {
+      "title": "London adult ADHD peer support",
+      "description": "Information about a London peer group. Check the organiser’s current meeting dates.",
+      "links": [
+        {
+          "label": "London Adult ADHD Support Group",
+          "url": "https://aadduk.org/london-adult-adhd-support-group/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "i3BJVs1o",
+          "topic": "adhd"
+        }
+      ]
+    },
+    {
+      "title": "Headstuff ADHD Therapy",
+      "description": "Information about an independent ADHD therapy service. Check practitioner details and fees.",
+      "links": [
+        {
+          "label": "Headstuff ADHD Therapy",
+          "url": "https://www.headstuffadhdtherapy.co.uk/"
+        }
+      ],
+      "note": "Private provider",
+      "sources": [
+        {
+          "card": "56MBTfna",
+          "topic": "adhd"
+        }
+      ]
+    },
+    {
+      "title": "ADHD Together",
+      "description": "Explore ADHD information and local connections, including the board’s Hammersmith and Fulham listing.",
+      "links": [
+        {
+          "label": "ADHD Together",
+          "url": "https://www.adhdtogether.org.uk/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "ElMOulzT",
+          "topic": "adhd"
+        }
+      ]
+    },
+    {
+      "title": "ADDISS",
+      "description": "ADHD information and resources for people with ADHD and those who support them.",
+      "links": [
+        {
+          "label": "ADDISS",
+          "url": "https://www.addiss.co.uk/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "8mU1kK1S",
+          "topic": "adhd"
+        }
+      ]
+    },
+    {
+      "title": "ADHD UK",
+      "description": "Find information about ADHD and explore the charity’s support and events.",
+      "links": [
+        {
+          "label": "ADHD UK",
+          "url": "https://adhduk.co.uk/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "8mdzjHX1",
+          "topic": "adhd"
+        }
+      ]
+    },
+    {
+      "title": "ADHD Kingston",
+      "description": "A local group for people with ADHD. Check its meeting arrangements.",
+      "links": [
+        {
+          "label": "ADHD Kingston",
+          "url": "https://adhdkingston.org.uk/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "6jObmKr7",
+          "topic": "adhd"
+        }
+      ]
+    },
+    {
+      "title": "Helplines and listening services",
+      "description": "Mind lists places to talk. CNWL’s separate Check In & Chat service offers befriending for carers.",
+      "links": [
+        {
+          "label": "Mind’s guide to listening services",
+          "url": "https://www.mind.org.uk/information-support/guides-to-support-and-services/seeking-help-for-a-mental-health-problem/mental-health-helplines/"
+        },
+        {
+          "label": "CNWL Check In & Chat",
+          "url": "https://www.cnwl.nhs.uk/patients-and-carers/check-chat"
+        }
+      ],
+      "sources": [
+        {
+          "card": "bwNGfbHv",
+          "topic": "wellbeing"
+        }
+      ]
+    },
+    {
+      "title": "St Charles Mental Health Crisis Assessment Service",
+      "description": "Read the NHS service page for eligibility, location and how to get urgent support.",
+      "links": [
+        {
+          "label": "Mental Health Crisis Assessment Service (MHCAS)",
+          "url": "https://www.cnwl.nhs.uk/services/mental-health-services/adult-and-older-adult/st-charles-hospital/mental-health-crisis-assessment-service-mhcas"
+        }
+      ],
+      "sources": [
+        {
+          "card": "diG8grw5",
+          "topic": "wellbeing"
+        }
+      ]
+    },
+    {
+      "title": "CNWL Single Point of Access",
+      "description": "Find CNWL’s current contact routes for urgent mental health support.",
+      "links": [
+        {
+          "label": "Single Point of Access",
+          "url": "https://www.cnwl.nhs.uk/services/mental-health-services/adult-and-older-adult/single-point-access"
+        }
+      ],
+      "sources": [
+        {
+          "card": "12ksDHje",
+          "topic": "wellbeing"
+        }
+      ]
+    },
+    {
+      "title": "Urgent help in Harrow",
+      "description": "Use the current NHS crisis information for Harrow. The board’s original entry is a list of emergency contacts.",
+      "links": [
+        {
+          "label": "Current CNWL urgent help",
+          "url": "https://www.cnwl.nhs.uk/patients-and-carers/help-mental-physical-health-crisis"
+        },
+        {
+          "label": "Urgent mental health help in Harrow",
+          "url": "https://www.harrow.gov.uk/adult-social-care/mental-health"
+        }
+      ],
+      "sources": [
+        {
+          "card": "ApVofVOx",
+          "topic": "wellbeing"
+        }
+      ]
+    },
+    {
+      "title": "Harrow NHS Talking Therapies",
+      "description": "Find Harrow’s talking therapies service and check how to refer yourself.",
+      "links": [
+        {
+          "label": "Harrow NHS Talking Therapies",
+          "url": "https://talkingtherapies.cnwl.nhs.uk/harrow"
+        }
+      ],
+      "sources": [
+        {
+          "card": "e8bdyNyT",
+          "topic": "wellbeing"
+        }
+      ]
+    },
+    {
+      "title": "Hillingdon NHS Talking Therapies",
+      "description": "Check the Hillingdon service’s support options and how to get in touch.",
+      "links": [
+        {
+          "label": "Hillingdon NHS Talking Therapies",
+          "url": "https://talkingtherapies.cnwl.nhs.uk/hillingdon"
+        }
+      ],
+      "sources": [
+        {
+          "card": "9NAu6wIW",
+          "topic": "wellbeing"
+        }
+      ]
+    },
+    {
+      "title": "Respond",
+      "description": "Find information about trauma and support for autistic people and people with learning disabilities. Check which services are available.",
+      "links": [
+        {
+          "label": "Respond",
+          "url": "https://respond.org.uk/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "aG3cBX0P",
+          "topic": "wellbeing"
+        }
+      ]
+    },
+    {
+      "title": "Finding a counsellor or psychotherapist",
+      "description": "The British Association for Counselling and Psychotherapy explains how to look for a therapist.",
+      "links": [
+        {
+          "label": "How to find a therapist: BACP Therapist Directory",
+          "url": "https://www.bacp.co.uk/about-therapy/using-our-therapist-directory/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "MXr6ip61",
+          "topic": "wellbeing"
+        }
+      ]
+    },
+    {
+      "title": "Help with hoarding and organising a home",
+      "description": "Find a support charity and professional organisers. Some services charge.",
+      "links": [
+        {
+          "label": "Find an organiser",
+          "url": "https://www.apdo.co.uk/find-an-organiser.html"
+        },
+        {
+          "label": "Mels Cleaning",
+          "url": "https://www.mels-cleaning.co.uk/Extreme-Hoarder/London/index.html"
+        },
+        {
+          "label": "Let’s Get It Sorted",
+          "url": "https://www.letsgetitsorted.co.uk/"
+        },
+        {
+          "label": "HoardingUK",
+          "url": "https://www.hoardinguk.org/"
+        },
+        {
+          "label": "Voilà Home Organising",
+          "url": "https://www.voilahomeorganising.com/"
+        },
+        {
+          "label": "APDO member’s organising services",
+          "url": "https://www.apdo.co.uk/member/sabbah-berrebha.html"
+        }
+      ],
+      "note": "Commercial service",
+      "sources": [
+        {
+          "card": "OPIcAonm",
+          "topic": "wellbeing"
+        }
+      ]
+    },
+    {
+      "title": "West London NHS mental health services",
+      "description": "Browse adult mental health services by area and read how each team can help.",
+      "links": [
+        {
+          "label": "Mental health services",
+          "url": "https://www.westlondon.nhs.uk/our-services/adult/mental-health-services"
+        }
+      ],
+      "sources": [
+        {
+          "card": "603fn9XT",
+          "topic": "wellbeing"
+        }
+      ]
+    },
+    {
+      "title": "Clouds End CIC",
+      "description": "Information and support for people affected by hoarding and people who work alongside them.",
+      "links": [
+        {
+          "label": "Clouds End Hoarding Support and Training",
+          "url": "https://cloudsend.org.uk/"
+        }
+      ],
+      "note": "The provider appears in search results. Direct access to the page could not be confirmed.",
+      "sources": [
+        {
+          "card": "4W0fie0f",
+          "topic": "wellbeing"
+        }
+      ]
+    },
+    {
+      "title": "Thriving Autistic",
+      "description": "A directory of practitioners offering support such as therapy or coaching. Check qualifications, services and charges.",
+      "links": [
+        {
+          "label": "Thriving Autistic",
+          "url": "https://thrivingautistic.org/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "MXCMpjFY",
+          "topic": "wellbeing"
+        }
+      ]
+    },
+    {
+      "title": "Sharon Worth Coaching",
+      "description": "Private coaching for women exploring ADHD or autism in adulthood, including around menopause.",
+      "links": [
+        {
+          "label": "ADHD & Neurodiversity Coach for Women",
+          "url": "https://sharonworthcoaching.com/"
+        }
+      ],
+      "note": "Private provider",
+      "sources": [
+        {
+          "card": "A3xQkh4o",
+          "topic": "wellbeing"
+        }
+      ]
+    },
+    {
+      "title": "Association of Neurodivergent Therapists",
+      "description": "Find information about a network of neurodivergent therapists and its advocacy work.",
+      "links": [
+        {
+          "label": "Find a neurodivergent therapist",
+          "url": "https://neurodivergenttherapists.wordpress.com/directory/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "B3gzvjts",
+          "topic": "wellbeing"
+        }
+      ]
+    },
+    {
+      "title": "Body & Soul",
+      "description": "Explore the charity’s community support for adults affected by childhood adversity.",
+      "links": [
+        {
+          "label": "Body & Soul community support",
+          "url": "https://bodyandsoulcharity.org/offerings/support-communities"
+        }
+      ],
+      "sources": [
+        {
+          "card": "jnKnDO0l",
+          "topic": "wellbeing"
+        }
+      ]
+    },
+    {
+      "title": "Preparing for Adulthood",
+      "description": "Resources about moving into adult life, including education, work, health, friendships and independent living.",
+      "links": [
+        {
+          "label": "Preparing for Adulthood",
+          "url": "https://www.ndti.org.uk/programme/preparing-for-adulthood/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "mMTayX7B",
+          "topic": "young-adults"
+        },
+        {
+          "card": "MNWOPc28",
+          "topic": "legal"
+        }
+      ]
+    },
+    {
+      "title": "Young Harrow Foundation",
+      "description": "Find local organisations, activities and opportunities for young people.",
+      "links": [
+        {
+          "label": "Young Harrow Foundation",
+          "url": "https://youngharrowfoundation.org/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "tWdynfKs",
+          "topic": "young-adults"
+        }
+      ]
+    },
+    {
+      "title": "Ignite Youth in Harrow",
+      "description": "Find local youth support, including projects around education and employment. The board uses the name Ignite Trust.",
+      "links": [
+        {
+          "label": "Ignite Youth",
+          "url": "https://www.igniteyouth.org.uk/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "HvUM4Bgg",
+          "topic": "young-adults"
+        }
+      ]
+    },
+    {
+      "title": "Spear youth employment programme",
+      "description": "The board lists Resurgo. Its link now leads to Spear, where young people can explore job coaching.",
+      "links": [
+        {
+          "label": "Spear",
+          "url": "https://www.spear.org.uk/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "3ViQXxE1",
+          "topic": "young-adults"
+        }
+      ]
+    },
+    {
+      "title": "West Met Skills",
+      "description": "Information about apprenticeships and working with employers. Check which local courses are available.",
+      "links": [
+        {
+          "label": "Current apprenticeships at Harrow, Richmond and Uxbridge Colleges",
+          "url": "https://www.hruc.ac.uk/apprenticeships-and-skills"
+        }
+      ],
+      "sources": [
+        {
+          "card": "1Z5dYfKS",
+          "topic": "young-adults"
+        }
+      ]
+    },
+    {
+      "title": "HeadsUp Harrow",
+      "description": "A young people’s mental health project. The host’s dated listing ran to June 2026. Check with Mind in Harrow for current support.",
+      "links": [
+        {
+          "label": "Read the dated HeadsUp project listing",
+          "url": "https://youngharrowfoundation.org/projects/details/heads-up"
+        }
+      ],
+      "sources": [
+        {
+          "card": "Kt1U2dmi",
+          "topic": "young-adults"
+        }
+      ]
+    },
+    {
+      "title": "Harrow SENDIASS",
+      "description": "Information and advice about special educational needs and disabilities for children, young people and families.",
+      "links": [
+        {
+          "label": "Harrow SEND Information, Advice and Support Service",
+          "url": "https://www.harrow.gov.uk/send-local-offer/send-information-support"
+        }
+      ],
+      "sources": [
+        {
+          "card": "2aDOwzCm",
+          "topic": "young-adults"
+        }
+      ]
+    },
+    {
+      "title": "Turn2us PIP Helper",
+      "description": "A step-by-step guide to Personal Independence Payment, from preparing a claim to understanding a decision.",
+      "links": [
+        {
+          "label": "Turn2us PIP Helper",
+          "url": "https://pip.turn2us.org.uk/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "y8Y016l2",
+          "topic": "pip"
+        }
+      ]
+    },
+    {
+      "title": "PIP self-check tool",
+      "description": "Explore how the daily living and mobility questions work. The score is your own estimate.",
+      "links": [
+        {
+          "label": "Benefits and Work PIP self-check",
+          "url": "https://benefitsandwork.co.uk/personal-independence-payment-pip/pip-self-test"
+        }
+      ],
+      "note": "Self-check tool",
+      "sources": [
+        {
+          "card": "InX95zRU",
+          "topic": "pip"
+        }
+      ]
+    },
+    {
+      "title": "Personal Independence Payment on GOV.UK",
+      "description": "Official information about eligibility, making a claim and what happens after you apply.",
+      "links": [
+        {
+          "label": "Personal Independence Payment (PIP): What PIP is for",
+          "url": "https://www.gov.uk/pip"
+        }
+      ],
+      "sources": [
+        {
+          "card": "5mz76VN5",
+          "topic": "pip"
+        }
+      ]
+    },
+    {
+      "title": "Starting a PIP claim",
+      "description": "Citizens Advice explains how to make a first claim and what to expect next.",
+      "links": [
+        {
+          "label": "PIP - Citizens Advice Info",
+          "url": "https://www.citizensadvice.org.uk/benefits/sick-or-disabled-people-and-carers/pip/help-with-your-claim/how-to-claim/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "fQVgYkxs",
+          "topic": "pip"
+        }
+      ]
+    },
+    {
+      "title": "Completing the PIP form",
+      "description": "Find help with the questions on the form. The board includes free guidance and a site with paid member guides.",
+      "links": [
+        {
+          "label": "Citizens Advice",
+          "url": "https://www.citizensadvice.org.uk/benefits/sick-or-disabled-people-and-carers/pip/help-with-your-claim/fill-in-form-pip/"
+        },
+        {
+          "label": "PIP INFO",
+          "url": "https://pipinfo.net/"
+        },
+        {
+          "label": "Benefits and Work",
+          "url": "https://benefitsandwork.co.uk/"
+        }
+      ],
+      "note": "Commercial service",
+      "sources": [
+        {
+          "card": "3DXvauJo",
+          "topic": "pip"
+        }
+      ]
+    },
+    {
+      "title": "Help with a PIP review",
+      "description": "Citizens Advice explains what to do when you receive a review form.",
+      "links": [
+        {
+          "label": "Help with your PIP review form",
+          "url": "https://www.citizensadvice.org.uk/benefits/sick-or-disabled-people-and-carers/pip/pip-changes-and-reviews/help-with-your-pip-review-form/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "F42I72zf",
+          "topic": "pip"
+        }
+      ]
+    },
+    {
+      "title": "Asking for a PIP decision to be looked at again",
+      "description": "Advicenow’s letter tool helps you put together a request for mandatory reconsideration.",
+      "links": [
+        {
+          "label": "PIP mandatory reconsideration letter tool",
+          "url": "https://www.advicenow.org.uk/get-help/benefits/personal-independence-payment-pip/pip-mandatory-reconsideration-letter-tool"
+        }
+      ],
+      "sources": [
+        {
+          "card": "2aAFEDaU",
+          "topic": "pip"
+        }
+      ]
+    },
+    {
+      "title": "Get Out of Debt",
+      "description": "A commercial website that passes enquiries to debt advisers and can receive referral fees. StepChange also offers independent debt advice.",
+      "links": [
+        {
+          "label": "Get Out of Debt UK",
+          "url": "https://getoutofdebt.co.uk/"
+        }
+      ],
+      "note": "Commercial service",
+      "sources": [
+        {
+          "card": "J2kE6ZLH",
+          "topic": "money"
+        }
+      ]
+    },
+    {
+      "title": "Green Doctor energy advice",
+      "description": "Information about help with household energy bills and keeping a home comfortable.",
+      "links": [
+        {
+          "label": "Green Doctors London",
+          "url": "https://www.groundwork.org.uk/london/all-london-projects/green-doctors-london/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "vJ1sFBrq",
+          "topic": "money"
+        }
+      ]
+    },
+    {
+      "title": "Savings and Universal Credit",
+      "description": "GOV.UK explains how savings and investments affect Universal Credit and which amounts may be disregarded.",
+      "links": [
+        {
+          "label": "GOV.UK guide to Universal Credit and savings",
+          "url": "https://www.gov.uk/guidance/universal-credit-money-savings-and-investments"
+        }
+      ],
+      "sources": [
+        {
+          "card": "ZCupgCcF",
+          "topic": "money"
+        }
+      ]
+    },
+    {
+      "title": "Benefits calculators",
+      "description": "Use entitledto or Turn2us to estimate what benefits you could receive.",
+      "links": [
+        {
+          "label": "Entitled to?",
+          "url": "https://www.entitledto.co.uk/"
+        },
+        {
+          "label": "Turn2Us",
+          "url": "https://benefits-calculator.turn2us.org.uk/AboutYou"
+        }
+      ],
+      "sources": [
+        {
+          "card": "nNXjiBwj",
+          "topic": "money"
+        }
+      ]
+    },
+    {
+      "title": "MoneyHelper",
+      "description": "Find guidance on everyday money, bills, borrowing and planning ahead. The board uses its former Money Advice Service name.",
+      "links": [
+        {
+          "label": "MoneyHelper",
+          "url": "https://www.moneyhelper.org.uk/en"
+        }
+      ],
+      "sources": [
+        {
+          "card": "BolcS9t1",
+          "topic": "money"
+        }
+      ]
+    },
+    {
+      "title": "NatWest Financial Health Check",
+      "description": "A bank-run service for discussing your finances. NatWest lists its appointment options and terms.",
+      "links": [
+        {
+          "label": "Financial Health Check",
+          "url": "https://www.natwest.com/financial-health-check.html"
+        }
+      ],
+      "note": "Commercial service",
+      "sources": [
+        {
+          "card": "OClw4U5H",
+          "topic": "money"
+        }
+      ]
+    },
+    {
+      "title": "StepChange debt advice",
+      "description": "Explore the charity’s help with debt, budgeting and possible next steps.",
+      "links": [
+        {
+          "label": "StepChange Debt Charity",
+          "url": "https://www.stepchange.org/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "nn5tXY2q",
+          "topic": "money"
+        }
+      ]
+    },
+    {
+      "title": "Disability grants and discounts",
+      "description": "Use the Turn2us grant search or explore discounts. Each fund or offer sets its own conditions.",
+      "links": [
+        {
+          "label": "Turn2us grants search",
+          "url": "https://grants-search.turn2us.org.uk/"
+        },
+        {
+          "label": "Disability Discounts - National",
+          "url": "https://www.disability-grants.org/disability-discounts-national.html"
+        }
+      ],
+      "sources": [
+        {
+          "card": "TfDGSjtt",
+          "topic": "money"
+        }
+      ]
+    },
+    {
+      "title": "TaxAid",
+      "description": "A charity helping people on low incomes who need help with a tax problem.",
+      "links": [
+        {
+          "label": "TaxAid",
+          "url": "https://taxaid.org.uk/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "YJ6PUJPy",
+          "topic": "money"
+        }
+      ]
+    },
+    {
+      "title": "MSE’s Academy of Money",
+      "description": "An Open University course on managing money, developed with MoneySavingExpert.",
+      "links": [
+        {
+          "label": "MSE’s Academy of Money: Introduction and guidance",
+          "url": "https://www.open.edu/openlearn/mod/oucontent/view.php?id=100872"
+        }
+      ],
+      "sources": [
+        {
+          "card": "IDv0TdCH",
+          "topic": "money"
+        }
+      ]
+    },
+    {
+      "title": "The Little Book of Big Scams",
+      "description": "A booklet about spotting common scams. Use a current official route if you need to report one.",
+      "links": [
+        {
+          "label": "Little Book of Big Scams (Fifth Edition)",
+          "url": "https://nbcc.police.uk/crime-prevention/cyber-and-fraud/little-book-of-big-scams-fifth-edition"
+        }
+      ],
+      "sources": [
+        {
+          "card": "BHvNEbSS",
+          "topic": "money"
+        }
+      ]
+    },
+    {
+      "title": "Wills and trusts",
+      "description": "Information from a private firm about planning for the future of a disabled family member. Ask about fees.",
+      "links": [
+        {
+          "label": "Renaissance Legal wills and trusts",
+          "url": "https://renaissancelegal.co.uk/"
+        }
+      ],
+      "note": "Commercial service",
+      "sources": [
+        {
+          "card": "caftiPyM",
+          "topic": "money"
+        },
+        {
+          "card": "uLeETyqk",
+          "topic": "legal"
+        }
+      ]
+    },
+    {
+      "title": "CEA cinema card",
+      "description": "Learn how a disabled cinemagoer can apply for a card for a companion ticket at participating cinemas.",
+      "links": [
+        {
+          "label": "CEA Card",
+          "url": "https://www.ceacard.co.uk/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "27uLdKM6",
+          "topic": "money"
+        }
+      ]
+    },
+    {
+      "title": "Sky accessibility support",
+      "description": "Sky’s own page explains how customers can ask for accessible contact and service options.",
+      "links": [
+        {
+          "label": "Sky accessibility support",
+          "url": "https://www.sky.com/help/articles/supporting-vulnerable-customers-policy"
+        }
+      ],
+      "sources": [
+        {
+          "card": "XAUOOtgO",
+          "topic": "money"
+        }
+      ]
+    },
+    {
+      "title": "Practising a Universal Credit application",
+      "description": "The board’s practice portal could not be verified. GOV.UK explains how to make a real claim.",
+      "links": [
+        {
+          "label": "Official Universal Credit application guidance",
+          "url": "https://www.gov.uk/universal-credit/how-to-claim"
+        }
+      ],
+      "sources": [
+        {
+          "card": "xdnpqAZn",
+          "topic": "money"
+        }
+      ]
+    },
+    {
+      "title": "Council Tax discounts for disabled people",
+      "description": "GOV.UK explains the Council Tax rules for disabled people and how to contact your council.",
+      "links": [
+        {
+          "label": "How Council Tax works: Discounts for disabled people",
+          "url": "https://www.gov.uk/council-tax/discounts-for-disabled-people"
+        }
+      ],
+      "sources": [
+        {
+          "card": "S7KAZtf1",
+          "topic": "money"
+        }
+      ]
+    },
+    {
+      "title": "Information and advocacy at Mind in Harrow",
+      "description": "Find support with getting information, understanding options and making your views heard.",
+      "links": [
+        {
+          "label": "Mind in Harrow information and advocacy",
+          "url": "https://www.mindinharrow.org.uk/our-services/information-services/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "9c4e6slJ",
+          "topic": "advocacy"
+        }
+      ]
+    },
+    {
+      "title": "Libra Partnership advocacy",
+      "description": "An independent advocacy provider. Find out which services cover your area and who can refer.",
+      "links": [
+        {
+          "label": "Libra Partnership advocacy",
+          "url": "https://www.librapartnership.co.uk/about-us/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "QRCZUfpp",
+          "topic": "advocacy"
+        }
+      ]
+    },
+    {
+      "title": "The Advocacy Project",
+      "description": "Explore ways to get support with expressing your views and taking part in decisions.",
+      "links": [
+        {
+          "label": "The Advocacy Project services",
+          "url": "https://www.advocacyproject.org.uk/what-we-do/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "SgYeBWWe",
+          "topic": "advocacy"
+        }
+      ]
+    },
+    {
+      "title": "Neurodiverse Self Advocacy",
+      "description": "A peer-led organisation with information on self-advocacy and making your needs known.",
+      "links": [
+        {
+          "label": "Neuro Diverse Self Advocacy",
+          "url": "https://ndsa.uk/content/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "HqEfk84G",
+          "topic": "advocacy"
+        }
+      ]
+    },
+    {
+      "title": "Advocacy organisations and advice",
+      "description": "Links to disability, autism and equality organisations. Check each service’s area and what it can help with.",
+      "links": [
+        {
+          "label": "Equality Advisory and Support Service",
+          "url": "https://www.equalityadvisoryservice.com/"
+        },
+        {
+          "label": "Carly Jones",
+          "url": "https://drcarlyjonesmbe.uk/"
+        },
+        {
+          "label": "VoiceAbility",
+          "url": "https://www.voiceability.org/"
+        },
+        {
+          "label": "The Advocacy People",
+          "url": "https://www.theadvocacypeople.org.uk/"
+        },
+        {
+          "label": "People First",
+          "url": "https://www.peoplefirstltd.com/"
+        },
+        {
+          "label": "Citizens Advice",
+          "url": "https://www.citizensadvice.org.uk/"
+        },
+        {
+          "label": "National Autistic Society",
+          "url": "https://www.autism.org.uk/advice-and-guidance/help-and-support"
+        },
+        {
+          "label": "Mencap",
+          "url": "https://www.mencap.org.uk/advice-and-support/social-care/advocacy"
+        },
+        {
+          "label": "POhWER",
+          "url": "https://www.pohwer.net/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "XGYEYxIl",
+          "topic": "advocacy"
+        }
+      ]
+    },
+    {
+      "title": "Carly Jones’s autism advocacy",
+      "description": "Read about an autistic advocate’s work on gender equality and inclusion.",
+      "links": [
+        {
+          "label": "British Autism Advocate Dr Carly Jones MBE",
+          "url": "https://drcarlyjonesmbe.uk/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "GzZwOG02",
+          "topic": "advocacy"
+        }
+      ]
+    },
+    {
+      "title": "Citizens Advice Hammersmith and Fulham",
+      "description": "Find local advice on benefits, debt, housing, work and consumer problems.",
+      "links": [
+        {
+          "label": "Citizens Advice Hammersmith and Fulham",
+          "url": "https://cahf.org.uk/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "SCBv0lzH",
+          "topic": "legal"
+        }
+      ]
+    },
+    {
+      "title": "Disability Law Service",
+      "description": "A legal charity for disabled people. Check the issues it covers and how to ask for advice.",
+      "links": [
+        {
+          "label": "Disability Law Service",
+          "url": "https://dls.org.uk/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "n9RmiyGa",
+          "topic": "legal"
+        },
+        {
+          "card": "AgbgtPbV",
+          "topic": "legal"
+        },
+        {
+          "card": "hajH7t27",
+          "topic": "housing"
+        }
+      ]
+    },
+    {
+      "title": "Valla workplace discrimination support",
+      "description": "A commercial platform with resources for people facing discrimination at work. Check fees for individual support.",
+      "links": [
+        {
+          "label": "Valla",
+          "url": "https://valla.uk/"
+        }
+      ],
+      "note": "Commercial service",
+      "sources": [
+        {
+          "card": "0pNZBVAV",
+          "topic": "legal"
+        }
+      ]
+    },
+    {
+      "title": "Relay UK",
+      "description": "Use text on a phone call if hearing or speaking on an ordinary call is difficult.",
+      "links": [
+        {
+          "label": "Relay UK",
+          "url": "https://www.relayuk.bt.com/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "gIYaxpg3",
+          "topic": "legal"
+        }
+      ]
+    },
+    {
+      "title": "Forrest Williams Solicitors",
+      "description": "A private criminal defence firm. Ask about its services and fees.",
+      "links": [
+        {
+          "label": "Forrest Williams Criminal Defence Solicitors",
+          "url": "https://forrestwilliamssolicitors.com/"
+        }
+      ],
+      "note": "Private provider",
+      "sources": [
+        {
+          "card": "1s3ZhuJj",
+          "topic": "legal"
+        }
+      ]
+    },
+    {
+      "title": "Irwin Mitchell",
+      "description": "A private law firm. Check the relevant team, fees and funding options for your situation.",
+      "links": [
+        {
+          "label": "Irwin Mitchell Solicitors",
+          "url": "https://www.irwinmitchell.com/"
+        }
+      ],
+      "note": "Private provider",
+      "sources": [
+        {
+          "card": "kbgHeeei",
+          "topic": "legal"
+        }
+      ]
+    },
+    {
+      "title": "Hillingdon Law Centre closure",
+      "description": "The centre has permanently closed. Its network’s October 2026 notice points to other legal advice in Hillingdon.",
+      "links": [
+        {
+          "label": "Closure notice and local alternatives",
+          "url": "https://www.lawcentres.org.uk/news/hillingdon-law-centre-closes-after-five-decades-serving-west-london"
+        }
+      ],
+      "sources": [
+        {
+          "card": "AqoaF1kS",
+          "topic": "legal"
+        }
+      ]
+    },
+    {
+      "title": "Harrow Law Centre",
+      "description": "Find out which legal problems this local law centre can help with and how to contact it.",
+      "links": [
+        {
+          "label": "Harrow Law Centre",
+          "url": "https://harrowlawcentre.org.uk/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "Llvmuh2t",
+          "topic": "legal"
+        }
+      ]
+    },
+    {
+      "title": "Carers’ assessments",
+      "description": "Carers UK explains what an assessment is and how to ask for support as an unpaid carer.",
+      "links": [
+        {
+          "label": "Carer's assessment",
+          "url": "https://www.carersuk.org/help-and-advice/practical-support/carers-assessment/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "QjiQwD1l",
+          "topic": "legal"
+        }
+      ]
+    },
+    {
+      "title": "Social care assessments for autistic adults",
+      "description": "The National Autistic Society explains assessments, care plans and paying for adult social care in England.",
+      "links": [
+        {
+          "label": "Assessments and care plans for adults in England",
+          "url": "https://www.autism.org.uk/advice-and-guidance/social-care/social-care-england/assessments-and-care-plans"
+        },
+        {
+          "label": "Paying for social care in England",
+          "url": "https://www.autism.org.uk/advice-and-guidance/social-care/social-care-england/paying-for-social-care"
+        }
+      ],
+      "sources": [
+        {
+          "card": "BWYmJJ44",
+          "topic": "legal"
+        }
+      ]
+    },
+    {
+      "title": "NICE guidance on autism in adults",
+      "description": "The NICE guideline on assessment and support for autistic adults. Its public information section gives an overview.",
+      "links": [
+        {
+          "label": "NICE guideline on autism in adults",
+          "url": "https://www.nice.org.uk/guidance/cg142"
+        },
+        {
+          "label": "NICE autism recommendations",
+          "url": "https://www.nice.org.uk/guidance/cg142/chapter/recommendations"
+        }
+      ],
+      "sources": [
+        {
+          "card": "VSdxBBv9",
+          "topic": "legal"
+        }
+      ]
+    },
+    {
+      "title": "NICE guidance on ADHD",
+      "description": "Professional guidance about recognising, assessing and managing ADHD.",
+      "links": [
+        {
+          "label": "NICE guideline on ADHD",
+          "url": "https://www.nice.org.uk/guidance/ng87"
+        },
+        {
+          "label": "NICE ADHD recommendations",
+          "url": "https://www.nice.org.uk/guidance/ng87/chapter/recommendations"
+        }
+      ],
+      "sources": [
+        {
+          "card": "efsfgplX",
+          "topic": "legal"
+        }
+      ]
+    },
+    {
+      "title": "Citizens Advice letter templates",
+      "description": "Examples of letters you can adapt when dealing with a problem or asking for help.",
+      "links": [
+        {
+          "label": "Consumer template letters",
+          "url": "https://www.citizensadvice.org.uk/consumer/template-letters/letters/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "71G49TuE",
+          "topic": "legal"
+        }
+      ]
+    },
+    {
+      "title": "Disability discrimination and human rights",
+      "description": "Equality and Human Rights Commission information on discrimination and the Human Rights Act.",
+      "links": [
+        {
+          "label": "Equality Act 2010 - disability discrimination",
+          "url": "https://www.equalityhumanrights.com/guidance/protected-characteristics/disability-discrimination"
+        },
+        {
+          "label": "Human Rights Act",
+          "url": "https://www.equalityhumanrights.com/human-rights/human-rights-act"
+        }
+      ],
+      "note": "The provider appears in search results. Direct access to the page could not be confirmed.",
+      "sources": [
+        {
+          "card": "r6vn5R1N",
+          "topic": "legal"
+        }
+      ]
+    },
+    {
+      "title": "Reasonable adjustments",
+      "description": "GOV.UK explains ways services can make information, appointments and environments more accessible.",
+      "links": [
+        {
+          "label": "Reasonable adjustments: a legal duty",
+          "url": "https://www.gov.uk/government/publications/reasonable-adjustments-a-legal-duty/reasonable-adjustments-a-legal-duty"
+        }
+      ],
+      "sources": [
+        {
+          "card": "SuheOOLK",
+          "topic": "legal"
+        }
+      ]
+    },
+    {
+      "title": "Harrow Association of Disabled People factsheets",
+      "description": "Look for local disability information and advice from HAD.",
+      "links": [
+        {
+          "label": "Harrow Association of Disabled People factsheets",
+          "url": "https://www.had.org.uk/factsheets"
+        }
+      ],
+      "sources": [
+        {
+          "card": "JPqYgBNg",
+          "topic": "legal"
+        }
+      ]
+    },
+    {
+      "title": "Equality Act guidance",
+      "description": "Official information about the Equality Act 2010 and protection from discrimination.",
+      "links": [
+        {
+          "label": "Equality Act 2010: guidance",
+          "url": "https://www.gov.uk/guidance/equality-act-2010-guidance"
+        }
+      ],
+      "sources": [
+        {
+          "card": "9kzrHGfg",
+          "topic": "legal"
+        }
+      ]
+    },
+    {
+      "title": "Lasting power of attorney",
+      "description": "Official guidance on choosing someone to act on your behalf and registering a lasting power of attorney.",
+      "links": [
+        {
+          "label": "GOV.UK guide to lasting power of attorney",
+          "url": "https://www.gov.uk/power-of-attorney"
+        }
+      ],
+      "sources": [
+        {
+          "card": "rEOnwwD9",
+          "topic": "legal"
+        }
+      ]
+    },
+    {
+      "title": "Which? power of attorney service",
+      "description": "A commercial service for preparing a power of attorney. Check what is included in the fee.",
+      "links": [
+        {
+          "label": "Which? power of attorney service",
+          "url": "https://legalservice.which.co.uk/wills-probate/power-of-attorney/"
+        }
+      ],
+      "note": "Commercial service",
+      "sources": [
+        {
+          "card": "sowESaaP",
+          "topic": "legal"
+        }
+      ]
+    },
+    {
+      "title": "ASB Help",
+      "description": "Information about reporting antisocial behaviour and asking for a response.",
+      "links": [
+        {
+          "label": "ASB Help",
+          "url": "https://asbhelp.co.uk/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "SNGkhoma",
+          "topic": "legal"
+        },
+        {
+          "card": "yYGiR3Zf",
+          "topic": "housing"
+        }
+      ]
+    },
+    {
+      "title": "Shelter England housing advice",
+      "description": "Find help with homelessness, poor housing or the risk of losing your home. Use Shelter’s current contact details.",
+      "links": [
+        {
+          "label": "Shelter England",
+          "url": "https://england.shelter.org.uk/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "6u5qF073",
+          "topic": "housing"
+        }
+      ]
+    },
+    {
+      "title": "Turn2us help with housing costs",
+      "description": "Explore financial help that may be available for rent and other housing costs.",
+      "links": [
+        {
+          "label": "Help with housing costs",
+          "url": "https://www.turn2us.org.uk/get-support/information-for-your-situation/help-with-housing-costs"
+        }
+      ],
+      "sources": [
+        {
+          "card": "X3Ydzc91",
+          "topic": "housing"
+        }
+      ]
+    },
+    {
+      "title": "Housing rights for disabled people",
+      "description": "A guide from the Equality and Human Rights Commission about housing and disability.",
+      "links": [
+        {
+          "label": "Your rights to accessible and adaptable housing in England",
+          "url": "https://www.equalityhumanrights.com/sites/default/files/housing-and-disabled-people-your-rights-england.pdf"
+        }
+      ],
+      "sources": [
+        {
+          "card": "1cEifqg3",
+          "topic": "housing"
+        }
+      ]
+    },
+    {
+      "title": "UCL autism and education research events",
+      "description": "Look for talks and events from the Centre for Research in Autism and Education.",
+      "links": [
+        {
+          "label": "Centre for Research in Autism and Education (CRAE)",
+          "url": "https://www.ucl.ac.uk/ioe/departments-and-centres/centre-research-autism-and-education/centre-research-autism-and-education-crae-events"
+        }
+      ],
+      "sources": [
+        {
+          "card": "2QekLkVU",
+          "topic": "research"
+        }
+      ]
+    },
+    {
+      "title": "Research on dental care and ADHD",
+      "description": "A University of Leeds study about dental care for women with ADHD. Recruitment status could not be confirmed.",
+      "links": [],
+      "sources": [
+        {
+          "card": "KCOFLX3h",
+          "topic": "research"
+        }
+      ]
+    },
+    {
+      "title": "Study of LGBTQ+ neurodivergent adults and sexual health",
+      "description": "The researchers asked about people’s experiences of sexual health services. Recruitment closed on 1 April 2026.",
+      "links": [],
+      "sources": [
+        {
+          "card": "9sOuKfaM",
+          "topic": "research"
+        }
+      ]
+    },
+    {
+      "title": "Research on cognition in older autistic adults",
+      "description": "A Royal Holloway study described on the board. Recruitment status could not be confirmed.",
+      "links": [
+        {
+          "label": "Read about the research study",
+          "url": "https://www.hra.nhs.uk/planning-and-improving-research/application-summaries/research-summaries/cognitive-functioning-in-autistic-older-adults/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "8XkMEmWG",
+          "topic": "research"
+        }
+      ]
+    },
+    {
+      "title": "Autism and LGBTQ+ experiences survey",
+      "description": "An earlier survey shared by Ambitious about Autism. The original survey link no longer opens.",
+      "links": [],
+      "sources": [
+        {
+          "card": "XrdD76F5",
+          "topic": "research"
+        }
+      ]
+    },
+    {
+      "title": "AutAngel event calendar",
+      "description": "Look up upcoming events and how to take part.",
+      "links": [
+        {
+          "label": "AutAngel events",
+          "url": "https://autangel.org.uk/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "adRbeNoG",
+          "topic": "research"
+        }
+      ]
+    },
+    {
+      "title": "Autism, race and ethnicity",
+      "description": "National Autistic Society information about experiences of autism in Black, Asian and minority ethnic communities.",
+      "links": [
+        {
+          "label": "Autism and BAME people",
+          "url": "https://www.autism.org.uk/advice-and-guidance/what-is-autism/autism-and-bame-people"
+        }
+      ],
+      "sources": [
+        {
+          "card": "e3m1jazQ",
+          "topic": "research"
+        }
+      ]
+    },
+    {
+      "title": "Neurodiversity as a Competitive Advantage",
+      "description": "A Harvard Business Review article about how some employers have changed recruitment and management.",
+      "links": [
+        {
+          "label": "Neurodiversity Is a Competitive Advantage",
+          "url": "https://hbr.org/2017/05/neurodiversity-as-a-competitive-advantage"
+        }
+      ],
+      "sources": [
+        {
+          "card": "xtHuzxa9",
+          "topic": "research"
+        }
+      ]
+    },
+    {
+      "title": "J.P. Morgan’s Autism at Work talk",
+      "description": "A recorded conference presentation about one employer’s autism employment programme.",
+      "links": [
+        {
+          "label": "J.P. Morgan’s Autism at work journey",
+          "url": "https://www.youtube.com/watch?v=1y272JQY-0I"
+        }
+      ],
+      "note": "The provider appears in search results. Direct access to the page could not be confirmed.",
+      "sources": [
+        {
+          "card": "sryfBxez",
+          "topic": "research"
+        }
+      ]
+    },
+    {
+      "title": "Neurodiverse Self Advocacy’s workplace adjustments guide",
+      "description": "Ideas for discussing adjustments at work from a neurodivergent-led organisation.",
+      "links": [
+        {
+          "label": "Read the discussion on adjustments",
+          "url": "https://ndsa.uk/content/reasonable-adjustments/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "9CGIrYOU",
+          "topic": "research"
+        }
+      ]
+    },
+    {
+      "title": "Daisy Connections speed friending",
+      "description": "The July 2026 event on the board has passed. Check the organiser’s calendar for other meet-ups and ticket details.",
+      "links": [
+        {
+          "label": "Daisy Connections events",
+          "url": "https://daisyconnections.co.uk/#section-daisy-connections-neuroinclusive-speed-friending"
+        }
+      ],
+      "sources": [
+        {
+          "card": "nf0ZpXPt",
+          "topic": "friendship-dating"
+        }
+      ]
+    },
+    {
+      "title": "Outsiders social and dating club",
+      "description": "A community for disabled adults interested in relationships and peer support. Check its current arrangements.",
+      "links": [
+        {
+          "label": "About The Outsiders Club",
+          "url": "https://outsiders.org.uk/about-the-club/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "F4ivGejU",
+          "topic": "friendship-dating"
+        }
+      ]
+    },
+    {
+      "title": "Happily dating and friendship service",
+      "description": "The board describes a London friendship and dating project. Current membership and availability could not be confirmed.",
+      "links": [],
+      "sources": [
+        {
+          "card": "UO6p1uRz",
+          "topic": "friendship-dating"
+        }
+      ]
+    },
+    {
+      "title": "Friends of Friendz house-share platform",
+      "description": "A service for finding potential housemates. Read its terms before sharing a profile.",
+      "links": [
+        {
+          "label": "Friendz of Friendz",
+          "url": "https://www.friendsoffriendz.com/"
+        }
+      ],
+      "note": "Account may be needed",
+      "sources": [
+        {
+          "card": "ItwvwSci",
+          "topic": "friendship-dating"
+        }
+      ]
+    },
+    {
+      "title": "Enna job coaching",
+      "description": "Information about careers support for neurodivergent jobseekers.",
+      "links": [
+        {
+          "label": "Enna’s workplace coaching",
+          "url": "https://enna.org/workplace-coaching/"
+        },
+        {
+          "label": "Enna’s jobs board",
+          "url": "https://enna.org/jobs-board/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "HlSxrEUs",
+          "topic": "work-learning"
+        }
+      ]
+    },
+    {
+      "title": "NeuroRocket coaching and webinars",
+      "description": "Explore independent coaching, group sessions and Access to Work webinars. Check current dates and fees.",
+      "links": [
+        {
+          "label": "Access to Work Webinars » NEUROROCKET",
+          "url": "https://neurorocket.co.uk/access-to-work-webinars/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "XZMQpZ3d",
+          "topic": "work-learning"
+        }
+      ]
+    },
+    {
+      "title": "Mentra",
+      "description": "Read about an employment platform that matches neurodivergent applicants with employers. Check where roles are based.",
+      "links": [
+        {
+          "label": "Mentra jobs",
+          "url": "https://unlocked.microsoft.com/mentra-neuroinclusion/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "TIszhqiT",
+          "topic": "work-learning"
+        }
+      ]
+    },
+    {
+      "title": "Harrow Jobcentre",
+      "description": "Find the current official route for contacting a Jobcentre about employment support.",
+      "links": [
+        {
+          "label": "Find or contact your Jobcentre Plus office",
+          "url": "https://www.gov.uk/contact-jobcentre-plus"
+        }
+      ],
+      "sources": [
+        {
+          "card": "Agz14rXk",
+          "topic": "work-learning"
+        }
+      ]
+    },
+    {
+      "title": "Organisations supporting neurodivergent jobseekers",
+      "description": "A collection of recruitment sites, employers and support organisations. Check each for current opportunities.",
+      "links": [
+        {
+          "label": "Brilliant Minds",
+          "url": "https://brilliantminds.org.uk/home/"
+        },
+        {
+          "label": "VERCIDA",
+          "url": "https://www.vercida.com/uk"
+        },
+        {
+          "label": "Disabled Workers",
+          "url": "https://www.disabledworkers.org.uk/default.asp"
+        },
+        {
+          "label": "Employ-Ability",
+          "url": "https://www.employ-ability.org.uk/"
+        },
+        {
+          "label": "Ambitious About Autism",
+          "url": "https://www.ambitiousaboutautism.org.uk/what-we-do/services/i-am-an-autistic-young-person/employment-opportunities"
+        },
+        {
+          "label": "Autus",
+          "url": "https://www.autus.org.uk/"
+        },
+        {
+          "label": "auticon United Kingdom",
+          "url": "https://auticon.com/uk/"
+        },
+        {
+          "label": "Aspierations",
+          "url": "https://www.aspierations.org/"
+        },
+        {
+          "label": "ASM Neuroinclusive Training",
+          "url": "https://www.asmentoring.co.uk/"
+        },
+        {
+          "label": "KrashLabs",
+          "url": "https://krashlabs.co.uk/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "lzYZSyoH",
+          "topic": "work-learning"
+        }
+      ]
+    },
+    {
+      "title": "Brilliant Minds",
+      "description": "A board entry about flexible work and opportunities for neurodivergent jobseekers. Check the organisation’s current activity.",
+      "links": [
+        {
+          "label": "Brilliant Minds Open Talent CIC",
+          "url": "https://brilliantminds.org.uk/home/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "mfXb5f5n",
+          "topic": "work-learning"
+        }
+      ]
+    },
+    {
+      "title": "Intensive Personalised Employment Support",
+      "description": "Referrals to this DWP programme ended in December 2023. The entry is kept for reference.",
+      "links": [
+        {
+          "label": "Read DWP’s report on the end of referrals",
+          "url": "https://www.gov.uk/government/publications/dwp-annual-report-and-accounts-2023-to-2024/dwp-annual-report-and-accounts-2023-to-2024-html"
+        }
+      ],
+      "sources": [
+        {
+          "card": "lZEljch5",
+          "topic": "work-learning"
+        }
+      ]
+    },
+    {
+      "title": "Employment support for neurodivergent people",
+      "description": "The board links to Get Set UK and Genius Within for help with skills, work and career development.",
+      "links": [
+        {
+          "label": "Get Set UK",
+          "url": "https://www.getsetuk.co.uk/for-you/support-into-work/"
+        },
+        {
+          "label": "Genius Within",
+          "url": "https://geniuswithin.org/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "8fk0XjVJ",
+          "topic": "work-learning"
+        }
+      ]
+    },
+    {
+      "title": "Twining-Hestia employment support",
+      "description": "Twining Enterprise joined Hestia. Find the current programmes for people who want help getting into or staying in work.",
+      "links": [
+        {
+          "label": "Current employment support at Twining-Hestia",
+          "url": "https://www.hestia.org/employment-support"
+        }
+      ],
+      "sources": [
+        {
+          "card": "VbLx6g43",
+          "topic": "work-learning"
+        }
+      ]
+    },
+    {
+      "title": "Work Harrow employment support",
+      "description": "Harrow Council lists support with employment, applications and skills. The board uses the name Xcite.",
+      "links": [
+        {
+          "label": "Work Harrow",
+          "url": "https://www.harrow.gov.uk/xcite"
+        }
+      ],
+      "sources": [
+        {
+          "card": "R4sRbrHN",
+          "topic": "work-learning"
+        }
+      ]
+    },
+    {
+      "title": "Access to Work",
+      "description": "Read the government scheme information and find support with the application process.",
+      "links": [
+        {
+          "label": "GOV.UK Access to Work",
+          "url": "https://www.gov.uk/access-to-work"
+        },
+        {
+          "label": "Generate’s Access to Work support",
+          "url": "https://generate-uk.org/service-2/access-to-work/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "ZESayzWU",
+          "topic": "work-learning"
+        }
+      ]
+    },
+    {
+      "title": "Transition to adulthood and work in Harrow",
+      "description": "The board includes a 2019 education and employment leaflet for young autistic adults in Harrow.",
+      "links": [
+        {
+          "label": "Harrow Youth Stop careers advice",
+          "url": "https://www.harrow.gov.uk/send-local-offer/harrow-youthstop"
+        }
+      ],
+      "sources": [
+        {
+          "card": "pNklxJ94",
+          "topic": "work-learning"
+        }
+      ]
+    },
+    {
+      "title": "Hillingdon young adult skills and employment",
+      "description": "Find information on local skills and employment opportunities from Hillingdon Autistic Care and Support.",
+      "links": [
+        {
+          "label": "Hillingdon skills and employment support",
+          "url": "https://www.hacs.org.uk/skills-and-employment"
+        }
+      ],
+      "sources": [
+        {
+          "card": "B6DA37eU",
+          "topic": "work-learning"
+        }
+      ]
+    },
+    {
+      "title": "Exploring your skills",
+      "description": "Use the National Careers Service to consider your strengths, interests and possible careers.",
+      "links": [
+        {
+          "label": "National Careers Service",
+          "url": "https://nationalcareers.service.gov.uk/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "N6ALdlMM",
+          "topic": "work-learning"
+        }
+      ]
+    },
+    {
+      "title": "Jobs at the National Autistic Society",
+      "description": "See vacancies and information about working for the charity.",
+      "links": [
+        {
+          "label": "National Autistic Society vacancies",
+          "url": "https://www.autism.org.uk/get-involved/work-for-us"
+        }
+      ],
+      "sources": [
+        {
+          "card": "QdlQiEjT",
+          "topic": "work-learning"
+        }
+      ]
+    },
+    {
+      "title": "EACH employment support",
+      "description": "The board lists CV writing, courses and job clubs. Contact EACH about programmes currently available.",
+      "links": [
+        {
+          "label": "EACH Counselling and Support",
+          "url": "https://eachcounselling.org.uk/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "DFxmz4PN",
+          "topic": "work-learning"
+        }
+      ]
+    },
+    {
+      "title": "Evenbreak Career Hive",
+      "description": "Career resources for disabled jobseekers, including help with finding work and preparing applications.",
+      "links": [
+        {
+          "label": "Career Advice Guide for Disabled People",
+          "url": "https://hive.evenbreak.co.uk/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "GrmTzagN",
+          "topic": "work-learning"
+        }
+      ]
+    },
+    {
+      "title": "Acas advice on neurodiversity at work",
+      "description": "Guidance for workers and employers on making the workplace more accessible.",
+      "links": [
+        {
+          "label": "Understanding neurodiversity",
+          "url": "https://www.acas.org.uk/neurodiversity-at-work"
+        }
+      ],
+      "sources": [
+        {
+          "card": "0IRkC4Om",
+          "topic": "work-learning"
+        }
+      ]
+    },
+    {
+      "title": "Student finance guidance",
+      "description": "Help for applicants, parents and partners. Use guidance for the academic year you plan to study.",
+      "links": [
+        {
+          "label": "Student finance guidance for 2026 and 2027",
+          "url": "https://studentfinance.campaign.gov.uk/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "l0jHXEaf",
+          "topic": "work-learning"
+        },
+        {
+          "card": "T1VUEmST",
+          "topic": "work-learning"
+        }
+      ]
+    },
+    {
+      "title": "Funding for disabled students",
+      "description": "UCAS explains scholarships, grants and bursaries and how to look for funding.",
+      "links": [
+        {
+          "label": "Disabled students: Financial support",
+          "url": "https://www.ucas.com/applying/applying-to-university/students-with-individual-needs/disabled-students-financial-support"
+        }
+      ],
+      "sources": [
+        {
+          "card": "SU3ysfXn",
+          "topic": "work-learning"
+        }
+      ]
+    },
+    {
+      "title": "Disabled Students’ Allowance",
+      "description": "Official information on support with disability-related study costs and how to apply.",
+      "links": [
+        {
+          "label": "GOV.UK Disabled Students’ Allowance",
+          "url": "https://www.gov.uk/disabled-students-allowance-dsa"
+        }
+      ],
+      "sources": [
+        {
+          "card": "PTiqOSi4",
+          "topic": "work-learning"
+        }
+      ]
+    },
+    {
+      "title": "Disability Rights UK on study adjustments",
+      "description": "Information about asking for changes that make courses and study more accessible.",
+      "links": [
+        {
+          "label": "Adjustments for Disabled students and apprentices",
+          "url": "https://www.disabilityrightsuk.org/resources/adjustments-disabled-students-and-apprentices"
+        }
+      ],
+      "sources": [
+        {
+          "card": "Ffd9B6LW",
+          "topic": "work-learning"
+        }
+      ]
+    },
+    {
+      "title": "Disability Rights UK’s student advice service",
+      "description": "Find advice contacts for disabled students and check current opening arrangements.",
+      "links": [
+        {
+          "label": "Disabled Students Helpline",
+          "url": "https://www.disabilityrightsuk.org/disabled-students-helpline"
+        }
+      ],
+      "sources": [
+        {
+          "card": "wcNe3uYV",
+          "topic": "work-learning"
+        }
+      ]
+    },
+    {
+      "title": "Scope guide to adjustments at college and university",
+      "description": "Ideas for discussing support with your college, university or course team.",
+      "links": [
+        {
+          "label": "Reasonable adjustments in college and university",
+          "url": "https://www.scope.org.uk/advice-and-support/reasonable-adjustments-college-university"
+        }
+      ],
+      "sources": [
+        {
+          "card": "2Tr6sl4P",
+          "topic": "work-learning"
+        }
+      ]
+    },
+    {
+      "title": "Student finance on GOV.UK",
+      "description": "Browse official guidance on funding study and managing student loans.",
+      "links": [
+        {
+          "label": "Student finance",
+          "url": "https://www.gov.uk/browse/education/student-finance"
+        }
+      ],
+      "sources": [
+        {
+          "card": "kifUKUH6",
+          "topic": "work-learning"
+        }
+      ]
+    },
+    {
+      "title": "Tools to support learning",
+      "description": "The board links to a presentation about learning tasks. Public access to the slides could not be confirmed.",
+      "links": [],
+      "sources": [
+        {
+          "card": "rWocPU9r",
+          "topic": "work-learning"
+        }
+      ]
+    },
+    {
+      "title": "ClearTalents workplace profile",
+      "description": "A questionnaire for thinking about workplace adjustments. Check how your information will be used before completing it.",
+      "links": [
+        {
+          "label": "Clear Talents™ At Work",
+          "url": "https://cleartalentsatwork.com/app/dashboard"
+        }
+      ],
+      "note": "Account may be needed",
+      "sources": [
+        {
+          "card": "VvEZM85T",
+          "topic": "work-learning"
+        }
+      ]
+    },
+    {
+      "title": "SIC Learning Hub",
+      "description": "Career resources for disabled, neurodivergent and chronically ill people.",
+      "links": [
+        {
+          "label": "SIC Learning Hub",
+          "url": "https://www.siclearninghub.co.uk/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "Yna2VkFB",
+          "topic": "work-learning"
+        }
+      ]
+    },
+    {
+      "title": "Report on Disabled Students’ Allowance",
+      "description": "Read Lord Holmes’s report about the experiences of students using the scheme.",
+      "links": [
+        {
+          "label": "Report into Disabled Students' Allowance (DSA)",
+          "url": "https://lordchrisholmes.com/report-disabled-students-allowance-dsa/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "QGvpduI8",
+          "topic": "work-learning"
+        }
+      ]
+    },
+    {
+      "title": "Acas podcast on neurodiversity at work",
+      "description": "A conversation about neurodivergent experiences in the workplace.",
+      "links": [
+        {
+          "label": "Thinking differently about neurodiversity",
+          "url": "https://www.acas.org.uk/podcast/thinking-differently-about-neurodiversity"
+        }
+      ],
+      "sources": [
+        {
+          "card": "V5lnhfpM",
+          "topic": "work-learning"
+        }
+      ]
+    },
+    {
+      "title": "Digital accessibility at work",
+      "description": "A LinkedIn Learning course on making workplace tools and processes more accessible. An account or subscription may be needed.",
+      "links": [
+        {
+          "label": "Digital accessibility course on LinkedIn Learning",
+          "url": "https://www.linkedin.com/learning/digital-accessibility-for-the-modern-workplace/accessibility-at-work"
+        }
+      ],
+      "note": "Account may be needed",
+      "sources": [
+        {
+          "card": "EReugarE",
+          "topic": "work-learning"
+        }
+      ]
+    },
+    {
+      "title": "ADHD Working",
+      "description": "Training about ADHD at work. The provider lists course content, formats and prices.",
+      "links": [
+        {
+          "label": "ADHDworking",
+          "url": "https://adhdworking.co.uk/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "86g2XTTI",
+          "topic": "work-learning"
+        }
+      ]
+    },
+    {
+      "title": "BBC neurodiversity toolkits",
+      "description": "Resources about neurodiversity and adjustments in the workplace.",
+      "links": [
+        {
+          "label": "Read about the BBC toolkit at Neurodiverse Connection",
+          "url": "https://ndconnection.co.uk/resources/p/neurodiversity-toolkit"
+        }
+      ],
+      "sources": [
+        {
+          "card": "twHrereV",
+          "topic": "work-learning"
+        }
+      ]
+    },
+    {
+      "title": "Creative Access opportunities",
+      "description": "Browse careers and training opportunities in the creative industries.",
+      "links": [
+        {
+          "label": "Creative Access opportunities",
+          "url": "https://opportunities.creativeaccess.org.uk/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "lNr5wflX",
+          "topic": "work-learning"
+        }
+      ]
+    },
+    {
+      "title": "Diversity Jobs Group",
+      "description": "A collection of job boards. Use each listing to check the employer, location and application date.",
+      "links": [
+        {
+          "label": "Diversity Jobs Group",
+          "url": "https://diversityjobsgroup.com/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "7XIzB4LZ",
+          "topic": "work-learning"
+        }
+      ]
+    },
+    {
+      "title": "Read Easy",
+      "description": "Explore one-to-one reading support for adults and find out whether there is a group nearby.",
+      "links": [
+        {
+          "label": "Read Easy",
+          "url": "https://readeasy.org.uk/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "A5chALkr",
+          "topic": "work-learning"
+        }
+      ]
+    },
+    {
+      "title": "Resolver complaints tool",
+      "description": "An online service for drafting a complaint and keeping track of replies.",
+      "links": [
+        {
+          "label": "Resolver",
+          "url": "https://www.resolver.co.uk/"
+        }
+      ],
+      "note": "The provider appears in search results. Direct access to the page could not be confirmed.",
+      "sources": [
+        {
+          "card": "JBZGLEky",
+          "topic": "complaints"
+        }
+      ]
+    },
+    {
+      "title": "Local Government and Social Care Ombudsman",
+      "description": "Find out how to raise an unresolved complaint about a council or adult social care provider.",
+      "links": [
+        {
+          "label": "Local Government and Social Care Ombudsman",
+          "url": "https://www.lgo.org.uk/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "IsWEVjyg",
+          "topic": "complaints"
+        }
+      ]
+    },
+    {
+      "title": "Financial Ombudsman Service",
+      "description": "Information about bringing an unresolved complaint about a financial business.",
+      "links": [
+        {
+          "label": "Financial Ombudsman Service",
+          "url": "https://www.financial-ombudsman.org.uk/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "pBYAIELc",
+          "topic": "complaints"
+        }
+      ]
+    },
+    {
+      "title": "Energy and communications complaints",
+      "description": "Find the right ombudsman for an unresolved complaint about an energy or communications provider.",
+      "links": [
+        {
+          "label": "Find an ombudsman",
+          "url": "https://www.ombudsman-services.org/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "Qjtk2x7M",
+          "topic": "complaints"
+        }
+      ]
+    },
+    {
+      "title": "Find your MP",
+      "description": "Look up your constituency MP and find their public contact details.",
+      "links": [
+        {
+          "label": "TheyWorkForYou",
+          "url": "https://www.theyworkforyou.com/mp/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "g1U6v9Bi",
+          "topic": "complaints"
+        }
+      ]
+    },
+    {
+      "title": "Making an NHS complaint in West and North London",
+      "description": "The board’s clinical commissioning group information is historic. The integrated care board explains the current complaints route.",
+      "links": [
+        {
+          "label": "Current West and North London NHS complaints route",
+          "url": "https://www.westandnorthlondon.icb.nhs.uk/how-we-are-run/your-information-feedback-and-your-rights/patient-feedback-complaints"
+        }
+      ],
+      "sources": [
+        {
+          "card": "WYr2Smf9",
+          "topic": "complaints"
+        }
+      ]
+    },
+    {
+      "title": "Coloured reading overlays and rulers",
+      "description": "Examples of products some people use when reading. The link is to a retailer.",
+      "links": [
+        {
+          "label": "Plain Window Coloured Reading Rulers",
+          "url": "https://www.crossboweducation.com/reading-rulers/plain-window-eye-level-reading-rulers-for-visual-stress"
+        }
+      ],
+      "sources": [
+        {
+          "card": "0KRUNySZ",
+          "topic": "sensory"
+        }
+      ]
+    },
+    {
+      "title": "Earplugs and in-ear monitors",
+      "description": "Suppliers of fitted earplugs and sound-reducing earpieces. Compare products, fitting requirements and costs.",
+      "links": [
+        {
+          "label": "The Custom IEM Company",
+          "url": "https://custom-inearmonitors.co.uk/ear-impressions.html"
+        },
+        {
+          "label": "Read Audio",
+          "url": "https://www.read-audio.com/earplugs"
+        }
+      ],
+      "sources": [
+        {
+          "card": "ZeRVI5CO",
+          "topic": "sensory"
+        }
+      ]
+    },
+    {
+      "title": "Kelly Mahler’s book on interoception",
+      "description": "A book about noticing signals from inside your body.",
+      "links": [
+        {
+          "label": "Publications from Kelly Mahler",
+          "url": "https://www.kelly-mahler.com/product-category/publications/"
+        }
+      ],
+      "note": "The provider appears in search results. Direct access to the page could not be confirmed.",
+      "sources": [
+        {
+          "card": "8aJo8vPs",
+          "topic": "sensory"
+        },
+        {
+          "card": "iCTr9l60",
+          "topic": "books"
+        }
+      ]
+    },
+    {
+      "title": "Interoception resources",
+      "description": "Explore Kelly Mahler’s materials about noticing and making sense of signals from inside your body.",
+      "links": [
+        {
+          "label": "Kelly Mahler’s interoception resources",
+          "url": "https://www.kelly-mahler.com/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "MnKsW0Ai",
+          "topic": "sensory"
+        }
+      ]
+    },
+    {
+      "title": "Occupational therapy for autistic adults",
+      "description": "The board names an independent occupational therapist. The provider’s current availability could not be confirmed. The professional directory can help you find alternatives.",
+      "links": [
+        {
+          "label": "Alternative directory of independent occupational therapists",
+          "url": "https://rcotss-ip.org.uk/find"
+        }
+      ],
+      "note": "Private provider",
+      "sources": [
+        {
+          "card": "vyqynCIb",
+          "topic": "sensory"
+        }
+      ]
+    },
+    {
+      "title": "Sensory checklist",
+      "description": "A worksheet by Lindsey Biel and Nancy Peske for reflecting on everyday sensory preferences and experiences.",
+      "links": [
+        {
+          "label": "Sensory checklist (PDF)",
+          "url": "https://www.sensorysmarts.com/sensory-checklist.pdf"
+        }
+      ],
+      "sources": [
+        {
+          "card": "T6Lgzkwn",
+          "topic": "sensory"
+        }
+      ]
+    },
+    {
+      "title": "Squease sensory vest",
+      "description": "Information from the maker of an inflatable pressure vest, including product details and costs.",
+      "links": [
+        {
+          "label": "Squease pressure vest",
+          "url": "https://squease.nl/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "YQWUYTqF",
+          "topic": "sensory"
+        }
+      ]
+    },
+    {
+      "title": "Unflavoured toothpaste",
+      "description": "An example of toothpaste for people who find strong flavours uncomfortable. Check the ingredients on the product.",
+      "links": [
+        {
+          "label": "Unflavoured Toothpaste",
+          "url": "https://oranurse.co.uk/unflavoured-toothpaste/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "X46BCEXV",
+          "topic": "sensory"
+        }
+      ]
+    },
+    {
+      "title": "Looking After Your Autistic Self",
+      "description": "Niamh Garvey’s book explores sensory needs, emotions and everyday self-care.",
+      "links": [
+        {
+          "label": "Book details from Jessica Kingsley Publishers",
+          "url": "https://uk.jkp.com/products/looking-after-your-autistic-self"
+        }
+      ],
+      "sources": [
+        {
+          "card": "FPXZJTSx",
+          "topic": "books"
+        }
+      ]
+    },
+    {
+      "title": "A Field Guide to Earthlings",
+      "description": "An autistic writer’s perspective on neurotypical social behaviour.",
+      "links": [
+        {
+          "label": "Book details at charlieschapters.co.uk",
+          "url": "https://charlieschapters.co.uk/a-field-guide-to-earthlings-an-autistic-asperger-view-of-neurotypical-behavior/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "OnodmVea",
+          "topic": "books"
+        }
+      ]
+    },
+    {
+      "title": "Taking Charge of Adult ADHD",
+      "description": "Russell Barkley’s book offers strategies for everyday life, work and relationships.",
+      "links": [
+        {
+          "label": "Book details from Guilford Press",
+          "url": "https://www.guilford.com/books/Taking-Charge-of-Adult-ADHD/Russell-Barkley/9781462546855"
+        }
+      ],
+      "sources": [
+        {
+          "card": "kLpdbqgc",
+          "topic": "books"
+        }
+      ]
+    },
+    {
+      "title": "The Neurodivergent Friendly Workbook of DBT Skills",
+      "description": "Sonny Jane Wise’s workbook explores emotions, sensory needs and ways of coping.",
+      "links": [
+        {
+          "label": "Book details on Google Books",
+          "url": "https://books.google.de/books/about/The_Neurodivergent_Friendly_Workbook_of.html?id=0D9AzwEACAAJ"
+        }
+      ],
+      "sources": [
+        {
+          "card": "uLYcZ5Wv",
+          "topic": "books"
+        }
+      ]
+    },
+    {
+      "title": "Camouflage: The Hidden Lives of Autistic Women",
+      "description": "An illustrated book exploring the experiences of autistic women.",
+      "links": [
+        {
+          "label": "Book details from Jessica Kingsley Publishers",
+          "url": "https://uk.jkp.com/products/camouflage"
+        }
+      ],
+      "sources": [
+        {
+          "card": "JoAe2brq",
+          "topic": "books"
+        }
+      ]
+    },
+    {
+      "title": "Being Autistic",
+      "description": "AutAngel shares resources developed by autistic adults for autistic adults.",
+      "links": [
+        {
+          "label": "Book details at autangel.org.uk",
+          "url": "https://autangel.org.uk/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "9ym1pnFD",
+          "topic": "books"
+        }
+      ]
+    },
+    {
+      "title": "Autistic and Expecting",
+      "description": "Alexis Quinn’s book explores pregnancy and maternity care from an autistic perspective.",
+      "links": [
+        {
+          "label": "Book details at alexisquinn.co.uk",
+          "url": "https://alexisquinn.co.uk/books/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "s9A8j7pX",
+          "topic": "books"
+        }
+      ]
+    },
+    {
+      "title": "The Complete Guide to Asperger’s Syndrome",
+      "description": "Tony Attwood’s reference book on autism uses the terminology in use when it was written.",
+      "links": [
+        {
+          "label": "Book details at vesperpress.co.uk",
+          "url": "https://www.vesperpress.co.uk/books/the-complete-guide-to-aspergers-syndrome"
+        }
+      ],
+      "sources": [
+        {
+          "card": "e2DCd7aN",
+          "topic": "books"
+        }
+      ]
+    },
+    {
+      "title": "Can You See Me?",
+      "description": "A novel by Libby Scott and Rebecca Westcott about an autistic girl’s experience of starting secondary school.",
+      "links": [
+        {
+          "label": "Book details at booktrust.org.uk",
+          "url": "https://www.booktrust.org.uk/book-recommendations/bookfinder/can-you-see-me/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "HHozwNTz",
+          "topic": "books"
+        }
+      ]
+    },
+    {
+      "title": "NeuroTribes",
+      "description": "Steve Silberman’s book and accompanying talk explore the history of autism.",
+      "links": [
+        {
+          "label": "Book details from Atlantic Books",
+          "url": "https://atlantic-books.co.uk/book/neurotribes/"
+        },
+        {
+          "label": "Watch Steve Silberman’s TED talk",
+          "url": "https://www.ted.com/talks/steve_silberman_the_forgotten_history_of_autism"
+        }
+      ],
+      "sources": [
+        {
+          "card": "7kXuv0Pd",
+          "topic": "books"
+        }
+      ]
+    },
+    {
+      "title": "What we know about autism research",
+      "description": "A recorded TED talk by geneticist Wendy Chung. It reflects the research available at the time.",
+      "links": [
+        {
+          "label": "Watch Wendy Chung’s TED talk",
+          "url": "https://www.ted.com/talks/wendy_chung_autism_what_we_know_and_what_we_don_t_know_yet"
+        }
+      ],
+      "sources": [
+        {
+          "card": "p43qmAEB",
+          "topic": "books"
+        }
+      ]
+    },
+    {
+      "title": "Mindful Living with Asperger’s Syndrome",
+      "description": "A book of mindfulness exercises for autistic readers.",
+      "links": [
+        {
+          "label": "Book details from Jessica Kingsley Publishers",
+          "url": "https://uk.jkp.com/products/mindful-living-with-aspergers-syndrome"
+        }
+      ],
+      "sources": [
+        {
+          "card": "qnAsgx4B",
+          "topic": "books"
+        }
+      ]
+    },
+    {
+      "title": "Aspergirls",
+      "description": "A book about growing up and living as an autistic woman, published under this title.",
+      "links": [
+        {
+          "label": "Find the book in a library",
+          "url": "https://search.worldcat.org/title/Aspergirls-:-empowering-females-with-Asperger-Syndrome/oclc/495780204"
+        }
+      ],
+      "sources": [
+        {
+          "card": "RXq04NRo",
+          "topic": "books"
+        }
+      ]
+    },
+    {
+      "title": "22 Things a Woman with Asperger’s Syndrome Wants Her Partner to Know",
+      "description": "A book exploring relationships from an autistic woman’s perspective.",
+      "links": [
+        {
+          "label": "Book details from Jessica Kingsley Publishers",
+          "url": "https://uk.jkp.com/products/22-things-a-woman-with-aspergers-syndrome-wants-her-partner-to-know"
+        }
+      ],
+      "sources": [
+        {
+          "card": "DrjBVCLX",
+          "topic": "books"
+        }
+      ]
+    },
+    {
+      "title": "The Other Half of Asperger Syndrome",
+      "description": "A book about intimate relationships in which one partner is autistic.",
+      "links": [
+        {
+          "label": "Book details from Jessica Kingsley Publishers",
+          "url": "https://uk.jkp.com/products/the-other-half-of-asperger-syndrome-autism-spectrum-disorder"
+        }
+      ],
+      "sources": [
+        {
+          "card": "bgtjqoFS",
+          "topic": "books"
+        }
+      ]
+    },
+    {
+      "title": "I Think I Might Be Autistic",
+      "description": "A book for adults exploring whether they may be autistic and thinking about assessment.",
+      "links": [
+        {
+          "label": "Book details at hatchards.co.uk",
+          "url": "https://www.hatchards.co.uk/book/i-think-i-might-be-autistic/cynthia-kim/9780989597111"
+        }
+      ],
+      "sources": [
+        {
+          "card": "Os83hG5V",
+          "topic": "books"
+        }
+      ]
+    },
+    {
+      "title": "Autism and Asperger Syndrome in Adults",
+      "description": "A book about autistic adults’ lives, using the author’s published title.",
+      "links": [
+        {
+          "label": "Book details at sheldonpress.co.uk",
+          "url": "https://www.sheldonpress.co.uk/titles/luke-beardon-2/autism-and-asperger-syndrome-in-adults/9781847094452/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "AB3FM5UC",
+          "topic": "books"
+        }
+      ]
+    },
+    {
+      "title": "Bittersweet on the Autism Spectrum",
+      "description": "Luke Beardon and Dean Worton bring together writing about autistic experiences.",
+      "links": [
+        {
+          "label": "Book details from Hachette",
+          "url": "https://www.hachette.co.uk/contributor/luke-beardon/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "lZdTC7KH",
+          "topic": "books"
+        }
+      ]
+    },
+    {
+      "title": "Help for Women with ADHD",
+      "description": "A book about approaches to everyday organisation written for women with ADHD.",
+      "links": [
+        {
+          "label": "Book details at worldofbooks.com",
+          "url": "https://www.worldofbooks.com/en-gb/products/help-for-women-with-adhd-my-simple-strategies-for-conquering-chaos-book-joan-wilder-9781544182704"
+        }
+      ],
+      "sources": [
+        {
+          "card": "WVT9OjIz",
+          "topic": "books"
+        }
+      ]
+    },
+    {
+      "title": "Delivered from Distraction",
+      "description": "A book about ADHD in daily life and ways of finding support.",
+      "links": [
+        {
+          "label": "Book details at sheldonpress.co.uk",
+          "url": "https://www.sheldonpress.co.uk/titles/edward-m-hallowell-4/delivered-from-distraction/9781399813273/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "yNvye7Mo",
+          "topic": "books"
+        }
+      ]
+    },
+    {
+      "title": "The Autistic Brain",
+      "description": "Temple Grandin’s book explores ways of thinking and sensory experiences.",
+      "links": [
+        {
+          "label": "Book details from Penguin",
+          "url": "https://www.penguin.co.uk/books/420484/the-autistic-brain-by-panek-temple-grandin-and-richard/9781473501850"
+        }
+      ],
+      "sources": [
+        {
+          "card": "4pWgVZLl",
+          "topic": "books"
+        }
+      ]
+    },
+    {
+      "title": "Autistic Menopause",
+      "description": "A book about how menopause can feel for autistic people, with experiences and ideas for support.",
+      "links": [
+        {
+          "label": "Book details from Jessica Kingsley Publishers",
+          "url": "https://uk.jkp.com/products/autistic-menopause"
+        }
+      ],
+      "sources": [
+        {
+          "card": "GNoPSlxt",
+          "topic": "books"
+        }
+      ]
+    },
+    {
+      "title": "Goblin.tools",
+      "description": "A set of online tools, including one that can break a task into smaller steps.",
+      "links": [
+        {
+          "label": "Goblin Tools",
+          "url": "https://goblin.tools/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "pr4O1LpX",
+          "topic": "apps"
+        }
+      ]
+    },
+    {
+      "title": "Autistic Space Kit (ASK)",
+      "description": "This communication app was published by Passio, which has ceased trading. Current UK app availability could not be confirmed.",
+      "links": [
+        {
+          "label": "Read the publisher’s closure notice",
+          "url": "https://passio.co.uk/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "brUTz7qy",
+          "topic": "apps"
+        }
+      ]
+    },
+    {
+      "title": "Tiimo visual planner",
+      "description": "An app for planning tasks and routines visually. Check which features need a subscription.",
+      "links": [
+        {
+          "label": "Tiimo visual planner",
+          "url": "https://www.tiimoapp.com/"
+        }
+      ],
+      "note": "Subscription options",
+      "sources": [
+        {
+          "card": "HfmKsz5r",
+          "topic": "apps"
+        }
+      ]
+    },
+    {
+      "title": "Former North West London health app library",
+      "description": "The NHS closed this regional app library on 1 February 2023. The NHS notice explains the change.",
+      "links": [
+        {
+          "label": "Read the NHS closure notice",
+          "url": "https://www.nwlondonicb.nhs.uk/news/news/orcha-health-and-care-app-library-available-until-31-january"
+        }
+      ],
+      "sources": [
+        {
+          "card": "NpWxxlRa",
+          "topic": "apps"
+        }
+      ]
+    },
+    {
+      "title": "Molehill Mountain",
+      "description": "An app developed by Autistica and King’s College London for autistic people who want to explore anxiety.",
+      "links": [
+        {
+          "label": "Molehill Mountain",
+          "url": "https://www.autistica.org.uk/molehill-mountain"
+        }
+      ],
+      "sources": [
+        {
+          "card": "otyyqz03",
+          "topic": "apps"
+        }
+      ]
+    },
+    {
+      "title": "Clear Fear",
+      "description": "A stem4 app with activities designed to help young people manage anxiety.",
+      "links": [
+        {
+          "label": "Clear Fear App",
+          "url": "https://clearfear.stem4.org.uk/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "Eb0fZed2",
+          "topic": "apps"
+        }
+      ]
+    },
+    {
+      "title": "Calm Harm",
+      "description": "A stem4 app with activities for young people experiencing urges to self-harm.",
+      "links": [
+        {
+          "label": "Calm Harm App",
+          "url": "https://calmharm.stem4.org.uk/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "JHD0OzR0",
+          "topic": "apps"
+        }
+      ]
+    },
+    {
+      "title": "Brain in Hand",
+      "description": "Digital support for planning a day and managing difficult moments. Check how to access it and what it costs.",
+      "links": [
+        {
+          "label": "Brain in Hand",
+          "url": "https://www.braininhand.co.uk/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "hPwqPb1t",
+          "topic": "apps"
+        }
+      ]
+    },
+    {
+      "title": "Habitica",
+      "description": "A task and habit tracker that turns everyday goals into a game.",
+      "links": [
+        {
+          "label": "Habitica",
+          "url": "https://habitica.com/static/home"
+        }
+      ],
+      "sources": [
+        {
+          "card": "gogoIdN0",
+          "topic": "apps"
+        }
+      ]
+    },
+    {
+      "title": "Masked But Aware",
+      "description": "A site for reflecting on autistic masking, personal limits and daily experiences. Its self-checks are for personal reflection.",
+      "links": [
+        {
+          "label": "Masked But Aware",
+          "url": "https://www.maskedbutaware.nl/en"
+        }
+      ],
+      "note": "Self-check tool",
+      "sources": [
+        {
+          "card": "4CK6fI8Z",
+          "topic": "apps"
+        }
+      ]
+    },
+    {
+      "title": "AssistiveWare communication tools",
+      "description": "Explore text-to-speech and other communication software. Check device compatibility and pricing.",
+      "links": [
+        {
+          "label": "AssistiveWare communication apps",
+          "url": "https://www.assistiveware.com/products"
+        }
+      ],
+      "sources": [
+        {
+          "card": "JYCVd1q5",
+          "topic": "apps"
+        }
+      ]
+    },
+    {
+      "title": "Dragon speech-to-text software",
+      "description": "Commercial software that turns spoken words into text. Check supported devices and costs.",
+      "links": [
+        {
+          "label": "Dragon Speech Recognition",
+          "url": "https://dragon.nuance.com/en-gb/dragon"
+        }
+      ],
+      "sources": [
+        {
+          "card": "Om0jM3av",
+          "topic": "apps"
+        }
+      ]
+    },
+    {
+      "title": "Neurodiversity App",
+      "description": "The board listed an app for building a personal profile. We could not confirm whether it is still available in the UK.",
+      "links": [],
+      "note": "Account may be needed",
+      "sources": [
+        {
+          "card": "AOykKwhG",
+          "topic": "apps"
+        }
+      ]
+    },
+    {
+      "title": "Jointly for carers",
+      "description": "A Carers UK tool for sharing tasks and care arrangements with people you choose.",
+      "links": [
+        {
+          "label": "Jointly App",
+          "url": "https://jointlyapp.com/#about-section"
+        }
+      ],
+      "sources": [
+        {
+          "card": "fwsNhp6q",
+          "topic": "apps"
+        }
+      ]
+    },
+    {
+      "title": "Heat Pad: Relaxing Surface",
+      "description": "An app that displays changing patterns when you touch the screen.",
+      "links": [
+        {
+          "label": "Heat Pad",
+          "url": "https://apps.apple.com/gb/app/heat-pad-relaxing-meditation/id445627681"
+        }
+      ],
+      "sources": [
+        {
+          "card": "6i973hI9",
+          "topic": "apps"
+        }
+      ]
+    },
+    {
+      "title": "Google Keep",
+      "description": "A Google app for making notes, checklists and reminders.",
+      "links": [
+        {
+          "label": "Google Keep",
+          "url": "https://workspace.google.com/products/keep/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "6e80G9Qu",
+          "topic": "apps"
+        }
+      ]
+    },
+    {
+      "title": "Sensa",
+      "description": "A commercial wellbeing app. Check the subscription, renewal and cancellation terms before signing up.",
+      "links": [
+        {
+          "label": "Sensa.health",
+          "url": "https://sensa.health/"
+        },
+        {
+          "label": "App features",
+          "url": "https://sensa.health/app-features/"
+        }
+      ],
+      "note": "Subscription options",
+      "sources": [
+        {
+          "card": "Co9iUXuW",
+          "topic": "apps"
+        }
+      ]
+    },
+    {
+      "title": "Monotropism",
+      "description": "Read about an autistic-led theory of attention and how it relates to everyday experiences.",
+      "links": [
+        {
+          "label": "Monotropism explained",
+          "url": "https://monotropism.org/explanations/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "unZLg7TS",
+          "topic": "websites-podcasts"
+        }
+      ]
+    },
+    {
+      "title": "BBC Radio 4 on neurodivergence and adulthood",
+      "description": "An episode of All Kinds of Minds about adult diagnosis, work and relationships.",
+      "links": [
+        {
+          "label": "Listen to the BBC episode on Apple Podcasts",
+          "url": "https://podcasts.apple.com/gb/podcast/all-kinds-of-minds-3-neurodivergence-and-adulthood/id1652327390?i=1000788244345"
+        }
+      ],
+      "sources": [
+        {
+          "card": "SIqaC6A1",
+          "topic": "websites-podcasts"
+        }
+      ]
+    },
+    {
+      "title": "Neurodiversity in Business",
+      "description": "A charity sharing resources about neurodiversity and inclusion at work.",
+      "links": [
+        {
+          "label": "Neurodiversity in Business resource hub",
+          "url": "https://neurodiversity.org/ndresourcehub/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "Guw9fzgb",
+          "topic": "websites-podcasts"
+        }
+      ]
+    },
+    {
+      "title": "1800 Seconds on Autism",
+      "description": "A BBC podcast about autistic people’s everyday lives and experiences.",
+      "links": [
+        {
+          "label": "Listen to the BBC podcast on Apple Podcasts",
+          "url": "https://podcasts.apple.com/gb/podcast/1800-seconds-on-autism/id1444057570"
+        }
+      ],
+      "sources": [
+        {
+          "card": "KtAFw12B",
+          "topic": "websites-podcasts"
+        }
+      ]
+    },
+    {
+      "title": "Improve Your Social Skills",
+      "description": "A writer’s guide with ideas for navigating conversations and social situations.",
+      "links": [
+        {
+          "label": "Online Social Skills Guide",
+          "url": "https://www.improveyoursocialskills.com/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "GQgqRCvv",
+          "topic": "websites-podcasts"
+        }
+      ]
+    },
+    {
+      "title": "Autistic video creators on Reddit",
+      "description": "The original Reddit list has been removed. The Trello card records the original recommendation.",
+      "links": [],
+      "sources": [
+        {
+          "card": "sLnheP41",
+          "topic": "websites-podcasts"
+        }
+      ]
+    },
+    {
+      "title": "The Loudest Girl in the World",
+      "description": "A podcast exploring an adult autism diagnosis through one person’s experience.",
+      "links": [
+        {
+          "label": "The Loudest Girl In The World Podcast",
+          "url": "https://www.pushkin.fm/podcasts/loudest-girl-in-the-world"
+        }
+      ],
+      "sources": [
+        {
+          "card": "TGkhH6xk",
+          "topic": "websites-podcasts"
+        }
+      ]
+    },
+    {
+      "title": "Autistic Parents UK",
+      "description": "Peer support and resources for parents who are themselves autistic.",
+      "links": [
+        {
+          "label": "Autistic Parents UK",
+          "url": "https://www.autisticparentsuk.org/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "2CP3t676",
+          "topic": "websites-podcasts"
+        }
+      ]
+    },
+    {
+      "title": "The Girl with the Curly Hair",
+      "description": "Videos about autistic experiences from the Curly Hair Project.",
+      "links": [
+        {
+          "label": "The Girl with the Curly Hair",
+          "url": "https://www.youtube.com/channel/UCEqlclypFG6uoI5gBoi7dVg"
+        }
+      ],
+      "sources": [
+        {
+          "card": "pHSuUQ6W",
+          "topic": "websites-podcasts"
+        }
+      ]
+    },
+    {
+      "title": "Paige Layle on TikTok",
+      "description": "One autistic creator’s videos about life and autism.",
+      "links": [
+        {
+          "label": "Paige Layle’s official social channels",
+          "url": "https://linktr.ee/paigelayle"
+        }
+      ],
+      "sources": [
+        {
+          "card": "h9TMBMcZ",
+          "topic": "websites-podcasts"
+        }
+      ]
+    },
+    {
+      "title": "Autistic Not Weird",
+      "description": "Articles and reflections on autism and everyday life.",
+      "links": [
+        {
+          "label": "Autistic Not Weird",
+          "url": "https://autisticnotweird.com/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "xxVxrCQC",
+          "topic": "websites-podcasts"
+        }
+      ]
+    },
+    {
+      "title": "NeuroWonderful: Ask an Autistic",
+      "description": "Videos in which an autistic creator answers questions about autistic experiences.",
+      "links": [
+        {
+          "label": "Amythest Schaber",
+          "url": "https://www.youtube.com/user/neurowonderful"
+        }
+      ],
+      "sources": [
+        {
+          "card": "FNVmbKcT",
+          "topic": "websites-podcasts"
+        }
+      ]
+    },
+    {
+      "title": "Dr Pooky Knightsmith",
+      "description": "Videos about mental health and neurodivergence.",
+      "links": [
+        {
+          "label": "Pooky Knightsmith Mental Health",
+          "url": "https://www.youtube.com/channel/UCouKr8JeXinK6v_nf5dWA1A"
+        }
+      ],
+      "sources": [
+        {
+          "card": "hNp0tRBy",
+          "topic": "websites-podcasts"
+        }
+      ]
+    },
+    {
+      "title": "The Aspie World",
+      "description": "An autistic creator’s videos about neurodivergence and daily life.",
+      "links": [
+        {
+          "label": "The Aspie World",
+          "url": "https://www.youtube.com/channel/UCOKKRcJey93Ms-dL630UNIQ"
+        }
+      ],
+      "sources": [
+        {
+          "card": "4Iq7NOZj",
+          "topic": "websites-podcasts"
+        }
+      ]
+    },
+    {
+      "title": "Purple Ella",
+      "description": "Videos sharing lived experience of autism and ADHD.",
+      "links": [
+        {
+          "label": "Purple Ella",
+          "url": "https://www.youtube.com/user/purplemumify"
+        }
+      ],
+      "sources": [
+        {
+          "card": "wur392kQ",
+          "topic": "websites-podcasts"
+        }
+      ]
+    },
+    {
+      "title": "The Autistic Advocate",
+      "description": "Videos about autistic perspectives, advocacy and wellbeing.",
+      "links": [
+        {
+          "label": "The Autistic Advocate",
+          "url": "https://www.youtube.com/channel/UCPdoD7sz2r6Qe3CsD97CSCw"
+        }
+      ],
+      "sources": [
+        {
+          "card": "7i0Rh74h",
+          "topic": "websites-podcasts"
+        }
+      ]
+    },
+    {
+      "title": "Autistic Selves video on masking and dissociation",
+      "description": "A creator discusses their perspective on autistic masking and dissociative identity disorder.",
+      "links": [
+        {
+          "label": "Autistic Masking and it’s relationship to Dissociative Identity Disorder",
+          "url": "https://www.youtube.com/watch?v=u65fTxM-W2k"
+        }
+      ],
+      "note": "The provider appears in search results. Direct access to the page could not be confirmed.",
+      "sources": [
+        {
+          "card": "uWe3rO69",
+          "topic": "websites-podcasts"
+        }
+      ]
+    },
+    {
+      "title": "CAAS women’s forum",
+      "description": "A discussion group for autistic women. Check current groups, location and how to join with CAAS.",
+      "links": [
+        {
+          "label": "CAAS Women's Forum",
+          "url": "https://adhdandautism.org/services/adult-services/adult-social-groups/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "CjfIgDjp",
+          "topic": "women"
+        }
+      ]
+    },
+    {
+      "title": "Autistic Women’s Empowerment Project",
+      "description": "Explore a community project for autistic women.",
+      "links": [
+        {
+          "label": "AWE Project Wales",
+          "url": "https://www.aweprojectwales.com/"
+        }
+      ],
+      "note": "Account may be needed",
+      "sources": [
+        {
+          "card": "Bj5hF9wb",
+          "topic": "women"
+        },
+        {
+          "card": "WGaBZpRP",
+          "topic": "online-groups"
+        }
+      ]
+    },
+    {
+      "title": "Spectrum Women",
+      "description": "Articles and personal accounts written by autistic women.",
+      "links": [
+        {
+          "label": "Spectrum Women",
+          "url": "https://www.spectrumwomen.com/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "C5W5SyoI",
+          "topic": "women"
+        }
+      ]
+    },
+    {
+      "title": "Scottish Women’s Autism Network (SWAN)",
+      "description": "A Scottish network offering community and information for autistic women.",
+      "links": [
+        {
+          "label": "About SWAN",
+          "url": "https://swanscotland.org/about-us"
+        }
+      ],
+      "note": "Account may be needed",
+      "sources": [
+        {
+          "card": "9hvkEAjN",
+          "topic": "women"
+        },
+        {
+          "card": "OTiKEkxw",
+          "topic": "online-groups"
+        }
+      ]
+    },
+    {
+      "title": "Neurodivergent-friendly women’s AA group",
+      "description": "An Alcoholics Anonymous meeting in Muswell Hill. Check the organiser’s page for current times and access.",
+      "links": [
+        {
+          "label": "Neurodivergent-friendly women’s AA meeting",
+          "url": "https://www.alcoholics-anonymous.org.uk/meeting/6048/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "4OwVVLOd",
+          "topic": "women"
+        }
+      ]
+    },
+    {
+      "title": "Autistic London on Facebook",
+      "description": "A social media page about autism and London. Facebook may ask you to sign in.",
+      "links": [],
+      "note": "Account may be needed · Current provider details could not be confirmed. The CAAS card is available below.",
+      "sources": [
+        {
+          "card": "ynV2ApqQ",
+          "topic": "online-groups"
+        }
+      ]
+    },
+    {
+      "title": "Neurodiverse UK on Facebook",
+      "description": "An online community. Facebook may ask you to sign in or request membership.",
+      "links": [],
+      "note": "Account may be needed · Current provider details could not be confirmed. The CAAS card is available below.",
+      "sources": [
+        {
+          "card": "QlObhY42",
+          "topic": "online-groups"
+        }
+      ]
+    },
+    {
+      "title": "London Autism Group on Facebook",
+      "description": "A group for autistic adults and parents. Check its membership and privacy settings.",
+      "links": [
+        {
+          "label": "London Autism Group Charity’s online support group",
+          "url": "https://www.londonautismgroupcharity.org/lag-facebook-support-group"
+        }
+      ],
+      "note": "Account may be needed",
+      "sources": [
+        {
+          "card": "sLRwCWF3",
+          "topic": "online-groups"
+        }
+      ]
+    },
+    {
+      "title": "Asperger London Area Group (ALAG)",
+      "description": "A local group for autistic adults to meet peers and discuss shared interests.",
+      "links": [
+        {
+          "label": "Asperger London Area Group",
+          "url": "https://alag.org.uk/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "jwzkNpX5",
+          "topic": "london-groups"
+        }
+      ]
+    },
+    {
+      "title": "London autism groups on Meetup",
+      "description": "Search event listings for groups near London. Check who organises each event and whether booking is needed.",
+      "links": [
+        {
+          "label": "Meetup autism groups in London",
+          "url": "https://www.meetup.com/find/gb--london/asperger-syndrome/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "jYwrU2Gg",
+          "topic": "london-groups"
+        }
+      ]
+    },
+    {
+      "title": "Asperger Syndrome Foundation",
+      "description": "Information and support for autistic people under the foundation’s original name.",
+      "links": [
+        {
+          "label": "Aspergers Syndrome Foundation",
+          "url": "https://aspergerfoundation.org.uk/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "HpH5mUwM",
+          "topic": "london-groups"
+        }
+      ]
+    },
+    {
+      "title": "Autism Links group directory",
+      "description": "The board links to a directory of local groups. The original directory could not be confirmed. The National Autistic Society also lists groups across the UK.",
+      "links": [
+        {
+          "label": "Alternative directory from the National Autistic Society",
+          "url": "https://www.autism.org.uk/autism-services-directory"
+        }
+      ],
+      "sources": [
+        {
+          "card": "886eVasW",
+          "topic": "london-groups"
+        }
+      ]
+    },
+    {
+      "title": "AuStruck at Resources for Autism",
+      "description": "A card about an evening social group for autistic adults. Check with the organiser about current groups.",
+      "links": [
+        {
+          "label": "Current adult groups at Resources for Autism",
+          "url": "https://www.resourcesforautism.org.uk/our-services/weekly-social-groups/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "G0JtS6f6",
+          "topic": "london-groups"
+        }
+      ]
+    },
+    {
+      "title": "ASAP Harrow",
+      "description": "A local group where autistic adults can meet and take part in social activities.",
+      "links": [
+        {
+          "label": "ASAP Harrow",
+          "url": "https://www.had.org.uk/asap"
+        }
+      ],
+      "sources": [
+        {
+          "card": "pTxi4l5I",
+          "topic": "london-groups"
+        }
+      ]
+    },
+    {
+      "title": "National Autistic Society ASSIST in Ealing",
+      "description": "Information about local social groups for autistic adults. Ask the provider about current meetings.",
+      "links": [
+        {
+          "label": "Council listing for ASSIST London",
+          "url": "https://www.rbkc.gov.uk/kb5/rbkc/fis/service.page?id=VBn3dIQmVq0"
+        }
+      ],
+      "sources": [
+        {
+          "card": "mdrkvK9k",
+          "topic": "london-groups"
+        }
+      ]
+    },
+    {
+      "title": "ASSIST women’s group in Ealing",
+      "description": "The board lists a women’s social group in Ealing. Ask ASSIST London whether it is meeting.",
+      "links": [
+        {
+          "label": "Ask ASSIST London about current groups",
+          "url": "https://www.rbkc.gov.uk/kb5/rbkc/fis/service.page?id=VBn3dIQmVq0"
+        }
+      ],
+      "sources": [
+        {
+          "card": "26Z7gZg3",
+          "topic": "london-groups"
+        }
+      ]
+    },
+    {
+      "title": "CAAS group for parents of adults",
+      "description": "Find out about support for parents of autistic adults and adults with ADHD, and how to join a group.",
+      "links": [
+        {
+          "label": "CAAS support for parents, partners and supporters",
+          "url": "https://adhdandautism.org/services/adult-services/adult-supporter-services/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "pESZvWuo",
+          "topic": "london-groups"
+        }
+      ]
+    },
+    {
+      "title": "Autistic Inclusive Meets",
+      "description": "An autistic-led organisation with information on social activities and community events.",
+      "links": [
+        {
+          "label": "Autistic Inclusive Meets UK",
+          "url": "https://www.autisticinclusivemeets.org/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "aAF1aZ64",
+          "topic": "london-groups"
+        }
+      ]
+    },
+    {
+      "title": "ActuallyHaringey Autism Hub",
+      "description": "Local information, peer support and social opportunities for autistic adults in Haringey.",
+      "links": [
+        {
+          "label": "#ActuallyHaringey Autism Hub",
+          "url": "https://gps.westandnorthlondon.icb.nhs.uk/services/autism-hub-actuallyharingey"
+        }
+      ],
+      "sources": [
+        {
+          "card": "Hgc5K8KJ",
+          "topic": "london-groups"
+        }
+      ]
+    },
+    {
+      "title": "London Autism Group Charity community cafés",
+      "description": "Find social meet-ups and check which café dates and venues are available.",
+      "links": [
+        {
+          "label": "Community Cafes",
+          "url": "https://www.londonautismgroupcharity.org/community-cafes"
+        }
+      ],
+      "sources": [
+        {
+          "card": "oHRZ9W84",
+          "topic": "london-groups"
+        }
+      ]
+    },
+    {
+      "title": "ASSIST London social support",
+      "description": "The original card comes from the Ealing directory. A council listing describes the National Autistic Society service.",
+      "links": [
+        {
+          "label": "Council listing for ASSIST London",
+          "url": "https://www.rbkc.gov.uk/kb5/rbkc/fis/service.page?id=VBn3dIQmVq0"
+        }
+      ],
+      "sources": [
+        {
+          "card": "rcBDDslX",
+          "topic": "london-groups"
+        }
+      ]
+    },
+    {
+      "title": "Via, formerly Westminster Drug Project",
+      "description": "Find Via’s local services for people affected by alcohol or drug use.",
+      "links": [
+        {
+          "label": "Visit Via",
+          "url": "https://www.viaorg.uk/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "9v6QDTBK",
+          "topic": "alcohol-drugs"
+        }
+      ]
+    },
+    {
+      "title": "Talk to Frank",
+      "description": "Information about drugs and how to find help for yourself or someone else.",
+      "links": [
+        {
+          "label": "FRANK drugs information",
+          "url": "https://www.talktofrank.com/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "bbgGJd8Z",
+          "topic": "alcohol-drugs"
+        }
+      ]
+    },
+    {
+      "title": "Drinkaware",
+      "description": "Information and tools for people thinking about their drinking.",
+      "links": [
+        {
+          "label": "Drinkaware",
+          "url": "https://www.drinkaware.co.uk/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "LQQV17nZ",
+          "topic": "alcohol-drugs"
+        }
+      ]
+    },
+    {
+      "title": "B3 peer support in Brent",
+      "description": "Peer-led support and advocacy for people affected by drug or alcohol use.",
+      "links": [
+        {
+          "label": "B3 in Brent",
+          "url": "https://www.b-3.org.uk/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "UBoQ6hsH",
+          "topic": "alcohol-drugs"
+        }
+      ]
+    },
+    {
+      "title": "Sunflower lanyards and RADAR keys",
+      "description": "The board lists these useful items for travel and access. Check product details and costs before buying.",
+      "links": [
+        {
+          "label": "Sunflower lanyards and RADAR keys",
+          "url": "https://www.royalfree.nhs.uk/patients-and-visitors/patient-information-leaflets/everyday-accessibility-supports"
+        }
+      ],
+      "sources": [
+        {
+          "card": "E69WidKg",
+          "topic": "travel-planning"
+        }
+      ]
+    },
+    {
+      "title": "Finding a personal assistant",
+      "description": "Explore information about employing a personal assistant and local organisations that can help you look.",
+      "links": [
+        {
+          "label": "Independent Living",
+          "url": "https://www.ilanet.co.uk/"
+        },
+        {
+          "label": "Disability Rights UK",
+          "url": "https://www.disabilityrightsuk.org/resources/being-control-getting-personal-assistants-pas"
+        }
+      ],
+      "sources": [
+        {
+          "card": "XhRgXfb7",
+          "topic": "travel-planning"
+        }
+      ]
+    },
+    {
+      "title": "YearCompass",
+      "description": "A workbook for reflecting on the past year and thinking about the year ahead.",
+      "links": [
+        {
+          "label": "YearCompass",
+          "url": "https://yearcompass.com/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "QPmtSbjz",
+          "topic": "travel-planning"
+        }
+      ]
+    },
+    {
+      "title": "Coaching and mentoring providers",
+      "description": "Independent organisations offering mentoring or coaching. Ask about the approach and fees.",
+      "links": [
+        {
+          "label": "ASM Neuroinclusive Training",
+          "url": "https://www.asmentoring.co.uk/"
+        },
+        {
+          "label": "Connections in Mind",
+          "url": "https://connectionsinmind.com/"
+        },
+        {
+          "label": "Hendrickx Associates",
+          "url": "https://www.hendrickxautism.com/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "1IUjBS1t",
+          "topic": "travel-planning"
+        }
+      ]
+    },
+    {
+      "title": "Travel training in Barnet",
+      "description": "Barnet’s Able to Travel sessions offer practice on public transport and with road safety. The council lists dates and booking details.",
+      "links": [
+        {
+          "label": "Able To Travel bus training in Edgware",
+          "url": "https://www.barnetlocaloffer.org.uk/blog_articles/5571-free-independent-travel-training-scheme-for-children-and-adults-with-send"
+        }
+      ],
+      "sources": [
+        {
+          "card": "YN7B06dF",
+          "topic": "travel-planning"
+        }
+      ]
+    },
+    {
+      "title": "TfL travel mentoring and assistance",
+      "description": "Find help with planning an accessible journey, practising public transport or asking staff for assistance.",
+      "links": [
+        {
+          "label": "Travel mentoring",
+          "url": "https://tfl.gov.uk/help-with-travel/accessible-and-step-free-travel/travel-mentoring"
+        },
+        {
+          "label": "Accessible travel in London",
+          "url": "https://tfl.gov.uk/api/document/accessibletravelinlondonleaflet.pdf?id=15f49baf-3558-4550-a82e-b8158b65aeb2&type=document"
+        }
+      ],
+      "note": "The provider appears in search results. Direct access to the page could not be confirmed.",
+      "sources": [
+        {
+          "card": "W8e6ADBQ",
+          "topic": "travel-planning"
+        }
+      ]
+    },
+    {
+      "title": "Assistance at Heathrow Airport",
+      "description": "Find Heathrow’s current information for travellers with non-visible disabilities.",
+      "links": [
+        {
+          "label": "Non-visible disabilities",
+          "url": "https://www.heathrow.com/at-the-airport/assistance-and-accessibility/non-visible-disabilities"
+        }
+      ],
+      "sources": [
+        {
+          "card": "VJXHYdH2",
+          "topic": "travel-planning"
+        }
+      ]
+    },
+    {
+      "title": "London Freedom Pass",
+      "description": "London Councils explains who can apply and how to use the pass.",
+      "links": [
+        {
+          "label": "Compare the London Freedom Pass options",
+          "url": "https://www.freedompass.org/apply-pass/which-pass-should-i-get"
+        }
+      ],
+      "sources": [
+        {
+          "card": "vTQt8qWw",
+          "topic": "travel-planning"
+        }
+      ]
+    },
+    {
+      "title": "TfL Please Offer Me a Seat",
+      "description": "Information about a badge and card for people who find standing on public transport difficult.",
+      "links": [
+        {
+          "label": "TfL badge and card information",
+          "url": "https://tfl.gov.uk/transport-accessibility/please-offer-me-a-seat"
+        }
+      ],
+      "sources": [
+        {
+          "card": "fKCgH1Fb",
+          "topic": "travel-planning"
+        }
+      ]
+    },
+    {
+      "title": "London Taxicard",
+      "description": "Read about the scheme, check your borough’s criteria and find how to apply.",
+      "links": [
+        {
+          "label": "London Taxicard",
+          "url": "https://www.taxicard.london/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "4Y5bufca",
+          "topic": "travel-planning"
+        }
+      ]
+    },
+    {
+      "title": "Smoke and heat alarms",
+      "description": "London Fire Brigade explains alarm types and when to ask about a specialist system for your home.",
+      "links": [
+        {
+          "label": "London Fire Brigade guide to smoke and heat alarms",
+          "url": "https://www.london-fire.gov.uk/safety/the-home/smoke-alarms-and-heat-alarms"
+        }
+      ],
+      "sources": [
+        {
+          "card": "dYUCr0mk",
+          "topic": "travel-planning"
+        }
+      ]
+    },
+    {
+      "title": "Find a specialist driving instructor",
+      "description": "The board’s original instructor finder could not be confirmed. Mobility UK lists driving instructors for disabled learners.",
+      "links": [
+        {
+          "label": "Alternative directory of accessible driving lessons",
+          "url": "https://mobility.org.uk/driving-lessons"
+        }
+      ],
+      "sources": [
+        {
+          "card": "sAKNp5C1",
+          "topic": "travel-planning"
+        }
+      ]
+    },
+    {
+      "title": "Refuge National Domestic Abuse Helpline",
+      "description": "Find current contact options and information about domestic abuse support in England.",
+      "links": [
+        {
+          "label": "Refuge National Domestic Abuse Helpline",
+          "url": "https://www.nationaldahelpline.org.uk/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "cxHFh2z9",
+          "topic": "abuse"
+        }
+      ]
+    },
+    {
+      "title": "Men’s Advice Line",
+      "description": "Find confidential support for men experiencing domestic abuse and information about getting in touch.",
+      "links": [
+        {
+          "label": "Domestic Abuse Helpline for Men",
+          "url": "https://mensadviceline.org.uk/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "qDD0qCnw",
+          "topic": "abuse"
+        }
+      ]
+    },
+    {
+      "title": "Galop LGBT+ abuse support",
+      "description": "Find the charity’s current advice and support routes for LGBT+ people experiencing abuse.",
+      "links": [
+        {
+          "label": "Galop",
+          "url": "https://www.galop.org.uk/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "EQxCB2LR",
+          "topic": "abuse"
+        }
+      ]
+    },
+    {
+      "title": "Galop",
+      "description": "An LGBT+ anti-abuse charity supporting people affected by violence, abuse or hate crime.",
+      "links": [
+        {
+          "label": "Galop helplines",
+          "url": "https://www.galop.org.uk/helpline"
+        }
+      ],
+      "sources": [
+        {
+          "card": "FtIGmetY",
+          "topic": "lgbtq"
+        }
+      ]
+    },
+    {
+      "title": "Mosaic LGBT+ Young Persons’ Trust",
+      "description": "Explore activities and support for LGBT+ young people in London.",
+      "links": [
+        {
+          "label": "Mosaic Trust",
+          "url": "https://www.mosaictrust.org.uk/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "xWbREPvj",
+          "topic": "lgbtq"
+        }
+      ]
+    },
+    {
+      "title": "Gendered Intelligence",
+      "description": "Find information, groups and support for trans people and those who support them.",
+      "links": [
+        {
+          "label": "Gendered Intelligence",
+          "url": "https://genderedintelligence.co.uk:443/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "1tGhE7L9",
+          "topic": "lgbtq"
+        }
+      ]
+    },
+    {
+      "title": "UNITY+ in Harrow",
+      "description": "A local LGBTQIA+ youth group linked to Wealdstone Youth Hub. Check the current programme before attending.",
+      "links": [
+        {
+          "label": "Ask Wealdstone Youth Centre about the group",
+          "url": "https://www.harrow.gov.uk/childrens-social-care/wealdstone-youth-centre"
+        }
+      ],
+      "sources": [
+        {
+          "card": "AtoGDrhW",
+          "topic": "lgbtq"
+        }
+      ]
+    },
+    {
+      "title": "Neurodivergence in the LGBTQ+ community",
+      "description": "An article from a US LGBTQ+ centre exploring the intersection of identity and neurodivergence.",
+      "links": [
+        {
+          "label": "Neurodivergence in the LGBTQ+ community",
+          "url": "https://www.pridecentervt.org/2021/12/22/neurodivergence-in-the-lgbtq-community/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "kmwImuGY",
+          "topic": "lgbtq"
+        }
+      ]
+    },
+    {
+      "title": "Sexual Health London",
+      "description": "Check whether you can use the online testing service in your borough and how to request a kit.",
+      "links": [
+        {
+          "label": "Sexual Health London",
+          "url": "https://www.shl.uk/"
+        }
+      ],
+      "sources": [
+        {
+          "card": "Xkobx0gR",
+          "topic": "sexual-health"
+        }
+      ]
+    },
+    {
+      "title": "Sexual health clinics in North West London",
+      "description": "Find clinic locations, accessibility information and ways to book or contact a service.",
+      "links": [
+        {
+          "label": "Find a local sexual health clinic",
+          "url": "https://shc.lnwh.nhs.uk/clinics"
+        }
+      ],
+      "sources": [
+        {
+          "card": "oRWD5PFv",
+          "topic": "sexual-health"
+        }
+      ]
+    }
+  ]
+}

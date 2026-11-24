@@ -25,15 +25,19 @@
   if(hit.audienceHits.length)reasons.push(hit.audienceHits.map(id=>core.AUDIENCES[id]).join(', '));
   article.append(make('p','Matches: '+[...new Set(reasons)].join(' · '),'navigator-match'));
   if(top)article.append(make('p',where,'navigator-where'));
-  const next=make('p',undefined,'navigator-next');next.append(make('strong','Next step: '),document.createTextNode(r.nextStep||r.access||'Contact the service to check how to join.'));article.append(next);
+  const pending=core.unresolvedSourceNotice(r);
+  if(pending)article.append(make('p',pending,'source-unconfirmed'));
+  else{const next=make('p',undefined,'navigator-next');next.append(make('strong','Next step: '),document.createTextNode(r.nextStep||r.access||'Contact the service to check how to join.'));article.append(next);}
   const links=make('div',undefined,'navigator-contact');
-  if(/^https:\/\//.test(r.url||'')){const a=link(r.url,'Visit website ↗','button secondary');a.setAttribute('aria-label','Visit website ↗ for '+r.name+' (opens in a new tab)');links.append(a);}
-  if(r.phone){const a=make('a','Call '+r.phone,'navigator-phone');a.href='tel:'+r.phone.replace(/[^+0-9]/g,'');a.setAttribute('aria-label','Call '+r.phone+' — '+r.name);links.append(a);}
+  const url=pending?r.unconfirmedContact?.url:r.url,label=pending?r.unconfirmedContact?.label:'Visit website ↗';
+  if(/^https:\/\//.test(url||'')){const a=link(url,label,'button secondary');a.setAttribute('aria-label',label+' for '+r.name+' (opens in a new tab)');links.append(a);}
+  if(!pending&&r.phone){const a=make('a','Call '+r.phone,'navigator-phone');a.href='tel:'+r.phone.replace(/[^+0-9]/g,'');a.setAttribute('aria-label','Call '+r.phone+' — '+r.name);links.append(a);}
   article.append(links);
-  const details=make('details'),summary=make('summary','Joining details and source');summary.setAttribute('aria-label','Joining details and source for '+r.name);details.append(summary,make('p',r.description));
+  const details=make('details'),summary=make('summary',pending?'Previously listed details':'Joining details and source');summary.setAttribute('aria-label',summary.textContent+' for '+r.name);details.append(summary,make('p',r.description));
   const dl=make('dl');definition(dl,'Where it helps',r.coverage||dir?.name);definition(dl,'Who it is for',r.who);definition(dl,'How to make contact',r.access);definition(dl,'Costs and things to check',r.check);details.append(dl);
-  if(/^https:\/\//.test(r.sourceUrl||''))details.append(link(r.sourceUrl,'Source: '+(r.sourceOwner||'provider website')));
-  article.append(make('p','Last source check: '+r.lastChecked+(r.sourceCheck?.method==='automated'?' · Automated source check.':'.'),'navigator-checked'));
+  if(!pending&&/^https:\/\//.test(r.sourceUrl||''))details.append(link(r.sourceUrl,'Source: '+(r.sourceOwner||'provider website')));
+  article.append(make('p',(pending?'Last confirmed source check: ':'Last source check: ')+r.lastChecked+(r.sourceCheck?.method==='automated'?' · Automated source check.':'.'),'navigator-checked'));
+
   if(r.sourceCheck?.method==='automated')details.append(make('p','Source information was checked automatically. Confirm current availability and joining details with the service.'));
   article.append(details);return article;
  }
@@ -49,6 +53,7 @@
   $('directory-explorer').hidden=true;$('support-start').hidden=true;$('view-matches').hidden=false;
   $('navigator-results').hidden=false;$('navigator-more-list').replaceChildren();shownMore=0;$('navigator-more').open=false;
   const labels=last.intent.needs.map(id=>core.NEEDS[id].label.toLowerCase());
+  $('nd-ai-link').hidden=!(last.intent.audiences.includes('neurodivergent')||$('audience').value==='neurodivergent');
   $('navigator-result-heading').textContent=result.count?'A few places to start':'No close matches yet';
   $('navigator-result-summary').textContent=(last.mode==='ai'?'AI matched your request to the checked directory. ':'AI is unavailable, so these are directory matches. ')+(labels.length?'Looking for '+labels.join(', ')+'. ':'')+(result.area?'Area: '+result.areaLabel+'. ':'Local and wider options. ')+result.count+' '+(result.count===1?'match':'matches')+'.';
   const prefs=$('navigator-preferences');prefs.replaceChildren();

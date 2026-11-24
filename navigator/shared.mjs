@@ -1,5 +1,11 @@
 /* Provider-neutral request contract. No conversation, identities or queries are stored. */
 export const RELEASE = 'community-navigator-v18-2026-10-25';
+export function unresolvedSourceNotice(resource) {
+ const attempt = resource.lastUnconfirmedOn;
+ if (!attempt || attempt <= resource.lastChecked) return '';
+ const date = new Intl.DateTimeFormat('en-GB', {day:'numeric',month:'long',year:'numeric',timeZone:'UTC'}).format(new Date(attempt+'T12:00:00Z'));
+ return 'We could not confirm this listing on '+date+'. Check with the provider before travelling or applying.';
+}
 export const AREAS = {
  brent:'Brent',harrow:'Harrow','kensington-chelsea':'Kensington and Chelsea',westminster:'Westminster',camden:'Camden',hillingdon:'Hillingdon','milton-keynes':'Milton Keynes',surrey:'Surrey',ealing:'Ealing',barnet:'Barnet',islington:'Islington','hammersmith-fulham':'Hammersmith and Fulham',hounslow:'Hounslow','richmond-upon-thames':'Richmond upon Thames','wider-support':'Wider support'
 };
