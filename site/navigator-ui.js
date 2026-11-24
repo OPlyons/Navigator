@@ -34,7 +34,7 @@
   const where=r.national?'National ('+(r.coverage||'check service area').replace(/\.$/,'')+')':(dir?.name||'Check service area');
   article.append(make('h3',r.name),make('p',where,'navigator-where'));
   const reasons=[];if(last.result.area&&r.directoryId===last.result.area)reasons.push(last.result.areaLabel);
-  reasons.push(...hit.matchedNeeds.slice(0,2).map(id=>core.NEEDS[id].label));
+  reasons.push(...hit.matchedNeeds.slice(0,2).map(id=>core.NEEDS[id].label.toLowerCase()));
   if(hit.keywordHits.length)reasons.push(hit.keywordHits.slice(0,2).join(', '));
   if(hit.audienceHits.length)reasons.push(hit.audienceHits.map(id=>core.AUDIENCES[id]).join(', '));
   if(reasons.length)article.append(make('p','Matches your search for '+[...new Set(reasons)].join(', ')+'.','navigator-match'));
@@ -67,7 +67,7 @@
   $('navigator-results').hidden=false;$('navigator-more-list').replaceChildren();shownMore=0;$('navigator-more').open=false;
   const labels=last.intent.needs.map(id=>core.NEEDS[id].label.toLowerCase());
   $('nd-ai-link').hidden=!(last.intent.audiences.includes('neurodivergent')||$('audience').value==='neurodivergent');
-  $('navigator-result-heading').textContent=result.count?'A few places to start':'No close matches yet';
+  $('navigator-result-heading').textContent=result.count?'Where you could start':'No close matches yet';
   const scope=result.area?' in '+result.areaLabel:' across local and wider services';
   const needs=labels.length?' for '+labels.join(', '):'';
   $('navigator-result-summary').textContent='We found '+result.count+' '+(result.count===1?'match':'matches')+needs+scope+'.';
@@ -89,7 +89,8 @@
   const clarify=$('navigator-clarify');clarify.hidden=!!result.area||!last.intent.needs.some(n=>['housing','food','meet','sport','outdoors','arts','faith'].includes(n));
   $('navigator-more').hidden=!result.more.length;$('navigator-more-summary').textContent='See '+result.more.length+' more '+(result.more.length===1?'match':'matches');
   $('navigator-limits').textContent='Check the service’s joining details, coverage and current availability. The caller can help find information; the service decides access.'+(last.intent.preferences.includes('online')?' Online or text contact is preferred where it is recorded; check each service’s contact options.':'');
-  status(result.count?'Showing '+result.top.length+' of '+result.count+' '+(result.count===1?'match.':'matches.'):'No close matches with these choices.');
+  if(result.count===1)status('One service matches your search.');
+  else status(result.count?'Showing '+result.top.length+' of '+result.count+' matches.':'No close matches with these choices.');
  }
  async function navigate(){
   const query=search.value.trim();stop();clearResults();

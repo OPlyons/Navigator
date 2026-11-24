@@ -7,6 +7,7 @@ export function editPublicPageCopy(template) {
     .replace('You do not need to use the search or AI wizard to get urgent help.', 'Choose the help you need now, or find crisis support in your area.')
     .replace('Support types and identities <span aria-hidden="true">↓</span>', 'Support types and identities')
     .replace('<span aria-hidden="true">↻</span> Start again', 'Start again')
+    .replace('>A few places to start</h2>', '>Where you could start</h2>')
     .replace('See matching wider support →', 'See matching wider support')
     .replace('Workforce map ↗', 'Workforce map')
     .replace(/(<span class="file-meta">)PDF · (\d+ pages?) · (\d+ KB) <span aria-hidden="true">↓<\/span>/g, '$1PDF, $2, $3');
