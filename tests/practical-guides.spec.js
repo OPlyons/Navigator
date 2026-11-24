@@ -1,6 +1,30 @@
 import {test,expect} from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
-import {interceptSentry,mockNavigator,openSupport} from './support.js';
+import {interceptSentry,mockNavigator,openSupport,openMainNavigation} from './support.js';
+test('Practical guides opens the whole collection and its two interactive wizards',async({page})=>{
+ await interceptSentry(page);const calls=await mockNavigator(page);
+ await openSupport(page);
+ await (await openMainNavigation(page)).getByRole('link',{name:'Practical guides',exact:true}).click();
+ const guides=page.getByRole('main');
+ await expect(guides.getByRole('link')).toHaveText([
+  'Benefits advice','Open a bank account','Get ID','Free legal advice',
+  'Get ready for work','Find a course','Recently left hospital?','Support wizard'
+ ]);
+ const audit=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21a','wcag21aa','best-practice']).analyze();
+ expect(audit.violations).toEqual([]);
+ await guides.getByRole('link',{name:'Get ID'}).click();
+ await expect(page.getByRole('heading',{level:1,name:'Get ID'})).toBeVisible();
+ await page.getByRole('link',{name:'All practical guides'}).click();
+ await guides.getByRole('link',{name:'Recently left hospital?'}).click();
+ const hospital=page.getByRole('dialog',{name:'Recently left hospital?'});
+ await expect(hospital.getByRole('button',{name:'Help at home'})).toBeFocused();
+ await hospital.getByRole('button',{name:'Medicines support'}).click();
+ await expect(page.locator('#resource-list')).toContainText('NHS Discharge Medicines Service');
+ await (await openMainNavigation(page)).getByRole('link',{name:'Practical guides',exact:true}).click();
+ await guides.getByRole('link',{name:'Support wizard'}).click();
+ await expect(page.locator('#service-search')).toBeFocused();
+ expect(calls).toHaveLength(0);
+});
 test('guides offer one next step without changing search or sending answers',async({page})=>{
  await interceptSentry(page); const calls=await mockNavigator(page); await openSupport(page);
  await page.locator('#area').selectOption('brent');

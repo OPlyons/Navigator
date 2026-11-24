@@ -14,6 +14,13 @@ export async function interceptSentry(page){
 }
 export async function openSupport(page){await page.goto('/#support');await page.locator('#service-search').waitFor({state:'visible'});await page.locator('#service-search').fill('');}
 
+export async function keepSearchInBrowser(page){
+ await page.getByRole('link',{name:'Search privacy',exact:true}).click();
+ await page.getByLabel('Keep searches in this browser tab').check();
+ await page.getByRole('link',{name:'Return to the support wizard'}).click();
+ await page.getByText('Your search stays in this tab.',{exact:true}).waitFor();
+}
+
 export async function openMainNavigation(page){
  const toggle=page.getByRole('button',{name:'Open menu',exact:true});
  if(await toggle.isVisible())await toggle.click();

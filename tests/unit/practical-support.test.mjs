@@ -12,6 +12,7 @@ const context=vm.createContext({window:{}});
 for(const match of html.matchAll(/<script id="(navigator-core|needs-search-engine)">([\s\S]*?)<\/script>/g))vm.runInContext(match[2],context);
 const engine=context.window.CNWLNeedsSearch;
 const scenarios=[
+ ['I need a sofa','wider-reuse-household-essentials','household'],
  ['I have no fridge','wider-reuse-household-essentials','household'],
  ['I cannot afford a bed','wider-reuse-household-essentials','household'],
  ['I have no data for my phone','wider-national-databank','digital'],
@@ -23,6 +24,20 @@ const scenarios=[
  ['Extra help with energy while recovering','wider-priority-services-register','energy-support'],
  ['A back-up care plan if my carer is ill','wider-carers-contingency-plan','carer-plan']
 ];
+test('sofa surfing and couch surfing lead to housing support',()=>{
+ for(const query of ['I am sofa surfing','I need help with couch-surfing']){
+  assert.ok(core.localIntent(query).needs.includes('housing'));
+  assert.ok(!core.localIntent(query).needs.includes('household'));
+  assert.ok(engine.parse(query).needIds.includes('housing'));
+ }
+});
+test('the other homepage examples lead to food help and companionship',()=>{
+ for(const [query,need,names] of [['I have no food','food',/food|hardship/i],['I’m lonely','meet',/befriending|friendship|social (activities|groups)/i]]){
+  const result=searchDirectory(catalog,core.localIntent(query),{},query);
+  assert.ok(result.top[0].matchedNeeds.includes(need));
+  assert.match(catalog.resources.find(r=>r.id===result.top[0].id).name,names);
+ }
+});
 for(const [query,id,need] of scenarios)test('practical support in both searches: '+query,()=>{
  const parsed=engine.parse(query);
  assert.ok(parsed.needIds.includes(need));

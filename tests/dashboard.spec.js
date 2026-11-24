@@ -1,5 +1,5 @@
 import {test,expect} from '@playwright/test';
-import {interceptSentry,mockNavigator,openSupport,openMainNavigation,records} from './support.js';
+import {interceptSentry,keepSearchInBrowser,mockNavigator,openSupport,openMainNavigation,records} from './support.js';
 test.beforeEach(async({page})=>{await interceptSentry(page);});
 test('wizard, borough map and support icons share the opening dashboard',async({page,isMobile})=>{
  const calls=await mockNavigator(page);
@@ -50,7 +50,7 @@ test('practical filters are directly available as icons and keep the borough cho
  await page.locator('#clear-filters').click();await expect(page.locator('#resource-count')).toContainText(records.length+' listings');expect(calls).toHaveLength(0);
 });
 test('wellbeing icons find new local services and include clearly labelled national options',async({page})=>{
- const calls=await mockNavigator(page);await openSupport(page);
+ const calls=await mockNavigator(page);await openSupport(page);await keepSearchInBrowser(page);
  for(const [type,area,query,name] of [
   ['relax','harrow','Soham','Soham Yoga'],
   ['therapy','ealing','Ealing Abbey','Ealing Abbey Counselling Service'],
@@ -58,19 +58,21 @@ test('wellbeing icons find new local services and include clearly labelled natio
   ['therapy','ealing','find talking therapies','NHS — find talking therapies']
  ]){
   await page.locator('#navigator-reset').click();await page.locator('#area').selectOption(area);await page.locator('[data-activity="'+type+'"]').click();
-  await page.locator('#service-search').fill(query);await page.locator('#navigator-local').click();
+  await page.locator('#service-search').fill(query);await page.getByRole('button',{name:'Search',exact:true}).click();
   await expect(page.locator('#resource-list')).toContainText(name);
  }
  await expect(page.locator('#resource-list .category').first()).toContainText('National');
  await page.locator('#clear-filters').click();await expect(page.locator('#resource-count')).toContainText(records.length+' listings');
  await expect(page.locator('#service-search')).toHaveValue('');await expect(page.locator('[data-activity="all"]')).toHaveAttribute('aria-pressed','true');expect(calls).toHaveLength(0);
 });
-test('the compact wizard keeps a local text search available',async({page})=>{
- const calls=await mockNavigator(page);await openSupport(page);await page.locator('#area').selectOption('camden');await page.locator('#service-search').fill('board games');await page.locator('#navigator-local').click();
+test('the single search button honours the private search preference after a reload',async({page})=>{
+ const calls=await mockNavigator(page);await openSupport(page);await keepSearchInBrowser(page);await page.reload();
+ await expect(page.locator('#search-data-note')).toHaveText('Your search stays in this tab.');
+ await page.locator('#area').selectOption('camden');await page.locator('#service-search').fill('board games');await page.getByRole('button',{name:'Search',exact:true}).click();
  await expect(page.locator('#resource-list')).toContainText(/board.game/i);expect(calls).toHaveLength(0);await expect(page.locator('#navigator-results')).toBeHidden();
 });
 test('Support for icon opens every group and applies or clears the local filter',async({page})=>{
- const calls=await mockNavigator(page);await openSupport(page);
+ const calls=await mockNavigator(page);await openSupport(page);await keepSearchInBrowser(page);
  const trigger=page.locator('#support-for-toggle'),dialog=page.getByRole('dialog',{name:'Support for',exact:true});
  await expect(trigger).toBeEnabled();await expect(dialog).toBeHidden();
  const labels=['Everyone','Women','Men','Neurodivergent people','Disabled people / access','LGBTQ+ people','Trans & non-binary people','Cultural & faith communities','Older people','Young adults','Pregnancy & new parents','Relationships & families','Carers'];
@@ -86,7 +88,7 @@ test('Support for icon opens every group and applies or clears the local filter'
   await expect(page.locator('#audience')).toHaveValue(id);
  }
  await page.locator('#audience-clear').click();await expect(page.locator('#resource-count')).toContainText(records.length+' listings');await expect(page.locator('#audience-selection')).toBeHidden();
- await page.locator('#area').selectOption('harrow');await page.locator('[data-activity="relax"]').click();await page.locator('#service-search').fill('yoga');await page.locator('#navigator-local').click();
+ await page.locator('#area').selectOption('harrow');await page.locator('[data-activity="relax"]').click();await page.locator('#service-search').fill('yoga');await page.getByRole('button',{name:'Search',exact:true}).click();
  await trigger.click();await dialog.getByRole('button',{name:'Women',exact:true}).click();
  await expect(page.locator('#area')).toHaveValue('harrow');await expect(page.locator('[data-activity="relax"]')).toHaveAttribute('aria-pressed','true');await expect(page.locator('#service-search')).toHaveValue('yoga');
  await expect(page.locator('#resource-list')).toContainText('Well Woman Yoga');await expect(page.locator('#audience-selection')).toContainText('Support for: Women');
@@ -110,9 +112,9 @@ test('Support for picker supports keyboard dismissal and reading options',async(
 });
 
 test('local search can use a named borough without sending an AI request',async({page})=>{
- const calls=await mockNavigator(page);await openSupport(page);
+ const calls=await mockNavigator(page);await openSupport(page);await keepSearchInBrowser(page);
  await page.locator('#service-search').fill('food banks in Harrow');
- await page.locator('#navigator-local').click();
+ await page.getByRole('button',{name:'Search',exact:true}).click();
  await expect(page.locator('#area')).toHaveValue('harrow');
  await expect(page.locator('#resource-list')).toContainText('Harrow Foodbank');
  expect(calls).toHaveLength(0);

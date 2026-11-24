@@ -1,5 +1,6 @@
 (() => {
  'use strict';
+ document.documentElement.classList.add('js');
  const $=id=>document.getElementById(id);
 $('larger-text').addEventListener('click',e=>{const on=document.documentElement.classList.toggle('large');e.currentTarget.setAttribute('aria-pressed',on);e.currentTarget.textContent=on?'Standard text size':'Larger text';});
 $('hide-pictures').addEventListener('click',e=>{const on=document.documentElement.classList.toggle('no-pictures');e.currentTarget.setAttribute('aria-pressed',on);e.currentTarget.textContent=on?'Show pictures':'Hide pictures';});
