@@ -1,7 +1,7 @@
 import {test,expect} from '@playwright/test';
 import {interceptSentry,keepSearchInBrowser,mockNavigator,openSupport,openMainNavigation,records} from './support.js';
 test.beforeEach(async({page})=>{await interceptSentry(page);});
-test('wizard, borough map and support icons share the opening dashboard',async({page,isMobile})=>{
+test('borough map and support icons open above the Support wizard',async({page,isMobile})=>{
  const calls=await mockNavigator(page);
  if(!isMobile)await page.setViewportSize({width:1280,height:720});
  await page.goto('/');await (await openMainNavigation(page)).getByRole('link',{name:'Find support',exact:true}).click();await expect(page.locator('#service-search')).toBeEnabled();
@@ -10,11 +10,13 @@ test('wizard, borough map and support icons share the opening dashboard',async({
  await expect(page.locator('[data-search-mode]')).toHaveCount(0);await expect(page.locator('#activity-choices > button')).toHaveCount(20);
  if(!isMobile){
   const wizard=await page.locator('.wizard-panel').boundingBox(),map=await page.locator('.support-area').boundingBox(),types=await page.locator('.support-types').boundingBox();
-  expect(Math.abs(wizard.y-map.y)).toBeLessThan(2);expect(map.x).toBeGreaterThan(wizard.x+wizard.width);expect(types.x).toBeGreaterThan(map.x+map.width);
+  expect(Math.abs(map.y-types.y)).toBeLessThan(2);
+  expect(types.x).toBeGreaterThan(map.x+map.width);
+  expect(wizard.y).toBeGreaterThanOrEqual(Math.max(map.y+map.height,types.y+types.height));
   const sizing=await page.evaluate(()=>Object.fromEntries(['.neo-bar','#primary-nav','.neo-utility','main','.support-heading','.wizard-panel','.support-area','.support-types'].map(selector=>{const n=document.querySelector(selector),s=getComputedStyle(n),r=n.getBoundingClientRect();return[selector,{y:r.y,height:r.height,padding:s.padding,fontSize:s.fontSize,has:document.body.matches(':has(#support.active)')}];})));
   expect(Math.max(wizard.y+wizard.height,map.y+map.height,types.y+types.height),JSON.stringify(sizing)).toBeLessThanOrEqual(720);
   const more=await page.locator('#support-more-filters').boundingBox();expect(more.y+more.height).toBeLessThanOrEqual(720);
-  const workforceBox=await workforce.boundingBox();expect(workforceBox.y+workforceBox.height).toBeLessThanOrEqual(wizard.y);expect(workforceBox.y).toBeGreaterThanOrEqual(0);
+  const workforceBox=await workforce.boundingBox();expect(workforceBox.y+workforceBox.height).toBeLessThanOrEqual(map.y);expect(workforceBox.y).toBeGreaterThanOrEqual(0);
  }
  expect(calls).toHaveLength(0);
  await test.info().attach('Opening support dashboard',{body:await page.screenshot(),contentType:'image/png'});
