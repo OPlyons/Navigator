@@ -27,37 +27,36 @@
  function clearResults(){last=null;shownMore=0;$('navigator-results').hidden=true;$('navigator-cards').replaceChildren();$('navigator-more-list').replaceChildren();$('navigator-more').open=false;status('');}
  function link(url,label,cls){const a=make('a',label,cls);a.href=url;a.target='_blank';a.rel='noopener noreferrer';return a;}
  function definition(dl,label,value){if(value){dl.append(make('dt',label),make('dd',value));}}
- function card(hit,index,top=true){
+ function card(hit){
   const r=catalog.resources.find(r=>r.id===hit.id);if(!r)return null;
   const article=make('article',undefined,'navigator-card');article.dataset.resourceId=r.id;
   const dir=catalog.directories.find(d=>d.id===r.directoryId);
-  const where=r.national?'National · '+r.coverage:(dir?.name||'Check service area');
-  article.append(make('p',top?(index===0?'1 · Start here':(index+1)+' · Another starting point'):where,'navigator-card-kicker'),make('h3',r.name));
+  const where=r.national?'National ('+(r.coverage||'check service area').replace(/\.$/,'')+')':(dir?.name||'Check service area');
+  article.append(make('h3',r.name),make('p',where,'navigator-where'));
   const reasons=[];if(last.result.area&&r.directoryId===last.result.area)reasons.push(last.result.areaLabel);
-  reasons.push(...hit.matchedNeeds.slice(0,2).map(id=>core.NEEDS[id].label));
+  reasons.push(...hit.matchedNeeds.slice(0,2).map(id=>core.NEEDS[id].label.toLowerCase()));
   if(hit.keywordHits.length)reasons.push(hit.keywordHits.slice(0,2).join(', '));
   if(hit.audienceHits.length)reasons.push(hit.audienceHits.map(id=>core.AUDIENCES[id]).join(', '));
-  article.append(make('p','Matches: '+[...new Set(reasons)].join(' · '),'navigator-match'));
-  if(top)article.append(make('p',where,'navigator-where'));
+  if(reasons.length)article.append(make('p','Matches your search for '+[...new Set(reasons)].join(', ')+'.','navigator-match'));
   const pending=core.unresolvedSourceNotice(r);
   if(pending)article.append(make('p',pending,'source-unconfirmed'));
   else{const next=make('p',undefined,'navigator-next');next.append(make('strong','Next step: '),document.createTextNode(r.nextStep||r.access||'Contact the service to check how to join.'));article.append(next);}
   const links=make('div',undefined,'navigator-contact');
-  const url=pending?r.unconfirmedContact?.url:r.url,label=pending?r.unconfirmedContact?.label:'Visit website ↗';
+  const url=pending?r.unconfirmedContact?.url:r.url,label=pending?r.unconfirmedContact?.label:'Visit website';
   if(/^https:\/\//.test(url||'')){const a=link(url,label,'button secondary');a.setAttribute('aria-label',label+' for '+r.name+' (opens in a new tab)');links.append(a);}
   if(!pending&&r.phone){const a=make('a','Call '+r.phone,'navigator-phone');a.href='tel:'+r.phone.replace(/[^+0-9]/g,'');a.setAttribute('aria-label','Call '+r.phone+' — '+r.name);links.append(a);}
   article.append(links);
   const details=make('details'),summary=make('summary',pending?'Previously listed details':'Joining details and source');summary.setAttribute('aria-label',summary.textContent+' for '+r.name);details.append(summary,make('p',r.description));
   const dl=make('dl');definition(dl,'Where it helps',r.coverage||dir?.name);definition(dl,'Who it is for',r.who);definition(dl,'How to make contact',r.access);definition(dl,'Costs and things to check',r.check);details.append(dl);
   if(!pending&&/^https:\/\//.test(r.sourceUrl||''))details.append(link(r.sourceUrl,'Source: '+(r.sourceOwner||'provider website')));
-  article.append(make('p',(pending?'Last confirmed source check: ':'Last source check: ')+r.lastChecked+(r.sourceCheck?.method==='automated'?' · Automated source check.':'.'),'navigator-checked'));
+  article.append(make('p',(pending?'Last confirmed source check: ':'Last source check: ')+r.lastChecked+(r.sourceCheck?.method==='automated'?' (automated).':'.'),'navigator-checked'));
 
   if(r.sourceCheck?.method==='automated')details.append(make('p','Source information was checked automatically. Confirm current availability and joining details with the service.'));
   article.append(details);return article;
  }
  function renderMore(){
   if(!last)return;const hits=last.result.more.slice(shownMore,shownMore+9);shownMore+=hits.length;
-  for(const [i,hit] of hits.entries()){const node=card(hit,i,false);if(node)$('navigator-more-list').append(node);}
+  for(const hit of hits){const node=card(hit);if(node)$('navigator-more-list').append(node);}
   $('navigator-more-button').hidden=shownMore>=last.result.more.length;
   $('navigator-more-button').textContent='Show '+Math.min(9,last.result.more.length-shownMore)+' more';
  }
@@ -68,18 +67,20 @@
   $('navigator-results').hidden=false;$('navigator-more-list').replaceChildren();shownMore=0;$('navigator-more').open=false;
   const labels=last.intent.needs.map(id=>core.NEEDS[id].label.toLowerCase());
   $('nd-ai-link').hidden=!(last.intent.audiences.includes('neurodivergent')||$('audience').value==='neurodivergent');
-  $('navigator-result-heading').textContent=result.count?'A few places to start':'No close matches yet';
-  $('navigator-result-summary').textContent=(labels.length?'Looking for '+labels.join(', ')+'. ':'')+(result.area?'Area: '+result.areaLabel+'. ':'Local and wider options. ')+result.count+' '+(result.count===1?'match':'matches')+'.';
+  $('navigator-result-heading').textContent=result.count?'Where you could start':'No close matches yet';
+  const scope=result.area?' in '+result.areaLabel:' across local and wider services';
+  const needs=labels.length?' for '+labels.join(', '):'';
+  $('navigator-result-summary').textContent='We found '+result.count+' '+(result.count===1?'match':'matches')+needs+scope+'.';
   const prefs=$('navigator-preferences');prefs.replaceChildren();
   for(const id of last.intent.preferences)prefs.append(make('span',core.PREFERENCES[id],'navigator-preference'));
   prefs.hidden=!last.intent.preferences.length;
-  $('navigator-cards').replaceChildren(...result.top.map((h,i)=>card(h,i)).filter(Boolean));
+  $('navigator-cards').replaceChildren(...result.top.map(card).filter(Boolean));
   const note=$('navigator-route-note');note.replaceChildren();note.hidden=true;
   if(last.intent.needs.includes('housing')||last.intent.needs.includes('supported-housing')){
    note.hidden=false;
    note.append(make('strong',result.urgent?'Need somewhere safe tonight?':'Housing routes'));
    note.append(make('p',result.urgent?'Contact the council’s homelessness team. If the office is closed, ask for its out-of-hours service. These results are contact routes; they do not show available beds.':'Providers and councils check access and eligibility. These results are contact routes; they do not show available homes.'));
-   if(result.urgent){const r=catalog.resources.find(r=>r.id==='wider-council-homeless-help');if(r)note.append(link(r.url,'Find the council’s homelessness contact ↗'));}
+   if(result.urgent){const r=catalog.resources.find(r=>r.id==='wider-council-homeless-help');if(r)note.append(link(r.url,'Find the council’s homelessness contact'));}
   }
   const empty=$('navigator-empty');empty.hidden=!!result.count;
   empty.textContent='Try fewer details, a different area or another support icon. Start again clears every choice.';
@@ -88,7 +89,8 @@
   const clarify=$('navigator-clarify');clarify.hidden=!!result.area||!last.intent.needs.some(n=>['housing','food','meet','sport','outdoors','arts','faith'].includes(n));
   $('navigator-more').hidden=!result.more.length;$('navigator-more-summary').textContent='See '+result.more.length+' more '+(result.more.length===1?'match':'matches');
   $('navigator-limits').textContent='Check the service’s joining details, coverage and current availability. The caller can help find information; the service decides access.'+(last.intent.preferences.includes('online')?' Online or text contact is preferred where it is recorded; check each service’s contact options.':'');
-  status(result.count?'Found '+result.count+(result.count===1?' match. Showing ':' matches. Showing ')+result.top.length+(result.top.length===1?' starting point.':' starting points.'):'No close matches with these choices.');
+  if(result.count===1)status('One service matches your search.');
+  else status(result.count?'Showing '+result.top.length+' of '+result.count+' matches.':'No close matches with these choices.');
  }
  async function navigate(){
   const query=search.value.trim();stop();clearResults();

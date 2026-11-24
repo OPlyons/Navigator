@@ -36,7 +36,7 @@
     if (!filtering) previousOpen = null;
     for (const group of groups) group.hidden = !group.querySelector('.nd-topic:not([hidden])');
     const count = visibleCards.size;
-    byId('nd-count').textContent = `${count} ${count === 1 ? 'resource' : 'resources'} · ${topicCount} ${topicCount === 1 ? 'topic' : 'topics'}`;
+    byId('nd-count').textContent = `${count} ${count === 1 ? 'resource' : 'resources'} across ${topicCount} ${topicCount === 1 ? 'topic' : 'topics'}`;
     byId('nd-empty').hidden = count > 0;
   }
   byId('nd-tools').hidden = false;

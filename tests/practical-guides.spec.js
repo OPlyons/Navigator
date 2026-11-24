@@ -60,3 +60,17 @@ test('a shareable benefits guide works without scripts and links to real claim s
  await page.getByText('Start or finish a PIP claim',{exact:true}).click();await expect(page.getByRole('link',{name:'Sign in to an existing online PIP claim'})).toHaveAttribute('href','https://www.apply-for-pip.dwp.gov.uk/verify');
  await page.getByText('Claim Universal Credit',{exact:true}).click();await expect(page.getByRole('link',{name:'Start Universal Credit online'})).toHaveAttribute('href','https://www.universal-credit.service.gov.uk/start');}finally{await context.close();}
 });
+
+test('provider names lead the results and download details remain readable', async ({page}) => {
+ await interceptSentry(page);
+ await openSupport(page);
+ await page.locator('#area').selectOption('brent');
+ const first = page.locator('#resource-list article').first();
+ await expect(first.getByRole('heading')).toBeVisible();
+ expect(await first.evaluate(node => node.querySelector('h3').compareDocumentPosition(node.querySelector('.category')) & Node.DOCUMENT_POSITION_FOLLOWING)).toBeTruthy();
+ await expect(first.locator('a.website-link')).toHaveAccessibleName(/opens in a new tab/);
+ await (await openMainNavigation(page)).getByRole('link', {name:'Printable directories'}).click();
+ for (const link of await page.locator('#public-area-links [download]').all()) {
+  await expect(link.locator('.file-meta')).toHaveText(/^PDF, [\d]+ pages?, [\d]+ KB$/);
+ }
+});

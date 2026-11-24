@@ -32,7 +32,7 @@
   trans:'M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zM12 17v6M9 20h6M16 8l6-6M17 2h5v5M8 8 2 2M2 7V2h5M2 9l7-7',
   'culture-faith':'M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zM2 12h20M12 2c-6 5-6 15 0 20 6-5 6-15 0-20z',
   older:'M8 4a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM2 21v-4a6 6 0 0 1 10-4M18 13a5 5 0 1 0 0 10 5 5 0 0 0 0-10zM18 15v3l2 1',
-  'young-adults':'M9 4a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM3 21v-4a6 6 0 0 1 12 0v4M18 2l1.2 3.8L23 7l-3.8 1.2L18 12l-1.2-3.8L13 7l3.8-1.2z',
+  'young-adults':'M8 4a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM2 21v-4a6 6 0 0 1 12 0v4M17 7a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM16 15a5 5 0 0 1 6 5v1',
   'pregnancy-parents':'M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18zM12 3c4 0 3 5 0 4M8 11h.1M16 11h.1M8 15q4 4 8 0',
   relationships:'M12 21S2 15 2 9c0-6 8-7 10-1 2-6 10-5 10 1 0 6-10 12-10 12zM8 11l4 4 4-4',
   'audience-carers':'M12 12S6 8 6 5c0-3 4-4 6-1 2-3 6-2 6 1 0 3-6 7-6 7zM2 16l5-3 5 2h3a2 2 0 0 1 0 4h-5M2 20l5-1 8 3 7-6a2 2 0 0 0-3-2l-3 3',
@@ -138,19 +138,20 @@
  function definition(dl,label,value){if(value)dl.append(make('dt',label),make('dd',value));}
  function resourceCard(r){
   const card=make('article',undefined,'resource-card'),heading=make('h3',r.name),dir=data.directories.find(d=>d.id===r.directoryId),badge=make('span',undefined,'resource-category-icon');badge.setAttribute('aria-hidden','true');badge.append(icon(groupFor(r.category).id));card.append(badge);
-  card.append(make('p',[r.category,r.national?'National · '+(r.coverage||'Check service area'):dir?.name].filter(Boolean).join(' · '),'category'),heading,make('p',r.description));
+  const location=r.national?'National ('+(r.coverage||'check service area').replace(/\.$/,'')+')':dir?.name;
+  card.append(heading,make('p',[r.category,location].filter(Boolean).join(', '),'category'),make('p',r.description));
   const pending=window.CNWLNavigatorCore.unresolvedSourceNotice(r);
   if(pending)card.append(make('p',pending,'source-unconfirmed'));
   if(!pending&&r.nextStep){const step=make('p',undefined,'resource-next-step');step.append(make('strong','Next step: '),document.createTextNode(r.nextStep));card.append(step);}
   const links=make('div',undefined,'contact-links');
-  const url=pending?r.unconfirmedContact?.url:r.url,label=pending?r.unconfirmedContact?.label:'Website ↗';
+  const url=pending?r.unconfirmedContact?.url:r.url,label=pending?r.unconfirmedContact?.label:'Visit website';
   if(/^https?:\/\//.test(url||'')){const a=make('a',label,'website-link');a.href=url;a.target='_blank';a.rel='noopener noreferrer';a.setAttribute('aria-label',label+' for '+r.name+' (opens in a new tab)');links.append(a);}
   if(!pending&&r.phone){const a=make('a',r.phone,'phone-link');a.href='tel:'+r.phone.replace(/[^+0-9]/g,'');a.setAttribute('aria-label','Call '+r.name+' on '+r.phone);links.append(a);}
   card.append(links);
   const details=make('details'),summary=make('summary',pending?'Previously listed details':'Joining details');summary.setAttribute('aria-label',summary.textContent+' for '+r.name);details.append(summary);
   const dl=make('dl');definition(dl,'Where it helps',r.coverage);definition(dl,'Who it is for',r.who);definition(dl,'How to join or make contact',r.access);definition(dl,'Costs and things to check',r.check);details.append(dl);
   if(!pending&&/^https?:\/\//.test(r.sourceUrl||'')){const p=make('p'),a=make('a','Source: '+(r.sourceOwner||'provider website'));a.href=r.sourceUrl;a.target='_blank';a.rel='noopener noreferrer';p.append(a);details.append(p);}
-  card.append(make('p',(pending?'Last confirmed source check: ':'Last source check: ')+date(r.lastChecked)+(r.sourceCheck?.method==='automated'?' · Automated source check.':'.'),'checked'));
+  card.append(make('p',(pending?'Last confirmed source check: ':'Last source check: ')+date(r.lastChecked)+(r.sourceCheck?.method==='automated'?' (automated).':'.'),'checked'));
 
   if(r.sourceCheck?.method==='automated')details.append(make('p','Source information was checked automatically. Confirm current availability and joining details with the service.'));
   const now=new Date(),today=now.getFullYear()+'-'+String(now.getMonth()+1).padStart(2,'0')+'-'+String(now.getDate()).padStart(2,'0');
@@ -187,7 +188,7 @@
   }else if(id==='meet')body='Choose one activity that feels manageable. Ask the group about the next session, cost and whether someone can come along.';
   if(id==='carers')body='Find support for you as a carer, as well as help for the person you support.';
   panel.append(make('h3',title),make('p',body));
-  if(links.some(Boolean)){const row=make('div',undefined,'need-guidance-links');for(const r of links.filter(Boolean)){const a=make('a',r.name+' ↗');a.href=r.url;a.target='_blank';a.rel='noopener noreferrer';row.append(a);}panel.append(row);}
+  if(links.some(Boolean)){const row=make('div',undefined,'need-guidance-links');for(const r of links.filter(Boolean)){const a=make('a',r.name);a.href=r.url;a.target='_blank';a.rel='noopener noreferrer';row.append(a);}panel.append(row);}
   if(id==='housing'||id==='supported-housing')panel.append(make('p','These are contact routes, not live housing vacancies.','small-note'));
  }
  function syncChoices(words){
@@ -195,7 +196,7 @@
   for(const r of data.resources)if(matches(r,engine.parse(''),true))counts[r.directoryId]++;
   for(const b of areaButtons){const id=b.dataset.area,count=counts[id]||0,selected=area.value===id;const name=data.directories.find(d=>d.id===id)?.name;
    if(!name)continue;
-   b.setAttribute('aria-pressed',String(selected));b.title=name+' · '+count+' '+(count===1?'listing':'listings');
+   b.setAttribute('aria-pressed',String(selected));b.title=name+' ('+count+' '+(count===1?'listing':'listings')+')';
    b.setAttribute('aria-label',name+', '+count+' '+(count===1?'listing':'listings'));
    const option=areaOptions.get(id);if(option)option.textContent=b.title;const countLabel=b.querySelector('.map-place-count,.area-count');countLabel.removeAttribute('aria-hidden');countLabel.textContent=' '+count+' '+(count===1?'listing':'listings');
   }
@@ -228,7 +229,7 @@
   document.dispatchEvent(new CustomEvent('directorychoiceschange',{detail:{started}}));
   const widerCount=data.resources.filter(r=>r.directoryId==='wider-support'&&matches(r,words,true)&&!(withNational(words)&&r.national)).length;
   $('wider-results-hint').hidden=!dir||dir.id==='wider-support'||!widerCount;
-  $('matching-wider-support').textContent='Explore '+widerCount+' more wider '+(widerCount===1?'option':'options')+' →';
+  $('matching-wider-support').textContent='Explore '+widerCount+' '+(widerCount===1?'option':'options')+' from wider support';
   $('area-intro').replaceChildren();if(started)$('area-intro').append(make('p',dir?.name||'Across all areas'));
   const shortcut=hospitalChoices.find(choice=>choice[4]===words.raw);
   const label=shortcut?.[2]||topic.value||(words.label?words.label:(activity==='all'?'Groups, activities and support':groups.find(g=>g.id===activity).label));
@@ -240,7 +241,7 @@
   const audienceLabel=audiences.find(a=>a[0]===audience.value)?.[1];
   const national=dir&&dir.id!=='wider-support'&&withNational(words)?filtered.filter(r=>r.directoryId==='wider-support'&&r.national).length:0;
   const scope=national?(filtered.length-national)+' local in '+name+' + '+national+' national options':filtered.length+' '+(filtered.length===1?'listing':'listings')+' in '+name;
-  $('resource-count').textContent=scope+(audienceLabel?' · '+audienceLabel:'')+(words.raw?' matching “'+search.value.trim()+'”':'')+'.'+(filtered.length>count?' Showing '+count+'.':'');
+  $('resource-count').textContent=scope+(audienceLabel?' for '+audienceLabel:'')+(words.raw?' matching “'+search.value.trim()+'”':'')+'.'+(filtered.length>count?' Showing the first '+count+' listings.':'');
   $('search-interpretation').hidden=!words.needIds.length;
   $('search-interpretation').textContent=shortcut?'Support after hospital. Closest matches first.':words.needIds.length?'Showing help for '+words.needIds.map(id=>engine.labels[id].toLowerCase()).join(' and ')+'. Closest matches first.':'';
 
