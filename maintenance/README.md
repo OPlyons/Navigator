@@ -14,6 +14,10 @@ Oscar authorised automatic publication on 30 October 2026. Evidence-backed new r
 
 Every listing has lastChecked and nextReview. Dates reflect the source check that actually happened. Historical dates are retained unless later recorded evidence supports a newer date. nextReview is 28 days after lastChecked. Both ordinary and search-result cards display the last source check without opening the joining details. Automated checks are labelled as such; they are not presented as human verification.
 
+The [23–24 November whole-directory review](publication-data/full-directory-review-2026-11-23.json) records the coverage and six outstanding listing IDs. An unsuccessful check leaves the previous successful date intact. The routine selector uses recent published automated checks and picks up unresolved attempts from the public catalogue for follow-up.
+
+The neurodiversity collection lives in `data/neurodiversity.json`. Each entry links to the original CAAS card in each relevant topic. Closed programmes and past research invitations carry their status. Direct links point to the current resource or a labelled alternative. Use the board's public active cards when updating the collection and preserve existing card IDs and borough memberships.
+
 ## New-resource discovery
 
 The separate **Navigator resource discovery** task runs once each afternoon. It searches two areas and three categories in each area, with at most four new resources per day. It rotates through current areas/categories, prioritises gaps, checks existing listings and candidate history for duplicates, and reads official service/access/coverage evidence. There is no quota to fill.

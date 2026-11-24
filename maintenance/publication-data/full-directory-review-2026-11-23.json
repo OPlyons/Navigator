@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "kind": "full_directory_review",
+  "sourceDay": "2026-11-23",
+  "baseCommit": "3e7a635f2c204a00fcea7863579cca1d2659f9de",
+  "listings": 958,
+  "distinctSuppliedUrls": 1033,
+  "confirmed": 952,
+  "confirmedDirect": 654,
+  "confirmedFromOfficialIndex": 298,
+  "unconfirmed": 6,
+  "listingsCorrected": 26,
+  "fieldCorrections": 46,
+  "followUpDay": "2026-11-24",
+  "awaitingConfirmation": [
+    "harrow-sangat-activities",
+    "westminster-community-fitness",
+    "surrey-liaise-womens-centre",
+    "brent-our-parks-library-yoga",
+    "milton-keynes-moon-stars-yoga",
+    "harrow-discovered-5b9ab492f902"
+  ]
+}

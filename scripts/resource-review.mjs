@@ -22,14 +22,26 @@ function validateState(state){
  for(const [day,v] of Object.entries(state.days))if(!validDay(day)||!Array.isArray(v.regular)||!Array.isArray(v.retry)||new Set([...v.regular,...v.retry]).size!==v.regular.length+v.retry.length||v.regular.length>settings.regularPerDay||v.retry.length>settings.retriesPerDay)fail('Invalid saved daily budget');
 }
 
+function publishedCheck(resource){
+ return resource.sourceCheck?.method==='automated' ? resource.lastChecked||'' : '';
+}
+function latestDate(...dates){return dates.filter(Boolean).sort().at(-1)||'';}
+
 export function prepare(resources,state,day=localDay()){
  validateState(state);if(!validDay(day))fail('Use a valid YYYY-MM-DD review date');
  const ids=new Set(resources.map(r=>r.id));if(ids.size!==resources.length)fail('Duplicate resource IDs');
  const today=state.days[day]||{regular:[],retry:[]},done=new Set([...today.regular,...today.retry]),cutoff=addDays(day,-(settings.startReviewAfterDays??settings.reviewEveryDays));
  const pendingChange=r=>state.queue.some(q=>q.kind==='change'&&q.status==='open'&&q.resourceId===r.id&&(r[q.field]??'')===q.currentValue);
  const sourceDay=r=>[state.entries[r.id]?.lastSourceRead||'',r.lastChecked||''].sort().at(-1);
- const due=resources.filter(r=>{const e=state.entries[r.id];return !done.has(r.id)&&(pendingChange(r)||(!e?.lastRegularAttempt?!(r.sourceCheck?.method==='automated'&&r.lastChecked>cutoff):e.lastRegularAttempt<=cutoff||e.fingerprint!==fingerprint(r)));});
- due.sort((a,b)=>Number(pendingChange(b))-Number(pendingChange(a))||sourceDay(a).localeCompare(sourceDay(b))||(state.entries[a.id]?.lastRegularAttempt||'').localeCompare(state.entries[b.id]?.lastRegularAttempt||'')||a.id.localeCompare(b.id));
+ const lastCycle=r=>latestDate(state.entries[r.id]?.lastRegularAttempt,publishedCheck(r));
+ const due=resources.filter(r=>{
+  const e=state.entries[r.id];
+  if(done.has(r.id))return false;
+  if(pendingChange(r))return true;
+  if(r.lastUnconfirmedOn>r.lastChecked&&(!e?.lastAttempt||e.lastAttempt<r.lastUnconfirmedOn))return true;
+  return lastCycle(r)<=cutoff || (!!e&&e.fingerprint!==fingerprint(r)&&!(publishedCheck(r)>e.lastAttempt));
+ });
+ due.sort((a,b)=>Number(pendingChange(b))-Number(pendingChange(a))||sourceDay(a).localeCompare(sourceDay(b))||lastCycle(a).localeCompare(lastCycle(b))||a.id.localeCompare(b.id));
  const regular=due.slice(0,Math.max(0,Math.min(settings.regularPerBatch,settings.regularPerDay-today.regular.length)));
  const chosen=new Set(regular.map(r=>r.id));
  const retry=resources.filter(r=>{const e=state.entries[r.id];return !done.has(r.id)&&!chosen.has(r.id)&&e?.nextRetry&&e.nextRetry<=day&&e.lastRegularAttempt>cutoff;}).sort((a,b)=>state.entries[a.id].nextRetry.localeCompare(state.entries[b.id].nextRetry)||a.id.localeCompare(b.id)).slice(0,Math.max(0,Math.min(settings.retriesPerBatch,settings.retriesPerDay-today.retry.length)));
@@ -74,7 +86,7 @@ export function record(resources,original,plan,results){
  for(const result of results){
   const entry=planned.get(result.id),old=state.entries[result.id]||{},read=result.sources.some(s=>['page','official_indexed'].includes(s.retrieval));
   const retryCount=entry.kind==='regular'?0:(old.retryCount||0)+1,failed=result.status==='unable_to_verify';
-  state.entries[result.id]={...old,name:entry.resource.name,area:entry.resource.directoryId,fingerprint:entry.fingerprint,lastAttempt:plan.day,lastRegularAttempt:entry.kind==='regular'?plan.day:old.lastRegularAttempt,lastSourceRead:read?plan.day:old.lastSourceRead||null,lastOutcome:result.status,lastSummary:result.summary,checkedFields:result.checkedFields,consecutiveFailures:failed?(old.consecutiveFailures||0)+1:0,retryCount:failed?retryCount:0,nextRetry:failed&&retryCount<settings.retryAfterDays.length?addDays(plan.day,settings.retryAfterDays[retryCount]):null};
+  state.entries[result.id]={...old,name:entry.resource.name,area:entry.resource.directoryId,fingerprint:entry.fingerprint,lastAttempt:plan.day,lastRegularAttempt:entry.kind==='regular'?plan.day:old.lastRegularAttempt,lastSourceRead:!failed&&read?plan.day:old.lastSourceRead||null,lastOutcome:result.status,lastSummary:result.summary,checkedFields:result.checkedFields,consecutiveFailures:failed?(old.consecutiveFailures||0)+1:0,retryCount:failed?retryCount:0,nextRetry:failed&&retryCount<settings.retryAfterDays.length?addDays(plan.day,settings.retryAfterDays[retryCount]):null};
   today[entry.kind].push(result.id);
   const openFailure=state.queue.find(q=>q.resourceId===result.id&&q.kind==='verification'&&q.status==='open');
   if(!failed&&openFailure){openFailure.status='source_access_restored';openFailure.closedOn=plan.day;}
@@ -95,10 +107,16 @@ const md=value=>String(value??'').replace(/[\r\n]+/g,' ').replace(/[\\`*_{}\[\]<
 export function summary(resources,state,day=localDay()){
  validateState(state);if(!validDay(day))fail('Invalid summary date');
  const current=clone(state);reconcileQueue(current,resources,day);
- const entries=resources.map(r=>current.entries[r.id]).filter(Boolean),cutoff=addDays(day,-settings.reviewEveryDays),week=addDays(day,-7);
+ const cutoff=addDays(day,-settings.reviewEveryDays),week=addDays(day,-7);
  const sourceDay=r=>[current.entries[r.id]?.lastSourceRead||'',r.lastChecked||''].sort().at(-1);
+ const unconfirmed=current.queue.filter(q=>q.kind==='verification'&&q.status==='open');
+ for(const r of resources){
+  if(r.lastUnconfirmedOn>r.lastChecked&&r.lastUnconfirmedOn>=(current.entries[r.id]?.lastSourceRead||'')&&!unconfirmed.some(q=>q.resourceId===r.id)){
+   unconfirmed.push({kind:'verification',resourceId:r.id,name:r.name,area:r.directoryId,reason:'Latest published attempt could not confirm this named programme.',sourceUrl:r.unconfirmedContact?.url||r.sourceUrl,priority:'normal',lastSeen:r.lastUnconfirmedOn,status:'open'});
+  }
+ }
  const overdue=resources.filter(r=>sourceDay(r)<=cutoff).map(r=>({id:r.id,name:r.name,area:r.directoryId,lastSourceRead:sourceDay(r)||null}));
- return {asOf:day,total:resources.length,attempted:entries.length,attemptedInLast28Days:entries.filter(e=>e.lastRegularAttempt>cutoff).length,sourceReadInLast28Days:entries.filter(e=>e.lastSourceRead>cutoff).length,lastRecordedRun:current.updatedOn,monthlySourceChecksOverdue:overdue,monthlyRoutineCapacity:settings.regularPerDay*settings.reviewEveryDays,capacitySufficient:resources.length<=settings.regularPerDay*settings.reviewEveryDays,openChanges:current.queue.filter(q=>q.kind==='change'&&q.status==='open'),unableToVerify:current.queue.filter(q=>q.kind==='verification'&&q.status==='open'),recentResolved:current.queue.filter(q=>q.status!=='open'&&q.closedOn>=week),runsInLast7Days:Object.entries(current.days).filter(([d])=>d>=week&&d<=day).map(([day,v])=>({day,regular:v.regular.length,retries:v.retry.length}))};
+ return {asOf:day,total:resources.length,attempted:resources.filter(r=>current.entries[r.id]||publishedCheck(r)||r.lastUnconfirmedOn).length,attemptedInLast28Days:resources.filter(r=>latestDate(current.entries[r.id]?.lastAttempt,publishedCheck(r),r.lastUnconfirmedOn)>cutoff).length,sourceReadInLast28Days:resources.filter(r=>latestDate(current.entries[r.id]?.lastSourceRead,publishedCheck(r))>cutoff).length,lastRecordedRun:current.updatedOn,monthlySourceChecksOverdue:overdue,monthlyRoutineCapacity:settings.regularPerDay*settings.reviewEveryDays,capacitySufficient:resources.length<=settings.regularPerDay*settings.reviewEveryDays,openChanges:current.queue.filter(q=>q.kind==='change'&&q.status==='open'),unableToVerify:unconfirmed,recentResolved:current.queue.filter(q=>q.status!=='open'&&q.closedOn>=week),runsInLast7Days:Object.entries(current.days).filter(([d])=>d>=week&&d<=day).map(([day,v])=>({day,regular:v.regular.length,retries:v.retry.length}))};
 }
 export function reportMarkdown(resources,state,day=localDay()){
  const s=summary(resources,state,day),lines=['# Directory review queue','',`Updated: ${day}. ${s.attemptedInLast28Days} of ${s.total} listings attempted in the last 28 days.`,`${s.sourceReadInLast28Days} listings had provider or official source content read in that period.`,`Last recorded run: ${s.lastRecordedRun||'Not started'}.`,`${s.monthlySourceChecksOverdue.length} listings are overdue for a source check. Routine capacity: ${s.monthlyRoutineCapacity} per 28 days.`,'','Automated source checks do not confirm availability. Evidence-backed factual updates and actual source-check dates are published through the normal quality checks; ambiguous findings stay here.','','## Findings',''];

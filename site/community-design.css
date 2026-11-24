@@ -383,6 +383,12 @@ html:not(.js) #menu-toggle{display:none}
 #support .navigator-contact .button,#support .navigator-contact a,#support .navigator-card-kicker{border-radius:0;color:var(--ink)}
 #support .navigator-contact .button{background:var(--mint);border:1.5px solid var(--ink)}
 .reading-aa{width:1.42rem;height:1.1rem;flex:none}
+.nd-nav-link{position:relative}
+.nd-nav-link::after{content:"";position:absolute;left:0;right:0;bottom:.32rem;height:.23rem;background:linear-gradient(90deg,#ea827e 0 16.66%,#eaa660 16.66% 33.33%,#eece58 33.33% 50%,#80bc93 50% 66.66%,#7daee1 66.66% 83.33%,#b497db 83.33%)}
+.reduced-colours .nd-nav-link::after{background:var(--muted)}
+#nd-selection-link{font-weight:700;text-underline-offset:.15em}
+#support .nd-context-link{margin:.55rem 0;font-weight:710}
+#support .source-unconfirmed{padding:.45rem .6rem;border-left:3px solid var(--ink);background:var(--peach);font:.94rem/1.4 var(--body);color:var(--ink)}
 #support .pg-hospital .pg-tile{white-space:normal;height:auto}
 @media(min-width:1150px) and (max-height:795px){
  #support .wizard-heading{margin-bottom:.32rem}

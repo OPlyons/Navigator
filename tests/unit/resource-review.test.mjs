@@ -68,3 +68,18 @@ test('a growing directory retains a monthly source-check cycle and reports overd
  const status=summary(catalogue,state,dayAfter(39));assert.equal(status.capacitySufficient,true);assert.equal(status.monthlySourceChecksOverdue.length,0);
  assert.ok(summary(resources,emptyState(),'2026-11-30').monthlySourceChecksOverdue.length>0);
 });
+
+test('published source checks count in the summary and unsuccessful attempts return to the regular queue',()=>{
+ const sample=resources.slice(0,3).map(r=>({...r,lastChecked:'2026-11-23',sourceCheck:{method:'automated'}}));
+ sample[0].lastChecked='2026-10-10';sample[0].lastUnconfirmedOn='2026-11-23';
+ const state=emptyState(),day='2026-11-24';
+ const plan=prepare(sample,state,day);
+ assert.deepEqual(plan.entries.map(e=>e.id),[sample[0].id]);
+ const summaryBefore=summary(sample,state,day);
+ assert.equal(summaryBefore.attemptedInLast28Days,3);assert.equal(summaryBefore.sourceReadInLast28Days,2);
+ assert.equal(summaryBefore.unableToVerify.length,1);assert.deepEqual(state.days,{});
+ const failed=unavailable(plan.entries[0]);failed.sources[0].retrieval='page';
+ const saved=record(sample,state,plan,[failed]).state;
+ assert.equal(saved.entries[sample[0].id].lastSourceRead,null);
+ assert.equal(prepare(sample,saved,'2026-11-25').entries[0].kind,'retry');
+});

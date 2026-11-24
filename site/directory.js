@@ -139,15 +139,19 @@
  function resourceCard(r){
   const card=make('article',undefined,'resource-card'),heading=make('h3',r.name),dir=data.directories.find(d=>d.id===r.directoryId),badge=make('span',undefined,'resource-category-icon');badge.setAttribute('aria-hidden','true');badge.append(icon(groupFor(r.category).id));card.append(badge);
   card.append(make('p',[r.category,r.national?'National · '+(r.coverage||'Check service area'):dir?.name].filter(Boolean).join(' · '),'category'),heading,make('p',r.description));
-  if(r.nextStep){const step=make('p',undefined,'resource-next-step');step.append(make('strong','Next step: '),document.createTextNode(r.nextStep));card.append(step);}
+  const pending=window.CNWLNavigatorCore.unresolvedSourceNotice(r);
+  if(pending)card.append(make('p',pending,'source-unconfirmed'));
+  if(!pending&&r.nextStep){const step=make('p',undefined,'resource-next-step');step.append(make('strong','Next step: '),document.createTextNode(r.nextStep));card.append(step);}
   const links=make('div',undefined,'contact-links');
-  if(/^https?:\/\//.test(r.url||'')){const a=make('a','Website ↗','website-link');a.href=r.url;a.target='_blank';a.rel='noopener noreferrer';a.setAttribute('aria-label','Website ↗ for '+r.name+' (opens in a new tab)');links.append(a);}
-  if(r.phone){const a=make('a',r.phone,'phone-link');a.href='tel:'+r.phone.replace(/[^+0-9]/g,'');a.setAttribute('aria-label','Call '+r.name+' on '+r.phone);links.append(a);}
+  const url=pending?r.unconfirmedContact?.url:r.url,label=pending?r.unconfirmedContact?.label:'Website ↗';
+  if(/^https?:\/\//.test(url||'')){const a=make('a',label,'website-link');a.href=url;a.target='_blank';a.rel='noopener noreferrer';a.setAttribute('aria-label',label+' for '+r.name+' (opens in a new tab)');links.append(a);}
+  if(!pending&&r.phone){const a=make('a',r.phone,'phone-link');a.href='tel:'+r.phone.replace(/[^+0-9]/g,'');a.setAttribute('aria-label','Call '+r.name+' on '+r.phone);links.append(a);}
   card.append(links);
-  const details=make('details'),summary=make('summary','Joining details');summary.setAttribute('aria-label','Joining details for '+r.name);details.append(summary);
+  const details=make('details'),summary=make('summary',pending?'Previously listed details':'Joining details');summary.setAttribute('aria-label',summary.textContent+' for '+r.name);details.append(summary);
   const dl=make('dl');definition(dl,'Where it helps',r.coverage);definition(dl,'Who it is for',r.who);definition(dl,'How to join or make contact',r.access);definition(dl,'Costs and things to check',r.check);details.append(dl);
-  if(/^https?:\/\//.test(r.sourceUrl||'')){const p=make('p'),a=make('a','Source: '+(r.sourceOwner||'provider website'));a.href=r.sourceUrl;a.target='_blank';a.rel='noopener noreferrer';p.append(a);details.append(p);}
-  card.append(make('p','Last source check: '+date(r.lastChecked)+(r.sourceCheck?.method==='automated'?' · Automated source check.':'.'),'checked'));
+  if(!pending&&/^https?:\/\//.test(r.sourceUrl||'')){const p=make('p'),a=make('a','Source: '+(r.sourceOwner||'provider website'));a.href=r.sourceUrl;a.target='_blank';a.rel='noopener noreferrer';p.append(a);details.append(p);}
+  card.append(make('p',(pending?'Last confirmed source check: ':'Last source check: ')+date(r.lastChecked)+(r.sourceCheck?.method==='automated'?' · Automated source check.':'.'),'checked'));
+
   if(r.sourceCheck?.method==='automated')details.append(make('p','Source information was checked automatically. Confirm current availability and joining details with the service.'));
   const now=new Date(),today=now.getFullYear()+'-'+String(now.getMonth()+1).padStart(2,'0')+'-'+String(now.getDate()).padStart(2,'0');
   if(r.nextReview&&r.nextReview<today)details.append(make('p','Review due — check current details with the service.','review-due'));
@@ -201,6 +205,7 @@
   for(const b of audienceButtons)b.setAttribute('aria-pressed',String(b.dataset.audience===audience.value));
   audienceTrigger.dataset.selected=String(!!audience.value);audienceTrigger.setAttribute('aria-label','Support for: '+audienceLabel+'. Choose a group');
   $('audience-selection').hidden=!audience.value;$('audience-selection-label').textContent='Support for: '+audienceLabel;
+  $('nd-selection-link').hidden=audience.value!=='neurodivergent';
   topic.options[0].textContent=activity==='all'?'All types':'All in this choice';
  }
  function selectedChoices(){
@@ -219,6 +224,7 @@
   if(!data)return;
   const words=terms(),started=!!(browsingTypes||area.value||words.raw||activity!=='all'||topic.value||audience.value),dir=data.directories.find(d=>d.id===area.value),name=dir?.name||'all areas';
   syncChoices(words);selectedChoices();guidance(words,dir);$('directory-start').hidden=started;$('directory-call-note').hidden=!started;
+  $('nd-directory-link').hidden=!(audience.value==='neurodivergent'||(search.value.trim()&&window.CNWLNavigatorCore.localIntent(search.value).audiences.includes('neurodivergent')));
   document.dispatchEvent(new CustomEvent('directorychoiceschange',{detail:{started}}));
   const widerCount=data.resources.filter(r=>r.directoryId==='wider-support'&&matches(r,words,true)&&!(withNational(words)&&r.national)).length;
   $('wider-results-hint').hidden=!dir||dir.id==='wider-support'||!widerCount;
@@ -271,7 +277,15 @@
   }catch(error){$('resource-count').textContent='The directory could not be loaded.';$('directory-loading-error').hidden=false;console.error('Directory load failed:',error);}
   finally{$('resource-list').removeAttribute('aria-busy');loading=null;}})();return loading;
  }
- const maybeLoad=()=>{if(location.hash==='#support'||$('support').classList.contains('active'))load();};
+ async function maybeLoad(){
+  if(!$('support').classList.contains('active'))return;
+  await load();
+  if(!data||location.hash!=='#neurodivergent-services')return;
+  clearTimeout(timer);
+  browsingTypes=false;search.value='';topic.value='';activity='all';
+  audience.value='neurodivergent';pendingArea='all';area.value='all';
+  areaChanged();showResults();
+ }
  window.CNWLResourceDirectory={async getData(){await load();return data;},getSearchCatalog(){const group=groups.find(g=>g.id===activity);return data?{...data,resources:data.resources.filter(r=>matchesGroup(r,group))}:data;},setInferredArea(id){pendingArea=id;area.value=id;areaChanged();},search(){clearTimeout(timer);shown=12;render();showResults();},reset(){reset();},setArea(id){browsingTypes=false;pendingArea=metadata.directories.some(d=>d.id===id)?id:'';area.value=pendingArea;if(data){search.value='';topic.value='';activity='all';audience.value='';areaChanged();}}};
  area.addEventListener('change',()=>{pendingArea=area.value;areaChanged();});
  topic.addEventListener('change',()=>{activity='all';shown=12;render();});
