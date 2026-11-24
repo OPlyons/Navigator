@@ -13,11 +13,11 @@
 .no-pictures .pg-icon{display:none}.reduced-colours .pg-group{--tone:#344c54;--tint:#edf1f2}
 @font-face{font-family:"DM Sans";src:url("/assets/fonts/dm-sans.woff") format("woff");font-weight:100 1000;font-display:swap}
 @font-face{font-family:"Archivo Black";src:url("/assets/fonts/archivo-black.woff") format("woff");font-weight:400;font-display:swap}
-.pg-standalone{--pg-ink:#1d1e19;--pg-muted:#454940;--pg-line:#acb1b8;font:1rem/1.55 "DM Sans",Arial,sans-serif;margin:0;background:white}.pg-standalone main{box-sizing:border-box;margin:2rem auto;padding:clamp(1rem,5vw,2rem);max-width:48rem}.pg-standalone h1{font:400 clamp(2rem,5vw,3.6rem)/1.09 "Archivo Black",Arial,sans-serif;letter-spacing:-.055em;margin:1rem 0 .6rem}.pg-standalone details{padding:.75rem 0;border-top:1px solid var(--pg-line)}.pg-standalone summary{font-weight:700;cursor:pointer}.pg-standalone a{color:var(--pg-ink);text-underline-offset:.18em}
+.pg-standalone{--pg-ink:#1d1e19;--pg-muted:#454940;--pg-line:#acb1b8;font:1rem/1.55 "DM Sans",Arial,sans-serif;margin:0;background:var(--paper,#faf8f0)}.pg-standalone main{box-sizing:border-box;margin:2rem auto;padding:clamp(1rem,5vw,2rem);max-width:48rem}.pg-standalone h1{font:400 clamp(2rem,5vw,3.6rem)/1.09 "Archivo Black",Arial,sans-serif;letter-spacing:-.055em;margin:1rem 0 .6rem}.pg-standalone details{padding:.75rem 0;border-top:1px solid var(--pg-line)}.pg-standalone summary{font-weight:700;cursor:pointer}.pg-standalone a{color:var(--pg-ink);text-underline-offset:.18em}
 .pg-standalone .pg-links{display:flex;flex-wrap:wrap;gap:.4rem 1.3rem}
 .pg-standalone .pg-links a{padding:.4rem 0;background:none;border:0}
 .pg-standalone .pg-steps li::marker{color:var(--pg-ink)}
 .pg-standalone summary{min-height:2rem}
 @media(max-width:60rem){.pg-groups{grid-template-columns:1fr}.pg-pair{height:auto}.pg-tile{min-height:3rem}}
 @media(max-width:23rem){.pg-icon{flex-basis:1.6rem;width:1.6rem;height:1.6rem}.pg-tile{padding:.4rem}}
-@media print{.pg-hub{display:none}.pg-drawer[open]{position:static;width:auto;height:auto;max-height:none;box-shadow:none}.pg-close,.pg-back{display:none}}
+@media print{.pg-standalone{background:white}.pg-hub{display:none}.pg-drawer[open]{position:static;width:auto;height:auto;max-height:none;box-shadow:none}.pg-close,.pg-back{display:none}}

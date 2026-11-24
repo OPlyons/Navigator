@@ -1,14 +1,14 @@
 @font-face{font-family:"Archivo Black";font-weight:400;font-style:normal;font-display:swap;src:url("/assets/fonts/archivo-black.woff") format("woff")}
 @font-face{font-family:"DM Sans";font-weight:100 1000;font-style:normal;font-display:swap;src:url("/assets/fonts/dm-sans.woff") format("woff")}
 :root{
- --paper:#fff;--white:#fff;--surface:#f0f2f5;--ink:#1d1e19;--muted:#454940;--acid:#e2f667;--lilac:#d1bef0;--mint:#b3deca;--peach:#fad088;--pink:#f2b3c7;--sky:#b8d9ef;--crisis:#f17f73;
+ --paper:#faf8f0;--white:#fffcf5;--surface:#efede4;--ink:#1d1e19;--muted:#454940;--acid:#e2f667;--lilac:#d1bef0;--mint:#b3deca;--peach:#fad088;--pink:#f2b3c7;--sky:#b8d9ef;--crisis:#f17f73;
  --stroke:2px solid var(--ink);--shadow:4px 4px 0 var(--ink);--body:"DM Sans",Arial,sans-serif;--display:"Archivo Black","Arial Black",sans-serif;--mono:ui-monospace,Consolas,monospace;
  --gap:clamp(.8rem,1.2vw,1.3rem);--edge:clamp(.9rem,3.2vw,3.5rem);--max:96rem;
  --blue:var(--ink);--navy:var(--ink);--teal:var(--ink);--line:#acb1b8;--focus:#ffdf57;
  color-scheme:light;font:100%/1.48 var(--body);background:var(--paper);color:var(--ink);
 }
 :root.large{font-size:125%}
-:root.reduced-colours{--paper:#fff;--white:#fff;--surface:#f2f2f2;--acid:#e3e3e3;--lilac:#e8e8e8;--mint:#e3e3e3;--peach:#e8e8e8;--pink:#e3e3e3;--sky:#e8e8e8;--crisis:#eee}
+:root.reduced-colours{--paper:#f8f7f2;--white:#fcfbf8;--surface:#eeede9;--acid:#e3e3e3;--lilac:#e8e8e8;--mint:#e3e3e3;--peach:#e8e8e8;--pink:#e3e3e3;--sky:#e8e8e8;--crisis:#eee}
 *{box-sizing:border-box}
 body{margin:0;min-height:100vh;background:var(--paper);color:var(--ink);font:1rem/1.46 var(--body);text-rendering:optimizeLegibility}
 button,textarea,input,select,summary{font-family:inherit;color:inherit}
@@ -71,7 +71,7 @@ main h1,main h2,main h3{color:var(--ink)}
 #support .support-dashboard{display:grid;grid-template-columns:minmax(0,.91fr) minmax(0,1.03fr) minmax(0,1.28fr);gap:var(--gap);align-items:stretch}
 #support .wizard-panel,#support .dashboard-panel{margin:0;padding:clamp(.76rem,1.12vw,1.25rem) 0;border:0;border-top:3px solid var(--ink);box-shadow:none;background:none;border-radius:0;min-width:0}
 #support .wizard-column{display:flex;flex-direction:column;gap:.55rem;min-width:0}
-#support .wizard-panel{flex:1;padding-inline:clamp(.76rem,1.12vw,1.25rem);background:color-mix(in srgb,var(--lilac) 34%,white)}
+#support .wizard-panel{flex:1;padding-inline:clamp(.76rem,1.12vw,1.25rem);background:color-mix(in srgb,var(--lilac) 34%,var(--white))}
 #support .wizard-heading,#support .dashboard-panel-heading{display:flex;align-items:center;justify-content:space-between;gap:.5rem;margin:0 0 .6rem}
 #support .wizard-heading{justify-content:flex-start}
 
@@ -93,7 +93,7 @@ main h1,main h2,main h3{color:var(--ink)}
 #support #navigator-status:empty{display:none}
 #support .panel-hint{color:var(--muted);font:.8rem/1.3 var(--body)}
 #support #area,#support #topic,#crisis-borough{width:100%;font:630 .94rem/1.25 var(--body);min-height:2.5rem;padding:.4rem 2.1rem .4rem .62rem;appearance:none;border:var(--stroke);border-radius:0;color:var(--ink);background-color:var(--white);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='m3 6 5 5 5-5' fill='none' stroke='%2322231c' stroke-width='1.9'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right .6rem center;background-size:.95rem auto}
-#area option,#topic option,select option{background:white;color:#1d1e19}
+#area option,#topic option,select option{background:var(--white);color:#1d1e19}
 #support .area-map-panel{padding:0;margin:.45rem 0 0;background:transparent;border:0}
 #support #borough-map{width:100%;max-width:25rem;margin:0 auto .5rem;aspect-ratio:680/480;height:auto;min-height:0;position:relative;container-type:inline-size;background:var(--surface);border:0;border-radius:0;overflow:visible}
 #support .borough-shapes{position:absolute;inset:0;width:100%;height:100%;display:block}
@@ -105,7 +105,7 @@ main h1,main h2,main h3{color:var(--ink)}
 [data-map-shape=ealing],[data-map-shape=kensington-chelsea]{--region:#f3b09c}
 [data-map-shape=camden]{--region:#edabc3}
 [data-map-shape=hammersmith-fulham]{--region:#adcee8}
-#support .borough-shapes path[data-map-shape].is-hovered{fill:white;stroke:var(--ink);stroke-width:3.4}
+#support .borough-shapes path[data-map-shape].is-hovered{fill:var(--white);stroke:var(--ink);stroke-width:3.4}
 #support .borough-shapes path[data-map-shape].is-selected{fill:#94b467;stroke:var(--ink);stroke-width:4}
 #support .map-connectors{fill:none;stroke:var(--ink);stroke-width:2;pointer-events:none}
 #support #borough-map .map-place{position:absolute;transform:translate(-50%,-50%);display:grid;place-items:center;width:max-content;max-width:30%;min-height:1.55rem;min-block-size:1.55rem;min-width:24px;padding:2px 4px;white-space:normal;overflow-wrap:normal;background:var(--white);color:var(--ink);border:1.5px solid var(--ink);border-radius:0;box-shadow:1.5px 1.5px 0 var(--ink);font:720 clamp(11px,3.35cqw,14px)/1.06 var(--body)}
@@ -451,6 +451,7 @@ main>.page .info-panel,.crisis-page .crisis-borough-card,.crisis-page details,.d
 }
 
 @media print{
+ :root{background:white}
  body{font:10pt/1.4 Arial,sans-serif;color:black;background:white}
  main{width:100%;padding:0}
  .navigator-masthead,.navigator-foot,#support .support-heading,#support .support-dashboard,#support .pg-hub,.skip-link{display:none!important}
