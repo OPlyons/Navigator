@@ -1904,7 +1904,7 @@
     },
     {
       "id": "discovery-f057702b3f211112b516",
-      "status": "proposed",
+      "status": "added",
       "firstSeen": "2026-11-26",
       "sourceCheckedOn": "2026-11-26",
       "resource": {
@@ -1938,11 +1938,14 @@
         "coverage"
       ],
       "evidence": "The live Harrow directory supports searches by keyword and location and publishes a broad range of local community-service and activity categories with individual listings.",
-      "limitations": "The directory does not establish that every listing is currently available. Costs, accessibility, eligibility and update dates vary and must be checked on the individual result."
+      "limitations": "The directory does not establish that every listing is currently available. Costs, accessibility, eligibility and update dates vary and must be checked on the individual result.",
+      "publishedResourceId": "harrow-discovered-bf61f145034a",
+      "publishedCommit": "ebcc14574d39c4e868ccc86a363aed27181e8125",
+      "publishedOn": "2026-11-26"
     },
     {
       "id": "discovery-962e58c4e3b33f947f6f",
-      "status": "proposed",
+      "status": "added",
       "firstSeen": "2026-11-26",
       "sourceCheckedOn": "2026-11-26",
       "resource": {
@@ -1976,11 +1979,14 @@
         "coverage"
       ],
       "evidence": "Harrow Council publishes a current borough-wide network of free, confidential places that can provide a safe pause, basic facilities, contact with family or friends and signposting to transport or support.",
-      "limitations": "The venues do not provide specialist domestic-abuse casework and cannot guarantee transport or another service. Physical accessibility and staff capacity are not described consistently for every location."
+      "limitations": "The venues do not provide specialist domestic-abuse casework and cannot guarantee transport or another service. Physical accessibility and staff capacity are not described consistently for every location.",
+      "publishedResourceId": "harrow-discovered-f5b5c4712d24",
+      "publishedCommit": "ebcc14574d39c4e868ccc86a363aed27181e8125",
+      "publishedOn": "2026-11-26"
     },
     {
       "id": "discovery-44f7e0d2892330748f65",
-      "status": "proposed",
+      "status": "added",
       "firstSeen": "2026-11-26",
       "sourceCheckedOn": "2026-11-26",
       "resource": {
@@ -2014,11 +2020,14 @@
         "coverage"
       ],
       "evidence": "CNWL's current service page describes a 24-hour, no-referral walk-in assessment service for adults in five named North West London boroughs who have a mental health crisis without urgent medical needs.",
-      "limitations": "The page does not publish expected waiting times, accessibility details or whether capacity can affect immediate assessment. It is not suitable where urgent physical treatment is needed."
+      "limitations": "The page does not publish expected waiting times, accessibility details or whether capacity can affect immediate assessment. It is not suitable where urgent physical treatment is needed.",
+      "publishedResourceId": "kensington-chelsea-discovered-e4529f62d2cf",
+      "publishedCommit": "ebcc14574d39c4e868ccc86a363aed27181e8125",
+      "publishedOn": "2026-11-26"
     },
     {
       "id": "discovery-74cf82180dc54c4b2ac9",
-      "status": "proposed",
+      "status": "added",
       "firstSeen": "2026-11-26",
       "sourceCheckedOn": "2026-11-26",
       "resource": {
@@ -2052,7 +2061,10 @@
         "coverage"
       ],
       "evidence": "The provider's current local service page substantiates a free, confidential and independent route for Kensington and Chelsea residents to get support with their rights and voice in health and social care.",
-      "limitations": "Availability depends on advocate capacity. The page does not state waiting times or guarantee that every health or social-care issue will be accepted."
+      "limitations": "Availability depends on advocate capacity. The page does not state waiting times or guarantee that every health or social-care issue will be accepted.",
+      "publishedResourceId": "kensington-chelsea-discovered-a58f537b32bc",
+      "publishedCommit": "ebcc14574d39c4e868ccc86a363aed27181e8125",
+      "publishedOn": "2026-11-26"
     }
   ]
 }
