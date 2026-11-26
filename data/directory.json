@@ -39712,6 +39712,170 @@
           "https://www.mdx.ac.uk/about-us/our-faculties/faculty-of-business-and-law/legal-advice-clinic/"
         ]
       }
+    },
+    {
+      "id": "harrow-discovered-bf61f145034a",
+      "directoryId": "harrow",
+      "name": "Simply Connect Harrow",
+      "category": "Local service directories",
+      "description": "A searchable directory of local advice and support, healthy-living services, social groups, activities and volunteering opportunities.",
+      "who": "People looking for community services, support or activities in and around Harrow.",
+      "access": "Search by organisation, keyword, town or postcode, or browse the directory's service and activity categories.",
+      "check": "Individual listings set their own eligibility, cost, accessibility and joining arrangements. Check the selected listing before attending or making contact.",
+      "coverage": "Harrow and nearby local communities.",
+      "url": "https://harrow.simplyconnect.uk/",
+      "sourceUrl": "https://harrow.simplyconnect.uk/",
+      "sourceOwner": "Simply Connect Harrow",
+      "phone": "",
+      "picture": "community",
+      "tags": [
+        "Simply Connect Harrow",
+        "Local service directories"
+      ],
+      "audiences": [],
+      "lastChecked": "2026-11-26",
+      "nextReview": "2026-12-24",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-26",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "check",
+          "url",
+          "coverage"
+        ],
+        "notes": "The directory does not establish that every listing is currently available. Costs, accessibility, eligibility and update dates vary and must be checked on the individual result.",
+        "evidenceUrls": [
+          "https://harrow.simplyconnect.uk/"
+        ]
+      }
+    },
+    {
+      "id": "harrow-discovered-f5b5c4712d24",
+      "directoryId": "harrow",
+      "name": "Harrow Safe Havens",
+      "category": "Safety and abuse support",
+      "description": "A network of welcoming local places where someone who feels scared, threatened, harassed or vulnerable can pause safely and ask for practical help.",
+      "who": "Anyone in Harrow who feels unsafe or needs immediate practical support. The scheme is mainly aimed at women and girls, but anyone can use a Safe Haven.",
+      "access": "Use Harrow Council's map or daily list to find an open Safe Haven, then go into the participating library, community venue, café, shop or other marked location.",
+      "check": "Locations and opening hours can change, especially on bank holidays. Check the current council map before travelling. Safe Havens are not a replacement for emergency services.",
+      "coverage": "Safe Haven locations across the London Borough of Harrow.",
+      "url": "https://www.harrow.gov.uk/safehavens",
+      "sourceUrl": "https://www.harrow.gov.uk/safehavens",
+      "sourceOwner": "London Borough of Harrow",
+      "phone": "",
+      "picture": "help",
+      "tags": [
+        "Harrow Safe Havens",
+        "Safety and abuse support"
+      ],
+      "audiences": [],
+      "lastChecked": "2026-11-26",
+      "nextReview": "2026-12-24",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-26",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "check",
+          "url",
+          "coverage"
+        ],
+        "notes": "The venues do not provide specialist domestic-abuse casework and cannot guarantee transport or another service. Physical accessibility and staff capacity are not described consistently for every location.",
+        "evidenceUrls": [
+          "https://www.harrow.gov.uk/safehavens"
+        ]
+      }
+    },
+    {
+      "id": "kensington-chelsea-discovered-e4529f62d2cf",
+      "directoryId": "kensington-chelsea",
+      "name": "Mental Health Crisis Assessment Service (MHCAS)",
+      "category": "Urgent help",
+      "description": "A 24-hour NHS walk-in service offering emergency mental health assessment and onward care planning in a calm clinical setting outside an emergency department.",
+      "who": "Adults aged 18 or over in Kensington and Chelsea, Westminster, Brent, Harrow or Hillingdon who are experiencing a mental health crisis and do not have an urgent physical-health need.",
+      "access": "Walk in without a referral at the Mental Health Centre, St Charles Hospital, Exmoor Street, London W10 6DZ. Emergency departments, first responders and mental health teams can also arrange access through NHS pathways.",
+      "check": "The service is for urgent mental health assessment when there is no urgent physical-health need. Use an emergency department for urgent medical treatment and ask the NHS crisis service if unsure whether MHCAS is suitable.",
+      "coverage": "Adults in Kensington and Chelsea, Westminster, Brent, Harrow and Hillingdon.",
+      "url": "https://www.cnwl.nhs.uk/services/mental-health-services/adult-and-older-adult/st-charles-hospital/mental-health-crisis-assessment-service-mhcas",
+      "sourceUrl": "https://www.cnwl.nhs.uk/services/mental-health-services/adult-and-older-adult/st-charles-hospital/mental-health-crisis-assessment-service-mhcas",
+      "sourceOwner": "Central and North West London NHS Foundation Trust",
+      "phone": "",
+      "picture": "phone",
+      "tags": [
+        "Mental Health Crisis Assessment Service (MHCAS)",
+        "Urgent help"
+      ],
+      "audiences": [],
+      "lastChecked": "2026-11-26",
+      "nextReview": "2026-12-24",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-26",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "check",
+          "url",
+          "coverage"
+        ],
+        "notes": "The page does not publish expected waiting times, accessibility details or whether capacity can affect immediate assessment. It is not suitable where urgent physical treatment is needed.",
+        "evidenceUrls": [
+          "https://www.cnwl.nhs.uk/services/mental-health-services/adult-and-older-adult/st-charles-hospital/mental-health-crisis-assessment-service-mhcas"
+        ]
+      }
+    },
+    {
+      "id": "kensington-chelsea-discovered-a58f537b32bc",
+      "directoryId": "kensington-chelsea",
+      "name": "The Advocacy Project — Kensington and Chelsea community advocacy",
+      "category": "Voice and advocacy",
+      "description": "Free, confidential and independent community advocacy to help residents understand their rights and have their views heard in health and social-care decisions.",
+      "who": "People living in Kensington and Chelsea who need support to access or speak up about health and social-care services.",
+      "access": "The person seeking advocacy, or a friend or family member, can use the public service request form on the provider's page. Professionals use the separate professional referral route.",
+      "check": "Support depends on advocate capacity. Contact the service through its form so it can confirm whether the request fits its local community-advocacy offer.",
+      "coverage": "Residents of the Royal Borough of Kensington and Chelsea.",
+      "url": "https://www.advocacyproject.org.uk/service/kensington-chelsea-advocacy/",
+      "sourceUrl": "https://www.advocacyproject.org.uk/service/kensington-chelsea-advocacy/",
+      "sourceOwner": "The Advocacy Project",
+      "phone": "",
+      "picture": "talk",
+      "tags": [
+        "The Advocacy Project — Kensington and Chelsea community advocacy",
+        "Voice and advocacy"
+      ],
+      "audiences": [],
+      "lastChecked": "2026-11-26",
+      "nextReview": "2026-12-24",
+      "verificationStatus": "Automated source check; current availability not confirmed",
+      "sourceCheck": {
+        "date": "2026-11-26",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "who",
+          "access",
+          "check",
+          "url",
+          "coverage"
+        ],
+        "notes": "Availability depends on advocate capacity. The page does not state waiting times or guarantee that every health or social-care issue will be accepted.",
+        "evidenceUrls": [
+          "https://www.advocacyproject.org.uk/service/kensington-chelsea-advocacy/"
+        ]
+      }
     }
   ],
   "areaDownloads": {

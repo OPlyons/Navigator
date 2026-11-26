@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "kind": "new_resources",
+  "sourceDay": "2026-11-26",
+  "applied": [
+    {
+      "candidateId": "discovery-f057702b3f211112b516",
+      "resourceId": "harrow-discovered-bf61f145034a",
+      "checkedOn": "2026-11-26"
+    },
+    {
+      "candidateId": "discovery-962e58c4e3b33f947f6f",
+      "resourceId": "harrow-discovered-f5b5c4712d24",
+      "checkedOn": "2026-11-26"
+    },
+    {
+      "candidateId": "discovery-44f7e0d2892330748f65",
+      "resourceId": "kensington-chelsea-discovered-e4529f62d2cf",
+      "checkedOn": "2026-11-26"
+    },
+    {
+      "candidateId": "discovery-74cf82180dc54c4b2ac9",
+      "resourceId": "kensington-chelsea-discovered-a58f537b32bc",
+      "checkedOn": "2026-11-26"
+    }
+  ],
+  "skipped": [
+    {
+      "id": "discovery-2a46dce5accc21cf591d",
+      "reason": "Refresh older source evidence before publishing"
+    },
+    {
+      "id": "discovery-3cd4c33c2a62aad0a83f",
+      "reason": "Refresh older source evidence before publishing"
+    },
+    {
+      "id": "discovery-1574ab6c3b10835ef47b",
+      "reason": "Refresh older source evidence before publishing"
+    },
+    {
+      "id": "discovery-5e658297fc303bd4bf53",
+      "reason": "Refresh older source evidence before publishing"
+    },
+    {
+      "id": "discovery-7bf3c30a4614d3e11100",
+      "reason": "Refresh older source evidence before publishing"
+    },
+    {
+      "id": "discovery-93cb0584ee4c78969c5d",
+      "reason": "Refresh older source evidence before publishing"
+    },
+    {
+      "id": "discovery-1d139e2af9f53245124f",
+      "reason": "Refresh older source evidence before publishing"
+    },
+    {
+      "id": "discovery-c1bcae2ae710c5ebe19f",
+      "reason": "Refresh older source evidence before publishing"
+    },
+    {
+      "id": "discovery-21f2ed3d55c1e488af50",
+      "reason": "Refresh older source evidence before publishing"
+    },
+    {
+      "id": "discovery-3b62195ae03b4f524e4e",
+      "reason": "Refresh older source evidence before publishing"
+    },
+    {
+      "id": "discovery-ecd0e8d2ab6704078df4",
+      "reason": "Refresh older source evidence before publishing"
+    },
+    {
+      "id": "discovery-b2ae312da84ce90211b2",
+      "reason": "Refresh older source evidence before publishing"
+    },
+    {
+      "id": "discovery-fc7ec0e49ee6eca90588",
+      "reason": "Refresh older source evidence before publishing"
+    },
+    {
+      "id": "discovery-8d7414828e412bc79a7a",
+      "reason": "Refresh older source evidence before publishing"
+    },
+    {
+      "id": "discovery-c06545c4957e08337434",
+      "reason": "Refresh older source evidence before publishing"
+    }
+  ]
+}
