@@ -1,0 +1,219 @@
+{
+  "schemaVersion": 1,
+  "day": "2026-11-26",
+  "results": [
+    {
+      "key": "[\"harrow\",\"Local service directories\"]",
+      "outcome": "completed",
+      "queries": [
+        "Harrow local community services directory council voluntary sector current",
+        "Harrow community organisations directory support activities residents official",
+        "site:harrow.gov.uk community directory local services Harrow"
+      ],
+      "summary": "A bounded search of council, NHS and local voluntary-sector results found Simply Connect Harrow, a current searchable directory of local advice, support, healthy-living and social activities. It was not present in the catalogue or saved candidate history.",
+      "candidates": [
+        {
+          "resource": {
+            "name": "Simply Connect Harrow",
+            "directoryId": "harrow",
+            "category": "Local service directories",
+            "description": "A searchable directory of local advice and support, healthy-living services, social groups, activities and volunteering opportunities.",
+            "who": "People looking for community services, support or activities in and around Harrow.",
+            "access": "Search by organisation, keyword, town or postcode, or browse the directory's service and activity categories.",
+            "check": "Individual listings set their own eligibility, cost, accessibility and joining arrangements. Check the selected listing before attending or making contact.",
+            "url": "https://harrow.simplyconnect.uk/",
+            "sourceUrl": "https://harrow.simplyconnect.uk/",
+            "sourceOwner": "Simply Connect Harrow",
+            "coverage": "Harrow and nearby local communities."
+          },
+          "checkedFields": [
+            "name",
+            "description",
+            "who",
+            "access",
+            "check",
+            "url",
+            "coverage"
+          ],
+          "sources": [
+            {
+              "url": "https://harrow.simplyconnect.uk/",
+              "ownerType": "official_network",
+              "retrieval": "page",
+              "note": "The current directory page provides keyword and location searches and browsable categories covering advice, support, healthy living, social activities and volunteering in Harrow."
+            }
+          ],
+          "evidence": "The live Harrow directory supports searches by keyword and location and publishes a broad range of local community-service and activity categories with individual listings.",
+          "limitations": "The directory does not establish that every listing is currently available. Costs, accessibility, eligibility and update dates vary and must be checked on the individual result."
+        }
+      ]
+    },
+    {
+      "key": "[\"harrow\",\"Safety and abuse support\"]",
+      "outcome": "completed",
+      "queries": [
+        "Harrow domestic abuse sexual violence support service official council provider current",
+        "Harrow safety abuse support charity victims current access Harrow residents",
+        "site:harrow.gov.uk violence abuse support Harrow service"
+      ],
+      "summary": "The search confirmed the already-listed Harrow Domestic Abuse Support Service and found Harrow Council's separate Safe Havens network. The Safe Havens page gives a current borough-wide map and daily opening information and was absent from the catalogue and candidate history.",
+      "candidates": [
+        {
+          "resource": {
+            "name": "Harrow Safe Havens",
+            "directoryId": "harrow",
+            "category": "Safety and abuse support",
+            "description": "A network of welcoming local places where someone who feels scared, threatened, harassed or vulnerable can pause safely and ask for practical help.",
+            "who": "Anyone in Harrow who feels unsafe or needs immediate practical support. The scheme is mainly aimed at women and girls, but anyone can use a Safe Haven.",
+            "access": "Use Harrow Council's map or daily list to find an open Safe Haven, then go into the participating library, community venue, café, shop or other marked location.",
+            "check": "Locations and opening hours can change, especially on bank holidays. Check the current council map before travelling. Safe Havens are not a replacement for emergency services.",
+            "url": "https://www.harrow.gov.uk/safehavens",
+            "sourceUrl": "https://www.harrow.gov.uk/safehavens",
+            "sourceOwner": "London Borough of Harrow",
+            "coverage": "Safe Haven locations across the London Borough of Harrow."
+          },
+          "checkedFields": [
+            "name",
+            "description",
+            "who",
+            "access",
+            "check",
+            "url",
+            "coverage"
+          ],
+          "sources": [
+            {
+              "url": "https://www.harrow.gov.uk/safehavens",
+              "ownerType": "council",
+              "retrieval": "page",
+              "note": "Harrow Council's current page explains who may use a Safe Haven, the practical help available and publishes a borough map plus daily locations and opening hours."
+            }
+          ],
+          "evidence": "Harrow Council publishes a current borough-wide network of free, confidential places that can provide a safe pause, basic facilities, contact with family or friends and signposting to transport or support.",
+          "limitations": "The venues do not provide specialist domestic-abuse casework and cannot guarantee transport or another service. Physical accessibility and staff capacity are not described consistently for every location."
+        }
+      ]
+    },
+    {
+      "key": "[\"harrow\",\"Urgent help\"]",
+      "outcome": "completed",
+      "queries": [
+        "Harrow urgent mental health crisis support official NHS council current service",
+        "site:cnwl.nhs.uk Harrow urgent crisis service mental health",
+        "site:harrow.gov.uk urgent help mental health Harrow residents"
+      ],
+      "summary": "The bounded NHS and council search found the already-listed Harrow Cove and CNWL Single Point of Access, which is already represented in the catalogue with explicit Harrow coverage. Other results were specialist clinical pathways or fitted different categories, so no duplicate urgent-help listing was proposed.",
+      "candidates": []
+    },
+    {
+      "key": "[\"kensington-chelsea\",\"Safety and abuse support\"]",
+      "outcome": "completed",
+      "queries": [
+        "Kensington Chelsea domestic abuse sexual violence support official council provider current",
+        "RBKC safety abuse support service residents current official",
+        "site:rbkc.gov.uk domestic abuse support Kensington Chelsea service"
+      ],
+      "summary": "Current council results centred on the already-listed Angelou partnership. Other specialist pages either described services reached through that partnership, overlapped its local offer or were national services without a distinct borough programme. No additional listing was forced from this limited search.",
+      "candidates": []
+    },
+    {
+      "key": "[\"kensington-chelsea\",\"Urgent help\"]",
+      "outcome": "completed",
+      "queries": [
+        "Kensington Chelsea urgent mental health crisis support official NHS current service",
+        "site:cnwl.nhs.uk Kensington Chelsea urgent mental health crisis service",
+        "site:rbkc.gov.uk urgent help mental health Kensington Chelsea residents"
+      ],
+      "summary": "The NHS search confirmed existing Cove and Single Point of Access coverage and identified the distinct Mental Health Crisis Assessment Service at St Charles Hospital. Its current NHS page confirms walk-in access, 24-hour availability and precise North West London coverage; it was absent from the catalogue and candidate history.",
+      "candidates": [
+        {
+          "resource": {
+            "name": "Mental Health Crisis Assessment Service (MHCAS)",
+            "directoryId": "kensington-chelsea",
+            "category": "Urgent help",
+            "description": "A 24-hour NHS walk-in service offering emergency mental health assessment and onward care planning in a calm clinical setting outside an emergency department.",
+            "who": "Adults aged 18 or over in Kensington and Chelsea, Westminster, Brent, Harrow or Hillingdon who are experiencing a mental health crisis and do not have an urgent physical-health need.",
+            "access": "Walk in without a referral at the Mental Health Centre, St Charles Hospital, Exmoor Street, London W10 6DZ. Emergency departments, first responders and mental health teams can also arrange access through NHS pathways.",
+            "check": "The service is for urgent mental health assessment when there is no urgent physical-health need. Use an emergency department for urgent medical treatment and ask the NHS crisis service if unsure whether MHCAS is suitable.",
+            "url": "https://www.cnwl.nhs.uk/services/mental-health-services/adult-and-older-adult/st-charles-hospital/mental-health-crisis-assessment-service-mhcas",
+            "sourceUrl": "https://www.cnwl.nhs.uk/services/mental-health-services/adult-and-older-adult/st-charles-hospital/mental-health-crisis-assessment-service-mhcas",
+            "sourceOwner": "Central and North West London NHS Foundation Trust",
+            "coverage": "Adults in Kensington and Chelsea, Westminster, Brent, Harrow and Hillingdon."
+          },
+          "checkedFields": [
+            "name",
+            "description",
+            "who",
+            "access",
+            "check",
+            "url",
+            "coverage"
+          ],
+          "sources": [
+            {
+              "url": "https://www.cnwl.nhs.uk/services/mental-health-services/adult-and-older-adult/st-charles-hospital/mental-health-crisis-assessment-service-mhcas",
+              "ownerType": "nhs",
+              "retrieval": "page",
+              "note": "The current CNWL page confirms the clinical purpose, adult eligibility, five-borough coverage, no-referral walk-in route, location and 24-hour opening."
+            }
+          ],
+          "evidence": "CNWL's current service page describes a 24-hour, no-referral walk-in assessment service for adults in five named North West London boroughs who have a mental health crisis without urgent medical needs.",
+          "limitations": "The page does not publish expected waiting times, accessibility details or whether capacity can affect immediate assessment. It is not suitable where urgent physical treatment is needed."
+        }
+      ]
+    },
+    {
+      "key": "[\"kensington-chelsea\",\"Voice and advocacy\"]",
+      "outcome": "completed",
+      "queries": [
+        "Kensington Chelsea independent advocacy service official council current adults mental health Care Act",
+        "RBKC voice advocacy residents provider current service",
+        "site:rbkc.gov.uk advocacy service Kensington Chelsea independent"
+      ],
+      "summary": "Current provider and council results identified The Advocacy Project's free community advocacy for Kensington and Chelsea residents. It is distinct from the existing Healthwatch listing and was not present in the catalogue or saved candidate history.",
+      "candidates": [
+        {
+          "resource": {
+            "name": "The Advocacy Project — Kensington and Chelsea community advocacy",
+            "directoryId": "kensington-chelsea",
+            "category": "Voice and advocacy",
+            "description": "Free, confidential and independent community advocacy to help residents understand their rights and have their views heard in health and social-care decisions.",
+            "who": "People living in Kensington and Chelsea who need support to access or speak up about health and social-care services.",
+            "access": "The person seeking advocacy, or a friend or family member, can use the public service request form on the provider's page. Professionals use the separate professional referral route.",
+            "check": "Support depends on advocate capacity. Contact the service through its form so it can confirm whether the request fits its local community-advocacy offer.",
+            "url": "https://www.advocacyproject.org.uk/service/kensington-chelsea-advocacy/",
+            "sourceUrl": "https://www.advocacyproject.org.uk/service/kensington-chelsea-advocacy/",
+            "sourceOwner": "The Advocacy Project",
+            "coverage": "Residents of the Royal Borough of Kensington and Chelsea."
+          },
+          "checkedFields": [
+            "name",
+            "description",
+            "who",
+            "access",
+            "check",
+            "url",
+            "coverage"
+          ],
+          "sources": [
+            {
+              "url": "https://www.advocacyproject.org.uk/service/kensington-chelsea-advocacy/",
+              "ownerType": "provider",
+              "retrieval": "page",
+              "note": "The provider's current local page confirms free independent community advocacy, Kensington and Chelsea residence, the health and social-care scope, public access route and capacity limitation."
+            }
+          ],
+          "evidence": "The provider's current local service page substantiates a free, confidential and independent route for Kensington and Chelsea residents to get support with their rights and voice in health and social care.",
+          "limitations": "Availability depends on advocate capacity. The page does not state waiting times or guarantee that every health or social-care issue will be accepted."
+        }
+      ]
+    }
+  ],
+  "newCandidateIds": [
+    "discovery-f057702b3f211112b516",
+    "discovery-962e58c4e3b33f947f6f",
+    "discovery-44f7e0d2892330748f65",
+    "discovery-74cf82180dc54c4b2ac9"
+  ],
+  "skippedCandidates": []
+}

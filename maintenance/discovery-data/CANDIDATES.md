@@ -1,7 +1,7 @@
 # New resource suggestions
 
-Last saved search: 2026-11-24. 48 of 300 area/category combinations attempted.
-15 resources await publication. Search coverage is limited, not exhaustive.
+Last saved search: 2026-11-26. 54 of 300 area/category combinations attempted.
+19 resources await publication. Search coverage is limited, not exhaustive.
 
 Candidates are public-source research only. They have not been added to the public directory. Eligible additions publish automatically after the normal quality checks; uncertain cases remain flagged. Existing listing reviews have their own progress and limits.
 
@@ -205,4 +205,56 @@ Category: Voice and advocacy
 - Evidence: POhWER's current Brent page identifies four local advocacy services and provides service-specific referral forms plus a route to ask for advice about eligibility.
 - Limitations: Detailed eligibility and referral rules differ between advocacy types. Brent Council also retains an older directory page for VoiceAbility community advocacy, so people should confirm which provider covers their particular need.
 - Source: <https://www.pohwer.net/brent> — The current provider page lists Brent Independent Mental Health, Mental Capacity, Care Act and Health Complaints Advocacy, with separate referral forms and a direct enquiry route.
+
+## Simply Connect Harrow — harrow
+Candidate: discovery-f057702b3f211112b516. Source checked: 2026-11-26.
+Category: Local service directories
+- What it offers: A searchable directory of local advice and support, healthy-living services, social groups, activities and volunteering opportunities.
+- Who: People looking for community services, support or activities in and around Harrow.
+- Access: Search by organisation, keyword, town or postcode, or browse the directory's service and activity categories.
+- Costs/checks: Individual listings set their own eligibility, cost, accessibility and joining arrangements. Check the selected listing before attending or making contact.
+- Coverage: Harrow and nearby local communities.
+- Website: <https://harrow.simplyconnect.uk/>
+- Evidence: The live Harrow directory supports searches by keyword and location and publishes a broad range of local community-service and activity categories with individual listings.
+- Limitations: The directory does not establish that every listing is currently available. Costs, accessibility, eligibility and update dates vary and must be checked on the individual result.
+- Source: <https://harrow.simplyconnect.uk/> — The current directory page provides keyword and location searches and browsable categories covering advice, support, healthy living, social activities and volunteering in Harrow.
+
+## Harrow Safe Havens — harrow
+Candidate: discovery-962e58c4e3b33f947f6f. Source checked: 2026-11-26.
+Category: Safety and abuse support
+- What it offers: A network of welcoming local places where someone who feels scared, threatened, harassed or vulnerable can pause safely and ask for practical help.
+- Who: Anyone in Harrow who feels unsafe or needs immediate practical support. The scheme is mainly aimed at women and girls, but anyone can use a Safe Haven.
+- Access: Use Harrow Council's map or daily list to find an open Safe Haven, then go into the participating library, community venue, café, shop or other marked location.
+- Costs/checks: Locations and opening hours can change, especially on bank holidays. Check the current council map before travelling. Safe Havens are not a replacement for emergency services.
+- Coverage: Safe Haven locations across the London Borough of Harrow.
+- Website: <https://www.harrow.gov.uk/safehavens>
+- Evidence: Harrow Council publishes a current borough-wide network of free, confidential places that can provide a safe pause, basic facilities, contact with family or friends and signposting to transport or support.
+- Limitations: The venues do not provide specialist domestic-abuse casework and cannot guarantee transport or another service. Physical accessibility and staff capacity are not described consistently for every location.
+- Source: <https://www.harrow.gov.uk/safehavens> — Harrow Council's current page explains who may use a Safe Haven, the practical help available and publishes a borough map plus daily locations and opening hours.
+
+## Mental Health Crisis Assessment Service (MHCAS) — kensington-chelsea
+Candidate: discovery-44f7e0d2892330748f65. Source checked: 2026-11-26.
+Category: Urgent help
+- What it offers: A 24-hour NHS walk-in service offering emergency mental health assessment and onward care planning in a calm clinical setting outside an emergency department.
+- Who: Adults aged 18 or over in Kensington and Chelsea, Westminster, Brent, Harrow or Hillingdon who are experiencing a mental health crisis and do not have an urgent physical-health need.
+- Access: Walk in without a referral at the Mental Health Centre, St Charles Hospital, Exmoor Street, London W10 6DZ. Emergency departments, first responders and mental health teams can also arrange access through NHS pathways.
+- Costs/checks: The service is for urgent mental health assessment when there is no urgent physical-health need. Use an emergency department for urgent medical treatment and ask the NHS crisis service if unsure whether MHCAS is suitable.
+- Coverage: Adults in Kensington and Chelsea, Westminster, Brent, Harrow and Hillingdon.
+- Website: <https://www.cnwl.nhs.uk/services/mental-health-services/adult-and-older-adult/st-charles-hospital/mental-health-crisis-assessment-service-mhcas>
+- Evidence: CNWL's current service page describes a 24-hour, no-referral walk-in assessment service for adults in five named North West London boroughs who have a mental health crisis without urgent medical needs.
+- Limitations: The page does not publish expected waiting times, accessibility details or whether capacity can affect immediate assessment. It is not suitable where urgent physical treatment is needed.
+- Source: <https://www.cnwl.nhs.uk/services/mental-health-services/adult-and-older-adult/st-charles-hospital/mental-health-crisis-assessment-service-mhcas> — The current CNWL page confirms the clinical purpose, adult eligibility, five-borough coverage, no-referral walk-in route, location and 24-hour opening.
+
+## The Advocacy Project — Kensington and Chelsea community advocacy — kensington-chelsea
+Candidate: discovery-74cf82180dc54c4b2ac9. Source checked: 2026-11-26.
+Category: Voice and advocacy
+- What it offers: Free, confidential and independent community advocacy to help residents understand their rights and have their views heard in health and social-care decisions.
+- Who: People living in Kensington and Chelsea who need support to access or speak up about health and social-care services.
+- Access: The person seeking advocacy, or a friend or family member, can use the public service request form on the provider's page. Professionals use the separate professional referral route.
+- Costs/checks: Support depends on advocate capacity. Contact the service through its form so it can confirm whether the request fits its local community-advocacy offer.
+- Coverage: Residents of the Royal Borough of Kensington and Chelsea.
+- Website: <https://www.advocacyproject.org.uk/service/kensington-chelsea-advocacy/>
+- Evidence: The provider's current local service page substantiates a free, confidential and independent route for Kensington and Chelsea residents to get support with their rights and voice in health and social care.
+- Limitations: Availability depends on advocate capacity. The page does not state waiting times or guarantee that every health or social-care issue will be accepted.
+- Source: <https://www.advocacyproject.org.uk/service/kensington-chelsea-advocacy/> — The provider's current local page confirms free independent community advocacy, Kensington and Chelsea residence, the health and social-care scope, public access route and capacity limitation.
 
