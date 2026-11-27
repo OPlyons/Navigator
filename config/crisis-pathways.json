@@ -80,7 +80,7 @@
         },
         {
           "name": "Kensington Chelsea and Westminster Cove",
-          "text": "For adults aged 18 or over. NHS lists walk-in support 2pm–10pm daily at 57 Goldney Road, W9 2AR. Hestia reports limited support and no phone contact: check its current service notice before travelling.",
+          "text": "For adults aged 18 or over. NHS lists walk-in support 2pm–10pm daily at 57 Goldney Road, W9 2AR. Hestia previously reported limited support and no phone contact. Its update could not be reopened on 26 November 2026, so current restrictions are unconfirmed. Check with your care team or NHS 111 before travelling if unsure.",
           "url": "https://www.cnwl.nhs.uk/services/coves"
         },
         {
@@ -95,8 +95,8 @@
         }
       ],
       "notice": {
-        "text": "KCW Cove provider service notice",
-        "url": "https://www.hestia.org/faqs?startat=24"
+        "text": "KCW Cove NHS access information; provider restriction still unconfirmed",
+        "url": "https://www.cnwl.nhs.uk/services/coves"
       }
     },
     "westminster": {
@@ -109,7 +109,7 @@
         },
         {
           "name": "Kensington Chelsea and Westminster Cove",
-          "text": "For adults aged 18 or over. NHS lists walk-in support 2pm–10pm daily at 57 Goldney Road, W9 2AR. Hestia reports limited support and no phone contact: check its current service notice before travelling.",
+          "text": "For adults aged 18 or over. NHS lists walk-in support 2pm–10pm daily at 57 Goldney Road, W9 2AR. Hestia previously reported limited support and no phone contact. Its update could not be reopened on 26 November 2026, so current restrictions are unconfirmed. Check with your care team or NHS 111 before travelling if unsure.",
           "url": "https://www.cnwl.nhs.uk/services/coves"
         },
         {
@@ -124,8 +124,8 @@
         }
       ],
       "notice": {
-        "text": "KCW Cove provider service notice",
-        "url": "https://www.hestia.org/faqs?startat=24"
+        "text": "KCW Cove NHS access information; provider restriction still unconfirmed",
+        "url": "https://www.cnwl.nhs.uk/services/coves"
       }
     },
     "camden": {

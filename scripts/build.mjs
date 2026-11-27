@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import {buildPracticalGuides} from './render-practical-guides.mjs';
 import {buildNeurodiversity} from './build-neurodiversity.mjs';
+import {buildDirectoryPdfs} from './build-directory-pdfs.mjs';
 import path from 'node:path';
 import {execFileSync} from 'node:child_process';
 import {build} from 'esbuild';
@@ -14,6 +15,7 @@ if(commit==='local'){try{commit=execFileSync('git',['rev-parse','--verify','HEAD
 const release='community-navigator@'+commit;
 await fs.rm(out,{recursive:true,force:true});await fs.cp(path.join(root,'public'),out,{recursive:true});
 await fs.copyFile(path.join(root,'data/directory.json'),path.join(out,'assets/directory.json'));
+const pdfManifest=await buildDirectoryPdfs({root,out,directory});
 const moduleSource=async p=>(await read(p)).replace(/^import .*?;\n/gm,'').replace(/\bexport /g,'');
 const core='window.CNWLNavigatorCore=(()=>{\n'+await moduleSource('navigator/shared.mjs')+'\n'+await moduleSource('navigator/retrieve.mjs')+'\nreturn {RELEASE,AREAS,NEEDS,AUDIENCES,PREFERENCES,PRACTICAL_NEEDS,practicalNeeds,practicalResourceNeeds,unresolvedSourceNotice,fold,sensitiveInput,urgentSafetyInput,localIntent,normaliseIntent,indexResource,searchDirectory};\n})();';
 let template=await read('site/template.html');
@@ -37,6 +39,16 @@ template=template.replace('</head>','<style>'+await read('site/resource-suggesti
 template=template.replace('</body>','<script>'+await read('site/resource-suggestions.js')+'</script></body>');
 const crisis=JSON.parse(await read('config/crisis-pathways.json'));
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const downloadLinks=directory.directories
+  .filter(area=>Object.hasOwn(pdfManifest.files,area.id))
+  .sort((a,b)=>a.name.localeCompare(b.name,'en'))
+  .map(area=>{
+    const {filename,pages,bytes,sha256}=pdfManifest.files[area.id];
+    const asset='assets/'+encodeURIComponent(filename);
+    const details='PDF, '+pages+(pages===1?' page, ':' pages, ')+Math.round(bytes/1000)+' KB';
+    return `<a class="download-link" download="${esc(filename)}" href="${asset}?v=${sha256.slice(0,12)}" id="dl-${esc(filename)}" data-asset="assets/${esc(filename)}"><span>${esc(area.name)} support directory</span><span class="file-meta">${details}</span></a>`;
+  });
+fill('div','public-area-links',downloadLinks.join('\n'));
 const crisisContent='<div class="crisis-first-steps"><section aria-labelledby="emergency-now-heading"><h2 id="emergency-now-heading">Immediate danger or serious injury</h2><a class="crisis-call" href="tel:999">Call 999</a><p>Call 999 or go to A&amp;E for immediate danger, serious injury or overdose. Do not wait for a café, an email or a search result.</p></section><section aria-labelledby="urgent-nhs-heading"><h2 id="urgent-nhs-heading">Urgent mental health support</h2><a class="crisis-call" href="tel:111">Call NHS 111</a><p>Select the mental health option, available 24/7. Use the crisis plan and usual care team when available. If unsure which route fits, call 111.</p></section></div><h2>Local places and crisis services</h2><p>'+esc(crisis.ageNote)+'</p><label class="crisis-area-select" for="crisis-borough">Jump to your borough or area</label><select id="crisis-borough"><option value="">Choose an area, or open one below</option>'+Object.entries(crisis.areas).map(([id,a])=>'<option value="'+id+'">'+esc(a.name)+'</option>').join('')+'</select><div class="crisis-boroughs">'+Object.entries(crisis.areas).map(([id,a])=>'<details class="crisis-borough-card" id="crisis-area-'+id+'"><summary>'+esc(a.name)+'</summary>'+a.routes.map(r=>'<section class="crisis-service"><h3>'+esc(r.name)+'</h3><p>'+esc(r.text)+'</p><a href="'+esc(r.url)+'" target="_blank" rel="noopener noreferrer">Check '+esc(r.name)+' access details</a></section>').join('')+(a.notice?'<p class="crisis-limit"><a href="'+esc(a.notice.url)+'" target="_blank" rel="noopener noreferrer">'+esc(a.notice.text)+'</a></p>':'')+'</details>').join('')+'</div><p class="small-note">NHS and provider information checked '+crisis.checkedOn+'. Opening times and access can change. These routes give information; Navigator does not arrange referrals or guarantee a place.</p><details><summary>For staff and anyone supporting someone else</summary><p>'+esc(crisis.staff)+'</p></details>';
 fill('div','crisis-guide-content',crisisContent);
 template=template.replace('</head>','<style>'+await read('site/crisis-help.css')+'</style></head>');

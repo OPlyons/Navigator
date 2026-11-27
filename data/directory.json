@@ -1911,9 +1911,9 @@
       "category": "Voice and advocacy",
       "description": "Share your experience of health and care, or ask for information about local support.",
       "who": "People using health and social care services in Brent.",
-      "access": "Call, email or use the contact form.",
-      "check": "Ask for the support or communication format you need. Phone hours are Monday–Friday, 9am–5pm.",
-      "url": "https://www.healthwatchbrent.co.uk/contact-us",
+      "access": "Use the official information page for contact details and ways to get involved. The local Healthwatch website was unavailable at this check.",
+      "check": "Ask about current contact hours and the support or communication format you need.",
+      "url": "https://www.advocacyproject.org.uk/service/healthwatch-brent/",
       "phone": "020 3869 9730",
       "picture": "talk",
       "tags": [
@@ -1923,22 +1923,23 @@
         "information",
         "signposting"
       ],
-      "lastChecked": "2026-11-23",
-      "nextReview": "2026-12-21",
-      "sourceUrl": "https://www.healthwatchbrent.co.uk/contact-us",
-      "sourceOwner": "Healthwatch Brent",
+      "lastChecked": "2026-11-26",
+      "nextReview": "2026-12-24",
+      "sourceUrl": "https://www.advocacyproject.org.uk/service/healthwatch-brent/",
+      "sourceOwner": "The Advocacy Project",
       "verificationStatus": "Automated source check; current availability not confirmed",
       "audiences": [],
       "sourceCheck": {
-        "date": "2026-11-23",
+        "date": "2026-11-26",
         "method": "automated",
         "checkedFields": [
           "name",
+          "url",
           "description"
         ],
-        "notes": "The source confirms the named service and the fields listed in this check. Contact the provider about current availability.",
+        "notes": "Replaced a repeatedly unavailable local website with a readable official service information page. Only the named fields were rechecked. Other details retain their earlier evidence; this does not establish current response times or availability.",
         "evidenceUrls": [
-          "https://www.healthwatchbrent.co.uk/advice-and-information/2024-10-15/our-signposting-and-information-service"
+          "https://www.advocacyproject.org.uk/service/healthwatch-brent/"
         ]
       }
     },
@@ -5253,7 +5254,7 @@
       "audiences": [
         "culture-faith"
       ],
-      "lastUnconfirmedOn": "2026-11-23"
+      "lastUnconfirmedOn": "2026-11-26"
     },
     {
       "id": "harrow-kenton-swaminarayan-temple",
@@ -6469,9 +6470,9 @@
       "category": "Voice and advocacy",
       "description": "Share your experience of health and care, and find local advice and information.",
       "who": "People using local health and care services, and carers.",
-      "access": "Use the feedback and contact routes on the website.",
+      "access": "Use the official information page for contact details and ways to get involved. The local Healthwatch website was unavailable at this check.",
       "check": "For formal advocacy or complaints, ask which service is appropriate.",
-      "url": "https://www.healthwatchrbkc.org.uk/",
+      "url": "https://www.advocacyproject.org.uk/service/healthwatch-kensington-chelsea/",
       "phone": "",
       "picture": "talk",
       "tags": [
@@ -6480,24 +6481,25 @@
         "health",
         "care"
       ],
-      "lastChecked": "2026-11-23",
-      "nextReview": "2026-12-21",
-      "sourceUrl": "https://www.healthwatchrbkc.org.uk/",
-      "sourceOwner": "Healthwatch Kensington & Chelsea",
+      "lastChecked": "2026-11-26",
+      "nextReview": "2026-12-24",
+      "sourceUrl": "https://www.advocacyproject.org.uk/service/healthwatch-kensington-chelsea/",
+      "sourceOwner": "The Advocacy Project",
       "verificationStatus": "Automated source check; current availability not confirmed",
       "audiences": [
         "carers"
       ],
       "sourceCheck": {
-        "date": "2026-11-23",
+        "date": "2026-11-26",
         "method": "automated",
         "checkedFields": [
           "name",
+          "url",
           "description"
         ],
-        "notes": "The source confirms the named service and the fields listed in this check. Contact the provider about current availability.",
+        "notes": "Replaced a repeatedly unavailable local website with a readable official service information page. Only the named fields were rechecked. Other details retain their earlier evidence; this does not establish current response times or availability.",
         "evidenceUrls": [
-          "https://www.rbkc.gov.uk/community-and-local-life/community-engagement/healthwatch"
+          "https://www.advocacyproject.org.uk/service/healthwatch-kensington-chelsea/"
         ]
       }
     },
@@ -7054,9 +7056,9 @@
       "category": "Urgent help",
       "description": "A calm community space for immediate emotional support when you are distressed.",
       "who": "Adults 18+ in the local catchment.",
-      "access": "Visit the Cove at North Paddington Food Bank, 57 Goldney Road, W9 2AR, or use the email link in Hestia’s service update. The Cove cannot currently take phone calls.",
-      "check": "Hestia says support is limited. Check its update before visiting. The listed hours are 2pm–10pm daily. CNWL says the service cannot support someone currently under the influence of alcohol or drugs.",
-      "url": "https://www.hestia.org/faqs/kensington-chelsea-and-westminster-cove",
+      "access": "CNWL lists walk-in support at 57 Goldney Road, W9 2AR, from 2pm to 10pm daily. Ask your care team or NHS 111 about current access if unsure.",
+      "check": "Hestia previously reported limited support and no phone contact. Its service update could not be reopened on 26 November 2026, so the current restriction is unconfirmed. Check before travelling. CNWL says the service cannot support someone currently under the influence of alcohol or drugs.",
+      "url": "https://www.cnwl.nhs.uk/services/coves",
       "phone": "",
       "picture": "phone",
       "tags": [
@@ -7065,26 +7067,24 @@
         "peer support",
         "drop-in"
       ],
-      "lastChecked": "2026-11-23",
-      "nextReview": "2026-12-21",
-      "sourceUrl": "https://www.hestia.org/faqs/kensington-chelsea-and-westminster-cove",
+      "lastChecked": "2026-11-26",
+      "nextReview": "2026-12-24",
+      "sourceUrl": "https://www.cnwl.nhs.uk/services/coves",
       "sourceOwner": "Hestia and CNWL NHS Foundation Trust",
       "verificationStatus": "Automated source check; current availability not confirmed",
       "audiences": [],
       "sourceCheck": {
-        "date": "2026-11-23",
+        "date": "2026-11-26",
         "method": "automated",
         "checkedFields": [
           "name",
           "description",
           "who",
           "access",
-          "check",
           "url"
         ],
-        "notes": "The source confirms the named service and the fields listed in this check. Contact the provider about current availability.",
+        "notes": "CNWL page confirms adults 18+, walk-in hours, location and access exclusions. Hestia permalink now returns 404; the earlier limited-support/no-phone warning is retained as unconfirmed, not removed or described as newly verified.",
         "evidenceUrls": [
-          "https://www.hestia.org/faqs/kensington-chelsea-and-westminster-cove",
           "https://www.cnwl.nhs.uk/services/coves"
         ]
       }
@@ -8726,16 +8726,25 @@
         "outdoors",
         "local venues"
       ],
-      "lastChecked": "2026-10-25",
-      "nextReview": "2026-11-22",
+      "lastChecked": "2026-11-26",
+      "nextReview": "2026-12-24",
       "sourceUrl": "https://www.everyoneactive.com/centre/westminster-community-outreach/",
       "sourceOwner": "Everyone Active",
-      "verificationStatus": "Provider website checked",
+      "verificationStatus": "Automated source check; current availability not confirmed",
       "audiences": [],
-      "lastUnconfirmedOn": "2026-11-23",
-      "unconfirmedContact": {
-        "label": "Current Westminster activity programmes",
-        "url": "https://active.westminster.gov.uk/neighbourhood-sports-club-programme/"
+      "sourceCheck": {
+        "date": "2026-11-26",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "access",
+          "url"
+        ],
+        "notes": "Readable provider page confirms community classes at local indoor/outdoor venues, an enquiry route and timetable controls. Individual sessions, eligibility, cost and places were not confirmed.",
+        "evidenceUrls": [
+          "https://www.everyoneactive.com/centre/westminster-community-outreach/"
+        ]
       }
     },
     {
@@ -8947,9 +8956,9 @@
       "category": "Voice and advocacy",
       "description": "Share your experience of health and care, and find local advice and information.",
       "who": "People using local health and care services, and carers.",
-      "access": "Use the feedback and contact routes on the website.",
+      "access": "Use the official information page for contact details and ways to get involved. The local Healthwatch website was unavailable at this check.",
       "check": "For formal advocacy or complaints, ask which service is appropriate.",
-      "url": "https://www.healthwatchwestminster.org.uk/",
+      "url": "https://www.advocacyproject.org.uk/service/healthwatch-wesminster/",
       "phone": "",
       "picture": "talk",
       "tags": [
@@ -8958,25 +8967,25 @@
         "health",
         "care"
       ],
-      "lastChecked": "2026-11-23",
-      "nextReview": "2026-12-21",
-      "sourceUrl": "https://www.healthwatchwestminster.org.uk/",
-      "sourceOwner": "Healthwatch Westminster",
+      "lastChecked": "2026-11-26",
+      "nextReview": "2026-12-24",
+      "sourceUrl": "https://www.advocacyproject.org.uk/service/healthwatch-wesminster/",
+      "sourceOwner": "The Advocacy Project",
       "verificationStatus": "Automated source check; current availability not confirmed",
       "audiences": [
         "carers"
       ],
       "sourceCheck": {
-        "date": "2026-11-23",
+        "date": "2026-11-26",
         "method": "automated",
         "checkedFields": [
           "name",
-          "description",
-          "url"
+          "url",
+          "description"
         ],
-        "notes": "The source confirms the named service and the fields listed in this check. Contact the provider about current availability.",
+        "notes": "Replaced a repeatedly unavailable local website with a readable official service information page. Only the named fields were rechecked. Other details retain their earlier evidence; this does not establish current response times or availability.",
         "evidenceUrls": [
-          "https://www.healthwatchwestminster.org.uk/"
+          "https://www.advocacyproject.org.uk/service/healthwatch-wesminster/"
         ]
       }
     },
@@ -9108,9 +9117,9 @@
       "category": "Urgent help",
       "description": "A calm community space for immediate emotional support when you are distressed.",
       "who": "Adults 18+ in the local catchment.",
-      "access": "Visit the Cove at North Paddington Food Bank, 57 Goldney Road, W9 2AR, or use the email link in Hestia’s service update. The Cove cannot currently take phone calls.",
-      "check": "Hestia says support is limited. Check its update before visiting. The listed hours are 2pm–10pm daily. CNWL says the service cannot support someone currently under the influence of alcohol or drugs.",
-      "url": "https://www.hestia.org/faqs/kensington-chelsea-and-westminster-cove",
+      "access": "CNWL lists walk-in support at 57 Goldney Road, W9 2AR, from 2pm to 10pm daily. Ask your care team or NHS 111 about current access if unsure.",
+      "check": "Hestia previously reported limited support and no phone contact. Its service update could not be reopened on 26 November 2026, so the current restriction is unconfirmed. Check before travelling. CNWL says the service cannot support someone currently under the influence of alcohol or drugs.",
+      "url": "https://www.cnwl.nhs.uk/services/coves",
       "phone": "",
       "picture": "phone",
       "tags": [
@@ -9119,26 +9128,24 @@
         "peer support",
         "drop-in"
       ],
-      "lastChecked": "2026-11-23",
-      "nextReview": "2026-12-21",
-      "sourceUrl": "https://www.hestia.org/faqs/kensington-chelsea-and-westminster-cove",
+      "lastChecked": "2026-11-26",
+      "nextReview": "2026-12-24",
+      "sourceUrl": "https://www.cnwl.nhs.uk/services/coves",
       "sourceOwner": "Hestia and CNWL NHS Foundation Trust",
       "verificationStatus": "Automated source check; current availability not confirmed",
       "audiences": [],
       "sourceCheck": {
-        "date": "2026-11-23",
+        "date": "2026-11-26",
         "method": "automated",
         "checkedFields": [
           "name",
           "description",
           "who",
           "access",
-          "check",
           "url"
         ],
-        "notes": "The source confirms the named service and the fields listed in this check. Contact the provider about current availability.",
+        "notes": "CNWL page confirms adults 18+, walk-in hours, location and access exclusions. Hestia permalink now returns 404; the earlier limited-support/no-phone warning is retained as unconfirmed, not removed or described as newly verified.",
         "evidenceUrls": [
-          "https://www.hestia.org/faqs/kensington-chelsea-and-westminster-cove",
           "https://www.cnwl.nhs.uk/services/coves"
         ]
       }
@@ -14037,9 +14044,9 @@
       "category": "Voice and advocacy",
       "description": "Share your experience of health and social care, or get information about finding support and raising concerns.",
       "who": "People using or looking for health and social care services in Hillingdon, including families and carers.",
-      "access": "Use the website to share an experience or contact the team.",
+      "access": "Use the official information page for contact details and ways to get involved. The local Healthwatch website was unavailable at this check.",
       "check": "Healthwatch gathers experiences and provides information. Check the separate route for a formal complaint or urgent care.",
-      "url": "https://healthwatchhillingdon.org.uk/",
+      "url": "https://www.cnwl.nhs.uk/patients-and-carers/patient-and-carer-involvement/support-and-involvement-organisations",
       "phone": "",
       "picture": "talk",
       "tags": [
@@ -14049,24 +14056,24 @@
         "social care",
         "complaints"
       ],
-      "lastChecked": "2026-11-23",
-      "nextReview": "2026-12-21",
-      "sourceUrl": "https://healthwatchhillingdon.org.uk/",
-      "sourceOwner": "Healthwatch Hillingdon",
+      "lastChecked": "2026-11-26",
+      "nextReview": "2026-12-24",
+      "sourceUrl": "https://www.cnwl.nhs.uk/patients-and-carers/patient-and-carer-involvement/support-and-involvement-organisations",
+      "sourceOwner": "CNWL NHS Foundation Trust",
       "verificationStatus": "Automated source check; current availability not confirmed",
       "audiences": [
         "carers"
       ],
       "sourceCheck": {
-        "date": "2026-11-23",
+        "date": "2026-11-26",
         "method": "automated",
         "checkedFields": [
           "name",
-          "description"
+          "url"
         ],
-        "notes": "The source confirms the named service and the fields listed in this check. Contact the provider about current availability.",
+        "notes": "Replaced a repeatedly unavailable local website with a readable official service information page. Only the named fields were rechecked. Other details retain their earlier evidence; this does not establish current response times or availability.",
         "evidenceUrls": [
-          "https://healthwatchhillingdon.org.uk/what-we-do"
+          "https://www.cnwl.nhs.uk/patients-and-carers/patient-and-carer-involvement/support-and-involvement-organisations"
         ]
       }
     },
@@ -16557,10 +16564,10 @@
       "category": "Voice and advocacy",
       "description": "Share experiences of health and social care, or ask for help finding information about local services.",
       "who": "People using health or social care in Milton Keynes, including families and carers.",
-      "access": "Use the website’s contact or feedback routes.",
+      "access": "Call 01908 736005 or email info@healthwatchmiltonkeynes.co.uk. The council page provides contact details while the local Healthwatch website is unavailable.",
       "check": "Healthwatch listens and signposts; it is not a clinical or emergency service. Ask about help with your particular concern.",
-      "url": "https://www.healthwatchmiltonkeynes.co.uk/",
-      "phone": "",
+      "url": "https://www.milton-keynes.gov.uk/adult-social-care/adult-social-care-directory/healthwatch-milton-keynes",
+      "phone": "01908 736005",
       "picture": "talk",
       "tags": [
         "feedback",
@@ -16569,25 +16576,27 @@
         "signposting",
         "voice"
       ],
-      "lastChecked": "2026-11-23",
-      "nextReview": "2026-12-21",
-      "sourceUrl": "https://www.healthwatchmiltonkeynes.co.uk/",
-      "sourceOwner": "Healthwatch Milton Keynes",
+      "lastChecked": "2026-11-26",
+      "nextReview": "2026-12-24",
+      "sourceUrl": "https://www.milton-keynes.gov.uk/adult-social-care/adult-social-care-directory/healthwatch-milton-keynes",
+      "sourceOwner": "Milton Keynes City Council",
       "verificationStatus": "Automated source check; current availability not confirmed",
       "audiences": [
         "carers"
       ],
       "sourceCheck": {
-        "date": "2026-11-23",
+        "date": "2026-11-26",
         "method": "automated",
         "checkedFields": [
           "name",
+          "url",
           "description",
-          "url"
+          "phone",
+          "access"
         ],
-        "notes": "The source confirms the named service and the fields listed in this check. Contact the provider about current availability.",
+        "notes": "Replaced a repeatedly unavailable local website with a readable official service information page. Only the named fields were rechecked. Other details retain their earlier evidence; this does not establish current response times or availability.",
         "evidenceUrls": [
-          "https://www.healthwatchmiltonkeynes.co.uk/"
+          "https://www.milton-keynes.gov.uk/adult-social-care/adult-social-care-directory/healthwatch-milton-keynes"
         ]
       }
     },
@@ -20438,7 +20447,7 @@
       "category": "Social connection and activities",
       "description": "A local women-led centre offering connection and opportunities to develop skills.",
       "who": "Women who live or work in Woking, particularly those facing disadvantage or isolation.",
-      "access": "Use the Maybury Centre link in the council listing to contact Liaise about current adult activities.",
+      "access": "Use the council listing to enquire about Liaise. Its linked Maybury Centre programme page is no longer available.",
       "check": "Ask which sessions are running, how to join, any costs and access arrangements.",
       "url": "https://communitymarketplace.surreycc.gov.uk/organisation-profile/829",
       "phone": "",
@@ -20458,7 +20467,11 @@
       "sourceUrl": "https://communitymarketplace.surreycc.gov.uk/organisation-profile/829",
       "sourceOwner": "Surrey County Council Community Marketplace",
       "verificationStatus": "Council organisation listing checked",
-      "lastUnconfirmedOn": "2026-11-24"
+      "lastUnconfirmedOn": "2026-11-26",
+      "unconfirmedContact": {
+        "label": "Council listing for Liaise",
+        "url": "https://communitymarketplace.surreycc.gov.uk/organisation-profile/829"
+      }
     },
     {
       "id": "surrey-lightbox-adult-creativity",
@@ -24778,9 +24791,9 @@
       "category": "Voice and advocacy",
       "description": "Share what worked and what could improve in health and social care, and find information about local services.",
       "who": "People using health and social care in Ealing, including carers.",
-      "access": "Use the website to share an experience or contact the team.",
+      "access": "Use the official information page for contact details and ways to get involved. The local Healthwatch website was unavailable at this check.",
       "check": "For an individual complaint, ask about the appropriate complaints or advocacy route.",
-      "url": "https://www.healthwatchealing.org.uk/",
+      "url": "https://www.ealing.gov.uk/info/201201/staying_healthy/2302/healthwatch_ealing",
       "phone": "",
       "picture": "help",
       "tags": [
@@ -24789,25 +24802,24 @@
         "NHS",
         "social care"
       ],
-      "lastChecked": "2026-11-23",
-      "nextReview": "2026-12-21",
-      "sourceUrl": "https://www.healthwatchealing.org.uk/",
-      "sourceOwner": "Healthwatch Ealing",
+      "lastChecked": "2026-11-26",
+      "nextReview": "2026-12-24",
+      "sourceUrl": "https://www.ealing.gov.uk/info/201201/staying_healthy/2302/healthwatch_ealing",
+      "sourceOwner": "Ealing Council",
       "verificationStatus": "Automated source check; current availability not confirmed",
       "audiences": [
         "carers"
       ],
       "sourceCheck": {
-        "date": "2026-11-23",
+        "date": "2026-11-26",
         "method": "automated",
         "checkedFields": [
           "name",
-          "description",
           "url"
         ],
-        "notes": "The source confirms the named service and the fields listed in this check. Contact the provider about current availability.",
+        "notes": "Replaced a repeatedly unavailable local website with a readable official service information page. Only the named fields were rechecked. Other details retain their earlier evidence; this does not establish current response times or availability.",
         "evidenceUrls": [
-          "https://www.healthwatchealing.org.uk/"
+          "https://www.ealing.gov.uk/info/201201/staying_healthy/2302/healthwatch_ealing"
         ]
       }
     },
@@ -32148,10 +32160,10 @@
       "directoryId": "brent",
       "name": "Our Parks — Willesden Library yoga",
       "category": "Sport and movement",
-      "description": "Gentle group yoga at Willesden Library, with movement adapted to different abilities.",
+      "description": "Previously listed gentle yoga at Willesden Library. Current sessions could not be confirmed.",
       "who": "People wanting a gentle introduction or return to activity in Willesden.",
-      "access": "Register with Our Parks, then book a place from the Willesden Library timetable.",
-      "check": "Free. Check upcoming sessions and any access needs before attending.",
+      "access": "The Our Parks website is under maintenance. Ask the provider whether Willesden Library yoga is running before making plans.",
+      "check": "Earlier information described free sessions. Current timetable, price and access arrangements are unconfirmed.",
       "url": "https://ourparks.org.uk/borough/willesden-library",
       "phone": "",
       "picture": "community",
@@ -32173,9 +32185,9 @@
         "yoga",
         "wellbeing"
       ],
-      "lastUnconfirmedOn": "2026-11-23",
+      "lastUnconfirmedOn": "2026-11-26",
       "unconfirmedContact": {
-        "label": "Check updates from Our Parks",
+        "label": "Our Parks website maintenance notice",
         "url": "https://www.ourparks.org.uk/"
       }
     },
@@ -34329,36 +34341,45 @@
     {
       "id": "milton-keynes-moon-stars-yoga",
       "directoryId": "milton-keynes",
-      "name": "Moon and Stars Yoga — Stony Stratford",
+      "name": "Moon and Stars Yoga - Milton Keynes",
       "category": "Sport and movement",
-      "description": "Group Vinyasa and restorative yoga, including beginner-friendly sessions in Stony Stratford.",
-      "who": "People seeking a local group yoga class, including beginners.",
-      "access": "Use the yoga lessons page or contact the teacher to book and confirm the current venue.",
-      "check": "There is a fee for these classes. Confirm price, timetable and suitability before booking; sessions may use scented oils and candles.",
-      "url": "https://www.moonandstarsyoga.co.uk/yoga-lessons/",
-      "phone": "07551 010503",
+      "description": "Group Vinyasa yoga at Cross and Stable Church in Milton Keynes. The provider also advertises occasional sound baths.",
+      "who": "People interested in local yoga; ask the teacher about age requirements and suitability.",
+      "access": "Use the provider website to enquire or book. It advertises Monday yoga at 7pm at Cross and Stable Church; confirm the next session before travelling.",
+      "check": "Ask about current prices, availability and access needs. The provider says yoga sessions use aromatherapy and candlelight.",
+      "url": "https://www.moonandstarsyoga.co.uk/",
+      "phone": "",
       "picture": "community",
       "tags": [
         "yoga",
-        "restorative yoga",
         "Vinyasa",
-        "Stony Stratford",
-        "beginners"
+        "Milton Keynes",
+        "Cross and Stable Church"
       ],
-      "lastChecked": "2026-10-26",
-      "nextReview": "2026-11-23",
-      "sourceUrl": "https://www.moonandstarsyoga.co.uk/yoga-lessons/",
+      "lastChecked": "2026-11-26",
+      "nextReview": "2026-12-24",
+      "sourceUrl": "https://www.moonandstarsyoga.co.uk/",
       "sourceOwner": "Moon and Stars Yoga",
-      "verificationStatus": "Provider website checked",
+      "verificationStatus": "Automated source check; current availability not confirmed",
       "audiences": [],
       "facets": [
         "yoga",
         "wellbeing"
       ],
-      "lastUnconfirmedOn": "2026-11-23",
-      "unconfirmedContact": {
-        "label": "Check classes with Moon and Stars Yoga",
-        "url": "https://www.moonandstarsyoga.co.uk/"
+      "sourceCheck": {
+        "date": "2026-11-26",
+        "method": "automated",
+        "checkedFields": [
+          "name",
+          "description",
+          "access",
+          "check",
+          "url"
+        ],
+        "notes": "Readable provider homepage replaces the removed yoga-lessons page and advertises a different venue. Removed unsupported Stony Stratford, restorative/beginner claims and old phone number; age requirements and prices remain questions for the provider.",
+        "evidenceUrls": [
+          "https://www.moonandstarsyoga.co.uk/"
+        ]
       }
     },
     {
@@ -36825,14 +36846,14 @@
       "directoryId": "harrow",
       "name": "Sangam Advice Centre — legal advice",
       "category": "Legal advice and rights",
-      "description": "Advice on welfare, housing, immigration, employment, debt and family matters.",
+      "description": "Previously listed advice on welfare, housing, immigration, employment, debt and family matters. The current legal advice offer is unconfirmed.",
       "who": "Adults over 18 who live, work or study in Barnet, Brent or Harrow.",
       "access": "Phone 020 8952 7062 to ask about the advice you need and how to access it.",
-      "check": "The NHS profile lists legal advice as free. Confirm current arrangements and whether the service can help with your issue.",
+      "check": "The earlier NHS profile is no longer available. Ask Sangam whether legal advice is currently offered, whether there is a cost and which areas it covers.",
       "coverage": "Barnet, Brent and Harrow; this listing provides the Harrow access route.",
       "url": "https://sangamfoundation.org.uk/",
-      "sourceUrl": "https://www.nhs.uk/services/service-directory/sangam-centre/N10498810",
-      "sourceOwner": "NHS service directory — Sangam Centre",
+      "sourceUrl": "https://sangamfoundation.org.uk/",
+      "sourceOwner": "Sangam Foundation; current legal advice offer unconfirmed",
       "phone": "",
       "picture": "book",
       "tags": [
@@ -36859,7 +36880,7 @@
           "https://www.nhs.uk/services/service-directory/sangam-centre/N10498810"
         ]
       },
-      "lastUnconfirmedOn": "2026-11-23",
+      "lastUnconfirmedOn": "2026-11-26",
       "unconfirmedContact": {
         "label": "Enquire with Sangam Foundation",
         "url": "https://sangamfoundation.org.uk/"
