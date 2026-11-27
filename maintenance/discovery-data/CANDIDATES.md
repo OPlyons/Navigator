@@ -1,7 +1,7 @@
 # New resource suggestions
 
-Last saved search: 2026-11-26. 54 of 300 area/category combinations attempted.
-15 resources await publication. Search coverage is limited, not exhaustive.
+Last saved search: 2026-11-27. 60 of 300 area/category combinations attempted.
+19 resources await publication. Search coverage is limited, not exhaustive.
 
 Candidates are public-source research only. They have not been added to the public directory. Eligible additions publish automatically after the normal quality checks; uncertain cases remain flagged. Existing listing reviews have their own progress and limits.
 
@@ -205,4 +205,58 @@ Category: Voice and advocacy
 - Evidence: POhWER's current Brent page identifies four local advocacy services and provides service-specific referral forms plus a route to ask for advice about eligibility.
 - Limitations: Detailed eligibility and referral rules differ between advocacy types. Brent Council also retains an older directory page for VoiceAbility community advocacy, so people should confirm which provider covers their particular need.
 - Source: <https://www.pohwer.net/brent> — The current provider page lists Brent Independent Mental Health, Mental Capacity, Care Act and Health Complaints Advocacy, with separate referral forms and a direct enquiry route.
+
+## Cranstoun — Westminster male domestic abuse service — westminster
+Candidate: discovery-c684661c2da351104b8e. Source checked: 2026-11-27.
+Category: Safety and abuse support
+- What it offers: Free, confidential and trauma-informed support for male residents affected by domestic abuse, including safety planning, practical advice, emotional support and links to other services.
+- Who: Male Westminster residents aged 16 or over, with or without children, who are affected by domestic abuse.
+- Access: Self-refer by using the contact details on Westminster Council's service page or Cranstoun's linked leaflet. Referrals are also accepted from partner and statutory services.
+- Costs/checks: The service is available on weekdays and support is personalised. Contact Cranstoun to confirm current availability, the safest way to communicate and whether the service fits your circumstances.
+- Coverage: Male residents aged 16 or over in the City of Westminster.
+- Website: <https://www.westminster.gov.uk/leisure-libraries-and-community/crime-and-community-safety/domestic-abuse-and-violence-against-women-and-girls/get-help>
+- Evidence: Current council information and the linked provider leaflet describe the same commissioned Westminster service, its male 16-plus audience, free practical and emotional support and public self-referral route.
+- Limitations: The sources do not establish current waiting time, capacity or accessibility at every community meeting venue. People should use a safe device and contact method where possible.
+- Source: <https://www.westminster.gov.uk/leisure-libraries-and-community/crime-and-community-safety/domestic-abuse-and-violence-against-women-and-girls/get-help> — Westminster Council's current support page identifies Cranstoun's local male domestic-abuse service and publishes its weekday access route.
+- Source: <https://www.westminster.gov.uk/sites/default/files/media/documents/WM%20DA%20Leaflet%20Final.pdf> — The linked Cranstoun leaflet confirms free support for male Westminster residents aged 16 and over, self-referral, safety planning, practical and emotional support and local commissioned coverage.
+
+## The Advocacy Project — Westminster community advocacy — westminster
+Candidate: discovery-aa4a7b0a5a4275a33def. Source checked: 2026-11-27.
+Category: Voice and advocacy
+- What it offers: Free, confidential and independent community advocacy to help residents understand their rights and have their views heard in health and social-care decisions.
+- Who: People living in Westminster who need support to access or speak up about health and social-care services.
+- Access: The person seeking advocacy, or a friend or family member, can complete the public service request form on the provider's page. Professionals use the separate professional referral route.
+- Costs/checks: Support depends on advocate capacity. Submit a request so the service can confirm whether the issue fits its local community-advocacy offer.
+- Coverage: Residents of the City of Westminster.
+- Website: <https://www.advocacyproject.org.uk/service/westminster-advocacy/>
+- Evidence: The current provider page substantiates a free, confidential and independent route for Westminster residents to get support with their rights and voice in health and social care.
+- Limitations: Availability depends on advocate capacity. The page does not state waiting times or guarantee that every health or social-care issue will be accepted.
+- Source: <https://www.advocacyproject.org.uk/service/westminster-advocacy/> — The provider's current Westminster page confirms free independent community advocacy, the health and social-care scope, local residence, public request route and capacity limitation.
+
+## Find Food Support in Camden — camden
+Candidate: discovery-195afe8c35d24f790da1. Source checked: 2026-11-27.
+Category: Food and essentials
+- What it offers: A Camden Council postcode finder for local food banks and other community food support, including free, pay-what-you-can and recipe-club options.
+- Who: Camden residents who are struggling to access enough food for themselves or their family.
+- Access: Enter a postcode or use the nearby search, then open a listing to see whether it is a drop-in service or needs an appointment, voucher or referral.
+- Costs/checks: Each organisation has its own opening times, eligibility and access arrangements, and food depends on donations and availability. Check the individual listing before travelling.
+- Coverage: Food-support organisations serving residents across the London Borough of Camden.
+- Website: <https://findfood.camden.gov.uk/>
+- Evidence: Camden Council's live finder and guidance page establish a borough food-support search, its intended audience and how individual drop-in, appointment, voucher and referral arrangements are shown.
+- Limitations: The finder does not guarantee that every listed service has food available. Opening times, dietary options, delivery, vouchers and eligibility vary by organisation.
+- Source: <https://findfood.camden.gov.uk/> — The current Camden Council finder provides postcode and nearby searches for a network of local voluntary and statutory food-support services.
+- Source: <https://findfood.camden.gov.uk/about> — The about page confirms Camden-resident coverage, public use by anyone struggling to access food and that individual services may be drop-in, appointment, voucher or referral based.
+
+## Camden Safety Net — camden
+Candidate: discovery-a3597b11de98b3f23694. Source checked: 2026-11-27.
+Category: Safety and abuse support
+- What it offers: Independent, confidential and non-judgemental domestic-abuse support, including emotional help, advocacy, risk assessment, safety planning and links to housing, legal and other services.
+- Who: People of all genders aged 16 or over who are affected by domestic abuse in Camden.
+- Access: Contact the duty service by phone or email, or complete the self-referral form linked from Camden Council's page. Professionals use the separate professional referral route.
+- Costs/checks: The specialist team assesses each request and may refer or signpost people whose case it cannot accept for ongoing support. Use a safe device and contact method where possible.
+- Coverage: People aged 16 or over affected by domestic abuse in the London Borough of Camden.
+- Website: <https://www.camden.gov.uk/camden-safety-net>
+- Evidence: The current council page describes Camden's specialist domestic-abuse service, its 16-plus all-gender audience, support activities, assessment process and direct self-referral options.
+- Limitations: The page does not establish current capacity or waiting times, and ongoing casework depends on assessment. The service operates during published weekday hours rather than continuously.
+- Source: <https://www.camden.gov.uk/camden-safety-net> — Camden Council's current service page confirms the all-gender 16-plus audience, independent confidential support, safety planning and advocacy, assessment process and public self-referral routes.
 

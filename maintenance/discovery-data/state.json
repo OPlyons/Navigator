@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedOn": "2026-11-26",
+  "updatedOn": "2026-11-27",
   "cells": {
     "[\"brent\",\"Legal advice and rights\"]": {
       "directoryId": "brent",
@@ -325,6 +325,42 @@
       "category": "Voice and advocacy",
       "lastAttempt": "2026-11-26",
       "outcome": "completed"
+    },
+    "[\"westminster\",\"Safety and abuse support\"]": {
+      "directoryId": "westminster",
+      "category": "Safety and abuse support",
+      "lastAttempt": "2026-11-27",
+      "outcome": "completed"
+    },
+    "[\"westminster\",\"Urgent help\"]": {
+      "directoryId": "westminster",
+      "category": "Urgent help",
+      "lastAttempt": "2026-11-27",
+      "outcome": "completed"
+    },
+    "[\"westminster\",\"Voice and advocacy\"]": {
+      "directoryId": "westminster",
+      "category": "Voice and advocacy",
+      "lastAttempt": "2026-11-27",
+      "outcome": "completed"
+    },
+    "[\"camden\",\"Food and essentials\"]": {
+      "directoryId": "camden",
+      "category": "Food and essentials",
+      "lastAttempt": "2026-11-27",
+      "outcome": "completed"
+    },
+    "[\"camden\",\"Physical health and care\"]": {
+      "directoryId": "camden",
+      "category": "Physical health and care",
+      "lastAttempt": "2026-11-27",
+      "outcome": "completed"
+    },
+    "[\"camden\",\"Safety and abuse support\"]": {
+      "directoryId": "camden",
+      "category": "Safety and abuse support",
+      "lastAttempt": "2026-11-27",
+      "outcome": "completed"
     }
   },
   "days": {
@@ -467,6 +503,22 @@
         "discovery-962e58c4e3b33f947f6f",
         "discovery-44f7e0d2892330748f65",
         "discovery-74cf82180dc54c4b2ac9"
+      ]
+    },
+    "2026-11-27": {
+      "cells": [
+        "[\"westminster\",\"Safety and abuse support\"]",
+        "[\"westminster\",\"Urgent help\"]",
+        "[\"westminster\",\"Voice and advocacy\"]",
+        "[\"camden\",\"Food and essentials\"]",
+        "[\"camden\",\"Physical health and care\"]",
+        "[\"camden\",\"Safety and abuse support\"]"
+      ],
+      "candidateIds": [
+        "discovery-c684661c2da351104b8e",
+        "discovery-aa4a7b0a5a4275a33def",
+        "discovery-195afe8c35d24f790da1",
+        "discovery-a3597b11de98b3f23694"
       ]
     }
   },
@@ -2065,6 +2117,170 @@
       "publishedResourceId": "kensington-chelsea-discovered-a58f537b32bc",
       "publishedCommit": "ebcc14574d39c4e868ccc86a363aed27181e8125",
       "publishedOn": "2026-11-26"
+    },
+    {
+      "id": "discovery-c684661c2da351104b8e",
+      "status": "proposed",
+      "firstSeen": "2026-11-27",
+      "sourceCheckedOn": "2026-11-27",
+      "resource": {
+        "name": "Cranstoun — Westminster male domestic abuse service",
+        "directoryId": "westminster",
+        "category": "Safety and abuse support",
+        "description": "Free, confidential and trauma-informed support for male residents affected by domestic abuse, including safety planning, practical advice, emotional support and links to other services.",
+        "who": "Male Westminster residents aged 16 or over, with or without children, who are affected by domestic abuse.",
+        "access": "Self-refer by using the contact details on Westminster Council's service page or Cranstoun's linked leaflet. Referrals are also accepted from partner and statutory services.",
+        "check": "The service is available on weekdays and support is personalised. Contact Cranstoun to confirm current availability, the safest way to communicate and whether the service fits your circumstances.",
+        "url": "https://www.westminster.gov.uk/leisure-libraries-and-community/crime-and-community-safety/domestic-abuse-and-violence-against-women-and-girls/get-help",
+        "sourceUrl": "https://www.westminster.gov.uk/leisure-libraries-and-community/crime-and-community-safety/domestic-abuse-and-violence-against-women-and-girls/get-help",
+        "sourceOwner": "Westminster City Council and Cranstoun",
+        "coverage": "Male residents aged 16 or over in the City of Westminster."
+      },
+      "sources": [
+        {
+          "url": "https://www.westminster.gov.uk/leisure-libraries-and-community/crime-and-community-safety/domestic-abuse-and-violence-against-women-and-girls/get-help",
+          "ownerType": "council",
+          "retrieval": "page",
+          "note": "Westminster Council's current support page identifies Cranstoun's local male domestic-abuse service and publishes its weekday access route."
+        },
+        {
+          "url": "https://www.westminster.gov.uk/sites/default/files/media/documents/WM%20DA%20Leaflet%20Final.pdf",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "The linked Cranstoun leaflet confirms free support for male Westminster residents aged 16 and over, self-referral, safety planning, practical and emotional support and local commissioned coverage."
+        }
+      ],
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "url",
+        "coverage"
+      ],
+      "evidence": "Current council information and the linked provider leaflet describe the same commissioned Westminster service, its male 16-plus audience, free practical and emotional support and public self-referral route.",
+      "limitations": "The sources do not establish current waiting time, capacity or accessibility at every community meeting venue. People should use a safe device and contact method where possible."
+    },
+    {
+      "id": "discovery-aa4a7b0a5a4275a33def",
+      "status": "proposed",
+      "firstSeen": "2026-11-27",
+      "sourceCheckedOn": "2026-11-27",
+      "resource": {
+        "name": "The Advocacy Project — Westminster community advocacy",
+        "directoryId": "westminster",
+        "category": "Voice and advocacy",
+        "description": "Free, confidential and independent community advocacy to help residents understand their rights and have their views heard in health and social-care decisions.",
+        "who": "People living in Westminster who need support to access or speak up about health and social-care services.",
+        "access": "The person seeking advocacy, or a friend or family member, can complete the public service request form on the provider's page. Professionals use the separate professional referral route.",
+        "check": "Support depends on advocate capacity. Submit a request so the service can confirm whether the issue fits its local community-advocacy offer.",
+        "url": "https://www.advocacyproject.org.uk/service/westminster-advocacy/",
+        "sourceUrl": "https://www.advocacyproject.org.uk/service/westminster-advocacy/",
+        "sourceOwner": "The Advocacy Project",
+        "coverage": "Residents of the City of Westminster."
+      },
+      "sources": [
+        {
+          "url": "https://www.advocacyproject.org.uk/service/westminster-advocacy/",
+          "ownerType": "provider",
+          "retrieval": "page",
+          "note": "The provider's current Westminster page confirms free independent community advocacy, the health and social-care scope, local residence, public request route and capacity limitation."
+        }
+      ],
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "url",
+        "coverage"
+      ],
+      "evidence": "The current provider page substantiates a free, confidential and independent route for Westminster residents to get support with their rights and voice in health and social care.",
+      "limitations": "Availability depends on advocate capacity. The page does not state waiting times or guarantee that every health or social-care issue will be accepted."
+    },
+    {
+      "id": "discovery-195afe8c35d24f790da1",
+      "status": "proposed",
+      "firstSeen": "2026-11-27",
+      "sourceCheckedOn": "2026-11-27",
+      "resource": {
+        "name": "Find Food Support in Camden",
+        "directoryId": "camden",
+        "category": "Food and essentials",
+        "description": "A Camden Council postcode finder for local food banks and other community food support, including free, pay-what-you-can and recipe-club options.",
+        "who": "Camden residents who are struggling to access enough food for themselves or their family.",
+        "access": "Enter a postcode or use the nearby search, then open a listing to see whether it is a drop-in service or needs an appointment, voucher or referral.",
+        "check": "Each organisation has its own opening times, eligibility and access arrangements, and food depends on donations and availability. Check the individual listing before travelling.",
+        "url": "https://findfood.camden.gov.uk/",
+        "sourceUrl": "https://findfood.camden.gov.uk/",
+        "sourceOwner": "Camden Council",
+        "coverage": "Food-support organisations serving residents across the London Borough of Camden."
+      },
+      "sources": [
+        {
+          "url": "https://findfood.camden.gov.uk/",
+          "ownerType": "council",
+          "retrieval": "page",
+          "note": "The current Camden Council finder provides postcode and nearby searches for a network of local voluntary and statutory food-support services."
+        },
+        {
+          "url": "https://findfood.camden.gov.uk/about",
+          "ownerType": "council",
+          "retrieval": "page",
+          "note": "The about page confirms Camden-resident coverage, public use by anyone struggling to access food and that individual services may be drop-in, appointment, voucher or referral based."
+        }
+      ],
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "url",
+        "coverage"
+      ],
+      "evidence": "Camden Council's live finder and guidance page establish a borough food-support search, its intended audience and how individual drop-in, appointment, voucher and referral arrangements are shown.",
+      "limitations": "The finder does not guarantee that every listed service has food available. Opening times, dietary options, delivery, vouchers and eligibility vary by organisation."
+    },
+    {
+      "id": "discovery-a3597b11de98b3f23694",
+      "status": "proposed",
+      "firstSeen": "2026-11-27",
+      "sourceCheckedOn": "2026-11-27",
+      "resource": {
+        "name": "Camden Safety Net",
+        "directoryId": "camden",
+        "category": "Safety and abuse support",
+        "description": "Independent, confidential and non-judgemental domestic-abuse support, including emotional help, advocacy, risk assessment, safety planning and links to housing, legal and other services.",
+        "who": "People of all genders aged 16 or over who are affected by domestic abuse in Camden.",
+        "access": "Contact the duty service by phone or email, or complete the self-referral form linked from Camden Council's page. Professionals use the separate professional referral route.",
+        "check": "The specialist team assesses each request and may refer or signpost people whose case it cannot accept for ongoing support. Use a safe device and contact method where possible.",
+        "url": "https://www.camden.gov.uk/camden-safety-net",
+        "sourceUrl": "https://www.camden.gov.uk/camden-safety-net",
+        "sourceOwner": "Camden Council",
+        "coverage": "People aged 16 or over affected by domestic abuse in the London Borough of Camden."
+      },
+      "sources": [
+        {
+          "url": "https://www.camden.gov.uk/camden-safety-net",
+          "ownerType": "council",
+          "retrieval": "page",
+          "note": "Camden Council's current service page confirms the all-gender 16-plus audience, independent confidential support, safety planning and advocacy, assessment process and public self-referral routes."
+        }
+      ],
+      "checkedFields": [
+        "name",
+        "description",
+        "who",
+        "access",
+        "check",
+        "url",
+        "coverage"
+      ],
+      "evidence": "The current council page describes Camden's specialist domestic-abuse service, its 16-plus all-gender audience, support activities, assessment process and direct self-referral options.",
+      "limitations": "The page does not establish current capacity or waiting times, and ongoing casework depends on assessment. The service operates during published weekday hours rather than continuously."
     }
   ]
 }
