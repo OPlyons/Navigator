@@ -1,4 +1,5 @@
 import {test} from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import path from 'node:path';import {createHash} from 'node:crypto';
+import {JSDOM} from 'jsdom';
 const root=path.resolve(import.meta.dirname,'../..'),read=p=>fs.readFileSync(path.join(root,p));
 test('original directory identities and branding assets are preserved during evidenced updates',()=>{
  const hashes=JSON.parse(read('tests/fixtures/asset-sha256.json'));
@@ -19,6 +20,22 @@ test('every area PDF is built from the current catalogue with all local listings
   assert.equal(entry.count,entry.ids.length);
   assert.equal(pdf.subarray(0,5).toString(),'%PDF-');
   assert.equal(createHash('sha256').update(pdf).digest('hex'),entry.sha256);
+ }
+});
+test('printable directory links show the size and page count of the PDF they download',()=>{
+ const manifest=JSON.parse(read('dist/assets/directory-pdfs.json'));
+ const document=new JSDOM(read('dist/index.html').toString()).window.document;
+ const links=document.querySelectorAll('#public-area-links a[download]');
+ assert.equal(links.length,Object.keys(manifest.files).length);
+ for(const {filename,pages,bytes,sha256} of Object.values(manifest.files)){
+  const pdf=read('dist/assets/'+filename);
+  const link=document.getElementById('dl-'+filename);
+  assert.equal(bytes,pdf.length,filename);
+  assert.ok(pages>0,filename);
+  assert.equal(link.download,filename);
+  assert.equal(link.getAttribute('href'),'assets/'+filename+'?v='+sha256.slice(0,12));
+  assert.equal(link.querySelector('.file-meta').textContent,
+   `PDF, ${pages} ${pages===1?'page':'pages'}, ${Math.round(pdf.length/1000)} KB`,filename);
  }
 });
 test('added resources have unique identities, working access information and dated primary sources',()=>{

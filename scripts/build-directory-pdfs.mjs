@@ -23,7 +23,15 @@ export async function buildDirectoryPdfs({root,out,directory,compiledOn = new Da
   for (const [area,filename] of Object.entries(directory.areaDownloads)) {
     const name=directory.directories.find(d=>d.id===area).name;
     const resources=directory.resources.filter(r=>r.directoryId===area).sort((a,b)=>a.category.localeCompare(b.category,'en')||a.name.localeCompare(b.name,'en'));
-    const doc=new PDFDocument({size:'A4',margins:{top:55,bottom:55,left:48,right:48},bufferPages:true,info:{Title:name+' - local support directory',Author:'CNWL Community Navigator',Subject:'Compiled '+compiledOn+'; source-check dates are shown per listing'}});
+    const doc=new PDFDocument({
+      size:'A4', margins:{top:55,bottom:55,left:48,right:48}, bufferPages:true,
+      info:{
+        Title:name+' - local support directory',
+        Author:'CNWL Community Navigator',
+        Subject:'Compiled '+compiledOn+'; source-check dates are shown per listing',
+        CreationDate:new Date(compiledOn+'T00:00:00Z'),
+      },
+    });
     const chunks=[];const complete=new Promise((resolve,reject)=>{doc.on('data',chunk=>chunks.push(chunk));doc.on('end',()=>resolve(Buffer.concat(chunks)));doc.on('error',reject);});
     doc.registerFont('Body',path.join(root,'public/assets/fonts/dm-sans.woff'));
     doc.registerFont('Heading',path.join(root,'public/assets/fonts/archivo-black.woff'));
@@ -66,7 +74,10 @@ export async function buildDirectoryPdfs({root,out,directory,compiledOn = new Da
     }
     doc.end();const pdf=await complete;
     await fs.writeFile(path.join(out,'assets',filename),pdf);
-    manifest.files[area]={filename,count:resources.length,ids:resources.map(r=>r.id),sha256:createHash('sha256').update(pdf).digest('hex')};
+    manifest.files[area]={
+      filename, count:resources.length, ids:resources.map(r=>r.id),
+      pages, bytes:pdf.length, sha256:createHash('sha256').update(pdf).digest('hex'),
+    };
   }
   await fs.writeFile(path.join(out,'assets/directory-pdfs.json'),JSON.stringify(manifest,null,2)+'\n');
   return manifest;
