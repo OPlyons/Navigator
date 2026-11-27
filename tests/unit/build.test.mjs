@@ -1,12 +1,25 @@
 import {test} from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import path from 'node:path';import {createHash} from 'node:crypto';
 const root=path.resolve(import.meta.dirname,'../..'),read=p=>fs.readFileSync(path.join(root,p));
-test('original directory identities and download assets are preserved during evidenced updates',()=>{
+test('original directory identities and branding assets are preserved during evidenced updates',()=>{
  const hashes=JSON.parse(read('tests/fixtures/asset-sha256.json'));
  for(const [file,hash] of Object.entries(hashes))if(file!=='assets/directory.json')assert.equal(createHash('sha256').update(read('dist/'+file)).digest('hex'),hash,file);
  const baseline=JSON.parse(read('tests/fixtures/directory-baseline.json')),directory=JSON.parse(read('dist/assets/directory.json'));
  assert.equal(createHash('sha256').update(JSON.stringify(directory.resources.slice(0,baseline.recordCount).map(r=>r.id))).digest('hex'),baseline.resourceIdsSha256);
  assert.deepEqual(directory,JSON.parse(read('data/directory.json')));
  assert.equal(JSON.parse(read('dist/build-info.json')).resources,directory.resources.length);
+});
+test('every area PDF is built from the current catalogue with all local listings',()=>{
+ const directory=JSON.parse(read('data/directory.json')),manifest=JSON.parse(read('dist/assets/directory-pdfs.json'));
+ assert.equal(manifest.catalogueSha256,createHash('sha256').update(read('data/directory.json')).digest('hex'));
+ assert.deepEqual(Object.keys(manifest.files),Object.keys(directory.areaDownloads));
+ for(const [area,filename] of Object.entries(directory.areaDownloads)){
+  const entry=manifest.files[area],pdf=read('dist/assets/'+filename);
+  assert.equal(entry.filename,filename);
+  assert.deepEqual([...entry.ids].sort(),directory.resources.filter(r=>r.directoryId===area).map(r=>r.id).sort());
+  assert.equal(entry.count,entry.ids.length);
+  assert.equal(pdf.subarray(0,5).toString(),'%PDF-');
+  assert.equal(createHash('sha256').update(pdf).digest('hex'),entry.sha256);
+ }
 });
 test('added resources have unique identities, working access information and dated primary sources',()=>{
  const directory=JSON.parse(read('data/directory.json')),baseline=JSON.parse(read('tests/fixtures/directory-baseline.json'));

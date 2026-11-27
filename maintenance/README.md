@@ -16,6 +16,8 @@ Every listing has lastChecked and nextReview. Dates reflect the source check tha
 
 The [23–24 November whole-directory review](publication-data/full-directory-review-2026-11-23.json) records the coverage and six outstanding listing IDs. An unsuccessful check leaves the previous successful date intact. The routine selector uses recent published automated checks and picks up unresolved attempts from the public catalogue for follow-up.
 
+The [26 November remediation](publication-data/resource-remediation-2026-11-26.json) records 14 targeted listing updates and the remaining inaccessible URLs. Four earlier listings still require confirmation: Sangat activities, Liaise, Willesden Library yoga and Sangam legal advice. The Cove provider restriction also remains explicitly unconfirmed; the current NHS access page replaces the removed provider notice. This user-requested follow-up does not reset routine review state or counts. PDFs now rebuild automatically with every publication.
+
 The neurodiversity collection lives in `data/neurodiversity.json`. Each entry links to the original CAAS card in each relevant topic. Closed programmes and past research invitations carry their status. Direct links point to the current resource or a labelled alternative. Use the board's public active cards when updating the collection and preserve existing card IDs and borough memberships.
 
 ## New-resource discovery

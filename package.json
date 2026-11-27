@@ -17,7 +17,8 @@
     "verify:monitoring": "node scripts/verify-monitoring.mjs"
   },
   "dependencies": {
-    "@sentry/browser": "11.9.0"
+    "@sentry/browser": "11.9.0",
+    "pdfkit": "0.21.0"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.14.0",

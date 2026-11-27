@@ -18,7 +18,7 @@ The Pages `/api/navigate` function uses the existing `NAVIGATOR_API` service bin
 
 AI runs only after Find support is pressed. Search without AI stays in the browser. No personal information should be entered. Existing privacy filtering, request limits and local fallback remain in place. Sentry uses the existing project with a distinct `navigator-production` environment and `community-navigator` release/app label; search content and form data are excluded.
 
-Printable PDFs are dated snapshots. The web directory remains the current source; the print action can print current search results.
+Printable PDFs are generated from `data/directory.json` on every build by `scripts/build-directory-pdfs.mjs`. Existing download URLs stay the same. The compilation date is separate from each listing's source-check date; unresolved warnings and safe enquiry links are included. `assets/directory-pdfs.json` records the catalogue hash and included listing IDs so outdated files cannot silently ship. The print action can also print current search results.
 
 ## Resource suggestions
 

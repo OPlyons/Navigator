@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import {buildPracticalGuides} from './render-practical-guides.mjs';
 import {buildNeurodiversity} from './build-neurodiversity.mjs';
+import {buildDirectoryPdfs} from './build-directory-pdfs.mjs';
 import path from 'node:path';
 import {execFileSync} from 'node:child_process';
 import {build} from 'esbuild';
@@ -14,6 +15,7 @@ if(commit==='local'){try{commit=execFileSync('git',['rev-parse','--verify','HEAD
 const release='community-navigator@'+commit;
 await fs.rm(out,{recursive:true,force:true});await fs.cp(path.join(root,'public'),out,{recursive:true});
 await fs.copyFile(path.join(root,'data/directory.json'),path.join(out,'assets/directory.json'));
+await buildDirectoryPdfs({root,out,directory});
 const moduleSource=async p=>(await read(p)).replace(/^import .*?;\n/gm,'').replace(/\bexport /g,'');
 const core='window.CNWLNavigatorCore=(()=>{\n'+await moduleSource('navigator/shared.mjs')+'\n'+await moduleSource('navigator/retrieve.mjs')+'\nreturn {RELEASE,AREAS,NEEDS,AUDIENCES,PREFERENCES,PRACTICAL_NEEDS,practicalNeeds,practicalResourceNeeds,unresolvedSourceNotice,fold,sensitiveInput,urgentSafetyInput,localIntent,normaliseIntent,indexResource,searchDirectory};\n})();';
 let template=await read('site/template.html');
